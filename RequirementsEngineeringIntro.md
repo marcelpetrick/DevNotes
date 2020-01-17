@@ -1,0 +1,6 @@
+Satzschablone
+Gruende
+Versionierung von requirements
+Traceability
+Planunvsfehler erzeugen mehrfaches an Aufwand zur Korrektur der implementierung
+Widerspruchsfreiheit
