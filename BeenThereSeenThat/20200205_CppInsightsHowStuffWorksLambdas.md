@@ -1,10 +1,10 @@
 20200205_CppInsightsHowStuffWorksLambdas.md
-[TODO, fill when visited today]
+[TODO, fill when visited]
 
 
-ANDREAS Fertig
+Lecture from: Andreas Fertig
 Creator of https://cppinsights.io/
-Clang ast
+Clang ast as intermediate format
 
 
 Add the photos
