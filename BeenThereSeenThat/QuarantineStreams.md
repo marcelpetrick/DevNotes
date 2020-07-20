@@ -14,11 +14,10 @@ https://www.youtube.com/watch?v=-B0QXTQN3yM
 meeting itself: https://www.meetup.com/de-DE/MUCplusplus/events/270989059/  
 stream on: https://www.twitch.tv/mucplusplus/
 
-## create own yocto distro
-
+## 20200717 Creating Your Own Tiny Linux Distribution Using Yocto: Keeping it Small With - Alejandro Hernandez
+(quite helpful, also discussed how to configure for minimal size and performance footprint)
 https://youtu.be/OcZY1jm-c5o
 
-## Micropython temperature and bme280
-https://youtu.be/5YVSaKfm8ds
-
+## 20200719 ESP8266 Micropython: temperature- timer-triggered & BME280
+https://youtu.be/5YVSaKfm8ds  
 https://youtu.be/0K5jL5Gw-Ek
