@@ -30,3 +30,6 @@ Natarajan Aravind, Staff Engineer, Qualcomm AI Research, Qualcomm Technologies, 
 "Pushing the Limits of Ultra-low Power Computer Vision for tinyML Applications"  
 
 zoom webcast; currently no recording; https://www.meetup.com/de-DE/tinyML-Enabling-low-Power-ML-at-the-edge-Stuttgart-Germany/events/271790485/
+
+## 20200722 - bit of Kanban info
+What is a Kanban Board? - Agile Coach (2019) - https://www.youtube.com/watch?v=Bcid33tgq8A
