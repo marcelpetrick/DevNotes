@@ -23,13 +23,9 @@ https://youtu.be/5YVSaKfm8ds
 https://youtu.be/0K5jL5Gw-Ek
 
 ## 20200720 tinyML webcasts by Tomer Malach (DSP Group) and Aravind Natarajan (Qualcomm)
-Tomer Malach, VLSI Engineer, DSP Group  
-"AI/ML SoC for Ultra-Low-Power Mobile and IoT devices"  
+Tomer Malach, VLSI Engineer, DSP Group - "AI/ML SoC for Ultra-Low-Power Mobile and IoT devices" - https://www.youtube.com/watch?v=2Tvr21UlKes
 
-Natarajan Aravind, Staff Engineer, Qualcomm AI Research, Qualcomm Technologies, Inc.  
-"Pushing the Limits of Ultra-low Power Computer Vision for tinyML Applications"  
-
-zoom webcast; currently no recording; https://www.meetup.com/de-DE/tinyML-Enabling-low-Power-ML-at-the-edge-Stuttgart-Germany/events/271790485/
+Natarajan Aravind, Staff Engineer, Qualcomm AI Research, Qualcomm Technologies, Inc. - "Pushing the Limits of Ultra-low Power Computer Vision for tinyML Applications" - https://www.youtube.com/watch?v=LcqerzyB8qI
 
 ## 20200721 "Empirical Unit Testing" - Dave Steffen
 https://www.youtube.com/watch?v=Ohd2zMgnPlE
