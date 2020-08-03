@@ -36,3 +36,8 @@ Scrum vs. Kanban:  https://www.youtube.com/watch?v=HNd1_irOL5k
 
 ## 20200731 Comparison of webscraping libraries: BeautifulSoup, Selenium, Scrapy
 https://youtu.be/zucvHSQsKHA
+
+## 20200803 PyQt5
+https://youtu.be/Vde5SH8e1OQ - basic stuff  
+https://youtu.be/-2uyzAqefyE - Buttons and Events (Signals)  
+During the workout I wanted to see how tutorials introduce to PyQt. The guy did the videos quite well, but I could notice some flaws, which are maybe the result of lack of experience with Qt on C++. On the other hand: he did several video-tutorials and I didn't. So, kudos to him!
