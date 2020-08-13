@@ -41,3 +41,7 @@ https://youtu.be/zucvHSQsKHA
 https://youtu.be/Vde5SH8e1OQ - basic stuff  
 https://youtu.be/-2uyzAqefyE - Buttons and Events (Signals)  
 During the workout I wanted to see how tutorials introduce to PyQt. The guy did the videos quite well, but I could notice some flaws, which are maybe the result of lack of experience with Qt on C++. On the other hand: he did several video-tutorials and I didn't. So, kudos to him!
+
+## 20200812 mucpp: Clare Macrae - Quickly and Effectively Testing Legacy C++ Code with Approval Tests
+https://youtu.be/vtWnqqSUzrY - definitely a quicker way to cover more case without using more asserts.m Haven't finished the video (yet), but will defeinitely give it a try!
+(CLion, code coverage, unit testing)
