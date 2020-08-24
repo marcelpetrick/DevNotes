@@ -32,10 +32,10 @@
 - Welche Rolle nimmt der Architekt ein? Skills? Was ist wichtig? Welche Kommunikation? Reicht es ein brillianter Techniker zu sein?
 - SW-intensive Systeme
 - Architektur stellt immer einen Kompromiss dar: stark und minder ausgeprägte Kategorien
-- metapher der gebäudearchitektur: wird oft synonym verwendet; in bestimmten aspekten ähnliche betrachtungsweise; Strukturen um ein komplexes problem verständlich machen durch abstaktion;
+- metapher der gebäudearchitektur: wird oft synonym verwendet; in bestimmten aspekten ähnliche betrachtungsweise; Strukturen um ein komplexes Problem verständlich machen durch Abstraktion;
 - umldiagramme: sequenz-d., ..
-besteht aus verschiedenen sichten
-- informationen rausnhemen, die für diesen fokus nicht relevant sind; andere informationen hervorgehoben: siehe 3d-ansicht; grundriss oder elektroplan
+besteht aus verschiedenen Sichten
+- Informationen rausnehmen, die für diesen Fokus nicht relevant sind; andere informationen hervorgehoben: siehe 3d-ansicht; grundriss oder elektroplan
 - Entwurfsentscheidungen sschaffen Raum für Flexibilität: nachträgliche Änderung möglioch, aber vielleicht nicht ökonomisch machbar
 - im Rahmen ist das System gut anpassbar; außerhalb nicht
 - Cloud, Microservices, ... frühere Zeiten andere Ansätze (keine Redundanz; Hardware teuer; ja nichts vielfach haben)
@@ -204,3 +204,10 @@ My notes:
 [Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see Day1_Schnittstellen.png
 - [check this ]IAM: Identity-and-Access-Management (Registrierung; Authentifizierung; Authorisierung - all in one); see https://en.wikipedia.org/wiki/Identity_management
 - nur Nutzung beschreiben, aber keine Datenflüße abbilden! siehe: werbenetzwerk und Werbung und SAE-Logik
+- Dinge, die zusammengehören, auch zusammen gruppiert. Use-Case-Prinzip mit Akteur als Generalisierung und Spezialisierung auch machbar
+- welche Komponenten essential wichtig? die mit den meisten Kanten
+- welche Komponenten priznipiell instabil: emhr ausgehen Kanten als eingehende; siehe SAE-Logik (wird kritische Komponente werden)
+- in der Diskussion ist das Problem einen Schritt klarer geworden :)
+
+## Zusammenfassung Tag 1:
+
