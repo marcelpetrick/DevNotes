@@ -9,4 +9,10 @@
 - kommunikation, dokumentation - sprache zu anderen
 - wie bewertet man architekturen?
 - wie merkt man, dass architektur aus dem ruder läuft? maßnahmen?
-- 
+- bei SoftwareQualityLabs scheinen alle zu bestehen; auch bei denen, die am Donnerstag gleich die Prüfung machen; gut machbar
+
+- Herr N. arbeitet curtis instruments in biberis schweiz; medizinbereich, handcontrols für elektrische rollstühle; mölchte lernen bei einer legacy software die architektur gerade zu rücken; .NET und Xamarin
+- Herr Lindecke-Klein; Uxmar in Kiel; dienstleister im bereich usability; maschiennbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freud von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
+- Herr H.; DAimler; Automotive-Bereich; autonomes Fahren; Bosch oder auch nvidia; backend; auch product owner; Überzeugung und Kommunikation; C4-Model (?); Kontext und Diagramme vereinheitlichen; Wissen bestätigen; neue Aspekte kennenlernen
+- Herr Christmann als Tutor: TU Berlin Informatik; Künstliche Intelligenz; wissensbasierte Systeme; Embedded Bereich; Projektleiter; Teamleiter; "Qualität" am Ende; so spannend; dann zu Software Quality Lab
+
