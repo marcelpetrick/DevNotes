@@ -3,10 +3,10 @@
 - Stephan Christman is lecturer
 - no presence training - just via Zoom
 
-## 20200824
+## 20200824 - day 1
 
-- erstmal grundbegriffe und defintionen, was ist architektur?
-- kommunikation, dokumentation - sprache zu anderen
+- erstmal Grundbegriffe und Defintionen, was ist Architektur?
+- Kommunikation, Dokumentation - Sprache zu Anderen
 - wie bewertet man architekturen?
 - wie merkt man, dass architektur aus dem ruder läuft? maßnahmen?
 - bei SoftwareQualityLabs scheinen alle zu bestehen; auch bei denen, die am Donnerstag gleich die Prüfung machen; gut machbar
@@ -60,17 +60,17 @@ was muss ein Architekt können?
 - Prototypen anfragen
 - Anforderungen; Priorisierung; Releases- & Iterationsplan
 - Hardwareentwicklung: Abgrenzung HW und SW; 
-- Qualitätssicherung: Risikenm, Zeitplan, Testkonzeopt, Testbarkeit, Testautomatisierung vorbereiten
+- Qualitätssicherung: Risikenm, Zeitplan, Testkonzept, Testbarkeit, Testautomatisierung vorbereiten
 - IT-Betrieb:
 - Projektleitung: projektplan; Entscheidung über Umfang, Konste, Zeitplan
 - es reicht nicht nur technisch brilliant uafgestellt zu sein; sondern man muss kommunikativ gut aufgestellt sein; kompromisses schließen, leute abholen, win-wion-situationen schaffen, .. nicht nur in hinsicht auf die reine funktionalität
 - verständnis über das System herstellen; dependency injection, observer pattern, states, .. so erklären, das leute auch außerhalb mitreden können
 - raum schaffen leuten zuzuhören, die tenisch versiert, aber introvertiert sind
 - sechs stakeholder teilweise auch im konflikt
-- PO wird an features bemeessen; dev technisch anspruchsvolle lösung; PM cost-cutting ..
+- PO wird an features bemessen; dev technisch anspruchsvolle lösung; PM cost-cutting ..
 typen der sw-intensiven systeme: informationsS, embedded S, mobile SW
 - Informationssystem:
--- darstellung und strukturing der information sehr wichtig für die akzeptanz des systems; entscheidungs und unterstützungssystem
+-- darstellung und strukturierung der information sehr wichtig für die akzeptanz des systems; entscheidungs- und unterstützungssystem
 - Entscheidungsunterstützungssysteme; Expertensysteme; Suchmaschine; Büroautomatisierung
 - architektur im wasserfallmodell: rückschritte/rückmeldungen möglich; aber nur zum nächstvorderen schritt; führt zu problemen, der kunde wird seine lösungswünsche anpassen, also das ziel bewegt sich
 - V-modell als verfeinerung: aber trotzdem noch ein phasenmodell
@@ -210,4 +210,25 @@ My notes:
 - in der Diskussion ist das Problem einen Schritt klarer geworden :)
 
 ## Zusammenfassung Tag 1:
-
+- siehe: (als Bild)  Day1_Zusammenfassung.png
+- Architektur ist die Verortung von Funktionalität; damit nichtfunktionale Anforderungen erfüllt werden
+- Projektziele vs. Architekturziele (Architekturziele eher längerfristiger Natur; Projektziele sind kurzfristig)
+- BausteineKomponenten
+- Sichten
+- Unterschiedliche Ziele der Stakeholder
+- Kommuniktionsfähigkeit des Architekten
+- Softskills
+- ISO 25010: mindestens drei davon benennen können
+- Wechselwirkungen
+- Conway's Law
+- Organisatorische Randbedingungen
+- Einflußfaktoren
+- Systemkontext
+- Separation of concerns
+- Top-Down vs. Bottom-up
+- Teile-Hersche
+- Resue-release-Äquivalenz-Principle
+- Common closure-principle
+- Kohäsion
+- Kopplung
+- KISS
