@@ -1,0 +1,12 @@
+# ISAQB-Seminar @zoom at Software Quality Labs
+
+- Stephan Christman is lecturer
+- no presence training - just via Zoom
+
+## 20200824
+
+- erstmal grundbegriffe und defintionen, was ist architektur?
+- kommunikation, dokumentation - sprache zu anderen
+- wie bewertet man architekturen?
+- wie merkt man, dass architektur aus dem ruder läuft? maßnahmen?
+- 
