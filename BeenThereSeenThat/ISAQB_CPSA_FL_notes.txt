@@ -88,5 +88,45 @@ typen der sw-intensiven systeme: informationsS, embedded S, mobile SW
 - falls man eine schichten architektur: gui, logick datenbank hat -> dann drei teams
 - architekten in jedem team: abstimmung der architekten (zentral); aber sehr hoher overhead für die abstimmung; quelle von missverständnisse?
 - vor- und nachteile zentraler und dezentraler architektur?
+- Ex! Übung 1.1.1. Zentrale versus dezentrale Architektur
 
+Zentrale Architektur:
++ verbindlich für alle Teams; gut für die Durchschnittsthemen; Vermeidung von Doppelaufwänden; homogene Lösung
+- nicht flexibel; langsamer aufgrund von Anpassungen (initial); Abstimmung der Vorgabe mit vielen Teams, Konfliktpotential; Hammer/Schraube-Problem; Auseinanderdriften von legacy Ansätzen
 
+Dezentrale Architektur:
++ Hammer/Nagel; Fokussierte Lösung problembezogen; Schnittstellen fokussiert; initial schneller, Knowhow kann steigen (technscihe Vielfalt zum Lernen)
+- Gefahr technischer Schulden; Abstimmungsbedarf ist größer; Redundanz; Latenzen; System ist mehr als die Summer aller Teile; Lokale Optimierungen; Einflüße schwer zu behrrschen -> sehr präzise Schnittstellenbeschreibungen notwendig; Integration ggfs. schwierig
+
+--> Architektur nich tim Elfenbeinturm entwickeln
+
+## Einflußfaktoren
+- randbedingungen schreiben lösunsräum vor
+- WAS: funktionale anforderungen beschreiben, was gemacht werden soll; Funktio, Verhalten, Strukturen
+- nichtfuntkionale A., Qualitätsanforderung: natürlichsprachig dokumentiert (daher meist ncith qualifizierbar); daher messbar machen was nicht messbar ist; "ein schönes userinterface", "ein schnelles system"; quantifizierbar machen; Zeiten, Usability (entsprechend einigen Regeln);
+
+ISO 25010: listet Qualitätsmerkmale; diese sichten
+- Basis um mit der Fachlichkeit die Diskussion zu starten .. [TODO anschauen; definitiv]
+-- Funktionale Eignung, Zuverlässigkeit, Benutzbarkeit, Performance, Sicherheit, Kompatibilitöt, Wartbarkeit, Portierbarkeit
+-- Beispiel: "schnell" je nach Sichtweise subjektiv: 10s kann für ein Dokument-Öffnen für den Dienstleister ok sein, aber nicht für Anwender (-> Zeitverlust akkumuliert sich schnell übers Jahr, daher auch Geldverlust)
+- Begriff der Testbarkeit
+
+- Architekturziele sind Qualitätsmkermale
+- Projektziele versus Architekturziele: Porjektleiter bleibt "Chef", SA weist auf die Risiken und Alternativen hin
+
+- Einflußfaktoren stehen in Wechselwirkung; und stehen zum Teil im Gegensatz "Security versus Benutzbarkeit"
+- je nachdem wo man die Lösung platziert, sind manche Einflußfaktoren sehr gespannt
+- deshalb ist Kommunizieren und proaktives Abholen der Beteiligten notwendig
+
+- [check this!] Kano-Modell:
+-- müssen alle Anforderungen umgesetzt werden um den Kunden zufriedenstelen?
+-- Basisfaktoren: definitiv; Kunde wird diese nicht nachfragen; Kunde wird diese nicht nachfragen im Erfolgsfall; maximal Nulllinie
+-- Leistungsfaktoren: mehr machen als die Konkurrenz -> auslieferbar
+-- Begeisterungsfaktoren: dazugepackt; Kunde weiß eigentlich gar nicht, dass das geht; ist begeistert
+-- damit sehr bewusst umgehen und einen schönen Mix anbieten -> gutes Produktmanagement
+- Menschen sind aber sehr schnell verwöhnt
+
+- explizites versus implizites Wissen:
+- Zusammenhang mit Basisfaktoren: eis über wasseroberfläche: sachen, die explizit kommuniziert werden
+- unter Wasseroberfläche: 2/3 des eisberges sind unsichtbar; nicht kommunizert, Annahme, dass andere es gleich interpretieren
+[Pause bis 12:50]
