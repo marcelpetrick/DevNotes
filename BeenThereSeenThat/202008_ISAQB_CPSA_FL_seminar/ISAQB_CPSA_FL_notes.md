@@ -202,7 +202,7 @@ My notes:
 [Pause bis 14:55]
 
 [Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see Day1_Schnittstellen.png
-- [check this ]IAM: Identity-and-Access-Management (Registrierung; Authentifizierung; Authorisierung - all in one); see https://en.wikipedia.org/wiki/Identity_management
+- [check this] IAM: Identity-and-Access-Management (Registrierung; Authentifizierung; Authorisierung - all in one); see https://en.wikipedia.org/wiki/Identity_management
 - nur Nutzung beschreiben, aber keine Datenflüße abbilden! siehe: werbenetzwerk und Werbung und SAE-Logik
 - Dinge, die zusammengehören, auch zusammen gruppiert. Use-Case-Prinzip mit Akteur als Generalisierung und Spezialisierung auch machbar
 - welche Komponenten essential wichtig? die mit den meisten Kanten
@@ -214,21 +214,25 @@ My notes:
 - Architektur ist die Verortung von Funktionalität; damit nichtfunktionale Anforderungen erfüllt werden
 - Projektziele vs. Architekturziele (Architekturziele eher längerfristiger Natur; Projektziele sind kurzfristig)
 - BausteineKomponenten
-- Sichten
+- Sichten: jeweiligen Stakeholdern eine Lösung erklären, darlegen (aspektorientiert)
 - Unterschiedliche Ziele der Stakeholder
-- Kommuniktionsfähigkeit des Architekten
+-- sechs Stakeholder: Projektleiter, Testmanager, RE-Ingenieur, Entwicklungsteam, Hardware (!), IT (alles zum Laufzeitverhalten)
+- Kommuniktionsfähigkeit des Architekten: Konfliktfähigkeit, Zuhören, proaktives Handeln (nicht Warten bis das Problem übermächtig wird; sich Arbeit machen)
 - Softskills
 - ISO 25010: mindestens drei davon benennen können
 - Wechselwirkungen
-- Conway's Law
+- Conway's Law: Organisation wirkt auf die Lösung; Lösung wirkt auf die Organisation
 - Organisatorische Randbedingungen
 - Einflußfaktoren
-- Systemkontext
-- Separation of concerns
-- Top-Down vs. Bottom-up
-- Teile-Hersche
-- Resue-release-Äquivalenz-Principle
-- Common closure-principle
+- Systemkontext: Rollen; externe Ressourcen/systeme, die einwirken
+- Separation of concerns: (nicht verwechseln mit Single-Responsibility): Aspekt nicht selber aufteilen [check this]
+- Top-Down vs. Bottom-up: was ist besser? beides. TD + schnittstellenfokusiert; BU: sehr konrekt; verheddern in Details
+- Teile-Hersche: Vorteil: Komplexitätsreduktion
+- Resue-release-Äquivalenz-Principle: externe Ressourcen komplett nutzen oder eventuell Refactorisieren
+- Common closure-principle: 
 - Kohäsion
-- Kopplung
-- KISS
+- Kopplung: lose gekoppelt, hohe Kohäsion
+- KISS: Verständnis fördern
+
+Hausarbeit für Morgen:
+- zu allem, was man heute gehört hat, sich eine MultipleChoice oder "Ja/Nein"-Frage überlegen (siehe zu der Übersicht Zusammenfassung)
