@@ -12,7 +12,37 @@
 - bei SoftwareQualityLabs scheinen alle zu bestehen; auch bei denen, die am Donnerstag gleich die Prüfung machen; gut machbar
 
 - Herr N. arbeitet curtis instruments in biberis schweiz; medizinbereich, handcontrols für elektrische rollstühle; mölchte lernen bei einer legacy software die architektur gerade zu rücken; .NET und Xamarin
-- Herr Lindecke-Klein; Uxmar in Kiel; dienstleister im bereich usability; maschiennbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freud von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
+- Herr Lindecke-Klein; Uxmar in Kiel; dienstleister im bereich usability; maschinenbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freud von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
 - Herr H.; DAimler; Automotive-Bereich; autonomes Fahren; Bosch oder auch nvidia; backend; auch product owner; Überzeugung und Kommunikation; C4-Model (?); Kontext und Diagramme vereinheitlichen; Wissen bestätigen; neue Aspekte kennenlernen
-- Herr Christmann als Tutor: TU Berlin Informatik; Künstliche Intelligenz; wissensbasierte Systeme; Embedded Bereich; Projektleiter; Teamleiter; "Qualität" am Ende; so spannend; dann zu Software Quality Lab
+- Herr Christmann als Tutor: TU Berlin Informatik; Künstliche Intelligenz; wissensbasierte Systeme; Embedded Bereich; Projektleiter; Teamleiter; "Qualität" am Ende; so spannend; dann zu Software Quality Lab; dort zufrieden; "wie kann man Qualität sicherstellen"?
+-- Bereiche: Beratung; A-Spice-zertifizierung; Prozesses, klassisches Academy-Geschäft (UML, Scrum, Requirements; Testing; ..); operatives Geshäcft (Testmanager) - "Vorarlberg ist klein"; Frameworks entwickeln; kodieren; Werkzeuge (nicht nur nebenher anschaffen ..),
+- Was kann man tun, damit man nachher nicht versucht zwanghaft Qualität hineinzutesten. Sondern, dass Qualität von Anfang an entsteht?
+- Presencetrainings auch wieder machbar, da Masken doch recht gut schützen.
+
+- Lernen mit "DEM Buch"; unklar welches Buch; ein Teilnehmer hat ein orangenes; meines ist grün
+- Trainer sagt, dass das Buch - Nachfragen wegen Buch bei Organisatorin/nen
+
+- aushandeln, wann man beginnen möchte
+- drei Pausen: nach 1,5 h pause, 12 uhr mittagspause; dann 14 uhr eine weitere (kleine = 15 min Pausen)
+
+------------------------
+### Grundbegriffe
+
+- keine einheitliche defintion von Architektur: auf eine Def. geeinigt
+- Welche Rolle nimmt der Architekt ein? Skills? Was ist wichtig? Welche Kommunikation? Reicht es ein brillianter Techniker zu sein?
+- SW-intensive Systeme
+- Architektur stellt immer einen Kompromiss dar: stark und minder ausgeprägte Kategorien
+- metapher der gebäudearchitektur: wird oft synonym verwendet; in bestimmten aspekten ähnliche betrachtungsweise; Strukturen um ein komplexes problem verständlich machen durch abstaktion;
+- umldiagramme: sequenz-d., ..
+besteht aus verschiedenen sichten
+- informationen rausnhemen, die für diesen fokus nicht relevant sind; andere informationen hervorgehoben: siehe 3d-ansicht; grundriss oder elektroplan
+- Entwurfsentscheidungen sschaffen Raum für Flexibilität: nachträgliche Änderung möglioch, aber vielleicht nicht ökonomisch machbar
+- im Rahmen ist das System gut anpassbar; außerhalb nicht
+- Cloud, Microservices, ... frühere Zeiten andere Ansätze (keine Redundanz; Hardware teuer; ja nichts vielfach haben)
+- falls sich die Kontextbedingungen ändern, muss das System anpgeasst werden. Vorschau i die Zukufnt nur begrenzt möglich
+- wie sieht der Problembereich aus? Sichten und Abstraktionen helfen -> Qualität schaffen
+
+- welche menge an defintionen gibt es?
+- EX! übung: welche begrifflichkeiten kommen in nallen sechs defintionen vor?
+-- components; relationship between components; environment; innensicht/außensicht; constraints, fundamental; system; 
 
