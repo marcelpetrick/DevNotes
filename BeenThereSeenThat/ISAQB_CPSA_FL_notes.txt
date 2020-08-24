@@ -130,3 +130,43 @@ ISO 25010: listet Qualitätsmerkmale; diese sichten
 - Zusammenhang mit Basisfaktoren: eis über wasseroberfläche: sachen, die explizit kommuniziert werden
 - unter Wasseroberfläche: 2/3 des eisberges sind unsichtbar; nicht kommunizert, Annahme, dass andere es gleich interpretieren
 [Pause bis 12:50]
+
+- [Ex!] Übung 1.1.2
+-- "willleihen": Idee für webapp zum nachbarschaftlichen Ausleihen von Werkzeugen (am Wochenende)
+-- Seite 19ff in dem ÜbungsPDF sind die Anfangsdaten für die "App"
+-- Fokus auf die nichtf. Anforderungen und Qualitätscharakteristiken nach ISO 25010 (Checkliste) --> see: ISO25010.png
+-- Fragen zur Spezifikation an Trainer stellen; er ist der Auftraggeber
+My notes:
+-- Nichtfunktionale Anforderungen:
+--- Ressourcenverbrauch
+--- Performance (1000 Anfragen /Minute; 3 Sekunden Antwortzeit) -> was ist eine Anfrage? Wie sieht das im API aus?
+--- Datenschutz (Vertraulichkeit)
+--- Benutzbarkeit für Oma
+--- portierbarkeit (für mobile Systeme)
+--- Datensicherheit
+--- Zuverlässigkeit (Zurückgeben muss technisch gewährleistet sein)
+
+-- Randbedingungen
+--- Geschäftsmodell
+--- Provision
+--- Landkarte darstellen (woher?)
+--- Teamgröße (wieviele Leute eigentlich zur Verfügung?) 4 Entwickler, 1 Tester, 1 Scrum-Master, 1 PO (CEO)
+--- Rechtliche Aspekte: DSVGO
+--- Zeit und Budget?
+--- Partnerschaft mit Social Networks zum Authentifizieren
+
+-- Wechselwirkungen
+--- 2/4/i (see the use cases ..)
+--- 3/b/a
+--- 9/4/e
+--- 7/e
+
+# Systemabgrenzung
+- Systemkontext: Diskussion sehr gut mit Fachbereichen machbar
+- guter Projektleiter wird aber das gleiche machen: erstmal checken, was ist innerhalb und was ist außerhalb der Systemgrenzen; wen zum Meeting einladen, wen nicht?
+- anfangs die Systemgrenzen unscharf
+- Datellungsformen: Use-Case-Diagramm (Stärke und das Ziel; auf innere Darstellung kann verzichtet werden; Abhängigkeitsbeziehung; Pfeil immer in Richtung der Abhängigkeit; von Akteur zu 'use'; Person oder anderes Steereotyp, Aussagegehalt recht groß); Komponentendiagramm
+- [Ex!] Willleihen als Use-Case-Diagramm: see WillLeihen.png
+-- DomainDrivenDesign: Unter welcher Fragestellung wird das UseCasediagramm gerade modelliert?
+--- Google: BusinessBenefits/BusinessCases? wer ist von wem abhängig?
+--- WL (WillLeihen): 
