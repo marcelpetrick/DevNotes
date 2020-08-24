@@ -171,4 +171,36 @@ My notes:
 --- Google: BusinessBenefits/BusinessCases? wer ist von wem abhängig?
 --- WL (WillLeihen): -> aus dem Diagramm entstehen recht viele MakeOrBuy-entscheidungen; da Top-down, kann man dasmit vielen diskutieren, sehr schnittstellenbasierte Sicht
 --- da wo immer die Spoitze in dem Diagramm ist, muss eine Schnittstelle angeboten werden
---- 
+--- Zeitaufwand für Code-Änderungen: Einlesen 70%; Programmieren 10%, Problem Lösen 20%
+--- Übergang von Black- zu Whiteboxing: weiterhin sehr schnittstellenorientierte Sicht
+--- Arten von Bausteinen von feingranular to grobgranular: fließend
+--- auf hohe Kohäsion achten, fördert meist auch geringe Kopplung
+--- Sachen eher lose koppeln, weil besser testbar
+--- Beispeil mit niedriger Kohäsion; zwei Komponenten greifen gegenseitig aufeinander zu (S1 und S2 auf ABCD..); schlecht testbar
+--- divide et imperae, zwischen fachlicher und technischer Art zu unterscheiden, dinge einfach wie möglich zu machen, separation of concerns, single responsibility principle
+--- ein baustein macht genau eine sache; leichter wartbar (und testbar)
+--- resue and release equivalence principle
+--- wenn man dinge nur teilweise für die wiederverwendung vorsieht, sollte man sie trennen. ganz oder gar nicht.
+--- common-closure-principle: externe lib ändert sich schnell, adapter dazwischenpacken um sich zu entkoppeln
+--- common-reuse-principle: nicht anderen meine abhängigkeit aufdrücken; eventuell komponentenfuntkionalität splitten und dann getrennt releasen
+
+- klare Trennung zwischen fachlicher und technischer Architektur:
+-- techn. Architektur: nichtf. Anforderungen, Querschnittskonzepte, hjarware, Gateway für Security, Proxy für Cachcing, 2. Server für Ausfallsicherheit; eher horizontal geschnitten
+-- fachliche A.: (siehe Übungszettel); eher vertikal geschnitten
+
+[check!] i18n ? was ist das? "The terms are frequently abbreviated to the numeronyms i18n (where 18 stands for the number of letters between the first i and the last n in the word internationalization, a usage coined at Digital Equipment Corporation in the 1970s or 1980s)[3][4] and L10n for localization, due to the length of the words.[5][6] Some writers have the latter acronym capitalized to help distinguish the two.[7]" en.wikipedia.orga-aufwand
+
+- Dinge so einfach wie möglich machen; viel Text zu schreiben ist immer einfach, aber geht es nicht auch einfacher?
+- eine Hierarchie verstehet jeder einfacher als wenn jeder von jedem abhängig ist
+
+-- Entwurf Top-down (schnelles reingleiten, nicht allzu verkopft; aber Integration wird etwas vor sich hergeschoben; Reibungsverluste bei fianler Integration trten spät auf) und Bottom-up (Verfeiner die BlackBox indem du Inhalt als WhiteBox zeigst; Inhalte sind weitere BlackBoxes, verfeiner auch sie)
+-- kein shipable work-increment possible (Top Down)
+-- 7+/-2 ist gute Faustregel für (Millersche Zahl) Zerlegung und Visualisierung
+
+-- Fachliche Bausteine aus Fachobjekten herleiten
+-- wording: am besten in Muttersprache; am besten wegen dem größeren Wortschatz und Feinheiten
+[Pause bis 14:55]
+
+[Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see Day1_Schnittstellen.png
+- [check this ]IAM: Identity-and-Access-Management (Registrierung; Authentifizierung; Authorisierung - all in one); see https://en.wikipedia.org/wiki/Identity_management
+- nur Nutzung beschreiben, aber keine Datenflüße abbilden! siehe: werbenetzwerk und Werbung und SAE-Logik
