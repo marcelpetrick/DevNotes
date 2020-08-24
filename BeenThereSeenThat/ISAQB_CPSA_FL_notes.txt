@@ -166,7 +166,9 @@ My notes:
 - guter Projektleiter wird aber das gleiche machen: erstmal checken, was ist innerhalb und was ist außerhalb der Systemgrenzen; wen zum Meeting einladen, wen nicht?
 - anfangs die Systemgrenzen unscharf
 - Datellungsformen: Use-Case-Diagramm (Stärke und das Ziel; auf innere Darstellung kann verzichtet werden; Abhängigkeitsbeziehung; Pfeil immer in Richtung der Abhängigkeit; von Akteur zu 'use'; Person oder anderes Steereotyp, Aussagegehalt recht groß); Komponentendiagramm
-- [Ex!] Willleihen als Use-Case-Diagramm: see WillLeihen.png
+- [Ex!] Willleihen als Use-Case-Diagramm: see WillLeihenUseCase.png
 -- DomainDrivenDesign: Unter welcher Fragestellung wird das UseCasediagramm gerade modelliert?
 --- Google: BusinessBenefits/BusinessCases? wer ist von wem abhängig?
---- WL (WillLeihen): 
+--- WL (WillLeihen): -> aus dem Diagramm entstehen recht viele MakeOrBuy-entscheidungen; da Top-down, kann man dasmit vielen diskutieren, sehr schnittstellenbasierte Sicht
+--- da wo immer die Spoitze in dem Diagramm ist, muss eine Schnittstelle angeboten werden
+--- 
