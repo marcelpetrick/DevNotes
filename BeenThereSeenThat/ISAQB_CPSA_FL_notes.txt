@@ -44,5 +44,37 @@ besteht aus verschiedenen sichten
 
 - welche menge an defintionen gibt es?
 - EX! übung: welche begrifflichkeiten kommen in nallen sechs defintionen vor?
--- components; relationship between components; environment; innensicht/außensicht; constraints, fundamental; system; 
+-- components; relationship between components; environment; innensicht/außensicht; constraints, fundamental; system; Orgranisation
+-- Result:
+--- Komponenten/Bausteine mit Schnittstellen und Beziehungen (Komponenten ist Baustein, aber nicht jeder Baustein muss eine Komponente sein; Ausprägung)
+--- Bausteine als  allgemeiner Begriff, Komponenten als spezielle Ausprägung davon (Stereotyp Component?)
+--- (cost cuttin concerns (?)) - nicht alles kann beliebig aufgeteilt werden
+--- übergreifende entwurfsentscheidungen mit systemweiten oder den gesamten lebenszyklus betreffenden Konsequenzen (Architekt sollte sich mit Desing auskennen; gensauo wie umgekehrt)
+--- (Desing als Verfeinerung der Architektur)
 
+was muss ein Architekt können?
+- reicht es aus sich mit der Technik auszukennen?
+- Architektur immer als Kompromiss; eierlegende Wollmilchsau nicht möglich; bedingt durch die Einflußfaktoren (die zum Teil in Widerspruch stehen)
+- Anforderungsanalyse: dort sollte der A. mitarbeiten: Anforderungsmanagement; so ist es möglich fürhzeitig ein Feedback zu geben; mit Produktmanagement und PO; auch Prüfung der Machbarkeit; Kosten; Reliablity; Portability; .. haben hohen Einfluss auf die Archtitektur, aber oft nicht explizit genannt
+- mitmachen beim RE! (nicht nur, aber involviert sein)
+- Prototypen anfragen
+- Anforderungen; Priorisierung; Releases- & Iterationsplan
+- Hardwareentwicklung: Abgrenzung HW und SW; 
+- Qualitätssicherung: Risikenm, Zeitplan, Testkonzeopt, Testbarkeit, Testautomatisierung vorbereiten
+- IT-Betrieb:
+- Projektleitung: projektplan; Entscheidung über Umfang, Konste, Zeitplan
+- es reicht nicht nur technisch brilliant uafgestellt zu sein; sondern man muss kommunikativ gut aufgestellt sein; kompromisses schließen, leute abholen, win-wion-situationen schaffen, .. nicht nur in hinsicht auf die reine funktionalität
+- verständnis über das System herstellen; dependency injection, observer pattern, states, .. so erklären, das leute auch außerhalb mitreden können
+- raum schaffen leuten zuzuhören, die tenisch versiert, aber introvertiert sind
+- sechs stakeholder teilweise auch im konflikt
+- PO wird an features bemeessen; dev technisch anspruchsvolle lösung; PM cost-cutting ..
+typen der sw-intensiven systeme: informationsS, embedded S, mobile SW
+- Informationssystem:
+-- darstellung und strukturing der information sehr wichtig für die akzeptanz des systems; entscheidungs und unterstützungssystem
+- Entscheidungsunterstützungssysteme; Expertensysteme; Suchmaschine; Büroautomatisierung
+- architektur im wasserfallmodell: rückschritte/rückmeldungen möglich; aber nur zum nächstvorderen schritt; führt zu problemen, der kunde wird seine lösungswünsche anpassen, also das ziel bewegt sich
+- V-modell als verfeinerung: aber trotzdem noch ein phasenmodell
+- man(n) hat haufig mit unvollständiger information zu tun; iterative architektur-entwicklung dann als natürliche folge; inkremementelle entwicklung
+- Scrum in Grundzügen: Selbstheilung durch iterative abwicklung; transparent umsetzung der "dinge"; klare Aufteilungen; falls man etwas direkt nach Sprint ändern will - weiß der PO eigentlich was er (oder die stakeholder) wollen?; oder falls team nicht performt, sollte man nachbessern; zielen bei moving target einfacher; product backlog, sprint backlog
+- welche folgen für die architektur (scrum): innerhalb des teams mit PO und Team zusammenarbeiten; was, wenn man aber einen zentralisitischen ansatz für die frameworks hat? in drei wochen kann man die nicht so viel umsetzen, viel, viel initialisierungsaufwand; aber wir sind nicht allein mit diesem problem, Krücke (Hilfe) der Nullsprints: 2-3 sprints mit durchstich technisch die basis legen (tooling un dmit sonstigen dingen, die man benötigt; mit timeboxed events); oder am anfang iust das potential shipable product "so dünn"; vielleicht am anfang nur ein "login screen"; und nebenbei die architektur entwicklen; oder eben iterativ-inkrementell
+- [Pause bis 10:55 Uhr]
