@@ -441,8 +441,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 [Ex!] Describe those three patterns to the other users without naming them:
 - Factory: Erzeugungsentwurfmuster; Anforderung von Objekten mit bestimmten Eigentschaften, die man aber nicht selber explizit instanziieren möchte
-- Gateway: stackoverflow: "Facade provides a simple uniform view of complex internals to (one or more) external clients;
-Gateway provides a simple uniform view of external resources to the internals of an application." Gateway erzeugt einen einzeitlichen Blick auf externe Ressourcen für eine Applikation
+- Gateway: stackoverflow: "Facade provides a simple uniform view of complex internals to (one or more) external clients; Gateway provides a simple uniform view of external resources to the internals of an application." Gateway erzeugt einen einzeitlichen Blick auf externe Ressourcen für eine Applikation
 - Registry: globales Zugriffspattern zm mithilfe eines Keys ein Objekt zu finden (hat Hinzufügemethode)
 
 -- mehrere Komponenten auf einem Stand halten mit geringer Systemlast: Observer
@@ -460,6 +459,7 @@ Gateway provides a simple uniform view of external resources to the internals of
 - gehören zur BlackBox-Sicht
 - einfach zu entwerfen, einfach zu njtuzen, funktional vollständig, schwer zu missbrauchen (robustes system)
 - Postels Gesetz: ich achte auf die Spezifikation, aber tolerant zu allem, was man akzeptiert; ich bin toleratn nach außen und hoffe, dass die anderen dies auch sind
+-- siehe: https://de.wikipedia.org/wiki/Robustheitsgrundsatz
 - service-orientierte und ressourcen-orientierte Schnittstellen
 -- URI: service-aufruf selber versus URI: ressourcenorientiert (verändert und freigeben)
 - lose und starke Kopplung
@@ -470,3 +470,31 @@ Gateway provides a simple uniform view of external resources to the internals of
 -- Schnittstellen: Abhägnigkeiten lindern
 -- Inversion of control [see slides]
 
+[Ex!] 1.2.6 Abhängigkeiten planen
+
+- Funktionsaufruf: nirgendwo 'ne Unabhängigkeit
+- RMI (remote method invocation): platform muss man kennen, .. siehe ![](Day2_AbhaengigkeitenPlanen.png)
+- Service Locator ist eine Registry
+
+## Entwurfsprinzipien zur Optimierung von Abhägnigkeiten
+- SOLID (Robert C. Martin - clean Architecture)
+-- S: Single Responsibility principle
+-- O: open/closed principle
+-- L: Liskov Substitutionsprinzip
+-- I: Interface-Segregation-Principle
+-- D: Dependency-Inversion-Principle
++ Vermeidung zyklischer Abhängigkeiten
+
+- Separation of concerns
+- Information Hiding: Geheimnisprinzip
+- niedrige Kopplung, Hohe Kohäsiion
+- open/closed principle: Sachen dazupacken
+
+- Dependency inversion: abstraktes interface hat immer nur eingehende kanten; in welcher ebene ansiedeln? natürlich "unten" (zum austauschen)
+- daher lieber zur vollen Flexibilit durch extra Schichten ; aber letztendlich Designentscheidung
+- check Dependency Injection (Mock; frühzeitige Testbarkeit)
+- zyklische Abhängigkeiten
+
+[Ex!] 1.2.7
+- Prinzipien für "Wirleihen"
+!()[Day2_ex1.2.7.png]
