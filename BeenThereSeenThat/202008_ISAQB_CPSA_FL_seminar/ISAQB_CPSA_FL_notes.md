@@ -567,4 +567,13 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 ![](Day2_summary.png)
 
-Hausaufgabe: zwei Fragen vorzubereiten (5 min Zeitansatz); für die Rekapitulation
+## Hausaufgabe: zwei Fragen vorzubereiten (5 min Zeitansatz); für die Rekapitulation
+
+0. Welcher der folgenden Begriffe ist kein cross-cutting-concept (ccc)?
+- Persistenz
+- Verfifizierung x
+- Protokollierung
+- Geschäftsregeln
+
+1. Kann eine Registry als Singleton umgesetzt werden?
+Ja
