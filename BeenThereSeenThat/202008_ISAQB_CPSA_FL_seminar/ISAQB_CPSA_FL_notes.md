@@ -366,3 +366,31 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - plattformübergreifende Integration
 - Probleme: Concurrency, Deadlocks, Transactions
 
+[scheduled exam for Friday, 20200828 12:00!, baem]
+
+### SOA Manifesto
+- Service oriented architecture
+- der Business-Value ist doch viel wichtiger als die technische Grundlage; Aufgaben wichtiger als "wie es implementiert ist"; man will felxibel sein
+- schrittweise verfeinerung: siehe Day2_SOA_businessworkflow.png
+- In a battle between a jedi and a ninja, SOA would win.
+
+### Microservices
+- entgegen klassische Architektur: fachlicher schnitt auf Applikationsebene
+- jeder Microservice in eigenem Prozess am Laufen
+- Teams müssen sich technologisch untereinander nicht abstimmen; gute Modularisierbarkeit
+- Skalierung, Resilienz, mehr Freiheit und Verantwortung
+- potential shippable product increment
+- Technologiepluralismus (ist auch nicht für jeden Mitarbeiter)
+- Analyse von Abhängigkeiten oft erst zur Laufzeit machbar
+- Abbildung Microservices <-> Teams
+
+### Self contained systems
+- Folien
+
+### Broker
+- Kopplung über die Nachrichtenbasierte
+
+[Ex!] "WirLeihen" - welche Muster würden sich anbieten um sie für die Realiserung zu verwenden
+- (im Rückgriff auf die nichtf. Anforderungs-Übung von gestern)
+
+
