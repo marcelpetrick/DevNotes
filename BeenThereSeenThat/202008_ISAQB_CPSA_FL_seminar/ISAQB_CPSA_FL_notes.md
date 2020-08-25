@@ -448,14 +448,14 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 -- http-request mit zusätzlichen Informationen anreichern: decorator pattern
 -- anmeldung über cloud, warten auf antwort, rückgabe von berechtigungen, user access level setzen: state
 -- businesslogik schreiben, aber nicht sicher wie die daten persistiert werden sollen; Implementierung ist noch nicht konkrekt: proxy (nicht?), adapter/wrapper
--- anwendung über vordefinierte schnittstelle mit zusätzlichen funktionalitäten anreichern
+-- anwendung über vordefinierte Schnittstelle mit zusätzlichen Funktionalitäten anreichern
 
 - Fassade: direkter Zugriff auf Sachen; gekapselter Zugriff; Komplexität eines Zuganges zu verbergen; EINFACHER Zugriff im Gegensatz zu Gateway
 - Gateway: Zugriff auf Sachen regeln (übersetzen)
 
 # Schnittstellen und Abhängigkeiten
 
-## festlegen und etnwerfen:
+## festlegen und entwerfen:
 - gehören zur BlackBox-Sicht
 - einfach zu entwerfen, einfach zu njtuzen, funktional vollständig, schwer zu missbrauchen (robustes system)
 - Postels Gesetz: ich achte auf die Spezifikation, aber tolerant zu allem, was man akzeptiert; ich bin toleratn nach außen und hoffe, dass die anderen dies auch sind
@@ -467,7 +467,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 -- Ziel: Kopplung reduzieren
 -- Werkzeuge
 -- heute eher Komposition statt Vererbung
--- Schnittstellen: Abhägnigkeiten lindern
+-- Schnittstellen: Abhängigkeiten lindern
 -- Inversion of control [see slides]
 
 [Ex!] 1.2.6 Abhängigkeiten planen
@@ -476,7 +476,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - RMI (remote method invocation): platform muss man kennen, .. siehe ![](Day2_AbhaengigkeitenPlanen.png)
 - Service Locator ist eine Registry
 
-## Entwurfsprinzipien zur Optimierung von Abhägnigkeiten
+## Entwurfsprinzipien zur Optimierung von Abhängigkeiten
 - SOLID (Robert C. Martin - clean Architecture)
 -- S: Single Responsibility principle
 -- O: open/closed principle
@@ -543,3 +543,27 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - deklarativ und graphisch beschrieben (ähnlich UML) statt Code
 
 # Zusammenfassung - Day2
+
+- Goldene Regeln: mit Fachlichkeit anfangen; zwei Ks: Kohäsion nach innen; Kopplung ist das "außerhalb" - wie stark passt etwas zusammen?; undokumentiert - Schulden bei der Architekturbank; größere Unabhängigkeit -> Austauschbarkeit groß
+- Architekturmuster: dienen den nichtfunktionalen Anforderungen; Aufbau: Problem -> Kontext -> Lösung; (Bsp. Zugriff innerhalb LegacySystem -> Adapter); falls startup sich nicht festlegen will, dann SOA (10er Jahre Buzzword); ThinClient: auf Server durchgeführt; RichClient: Rechenkapazität beim Client nutzen; wann machen Microservices sinn? (habe ich unabhängige Teams?)
+- Entwurfsmuster: Command, Observer, Plugin, Registry, Bridge-Pattern, Proxy (Zugriff regeln), Facade
+- Qualitätsmerkmale/NFR: ISO25010; proaktiv als Architekt handeln
+- Schnittestellen und Abhängigkeiten: strukturelle Abhängigkeit; Erzeugen; DCOM (Datentypen als Abhängigkeit bei RPC); zeitliche Abhängigkeit; technische Abhängigkeit (Hardware); EEEFS: einfach zu erlernen, einfach erweiterbar, einfach zu benutzen, schwer missbrauchbar, funktional vollständig
+- SOLID: single responsibility principle; open closed (designmuster für diesen zweck: decorator, plugins)
+- Entwurfsprinzipien: divide et impera, separation of concerns, 
+- Entkopplung: welche Art von E. stellt ein Broker dar: Ort
+- Robustheitsgrundsatz: Jan Postel: sei tolerant gegenüber dem was du bekommst, konsequent für das, was du rausgibt
+- CCC (Querschnittskonzepte; cross cutting concerns): Logging, Fehlerbehandlung, Security; technische Fehler im fachlichen Code behandeln - lieber nicht
+- DDD: Mustersprachen, MDA als Auspräügung einer Mustersprache; Was sind die Variationspunkte eines Metamodells, welches das spezielle Problem gut ausdrücken soll? Services und Entitäten (statt Ausleihen und Buch) und States; Kernidee von DDD: Fachlichkeit wiederverwenden; PIM bei MDA: Platformindependent Model; Platform specific model; Mithilfe eines Generators in Code zu übersetzen;  
+- Architekturzentrische Ansätze
+- System und Systemkontext (-grenzen)
+- Einflußfaktoren: organisatorische, technische, Ziele, Anforderungen (funktionale und nichtfunktionale (Qualitätsanforderungen)); immer Kompromiß, weil sie sich teilweise in WEchselwirkung widersprechen
+- Conways Law: MicroServices passend, da idealerweise von einem Team gestaltet und die genutzte Technik von dem Team verstanden
+- Dependency Injection: Baustein, der erstellt werden soll, erstmal nur von etwas Abstraktem abhängig; getter/setter/ctor; AbstractFactory
+- Liskov: wo findet man dies verletzt? Bei tiefen Vererbungen, wo Funktionalität bei Kinder nicht mehr implementiert ist
+- WAM: Fachwert; Werkzeug Automat Material; Anwendung ist ein Werkzeug
+- Microservice: 3 Vorteile: Skalierung, gegeneinander geschützt (Prozessebene), Resilienz, ; 3 Nachteile: richtige Teams finden, erhöhter Netzwerkkommunikationsbedarf, Komplexität hoch n
+
+![](Day2_summary.png)
+
+Hausaufgabe: zwei Fragen vorzubereiten (5 min Zeitansatz); für die Rekapitulation
