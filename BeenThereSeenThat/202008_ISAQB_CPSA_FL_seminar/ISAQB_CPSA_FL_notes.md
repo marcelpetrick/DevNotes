@@ -201,7 +201,7 @@ My notes:
 -- wording: am besten in Muttersprache; am besten wegen dem größeren Wortschatz und Feinheiten
 [Pause bis 14:55]
 
-[Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see Day1_Schnittstellen.png
+[Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see ![](Day1_Schnittstellen.png)
 - [check this] IAM: Identity-and-Access-Management (Registrierung; Authentifizierung; Authorisierung - all in one); see https://en.wikipedia.org/wiki/Identity_management
 - nur Nutzung beschreiben, aber keine Datenflüße abbilden! siehe: werbenetzwerk und Werbung und SAE-Logik
 - Dinge, die zusammengehören, auch zusammen gruppiert. Use-Case-Prinzip mit Akteur als Generalisierung und Spezialisierung auch machbar
@@ -210,7 +210,7 @@ My notes:
 - in der Diskussion ist das Problem einen Schritt klarer geworden :)
 
 ## Zusammenfassung Tag 1:
-- siehe: (als Bild)  Day1_Zusammenfassung.png
+- siehe: ![](Day1_Zusammenfassung.png)
 - Architektur ist die Verortung von Funktionalität; damit nichtfunktionale Anforderungen erfüllt werden
 - Projektziele vs. Architekturziele (Architekturziele eher längerfristiger Natur; Projektziele sind kurzfristig)
 - BausteineKomponenten
@@ -314,7 +314,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 ### Pipes & Filters
 - für Systeme, die Datenströme verarbeiten
-- Parallelverarbeitung mgölich ist
+- Parallelverarbeitung möglich ist
 - wiecerverwendbar und austauschbar
 - schwierige Fehlerfindung, da kein Systemzustand vorhanden
 
@@ -490,11 +490,56 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - niedrige Kopplung, Hohe Kohäsiion
 - open/closed principle: Sachen dazupacken
 
-- Dependency inversion: abstraktes interface hat immer nur eingehende kanten; in welcher ebene ansiedeln? natürlich "unten" (zum austauschen)
+- Dependency inversion: abstraktes Interface hat immer nur eingehende kanten; in welcher ebene ansiedeln? natürlich "unten" (zum Austauschen)
 - daher lieber zur vollen Flexibilit durch extra Schichten ; aber letztendlich Designentscheidung
 - check Dependency Injection (Mock; frühzeitige Testbarkeit)
 - zyklische Abhängigkeiten
 
 [Ex!] 1.2.7
 - Prinzipien für "Wirleihen"
-!()[Day2_ex1.2.7.png]
+![](Day2_ex1.2.7.png)
+-- Punkt 0: macht keinen Sinn; erzeugt viel heiße Luft; DI-principle sollte nicht durchgängig angewendet werden
+-- niedrige Kopplung und hohe kohäsion: komponenten der ersten zerlegungsstufe sollten einzeln austauschbar sein
+-- Sehbehinderung: kein Prinzip; falsch am Platz; nichtfunktionale Anforderung
+-- Standardtechnologien
+-- Ausfallsicherheit gegenüber Funktionalität: nein
+-- dem Wachstum ist alles andere untergeordnet: nein
+
+- eigene Prinzipien:
+-- ViewModel first oder View first?
+-- Dependency inversion-principle
+-- falls man nach SOLID geht, hat man beim Testen weniger Bauchschmerzen
+
+# Querschnittskonzepte
+(Schwarzbuch der SW-Architektur?)
+
+- auch genannt: übergreifende Konzepte, Cross-cutting concerns
+- welche Konzepte gehören zusammen, Snsätze, welche Risiken
+- einige Beispiele folgen
+
+## Ausnahme- und Fehlerbehandlung
+- Laufzeitfehler: wie erkennen, behandeln, wie damit umgehen?
+- Fehlerbehandlung als übergreifendes Konzept in Code verwoben
+
+## Bibliotheken und Frameworks
+-  andere Richtung der Use-Beziehung: Frameworks und Bibliotheken
+- WhiteBox (Vererbung): Erweiterung durch Überschreiben von Methoden halbabstrakter Klassen
+- BlackBox (Komposition): erweiterung durch überschreiben vollständig abstrakter Klassen
+- immer auf Dokumentation und Testbarkeit achten (UnitTests; Testautomatisierung)
+
+## Protokollierung
+- LoggingFrameworks
+
+## Container
+- Ablaufumgebung für Software
+- Konzepte vorkonfigurieren
+
+## GUI
+
+## Sicherheit
+- Authentifizerung, authorisierung, Integrität, Vertraulichkeit, Unleugbarkeit, Verfügbarkeit
+
+## Geschäftsregeln
+- deklarativ und graphisch beschrieben (ähnlich UML) statt Code
+
+# Zusammenfassung - Day2
