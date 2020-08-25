@@ -1,7 +1,8 @@
-# ISAQB-Seminar @zoom at Software Quality Labs
+# ISAQB-Seminar at Software Quality Labs
 
 - Stephan Christman is lecturer
 - no presence training - just via Zoom
+- preparation for ISAQB CPSA FL - certified professional software architect foundation level
 
 ## 20200824 - day 1
 
@@ -134,7 +135,7 @@ ISO 25010: listet Qualitätsmerkmale; diese sichten
 - [Ex!] Übung 1.1.2
 -- "willleihen": Idee für webapp zum nachbarschaftlichen Ausleihen von Werkzeugen (am Wochenende)
 -- Seite 19ff in dem ÜbungsPDF sind die Anfangsdaten für die "App"
--- Fokus auf die nichtf. Anforderungen und Qualitätscharakteristiken nach ISO 25010 (Checkliste) --> see: ISO25010.png
+-- Fokus auf die nichtf. Anforderungen und Qualitätscharakteristiken nach ISO 25010 (Checkliste) --> see: ![](Day1_ISO25010.png)
 -- Fragen zur Spezifikation an Trainer stellen; er ist der Auftraggeber
 My notes:
 -- Nichtfunktionale Anforderungen:
@@ -166,7 +167,7 @@ My notes:
 - guter Projektleiter wird aber das gleiche machen: erstmal checken, was ist innerhalb und was ist außerhalb der Systemgrenzen; wen zum Meeting einladen, wen nicht?
 - anfangs die Systemgrenzen unscharf
 - Datellungsformen: Use-Case-Diagramm (Stärke und das Ziel; auf innere Darstellung kann verzichtet werden; Abhängigkeitsbeziehung; Pfeil immer in Richtung der Abhängigkeit; von Akteur zu 'use'; Person oder anderes Steereotyp, Aussagegehalt recht groß); Komponentendiagramm
-- [Ex!] Willleihen als Use-Case-Diagramm: see WillLeihenUseCase.png
+- [Ex!] Willleihen als Use-Case-Diagramm: see ![](Day1_WillLeihenUseCase.png)
 -- DomainDrivenDesign: Unter welcher Fragestellung wird das UseCasediagramm gerade modelliert?
 --- Google: BusinessBenefits/BusinessCases? wer ist von wem abhängig?
 --- WL (WillLeihen): -> aus dem Diagramm entstehen recht viele MakeOrBuy-entscheidungen; da Top-down, kann man dasmit vielen diskutieren, sehr schnittstellenbasierte Sicht
@@ -371,7 +372,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 ### SOA Manifesto
 - Service oriented architecture
 - der Business-Value ist doch viel wichtiger als die technische Grundlage; Aufgaben wichtiger als "wie es implementiert ist"; man will felxibel sein
-- schrittweise verfeinerung: siehe Day2_SOA_businessworkflow.png
+- schrittweise verfeinerung: siehe ![](Day2_SOA_businessworkflow.png)
 - In a battle between a jedi and a ninja, SOA would win.
 
 ### Microservices
@@ -421,7 +422,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 # Entwurfsmuster
 - jedes Muster für nichtfunktionale Anforderungen hat Stärken und Schwächen: Schichten bei Testung und Austauschbarkeit, aber Probleme bei Performanz, ..
 - Muster (Pattern) nicht erfunden, sondern _gefunden_; daher auch nicht formal beweisbar
-- siehe: Day2_Entwurfsmuster.png
+- siehe: ![](Day2_Entwurfsmuster.png)
 
 - Singleton
 - Factory: kapselt Wissen, wie und welche Objekte erzeugt werden; Open-closed-Principle
