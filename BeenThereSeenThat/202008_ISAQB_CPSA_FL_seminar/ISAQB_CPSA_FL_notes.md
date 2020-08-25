@@ -302,3 +302,67 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - Entwirf unabhängig und leicht austaushcbare Bausteine
 - Verwende etabliert und erprobte Sturkturen wieder (Architekturmuster)
 - Denke an Alternativen
+- Bausteine sollen keine Annahmenüber Strukturen anderen Bausteine machen
+- Entwirf in Iterationen: Prototypen und technische Durchstiche mindern Risiko
+- Dokumentiere Entscheidungen, damit sie nachvollziehbar sind (sic!) - um nachträgliches Aufflammen von Diskussionen zu mindern
+
+- verschiedene Wege zum Entwurf eines Systems: inkrementeller Ansatz aber wichtig (für Details siehe Folien)
+
+## Architektur- und Entwurfsmuster
+- pattern language, Christopher Alexander (reale Architektur)
+- siehe ![](Day2_Architekturmuster.png)
+
+### Pipes & Filters
+- für Systeme, die Datenströme verarbeiten
+- Parallelverarbeitung mgölich ist
+- wiecerverwendbar und austauschbar
+- schwierige Fehlerfindung, da kein Systemzustand vorhanden
+
+### BlackBoard (shared Repository)
+- KnowlegeSource soll auf gleiche Wissensbasis zugreifen
+- meist bei KI-Systemen, die auf gemeinsamer Basis arbeiten sollen
+- gute Performanz, da dünne Kommunikation
+- Problem mit Reliability (Droidenkontrollschiff?)
+
+### Schichten
+- sehr weiter verbreitet
+- (separations of concerns principle)
+
+### Master-Slave
+- (neu: Leader-Follower)
+- Echtzeitkommunikation im gleichen Prozess: nicht so gut optimierbar, falls man Antwortzeiten garantieren muss
+- besser durch getrennte Optimierungen
+
+### Virtuelle Machine
+- Java, .NET, Docker [check this!], Applikationserver
+- Container vs. Virtuelle Machinen
+
+### MVC, MVP
+- Benutzerschnittstellen explizit von der Logik entkoppeln
+
+### Nachrichtenbasierte Kommunikation (Messaging)
+- RabbitMQ, ZeroMQ
+- MessaqeQueue als Muster für Resilienz
+- just out of my own interest: https://www.educba.com/rabbitmq-vs-mqtt/ - very good page to compare
+- Stack oder Queue: LIFO versus FIFO
+
+### Ereignisbasierte Systeme
+- Polling ineffizient, daher "Inversion of Control"; jemand anders soll mich informieren, wenn sich etwas ändert (statt eigenem Polling); bei event-bus registrieren
+
+### Event sourcing
+- Systemzustand persistieren um es gegebenenfalls wiederherzustellen
+- similar to Kafka: (just if really interested) https://www.confluent.io/blog/event-sourcing-cqrs-stream-processing-apache-kafka-whats-connection/#:~:text=Kafka%20as%20a%20backbone%20for%20Event%20Sourcing&text=Kafka%20is%20a%20high%2Dperformance,event%20sourcing%20based%20application%20architecture.
+
+### Client-Server
+
+### Thin Client versus Rich Client
+- TC: einfache Wartung, einfache Auslieferung, leichte Sicherung
+- RC: bessere Performanz, offlinefähig, Synchronisation zwuischen Clients aufwändiger, muss installiert werden
+
+### Remote procedure call
+- marshalling (verpacken) und woanders berechnen lassen
+
+### Datei- und datenbankbasierte Integration
+- plattformübergreifende Integration
+- Probleme: Concurrency, Deadlocks, Transactions
+
