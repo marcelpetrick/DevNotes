@@ -265,3 +265,40 @@ Monolith versus Microservices? [check this]
 - Heuristiken für die Zerlegung; CRC-Verfahren [check this]
 - Fokussierung und Gruppierung für lose Kopplung und hohe Kohäsion (very important)
 
+'etwas auf Silizium zum Laufen bringen'
+
+## Architekturzentrierte Ansätze
+- Abhängigkeiten optimieren; Patterns als sprachliches Mittel für schnellere Kommunikation zwischen technisch gleich versierten
+
+- Mustersprachen? DomainDrivenDesign? [check this] Werkzeug, Automat, Material
+- Referenzarchitekturen
+
+- Mustersrpachen sind Architekturstile
+- definieren auf Klassenebene Musterleemnte: Mustersrpache reichert Klasen mit Semantik an; Definieren Regeln für Musterelement (Eric Evans) - Services; Entitäten
+- Eric Evans: "Schwierigkeiten kommen aus der Fachdomäne und weniger aus der Technik"; deshalb sein Ansatz nicht mit technische Konstrukten reden, aber lieber mit technischer Fachsprache reden
+- Fachmodell auf Basis des Metalmodells
+https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd1a6f90091
+- Entitäten, Wertobjekte, Aggregate, Ubiquitous Language, Services
+- Wiederverwendbarkeit auf logischer Ebenen
+
+- WAM: http://wam-ansatz.de/ [check this]
+- Software ist Werkzeug um die Information (Material) zu bearbeiten
+- auch dort Begrifflichkeiten und Regeln: Fachwerte, Materialien, Fachliche Services, Werkzeuge, Automaten, Technische Services --> vorkonfiguriertes Metamodell
+
+- CRC Karten - classes-Responsiblitlies-Collaboration (uralt; 70er..)
+
+- modellgetriebene Architektur: MDA https://www.omg.org/mda/ - object management group
+- Generierung von Anwendungen aus UML-Modellen (ist nicht SA im engeren Sinn!)
+- MDA: PIM, PSM, Code; nicht 100% Automatisierung anstreben
+- Modelle haben exstrem hohe Hebelwirkung
+- für weitere Informationen: read this https://github.com/heynickc/awesome-ddd#sample-projects
+- Referenzarchitekturen: Autosar for Automotive; eventually also Java EE für  Java Enterprise Anwendungen
+- Inhalt: Anwendungsgebiet, Abstrakte Strukren und Laufzeitverhalten; Technische Vorgaben; Optional Prozesses
+- Beispiel: Konfigurationsmanagement, Buildmanagement, täglich mehrfaches Deployment sicherstellen
+
+## Goldene Regeln
+- Beginne mit dem Fachmodell (Begrifflichkeiten und fachliche Zusammenhänge ausarbeiten)
+- Strebe nach geringer Kopplung und hoher Kohäsion
+- Entwirf unabhängig und leicht austaushcbare Bausteine
+- Verwende etabliert und erprobte Sturkturen wieder (Architekturmuster)
+- Denke an Alternativen
