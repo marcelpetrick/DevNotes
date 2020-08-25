@@ -236,3 +236,32 @@ My notes:
 
 Hausarbeit für Morgen:
 - zu allem, was man heute gehört hat, sich eine MultipleChoice oder "Ja/Nein"-Frage überlegen (siehe zu der Übersicht Zusammenfassung)
+
+# 20200825 - day 2
+
+Potentielle Fragen:
+- Wobei unterstützen Architekten
+-- Schreiben von gutem Code? ne
+-- Erreichen von Qualitätsmerkmalen (Synonyme für nichtfunktionale Anforderungen) ja
+-- Moderation zu Stakeholdern? ja
+-- Beim Kaffee trinken? ne
+
+Welche der folgenden Vorgabe gehört zu den Randbedingungen?
+-- Architekturziele ne
+-- technische Vorgaben ja
+-- organisatorische Vorgaben ja
+
+Ein Architekt sollte seine Lösung nach Händen und Füßen verteidigen?
+-- Ja
+-- Nein (x)
+
+Monolith versus Microservices? [check this]
+
+-- da Architekt keine Personalverantwortung hat, hat selbst eine Restrukturing der Software (selbst wenn es besser wäre) keinen direkten Impact auf die Teamgröße
+-- aber er kann die Ideen an die entsprechenden Verantwortlichen bringen (das ist eine Randbedingungen)
+
+## Yesterday: ##
+- Defintionen, wie Anforderungen lesen?, System abgrenzen, was ist ein Kontext, wissen was man kann, Problem fachlich weiterzerlegen, Use-Beziehungen, technikneutral das Problem zerlegen (intensiv in der Übung), sehr wohl ein kreativer Prozess; viel Diskussion, im ersten Schritt zu einer Zerlegung kommen, die Sinn macht; den Kontext mmitziehen;
+- Heuristiken für die Zerlegung; CRC-Verfahren [check this]
+- Fokussierung und Gruppierung für lose Kopplung und hohe Kohäsion (very important)
+
