@@ -454,3 +454,19 @@ Gateway provides a simple uniform view of external resources to the internals of
 - Fassade: direkter Zugriff auf Sachen; gekapselter Zugriff; Komplexität eines Zuganges zu verbergen; EINFACHER Zugriff im Gegensatz zu Gateway
 - Gateway: Zugriff auf Sachen regeln (übersetzen)
 
+# Schnittstellen und Abhängigkeiten
+
+## festlegen und etnwerfen:
+- gehören zur BlackBox-Sicht
+- einfach zu entwerfen, einfach zu njtuzen, funktional vollständig, schwer zu missbrauchen (robustes system)
+- Postels Gesetz: ich achte auf die Spezifikation, aber tolerant zu allem, was man akzeptiert; ich bin toleratn nach außen und hoffe, dass die anderen dies auch sind
+- service-orientierte und ressourcen-orientierte Schnittstellen
+-- URI: service-aufruf selber versus URI: ressourcenorientiert (verändert und freigeben)
+- lose und starke Kopplung
+- Abhängigkeiten planen
+-- Ziel: Kopplung reduzieren
+-- Werkzeuge
+-- heute eher Komposition statt Vererbung
+-- Schnittstellen: Abhägnigkeiten lindern
+-- Inversion of control [see slides]
+
