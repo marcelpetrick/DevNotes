@@ -392,5 +392,19 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 [Ex!] "WirLeihen" - welche Muster würden sich anbieten um sie für die Realiserung zu verwenden
 - (im Rückgriff auf die nichtf. Anforderungs-Übung von gestern)
+-- Pipes&Filters: bringt eher weniger, weil wenige Prozessketten; kein Datastream
+-- Blackboard: Daten integrieren und lose koppeln; eher wahrscheinlich nicht
+-- Schichten: klares Ja, weil mehrere verschiedene UserInterfaces (mobile, web, third party)
+-- Master-slave: muss man Echtzeitanforderungen garantieren? ja, aber kein embedded system, also eigentlich _nicht_
+-- Container: Ausfallsicherheit, Skalierbarkeit, Apps für zwei mobil-OS anbieten,
+-- Model-View-Controller: im UI (Redux oder MVP?)
+-- message passing: ja
+-- Event-sourcing/ereignisbasierte Systeme: Zustände nachverfolgbar
+-- Client-Server: "wirleihen" sollte dezentral ausgeführt werden
+-- RPC: (DCOM MS-Welt); eher weniger Nutzen
+-- Datenbankbasierte Integration: billig und skalierbar, etabliert, (Was wäre denn die Alternative: DB oder filebasierte Speicherung (???))
+-- MicroServices: BoundedContext: im Verkleihkontext nicht um Werbung kümmern; eigenes Deployment Artefakt
+-- SCS (self contained systems): größeres Schneiden bringt etwas? größere Trennung wäre vorstellbar
+-- Broker: (örtliche Entkopplung): ?
 
 
