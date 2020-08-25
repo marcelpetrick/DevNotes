@@ -407,4 +407,50 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 -- SCS (self contained systems): größeres Schneiden bringt etwas? größere Trennung wäre vorstellbar
 -- Broker: (örtliche Entkopplung): ?
 
+- MDA: model driven architecture: fachliche und technische aspekte trennen
+- domain driven design: gemeinsame Sprache, Widerverwendbarkeit auf logischer Ebene
+
+- 3 goldene Regeln für Architekturentwurf:
+-- verwende Standardlösungen
+-- Beginn mit der Facharchitektur
+-- hohe Kohäsion, geringe Kopplung
+-- keine Annahmen über die struktur der bausteine vornehmen
+-- iterativ vorgehen
+-- Entscheidungen dokumentieren
+
+# Entwurfsmuster
+- jedes Muster für nichtfunktionale Anforderungen hat Stärken und Schwächen: Schichten bei Testung und Austauschbarkeit, aber Probleme bei Performanz, ..
+- Muster (Pattern) nicht erfunden, sondern _gefunden_; daher auch nicht formal beweisbar
+- siehe: Day2_Entwurfsmuster.png
+
+- Singleton
+- Factory: kapselt Wissen, wie und welche Objekte erzeugt werden; Open-closed-Principle
+- Adapter/Wrapper: eine Schnittstelle in eine andere übersetzen
+- eventuell noch ein Gateway (intern: Wrapper, Adapter)
+- Bridge: Implementierung von Abstraktion trennen
+- Plugin: Bausteine werden mittels Konfiguration 'spät' ins System eingebunden und nicht schon während der Kompilierung
+-- Konfiguration zentralisiert und geschieht zur Laufzeit
+-- Schnittstelle muss sehr genau bekannt sein
+- Fassade als Strukturmuster: vorgeschaltet vor eine komplexe Komponente; zur Pflege von Legacy-Code; Sicht vereinfachen, ähnlich Wrapper; Vereinheitlichung
+- Dekorator: fügt neue Operationen hinzu; Beispiel Streams
+- Proxy: Platzhalter für andere Komponenten; kontrolliert Zugang zum echten Subjekt
+- Registry: hilft andere Objekte zu finden
+- Command: Aktionen als Objekt verpacken; kann später ausgeführt werden; Command kann als Objekt auch in einen Stack gepackt werden; Undo/redo
+- Observer: "don't call us, we call you"; 
+- State: ermöglicht Objekt sein Verhalten zu ändern, wenn sein innerer Zustand sich ändert
+
+[Ex!] Describe those three patterns to the other users without naming them:
+- Factory: Erzeugungsentwurfmuster; Anforderung von Objekten mit bestimmten Eigentschaften, die man aber nicht selber explizit instanziieren möchte
+- Gateway: stackoverflow: "Facade provides a simple uniform view of complex internals to (one or more) external clients;
+Gateway provides a simple uniform view of external resources to the internals of an application." Gateway erzeugt einen einzeitlichen Blick auf externe Ressourcen für eine Applikation
+- Registry: globales Zugriffspattern zm mithilfe eines Keys ein Objekt zu finden (hat Hinzufügemethode)
+
+-- mehrere Komponenten auf einem Stand halten mit geringer Systemlast: Observer
+-- http-request mit zusätzlichen Informationen anreichern: decorator pattern
+-- anmeldung über cloud, warten auf antwort, rückgabe von berechtigungen, user access level setzen: state
+-- businesslogik schreiben, aber nicht sicher wie die daten persistiert werden sollen; Implementierung ist noch nicht konkrekt: proxy (nicht?), adapter/wrapper
+-- anwendung über vordefinierte schnittstelle mit zusätzlichen funktionalitäten anreichern
+
+- Fassade: direkter Zugriff auf Sachen; gekapselter Zugriff; Komplexität eines Zuganges zu verbergen; EINFACHER Zugriff im Gegensatz zu Gateway
+- Gateway: Zugriff auf Sachen regeln (übersetzen)
 
