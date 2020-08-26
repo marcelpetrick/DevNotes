@@ -577,3 +577,46 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 1. Kann eine Registry als Singleton umgesetzt werden?
 Ja
+
+Andere Leute:
+2. Welche Nachteile hat das  Pipes&Filter-Stil?
+Parallel nicht möglich ne
+zwischenergebnisse nicht speichern doch
+schwierige fehlerbehandlung ne
+
+3. Welche grundlegenden Architekturmuster kennst du? (Kategorien)
+- datenzentrierte Architektur (wie Filters& Pipes)
+- Master-Slave (Hierarchisch)
+- Messaging (verteilte Systeme)
+
+4. Was sind zwei wichtige begriffe für die Softwarearchitektur?
+source code
+komponenten x
+beziehungen x
+funktiioalität?
+
+5. Welches Entwurfsmuster trennt Abstraktion von Implementierung?
+adapter/wrapper
+bridge x
+
+6. Was für Kopplungstypen kennst du? (Abhängigkeiten/Kopplung)
+- zeitlich
+- örtlich
+- Erzeugen bringt Kopplung
+- Aufrufen bringt Kopplung
+- Datentypen
+- Laufzeitkontext (Betriebssystem)
+
+- zweiter Tag traditionsgemäß härtester Tag; Peak
+
+# 20200826 - day 3
+
+## Risikomanagement und Architekturentscheidungen
+
+UML-Diagramme:
+Klassendiagramm
+Komponentendiagram
+verteilungsdiagram
+Sequenzdiagram
+Zustandsdiagram
+
