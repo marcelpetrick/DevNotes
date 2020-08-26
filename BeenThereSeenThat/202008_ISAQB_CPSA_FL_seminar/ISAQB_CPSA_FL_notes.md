@@ -620,3 +620,54 @@ verteilungsdiagram
 Sequenzdiagram
 Zustandsdiagram
 
+- qualitativ und quantitative Bewertungen
+(morgen: welche Werkzeuge organisatorisch notwendig? Kategorien und )
+
+Risikomanagement?
+Warum als Architekt damit auseinandersetzen?
+- "Gummibänder" bis zum Zereissen gepsannt - darauf eingehen und praktiv auf diese Probleme eingehen
+- "Produktrisiko" (ours) versus "Projektrisiko" (eher Projektleiter)
+
+- nicht nur Aufnahme von mögliichen Bedenken im Team: auch ein Kommunikationswerkzeug
+- falls periodisch bis hin zu den Requirements zurück zu neuen Lösungen finden
+- Failure More and Effects Analysis
+
+## Risiko
+
+Was sind Risiken?
+![](Day3_risk.png)
+- Risikoanalyse sollte nicht nur einmal, sondern grundsätzlich regelmäßig, iterativ im Projekt durchgeführt werden
+- mesit in Zusammenarbeit mit dem Projektleiter
+
+Zyklus:
+- Risikoidentifikation: Abholen/Brainstorming, Tür weit öffnen, so dass jeder im Team die Bedenken äußern kann: Liste wird größer
+- Risikobewertung (Liste wird kleiner)
+- Risikosteuerung: Maßnahmen und Mechanismen zur Risikobeefinlussung
+- Risiko-Controlling: Laufende Berichterstattung; 
+- gutes Beispiel für proaktives Management - frühzeitig Lösungen vorbereiten
+- regelmäßige Durchführung pro Sprint
+
+Techniken zur Identifikation:
+- Checklisten aus fürheren Projekten, Brainstorming
+- Expertenreviews
+- SWOT-Analysen
+- FMEA
+- APP (analysis of potential problems)
+- Simulation
+- Externe Assessments
+
+- Risikowert bestimmen = Eintrittswahrscheinlichkeit x potentieller Schaden
+- Akzeptieren oder Ignorieren
+- Risiko vermindern
+- Schaden vermindern
+
+- FMEA-Tabelle: ![](Day3_FMEA.png)
+[Ex!] 1.2.8
+- ohne technische Architektur schwer vorhersagbar was genau failen wird
+- was sind "current design controls"?
+- Monitoring zum Erkennen; Failover (?)
+![](Day3_FMEA_Ex1.2.8.png)
+- [check this](https://quality-one.com/dfmea/) - more details
+
+
+
