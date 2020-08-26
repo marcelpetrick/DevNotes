@@ -748,4 +748,29 @@ verständlich, korrekt, effizient, angemessen, wartbar -> VAWEK (fahr weg) (Esel
 -- also brauchen wir eine DockerRuntime auf einer virtuellen Machinen; die läuft auf einer LinuxVM
 -- Stichworte: Docker, VM, reverse proxy
 
+## SA und Qualität- Q_Modelle
+- Quantitative Methoden
+Bekommt man für eine faule Banane ein ISO9000 Zertifikat bekommt?
+- Ja, wenn man nachvollziehen kann, wieso man dahin gekommen ist. Zeichen für Prozessqualität.
+- wir in der Architektur eher Augenmerk auf die Produktqualität legen:
+-- Was ist Qualität? Der Grad in dem ein System, einen Komponente oder ein Prozess die Kundenerwartungen und -bedürfnisse erfüllen.
+-- dauernde Updates eigentlich ein Qualitätsdefizit (Betriebssysteme)
+
+[check this] Robert C. Martin - clean architecture (als Buch); zweimal empfohlen
+
+- Metrik von Robert C. Martin: Instabilität, Abstraktheit, Distanz
+-- Abstraktheit und Instabilität sollen im Maß stehen: "je instabilerr, desto abstrakter"
+![](Day3_metrics.png)
+
+Produktqualität: Fehlerhäufung, Fehlercluster; MTBF (mean time between failure); testbasierte Abdeckung
+
+## Architecture Traf-off Analysis Method (ATAM)
+- in A. immer Wechselwirkungen, desalb muss man bewerten, ob die Entscheidungen in die richtige Richtung gehen
+- [check this] Folien
+
+[Ex] Qualitätsszenarien bewerten
+![](Day3_ATAM.png)
+
+
+
 
