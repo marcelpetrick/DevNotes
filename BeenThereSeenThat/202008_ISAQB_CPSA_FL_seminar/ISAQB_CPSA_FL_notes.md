@@ -669,5 +669,79 @@ Techniken zur Identifikation:
 ![](Day3_FMEA_Ex1.2.8.png)
 - [check this](https://quality-one.com/dfmea/) - more details
 
+- Diskussionsgrundlage und Dokumentation, schafft Transparenz, gewisser Schutz (nachträglich eine Risikoliste haben und aus Kostengründen nicht umgesetzt)
+- nicht vergessen: Risiken - nicht Probleme; also diese Tabelle nicht auf Basis von Bugreports erstellen!
+
+- Entscheidungen: gute Gründe für schnelle (unabhängige) Entscheidungen und langsamere; bei manchen sind die Auswirkungen geringe
+- sonst hohe Kosten bei Zeitverlust, sonst laufen die Kosten aus dem Ruder
+- wie dokumentiert man seine Entscheidungen?
+![](Day3_arc42.png)
+
+[Ex] Architekturentscheidungen treffen: (unsere Wahl)
+
+1. Frage formulieren: Wie sollen sich die Benutzer authentifizieren?
+2. Randbediungen finden:
+- Facebook/Google einbinden
+- Eigene Benutzerverwaltung existiert
+3. Annahmen treffen:
+- Benutzername und Passwort für Login
+- keine HW notwendig
+- kein FB oder Google nötig, aber möglichstateless Auth, Prozess
+- Nichtanmeldung -> Reg möglich
+4. Alternativen finden:
+- Oauth2
+- SMS Auth (2Faktor)
+5. Entscheidung treffen
+- OAuth2, weil erweiterbar und flexibel
+
+## Beschreibung und Kommunikation
+- Kommunikation, Kontextabgrenzung, Sichten und UML, Schnittstellenbeschreibung, Hilfsmittel und Werkzeuge (u.a. auch C4); z. B. Deployment-Diagramm?
+- stakeholder-gerecht beschreiben (Projektleiter wird gegebenenfalls eine Stakeholderanalyse gemacht haben)
+- immer für eine Zielgruppe für einen bestimmten Zweck dokumentieren
+- nur der Leser kann die Verständlichkeit beurteilen
+
+verständlich, korrekt, effizient, angemessen, wartbar -> VAWEK (fahr weg) (Eselsbrücke)
+- was nicht eindeutig identifizierbar ist, hat die eigenschaft wegzulaufen
+- Nutzen von Dokumentation: Big picture erstellen, Systemüberblick, Einfache Abstimmung, Mittel zur Kommunikation, Basis für Analyse und Bewertungen
+
+- wenn man etwas verschriftlichen muss, legt man sich fest. das hilft auch beim 'erden'
+
+- zentrales Architekturdokument
+- A.-Überblick
+- Übersichtspräsentation
+- A.-Tapete
+- Handbuch
+
+ - Diagramtypen [check this]
+ - statt Fließtext lieber eine Komponenten-Struktur-Diagramm: Kollaboration kann auf zwei arten modelliert werden
+ 
+ - Zustandsdiasgramm
+ - Flussdiagramme
+ - UseCaseDiagramme
+ - BPMN-Diagramme (gekipptes Aktivitätsdiagramm)
+ - Verteilungsdiagramm (deployment diagram)
+ - schnittstellennbeschreibung: immer von außen nach innen beschrieben (außen umfassender als interne Sachen); Schnitstellenebschreibung nach Clements
+ 
+ - OpenAPI-Standard: Swagger als Tool (für Webapplikationen)
+ - TOGAF
+ - RM-ODP
+ 
+ - 'ganz emotionslos bei den beschreibungstypen; das verwenden, was die Zielgruppe versteht und sehen möchte'
+ 
+ - nach der Pause eine ziemlich große Übung: bis 12:45
+ 
+ [Ex] 1.3.1
+ Architektur beschreiben
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
 
 
