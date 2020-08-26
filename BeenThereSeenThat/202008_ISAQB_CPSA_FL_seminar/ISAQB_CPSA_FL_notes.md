@@ -730,8 +730,11 @@ verständlich, korrekt, effizient, angemessen, wartbar -> VAWEK (fahr weg) (Esel
  
  - nach der Pause eine ziemlich große Übung: bis 12:45
  
- [Ex] 1.3.1
- Architektur beschreiben
+ [Ex] 1.3.1 Architektur beschreiben
+ - Sequenzdiagramm erstellen (Box und Pfeile in normaler und gestrichelter Form)
+ - unser Beispiel: Werbenetzwerk; oder Authentifizierung
+ - mwir können nur spezifizieren, was wir anbieten
+![](Day3_Ex1.3.1.png)
  
  
  
