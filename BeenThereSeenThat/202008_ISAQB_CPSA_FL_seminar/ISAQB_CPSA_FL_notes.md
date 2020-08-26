@@ -771,6 +771,7 @@ Produktqualität: Fehlerhäufung, Fehlercluster; MTBF (mean time between failure
 [Ex] Qualitätsszenarien bewerten
 ![](Day3_ATAM.png)
 
+- Architekturentwurf: vertikal fachlich, horizontal technisch
 
-
+## test exam questions (see screenshots Day3_question01.png ff )
 
