@@ -713,14 +713,14 @@ verständlich, korrekt, effizient, angemessen, wartbar -> VAWEK (fahr weg) (Esel
 - Handbuch
 
  - Diagramtypen [check this]
- - statt Fließtext lieber eine Komponenten-Struktur-Diagramm: Kollaboration kann auf zwei arten modelliert werden
+ - statt Fließtext lieber eine Komponenten-Struktur-Diagramm: Kollaboration kann auf zwei Arten modelliert werden
  
  - Zustandsdiasgramm
  - Flussdiagramme
  - UseCaseDiagramme
  - BPMN-Diagramme (gekipptes Aktivitätsdiagramm)
  - Verteilungsdiagramm (deployment diagram)
- - schnittstellennbeschreibung: immer von außen nach innen beschrieben (außen umfassender als interne Sachen); Schnitstellenebschreibung nach Clements
+ - Schnittstellenbeschreibung: immer von außen nach innen beschrieben (außen umfassender als interne Sachen); Schnitstellenebschreibung nach Clements
  
  - OpenAPI-Standard: Swagger als Tool (für Webapplikationen)
  - TOGAF
@@ -734,17 +734,18 @@ verständlich, korrekt, effizient, angemessen, wartbar -> VAWEK (fahr weg) (Esel
  - Sequenzdiagramm erstellen (Box und Pfeile in normaler und gestrichelter Form)
  - unser Beispiel: Werbenetzwerk; oder Authentifizierung
  - mwir können nur spezifizieren, was wir anbieten
-![](Day3_Ex1.3.1.png)
- 
- 
- 
- 
- 
- 
- 
- 
- 
+![](Day3_Ex1.3.1.png) [check this] the except from the trainer
 
+ - lieber ein Diagramm mehr zeichnen als alles in eines
+ - eventuell kommt durch technische Konstrukte etwas hinzu, was im fachlichen Modell nicht bekannt war
 
+[Ex] 1.3.3 Software verteilen
+- Eingabe KomponentenD.
+- Ergebnis: Flipchart mit UML Verteilungsdiagramm
+
+- Welche Artefakte gibt es? (für unser WillLeihen)
+-- alles in Container packen
+-- also brauchen wir eine DockerRuntime auf einer virtuellen Machinen; die läuft auf einer LinuxVM
+-- Stichworte: Docker, VM, reverse proxy
 
 
