@@ -13,10 +13,10 @@
 - bei SoftwareQualityLabs scheinen alle zu bestehen; auch bei denen, die am Donnerstag gleich die Prüfung machen; gut machbar
 
 - Herr N. arbeitet curtis instruments in biberis schweiz; medizinbereich, handcontrols für elektrische rollstühle; mölchte lernen bei einer legacy software die architektur gerade zu rücken; .NET und Xamarin
-- Herr Lindecke-Klein; Uxmar in Kiel; dienstleister im bereich usability; maschinenbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freud von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
-- Herr H.; DAimler; Automotive-Bereich; autonomes Fahren; Bosch oder auch nvidia; backend; auch product owner; Überzeugung und Kommunikation; C4-Model (?); Kontext und Diagramme vereinheitlichen; Wissen bestätigen; neue Aspekte kennenlernen
+- Herr L.; Uxmar in Kiel; dienstleister im bereich usability; maschinenbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freud von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
+- Herr H.; Daimler; Automotive-Bereich; autonomes Fahren; Bosch oder auch nvidia; backend; auch product owner; Überzeugung und Kommunikation; C4-Model (?); Kontext und Diagramme vereinheitlichen; Wissen bestätigen; neue Aspekte kennenlernen
 - Herr Christmann als Tutor: TU Berlin Informatik; Künstliche Intelligenz; wissensbasierte Systeme; Embedded Bereich; Projektleiter; Teamleiter; "Qualität" am Ende; so spannend; dann zu Software Quality Lab; dort zufrieden; "wie kann man Qualität sicherstellen"?
--- Bereiche: Beratung; A-Spice-zertifizierung; Prozesses, klassisches Academy-Geschäft (UML, Scrum, Requirements; Testing; ..); operatives Geshäcft (Testmanager) - "Vorarlberg ist klein"; Frameworks entwickeln; kodieren; Werkzeuge (nicht nur nebenher anschaffen ..),
+-- Bereiche: Beratung; A-Spice-Zertifizierung; Prozesses, klassisches Academy-Geschäft (UML, Scrum, Requirements; Testing; ..); operatives Geshäcft (Testmanager) - "Vorarlberg ist klein"; Frameworks entwickeln; kodieren; Werkzeuge (nicht nur nebenher anschaffen ..),
 - Was kann man tun, damit man nachher nicht versucht zwanghaft Qualität hineinzutesten. Sondern, dass Qualität von Anfang an entsteht?
 - Presencetrainings auch wieder machbar, da Masken doch recht gut schützen.
 
@@ -106,7 +106,7 @@ Dezentrale Architektur:
 - WAS: funktionale anforderungen beschreiben, was gemacht werden soll; Funktio, Verhalten, Strukturen
 - nichtfuntkionale A., Qualitätsanforderung: natürlichsprachig dokumentiert (daher meist ncith qualifizierbar); daher messbar machen was nicht messbar ist; "ein schönes userinterface", "ein schnelles system"; quantifizierbar machen; Zeiten, Usability (entsprechend einigen Regeln);
 
-ISO 25010: listet Qualitätsmerkmale; diese sichten
+### ISO 25010: listet Qualitätsmerkmale; diese sichten
 - Basis um mit der Fachlichkeit die Diskussion zu starten .. [TODO anschauen; definitiv]
 -- Funktionale Eignung, Zuverlässigkeit, Benutzbarkeit, Performance, Sicherheit, Kompatibilitöt, Wartbarkeit, Portierbarkeit
 -- Beispiel: "schnell" je nach Sichtweise subjektiv: 10s kann für ein Dokument-Öffnen für den Dienstleister ok sein, aber nicht für Anwender (-> Zeitverlust akkumuliert sich schnell übers Jahr, daher auch Geldverlust)
@@ -119,7 +119,7 @@ ISO 25010: listet Qualitätsmerkmale; diese sichten
 - je nachdem wo man die Lösung platziert, sind manche Einflußfaktoren sehr gespannt
 - deshalb ist Kommunizieren und proaktives Abholen der Beteiligten notwendig
 
-- [check this!] Kano-Modell:
+### [check this!] Kano-Modell:
 -- müssen alle Anforderungen umgesetzt werden um den Kunden zufriedenstelen?
 -- Basisfaktoren: definitiv; Kunde wird diese nicht nachfragen; Kunde wird diese nicht nachfragen im Erfolgsfall; maximal Nulllinie
 -- Leistungsfaktoren: mehr machen als die Konkurrenz -> auslieferbar
@@ -132,29 +132,29 @@ ISO 25010: listet Qualitätsmerkmale; diese sichten
 - unter Wasseroberfläche: 2/3 des eisberges sind unsichtbar; nicht kommunizert, Annahme, dass andere es gleich interpretieren
 [Pause bis 12:50]
 
-- [Ex!] Übung 1.1.2
--- "willleihen": Idee für webapp zum nachbarschaftlichen Ausleihen von Werkzeugen (am Wochenende)
--- Seite 19ff in dem ÜbungsPDF sind die Anfangsdaten für die "App"
--- Fokus auf die nichtf. Anforderungen und Qualitätscharakteristiken nach ISO 25010 (Checkliste) --> see: ![](Day1_ISO25010.png)
--- Fragen zur Spezifikation an Trainer stellen; er ist der Auftraggeber
+### [Ex!] Übung 1.1.2
+- "willleihen": Idee für webapp zum nachbarschaftlichen Ausleihen von Werkzeugen (am Wochenende)
+- Seite 19ff in dem ÜbungsPDF sind die Anfangsdaten für die "App"
+- Fokus auf die nichtf. Anforderungen und Qualitätscharakteristiken nach ISO 25010 (Checkliste) --> see: ![](Day1_ISO25010.png)
+- Fragen zur Spezifikation an Trainer stellen; er ist der Auftraggeber
 My notes:
--- Nichtfunktionale Anforderungen:
---- Ressourcenverbrauch
---- Performance (1000 Anfragen /Minute; 3 Sekunden Antwortzeit) -> was ist eine Anfrage? Wie sieht das im API aus?
---- Datenschutz (Vertraulichkeit)
---- Benutzbarkeit für Oma
---- portierbarkeit (für mobile Systeme)
---- Datensicherheit
---- Zuverlässigkeit (Zurückgeben muss technisch gewährleistet sein)
+- Nichtfunktionale Anforderungen:
+-- Ressourcenverbrauch
+-- Performance (1000 Anfragen /Minute; 3 Sekunden Antwortzeit) -> was ist eine Anfrage? Wie sieht das im API aus?
+-- Datenschutz (Vertraulichkeit)
+-- Benutzbarkeit für Oma
+-- Portierbarkeit (für mobile Systeme)
+-- Datensicherheit
+-- Zuverlässigkeit (Zurückgeben muss technisch gewährleistet sein)
 
--- Randbedingungen
---- Geschäftsmodell
---- Provision
---- Landkarte darstellen (woher?)
---- Teamgröße (wieviele Leute eigentlich zur Verfügung?) 4 Entwickler, 1 Tester, 1 Scrum-Master, 1 PO (CEO)
---- Rechtliche Aspekte: DSVGO
---- Zeit und Budget?
---- Partnerschaft mit Social Networks zum Authentifizieren
+- Randbedingungen
+-- Geschäftsmodell
+-- Provision
+- Landkarte darstellen (woher?)
+-- Teamgröße (wieviele Leute eigentlich zur Verfügung?) 4 Entwickler, 1 Tester, 1 Scrum-Master, 1 PO (CEO)
+-- Rechtliche Aspekte: DSVGO
+-- Zeit und Budget?
+-- Partnerschaft mit Social Networks zum Authentifizieren
 
 -- Wechselwirkungen
 --- 2/4/i (see the use cases ..)
@@ -162,12 +162,13 @@ My notes:
 --- 9/4/e
 --- 7/e
 
-# Systemabgrenzung
+## Systemabgrenzung
 - Systemkontext: Diskussion sehr gut mit Fachbereichen machbar
 - guter Projektleiter wird aber das gleiche machen: erstmal checken, was ist innerhalb und was ist außerhalb der Systemgrenzen; wen zum Meeting einladen, wen nicht?
 - anfangs die Systemgrenzen unscharf
 - Datellungsformen: Use-Case-Diagramm (Stärke und das Ziel; auf innere Darstellung kann verzichtet werden; Abhängigkeitsbeziehung; Pfeil immer in Richtung der Abhängigkeit; von Akteur zu 'use'; Person oder anderes Steereotyp, Aussagegehalt recht groß); Komponentendiagramm
-- [Ex!] Willleihen als Use-Case-Diagramm: see ![](Day1_WillLeihenUseCase.png)
+
+### [Ex!] Willleihen als Use-Case-Diagramm: see ![](Day1_WillLeihenUseCase.png)
 -- DomainDrivenDesign: Unter welcher Fragestellung wird das UseCasediagramm gerade modelliert?
 --- Google: BusinessBenefits/BusinessCases? wer ist von wem abhängig?
 --- WL (WillLeihen): -> aus dem Diagramm entstehen recht viele MakeOrBuy-entscheidungen; da Top-down, kann man dasmit vielen diskutieren, sehr schnittstellenbasierte Sicht
@@ -202,7 +203,7 @@ My notes:
 -- wording: am besten in Muttersprache; am besten wegen dem größeren Wortschatz und Feinheiten
 [Pause bis 14:55]
 
-[Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see ![](Day1_Schnittstellen.png)
+### [Ex!] Aufteilung der Ports (nach außen) - fachlicher Art: see ![](Day1_Schnittstellen.png)
 - [check this] IAM: Identity-and-Access-Management (Registrierung; Authentifizierung; Authorisierung - all in one); see https://en.wikipedia.org/wiki/Identity_management
 - nur Nutzung beschreiben, aber keine Datenflüße abbilden! siehe: werbenetzwerk und Werbung und SAE-Logik
 - Dinge, die zusammengehören, auch zusammen gruppiert. Use-Case-Prinzip mit Akteur als Generalisierung und Spezialisierung auch machbar
@@ -210,7 +211,7 @@ My notes:
 - welche Komponenten priznipiell instabil: emhr ausgehen Kanten als eingehende; siehe SAE-Logik (wird kritische Komponente werden)
 - in der Diskussion ist das Problem einen Schritt klarer geworden :)
 
-## Zusammenfassung Tag 1:
+## Summary Day 1
 - siehe: ![](Day1_Zusammenfassung.png)
 - Architektur ist die Verortung von Funktionalität; damit nichtfunktionale Anforderungen erfüllt werden
 - Projektziele vs. Architekturziele (Architekturziele eher längerfristiger Natur; Projektziele sind kurzfristig)
@@ -238,7 +239,7 @@ My notes:
 Hausarbeit für Morgen:
 - zu allem, was man heute gehört hat, sich eine MultipleChoice oder "Ja/Nein"-Frage überlegen (siehe zu der Übersicht Zusammenfassung)
 
-# 20200825 - day 2
+# 20200825 - Day 2
 
 Potentielle Fragen:
 - Wobei unterstützen Architekten
@@ -411,13 +412,13 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - MDA: model driven architecture: fachliche und technische aspekte trennen
 - domain driven design: gemeinsame Sprache, Widerverwendbarkeit auf logischer Ebene
 
-- 3 goldene Regeln für Architekturentwurf:
--- verwende Standardlösungen
--- Beginn mit der Facharchitektur
--- hohe Kohäsion, geringe Kopplung
--- keine Annahmen über die struktur der bausteine vornehmen
--- iterativ vorgehen
--- Entscheidungen dokumentieren
+### 3 goldene Regeln für Architekturentwurf:
+- verwende Standardlösungen
+- Beginn mit der Facharchitektur
+- hohe Kohäsion, geringe Kopplung
+- keine Annahmen über die struktur der bausteine vornehmen
+- iterativ vorgehen
+- Entscheidungen dokumentieren
 
 # Entwurfsmuster
 - jedes Muster für nichtfunktionale Anforderungen hat Stärken und Schwächen: Schichten bei Testung und Austauschbarkeit, aber Probleme bei Performanz, ..
@@ -440,7 +441,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - Observer: "don't call us, we call you"; 
 - State: ermöglicht Objekt sein Verhalten zu ändern, wenn sein innerer Zustand sich ändert
 
-[Ex!] Describe those three patterns to the other users without naming them:
+## [Ex!] Describe those three patterns to the other users without naming them:
 - Factory: Erzeugungsentwurfmuster; Anforderung von Objekten mit bestimmten Eigentschaften, die man aber nicht selber explizit instanziieren möchte
 - Gateway: stackoverflow: "Facade provides a simple uniform view of complex internals to (one or more) external clients; Gateway provides a simple uniform view of external resources to the internals of an application." Gateway erzeugt einen einzeitlichen Blick auf externe Ressourcen für eine Applikation
 - Registry: globales Zugriffspattern zm mithilfe eines Keys ein Objekt zu finden (hat Hinzufügemethode)
@@ -1059,7 +1060,7 @@ Trainer: Architektenrolle hat gerade ein Aufwind; wird stärker als eigene Rolle
 
 - [check this] Protobu (model): generiert interfaces für java, c++, python ... 
 
-- Postkasten als Analgoei für MessageQueue
+- Postkasten als Analogie für MessageQueue
 
 ### todos (for me, for the preparation for the exam)
 - check the whole text for typos and inconsistencies
