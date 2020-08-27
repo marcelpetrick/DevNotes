@@ -916,7 +916,59 @@ zahl abstrakter Klassen / alle Klassen
 
 ## Werkzeuge für Softwarearchitekten (Kapitel V)
 
+- Wie und welches Tooling kann man innerbetrieblich einführen?
+- in der Praxis entscheidet häufig der Preis
+- Anforderungen werden nicht erhoben
+- keine systematische Evaluierung: wird praktikanten überlassen, keine bewertungskrierien, nicht dokumentiert, keine nachvollziehbarkeit
 
+### Anforderungsmangement
+- z.b IBM Jazz Doors BG; manche auch mit Confluence
+- Polarion (Siemens): auch sehr altbacken
+- Rückverfolgbarkeit, traceability bei Veränderungen
 
+### Modellierung
+- Flipchart: anfanglich sehr hilfreich 
+- MagicDraw:
+- Enterprise Architect
+- soll das Metalmodell der Modellierung verstehen: also rechtzeitiges Feedback was geht und was nicht geht im Sinne des Codemodells
+- Generierungswerkzeug
+- Reverse Engineering: teilweise auch möglich
+- verschiedene Sichten unter verschiedenene Fragestellungen; dies kann eine Software aber nicht - Sinn und Zweck unbekannt; daher oft eine syntaktische Übersetzung von Code zu Diagramm
+[check this] Konnte man Dia nutzen um PlantUml Diagramme zu erzeugen?
+- Anleitung des Tools möchte man nicht lesen, wenn man UML versteht, also intuitives Verständnis
+- Modellieren heißt "Spielen"; auch Sachen ausprobieren; Modellierungsvorgang ist ein Lösungsfindungsprozess
+- Unterstützung um zehn Schritte zurückgehen sollte möglich sein
+
+## Statische Analyse
+- kann grundlage für refactoring sein
+- kriterien: automatisierbarket, aufbereitung und visualisierung der ergebnisse; unterstützte Analysekriterien und metriken
+- Kohäsion kann mit SCA nicht gemessen werden- jarchitect, sonarqube
+
+### dynamische analyse
+- jmeter; taskmanager (lol)
+- lieber Standardsoftware
+
+### Generierung
+- Übereinstimmung von Architekturmodell und Imülementierung gewährleisten
+- Code soll lesbar sein
+
+### Dokumentation
+- zielgruppengerecht
+- Lesesequenzen zur Verfügung stellen
+- Wikis mit unterschiedlichen Inhaltsverzeichnissen
+- mehrere Benutzer unterstützen (gleichzeitig)
+
+### Build management
+- verschiedenartige Werkzeuge einbinden
+- Performance ist kritisch
+
+### Konfiguration
+- Baseline ziehen; notwendig um zu einem bestimmten Zustand zurückzukehren
+- Zuordnung und Selektion von Konfigurationselementen zu einer Konfiguration
+- Inventarisierung
+- Rekonstruktion einer Konfiguration
+
+- Preis kein gutes Kriterium für die Auswahl
+- aber Preis-/Leistungsverhältnis
 
 
