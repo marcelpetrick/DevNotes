@@ -812,3 +812,30 @@ Produktqualität: Fehlerhäufung, Fehlercluster; MTBF (mean time between failure
 ![](Day3_question35.png)
 ![](Day3_question36.png)
 ![](Day3_question37.png)
+
+# 20200827 - day 4
+
+## recapitulation
+
+0. Ist ATAM TOP Down oder 
+TD; von geshcftszielen
+
+1. Was ist ein qualitätsbaum?
+Entsteht aus ATAM? Qualitätsziele bei ATAM mit stakeholdern bewerten; und dann entscheiden inwiefern jedes
+- untersuchung der wechselwirkungen
+
+2. Vier hauptpphasen des ATAM?
+vorbereitung, kickoff, bewertung, report (abschluss)
+
+3. werden die A.-ansätze während des Atams überarbeitet?
+nein, wir schauen, ob wir sie überarbeiten müssen (wie retrospektvie)
+
+4. was sind die vier phasen des risikomanangements?
+erfassung, Risikobewertung (Reihung), management (maßnahmen),  todos
+- was kann man tun?
+ eintrittswahrshcinlichkeit verrringern, impact verrringern, akzeptieren, absolut vermeiden (projekt nicht machen)
+ 
+ 5. entscheidungsfindungsprozess? siehe auch arc42-template?
+ 
+
+## Werkzeuge für Sopftwarearchitekten (Kapitel V)
