@@ -1012,7 +1012,6 @@ zahl abstrakter Klassen / alle Klassen
 - aber Preis-/Leistungsverhältnis
 
 # Prüfungsfragen von gestern fertig machen:
-insert threen screenshots there
 
 ![](Day4_question01.png)
 -----
@@ -1023,4 +1022,45 @@ insert threen screenshots there
 
 Frage:
 - Kopplung: bei Datentypen verringern -> Daten textuell becshreiben
-JSON, XML, ... texctuell statt binär, so dass man sich das Format nachträglich zusammenpuzzlen kann
+- JSON, XML, ... textuell statt binär, so dass man sich das Format nachträglich zusammenpuzzlen kann
+
+- textuell (wie REST) auch heute ein Ding wegen Performance
+- früher war jedes Byte (Bit) wichtig
+
+Kernsatz des ganzen kurses
+- "ich möchte ein bewusstsein innerhjalb der organisation schaffen, dass es die eprfekte architektur aufgrund der wechselwirkung von einflussfaktoren nicht gibt"
+- aber zu jedem zeitpuntk die beste alternative auswählen
+- es gibt nicht den perfekten ansatz; der aber trotzdem tragfähig ist
+- Technik, Kommunikation
+
+- Daimler hat Ansatz: explizite Architekten für Teams von 1k Leuten
+
+- Eclipse hat einen Haufen Entwurfsmuster im Code
+- bei Airbus versucht auf Basis dieser Muster zu entwickeln
+- Einarbeitung aufwendig
+
+Trainer: Architektenrolle hat gerade ein Aufwind; wird stärker als eigene Rolle wahrgenommen; (vor 4 jahren eher erfahrener Entwickler); derzeit mehr als Kommunikationsrolle innerhalb der Organisation; sehr stark in der Schweiz, Deutschland entwickelt sich (größtenteils in Technikdenke verhaftet); 
+- Verständnis dass man darüber die größte Hebelwirkung hat; Entwicklungswerkzeuge immer mnächtiger, daher da wenig Verbeserungsbedarf
+- Buchtipp: "Fundamentals of Software Architecture- An Engineering Approach" von Mark Richards & Neal Ford - maybe buy; 43 euro
+
+- Projektmanager und RequirementsEngineer dankbar für Risikoeinschätzungen
+[Pause 10:45]
+
+## Some example from the real world
+- grown project, needs a bit restructuring, but "how"?
+
+![](Day4_example_from_realworld.png)
+-----
+![](Day4_example_from_realworld_restructured.png)
+-----
+
+- "model repo implementiert das model repo interface"
+- zwei modelle: then model repository
+
+- [check this] Protobu (model): generiert interfaces für java, c++, python ... 
+
+
+### todos:
+- check the whole text for typos and inconsistencies
+- reread the whole stuff
+- read the prüfungs-confirmation from certible
