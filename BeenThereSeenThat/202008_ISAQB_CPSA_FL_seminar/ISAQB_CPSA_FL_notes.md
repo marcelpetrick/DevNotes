@@ -977,7 +977,7 @@ zahl abstrakter Klassen / alle Klassen
 [check this] Konnte man Dia nutzen um PlantUml Diagramme zu erzeugen?
 - Anleitung des Tools möchte man nicht lesen, wenn man UML versteht, also intuitives Verständnis
 - Modellieren heißt "Spielen"; auch Sachen ausprobieren; Modellierungsvorgang ist ein Lösungsfindungsprozess
-- Unterstützung um zehn Schritte zurückgehen sollte möglich sein
+- Unterstützung "um zehn Schritte zurückgehen" sollte möglich sein (Undo/Redo)
 
 ## Statische Analyse
 - kann grundlage für refactoring sein
@@ -1028,7 +1028,7 @@ Frage:
 - früher war jedes Byte (Bit) wichtig
 
 Kernsatz des ganzen kurses
-- "ich möchte ein bewusstsein innerhjalb der organisation schaffen, dass es die eprfekte architektur aufgrund der wechselwirkung von einflussfaktoren nicht gibt"
+- "ich möchte ein bewusstsein innerhalb der organisation schaffen, dass es die perfekte architektur aufgrund der wechselwirkung von einflussfaktoren nicht gibt"
 - aber zu jedem zeitpuntk die beste alternative auswählen
 - es gibt nicht den perfekten ansatz; der aber trotzdem tragfähig ist
 - Technik, Kommunikation
@@ -1059,8 +1059,17 @@ Trainer: Architektenrolle hat gerade ein Aufwind; wird stärker als eigene Rolle
 
 - [check this] Protobu (model): generiert interfaces für java, c++, python ... 
 
+- Postkasten als Analgoei für MessageQueue
 
-### todos:
+### todos (for me, for the preparation for the exam)
 - check the whole text for typos and inconsistencies
 - reread the whole stuff
 - read the prüfungs-confirmation from certible
+
+### Conclusion:
+- iterativ, inkrementelles Vorgehen ..
+- bei Modellierung verschiedene Ansätze durchsprechen
+- Kommunikation, proaktives Vorgehen
+
+### Anwesenheitsbescheinigung!
+- Trainer sagt Organisation bescheid; falls nächste Woche nicht 'da', dann nachhaken
