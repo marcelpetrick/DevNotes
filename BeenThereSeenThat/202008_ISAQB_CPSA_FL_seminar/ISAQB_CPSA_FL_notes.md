@@ -835,7 +835,88 @@ erfassung, Risikobewertung (Reihung), management (maßnahmen),  todos
 - was kann man tun?
  eintrittswahrshcinlichkeit verrringern, impact verrringern, akzeptieren, absolut vermeiden (projekt nicht machen)
  
- 5. entscheidungsfindungsprozess? siehe auch arc42-template?
- 
+5. entscheidungsfindungsprozess? siehe auch arc42-template?
+ - annahmen dokumentieren, alternativen, klare entscheidung mit begründung [check this] one is missing
+   (- wir sind generalisten)
 
-## Werkzeuge für Sopftwarearchitekten (Kapitel V)
+6. Was ist die erste und wichtigste Frage bei der Dokumentation
+wer soll das lesen? zu welchem zweck? (brauche ich das überhaupt)
+- Inhalte, Detailierungsform folgen dieser Annahme
+- Völlständigkeit kein Qualitätsmerkmale
+- VAWEK: verständlich, angemessen, wartbar, effizient, korrekt,
+- Änderungen nachverfolgbar
+
+7. weie doku schreiben?
+- iterativ, inkrementell
+
+8. scrum nicht dokumentieren? weil alles in user stories steht
+falsch, agile manifesto funktioniren software wichtiger als doku
+
+9. UML: sichtenbasierte architektur: welche vier sichten? Und welche Dokus
+- Kontext (Use-cases)
+- Baustein (Klassendiagram, Packagediagram, Componentdiagram, kompositionsstrukturdiagram)
+- Laufzeit (seqeunz, aktivitäs, zustandsdia.)
+- verteilungssicht (verteilungsdiagram)
+
+10. Warum bringt nur UML nichts?
+- In der Sprache des Lesers bleiben
+- fokussieren auf einfache Dinge
+- wissen entwickeln, Leser etwas klar machen, nicht mdoellgetriebene Entwicklungsteam
+
+12. zwei vorlagen für schnittstellenebeschreibungen?
+- arc42-vorlagen:
+- paul clements (kleiner als arc42)
+
+13. in welche richtung beschreibeun wir zeitpunkt und detailierungsgrad?
+innen nach außen
+oder außen nah innen?
+--> außen nach innen
+
+14. Was ist das *)
+der lolly? schnittstelle: anbieter und nutzer
+
+15. dependecncy inversion
+- beziehung umdrehen: zwischen wem? entkoppplung auf grundlage der depdency injection
+- sich von etwas abstraktem abhängig machen
+
+16. Qualität
+- heisst das keine bugs? nein
+- dem user das bieten, was er als bedürfsnis oder spezifizierte anforderung fordert
+
+17. qualität am ende des projekts mahcen oder regelmäßig?
+regelmäßig um im korridor der effizienten sw-entwicklung bleiben, mal technsiche schulden aufbauen, mal abbauen
+- um kompletes neuschreiben zu vermeiden
+
+18. zwei aktegorien zumm bewerten von qualität:
+- qualitative und quantitative:
+codezeilen
+- mccabe: anzahl binäroperation+1
+- funktionen:  <10; klassen: <100
+
+19. Kohäsion und Kopplung durch Werkzeuge berechnen lassen?
+- nein, beides nicht. wird schwer
+- deshalb hat Robert C. martin das maß der instalbiltä, abstrakheit und distanz entwickelt: je mehr abhängigkeiten man hat, desto abstrakter sollte ich werden
+- je mehr andere von dir abhängig sind
+- von je weniger ich abhänge, desto stabiler bin ich [check this]
+- je mehr von mir abhängig sind, desto abstrakter sollte ich sein
+- wie sollte man die stabilität und instabilität berechnen: ausgehenden Kanten anschauen, eingehende; dann ausgehende durch summe (eignehende und ausgehende)
+
+20. abstraktheit nach welcher formel berechnen?
+- Anzahl der ... geteilt durch ..?
+zahl abstrakter Klassen / alle Klassen
+- gestern auch gesehen, auch wenn das quantifiziert und durch formeln belegt: dieses maß ist nur ein teil; weil in dem einen ebeispiel sich der code verbessert, das maß aber verschlechtert
+
+21. Welche Maße kennt man aus dem Testen?
+- Testabdeckung, Verzweigungen, Fehlerhäufungen, MTBF
+- SA und Testmanager sollten sehr oft miteinander Kaffee trinken
+
+22. Was ist der ACD
+- average component dependency; durchschnittliche abhängigkeit der bausteine
+- dependency inversion durch umdrehen von abhägingkeiten kann helfen
+
+## Werkzeuge für Softwarearchitekten (Kapitel V)
+
+
+
+
+
