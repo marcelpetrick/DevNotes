@@ -971,4 +971,17 @@ zahl abstrakter Klassen / alle Klassen
 - Preis kein gutes Kriterium für die Auswahl
 - aber Preis-/Leistungsverhältnis
 
+# Prüfungsfragen von gestern fertig machen:
+insert threen screenshots there
 
+-----
+![](Day4_question01.png)
+-----
+![](Day4_question02.png)
+-----
+![](Day4_question03.png)
+-----
+
+Frage:
+- Kopplung: bei Datentypen verringern -> Daten textuell becshreiben
+JSON, XML, ... texctuell statt binär, so dass man sich das Format nachträglich zusammenpuzzlen kann
