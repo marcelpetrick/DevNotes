@@ -485,12 +485,12 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 -- L: Liskov Substitutionsprinzip
 -- I: Interface-Segregation-Principle
 -- D: Dependency-Inversion-Principle
-+ Vermeidung zyklischer Abhängigkeiten
+-- zusätzlich: Vermeidung zyklischer Abhängigkeiten
 
 - Separation of concerns
 - Information Hiding: Geheimnisprinzip
-- niedrige Kopplung, Hohe Kohäsiion
-- open/closed principle: Sachen dazupacken
+- niedrige Kopplung, hohe Kohäsiion
+- open/closed principle: Sachen dazupacken (erweiterbar gut), aber gegenüber Änderungen abgeschlossen
 
 - Dependency inversion: abstraktes Interface hat immer nur eingehende kanten; in welcher ebene ansiedeln? natürlich "unten" (zum Austauschen)
 - daher lieber zur vollen Flexibilit durch extra Schichten ; aber letztendlich Designentscheidung
