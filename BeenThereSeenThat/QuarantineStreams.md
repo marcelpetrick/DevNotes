@@ -49,5 +49,8 @@ https://youtu.be/vtWnqqSUzrY - definitely a quicker way to cover more case witho
 ## 20200812 mucpp: Klaus Igelberger - Calling Functions: A Tutorial
 TODO: https://www.twitch.tv/videos/709132681 - couldn't watch live, but I expect some insights. Last time I throught about function-calls was while we implemented a compiler at study times. Will be definitely not a guide to simply call a function xD
 
-## todo: https://youtu.be/502ILHjX9EE
-"Agile Product Ownership in a Nutshell"
+## 20200902: refresher of what is agile ..
+"Agile Product Ownership in a Nutshell" - https://youtu.be/502ILHjX9EE  
+"Splitting User Stories - Agile Practices" - https://youtu.be/EDT0HMtDwYI  
+
+
