@@ -53,4 +53,6 @@ TODO: https://www.twitch.tv/videos/709132681 - couldn't watch live, but I expect
 "Agile Product Ownership in a Nutshell" - https://youtu.be/502ILHjX9EE  
 "Splitting User Stories - Agile Practices" - https://youtu.be/EDT0HMtDwYI  
 
+## 20200917 - Python Show: Isabella Capilla (Munich): Exploring the DNA with Python
+https://www.youtube.com/watch?v=6_UYCUP2Vus
 
