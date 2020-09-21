@@ -56,3 +56,6 @@ TODO: https://www.twitch.tv/videos/709132681 - couldn't watch live, but I expect
 ## 20200917 - Python Show: Isabella Capilla (Munich): Exploring the DNA with Python
 https://www.youtube.com/watch?v=6_UYCUP2Vus
 
+## 20200919 - #QtWS19 Yocto for open source embedded systems development - Jeff Tranter
+https://youtu.be/AfVMsSADIlw
+See as well subdir "20200919_yocto" for screenshots.
