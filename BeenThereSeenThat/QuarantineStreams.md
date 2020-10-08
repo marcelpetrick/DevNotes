@@ -59,3 +59,7 @@ https://www.youtube.com/watch?v=6_UYCUP2Vus
 ## 20200919 - #QtWS19 Yocto for open source embedded systems development - Jeff Tranter
 https://youtu.be/AfVMsSADIlw
 See as well subdir "20200919_yocto" for screenshots.
+
+## 20201008 - Markus Klemm - C++ combined JavaScript for modern GUI development (C++ UG Dresden)
+Just stream, no recording yet. His approach with NPM and Electron for the JS-Frontend was similar to what QML from Qt is.
+Maybe will give it try.
