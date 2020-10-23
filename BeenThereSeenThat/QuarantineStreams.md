@@ -63,3 +63,7 @@ See as well subdir "20200919_yocto" for screenshots.
 ## 20201008 - Markus Klemm - C++ combined JavaScript for modern GUI development (C++ UG Dresden)
 Just stream, no recording yet. His approach with NPM and Electron for the JS-Frontend was similar to what QML from Qt is.
 Maybe will give it try.
+
+## 20201022 - Qt Summit 2020
+* pure virtual presentation via talks; up to four at parallel
+* screenshots at [20201022_QtSummit2020]
