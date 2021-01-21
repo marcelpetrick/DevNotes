@@ -64,8 +64,8 @@ tipps:
 * Sandwichmethode: erst was positives; dann der Wunsch; dann noch einmal etwas positives-> Feedback kann so am besten verarbeitet werden
 -> Gespräch öffnen, dann sagen, dann noch einmal positiv herausgehen
 * [to read](https://karrierebibel.de/richtig-loben-und-motivieren/) [kritik an sandwich](https://karrierebibel.de/sandwich-kritik/)
-* feedback regeln
-* positives shctzen und benennen
+* feedback-regeln
+* positives schätzen und benennen
 * kein aber, dann kann man sich den ersten satz gleich schenken
 * es ernst meinen, wenn man positives feedback gibt
 * haltung: es wirklich konstruktiv meinen; nicht nur "loswerden" oder jemanden etwas reindrücken
@@ -81,3 +81,28 @@ tipps:
 * resümieren; aber auch andere sachen zur seite legen
 * oder einfach nachfragen: falls doppeldeutig
 * verschriftlichen
+
+## Kommunikationstechniken
+* aktives Zuhören: zuwenden, akustisches Feedback, nicken: (wiki)[https://de.wikipedia.org/wiki/Aktives_Zuh%C3%B6ren]
+  (* mag alles idealisiert sein, aber ohne ziele bewegt man sich nirgendwohin)
+* Ich-Botschaften: Aufbau und Verwendung
+* Der Ton macht die Musik: paraverbale und nonverbale Kommunikation (alles, was über die Stimme vermittelt wird; Intonation)
+  * Stand und Haltung; Gestik und MimiK; wie aufrecht steht man?
+
+Plan: dies folgt aber in der zweiten Hälfte
+
+* feedback geben hat etwas mit "Spiegeln" zu tun
+
+* vier ohren zum zuhören: verschiedene Ohren
+* mit allem, was man sagt, offenbart  man sich selbst
+* Feedbackrunde mit Christian
+
+* Spielregeln und auch Agenda
+* "Innere Haltung": das, was man denkt, auch nach außen zeigen
+
+--> gute Idee: Ich-Botschaft und am Ende die gewünschte Verhaltensänderung äußern
+
+### Hausaufgabe:
+* Holt euch Feedback ein.
+* von Kollegen, Familienangehörigen, Freunden, stellt Fragen zu eurer Außenwirkung
+* auch schauen wie die andere Person Feedback gibt
