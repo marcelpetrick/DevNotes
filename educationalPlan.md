@@ -20,3 +20,4 @@
 * take care that the stuff is officially tested and certified: 2 days à 8 hours are most of the times offered
 * scrum alliance wants 2.400 to 2.500€ for "Certified Scrum Product Owner"; scrum.org calls it "Professional Scrum Product Owner" for 1.400 + VAT
 
+* took & booked PSPO for end of March ... hey ho, let's go!
