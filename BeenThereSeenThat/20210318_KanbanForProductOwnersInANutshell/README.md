@@ -16,4 +16,11 @@
 * kanban is board where YOU visualize how YOU work
 * sequential versus multitasking ![](meetup_20210318_3.png)
 * "get more done by doing less"; limit yourself on what you are doing, to be more predictable, and to deliver faster
+* additional time is needed for "Umrüstung des Gehirns"; less flow with lots of tasks
+* add some balance: less task switching is what is aimed for
+* 'stop starting, start finishing!' - angefangene Dinge haben keinen Wert
+* pull limits, WIP limits?
+* commitment process mit stakeholdern klar definieren: sachen werden erst "real" bearbeitet wenn sie in "selected" sind und nicht wenn sie (stakeholder) den PO angerufen haben
+* gewohnheitsmäßig folgt alles dem Schema: wer (bei mehrerern Stakeholdern) am lautesten schreit, wird zuerst bedient; wie kann man dies handhaben? Weil man sonst nur Feuerwehr spielt?
+* Kanban regelt dies durch Indentifizierung der externen Abhängigkeiten; gibt auch Regeln dies zu managen
 * 
