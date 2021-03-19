@@ -31,5 +31,7 @@ Frage: prüfungsthematik; wann und wie einschreiben?
 * online; 80 fragen, 60 min; vorbereitung: open assessments of scrum.org;
 * scrum product owner plus scrum master open assessment anzugehen (siehe email bzw chat):
 <https://www.scrum.org/open-assessments>
+* während/nach Schulung: mail von scrum.org mit password und link für Prüfung: ersten Versuch bitte bevor 14 Tagen herum sind; bei Nichtbestehen zweiter Versuch kostenfrei
+* halbe Stunde vorher schon online in Zoom:
 
-
+-- bis 0900 Donnerstag --
