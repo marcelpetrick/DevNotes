@@ -35,7 +35,10 @@ simplified chinese, pinyin, english
 他 	tā - he or him  
 她 	tā - she or her  
 我们 	wǒmen - we or me  
+
 这/这儿 	zhè/zhèr - this/here  
 那/那儿 	nà/nàr - that/there  
+
+猫 māo - cat :3
 
 [TBC]
