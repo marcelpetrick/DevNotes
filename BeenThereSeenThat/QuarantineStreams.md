@@ -67,3 +67,9 @@ Maybe will give it try.
 ## 20201022 - Qt Summit 2020
 * pure virtual presentation via talks; up to four at parallel
 * screenshots at [20201022_QtSummit2020]
+
+[big block of missing entries ..]
+
+## FMEA – Zusammenfassung 7 Schritte
+<https://www.youtube.com/watch?v=Ut8V35ZTBdk>
+
