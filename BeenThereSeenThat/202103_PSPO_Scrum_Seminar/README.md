@@ -80,13 +80,13 @@
 * in product backlog kann es mehr als für product goal braucht, geben
 * ziel einer sprint iteration: welchen value will man zu dem product hinzufügen?
 
-### task: Visualisierung von SCRUM schaffen (um jemenaden, der scrum nicht kennt, es zu erklären)
+### task 45: Visualisierung von SCRUM schaffen (um jemenaden, der scrum nicht kennt, es zu erklären)
 * wie spielen SM, PO und Devs zusammen?
 ![](screen03.png)
 ![](screen04.png)
 
-* scrum framework als produktentwicklung
-* PO hat entweder Eigenidee für produkt oder jemand anders hat die Idee (Vision)
+* scrum framework als Produktentwicklung
+* PO hat entweder Eigenidee für Produkt oder jemand anders hat die Idee (Vision)
 * solange das Produkt lebt, lebt auch das Backlog (und entwickelt sich weiter)
 * zu Beginn kein Anspruch auf Vollständigkeit
 * Product backlog bietet als Möglichkeit einen Fokus
@@ -98,7 +98,36 @@
 * durch Scrum innere Konflikte aufgelöst: weil es mehrere Personen gibt
 * daily scrum: developer nehmen teil
 * ![](screen05.png)
-* 
+[break] 
+
+Links zu virtuellen Whiteboards:
+* <https://www.boardle.io/boards>
+* <https://app.mural.co/template/a7827f2d-4584-4afe-9001-55e83efc13dd/8b74b81c-adde-4dc1-be91-cdfe31f5560b>
+
+* Wer nimmt an Sprint Reviews teil? Stakeholder und gesamtes Sprintteam
+* man darf jeden sprint release, muss aber nicht
+* Anspruch haben etwas brauchbares zu entwickeln, mit Qualitätsanspruch, _Wert_ für Kunden erzeugen (Deployment-Pipeline kann ihren Wert beweisen durch Zeigen einer Loginseite für das Produkt)
+* Was wenn ein Item nicht die DoD erreicht? DoD ist Eintrittskarte für das Increment ins Review zu kommen
+* Increment ist immer _integrativ_; wenn man nicht den Qualitätsanspruch erreicht hat, dann kommt es nicht in Review
+* falls man etwa nicht "fertig" hat, dann es nicht in review packt, dann ist das Review intransparent. Weiterführung im nächsten Sprint verringert dort die Kapa, man lügt sich in die eigene Tasche, nächster Sprint langsamer, und man baut an dem qualitativ nicht sauberen Teil weiter.
+* deshalb unfertige Sachen nicht in Review packen; ehrliche Inspektion des aktuellen Standes
+* aus review wird das product backlog aufgearbeitet
+* falls man lange reviews verschiebt, dann gibt es überraschungen (nach drie monatne)
+* man macht scrum um produktentwicklung in einer komplexen welt zu betreiben
+* mechanismus um das risiko zu kontrollieren
+* sprintlänge: 2 wochen usus; aber eigentlich frage "wieviel risiko ist man bereit in kauf zu nehmen"?; je weniger risiko, desto weniger die sprintlänge - das ist etwas gutes, wenn man dies möglichst schnell feststellt
+* kürzere zyklen zu haben, shorter time to product
+* aufs extreme getrieben: lieber in einer Woche als in einem Monat (den stand herausfinden)
+* Trennung von Produkt und Prozess
+* retro: früher mindestens eine Prozessverbesserung pro Sprint, derzeit "kann"
+* refinement: backlog immer gut gepflegt (was bedeutet 'gut'? transparent und sortiert); wann betreibt man eigentlich refinement? immer wenn man muss
+* "Plans Are Worthless, But Planning Is Everything"
+* falls man prozessorientiert unterwegs ist, muss man auf dieser agilen Reise etwas loslassen
+* Scrum Schulungen als transformational, nicht esoterisch; neue Denkprozesse annehmen
+[break until 1300]
+
+
+
 
 
 
