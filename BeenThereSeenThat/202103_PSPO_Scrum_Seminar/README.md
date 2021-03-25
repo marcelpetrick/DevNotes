@@ -126,6 +126,50 @@ Links zu virtuellen Whiteboards:
 * Scrum Schulungen als transformational, nicht esoterisch; neue Denkprozesse annehmen
 [break until 1300]
 
+## agile Produktmanagement
+*  nun etwas höhere Blickrichtung: Weitsichtung; agile Produktmanagement; ganzheitliche Verantwortung für eine Produkt in seinem größten Reifegrad
+* Produktentwicklung in einer passenden agilen Vorgehensweise: wie zB Scrum
+* was haben alle drei Firmen gemeinsam? Blackberry, Kodak, Blockbuster (Videothek?)
+* Unterscheidung Netflix und Blockbuster? permamnente Evolution, Business agility, mindset impulse!
+* genauso diese Mindset wird auch von den Leadershipteams gebraucht
+* wie definiert man ein Projekt und wie ein Produkt?
+Project Management/Product Management
+![]()
+* Unteschied Projekt und Produkt in einem Sinn? Projekt Zeitschiene und Produkt Kundenzufriedenheit
+* klassisches Dreieck aus Time, scope, Budget
+* falls man budget, zeit, scope festgelegt hat, steigt der druck. agile wäre dann den scope anzupassen, er muss "atmen"
+* man hängt nicht an dem ursprungs-scope; welche adaption ist sinnvoll?
+* jedes Produkt hat einen Consumer; und einen supplier/manufacturer
+
+### Outlinenummer 13:
+* Productmanager: pricing
+*[](screen06.png)
+* accountability bleibt bei product owner
+* wenn es wirklich erlaubt wäre, den product owner zu "leben"? wer ist der wahre produkt owner in realität?
+* wieviele andere leute muss man nach erlaubnis bitten für sie produkt etwas zu tun? zwei oder drei hierarchieebenen höher
+* nur eine person von sechs seminarteilnehmern hat "happy bubble" und nur eine person als entscheidungsrechte
+* "nicht storywriter, nicht befehlsausführer, sondern product owner!"
+
+### the bigger picture (the product management onion)
+(von außen nach innen)
+* company vision
+* business strategy
+* product vision X
+* product strategy X
+* value x Solution delivery X
+* delivery & validation
+
+* die mit X markierten drei Bereiche sind ein gewisses Vakuum: Product Management Vacuum
+* dieses muss man über den Ansatz von value stabil und solide füllen
+* Vision, Value, Validation: das ist mein Modus Operandi als Product Owner
+
+
+
+
+
+
+
+* 
 
 
 
