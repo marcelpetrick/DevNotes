@@ -194,21 +194,25 @@ Hilfestellung bei Erstellung der Product vision
 * zwei Worte zur Hilfe: Sachlichkeit und Emotion; Kopf und Herz ansprechen
 * we used the vision template/a7827f2d-4584-4afe-9001-55e83efc13dd/8b74b81c-adde-4dc1-be91-cdfe31f5560b
 ![](screen12.png)
+* Pitch als Klammer gestalten: so dass Bilder im Kopf entstehen
+* nur wenn man als PO eine klare Vision hat, wird man diese auch den Entwicklern vermitteln können
 
+### Product owner and technology
+- Pro/Cons von Technologie-(Un)Kenntnis des Product Owners
+![](screen13.png)
+* weg von command&control, hin zu transparenz und vertrauen 
 
+### Strategic alignment
+* alle Modelle sind falsch, manche sind nützlich
+* diese Model hat vier Quadranten
+* technologische Ausrichtung, geschäftsstrategische Ausrichtung
 
+* zebra and hippos: lieblingsprojekte von stakeholdern, die laut schreien
+* see: <https://www.productboard.com/wp-content/uploads/2020/10/The-Essential-Guide-to-Prioritization.pdf> (with more animals)
+![](screen14.png)
 
-
-
-
-
-
-
-* 
-
-
-
-
+### take away
+![](screen15.png)
 
 
 
