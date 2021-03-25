@@ -158,10 +158,12 @@ Project Management/Product Management
 * product strategy X
 * value x Solution delivery X
 * delivery & validation
-
+![](screen07.png)
 * die mit X markierten drei Bereiche sind ein gewisses Vakuum: Product Management Vacuum
 * dieses muss man über den Ansatz von value stabil und solide füllen
 * Vision, Value, Validation: das ist mein Modus Operandi als Product Owner
+* extrem wichtig, diese drei Vs:  statt Project charter (*), Project Plans und Milestones
+(*) Project in einer Form schriftlich festzuhalten; Komplettbeschreibung
 
 
 
