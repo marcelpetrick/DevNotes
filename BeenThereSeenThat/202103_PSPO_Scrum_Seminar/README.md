@@ -39,11 +39,28 @@ Frage: prüfungsthematik; wann und wie einschreiben?
 -----------------------------------------
 ## 20210325: PSPO day 1
 -----------------------------------------
+* Glenn Lamming and Boris Steiner
 
 * Kennenlernen it Christoph in einem Breakoutroom
 * Projektmanagement, Organisationsentwicklung, im letzten Projekt agil gearbeitet, 
-[screen00.png]
+![](screen00.png)
 * Glenn: Produktmanagement-Historie
 * Boris: Informatiker; Entwicklung, schrittweise in die Scrum-Master-Rolle
 * Training sind 30%, ansonsten weiterhin aktiv als Trainer für Agilität
-* 
+* Teamforming
+* first preparation
+1. Identität: name photos purpose of scrum?
+2. wie zusammenarbeiten? working agreements?
+3. Fragen die uns umtreiben? z. B. Budgetierung? Top 1 Frage?
+
+* agile projektmanagement-methode um mehrwert zu schaffen (value)
+* PO sammelt requirements von stakeholdern; projektleiter?
+* working agreements: be on time; ask constructive questions; ; try not to fail the certificate-exam (assessment)
+* Scrum Framework; Kapitel 4 (wichtig); gemeinsames Verständis mit Begrifflichkeiten [check this]
+* heute bis Ende Value-Kapitel
+* heute: big picture auf die Sicht als Productowner
+* Feedback wall auch als Übung im Sinne der Transparenz: eat your own dogfood
+* "whispering out loud": live von dem Gedankenprozess teilhaben
+* active checkout erlaubt
+[break]
+
