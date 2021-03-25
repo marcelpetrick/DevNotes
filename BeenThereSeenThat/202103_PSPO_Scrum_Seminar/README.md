@@ -85,3 +85,22 @@
 ![](screen03.png)
 ![](screen04.png)
 
+* scrum framework als produktentwicklung
+* PO hat entweder Eigenidee für produkt oder jemand anders hat die Idee (Vision)
+* solange das Produkt lebt, lebt auch das Backlog (und entwickelt sich weiter)
+* zu Beginn kein Anspruch auf Vollständigkeit
+* Product backlog bietet als Möglichkeit einen Fokus
+* Hauptverantwortlichkeit PO in Sprint Planning? Product backlog zu kommunizieren?
+* Muss man das "Warum" kommunizieren? "Start with why"? (Simon Sinning?); sorgt für Verständnis und höheren Beteiligungsgrad; (siehe Scrum guide); was benutzt man? Sprint goal?
+* check auf: sprint ziel, sprint backlog und forecast
+(* own remark: different views from PO and developer: pm asks why i should explain the why? and not just say: do this, this and this. ..)
+* wer definiert das print goal? das team gemeinsam, für verständnis, so dass jeder es mitträgt
+* durch Scrum innere Konflikte aufgelöst: weil es mehrere Personen gibt
+* daily scrum: developer nehmen teil
+* ![](screen05.png)
+* 
+
+
+
+
+
