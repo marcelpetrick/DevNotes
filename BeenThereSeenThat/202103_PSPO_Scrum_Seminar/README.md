@@ -35,3 +35,15 @@ Frage: prüfungsthematik; wann und wie einschreiben?
 * halbe Stunde vorher schon online in Zoom:
 
 -- bis 0900 Donnerstag --
+
+-----------------------------------------
+## 20210325: PSPO day 1
+-----------------------------------------
+
+* Kennenlernen it Christoph in einem Breakoutroom
+* Projektmanagement, Organisationsentwicklung, im letzten Projekt agil gearbeitet, 
+[screen00.png]
+* Glenn: Produktmanagement-Historie
+* Boris: Informatiker; Entwicklung, schrittweise in die Scrum-Master-Rolle
+* Training sind 30%, ansonsten weiterhin aktiv als Trainer für Agilität
+* 
