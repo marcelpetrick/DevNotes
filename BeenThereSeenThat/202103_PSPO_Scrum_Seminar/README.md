@@ -10,7 +10,7 @@
 * team mural?
 * viele Informationen in Registrationsmail
 * Boris Steiner and Glenn Lamming are both PSPO trainers
-* test der erneuten Breakout-rooms: zwei teams für zehn minuten
+* test der erneuten Breakout-rooms: zwei teams für zehn Minuten
 * the participants are Bogenschützen und Radfahrer xD
 * kurze 10 min-Breakoutsession; lief gut
 
@@ -27,7 +27,7 @@
 * smily bis cryly?
 * Sachen auf dem Board kann man sich bis dahin gern anschauen!
 
-Frage: prüfungsthematik; wann und wie einschreiben?
+### Frage: Prüfungsthematik; wann und wie einschreiben?
 * online; 80 fragen, 60 min; vorbereitung: open assessments of scrum.org;
 * scrum product owner plus scrum master open assessment anzugehen (siehe email bzw chat):
 <https://www.scrum.org/open-assessments>
@@ -43,7 +43,7 @@ Frage: prüfungsthematik; wann und wie einschreiben?
 
 * Kennenlernen it Christoph in einem Breakoutroom
 * Projektmanagement, Organisationsentwicklung, im letzten Projekt agil gearbeitet, 
-![](screen00.png)
+![]((screen00.png)
 * Glenn: Produktmanagement-Historie
 * Boris: Informatiker; Entwicklung, schrittweise in die Scrum-Master-Rolle
 * Training sind 30%, ansonsten weiterhin aktiv als Trainer für Agilität
@@ -56,6 +56,7 @@ Frage: prüfungsthematik; wann und wie einschreiben?
 * agile projektmanagement-methode um mehrwert zu schaffen (value)
 * PO sammelt requirements von stakeholdern; projektleiter?
 * working agreements: be on time; ask constructive questions; ; try not to fail the certificate-exam (assessment)
+![](screen01.png)
 * Scrum Framework; Kapitel 4 (wichtig); gemeinsames Verständis mit Begrifflichkeiten [check this]
 * heute bis Ende Value-Kapitel
 * heute: big picture auf die Sicht als Productowner
@@ -63,4 +64,24 @@ Frage: prüfungsthematik; wann und wie einschreiben?
 * "whispering out loud": live von dem Gedankenprozess teilhaben
 * active checkout erlaubt
 [break]
+
+* Burndown-Chart
+* Verständnis was man für Scrum braucht?
+* Teachern "folgen", dann sieht man auch wo er auf Mural arbeitet
+
+### Begrifflichkeiten:
+* Accountabilities: Rollen? Scrum master, developer, product owner?
+* artifacts: product backlog, sprint backlog, increment! (die drei!)
+* change: alles zusammen bildet EIN team, nicht mehr "das development team" und PO, SM, ..
+* events: sprint, sprint planning, daily scrum, sprint retrospective  (sprint refinement findet nicht zu fixen ereignissen statt; muss helfen ein gesundes
+* artifact commitments: Definition of Done, Product goal, sprint goal
+![](screen02.png)
+* product vision is something completely own; gehört nicht zum core-scrum
+* in product backlog kann es mehr als für product goal braucht, geben
+* ziel einer sprint iteration: welchen value will man zu dem product hinzufügen?
+
+### task: Visualisierung von SCRUM schaffen (um jemenaden, der scrum nicht kennt, es zu erklären)
+* wie spielen SM, PO und Devs zusammen?
+![](screen03.png)
+![](screen04.png)
 
