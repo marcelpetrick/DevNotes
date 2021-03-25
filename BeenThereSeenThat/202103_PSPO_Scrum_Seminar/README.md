@@ -214,5 +214,22 @@ Hilfestellung bei Erstellung der Product vision
 ### take away
 ![](screen15.png)
 
+### what is value?
+* simplicity, monetärer nutzen, uptime
+* happiness, money terms, benefit
+* favor Value creation over Revenue Extraction
 
+### Was muss man alles machen um Wert zu schaffen?
+* Wert definieren, Kundenfeedback einholen, produkt entwickeln, qualität sicherstellen
+* ! A release is needed to deliver value!
+![](screen16.png)
 
+### What are you currently measuring.. Do you have metrics .. Are there any Incentives?
+* EBM (Evidence based Management) - key value areas
+![](screen17.png)
+
+## Product Goal Canvas:
+* vision/sense of belonging
+* [check this again!]
+
+--- end of day 1 ---
