@@ -232,4 +232,6 @@ Hilfestellung bei Erstellung der Product vision
 * vision/sense of belonging
 * [check this again!]
 
+read for myself: <https://medium.com/the-value-maximizers/10-tips-for-product-owners-on-stakeholder-management-15376dae87e8>
+
 --- end of day 1 ---
