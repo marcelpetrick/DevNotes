@@ -192,7 +192,8 @@ Project Management/Product Management
 Hilfestellung bei Erstellung der Product vision
 ![](screen11.png)
 * zwei Worte zur Hilfe: Sachlichkeit und Emotion; Kopf und Herz ansprechen
-
+* we used the vision template/a7827f2d-4584-4afe-9001-55e83efc13dd/8b74b81c-adde-4dc1-be91-cdfe31f5560b
+![](screen12.png)
 
 
 
