@@ -165,6 +165,38 @@ Project Management/Product Management
 * extrem wichtig, diese drei Vs:  statt Project charter (*), Project Plans und Milestones
 (*) Project in einer Form schriftlich festzuhalten; Komplettbeschreibung
 
+[break]
+![](screen08.png)
+* product development is a strategic and tactical team sport
+* vertical cutting, delivery&validation; nicht auf einzelne Ebenen fokussieren, sondern quer schneiden
+* maxi und marcel wetrden die glücksfeen: zahl zwischen 1 und 5, A bis E: 1A gewählt
+* "social media for prisons": das wird die aufgabe, die in den nächsten zwei tagen bearbeitet werden
+* !check Business Model canvas
+* !check Lean canvas
+* !check value proposition canvas
+* Empfehlung: lean canvas
+* see: <http://businessmodelgeneration.com>
+* unfair advantage: herausstelungpunkt, der kopieren verhindert
+
+### breakout: social media for prisons
+* für wen?
+* welches problem
+* wie werden wir geld verdienen
+* Metriken: was werden wir messen auf dem weg?
+* 15 min
+[breakout]
+![](screen10.png)
+
+### Pitch für "Höhle des Löwen"; Sponsoren gewinnen; - Produktvision entwickeln
+* Productbox: features, werbe claims,
+Hilfestellung bei Erstellung der Product vision
+![](screen11.png)
+* zwei Worte zur Hilfe: Sachlichkeit und Emotion; Kopf und Herz ansprechen
+
+
+
+
+
 
 
 
