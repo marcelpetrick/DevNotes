@@ -235,3 +235,20 @@ Hilfestellung bei Erstellung der Product vision
 read for myself: <https://medium.com/the-value-maximizers/10-tips-for-product-owners-on-stakeholder-management-15376dae87e8>
 
 --- end of day 1 ---
+
+-----------------------------------------
+## 20210326: PSPO day 2
+-----------------------------------------
+* walk the wall: Mural sichten
+* zwei Assessments: Link in Mail hat einen Link
+* Developer Open: assesment (Scrum Master & Produkt Owner)
+* Tipps zur Assesmentvorbereitung am Ende des heutigen Tages
+
+* Kachel 38 geht es weiter
+
+### Agile Manifesto
+* see: ![](screen18.png)
+
+
+
+
