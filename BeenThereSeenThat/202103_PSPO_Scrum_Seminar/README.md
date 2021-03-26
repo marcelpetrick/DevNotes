@@ -232,7 +232,7 @@ Hilfestellung bei Erstellung der Product vision
 * vision/sense of belonging
 * [check this again!]
 
-read for myself: <https://medium.com/the-value-maximizers/10-tips-for-product-owners-on-stakeholder-management-15376dae87e8>
+[todo ]read for myself: <https://medium.com/the-value-maximizers/10-tips-for-product-owners-on-stakeholder-management-15376dae87e8>
 
 --- end of day 1 ---
 
@@ -309,7 +309,7 @@ Kachel 31
 * Legacy-Application / Application
 
 * Fallstudien: "LegacyLarry" und "missing PO"
-* Miniteaching: warum ist es uns an dieser Stelle so wichtig? PO, PM und SM in einer Person? In scrumteam hat man diese drei Accountabilities; falls eine Rolle nicht besetzt ist, fehlt eine bestimmter Kernaspekt
+* Miniteaching: warum ist es uns an dieser Stelle so wichtig? PO, PM und SM in einer Person? In Scrumteam hat man diese drei Accountabilities; falls eine Rolle nicht besetzt ist, fehlt eine bestimmter Kernaspekt
 * man braucht alle Bestandteile um dieses Framework zu leben
 * EBM soll man anwenden, heruasfinden was wirklich vom User benutzt wird (Usage)
 * das, was man dort entdeckt, dient als Leitfaden
@@ -333,7 +333,10 @@ Kachel 31
 * systemisches Problem: diese Belohnungssystem; deshalb hört die Arbeit des Scrum Masters nicth an den Teamgrenzen auf (Teaching for the Stakeholders)
 [break]
 
-
-
-
-
+## A sprint is a feedback loop
+![](screen23.png)
+* progress is discussed towards the product goal
+* "du suchst nur eine Antwort, die Antwort ist komplexer"
+* Sprintabbruch hat recht geringe Häufigkeit; sprint ziele weiterhin relevant, bis zum start eines neues sprints arbeitet man weiterhin am product goal
+* product goal ist zukünftigerzustand es produktes, welches einen gewissen nutzen bringt
+* 
