@@ -338,5 +338,20 @@ Kachel 31
 * progress is discussed towards the product goal
 * "du suchst nur eine Antwort, die Antwort ist komplexer"
 * Sprintabbruch hat recht geringe Häufigkeit; sprint ziele weiterhin relevant, bis zum start eines neues sprints arbeitet man weiterhin am product goal
-* product goal ist zukünftigerzustand es produktes, welches einen gewissen nutzen bringt
-* 
+* product goal ist zukünftiger zustand des produktes, welches einen gewissen nutzen bringt
+* ursprüngliche idee zu einem bearbeitbaren zustand zu bringen, ist refinement
+* check which markers are assigned to which meeting: review or retro
+* die definition of done gilt für das gesamte produkt
+* Akzeptanzkriterien haben eher funktionalen fokus, DoD hat qualitativen Fokus; daher nur eine DoD
+* übergreifendes Team kann eine grundlegende DoD haben, die das Minimum beschreibt
+* darauf aufbauend zusätzlich haben Fachbereiche eventuell eine eigene DoD (zusätzlich)
+* Status meeting for the steering commitee: nein, gibt es nicht* interesse-power-matrix; stakeholder-analyse
+* Projektgovernance: <https://www.agile-academy.com/de/scrum-master/project-governance-und-scrum/>
+* verhindern, dass ein daily scrum zum statusmeeting wird
+[break]
+
+## breakout: place different items to the product onion:
+![](screen25.png)
+
+
+
