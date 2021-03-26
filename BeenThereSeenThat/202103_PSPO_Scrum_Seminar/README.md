@@ -257,8 +257,71 @@ read for myself: <https://medium.com/the-value-maximizers/10-tips-for-product-ow
 * Synonym für prädiktive Prozesse: Wasserfall
 * "oben" könnte man Scrum nicht einsetzen: LeanStartup oder DesignThinking
 * ScrumBan - als Mischung aus Kanban und Scrum; Menge der Arbeit im System reduzieren; Flow optimieren; System nicht komplett auslasten, sondern immer sauberen Durchfluß haben
+* kom: plic - gefaltet, plex - gewebt (Gewebung bekommt man nicht mehr hin)
+[break]
+![](screen20.png)
+* mit steigender Hierarchieebene verschiebt sich das Verhältnis
+* drei Säulen tragen das Dach Scrum
+* wir lernen basierend auf de Erfahrungen, die wir sammeln
+* empirisch vs. heuristisch
 
+![](screen21.png)
+```
+transparency, inspection, adaption
+sprint: review: transparenz, inspektion?, adaption:
+Scrum guide: inspection:
 
+"Transparency
+
+Significant aspects of the process must be visible to those responsible for the outcome. Transparency requires those aspects be defined by a common standard so observers share a common understanding of what is being seen.
+
+For example:
+
+    A common language referring to the process must be shared by all participants; and,
+    Those performing the work and those inspecting the resulting increment must share a common definition of "Done".
+
+Inspection
+
+Scrum users must frequently inspect Scrum artifacts and progress toward a Sprint Goal to detect undesirable variances. Their inspection should not be so frequent that inspection gets in the way of the work. Inspections are most beneficial when diligently performed by skilled inspectors at the point of work.
+Adaptation
+
+If an inspector determines that one or more aspects of a process deviate outside acceptable limits, and that the resulting product will be unacceptable, the process or the material being processed must be adjusted. An adjustment must be made as soon as possible to minimize further deviation.
+
+Scrum prescribes four formal events for inspection and adaptation, as described in the Scrum Events section of this document:
+
+    Sprint Planning
+    Daily Scrum
+    Sprint Review
+    Sprint Retrospective
+"
+```
+
+-----------
+Kachel 31
+
+* lead time (von idee zu prdukt am markt), cycle time (innerhalb der lead time wievieil zeit ist man eigentlich produktiv auf unser tun fokussiert und wieivel in Halde?)
+* [todo] Evidence based Management Guide! (sehr effektiv dies in Ruhe zu lesen)
+* also read about technical debt and defect trends
+* multitasking versus 100% commitment (video)
+* bug: weniger ability to innovate weil amn etwas fixen muss
+
+[break]
+* Legacy-Application / Application
+
+* Fallstudien: "LegacyLarry" und "missing PO"
+* Miniteaching: warum ist es uns an dieser Stelle so wichtig? PO, PM und SM in einer Person? In scrumteam hat man diese drei Accountabilities; falls eine Rolle nicht besetzt ist, fehlt eine bestimmter Kernaspekt
+* man braucht alle Bestandteile um dieses Framework zu leben
+* EBM soll man anwenden, heruasfinden was wirklich vom User benutzt wird (Usage)
+* das, was man dort entdeckt, dient als Leitfaden
+* Zahlen, Daten, Fakten ..
+* TIA
+* mehr Unternehmen sterben an Verstopfung als an Hunger
+![](screen22.png)
+
+### case study: Judy and Dave
+* task: demonstrate accountabilites in scrum: we as breakout-session had just question marks
+* judy findet es mit scum super, hat aber keine zeit: was ist das produkt? das community-portal
+* david wird als PO ernannt; team stellt product goal auf und backlog; sprint planning; 
 
 
 
