@@ -360,5 +360,39 @@ Kachel 31
 ### refinement: Elefantencarpaccio
 * in Ordnung, wenn Devs bis zu 10% der Zeit in Refinement verbringen
 ![](screen27.png)
+[break]
+
+* todo: also read this <https://burozeven.nl/robbinschuurman/the-product-owner-tasks-accountabilities-skills-traits/According>
+
+### user stories: viel bekannt, aber nicht richtig auskennen
+* user stories als Versprechen zur Umsetzung; Geschichte als Hilfe zur Umsetzung, so dass man sich daran entlanghangeln kann
+* daraus wurde leider ein Zwang, zum Teil; das soll so nicht sein
+* user story macht sinn, wenn man damit das gespräch fördert
+* _3Cs_: first is Card; Conversation; Cofirmation
+* it is about the conversation, not the documentation
+* wie Ziel erreicht? durch Akzeptanzkrierien; drittes Canvas
+![](screen28.png)
+* AS A <who> I WANT <what> SO THAT <why>
+* das wichtigste ist der "so that"-Anteil, so dass alle verstehen worum es geht
+* specification by example
+
+### story mapping
+team 2: nichts dokumentiert(?)
+* valuable outcome opportunity and measures
+* which leading measures will guide the effort, which lagging measures will confirm the outcome
+* user story mapping kann auch "product backlog mapping" sein
+![](screen29.png)
+* Stichwort: Drachenfliegerebene
+* Vorsicht mit Begriffen wie Release, sondern lieber von Sprint reden
+* Komponentenschnitt kann technische sinnvoll sein, aber dem Kunden nichts bringen
+
+Build a story map
+![](screen30.png)
+* Kaninchenzeichen: hoppelt gerade in den au -< Team bedeuten, dass man sich gerade in Details verliert
+
+### release desirability
+
+* 15 value points vergeben
+
 
 
