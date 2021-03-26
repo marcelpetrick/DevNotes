@@ -414,4 +414,39 @@ Arten:
 
 complemental practice:
 * früchtevergleich: welche frucht hat welchen durchmesser? vergleich als relation einfach, aber keine erfahrungswerte wegen melonengröße
-* 
+* früchte sortieren als relative gruppierung
+![](screen33.png)
+* backlog priorisation: fibonacci, fruit sizes, ..
+* check as well: <https://www.tastycupcakes.org/2012/10/thirty-five/>
+* velocity and progress
+* estimation for next sprint:
+** last observation
+** average (last 8)
+** average (worst 3)
+* cone of uncertainty: "most likely sind wir dann beim mittelpunkt .."
+* use product backlog to maintain a roadmap
+
+
+### Prüfung: Anmeldung und Durchführung
+* montag durch trainer durchgeführt
+* 80 fragen in 60 min
+* auf page einloggen, bekommt fragen, multipe choice und timer tickt gnadenlos runter
+* zwei wochen frist: innerhalb von zwei wochen erstversuch; falls direkt bestanden, super, falls nicht, dann bekommt man auswertung und kostenlosen zweitversuch
+* prinzip "fast feedback"
+![](pspo1.png)
+
+* macht gerne die open assessments
+* solange machen bis man bei open assesment 100% richtig hat; kontinuierlich reproduzierbar
+* scrum guide lesen und verinnerlichen; aber auch hinter die Kulissen schauen
+* open book assignment: man darf Sachen daliegen lassen
+* check <scrum.org> !!!
+* bookmark feature ist ganz gut
+* gezielt die bookmarks anschauen
+* ruhige ecke suchen
+* open book assessment; kein Überwacher
+* welches Buch: scrum pocket guide: "Scrum Pocket Guide by Gunther Verheyen" empfohlen
+
+* link zuM Mural wird geschickt
+* PDF zu Powerpoint-Kurs
+* bei echten Folien schauen, ob man sich eine 30s-elevator-pitch geben könnte
+
