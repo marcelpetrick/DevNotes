@@ -248,6 +248,19 @@ read for myself: <https://medium.com/the-value-maximizers/10-tips-for-product-ow
 
 ### Agile Manifesto
 * see: ![](screen18.png)
+* die Schuhe, die ich anziehen kann zum Jogen, sind wichtiger als Dokumentation wie ich diese anziehen kann in der Box (ausrichtung des Fokus)
+* Stacey/Cynefin chart/kennevian diagram: problem-lösung-diagramm
+* Fläche zwischen chaotisch und einfach/kompliziert nennt man "" (Batman)
+* komplexer Bereich: Lernen während man auf dem Weg ist
+* see: ![](screen19.png)
+* man könnte auch SCRUM "unten" einsetzen, aber man wird nicht viele Überraschungen erleben
+* Synonym für prädiktive Prozesse: Wasserfall
+* "oben" könnte man Scrum nicht einsetzen: LeanStartup oder DesignThinking
+* ScrumBan - als Mischung aus Kanban und Scrum; Menge der Arbeit im System reduzieren; Flow optimieren; System nicht komplett auslasten, sondern immer sauberen Durchfluß haben
+
+
+
+
 
 
 
