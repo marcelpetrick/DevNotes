@@ -391,8 +391,27 @@ Build a story map
 * Kaninchenzeichen: hoppelt gerade in den au -< Team bedeuten, dass man sich gerade in Details verliert
 
 ### release desirability
-
 * 15 value points vergeben
 
+* vision, value, validation: kernthemen in diesem kurs
+![](screen31.png)
+[break]
 
+### Releases
+* what is a release and when to release?
+* release desirability
+* customer need; stakeholder need; marketing need; fix bugs
+![](screen32.png)
 
+ich: first on the market: took then "functional" (frequent releases, minor changes)
+* Strategien für den Releasegrund?
+Arten:
+* Major: large changes; infrequent
+* minor: broad changes
+* functional: released often, low absorption costs
+
+* weg von großen releases mit schlechten gründen wegzukommen
+
+complemental practice:
+* früchtevergleich: welche frucht hat welchen durchmesser? vergleich als relation einfach, aber keine erfahrungswerte wegen melonengröße
+* 
