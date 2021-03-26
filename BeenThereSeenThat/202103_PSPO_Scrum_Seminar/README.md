@@ -445,8 +445,13 @@ complemental practice:
 * ruhige ecke suchen
 * open book assessment; kein Überwacher
 * welches Buch: scrum pocket guide: "Scrum Pocket Guide by Gunther Verheyen" empfohlen
-
+![](pspo2.png)
+![](pspo3.png)
 * link zuM Mural wird geschickt
 * PDF zu Powerpoint-Kurs
 * bei echten Folien schauen, ob man sich eine 30s-elevator-pitch geben könnte
 
+* Pilotbewertung auch bei scrum.org abgeben für die beiden Trainer Glenn und Boris
+* todo: Profil bei scrum.org anlegen
+
+-----------------
