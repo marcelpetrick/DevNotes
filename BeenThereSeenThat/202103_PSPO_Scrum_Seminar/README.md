@@ -341,17 +341,24 @@ Kachel 31
 * product goal ist zukünftiger zustand des produktes, welches einen gewissen nutzen bringt
 * ursprüngliche idee zu einem bearbeitbaren zustand zu bringen, ist refinement
 * check which markers are assigned to which meeting: review or retro
-* die definition of done gilt für das gesamte produkt
-* Akzeptanzkriterien haben eher funktionalen fokus, DoD hat qualitativen Fokus; daher nur eine DoD
+* die definition of done gilt für das gesamte Produkt
+* Akzeptanzkriterien haben eher funktionalen Fokus, DoD hat qualitativen Fokus; daher nur eine DoD
 * übergreifendes Team kann eine grundlegende DoD haben, die das Minimum beschreibt
 * darauf aufbauend zusätzlich haben Fachbereiche eventuell eine eigene DoD (zusätzlich)
 * Status meeting for the steering commitee: nein, gibt es nicht* interesse-power-matrix; stakeholder-analyse
 * Projektgovernance: <https://www.agile-academy.com/de/scrum-master/project-governance-und-scrum/>
-* verhindern, dass ein daily scrum zum statusmeeting wird
+* verhindern, dass ein daily scrum zum Statusmeeting wird
 [break]
 
 ## breakout: place different items to the product onion:
 ![](screen25.png)
+* different topics about the role of the product owner: <https://medium.com/the-value-maximizers>
+* metrics im Sinne von Value
+* ein Productgoal, was man verfolgt, nicht fünf gleichzeitig
 
+[missing part of the session]
+### refinement: Elefantencarpaccio
+* in Ordnung, wenn Devs bis zu 10% der Zeit in Refinement verbringen
+![](screen27.png)
 
 
