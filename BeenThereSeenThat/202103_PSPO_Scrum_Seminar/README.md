@@ -323,6 +323,15 @@ Kachel 31
 * judy findet es mit scum super, hat aber keine zeit: was ist das produkt? das community-portal
 * david wird als PO ernannt; team stellt product goal auf und backlog; sprint planning; 
 
+### case study: david saves the day
+* david ändert eigenmächtig das product backlog für die sprint planning
+* hint: directoren sind die stakeholder
+* sprint planning abbrechen; product backlog erneut erneuern;
+* "The five Scrum values are commitment, focus, openness, respect, and courage. According to the Scrum guide, “Successful use of Scrum depends on people becoming more proficient in living these five values.”"
+* David als PO sollte transparent arbeiten; falls man merkt, dass sich das Product Backlog drastisch geändert hat, sollte man Sprint planning abbrechen, 
+* hat David das Recht das zu machen: ja; aber besseres Stakeholdermangement
+* systemisches Problem: diese Belohnungssystem; deshalb hört die Arbeit des Scrum Masters nicth an den Teamgrenzen auf (Teaching for the Stakeholders)
+[break]
 
 
 
