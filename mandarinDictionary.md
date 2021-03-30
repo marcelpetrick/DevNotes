@@ -5,11 +5,11 @@
 * also handle this <https://hsk.academy/en/learn/starting-with-learning-chinese>
 
 ## legend
-simplified chinese, pinyin, english
+simplified chinese - pinyin - english
 
 ## dict
-再见 Zàijiàn - goodbye  
-你好 Nǐ hǎo - hello  
+再见 zài jiàn - goodbye  
+你好 nǐ hǎo - hello  
 我 Wǒ - I  
 很 hěn - to be  
 高兴 gāoxìng - very happy  
@@ -40,5 +40,9 @@ simplified chinese, pinyin, english
 那/那儿 	nà/nàr - that/there  
 
 猫 māo - cat :3
+
+好 - hǎo - good
+你不是中国人吗？ - Nǐ bùshì zhōngguó rén ma? - Aren't you chinese?
+
 
 [TBC]
