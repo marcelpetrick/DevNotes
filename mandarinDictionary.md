@@ -41,8 +41,8 @@ simplified chinese - pinyin - english
 
 猫 māo - cat :3
 
-好 - hǎo - good
-你不是中国人吗？ - Nǐ bùshì zhōngguó rén ma? - Aren't you chinese?
-
+好 - hǎo - good  
+你不是中国人吗？ - Nǐ bùshì zhōngguó rén ma? - Aren't you Chinese?  
+王老师是美国人 - Wáng lǎoshī shì měiguó rén - Teacher Wang is American.
 
 [TBC]
