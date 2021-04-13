@@ -31,7 +31,13 @@
 * "the ability to define destructors is one of the most important features of C++"
 * several return-paths inside a function are allowed and possible without any resource-leakage
 * manage failures also by exceptions (but this would more bytes to the code; around 100 byte for one function, i386 - opt-in or opt-out, if affordable)
+![](img08.png)
 * type-system: casting is given to make the human aware of what it does; the compiler would not need it .. C assumes stuff (and  let's things explode; C++ requests affirmation)
+* helpers for comfort .. grouped digits, ranges
+![](img09.png)
+* conclusion
+![](img10.png)
+* C will prevail due to the interoperability .. there is for almost all languages an API to interace with C
 
 ### “Containerize your Qt embedded application” by Valter Minute, Toradex
 [todo]
