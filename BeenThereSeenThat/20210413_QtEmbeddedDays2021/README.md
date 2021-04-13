@@ -40,7 +40,12 @@
 * C will prevail due to the interoperability .. there is for almost all languages an API to interace with C
 
 ### “Containerize your Qt embedded application” by Valter Minute, Toradex
-[todo]
+* containers are not virtual machines
+[not much time to listen..]
+![](img11.png)
+![](img12.png)
+
+!![TODO] check this talk later, because it is also about the containerization of Qt5
 
 ### “What to Do When It Is Already Too Late? – Crash Dumps in Embedded Projects.” by Christoph Sterz, KDAB
 [todo]
