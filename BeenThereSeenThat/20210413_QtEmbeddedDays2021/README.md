@@ -23,10 +23,15 @@
 * shrink code-size
 ![](img04.png)
 * maybe limit usage of templates: to fight code-bloat
-* C99 can be ugly (name-clsah), C11 has generics, but super awkward!
+* C99 can be ugly (name-clash), C11 has generics, but super awkward!
 ![](img05.png)
 ![](img06.png)
-
+* auto-destruction on leaving a scope .. prevents resource-leaking
+![](img07.png)
+* "the ability to define destructors is one of the most important features of C++"
+* several return-paths inside a function are allowed and possible without any resource-leakage
+* manage failures also by exceptions (but this would more bytes to the code; around 100 byte for one function, i386 - opt-in or opt-out, if affordable)
+* type-system: casting is given to make the human aware of what it does; the compiler would not need it .. C assumes stuff (and  let's things explode; C++ requests affirmation)
 
 ### “Containerize your Qt embedded application” by Valter Minute, Toradex
 [todo]
