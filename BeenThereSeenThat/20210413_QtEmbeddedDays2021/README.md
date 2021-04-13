@@ -5,11 +5,15 @@
 ###  “Hands-On: The easiest way to set up a development environment and build a modern UI for Raspberry Pi” by Filippo Scognamio, FELGO 
 [partially missed, because of parallel meeting]
 * FELGO cloud builds? for deployment
-* FELGO Live Cient for the machines; deployment saves 10-20 hours per developer meonth
-### FELGO SDK
+* FELGO Live Client for the machines; deployment saves 10-20 hours per developer month
+![](img00.png)
+#### FELGO SDK
 * provides functionality on top of Qt
-* ![](img01.png)
+![](img01.png)
 * plugins for monetization, analytics, engagement, cloud
+* example
+![](img02.png)
+* currently just Qt5; Qt6-transfer is in progress, but since Qt6 has some missing components, this is an ongoing task ..
 
 ### “Demystifying C++ for C embedded developers” by Giuseppe D’Angelo, KDAB
 [todo]
