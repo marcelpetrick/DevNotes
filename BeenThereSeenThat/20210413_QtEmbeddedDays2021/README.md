@@ -44,6 +44,7 @@
 [not much time to listen..]
 ![](img11.png)
 ![](img12.png)
+![](img13.png)
 
 !![TODO] check this talk later, because it is also about the containerization of Qt5
 
