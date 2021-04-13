@@ -42,6 +42,7 @@
 ### “Containerize your Qt embedded application” by Valter Minute, Toradex
 * containers are not virtual machines
 [not much time to listen..]
+
 ![](img11.png)
 ![](img12.png)
 ![](img13.png)
@@ -49,7 +50,10 @@
 !![TODO] check this talk later, because it is also about the containerization of Qt5
 
 ### “What to Do When It Is Already Too Late? – Crash Dumps in Embedded Projects.” by Christoph Sterz, KDAB
-[todo]
+!![TODO] check this talk later
+
+![](img14.png)
+![](img15.png)
 
 ### “Maps, Routing and Navigation with QML” by Justin Marina, General Magic
 [todo]
