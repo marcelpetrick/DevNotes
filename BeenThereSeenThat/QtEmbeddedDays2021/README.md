@@ -2,4 +2,17 @@
 
 ## Day 0 (20210413)
 
-### agenda (add)
+###  “Hands-On: The easiest way to set up a development environment and build a modern UI for Raspberry Pi” by Filippo Scognamio, FELGO 
+[partially missed, because of parallel meeting]
+
+### “Demystifying C++ for C embedded developers” by Giuseppe D’Angelo, KDAB
+[todo]
+
+### “Containerize your Qt embedded application” by Valter Minute, Toradex
+[todo]
+
+### “What to Do When It Is Already Too Late? – Crash Dumps in Embedded Projects.” by Christoph Sterz, KDAB
+[todo]
+
+### “Maps, Routing and Navigation with QML” by Justin Marina, General Magic
+[todo]
