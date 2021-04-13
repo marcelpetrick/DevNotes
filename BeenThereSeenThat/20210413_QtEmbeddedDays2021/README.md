@@ -16,7 +16,17 @@
 * currently just Qt5; Qt6-transfer is in progress, but since Qt6 has some missing components, this is an ongoing task ..
 
 ### “Demystifying C++ for C embedded developers” by Giuseppe D’Angelo, KDAB
-[todo]
+![](img03.png)
+* quite easy-going approach: instead of fully diving into C++ immediately, just use it as "C with classes" first, maybe. Much advantage: inheritance, destructors, ..
+* in C++ you don't pay for what you don't use
+* also disable stuff you don't use, like RTTI (dynamic_cast), exceptions, ..: -fno-rtti; or -fno-exceptions
+* shrink code-size
+![](img04.png)
+* maybe limit usage of templates: to fight code-bloat
+* C99 can be ugly (name-clsah), C11 has generics, but super awkward!
+![](img05.png)
+![](img06.png)
+
 
 ### “Containerize your Qt embedded application” by Valter Minute, Toradex
 [todo]
