@@ -72,13 +72,33 @@
 
 ### “Dealing with physical units in modern C++” by Nikola Jelić, Zühlke
 * embedded devices interact with the real world and either receive or emit data with physical units 
-*
+![](img16.png)
 
 ### “Get inspired by web development – A story based on the example of the Flux pattern” by Marius Meisenzahl, Semasquare GmbH
 [todo]
 
 ### “Creating Automated GUI Tests for Embedded Applications” by Tomasz Pawlowski, froglogic
-[todo]
+![](img17.png)
+* froglogic established 2003, owned since yesterday by Qt company
+* widely used
+![](img18.png)
+* squish can be crosscompiled for other platforms: like on Linux for ARM-platforms
+* Qt-widgets, QML and also QtQuickControls: also Qt-webengine-stuff
+* access to signals and all controls
+* app not started, but just attached to already running application* talk via tcp/ip, also internal squish protocol
+![](img19.png)
+![](img20.png)
+* third way: builtin hook
+![](img21.png)
+* Squish takes 'only' 120 MB for an iMX6 (with just 8 GB storage)
+* Recording: record user interactions with AUT(?)
+* or: manual scripting
+* or hybrid approach
+
+* scripting tests or BDD-approach 
+* for this presentation just simple scripting
+
+
 
 ### “Simulator Training for Hardware Pilots – Case Study: simulating CAN-Bus attached hardware” by Alexander Trica, DATA MODUL & Kevin Krammer, KDAB
 [todo]
