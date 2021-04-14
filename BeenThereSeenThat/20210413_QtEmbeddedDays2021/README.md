@@ -109,4 +109,4 @@
 ![](img30.png)
 
 ### “What reliability means to you?” Sami Kassimäki, Tuxera
-[todo]
+![](img31.png)
