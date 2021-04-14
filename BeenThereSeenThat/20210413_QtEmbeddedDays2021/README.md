@@ -67,9 +67,12 @@
 
 ### “Designing UI’s for Embedded Devices, in 3.5 “simple” steps.” by Nuno Pinheiro, KDAB
 [todo]
+* an application style guide can be helpful to set boundaries
+* prototyping
 
 ### “Dealing with physical units in modern C++” by Nikola Jelić, Zühlke
-[todo]
+* embedded devices interact with the real world and either receive or emit data with physical units 
+*
 
 ### “Get inspired by web development – A story based on the example of the Flux pattern” by Marius Meisenzahl, Semasquare GmbH
 [todo]
