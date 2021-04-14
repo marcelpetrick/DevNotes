@@ -16,3 +16,7 @@ Had a problem to use my cpp-Enums in QML: found this <https://qml.guide/enums-in
 
 ## mailmapper (usually found in embedded distros) - maybe easier than to edit the .mailmap manually
 <https://github.com/Embedfire/ebf-buster-uboot/blob/master/scripts/mailmapper>
+
+## (hard) fork of Qt? Cornelius Schumacher
+<https://www.golem.de/news/ui-framework-qt-fork-koennte-kde-probleme-bringen-2102-153994.html>
+<https://youtu.be/rn7jfrJWuAM>
