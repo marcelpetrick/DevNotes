@@ -1,6 +1,6 @@
 # Qt Embedded Days (13th and 14th of April 2021)
 
-## Day 0 (20210413)
+## Day 1 (20210413)
 
 ###  “Hands-On: The easiest way to set up a development environment and build a modern UI for Raspberry Pi” by Filippo Scognamio, FELGO 
 [partially missed, because of parallel meeting]
@@ -56,4 +56,29 @@
 ![](img15.png)
 
 ### “Maps, Routing and Navigation with QML” by Justin Marina, General Magic
+* checked, but unless I want to do an (embedded) app with some kind of routing or geo-information not really necessary for me
+
+--------------
+
+## Day 2 (20210414)
+
+### “How to Set Up QtCreator for Cross-Compilation with CMake in 5 Minutes” by Burkhard Stubert
+[todo]
+
+### “Designing UI’s for Embedded Devices, in 3.5 “simple” steps.” by Nuno Pinheiro, KDAB
+[todo]
+
+### “Dealing with physical units in modern C++” by Nikola Jelić, Zühlke
+[todo]
+
+### “Get inspired by web development – A story based on the example of the Flux pattern” by Marius Meisenzahl, Semasquare GmbH
+[todo]
+
+### “Creating Automated GUI Tests for Embedded Applications” by Tomasz Pawlowski, froglogic
+[todo]
+
+### “Simulator Training for Hardware Pilots – Case Study: simulating CAN-Bus attached hardware” by Alexander Trica, DATA MODUL & Kevin Krammer, KDAB
+[todo]
+
+### “What reliability means to you?” Sami Kassimäki, Tuxera
 [todo]
