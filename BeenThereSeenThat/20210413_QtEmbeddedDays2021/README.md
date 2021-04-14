@@ -66,7 +66,6 @@
 [todo]
 
 ### “Designing UI’s for Embedded Devices, in 3.5 “simple” steps.” by Nuno Pinheiro, KDAB
-[todo]
 * an application style guide can be helpful to set boundaries
 * prototyping
 
@@ -98,10 +97,16 @@
 * scripting tests or BDD-approach 
 * for this presentation just simple scripting
 
-
-
 ### “Simulator Training for Hardware Pilots – Case Study: simulating CAN-Bus attached hardware” by Alexander Trica, DATA MODUL & Kevin Krammer, KDAB
-[todo]
+![](img22.png)
+![](img23.png)
+![](img24.png)
+![](img25.png)
+![](img26.png)
+![](img27.png)
+![](img28.png)
+![](img29.png)
+![](img30.png)
 
 ### “What reliability means to you?” Sami Kassimäki, Tuxera
 [todo]
