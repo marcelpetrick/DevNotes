@@ -42,10 +42,13 @@ simplified chinese - pinyin - english
 猫 māo - cat :3
 
 好 - hǎo - good  
-你不是中国人吗？ - Nǐ bùshì zhōngguó rén ma? - Aren't you Chinese?  
-王老师是美国人 - Wáng lǎoshī shì měiguó rén - Teacher Wang is American.
 
-早上好 - Zǎoshang hǎo - Good morning
-我今天不忙。 - Wǒ jīntiān bù máng - Today I am not busy.
+早上好 - Zǎoshang hǎo - Good morning  
+我今天不忙。 - Wǒ jīntiān bù máng - Today I am not busy.  
+我不吃面，你吃什么？- Wǒ bù chī miàn, nǐ chī shénme? - I don’t eat noodles, what do you eat?   
+我是德国人。 - Wǒ shì déguó rén. - I am German.  
+王老师不是中国人。 Wáng lǎoshī bùshì zhōngguó rén. - Teacher Wang is not Chinese.  
+你不是中国人吗？ - Nǐ bùshì zhōngguó rén ma? - Aren't you Chinese?  
+王老师是美国人 - Wáng lǎoshī shì měiguó rén - Teacher Wang is American.  
 
 [TBC]
