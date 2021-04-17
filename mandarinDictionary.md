@@ -10,9 +10,9 @@ simplified chinese - pinyin - english
 ## dict
 再见 zài jiàn - goodbye  
 你好 nǐ hǎo - hello  
-我 Wǒ - I  
+我 wǒ - I  
 很 hěn - to be  
-高兴 gāoxìng - very happy  
+高兴 gāo xìng - very happy  
 
 ### numbers
 
