@@ -51,4 +51,9 @@ simplified chinese - pinyin - english
 你不是中国人吗？ - Nǐ bùshì zhōngguó rén ma? - Aren't you Chinese?  
 王老师是美国人 - Wáng lǎoshī shì měiguó rén - Teacher Wang is American.  
 
+北京 - běijīnɡ - Beijing  
+不客气 - búkèqi - you're welcome; it's my pleasure (answer to someone who thanks)  
+吃 - chī - to eat; to have one's meal; to eradicate; to destroy; to absorb; to suffer; to exhaust  
+喝 - hē - to drink; to shout (a command)  
+
 [TBC]
