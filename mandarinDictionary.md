@@ -56,4 +56,7 @@ simplified chinese - pinyin - english
 吃 - chī - to eat; to have one's meal; to eradicate; to destroy; to absorb; to suffer; to exhaust  
 喝 - hē - to drink; to shout (a command)  
 
+学生住在加拿大 - Xuéshēng zhù zài jiānádà - The student lives in Canada  
+伦敦不在美国 - Lúndūn bùzài měiguó - London isn't in the USA  
+
 [TBC]
