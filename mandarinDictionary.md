@@ -1,4 +1,4 @@
-# my own dictionary for all Mandarin I've learnt so far
+# my own dictionary for all Mandarin vocabulary I've learnt so far (ongoing task)
 
 ## hints for myself
 * instead of just putting the words I've learnt so far (via Duolingo, evening school at MVHS, ..) I should tackle directly the HSK1-vocabulary: <https://improvemandarin.com/hsk-1-vocabulary-list/> - learn those 150 words and we are already fine
