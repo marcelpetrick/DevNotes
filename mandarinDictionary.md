@@ -60,4 +60,7 @@ simplified chinese - pinyin - english
 学生住在加拿大 - Xuéshēng zhù zài jiānádà - The student lives in Canada  
 伦敦不在美国 - Lúndūn bùzài měiguó - London isn't in the USA  
 
+我很忙，对不起 - Wǒ hěn máng, duìbùqǐ - I am busy, sorry  
+不客气 - Bù kèqì - you are welcome  
+
 [TBC]
