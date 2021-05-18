@@ -58,7 +58,9 @@ simplified chinese - pinyin - english
 喝 - hē - to drink; to shout (a command)  
 
 学生住在加拿大 - Xuéshēng zhù zài jiānádà - The student lives in Canada  
-伦敦不在美国 - Lúndūn bùzài měiguó - London isn't in the USA  
+王老师住在台湾 - Wáng lǎoshī zhù zài táiwān - Teacher Wang lives in Taiwan  
+你的医生住在伦敦吗 - Nǐ de yīshēng zhù zài lúndūn ma - Does your doctor live in London?  
+伦敦不在美国 - Lúndūn bùzài měiguó - London isn't in the USA.  
 
 我很忙，对不起 - Wǒ hěn máng, duìbùqǐ - I am busy, sorry  
 不客气 - Bù kèqì - you are welcome  
