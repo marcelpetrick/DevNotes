@@ -20,3 +20,6 @@ Had a problem to use my cpp-Enums in QML: found this <https://qml.guide/enums-in
 ## (hard) fork of Qt? Cornelius Schumacher
 <https://www.golem.de/news/ui-framework-qt-fork-koennte-kde-probleme-bringen-2102-153994.html>
 <https://youtu.be/rn7jfrJWuAM>
+
+## Qt 
+<https://medium.com/21st-century-decision-making-for-teams/painful-lessons-from-scaling-a-software-company-1d14ee7f9ab3>
