@@ -1,3 +1,4 @@
-# todo
+# Conan Package Manager for C++ in Practice
 
-add pictured
+* embedd images
+* add the notes
