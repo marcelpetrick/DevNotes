@@ -10,3 +10,6 @@ nT
 
 ## Set Away/Available mode
 AutoIt-script (most likely) to change the Jabber-status and the RocketChat-status in a synchronized, automatic way
+
+##
+todo: idee: md-files mit fileending glattziehen (first commandline: inputfile: then check if the linendings have newline (with two spaces before; except maybe for lines which start with a # or *, because they are wrapped anyway)
