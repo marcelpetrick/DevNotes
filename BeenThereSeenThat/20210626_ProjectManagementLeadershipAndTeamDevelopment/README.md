@@ -40,4 +40,20 @@
 ## motivation
 * 'I am always doing that which I cannot do in order that I may learn how to do it.# Picasso; he was motivated to learn
 [break] until 1040
-  
+* 1. Leadership - Motivating Vision: create a motivating vision
+* it is important to understand the motivation of other people
+     * easier to inspire them to support the project goal
+     * when needed extrinsic motivation can be used
+     * but rather work on the intrinsic motivation
+* motivation factors change over time Generation XYZ are less  motivated by rules and clear vision; more by enjoyment and work-life-balance
+* this means that the leadership approach needs to change
+
+Motivation: official term
+* direction, intensitiv and endurance  of the willingness to move towards or away from a targt
+* there is ex- an intrinsic motivation
+* oftne MOTIVES as basis for motivation; single, isolated reasons for human willingness to behave in a certain way
+* NEED: more likely related to the lack of something
+[insert Steva Jobs quote ..]
+  # 1. Intrinsic motivation
+![](01.png)
+* curiosity, challenge, control, recognition, cooperation, competition, fantasy
