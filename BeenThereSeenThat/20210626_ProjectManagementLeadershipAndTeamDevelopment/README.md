@@ -127,8 +127,21 @@ Motivation: official term
 * [todo] marshal rosenberg: nonviolent communication
 * feedback should not target the person; separate the personality from the task; mention positive and negative things
 [task on mural]:
-  * ![](20.png)
+* ![](20.png)
 * icebreaking session; let people flow, accept more
 * track the idea of the current state
+
+## Belbin's 9 Team roles:
+* important to have all nine roles in the team
+![](21.png)
+![](22.png)
+## 9 Tips for better teamwork
+![](23.png)
+## basic parameters for successful team work
+* you should come in when the team staffing is still happening
+## non violent communication
+* giraffe or wolf way?
+## how to communicative with non-violent way? [task]
+![](24.png)
 
 
