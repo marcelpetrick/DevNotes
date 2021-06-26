@@ -55,5 +55,33 @@ Motivation: official term
 * NEED: more likely related to the lack of something
 [insert Steva Jobs quote ..]
   # 1. Intrinsic motivation
-![](01.png)
+* ![](01.png)
 * curiosity, challenge, control, recognition, cooperation, competition, fantasy
+* has to be satisfying and imaginable
+* ![](02.png)
+# 2. Extrinsic motivation
+* gain a specific reward or steer clear of punishment
+* reward: bonus, salary, promotion
+* fear: don't want to lose your job
+[task: group activities]
+![](04.png)
+* TODO: what does motivate you?
+* what was missing as motivation?
+* how to add that little sparkle of motivation yourself to make the day a good day?
+### Maslow's hierarchy of needs
+![](05.png)* humang being is a group being: wants to be part of a group, sports team, friends, any other group* Maslow says that you have to finish one layer before you can ove up; later refined to "work on different layers at the same point of time"
+* You cannot motivate anybody to do something he does not want to do.; but if you mange to revive intrinsic motivation - for example by fun and play - then you will be successful
+* example: chalk number on the floor; factory; 5, then 6 ..
+![](06.png)
+* Transcendence (like: improve the world)
+![](07.png)
+* Maslow's pyramid adjusted for employee commitment
+###  Herzberg's Motivation Hygiene
+![](08.png)
+### McClelland ned theory
+* need for achievement: give challenging tasks; give feedback
+* ned for power: maintaining the leader-follower-relations
+* neeed for affiliation: want to be accepted, have group feeling, other employees are highly motivated for them; often conform to the wishes of colleagues; tipp: they look for people; helpful for organising for team meetings 
+![](09.png)
+* "An army of sheep led by a lion beats an army of lions led by a sheep" Arabic proverb
+[break] until 1145
