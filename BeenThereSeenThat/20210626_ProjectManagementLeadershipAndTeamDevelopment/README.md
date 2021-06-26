@@ -113,5 +113,22 @@ Motivation: official term
   ![](13.png)
   ![](14.png)
   ![](15.png)
-  * take the ultimate responsibility
-  
+* take the ultimate responsibility
+![](16.png)
+* the aphorism "what gets measured gets done"; is aligned with the MBO philosophy (KPI) [todo]
+* Leadersheep (sic!)- Lead by example (if you can't do it, who else should?)
+* work on yourselves
+* Teamwork: start together to work as a team; individual conflicts shall step back;
+![](17.png)
+![](18.png)
+![](19.png)
+* giving the benefit of the doubt
+* solve conflicts when they arise
+* [todo] marshal rosenberg: nonviolent communication
+* feedback should not target the person; separate the personality from the task; mention positive and negative things
+[task on mural]:
+  * ![](20.png)
+* icebreaking session; let people flow, accept more
+* track the idea of the current state
+
+
