@@ -143,5 +143,21 @@ Motivation: official term
 * giraffe or wolf way?
 ## how to communicative with non-violent way? [task]
 ![](24.png)
-
+![](25.png)
+## project manager and his role
+![](26.png)
+## PMI: setup of Process groups and knowledge Areas (PMBOK6) 
+![](27.png)
+## role of PM
+* change agents
+![](28.png)
+* being comfortable with pressure from stakeholders; comfortable with changing requirements
+## Characteristics of a Good Project Manager
+1. Communication
+2. *leading without formal authority*
+3. Ability to Learn
+4. Cleverness
+5. Passion
+6. A good eye for details
+7. Experience and routine
 
