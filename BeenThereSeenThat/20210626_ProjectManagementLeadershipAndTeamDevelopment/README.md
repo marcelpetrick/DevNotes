@@ -20,6 +20,8 @@
 * motivation is another factor for being eager to get something done
 * difference between leader and manager?
 
+## Agenda
+![](00_agenda.png)
 ### agenda for Saturday
 * motivation
 * leadership
@@ -33,4 +35,9 @@
 * communication
 
 * conflict model from "Glasow"? Austriann; nine stages of conflicts
-* 
+* side notes: she will set up a google drive with the documentation
+
+## motivation
+* 'I am always doing that which I cannot do in order that I may learn how to do it.# Picasso; he was motivated to learn
+[break] until 1040
+  
