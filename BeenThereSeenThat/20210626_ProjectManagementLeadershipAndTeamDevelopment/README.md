@@ -83,5 +83,27 @@ Motivation: official term
 * ned for power: maintaining the leader-follower-relations
 * neeed for affiliation: want to be accepted, have group feeling, other employees are highly motivated for them; often conform to the wishes of colleagues; tipp: they look for people; helpful for organising for team meetings 
 ![](09.png)
-* "An army of sheep led by a lion beats an army of lions led by a sheep" Arabic proverb
 [break] until 1145
+## Leadership
+* get extraordinary achievement from ordinary people; Brian Tracy
+* "An army of sheep led by a lion beats an army of lions led by a sheep" Arabic proverb
+* ability of group or individuals to influence and guide other members of an organisation
+* bad leadership: shouting, asking for the impossible; good: having a clear vision where to go
+## responsibility of a leader: provide a framework
+* define a guideline for orientation
+* Eisenhower: "leadership is the art of getting someone else to do something you want done because he wants to do it."
+* convince others to follow those decisions
+![](10.png)
+[task: mural page 5] Define examples for good and bad leadership
+![](11.png)
+* bad: showing no interest in tasks, not people; don't share important information; egocentric; indecisive
+* reliability
+* *what defines a good leader: ability - willingness - opportunity*
+* leadership style used reflects his idea of man and his own self-.image
+* which leadership style is used: depends on several factors:
+  ** the superiors
+  ** the employee(s)
+  ** the situation
+  ** the type of work
+* so we need a toolbox of leadership styles
+* styles: controlling, coordinating, delegating, conducting, steering, motivating, directing, collaborating, participating,
