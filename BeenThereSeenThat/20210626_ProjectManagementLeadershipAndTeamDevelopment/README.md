@@ -160,4 +160,13 @@ Motivation: official term
 5. Passion
 6. A good eye for details
 7. Experience and routine
+![](29.png)
+* delegate firmly: don't take a task back (instead of bringing solutions, you offer questions so that the subordinate/teammember can find their own solution)
 
+## [homework] - fill out those charts with own values
+### assessment: Project Team leaders and members: check your fit and areas of improvement
+![](30.png)
+![](31.png)
+[todo] do this
+
+# 20210627: second day
