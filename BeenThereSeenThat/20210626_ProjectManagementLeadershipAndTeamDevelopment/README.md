@@ -107,3 +107,11 @@ Motivation: official term
   ** the type of work
 * so we need a toolbox of leadership styles
 * styles: controlling, coordinating, delegating, conducting, steering, motivating, directing, collaborating, participating,
+* Kurt Levin: leadership styles
+![](12.png)
+  maturity of the leadership
+  ![](13.png)
+  ![](14.png)
+  ![](15.png)
+  * take the ultimate responsibility
+  
