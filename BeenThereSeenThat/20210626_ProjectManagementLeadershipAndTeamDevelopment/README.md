@@ -170,3 +170,26 @@ Motivation: official term
 [todo] do this
 
 # 20210627: second day
++ sunday morning
+* A questions about yesterday's topics.
+  * Make a plan to start to change within the next 72 hours.
+  * e.g. schedule a time to learn about PMI certification
+  * else we tend to forget about our plans to change
+* Envision the change!
+
+# 5. Effective Projects and Teamwork
+* "Talent wins games, but team work and intelligence win competitions!" Michael Jordan
+* projects grow in number and complexity
+* modern project teams include remote and international members and short project cycles are key to stay relevant
+* managing is about making tradeoffs: variance from plan: increase cost to save time, decrease scope to save time, or reset project baseline
+### 9 best practices for making 
+![](32.png)
+(completion criteria, milestones, project lifecycle)
+* complete project team should know about budget: where are we? what is expected from members to stay within budget
+* escalation procedure/process should be a thing
+** good experiences will be told to five people, but unhappy tell 11 people
+* change management should be a thing as well
+![](33.png)
+
+
+
