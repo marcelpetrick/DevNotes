@@ -190,6 +190,33 @@ Motivation: official term
 ** good experiences will be told to five people, but unhappy tell 11 people
 * change management should be a thing as well
 ![](33.png)
+![](34.png)
+![](35.png)
+# 6. Conflict management
+![](36.png)
+## types of conflict
+![](37.png)
+### role play: conflict handling
+![](38.png)
+* I'll be the project manager as role
+```Role: Project Manager
 
+Szenario:
+Your company has received the order to plan a wedding. A project team with internal colleagues from different departments and externals is put together. 
+Because of your experience, you have been selected as project manager. 
+in one-to-one meetings, you explain the project and the tasks to the colleagues.
 
+Exercise:
+Prepare the discussion with the project controller and discuss the topic with him. 
+The colleague is planned to work 30% of his working time on your project and you want to plan him quite flexible. There are several controller in your company but from your experience in other projects, you want this person so you have to convince him to come aboard. 
 
+Timing: 
+Preparation about 10 min
+Discussion about 5 min
+Feedback about. 10min
+```
+* intro: hello thiago, good morning. how are you? how is work going lately?
+* I have a really nice and interesting project coming along. and since I am ware of your skills and experience I'd like that you take that over as controller.
+* the task is to plan for a wedding.
+* You will handle a mixed team of internal and external employees. you should dedicate 30% of your time for that.
+* maybe i can support you to shift your responsibilites so that you have more free time.
