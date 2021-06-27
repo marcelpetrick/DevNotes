@@ -283,4 +283,14 @@ In case the superior of the controller shall be included, the trainer can play t
 ![](51.png)
 ![](52.png)
 ![](53.png)
-
+### 4-sides model (self disclosure)
+![](54.png)
+![](55.png)
+![](56.png)
+## Exercise for NVC (non violent communication)
+![](57.png)
+* team needs to be transparent about the current state ..
+* "Can we agree that from now on, you let me know at least 1 day before the deadline, if you cannot make it?"; request
+## cdertification: more info
+![](58.png)
+--- end of the seminar ---
