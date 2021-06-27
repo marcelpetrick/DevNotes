@@ -268,8 +268,7 @@ In case the superior of the controller shall be included, the trainer can play t
 [lunchbreak]
 ![](42.png)
 ![](43.png)
-  
-### Symptoms of resistance encountered in professional life
+  ### Symptoms of resistance encountered in professional life
 * [mural page 12]
 * establishing a comfort zone is energy-efficient; but (sadly) the world is changing
 ![](44.png)
@@ -277,3 +276,11 @@ In case the superior of the controller shall be included, the trainer can play t
 ![](46.png)
 * solution: root cause analysis: ask "5 times Why"
 ![](47.png)
+![](48.png)
+![](49.png)
+![](50.png)
+## Communication
+![](51.png)
+![](52.png)
+![](53.png)
+
