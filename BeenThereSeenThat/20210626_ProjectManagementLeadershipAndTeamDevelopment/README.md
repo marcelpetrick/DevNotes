@@ -230,3 +230,35 @@ Feedback about. 10min
 --> sources of stress
 ![](39.png)
 * or even a round table, because no corners; and it stops from hiding
+![](40.png)
+* compromise is only half of the solution; shared intentions would haqve resulted in victory with both
++ compromise: sometimes we don't put too much value into the things we fight for; or we don't dare a fight; or sometimes it is just our personality
+![](41.png)
+different conflict handling tools: when "it is important"  versus "not important", so that in the end you can be successful
+Harvard concept: "Hart in der Sache, weich gegenüber den Menschen."
+  1. Trennen sie Menschen und Sachfragen
+  2. Interessen: Stellen Sie Interessen in den Mittelpunkt, nicht Positionen
+  3. Erarbeiten sie Optionen, von denen alle profitieren
+  4. Bestehen Sie auf objektive Kriterien
+  ## new role play: project manager
+```
+Project Manager
+
+Szenario:
+Your company has received the order to plan a wedding. A project team with internal colleagues from different departments and externals is put together. 
+Because of your experience, you have been selected as project manager. 
+Some weeks after the project start, the controller complains about his working time. The superior of the controller has also been informed and questions the participation of the controller in the project. 
+According to your recording, the working time of the controller does not exceed the agreed 30%. 
+
+Exercise:
+Prepare the discussion with the project controller and discuss the topic with him. 
+Discuss why he feels overloaded by the project work. 
+In case the superior of the controller shall be included, the trainer can play this role. 
+```
+* Hello Mahkameh, nice to see you.
+* It has come to my ears that you have are experiencing an heavy workload?
+* Your superior thinks you should be removed from the project due to the workload. On the other hand my numbers show that you work exactly 30% of the time.
+* Is there a misconception? Are the number reported properly?
+* How to keep the time-budget
+* Delegate (more) work (to me)? Hire another controller?
+
