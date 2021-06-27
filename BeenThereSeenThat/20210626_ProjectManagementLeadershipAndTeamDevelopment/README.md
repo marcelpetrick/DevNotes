@@ -265,5 +265,15 @@ In case the superior of the controller shall be included, the trainer can play t
 * fidelity to the project; top project hsd top priority
 * I want her in the project; anything else should be shifted along; less priority; 
 * treat by being assigned: but else withdrawn and bad
-
-
+[lunchbreak]
+![](42.png)
+![](43.png)
+  
+### Symptoms of resistance encountered in professional life
+* [mural page 12]
+* establishing a comfort zone is energy-efficient; but (sadly) the world is changing
+![](44.png)
+![](45.png)
+![](46.png)
+* solution: root cause analysis: ask "5 times Why"
+![](47.png)
