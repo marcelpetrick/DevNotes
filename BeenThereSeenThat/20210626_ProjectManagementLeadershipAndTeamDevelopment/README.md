@@ -261,4 +261,9 @@ In case the superior of the controller shall be included, the trainer can play t
 * Is there a misconception? Are the number reported properly?
 * How to keep the time-budget
 * Delegate (more) work (to me)? Hire another controller?
+---
+* fidelity to the project; top project hsd top priority
+* I want her in the project; anything else should be shifted along; less priority; 
+* treat by being assigned: but else withdrawn and bad
+
 
