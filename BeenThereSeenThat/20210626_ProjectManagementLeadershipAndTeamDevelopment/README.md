@@ -216,7 +216,17 @@ Discussion about 5 min
 Feedback about. 10min
 ```
 * intro: hello thiago, good morning. how are you? how is work going lately?
-* I have a really nice and interesting project coming along. and since I am ware of your skills and experience I'd like that you take that over as controller.
+* I have a really nice and interesting project coming along. and since I am aware of your skills and experience I'd like that you take that over as controller.
 * the task is to plan for a wedding.
 * You will handle a mixed team of internal and external employees. you should dedicate 30% of your time for that.
-* maybe i can support you to shift your responsibilites so that you have more free time.
+* maybe I can support you to shift your responsibilites so that you have more free time.
+--------
+* went well, Thiago had already a proposed solution, so I wrapped him with the "I understand, you have a lot of experience, can we talk about details later"-technique
+* todo: bring a proof of why a person did really well; so those strengths should be underlined with an example
+--------
+* a little bit of small talk can help to relax
+* offer some relief: can we get I get you some help/resource
+--------
+--> sources of stress
+![](39.png)
+* or even a round table, because no corners; and it stops from hiding
