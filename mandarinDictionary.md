@@ -65,4 +65,8 @@ simplified chinese - pinyin - english
 我很忙，对不起 - Wǒ hěn máng, duìbùqǐ - I am busy, sorry  
 不客气 - Bù kèqì - you are welcome  
 
+A: 对不起！我迟到了。- duì bù qǐ！- wǒ chí dào le. Sorry! I'm late.
+B: 没关系。- méi guān xì. - It doesn't matter.
+
+
 [TBC]
