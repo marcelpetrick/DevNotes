@@ -13,13 +13,34 @@
 ## 1. change happens in YOU
 ![](02.png)
 
+## 2. It's your fault if you don't have time
+* delegate stuff and prioritise stuff
+![](03.png)
+![](04.png)
+![](05.png)
+![](06.png)
 
------
+## 3. Be patient
+* behavioural changes take time
+![](07.png)
 
-![](02.png)
-![](02.png)
-![](02.png)
-![](02.png)
+## 4. Listen. And then talk
+![](08.png)
+![](09.png)
+
+## 5. Team is the decision maker
+* trying to create trust; and independence
+![](10.png)
+  
+## 6. Feedback
+![](10.png)
+----------------------------------------
+
+placeholder: remove later
+![](10.png)
+![](10.png)
+![](10.png)
+
 
 
 
