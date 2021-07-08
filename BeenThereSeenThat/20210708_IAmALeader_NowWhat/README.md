@@ -8,7 +8,8 @@
 * situational leaders
 * fluctuation in team, before some good technical results, so obviously stepping up ...
 * situations: no time to think about all the bugs and features; no time to review everything, how to look for a mentor?
-* he got then some 6 month-mentoship, where he visited different locations
+* he got then some 6 month-mentorship, where he visited different locations
+
 ![](01.png)
 ## 1. change happens in YOU
 ![](02.png)
@@ -33,14 +34,26 @@
 ![](10.png)
   
 ## 6. Feedback
-![](10.png)
+* no avoidance, no "someone told me.."
+![](11.png)
+![](12.png)
+* redirect: tell them they do nice
+![](13.png)
+  
+## 7. Celebrate
+![](14.png)
+
 ----------------------------------------
+* applying those changes allowed him to breath a bit; and to share workload with the team
+* moved to team lead because he liked people more than code
+![](15.png)
+![](16.png)
+  
+## Reminders:
+* there is a bigger range than just 0 or 1!
+* leader = servant
+* to lead = to influence
+----------------------------------------
+[shorturl.at/pAN25](shorturl.at/pAN25)
 
-placeholder: remove later
-![](10.png)
-![](10.png)
-![](10.png)
-
-
-
-
+* whow to ask for help
