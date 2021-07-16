@@ -68,5 +68,6 @@ simplified chinese - pinyin - english
 A: 对不起！我迟到了。- duì bù qǐ！- wǒ chí dào le. Sorry! I'm late.
 B: 没关系。- méi guān xì. - It doesn't matter.
 
+吃饭了吗？- chī fàn le ma? – Have you eaten yet?
 
 [TBC]
