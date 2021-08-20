@@ -9,6 +9,7 @@
 
 * Vortragender: Horst Kirchner
 * Kursnummer: M451722
+* 10 Teilnehmer: 6 Frauen, 4 Männer
 
 ### Vorstellungsrunde
 * viele älter, teilweise aber 10 Jahre im Job, dann promoted
@@ -118,9 +119,23 @@ Buchempfehlung: the first 90 days (this? https://www.amazon.com/First-90-Days-St
 ### Rezept 3: das erste erfolgreiche MEeting/Workshop
 * Stimmungsbild am Flipchart
 * Brainstorming: schritt 2-4
-* Kategorisieren und Priorisieren der ERgebnisse (Themenmatrix und Punktevergabe am Flipchart)
-* Erstellen eines Aktivitätenplanes mit Terminen und Verantwortlichkeiten; Wichtig: jeder übernimmt Verwntwortung, die Mitarebiter müssen verstehen, dass sie Beteiligte und nicht nur Betroffene sind und nicht alles an sie adressieren/delegieren. Das fördert den Teamgedanken.
-* 
+* Kategorisieren und Priorisieren der Ergebnisse (Themenmatrix und Punktevergabe am Flipchart)
+* Erstellen eines Aktivitätenplanes mit Terminen und Verantwortlichkeiten; Wichtig: jeder übernimmt Verantwortung, die Mitarbeiter müssen verstehen, dass sie Beteiligte und nicht nur Betroffene sind und nicht alles an sie adressieren/delegieren. Das fördert den Teamgedanken.
 
+* Stimmungsbild: erst Punkte kleben, dann "Wer möchte zu seinem Punkt etwas sagen?"
+* Brainstorming: wenn ich an meine momentane Situation denke, das beschäftigt/belastet mich derzeit besonders
+** Verteilung operativ/fachlich passend? Wir wird meine Arbeit bewertet?
+* Karten einsammeln und unstrukturiert erstmal an die Tafel pinnen
+* falls man vieler nicht-fachliche Punkte hat, dann weiß man, dass etwas in der Luft hängt
+* keine Karten durchreißen oder nicht anhängen
+* das Stimmungsbild aus den Karten wird zu 99% das reale umfassen; damit weiß man, womit man arbeiten kann
+* falls nachträglich noch Ideen kommen, sollen die Mitarbeiter diese gerne aufschreiben und noch aufhängen
+* das st ein Ausgangspunkt, von dem man in fünf Minuten starten kann
+* falls es eher umgedreht ist "Chef da, Team kommt hinzu": kann man die Fragerichtung anpassen; "was erwartet ihr von mir als chef?"
 
+* falls man bemerkt, dass es eine interne Person gab, die sich auf die selbe Stelle bewirbt, dann vorher das Gespräch suchen
+* Entwicklungsplanung auch für Mitarbeiter, sondern wo man vielleicht einen neue Stelle schafft
 
+## 2. Tag
+
+[incoming]
