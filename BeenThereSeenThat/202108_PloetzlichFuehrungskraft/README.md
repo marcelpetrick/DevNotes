@@ -39,7 +39,7 @@
 ## Präsentation zum Thema Führung, Verantwortung, , Herausforderungen
 
 * wie kann man in kürzester Zeit in neuer Umgebung sich ein komplettes Bild über die Stimmungslage verschaffen um mit diesem Stimmungsbild zu arbeiten (Moderationsausbildung in den Achtzigern von Dozenten)
-** sei es Projektmanagement oder Coaching; erstmal Bild verschaffen um einen Entscheidung zu treffen
+** sei es Projektmanagement oder Coaching; erst einmal Bild verschaffen um einen Entscheidung zu treffen
 * ein vernünftiges Standing erarbeiten mit Rezepten, die eine gewisse Sicherheit geben
 
 * Führen bedeutet Verantwortung zu übernehmen und tragen zu wollen
@@ -60,12 +60,67 @@
 
 Führungskompetenz: das muss ein Manager haben
 * Sozialkompetenz: vErhalten gegenüber anderen
-* Fachkompetenz: Knntnisse und Fähigkeiten
+* Fachkompetenz: Kenntnisse und Fähigkeiten
 * Selbstkompetenz (Steuerungsfähigkeiten) - Eigenmotiviation
-* Methodekompetenz: Anwenddung von Instrmenten und Vorgehensweisen
+* Methodenkompetenz: Anwendung von Instrumenten und Vorgehensweisen
 
-Strategieentwicklungs und -umsetzungskompetenz
+## Strategieentwicklungs und -umsetzungskompetenz
 * Fähigkeit persönlichens Handeln wirksam mit anderen abzustimmen und bewusst an der Vorstellung einer Vision zu orientieren
+* die Energie folgt der Absicht
+* ein emotional belegtes Ziel, mit Vorfreude, bewirkt, dass man seine gesamte Energie darauf ausrichtet
+
+Die wichtigsten Führungseigenschaften im Krisen-, Veränderungs- und Konfliktmanagement
+* absteigende Reihenfolge: Kommunikationsfähigkeit, Motivationsfähigkeit, Zielorientierung, Konfliktfähigkeit, Vertrauenswürdigkeit, Durchsetzungsfähigkeit, Authentische Auftreten/Selbstvertrauen
+
+Buchempfehlung: the first 90 days (this? https://www.amazon.com/First-90-Days-Strategies-Expanded/dp/1422188612 )
+
+## Erfolgreicher Einstieg:
+* Erwartungen hoch; Hoffnungsträger; man ist noch weitgehend orientierungslos; Sondierungsaufgabe; Eingewöhnungszeit, aber toll, wenn man das möglichst effizient hinbekommt
+* falls man das gut macht, ist es 
+* kontinuierlicher Verbesserungsprozess
+* seien Sie authentisch; folgen sie ihrem gesunden Menschenverstand
+* Bewertung: SWOT-Analyse; Strengths, weaknesses, opportunities, threats (Risiken): [hint](https://www.managementkompetenzen.com/swot-analyse/)
+
+* nach Analyse nicht nur die Erwartungshaltung des Teams treffen und alles selber umsetzen; das muss eine Teamaufgabe sein -> siehe Delegation
+* "die Energie folgt der Absicht"
+* entwickeln sie eine Vision, Mission und eine Strategie
+* unbedingt: ein Wertekonzept als Führungskraft
+* falls man Inspirationen braucht, sind Unternehmenswebseiten auch immer eine gute Quelle
+* Beziehungsnetzwerk aufbauen
+
+## Phasen für einen erfolgreichen Einsteig:
+* Einrichten/Akklimatisieren -> Informieren/Abstimmen/Planen -> Netzwerken/Einzelgespräche -> Meeting und Workshop -> Business Planung
+* Das erste erfolgreiche Meeting: verschafft euch ein Bild, was wollt ihr wissen?
+* Einladung, Agenda, Ziele (Standardagenda)
+* Vorbereitung persönlicher VorstellungVorbereitung thematisch
+* Strategisch gute Sitzposition wählen
+* sauber durchmoderieren, Leute beobachten
+* aktiv zuhören, analysieren, zusammenfassen
+(Vorsicht, sonst kommen Blocker wie "Umnebelungsfaktoren")
+* Typen, Persönlichkeiten, Gruppen, Rollen, Strömungen erkennen
+* kontrollierte Beiträge beisteuern
+* Mitarbeitern Raum geben
+* eher fragen als statements abgeben
+* Teamgedanken fördern
+* Gemeinsamen Workshop plane: Zielsetzung?
+* Protokollieren
+
+* erstes Meeting in den ersten fünf Arbeitstagen
+
+### Rezept 2: Onlinemeetings
+* Einladen mit Zielen, Hinweise, Links
+* Bereitlegen von Unterlagen und Dateien
+* Pünktlichkeit
+* Sicherstellen, dass der Link vorhanden ist, falls man rausfliegt
+* Rücksicht auf alle bei Redebeiträgen: falls zuviel "bitte weiter"
+* Vorsicht bei offenen Fragen: lieber "gibt es jemanden, der das nicht sehen kann?" statt " kann das jeder sehen?", wo man nur viele JAs erhält
+
+### Rezept 3: das erste erfolgreiche MEeting/Workshop
+* Stimmungsbild am Flipchart
+* Brainstorming: schritt 2-4
+* Kategorisieren und Priorisieren der ERgebnisse (Themenmatrix und Punktevergabe am Flipchart)
+* Erstellen eines Aktivitätenplanes mit Terminen und Verantwortlichkeiten; Wichtig: jeder übernimmt Verwntwortung, die Mitarebiter müssen verstehen, dass sie Beteiligte und nicht nur Betroffene sind und nicht alles an sie adressieren/delegieren. Das fördert den Teamgedanken.
 * 
+
 
 
