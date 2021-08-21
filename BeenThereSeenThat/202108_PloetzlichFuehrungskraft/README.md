@@ -131,7 +131,7 @@ Buchempfehlung: the first 90 days (this? https://www.amazon.com/First-90-Days-St
 * das Stimmungsbild aus den Karten wird zu 99% das reale umfassen; damit weiß man, womit man arbeiten kann
 * falls nachträglich noch Ideen kommen, sollen die Mitarbeiter diese gerne aufschreiben und noch aufhängen
 * das st ein Ausgangspunkt, von dem man in fünf Minuten starten kann
-* falls es eher umgedreht ist "Chef da, Team kommt hinzu": kann man die Fragerichtung anpassen; "was erwartet ihr von mir als chef?"
+* falls es eher umgedreht ist "Chef da, Team kommt hinzu": kann man die Fragerichtung anpassen; "was erwartet ihr von mir als Chef?"
 
 * falls man bemerkt, dass es eine interne Person gab, die sich auf die selbe Stelle bewirbt, dann vorher das Gespräch suchen
 * Entwicklungsplanung auch für Mitarbeiter, sondern wo man vielleicht einen neue Stelle schafft
@@ -164,10 +164,58 @@ TODO: find something with more Kommunikationskills
 
 * Situationsanalyse; 
 
-TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis SOP alles fertig machen?"
+TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis SOP alles fertig machen"?
 
 ### Abhänggkeitsmatrix: Projekte links aufführen, oben auch nochmal abgebildet; dann sollen die Projektleitungen bitten in der Horizontalen Abhängigkeiten markieren
 * so hat man dann eine befüllte Matrix; gegebenenfalls mit Duplexverbindungen; dort genauer zsammensetzen um sich abzustimmen
 
 * falls man Überlastung hat, dann nach "oben" weitergeben, dass man so und so viele Aufgaben hat, die aber nicht alle gleichzeitg fixen kann
 * falls die Leute ausbrennen, kommen sie über Monate nicht zurück
+
+### Problem statement: warum bin ich überhaupt da? Warum komme ich gerade zu euch?
+* in einem Satz zusammenfassen, was das Problem ist und die eventuelle Folge sein wird
+* unzureichende fachliche Kompetenz im Management: die Leute entscheiden etwas, von dem sie die Folgen nicht überblicken; kurzfristige Lösungen führen zu langfristigen Belastungssituationen
+* falls man Probleme nicht aufzeigt, dann sieht der Chef "läuft; die Person hat genug Ressourcen um ihre Aufgaben zu fixen" - was falsch ist
+
+* Führungsproblem: Leute, die ohne Vorbereitung in Positionen kommen, sich nicht angreifbar machen wollen, "Arschsicherungstaktik", Interessenlagen unterschiedlich (bis zu einem gewissen Pnukt gleich); unterschiedliche Zielrichtung
+* Wer bestimmt, was gewollte Geschäftskultur ist? Das Management, das muss von oben kommen (Code of conduct)
+* wir (also ich) entscheide, wie die Kultur in unserem Team aussieht; LEute sollen sich in dem Umfeld wohl fühlen
+* dann ist man selber dafür verantwortlich dieses Biotop zu schützen (gegenüber nach oben)
+
+### Wie kann ich ein Team ausrichten (gerade in Problemstellung Remote)
+1.
+* wir achten auf einandern und unterstützen und sgegenseitig
+* wir bringen uns praktive ein und stäkrne unsere konstruktive feedbackkultur
+* wir wollen unsere buroroutinen auch zuhaue beibehalten, ohne uns und andere zu isolieren
+* motivation aus aufgaben, gemeinsamn erfolgen, und gegenseitigem sozialem Engagenment
+* wir bauen auf gegenseitiges vertraun und finde gute balance mit den notwendigen kontrollmechanismuen
+
+2. Zielorientierung
+* Steuerung und delegation
+* KlareZielvereinbarung mit Terminsetzung
+* Kontrolle der vereinbarten Ziele, Zwischenstände
+* Aufgabenmanagement
+
+3. Motivation
+* Stimmungsbilder
+* Erfolge erzielen
+* positive Stimmung
+
+### Statusmeldung für das Proiektmanagement
+* Statusampel im Wochenbericht?
+* Statusberichte einfordern, so dass man ÜBerblick wahrt. So dass man verantwortlich bleibt und "in the loop" arbeitet
+* in den ersten 100 Tagen dies wöchentlich nach "oben" geben, dann auf monatlich umsteigen
+
+* Situationen schaffen (Kuchen mitbringen), wo man sich mal kurz zusammensetzt. und dann fragen "Wem drückt gerade der Schuh"? Wie kann das Team helfen?
+* Teamkonsens erzeugen
+* (nicht Direktiven, sondern alle in die gleiche Richtung arbeiten)
+
+* falls man Unstimmigkeiten zwischen Teams auffängt (weil eines vielleicht nicht involviert und dann arbeitet das destruktiv, fehlersuchend): nach dem Meeting Fehler eingestehen, auf das team zugehen, im Prozess einen schritt zurückgehen und auf das Team zugehen
+* beim nächsten Mal (Lessons learned) beziehen wir euch ein.. devote Haltung
+
+### Kategorisierung und Priorisierung
+* mit Punkteformel (Anzahl Teilnehmer/2)+1; 5 Themen - drei Punkte
+* die kleben, damit hat man dann Prioritäten
+
+### Diskusson und Maßnahmeplan
+* "Welche konkreten Maßnahmen müssen wir aus dem Besprochenen ableiten und ergreifen?"
