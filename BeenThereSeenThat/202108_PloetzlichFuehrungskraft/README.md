@@ -138,4 +138,36 @@ Buchempfehlung: the first 90 days (this? https://www.amazon.com/First-90-Days-St
 
 ## 2. Tag
 
-[incoming]
+### Prinzipien/Werte
+* Pünktlichkeit, Zuverlässigkeit
+
+* Team fasst zusammen, Führungskraft ergänzt
+* die Fragestellungen funktionieren immer, ist nur eine Frage der Methode - heute noch mehr um noch mehr Sachen im Köcher zu haben
+* Vision entwickeln: wo will man mit seinem Team hin?
+* breites Spektrum an Erfahrungen: von der Arbeit mit Auszubildenden bis hin z Uni-Absolventen und Spezies, die erst 11 Uhr aufstehen
+* es get darum ein Umfeld zu schaffen, wo sich die Leute wohlfühlen und leisten wollen: employer branding
+* Kinowelt (450e Jobs) vs. Azubi-Welt vs. Uniabsolventen mit Macken
+* Dozent arbeitete nachts ab 0400 Uhr
+
+### Themen:
+* Positionierung, Stressmanagement, Konfliktmanagement, Arbeitsorganisation
+* Vorkategorisierung der Karten (von gestern), dann abfragen, ob das so passt - gegebenenfalls umsetzen
+* "Du siehst sehr stark belastet aus"; Person ansprechen, Fragen (in Einzelgespräch) und Kontakt aufbauen; man wird nicht darum kommen für das Problem eine Lösung zu entwickeln
+* das schlimmste, was passieren kann, wenn man nach einer Besprechung fragt: kann eine Absage sein
+* gegebenenfalls ausloten in Mittagessen und täglichem Miteinander wie die Leute gestrickt sind
+* es geht um das Standing: mit den Leuten reden - das kann hilfreich sein, auch wenn man keine Lösung anbieten kann (da strukturelles Problem)
+
+TODO: find something with more Kommunikationskills
+
+* falls Überlastung: dann sauber dokumentiertes, analysiertes Belastungsproblem zum Management geben; transparent
+* Steuerungsfunktion: Überlastungen auffangen; aber weitergeben
+
+* Situationsanalyse; 
+
+TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis SOP alles fertig machen?"
+
+### Abhänggkeitsmatrix: Projekte links aufführen, oben auch nochmal abgebildet; dann sollen die Projektleitungen bitten in der Horizontalen Abhängigkeiten markieren
+* so hat man dann eine befüllte Matrix; gegebenenfalls mit Duplexverbindungen; dort genauer zsammensetzen um sich abzustimmen
+
+* falls man Überlastung hat, dann nach "oben" weitergeben, dass man so und so viele Aufgaben hat, die aber nicht alle gleichzeitg fixen kann
+* falls die Leute ausbrennen, kommen sie über Monate nicht zurück
