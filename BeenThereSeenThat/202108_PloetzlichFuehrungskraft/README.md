@@ -219,3 +219,44 @@ TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis S
 
 ### Diskusson und Maßnahmeplan
 * "Welche konkreten Maßnahmen müssen wir aus dem Besprochenen ableiten und ergreifen?"
+
+* negative Glaubenssätze (im Unterbewusstsein) neutralisieren
+* keine Antworten zu geben, verhindert, dass man aus einer falschen Antwort eine Veränderung entwickeln kann
+
+* Unsicherheit, ob das Management mit dem Projektergebnis zufrieden ist: Projektrahmen durch Termin und Budget; aber wie wird das gesehen, wenn man von den Zielen abweicht?
+* klärendes Gespräch, bei Unsicherheit. Selbst wenn man das regelmäßig präsentiert
+* Verschriftlichung von Risiken, so dass man, wenn es eintritt, man es nach oben melden kann. Welche Symptome werden dann transparent, welche Auswirkungen, welche treffen uns? Ergibt sich daraus ein kritischer Pfad?
+* im Moment sind wir da noch gelb, aber womöglich kippt das zu rot, wenn man nicht Entscheidungen trifft.
+* allein diese Signalisierung muss von dem Management als recht professionell bewertet werden
+* am besten mit Vorschlägen zur Vermeidung von Rotdrohung
+* vorausschauend agieren, eventuelle Probleme signalisieren, Sachen proaktiv managen
+
+### Konfliktmanagement
+
+Konflikte:
+* sind integraler Bestandteil des Zusammenlebens
+* werden oftmals als Kampfsituation wahrgenommen
+* werden durch den Verlust des Gegners gewonnen
+* führen zu fortschreitender Wahrnehmungs- und Entscheidungsunfähigkeit -> sehr schlechte Ansicht, wenn man sich auf emotionale eben herunterlässt (Metaebene)
+* trüben das Urteislvermögen
+* haben immer Eskalationspotential
+
+Lösungsgespräch:
+.. ist eine immer positive Herangehensweise, mit dem Ziel eine Lösung zu finden bzw. den Konflikt zu eskalieren
+
+* Was ist los? Soll das sein? Finale frage: sind beide Parteien an der Lösung interessiert?
+* Warum ist das so? Wo liegen die Ursachen?
+* Welche Erwartungen habe ich? Welche Erwartungen hat mein Kontrahent?
+* Was muss/kann ich tun? Was muss/kann mein Kontrahent tun?
+* Wozu?
+* Was brauche ich? Was habe ich schon? Was fehlt mir noch?
+* Was muss vermieden werden?
+* wo gibt es Alternativen?
+* Welches sind die Vereinbarungen?
+
+* Mediation: wo ist der Ursprung?
+
+* Situation, die mit einer negativen/positiven Emotion zusammenhängen, werden stark verinnerlicht
+
+
+
