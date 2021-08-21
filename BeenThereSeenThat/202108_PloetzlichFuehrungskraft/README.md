@@ -258,5 +258,36 @@ Lösungsgespräch:
 
 * Situation, die mit einer negativen/positiven Emotion zusammenhängen, werden stark verinnerlicht
 
+* TODO: make appointments for Tuesday: wie siehst du mich? was erwartest du von mir? das in Einzelgesprächen anreißen
 
+Grundsätzlich gilt:
+1. Zunächst Einzelgespräche
+2. Dann:
+* direkte Kommunikation herstellen
+* Dialog kontrollieren ohne Schuldzuweisungen
+* Emotionen offen legen
+* Vergangenheit aufarbeiten
+* Gegenseitiges Verständnis erzeugen
+* Eine für beide Seiten tragbare Lösung vereinbaren
 
+## nicht leistungsfähige NEueinstellungen
+* Einschätzngsbogen gegebenenfalls: dies von Vorgesetztem und Angestellten ausfüllen lassen; gleiche Bewertung muss nicht besprochen werden; bei Diskrepanzen darüber sprechen; falls Bemerkungen stark auseinanderliegen
+* ansonsten Statusberichte und zwischen meetings zwecks Statuserfassung
+* Jobplan [TODO] check this
+
+* Projekttechniken/Präsentationstechniken lernen [für mich?]
+* Personalentwicklungsbogen; einmal aufsetzen, globaler Teil bleibt gleich, Rest muss man nur noch anpassen
+* initialer Aufwand, dann nur noch pflegen
+
+#### Was passiert, wenn der Kunde sich beschwert?
+* bei Einzelproblemen geht man kulant um; falls es ein Analyseproblem, dass Feedback fehlte, muss umstrukturiert werden; falls strategisches Problem dann auf GEschäftsführungsebene
+
+* es sollte eine gewissen Distanz durch die Promotion geben, falls man aus dem Teamverband die Leitung übernimmt
+* dadurch, dass man einen Informationsvorsprung hat durch Sachen, die vom Chefmanagement kommt, kann man diese weitergeben; durch den Informationsvorsprung gibt es auch eine gewisse Distanz; Informationen weitergeben
+* falls Termin-Konflikt zwischen "Regierung" und "Team" Gespräch besteht, dann "Regierung" vorziehen
+* falls man LEute nicht einstellt, keine Urlaube freigibt und keine Gehaltsverhandlungen führt, dann hat man keine Personalverantwortung: also nur Fach-Vorgesetzter
+
+* viele überkritische Geister hier, starke Bewertung der eigenen Leistung: "was für mich 80% ist, ist für andere schon 100%"
+
+* [TODO] Maßnahemnplan für die Jour Fixes! Wie kann man effektiver werden?
+* ebenso Standardagenda
