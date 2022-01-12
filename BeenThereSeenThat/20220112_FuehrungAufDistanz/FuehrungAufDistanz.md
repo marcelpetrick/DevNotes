@@ -138,8 +138,53 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 * falls Nachfassen: Milestone-Meetings zwecks Zwischenstand
 * falls man sich involviert, dann wird es echt Kontrolle
 
-## "Coach oder Führungskraft?" - was will man sein?
-
 [Pause bis 20:15]
+
+## "Coach oder Führungskraft?" - was will man sein?
+* nur direkt anweisen oder coachen?
+* erstmal Einschätzung der Mitarbeiter machen zwecks Qualifizierungsstand: B1 bis B4
+* Stand in 1:1 GEsprächen herausfinden: eigene Mitarbeitereinschätzung und meine abgleichen: bei großen Diskrepanzen die jeweiligen Felder diskutieren
+![](14.png)
+* Bewertung der Mitarbeiter erledigen zwecks Richtungsfindung und Unterstützung
+![](15.png)
+
+![](16.png)
+![](17.png)
+
+* !! immer verbindlich sein, statt schwammig
+* da lieber sagen: "ich weiß, was ihr gern machen würdet, aber es gibt eine Managemententscheidung und wir müssen damit umgehen"
+* !! Status Quo direkt und klar kommunizieren, aber wie kriegen wir da auch das Optimum heraus?
+* !! nicht eine Aufgabe an drei Leute delegieren!
+* !! Kontrollieren ohne schlechtes Gewissen
+* Konflikte professionell lösen
+* bei Verbindlichkeiten auf Fakten konzentrieren
+* klares Feedback geben
+* Mut zur Entscheidung: auch wenn es nur auf Basis von 70% der Daten basiert
+* falls man einen Konflikt merkt, sollte man ihn auch direkt ansprechen, benennen und terminiert erneut besprechen
+* Entscheidungsfindungsmethoden (? todo: nachschlagen ?)
+
+### HomeOffice-Kultur vereinbaren
+* Zeiten: Lerchen vs. Eulen
+* Zeitmanagement:
+  * Arbeitsstunden
+  * Verfügbarkeit
+  * Antwortzeiten auf E-Mails
+  * Kommunikationssystem
+  * Geplante Besprechungen
+  * Schlüsselprojekte und Termine
+* Struktur: Facetime (mit Kaffee)
+![](18.png)
+
+### Bleiben sie mit ihrem Team in Verbindung
+* Vertrauen ist der Schlüssel
+* Bleiben sie positiv
+* Feiern sie Erfolge
+* Rückverfolgbarkeit
+* Achten sie auf die Warnzeichen
+
+* "Nicht so viele Termine machen, wo man kein Geld verdient."
+
+[Ende Tag 1]
+----------------
 
 [to be continued]
