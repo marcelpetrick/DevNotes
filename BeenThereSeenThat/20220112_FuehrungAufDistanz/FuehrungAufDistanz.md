@@ -127,13 +127,19 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 ## Auswertung:
 * bei mir: 3 anweisen, 3 partizipieren, 4 überzeugen, 2 delegation -> also gar nichts richtig hervorstechend
 ![](11.png)
-* bei mir: 8 von 21 effizienzpunkten -> also hohes Verbesserungspotential
+* bei mir: 8 von 21 Effizienzpunkten -> also hohes Verbesserungspotential
 ![](12.png)
 
+* !! best practice-Lösungen: diese noch einmal mit dem Blick auf die rot markierten Teile durchgehen
+![](13a.png)
+![](13b.png)
 
+* "Ein guter Manager weiß nicht zu 100% bescheid, was der Mitarbeiter macht." Weil sonst könnte man es auch gleich selber machen.
+* falls Nachfassen: Milestone-Meetings zwecks Zwischenstand
+* falls man sich involviert, dann wird es echt Kontrolle
 
+## "Coach oder Führungskraft?" - was will man sein?
 
------------
-placeholder
+[Pause bis 20:15]
 
-![](12.png)
+[to be continued]
