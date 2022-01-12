@@ -25,7 +25,7 @@ Karin Budde · Online · mi bis fr 18.00 bis 21.00 Uhr · 12.1. bis 14.1.2022
 MP:
 * teamlead, frisch zu unternehmen gewechselt (firmenkultur, projekt und leute unbekannt): verbindungsaufbau aktiv; kollegen & externe bilden gesamtes Spektrum ab, aber eher introvertiert; wie führen, wenn man sich nicht technisch-hervorgehoben fühlt? teammitglieder wären auch mit ticketbasierter arbeitsorganisation "zufrieden" daher gefühlt nur meinerseits 
 
-* !! feedback: nicht in die kamera zu gucken; falls man zu leuten spricht, dann auch die richtige Kamera mitbringen
+* !! feedback: nicht in die Kamera zu gucken; falls man zu Leuten spricht, dann auch die richtige Kamera mitbringen
 
 ### andere Leute
 * wie kann man die leute motivieren und vernetzen?
@@ -53,4 +53,50 @@ MP:
 
 ![](03.png)
 * für mich: Ich stimme zu: 16; nicht zu 8
+* Empfehlung: auch mit den Mitarbeitern durchspielen
 
+## Infrastruktur
+* wie arbeiten die Leute zu hause? Arbeitsplatz; welche häusliche Situation (Kinder, Familie im Haus); wie kann man unterstützen
+* Technik: gegebenenfalls mit IT und HR dafür sorgen, dass es Rechner, Monitor, Maus, Tastatur, Drucker, Smartphone gibt; wie können die Leute bei technischen Probleme den IT-Support erreichen?
+* Zusammenarbeit fördern: Task-Management-Lösungen wie Slack, Asana, Trello, Meister Task, Monday ..
+* Datensicherheit gewährleisten durch technische Hilfsmittel und Mitarbeiterschulungen
+
+## Rolle der Führungkraft
+* Orientierung geben, Rahmen setzen, Unterstützung leisten, Handlungsspielräume schaffen
+![](04.png)
+
+### Orientierung:
+* Prioritäten setzen
+* anspruchsvolle, erreichbare Ziele setzen: und auf was zahlt das Erreichen des Zieles für das Unternehmensziel ein?
+* Ziele setzen, aber eher um Plan den Mitarbeite fragen: wie würde er/sie es erreichen wollen?
+* !! Leistungserwartung transparent machen
+* Kommunikationsstruktur und Spielregeln festlegen
+* falls Einarbeitung, dann muss man das auch verkraften, dass die Einarbeitung nur ein kleineres Ergebnis hervorbringt
+* Fördern und Fordern: Mitarbeiter zum Denken anregen; Chancengleichheit wahren
+* Handlungsspielräume schaffen: Fehler akzeptieren; am Entscheidungsprozeß teilhaben lassen
+* maximal 4-5 Ziele pro Jahr einem Mitarbeiter geben (Frage: braucht er gegebenenfalls ein Training dafür?)
+![](05.png)
+
+## Spannungsfeld der Führungskraft
+* Vertrauensaufbau/Wertschätzung vs. Herausforderung
+
+## 8 Säulen von Digital Leadership
+* weniger Kontrolle
+* mehr Vertrauen
+* Verantwortung abgeben statt Delegieren
+* Empowerment
+..
+![](06.png)
+
+* (Kollegen auch sagen, dass sie in der Pause aufstehen, das Fenster aufmachen und frische Luft schnappen sollen.)
+
+## Nähe im virtuellen Raum schaffen
+* Welche Medien wollen wir für welchen Zweck nutzen?
+* Welche Netiquette soll für uns gelten?
+
+
+
+-----------
+placeholder
+
+![](03.png)
