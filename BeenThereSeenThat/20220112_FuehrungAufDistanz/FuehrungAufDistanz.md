@@ -94,9 +94,46 @@ MP:
 * Welche Medien wollen wir für welchen Zweck nutzen?
 * Welche Netiquette soll für uns gelten?
 
+[Pause]
+
+### Padlet: zwecks Netiquette-Abstimmung
+
+### mein Teil:
+#### Webex, Teams, Rocketchat, Jabber, Skype, Jitsi (und klassisch Telefon und Mail)
+* jede Firma bringt ihr eigenes, bevorzugtes Tool mit
+* keine direkten Spielregeln vereinbart (speziell Anwesenheitsmarker), aber höflicher, respektvoller Umgang
+* bei einigen Meetings konkret vorgegebene Struktur; andere eher "frei"
+
+### Was bedeutet das?
+![](07.png)
+* Führung (People development, Strategie, Motivation): 10%
+* Managen (Probleme lösen, Konflikte lösen, Organisation): 45%
+* Sonstiges (Meetings, Telefonate): 45%
+![](08.png)
+* Führung sollte eigentlich größter Teil der Zeit sein (siehe 35% IST zu 65% SOLL)
+
+## Führungsstile
+* vier unterschiedliche gibt es (Dimensionen "unterstützendes Verhalten, anleitendes Verhalten)
+
+* anweisen notwendig, auch bei hoher Kompetenz: Beispiel Feuerwehreinsatz (Konsenslösung wer Wasser holt, etc.. ) das bringt nichts
+Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
+![](09.png)
+
+* Übung im Handbuch auf Seite 8: Welchen Führungsstil haben Sie?
+![](10a.png)
+![](10b.png)
+![](10c.png)
+
+## Auswertung:
+* bei mir: 3 anweisen, 3 partizipieren, 4 überzeugen, 2 delegation -> also gar nichts richtig hervorstechend
+![](11.png)
+* bei mir: 8 von 21 effizienzpunkten -> also hohes Verbesserungspotential
+![](12.png)
+
+
 
 
 -----------
 placeholder
 
-![](03.png)
+![](12.png)
