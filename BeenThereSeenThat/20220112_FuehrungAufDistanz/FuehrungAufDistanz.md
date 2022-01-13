@@ -188,3 +188,37 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 ----------------
 
 [to be continued]
+
+# Tag 2
+
+## Warum entscheiden wir nicht gern?
+
+* Angst vor neuem
+* Angst vor Verlust
+* Angst vor Verantwortung
+![](19.png)
+* viele Variablen für recht einfache Entscheidungen: falls man auc zu lange wartet, dann wird einem als Führungskraft auch die Entscheidung abgenommen
+
+### Methoden: Entscheidungs-Mindmap
+* Pro und Contra für jede Lösung aufzeigen
+## Alternative: magisches Dreieck
+* Zeit, Kosten, Qualität
+![](20.png)
+## alternative: Risikomanagement
+![](21.png)
+## Alternative: Scheibchen-Methode
+* Problem in Teile zerlegen: Kommunikation, Zusammenarbeit, Ziele
+
+## 5 Worte mit denen man bezeichnet werden will
+![](22.png)
+* wie man an meiner Auswahl (grün) sieht, noch sehr ein die eigene Person konzentriert
+* bestimmte Attribute wie "kompetent" sind Grundvoraussetzung, daher zwar oft genannt, aber wenig relevant, da Basis
+* !! auch gute Teamübung, weil die Mitarbeiter sagen können, was sie eher sich von der FK (Führungskraft) wünschen
+* bei Neueinstieg dem Team einen "Waschzettel" geben zwecks Kommunikation und Erleichterung der Arbeit (Karin Budde akzeptiert zB. keine Termine vor zehn ..)
+
+[Pause bis 19:10]
+
+
+
+![](20.png)
+![](20.png)
