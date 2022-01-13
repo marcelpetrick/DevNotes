@@ -215,10 +215,49 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 * bestimmte Attribute wie "kompetent" sind Grundvoraussetzung, daher zwar oft genannt, aber wenig relevant, da Basis
 * !! auch gute Teamübung, weil die Mitarbeiter sagen können, was sie eher sich von der FK (Führungskraft) wünschen
 * bei Neueinstieg dem Team einen "Waschzettel" geben zwecks Kommunikation und Erleichterung der Arbeit (Karin Budde akzeptiert zB. keine Termine vor zehn ..)
+![](23.png)
 
 [Pause bis 19:10]
 
+## Mitarbeiterbeurteilung
+### Standardisierter Fragenbogen
+![](24.png)
+* in der Form als FK über Mitarbeiter, dann auch in umgekehrter Form
+### PERFORM Modell
+![](25.png)
+* Flexibilität hat sehr viel mit Sinnzusammenhang zu tun
+* optimale Produktivität
+* (Erklärungshilfe)[* https://www.apollon-hochschule.de/fileadmin/content/pdf/Probekapitel_Personalfuehrung_HRMAH04_0907K02.pdf]
+* was sind Vorgängeraufgaben?
+![](26.png)
+* Delegieren ist eine Investition in die Mitarbeiter
+<![](27.png)
+* Klare Ziele setzen + Umfang definieren =  Erfolg
+* Melonenfalle: sieht von aussen wie ein grüner KPI, ist aber innen drin rot!
+* SMARTe Ziele
+ * Spezifisch, messbar, anspruchsvoll, realistisch, terminiert
+### Aufgabe: Projektmanagement als Ziel: was wären die KPI
+![](28.png)
+#### 1. Schaffung und Entwicklung neuer Trainingsformate, speziell e-learning Plattform
+* Definition neuer Formate -> KPI: Anzahl
+* Ausspezifizierung -> KPI: Detailgrad, Abdeckung; Schlüssigkeit?
+
+#### 2. Kundenspezifische Programmentwicklung als Zusatz zu Face 2 Face Trainings
+* idk .. seriously, i have to inform myself about this
+
+siehe Auflösung der Übung in img29
+![](29.png)
 
 
-![](20.png)
+[Pause bis 20:05]
+
+## Work - Life - Balance
+      
+
+
+
+* Hinweis: morgen (Freitag) Start um 17 Uhr
+
+
+
 ![](20.png)
