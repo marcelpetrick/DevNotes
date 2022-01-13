@@ -231,7 +231,7 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 * was sind Vorgängeraufgaben?
 ![](26.png)
 * Delegieren ist eine Investition in die Mitarbeiter
-<![](27.png)
+![](27.png)
 * Klare Ziele setzen + Umfang definieren =  Erfolg
 * Melonenfalle: sieht von aussen wie ein grüner KPI, ist aber innen drin rot!
 * SMARTe Ziele
@@ -248,16 +248,41 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 siehe Auflösung der Übung in img29
 ![](29.png)
 
-
 [Pause bis 20:05]
 
 ## Work - Life - Balance
-      
+* als FK Vorbild sein und nicht erst Abends um Acht eine Mail schreiben (Tipp: Outlook Einstellung, dass sie erst morgens um acht zu den Mitarbeitern geht)
+* Unterschied: Effizienz vs. Effektivität
 
+* effektiv: die richtigen Dinge zu tun
+* effizient: die Dinge richtig zu tun
+* Beispiel: Gartenfeuer mit Champagner löschen: beides effektiv, aber C. nicht effizient
 
+* Beispiel Brennglas: auch passend mit Mondschein
+* konzentriert dich doch mal: aber wie geht es denn?
+* Konzentration geht indem man komplett die Aufmerksamkeit auf eine Aufgabe richtet
+* je klarer die Aufgabe, desto höher die Magnetkraft
+### Störungen bei der Arbeit
+* gegebenenfalls Vereinbarung treffen, weil Interruptionen dafür sorgen, dass man komplett den Fokus verliert
+* E-Mail-Antwortzeiten definieren
+### Tipps für mehr Effizienz
+![](29.png)
+* Perfektionismus vermeiden
+* bessere Kamera mitbringen (oder snapcamera nutzen für Comic-Charakter)
+![](30.png)
 
-* Hinweis: morgen (Freitag) Start um 17 Uhr
+### ALPEN-Methode als Template für Arbeitsplanung/Meetingplanung
+![](31.png)
+* Teamentwicklung - digitales Wir-Gefühl schaffen
+* Bindung, Fehlerkultur, Humor, Rolle der Führungskraft, Vertrauen in Potenziale
+* Begeisterung ist ein Spiel mit der Erwartungshaltung
 
+### kollaboratives Lernen
+* work out loud? lunch&learn? fuckup? best practive-sharing
 
+[Ende Tag 2]
+----------------
 
-![](20.png)
+[to be continued]
+
+!! Hinweis: morgen (Freitag) Start um 17 Uhr !!
