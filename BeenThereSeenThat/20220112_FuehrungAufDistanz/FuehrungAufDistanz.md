@@ -313,14 +313,30 @@ siehe Auflösung der Übung in img29
 * falls man den Leuten nicht in die Augen gucken möchte, dann Punkt auf der Stirn fixieren
 * auf Gestik und Mimik achten
 
-
-
+### Struktur des Gespräches:
 ![](40.png)
+![](41.png)
 
+### Feedback und Kritik
+* K: erwartet Verhaltensänderung
+* F: nur Rückmeldung
 
+### Umformulieren in Ich-Botschaften
+![](42.png)
+
+### Mitarbeiterbefragung
+![](43.png)
+
+### Motivation
+![](44.png)
+* vllt. jemanden Empathischen aus dem Team um Infos bitten
+
+### Bedürfnisse
+* ex- und intrinsische Bedürfnisse
+![](45.png)
 
 
 -----
 template:
 
-![](31.png)
+![](40.png)
