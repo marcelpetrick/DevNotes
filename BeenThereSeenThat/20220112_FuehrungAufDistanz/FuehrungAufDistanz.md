@@ -335,8 +335,20 @@ siehe Auflösung der Übung in img29
 * ex- und intrinsische Bedürfnisse
 ![](45.png)
 
+### Glückliche Mitarbeiter: fünf Fragen
+![](46.png)
+* Gehalt nach Joblevel?
+* wie oft lacht man in seiner Abteilung?
 
------
-template:
+## Checkliste für den virteullen Führungsalltag
+![](47.png)
+![](48.png)
+* vorher Agenda aufstellen für Meeting
+* Einzelgespräche anbieten
+* "wie läuft es denn gerade"?
+![](49.png)
 
-![](40.png)
+* TODO fill out the "Digital leadership canvas"
+
+
+[Ende Tag 3]
