@@ -281,8 +281,46 @@ siehe Auflösung der Übung in img29
 * work out loud? lunch&learn? fuckup? best practive-sharing
 
 [Ende Tag 2]
+
 ----------------
 
-[to be continued]
+# Tag 3
 
-!! Hinweis: morgen (Freitag) Start um 17 Uhr !!
+## Charakteristische Teilnehmer an moderierten Meetings
+* der phlegmatische, arrogante, arbeitstier, alleswisser, listige
+* phlegmatische: 
+![](32.png)
+* der arrogante:
+  * nicht zu häufig loben; auch einmal um das ausrollen des eigenen standpunktes bitten
+  ![](33.png)
+* alleswisser:
+  ![](34.png)
+* der listige:
+  * hat eine eigene agenda; schaut voraus; kann durch angefachte nebendiskussionen einem aber das team zerhauen
+  * direkt einbinden in das teammeeting durch direktes ansprechen
+  ![](35.png)
+  
+![](36.png)
+![](37.png)  
+
+## Performance Gespräch
+* "Warum" schlechte Frage als Führungskraft: weshalb?
+* Ergebniskontrolle: Konzentration auf die Ergebnisse
+![](38.png)
+
+### Übung: Zielvereinbarungen kritsch analysieren (Handbuch Setie 18)
+![](39.png)
+* falls man den Leuten nicht in die Augen gucken möchte, dann Punkt auf der Stirn fixieren
+* auf Gestik und Mimik achten
+
+
+
+![](40.png)
+
+
+
+
+-----
+template:
+
+![](31.png)
