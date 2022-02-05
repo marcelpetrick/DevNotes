@@ -20,15 +20,14 @@ nachfragen, was man denn tuen musste um eine gehaltsverhöhung von x prozent zu 
 beförderung anbringen
 teamkoordination:
 dreimal gezahlter bonus wird gewohnheitsrecht
-merry increase: inflationsaudsgleich bei 
-
+* merry increase: inflationsausgleich bei internationalen firmen (microsoft, apple,..): alles darübe rhinaus ist reale gehaltsanpassung
 
 hinweise für mich:
-* wissensverteilung im team: dokumentation und auch 
+* wissensverteilung im team: dokumentation und auch aktives heranführen von leuten an die aufgaben
 * massnahmen wie lessons learned
 * qualitätssicherung: interner testplan definiert
 * mehrwert durch neue prozesse: spart mindestens einen junio sw entwickler ein durch QS
-quarterback bekommt nicht so viel geld, weil er so viel speilt, sondern weil er da team koordiniert,zusammenhält und den projekterfolg sichert
+quarterback bekommt nicht so viel geld, weil er so viel spielt, sondern weil er da team koordiniert,zusammenhält und den projekterfolg sichert
 -> commitment
 nicht härte roder mehr arbeiten, sondern effektiver
 wahrnehmung fur den nutzen
@@ -36,8 +35,7 @@ wahrnehmung fur den nutzen
 
 testimonials einsammeln: * wie war die zusammenarbeit auf einer skala von 1 bis 10, reaktionszeit bei problemen? wo war ich der treibende faktor?
 feedback von kunden esammeln: zwecks best practices;
-losten gespart; prozesse verbessert
-
+kosten gespart; prozesse verbessert
 
 
 anbringen der persönlichen ziele fuer die nachsten sechs monate: was will ich leisten
@@ -111,7 +109,7 @@ nicht gehaltswunsch, sondern gehaltspaket als wording verwenden
 * nicht geschimpft ist gelobt genug
 * falls man wegen einem "namen" im lebenslauf etwas in kauf nimmt, also gehaltseinbussen, dann muss man dafür selber vorab eine abwägung treffen
 
-* !! todo: anmerken, dass man blauäugig reingegangen ist, weil ich vermutet habe, dass das im ersten jahregespräch dann auch behandelt wird. jetzt habe ich es avber verstanden, jetzt will ich reden
+* !! todo: anmerken, dass man blauäugig reingegangen ist, weil ich vermutet habe, dass das im ersten jahregespräch dann auch behandelt wird. jetzt habe ich es aber verstanden, jetzt will ich reden
 
 * !! todo: fragen, wann die budgetverhandlungen sind; wann wir das "jahr" festgelegt
 
@@ -119,7 +117,7 @@ nicht gehaltswunsch, sondern gehaltspaket als wording verwenden
 img12
 transparenz verschatffen
 
-* todoemail signatur anpassen!
+* todo email signatur anpassen!
 
 * in münchen 17% mehr als in anderen städten in dtl.
 * vorab informieren
@@ -129,11 +127,32 @@ img14
 
 * "ich entwickele mich weiter also muss mein gehalt angepasst werden."
 * wie gut kennen sie mich: an welchen kriterien wurde das gemessen?
-* "Was müsste man konkret erzielen um einen verhöhung um 10 prozent zu bekommen?"
+* "Was müsste man konkret erzielen um einen erhöhung um 10 prozent zu bekommen?"
 
 Pause: bis 15:35
 
+## auf karten vorbereiten - anhand des leistungsbogens
+* übergreifende Zusammenarbeit: ... meine gschichte dazu ..
+* Kosten sparen: ... meine gschichte dazu ..
+img15
 
+* kooperativ vs. kompromissler
+* Einzelübung: Setie 13 im Handbuch
 
+* verhandlung: zwei reaktionen: flinch (reaktion wie herzanfall) oder crunch (gesicht verziehen, schwierig, geht gar nicht)
 
+* todo for myself: elevator pitch: 60s vollgas! (Elevator Pitch - überzeugen Sie mit Ihrer Kurzpräsentation!)
+
+* hinzugewonnen kompetenzen ausweisen
+
+img16
+* bei einer offenen frage immer den mund halten
+* "Das kann ich jetzt nicht beantworten.  Falls es superinteressant fuer sie ist, werde ich es herausfinden und per Mail nachliefern."
+
+[Pause]
+
+* statt nur einfach einen kompromiss festzulegen, sollte man die interessen (der gegenseite) ergründen
+* orangenbesipiel mit zwei kindern. mutter halbiert es einfach, aber eines wollte nur saft, eines nur die schale. so haben beide am ende das nachsehen.
+
+* nicht vergleichen mit anderen bewerbern. wenn man sich auf eine stelle bewirbt, dann ist man sich ja sicher, dass man auch der passende kandidat ist
 
