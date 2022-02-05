@@ -36,6 +36,20 @@ wahrnehmung fur den nutzen
 
 testimonials einsammeln: * wie war die zusammenarbeit auf einer skala von 1 bis 10, reaktionszeit bei problemen? wo war ich der treibende faktor?
 feedback von kunden esammeln: zwecks best practices;
+losten gespart; prozesse verbessert
 
+
+
+anbringen der persönlichen ziele fuer die nachsten sechs monate: was will ich leisten
+wie wird das unternehmen davon priofitieren
+positive woerter
+img03
 ----
+eigenes selbstmarketing aufbauen
+wer bin ichm wofuer stehe eich?
+in welchen bereichen?
 
+* reaktionszeit beim kunden: detailierter anmerken, wie wir entgegenkommen
+*storytelling zwecks detailierung
+*elevatorpitch
+img04
