@@ -53,3 +53,32 @@ in welchen bereichen?
 *storytelling zwecks detailierung
 *elevatorpitch
 img04
+
+
+agenda fuer das gesprache vereinbaren
+todo: vorab schonmal dem gegenüber bescheid geben
+dies auh bei mir am 15.02. machen
+vorab leistungsmappe schicken
+
+
+erstmal aufmekersamkeit vom chef haben, wahrnehmung, nicht direkt mehr geld
+wie wäre esd denn, wenn das ziel erreicht ist?
+img05
+img06
+img07
+was kann ich alles? dort auch sw-dev leistung auflisten (trotz elternzeit und kurzarbeit); auf gleichem level wie andere entwickler commits geliefert!
+
+status in proejktleiste aktuell halten
+kpis für einen projekterfolg vorschlagen: so dass man sie dann nachträglich reflektieren kann
+
+## !! erstellen der leistungsmappe
+
+was macht man denn so den geanzen tag?
+hat man KPIs dazu?
+12:00 uhr - vorschlag jetzt 14 Uhr wieder zu treffen; somit 1h paus eund 1h erstellen der mappe
+img10 als template nutzen
+letzte 12 monate als basis verwenden
+
+
+strategisch vorgehen, dass man eher normale arbeiten abgibt und sich auf das planen konzentriert
+
