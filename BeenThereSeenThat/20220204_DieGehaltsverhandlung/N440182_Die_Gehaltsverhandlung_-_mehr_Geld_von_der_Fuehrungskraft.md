@@ -147,12 +147,55 @@ img15
 
 img16
 * bei einer offenen frage immer den mund halten
-* "Das kann ich jetzt nicht beantworten.  Falls es superinteressant fuer sie ist, werde ich es herausfinden und per Mail nachliefern."
+* "Das kann ich jetzt nicht beantworten.  Falls es superinteressant für sie ist, werde ich es herausfinden und per Mail nachliefern."
 
 [Pause]
 
-* statt nur einfach einen kompromiss festzulegen, sollte man die interessen (der gegenseite) ergründen
-* orangenbesipiel mit zwei kindern. mutter halbiert es einfach, aber eines wollte nur saft, eines nur die schale. so haben beide am ende das nachsehen.
+* statt nur einfach einen kompromiss festzulegen, sollte man die Interessen (der gegenseite) ergründen
+* Orangenbesipiel mit zwei kindern. mutter halbiert es einfach, aber eines wollte nur saft, eines nur die schale. so haben beide am ende das nachsehen.
 
-* nicht vergleichen mit anderen bewerbern. wenn man sich auf eine stelle bewirbt, dann ist man sich ja sicher, dass man auch der passende kandidat ist
+* nicht vergleichen mit anderen Bewerbern/Kollegen. wenn man sich auf eine stelle bewirbt, dann ist man sich ja sicher, dass man auch der passende Kandidat ist
+* Gesprächsverlauf: je mehr "JAs" man bekommt, desto schwieriger wird es für den gegenüber am ende abzuwinken
+
+* Gefühle verbalisieren um auch der Motivation eine Grundlage zu schaffen: am Ende der Probezeit wegen Einarbeitung
+* Martin Schranner als Vortragender für Verhandlungstechniken
+* falls die Emotionen hochkochen Abstand schaffen. Lieber um Vertagen bitten.
+
+![](img17.png)
+
+Ablauf:
+* Zahlen, Daten, Fakten vorbereiten
+* Strategie zurechtlegen
+Gehaltsanpassung zuerst als Zahl setzen
+
+![](img18.png)
+* Reihenfolge der Argumente: 2-3-1 vielleicht am besten: mittel anfangen, schwach, stark enden
+
+## 6 typische Fehler vermeiden
+![](img19.png)
+* mein eigenes Gehalt verhandeln, nicht für Kollegen
+* keine Erpressungsversuche
+
+* todo: Anmerkung von: Übernahme von Verantwortung
+
+### simple mehrwert rechnung
+![](img20.png)
+
+* Bitten sie um einen GEfallen: Fragen um mit 99% Anfrage ein ja zu erzeugen
+* todo: was wäre das dann bei uns?
+
+Gehaltsanpassung:; mit meiner Leistung zufrieden?
+Passen die WEiterbildungen im SW-Bereich? ISAQB, PSPO?
+Sehen sie einen Mehrwert durch die Verbesserungen?
+
+* positive Handbewegungen; handfläche nach oben
+* immer über der Gürtellinie
+* großmachen, also auch auf dem Stuhl
+* gespräche vielleicht auch im stehen machen, damit auch teil vom oberkörper nutzbar
+* rhetorische pausen nutzen
+![](img21.png)
+
+* Nachfrage für Coaching: 45 min mit 95€
+
+* Finaler Tipp: auf eine Stelle zwei, drei Level über eigenem Knowhow bewerben ... das schlimsmte was zurückkommen kann, wäre ja ein Nein
 
