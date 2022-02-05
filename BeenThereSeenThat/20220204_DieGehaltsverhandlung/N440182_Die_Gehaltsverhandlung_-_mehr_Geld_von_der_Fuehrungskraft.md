@@ -60,7 +60,6 @@ todo: vorab schonmal dem gegenüber bescheid geben
 dies auh bei mir am 15.02. machen
 vorab leistungsmappe schicken
 
-
 erstmal aufmekersamkeit vom chef haben, wahrnehmung, nicht direkt mehr geld
 wie wäre esd denn, wenn das ziel erreicht ist?
 img05
@@ -81,4 +80,60 @@ letzte 12 monate als basis verwenden
 
 
 strategisch vorgehen, dass man eher normale arbeiten abgibt und sich auf das planen konzentriert
+---------------------
+* upsale potentiale: kunde weiter binden; wird die kundenzufridenheit erfasst? wie wird das reportet. erwartungshaltung vs. realität
+* Kunde verstehen vor der Beratung
+beispiel frau C.
+img11
+
+* erst ziele definieren. in der gehaltsverhandlun dann nicht über die ziele sprechen, sondern sie als begründung für die vergangenheit
+* neue aufaben, neue skills -> mehr geld bekommen
+
+bei mir:
+* koordinierung von eigenen team und zweiten internen; extern design; extern stakeholder als kunde; extern dritte softwarekomponente
+* prozesseinführung
+* QA intern aufbauen und durchführen
+requirements vom kunden abholen: mit domänenwissen und vorformulieren
+* "Der Köder muss dem Fisch schmecken und nicht dem Angler." - adressatenspezifisch aufbereiten
+* nicht nur was man gemacht hat, sondern auch wie - ganz neue art der kundenansprache
+
+* falls die aktuellen KPI nicht passen, dann sollte man sie anpassen nach besprechung
+
+nicht gehaltswunsch, sondern gehaltspaket als wording verwenden
+* "mein gehaltspaket ist 80.000 euro"
+* gehaltspaket: tankgutscheine, firmenwagen, weiterbildungne mit zweimal 5ke pro jahr, damit spart der arbeitgeber die sozialabgaben - mit wertsteigerung
+
+* "eigene schmerzgrenze finden, dann verdoppeln"
+* falls man eine zu schnelle zusage bekommt, dann "winner's curse"
+* falls firmen sagen, dass das einfach der prozess ist, dann anmerken, dass es schon um mich persönlich geht
+
+* ! falls vorher in runden ein budget oder gehaltsanpassungen besprochen wird, man dann aber ar nicht gehört wird, sollte man pressieren und dem eigenen chef argumente liefern. selbst wenn er sie nicht will und sich aus der verantwortung stehlen möchte
+* nicht geschimpft ist gelobt genug
+* falls man wegen einem "namen" im lebenslauf etwas in kauf nimmt, also gehaltseinbussen, dann muss man dafür selber vorab eine abwägung treffen
+
+* !! todo: anmerken, dass man blauäugig reingegangen ist, weil ich vermutet habe, dass das im ersten jahregespräch dann auch behandelt wird. jetzt habe ich es avber verstanden, jetzt will ich reden
+
+* !! todo: fragen, wann die budgetverhandlungen sind; wann wir das "jahr" festgelegt
+
+## marktwert ermitteln
+img12
+transparenz verschatffen
+
+* todoemail signatur anpassen!
+
+* in münchen 17% mehr als in anderen städten in dtl.
+* vorab informieren
+img13
+img14
+* linkedin nutzen
+
+* "ich entwickele mich weiter also muss mein gehalt angepasst werden."
+* wie gut kennen sie mich: an welchen kriterien wurde das gemessen?
+* "Was müsste man konkret erzielen um einen verhöhung um 10 prozent zu bekommen?"
+
+Pause: bis 15:35
+
+
+
+
 
