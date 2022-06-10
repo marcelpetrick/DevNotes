@@ -29,12 +29,42 @@
 
 ## now the "real" speaker takes over
 * presenter Sebastian Pineda Arango
+![](img10.png)
+* humans do classification, but also uses previous knowledge
+![](img11.png)
+
+### how do machines learn?
+![](img12.png)
+![](img13.png)
+* one shot learning as another technology
+* or signature-learning (like a cat is like a small tiger, cute, ..)
+* or transfer-learning: use pre-trained models
+
+* simple example: ![](img14.png)
+  * only one line of code will already achieve good performance
+  
+* automatic hyperparamter-optimization:
+![](img15.png)
+![](img16.png)
+![](img17.png)
+* autoscaler: best combination of models, scalers and [?]
+* pipeline-optimization works very nice; better than just choosing a random model
+![](img18.png)
+
+## meta-learning: analogy with the evolution
+![](img19.png)
+* brain is changing and previous knowledge forms it: better adapted
+* level over the machine-learning
+* umbrella of AutoML
+![](img20.png)
+* Meta-training
+* example application: self-driving cars under different conditions
+* cars usually trained in a boring, empty road, good lighting: problems with changes (snow, many cars, weird background, ..)
+![](img21.png)
+![](img22.png)
 
 
 
 
-
-
-
-
-![](img02.png)
+---------
+![](img20.png)
