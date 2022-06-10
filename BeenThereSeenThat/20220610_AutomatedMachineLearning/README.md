@@ -62,9 +62,36 @@
 * cars usually trained in a boring, empty road, good lighting: problems with changes (snow, many cars, weird background, ..)
 ![](img21.png)
 ![](img22.png)
+### learn2learn
+![](img23.png)
+### neural architecture search <-- check this
+* best combo of model, scaler, reducer is wanted
+![](img24.png)
+* transformers perform good; for NLP
+* still not clear what is the best performing one; which is a stable one?
+* that is wanted to b avoided
 
++ autogluon (is from Amazon) is a bit more * auto.gluon.ai/stable
+![](img25.png)
 
+### further topics:
+* automated data cleaning
+  * detect outliers
+  detect mislabels
+* multifidelity HPO
+* when searching for HP:
 
+* don't train on the whole dataset
+* don't train all epochs: dependin on problem size and input-size it can take to 2 hours to two months; don't want to use the whole budget; just use a small part of the bduget to get an idea what to do and get
+ ![](img26.png)
 
----------
-![](img20.png)
+* batch processing: train models
+* afterwards: transform input, model, output transformation
+
+* currently ML is converting to one line of code
+* currently model-deployment is really wanted and needed
+
+* automatizing ml-creation is actually reducing the amount of jobs
+* selfdestructive for our jobs
+![](img27.png)
+
