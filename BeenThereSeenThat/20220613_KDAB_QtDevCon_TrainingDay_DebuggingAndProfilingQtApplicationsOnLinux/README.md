@@ -187,5 +187,73 @@
 * example "race()"
 * lock order ivnersion problem: abba - classic problem of a deadlock
 * p.75; sanitizers vs. valgrind
+* sanitizers are much faster and use less memory
+* no recompilation is required for Valgrind; all libraries linked into your application will be checked by Valgrind
+  * some functionalities are not possible with valgrind at alle (like alignment fault and integer overflow)
+* workflow: every patch which will be uploaded will be contiuously tested for win/mac/linux and for linux also the adress- and undefined behaviour-setup
+  * directly get the report if something fails
+  * nightly builds do static code analysis on top
+* with qmake the suggested way is CONFIG+="sanitizer sanitize_address" ... (because qmake passes the flags only to compiler, not linker!)
+* else it will be a linker error
+* for qmkae using some ld-flag would also help, if you dont want to integrate it like this
 
+## Profiling
+* Linux Perf and heaptrack
+* not talking today about QML: should not be used to implement business logic
+* enable - and -02 (always with optimizations): ith std::vector and no optimizations would be very bad; with optimizations it works on level with C; "zero cost overhead" for cpp
+  * only true to the optimized versions; else always you have to pay for the optimized version
+  * do not profile un-optimized things; always -g and -O2
+* godbolt: compiler explorer: check for the the de-virtualisation-example
 
+### Perf
+* perf list, stat, record, report
+* has a Qt-Creator-integration (now)
+* whole performance subsystem inside the kernel; as user-space-app you can't have access to the hardware
+* has then access to pmu and trace points; good for measuring lock contention time
+* 99% of the time cycles and context switches are the wanted topics
+* check: zip-file: file `perf.init`; if this does not work, then read the reported errors
+* but increases as well the attack surface (on dev machine ok, on server not)
+* perf list: (example of targets for measurements)
+  * branch prediction (spectre, meltdown, ..): branch-misses are very costly; but optimizing your code to branch-misses is nowadays not important
+  * cpu-cycle versus cpu-instruction: first ones are equal to each other
+  * context-switches
+* perf stat: better than time
+  * example: `ex_container QList`
+  * time gives three numbers: real, user, sys: user+sys can be bigger than real, bceause of multithreading
+* pikaur: what is this? 
+* time -v ex_container QList (?)
+* never ever use time again, always use perf stat: QList has 7 billion cycles, qvector 5 billions
+  * on newer intel cpus: even slot-level is shown
+  * less "backend bound" slots is better: backend means "waiting for file input"
+  * even use perf list /d
+  * Qvector better than qlist because contiguous buffer, no random pointer chasing (on the heap)
+* `perf stat -repeat 10 -- my benchmark` with cycles to avoid fluctutations: but still pick targets which fluctuate less; so to change something were something can be said with high confidence; don't optimize noise
+* workflow: write a very specific benchmark for one part of the app; then micro-optimize this one
+* makes no sense for a ui-application, literally just for benchmarks
+* example: ex_branches (with param 1 it sorts the data; branch predictior kicks in) -> result: sorting additionally the data literally makes it faster!
+* workflow for number crunching: write a proxy, which also logs all the inputs from customer; and then optimize based on the input
+
+* nperf record: i clicked on a button and it was slow; i resized the window and it was slow ... the case with ui-application
+* find the code: what are we executing here?
+* f-instruments for gcc in former time? writes entry- and exit-log for each function; but has huge overhead; instrumentation makes tracing slow and distorted
+* so instead we do sampling: perf record (roughly a thousand samples per second); checks instruction pointer; map it then to a functio name, file name, line number, literally points to code which is executed
+* result: Qt code, malloc, free: not only code which you called
+  * at record time is sampled, at analyze-time it does the unwinding
+  * perf record --call-graph dwarf ./ex_randomfedora, arch: debuginfoD_urls
+  * debuginfod - check this
+  * dwarf: copy also the first kilobytes of the stack to be able to unwind the stack! makes the trace bigger, but allows more feedback
+* hotspot is a drop-in replacement - more graphical; always to go the flamegraph
+  * anything you cannot read anymore in the flamegraph, is mostly optimized and does not need attention; really useful visualisation tool
+  * meaning of the red color: no real meaning
+  * caller/callee grouping: also gives then the file+linenumber
+* better example: mandelbrot example; pretty badly written to show lots of use-cases
+  * flamegraph shows the "drawMangelbrot" -> immediately going to caller/callee would be way to fast; better: prepare a benchmark for that specific function -> `mandelbrot -b 10` -> now it is possible to measure the ground truth as baseline
+  * perf record, then hotspot, but then we get a broken flamegraph: but why is this the case? simply ignore that part where unwinding happened to work
+  * sort by "inclusive amount of cycles" -> 50% for one chunk
+  * perf stat:
+    * -d : more datapoints
+    * -r 5 : five runs
+    * --output norm.txt : report to file for later checks (and maybe for the commit message)
+* but beware of the diminishing returns .. but the treadmill has to be done
+* next to the lab_mandelbrot is also a sol_mandelbrot: with even more optimizations
+* the pimple-pattern of qt prevents compiler-optimizations
