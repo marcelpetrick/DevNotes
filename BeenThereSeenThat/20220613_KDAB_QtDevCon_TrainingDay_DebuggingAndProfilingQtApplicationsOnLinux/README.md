@@ -257,3 +257,57 @@
 * but beware of the diminishing returns .. but the treadmill has to be done
 * next to the lab_mandelbrot is also a sol_mandelbrot: with even more optimizations
 * the pimple-pattern of qt prevents compiler-optimizations
+* one optimization is also mirroring the upper half
+* attach later via -p $(pidof programname) and then detach later (ctrl+c)
+* since Linux 5.1: use --aio for asynchronous I/O
+* yocto has a standard recipe for perf: also use the z-standard
+* benchmark on laptop or target? more comfortable on desktop -> but ground-truth on target; but if some improvement was done at desktop, then it will apply at tagret as well; but always do the final run on the target (especially due to constrained ressources: like just one cpu-core, task being switched otu, memory constraints, ..)
+* for windows: Vtune, mtuner and also etw - uiforetw (brue dawson)
+* imx6 has maybe perf, but measures maybe on the very first core!
+
+* most important part of profiling: repeated recording of data; and proper analysis
+* also: leverage the dwarf-unwinder
+
+#### hotspot: off-cpu profiling
+* use hotspot for parameterization and also the perf.sh; compression is really important
+* `lstopo`for some hardware-overview of the cpu
+* are this many threads for this machine good? no, mostly 16 threads should be the maximum; suffering from overcommit (try to use more ressources than are there)
+* other problem: worker starvation and lock contention
+* lock contention could be found in mandelbrot:124 via hotspot
+* page fault: getting data into the application space: at first time use the qtcore (for instance) has to be loaded into the address space; but done lazily via memory map. just done at first access it is done via page fault; within that period you will be switched out, then switched in when it is there
+* pagefaults are a reason why a boot process takes much time to load
+* moving the mutext inside the loop should  decrease the period of locked mutex
+* "lost events": means that the perf-subsystem was not capable to write all data to disk which was needed; perf drops them to avoid skweing the measurement
+* use the global qthreadpool instead of a custom made one
+* automotive projects are awesome: actor-pattern is best thing since sliced bread; but 1 thread has already 1 megabyte of stackspace! not good on a system with 2 gibyte RAM
+* avoiding recording-loss can be done by setting perf to one core, and the rest of the cores for the app; but grain of salt: once there is loss, then the measured times can be very misleading
+* M. Wolff is also responsible for parts of hotspot
+* std::atomic allows to get rid of the mutex
+* qwaitcondition: appears now between the number crunching, this means worker starvation!
+* but is also because of the 5 runs: amdahl's law? for a codebase the parallization just reduces the time for the parallelizeable sections and the linear parts start to dominate
+* after also paralelizing the runtime goes down to 0.6s; applied this as well to the secondPassMandelbrot
+  * now the end-result has also nicely packed dense blocks
+
+## heaptrack
+* after improving the code by checking perf and then optimize, heap memory consumption comes into the view
+* heap memory allocations determine how much time is spent in malloc/free: better use code caches to avoid
+* `heaptrack ./labe_memory/lab_memory` - sometimes on-run-time-attach is also needed, but then you can only track the delta
+* those zst-files are self-contained; but debug-symbols have to be available to use a target-recording; if there are problems, then contact Milian via mail
+* after fixing: only 8 mibyte instead of 800 mibyte are used (and not leaked anymore)
+* but substring-solution has still too much allocations: substrings are created!
+* heaptrack-gui -d with two files: then diffing
+* moving a string-allocation outide the loop for resuing the buffer can improve things a lot (100k allocs saved with one simple move)
+* std::exchange (even better than std::move); for move and invalidate
+* heaptrack has also a tab for the most used sizes
+* also watch the memory alignment: else padding happens due to the boundaries (for instance a bool) takes 8 bytes because of 7 bytes padding
+
+* question: how to deploy on target-system for long-time-test to check even for issues leaks:
+  * better reduce this really to a well-defined case and then analyze this
+  * also create a pre-recorded data-input-file and then replay it for analyzis  
+
+* hotspot and heaptrack have app-images: for the latest and greatest use those; else rely on the distribution-ones
+* these tools should be completely independent to the used Qt-version
+
+* all the mentioned tools have to be tried out; just don't let it sit around
+
+[end - closing of the day]
