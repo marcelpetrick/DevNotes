@@ -84,4 +84,36 @@
 * rr record to capture flaky behaviour -> with an assertion; the "awatch workerthreadhasstarted" (not a typo)
 * go back in time in case of an assertion! was ist set properly, what is the value, see the code (computation bug)
 * "info locals" - no symbol table in case of stripped exectuable
+* KDAB uses docker to run CI, not virtualized
+* a trace/recording is completyl self-contained; no more syscalls, no network access, no rendering
+* toolset:
+  * reverse-continue
+  * reverse-step
+  * reverse-next
+  * reverse-finish
+* todo: try out Visual studio code to see how rr works there; with GUI
+* else: qtCreator: just like remote debugging
+* activate the gdb-output-view (then you can enter there reverse-next, .. to jump back in time)
+* also: check the wiki-page from mozilla
+* rr also records all subprocesses (children)
+* interprocess communication: dbus; record time will work as usual
 
+## GammaRay
+* debug in minimum time a codebase which exists for years, graphically insepct the state of the application
+* colleague: Volker has started it
+* GR is picky, especially for windows; has to be build against the exact version of qt
+* for yocto you can built it as part; else it maybe refuses to work or crashes
+* remote debugging even possible (on target)
+* `gammaray --inject-only -p $(pidof lab_example)`
+* `ps aux | grep lab`
+* then it shows which sockets you have connected to
+* launch then gammaray: connect to running apps (with open sockets)
+* GR also has a preview of the running application; pick elements, select items, 
+* CTRL+shift+LMB: then picking inside the real app is even possible
+* minimumheight of qt: set to 1 instead of 0! to get rid of the problem
+* delete on runtime the items
+* widgets > analyze paintings: [F9] - every single draw call; even with cost numbers
+* also a gamechanger for coplex model-view-hierarchies; proxies, ..
+* also shows statistics for object-creation; and also debugging levels
+
+[short break]
