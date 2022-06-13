@@ -117,3 +117,67 @@
 * also shows statistics for object-creation; and also debugging levels
 
 [short break]
+
+### state machines
+* dropped in qt6?
+* benefit; restructuring easy, signals and slots for each transtion, simple way to decouple the logic; simple to expand because everyone says "for simple things i can implement it on my own"
+* statemachines constrain you a bit; but constraints are good because they also limit your 'creativity' (for better readability)
+* use scxml: state chart xml; w3c-standard for future use; also in Qt5.15; use this for further development instead of Qt-state-machines
+
+* GR is split into two parts: core, which injects itself, and the UI-part, which gives insight into the values
+* usable also for quickscenes: using the samegame-example from qt
+* `gammaray ./samegame`
+* cheat by changing the type of the blocks possible now; but where does this come in handy now?
+  * good to debug mouseareas, which were maybe not fitting to a graphical item -> manually tracking and disabling items -> waste of time
+  * item-picker:  inspect-tool; multiple overlaping mouse-areas -> now maybe two mouseareas are collecting events
+  * "Problems"-section: items visible, but out of view; or other issues can be checked there
+  * overdrawing visualisation! (check this)
+  * imx-platforms: execeptionally bad at hardware-rendering
+  * not the gpu or cpu too slow, but the memory bus is too slow, so the whole machine slows down
+  * reduce overdrawing to increase performance
+  * put a clear color as background-item instead of using the background-color of the root-node
+* batching view: why important? gpu just same freqneuncy like the cpu, gpu is only fast when you can do lots of things in parellel; just works if there is not lots of clipping
+  * with enabled clipping view now everything is reddish: this is a red flag; batching view shows everything colorful; so the gpu is not properly utilitzed; "clip: true" means that you don't want to clip manually properly
+  * try to get rid of the "red" by checking which is most heavy; unclear if this is always a proper "low hanging fruit" and has any impact
+* openGL frame debugger would help to see the paint calls: renderdoc (official tool) <- check this
+* so GR is helpful for live-prototyping and adjusting measurements; but developer has to transfer the changes
+* RMB on qml-item can open the respective file for easier editing (`go to creation`); only works if qml is integrated as ressources
+* can you run it in a container: yes, should be relatively painless
+
+## Sanitizers
+* sanitizers are compiler addons
+* missing init of memory, somethign was freed and then accessed later; big potential to shot yourself in the back
+* with sanitizers and c++ it becomes really hard to write crappy code
+* evolution of valgrind
+* available ones:
+  * address: memory error detector
+  * thread: detect data races
+  * undefined: check code for undefined behaviour
+  * and more, with mixed maturity levels
+* valgrind has a problem due to slowness and lots of synchronized threads
+* google paid very smart people to solve this problem: valgrind as compiler plugin
+  * add checks during compilation instead -> much larger setup-overhead; compile app in specific mode; everytime you run it, the checks will be there; but multiple checks will maybe be optimized away
+  * he uses: address and undefined always enabled
+* demo: crashing app, he could get in with gdb and debug
+* how to: qtcreator > projects page, then clone the debug build; just look into the cmake cache variables and then toggle it (check: advanced as well);  CMAKE_CXX_FLAGS; -fsanitize=adress,undefined (thread and address don't work well together - make different build configs)
+  * now while running it will give output with undefined behaviour messages, etc. then also the sigsegv has more information, with context, really detailed! read the report: always read it from the top
+  * in our case: forgot to init the data-member (m_ui)
+* using a sanitized build has small overhead (he usually does) and has impact of 1 min instead of 20sec running
+* meant for errors: no warnings
+* continue running: -fsanizte-recover=all, then eset the environment var ASAN_OPTIONS=halt_on_error=0; BUT THIS IS NOT RECOMMENDED!
+  * it is really suggested to fix the first appearing issue first
+* example: "deepblue"; with generator; without optimiatzion it is 42, with -o1 it is 0. wow! but with address-sanitizer it shows again 42
+  * so what is the problem here? therefore opt in addditional checks; all of them are rock-solid; no fase positives
+  * "capture by reference is not a good thing" -> was a problem for the generator-lambda
+  * 55 ways for effective c++ code; scott myers? <-- check this; -Weffc++
+* also: leak checks for free
+* "when you can read the backtrace, you are responsible for the leak" - simple
+  * eversthing else is internal and can mostly be ignored
+* maybe also create custom-suppression files to filter common things with used libs
+
+* his workflow: source the script (to start in a well-defined session): check the common options
+  * gdb: p _asan_describe_address(0x12342134124) -> gets you the source code calling this; who was allocating this originally? quite useful
+* undefined behaviour sanitizer: will also tell what to do as solution
+* debugging/data-folder has also a setup-file.sh, which; but maybe add the line for the lambda as well
+
+
