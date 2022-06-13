@@ -180,4 +180,12 @@
 * undefined behaviour sanitizer: will also tell what to do as solution
 * debugging/data-folder has also a setup-file.sh, which; but maybe add the line for the lambda as well
 
+### thread sanitizers
+* deadlocks, data-races; destruction of locked mutex; "printf output creates barrier, which enables internal locking and magically the issue is gone"
+* then you have to build Qt as well and the libs which do the threading; so much larger overhead
+* in former times the clang-lib worked better, but GCC's libstdc++ should work now as well
+* example "race()"
+* lock order ivnersion problem: abba - classic problem of a deadlock
+* p.75; sanitizers vs. valgrind
+
 
