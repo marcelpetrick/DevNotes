@@ -272,7 +272,19 @@
 
 --------
 
-
-
+## setup a shareable dev environment in docker - julian grube
+* semasquare
+* the problem: it works on my machine
+* development on embedded system always require a big tooolchain: now bigger teams, but the usual case is now: it does not work on all machines
+* lots of time is also wasted on onboarding; setting up systems, ..
+* requirements:
+  * dockerfiles
+  * makefile
+  * CI/registry
+* and then you would have three build-targets
 
 --------
+
+## why energy consumption matters and how to eco-certify your software
+
+
