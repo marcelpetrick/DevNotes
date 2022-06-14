@@ -64,4 +64,31 @@
 
 --------
 
-## 
+## Proteins, microscopes and Qt - How modern Biotech fights Cancer - Anne Ruess
+
+### use cases
+* MICS technology - MACSima Imaging cyclic staining
+* hundreds of markers are acquired and what now?
+* MACS iQ View: image analysis software, gives meaning to the MICS data
+* segmentation; Gating: breast cancer; distance maps
+* data workflow editor for analyzing data
+
+### Lab Automation System
+* automated whole blood HT platform
+* analyse SARS-CoV-2-samples
+* CD8/CD4-T-cells can be detected quite a while, even if the antiboies decrease
+* lab automation system: liquid handling robot, automated incubator, centrifuge, ..
+### Tyto cell sorter
+* gentle to cells, full sterility, full safety, fast&easy
+* detecting cells by laser; sorting cells based on positive/negative: little valve opens and closes then
+* 20k cells per second
+### Prodigy - current blockbuster
+* used for some blood cancer treatment
+* use of certified version of Qt: no version like this; one of te components in the project; pre-qualification and preparation for processes and helped by their supporting company
+* how are the interfaces for data exchange set up? Who is defining the API? 
+  * checks for the tech lead) James Turner
+  * data manipulation on the device and also on the laptop; overall user-experience is distributed
+  * Python automation, API and format is fluent; scientists write their own converters
+
+--------
+
