@@ -286,5 +286,9 @@
 --------
 
 ## why energy consumption matters and how to eco-certify your software
+* KDE Eco
+* what does paper products and software have in common? the blue angel
+* production of devices takes 45% and 55% is for the usage of those devices (ICT)
+* efficiency (achieving the same result with less energy) and conservation (avoid unnecessary consumptions)
 
-
+[end]
