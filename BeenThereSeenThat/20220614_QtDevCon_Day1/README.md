@@ -141,8 +141,83 @@
 * also allows a roolback in case of need! but does not use double the space
 
 ### container based
+* container runtime: and then twice the container A and B; good for fleet management; normally they take care of failsafety and sometimes of recovery
+* always able to recover system: 
+* balena, torizon, pantarcor and others use this
+* docker also does diff-updates: so it just switches the difference between the filesystems
+* looked quite comfortable; had a fleet-manager
 
+### summarum
+* only packaages in case of technician
+* partition swap and OSTree: both failsafe, both work very well; don't have to think about oartitioning in advance (more flexibility)
+* container: fleetmanagement is helpful: good for separation between teams; also good for small companies
+* why was reboot required for the OSTree-hardlinks-change? boot into the new system; usualy keep the previous version, but also thousand versions cn be left; cleanup has to happen manually
+* for uboot also some kind of partition swapping is possible, but unfortunately not all eMMC support this
+* looks like OSTree just replaces the whole file; no diff on file (but maybe possible with squashfs)
 
+--------
 
+### Community driven coding guidelines for QML - Furkan Umzumcu (Autodesk)
+* why guidelines?
+  *  pool experiences from vastly different industries
+  * sane defaults for new comers to the language
+  * base for tooling
+* experience differs between platforms: but depending on how qml is used, it can be deployed in both environments
+* mindshift for declarative approach
 
+* yet another guideline?
+  *  official best practices for qml and qt quick; qml best practices search
+  * he noticed that something is down, unstructured first, then community-driven (initially by him)
+### Guidelines are not
+  * unchangeable
+  * see emerging patterns in code and adopt to it
+  * the absolute truth
+* making code easier to read, undertand, write and maintain - if the guideline does not support this, then what is the use? just imposing the will?
+* `qmllint`?
+* the newcomers to a project will also benefit from it
 
+### how to read qml code
+* first read the filename: what to expect from the class/interface?
+* id, which proerpties are exposed?, which signals - this is the interface
+* then comeas the implementation; rectangle and mousearea ..
+
+### code order
+* designers don't work the way xevelopers work; so a given structure is helpful forthem to understand and to handle their changes
+* check his good/bad examples
+* function ordering - functions not really important, therefore at the bottom
+* states and transitions at the bottom before the signal handlers
+* quite focussed about the readbility of the code
+* not go on the hunt for things, you just see the things
+
+### bindings: declarative > imperative style
+* js-function can be used inside a bnding and this would still be declaratie style; even when this is not recommended
+* unnecessary evaluation of bindings
+
+* on how many ways a qml object can be exposed to cpp: cntext proerpties, global object, signletones, instantiated ojbects (last one preferered)
+* singletons for API-access only
+* "if you look at QML, you should just look at one block of code, no other files"
+* prefer instantiated types over singletones for data
+
+### watch out for ownership rules
+* use a proerpty for exposing, but not directly
+
+### memory: profile first! needs contributions
+* functions use imperative form; signals tell you that something has happened (wording)
+* rule of thumb:
+  * when communicating up, use isgnals. when communicating down, use functions.
+
+### one size does not fit all
+* todo: check for the photo from the phone
+* implicit size: space occupied when no explicit size or anchors are set
+* explicit size: space occupied when an external size like width, heith or anchors are set
+* content size: space occupied by the contentsof a view
+* padding: space between the content item and the edge of a component
+* margin: space between two controls
+* inset: space between background and the edge of a component
+
+### javascript
+* latest supported ecma-script-version: 6; but with some new features from 7 and 8
+* use const, use let instead of var
+
+* todo: check the github repo from him: github::furkanzmc/qml-coding-guideline
+* qt-documentation can also be changed and adjusted
