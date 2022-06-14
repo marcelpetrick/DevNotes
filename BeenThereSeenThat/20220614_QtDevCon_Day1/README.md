@@ -221,3 +221,25 @@
 
 * todo: check the github repo from him: github::furkanzmc/qml-coding-guideline
 * qt-documentation can also be changed and adjusted
+
+# lightning talks
+
+## five things out of KDToolBox - Guiseppe D'Angelo
+
+### KDSignalThrottler for Qt
+* reduce the frequency; also debounce, ..
+
+### model view stuff
+* shove tablemodel into qlistmodel
+
+### tab interface
+* move tabs, reattach them
+
+### qt is transitioning from qmake to cmake
+* "cmake-project" with -qt 5 as param: createds a cmakelist.txt
+
+### ui watchdog:
+* detect frozen mainthread: instead of writing it yourself
+* add to code and to the cnetral main
+* and if the UI is blocked, then just add handler code or a debugger .. two lines of code
+
