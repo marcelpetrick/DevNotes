@@ -92,3 +92,57 @@
 
 --------
 
+## Keeping Qt based embedded devices up to date - Stefan Eichenberger
+
+* business case: how to update the whole software landscape of embedded devices
+* embear: software made in Bern - one man company; before working for Toradex
+* not just for Torizon
+* why updates? fix bugs in the field; if customer unhappy, then you will lose him; security threats (third party component)
+* secure is not safe; fail-safe is not secure; powerloss is a problem; secure means only signed versions
+* also lock the device against threats, not just use a secure update
+* technologies: packagaging; partition swapping; OS-tree (new technology); also container-based approach (just like packaging again)
+* explanation of his naming convention; failsafe+recoverable, double recoverable
+
+### packages
+* deb/rpm/ark
+* desktop applications
+* service technicians: if something failes, then technician has to be sent to recover; therefore manual recover is necessary
+* application updates
+* see: github.com/goreleaser/nfpm: does the packaging, uses yaml, several targets
+
+### partition swapping
+* widely used; swupdate/RAUC (but also just a simple shellscript)
+* embedded systems
+* failsafe if partition swap is atomic!
+* recoverable if boot into rootfiles-fs b and it crashes, then scroll back to the old version A (but instead of investing into recovery, invest in testing)
+* to check: cpio them together? also scpn - what this?
+
+* sw-update also has C-lib to check the process of the update
+
+### recovery image
+* android also has used this mechanism
+* advantage to partition swapping: much less smaller
+* however: you have to maintain two systems
+* most of the times some initramfs
+
+### always use  initramfs
+* used by desktops
+* supportive method
+* used by other mechanisms (e.g. OSTree)
+
+### OSTree
+* git for binaries; huge repository of file names
+* also allows diff-updates
+* also used by RedHat to do failsafe package-management
+* qtotaupdate from code.qt.io: qt-ostree script
+* after first run n target it will create a distributio of the current state (after user-merge), then sends it to the OSTree-repo
+* on target the server, which was just started on the host (laptop), can be selected, and then the newly offered version be used
+* just fetches then what has changed
+* also allows a roolback in case of need! but does not use double the space
+
+### container based
+
+
+
+
+
