@@ -222,9 +222,13 @@
 * todo: check the github repo from him: github::furkanzmc/qml-coding-guideline
 * qt-documentation can also be changed and adjusted
 
+--------
+
 # lightning talks
 
-## five things out of KDToolBox - Guiseppe D'Angelo
+--------
+
+## Five things out of KDToolBox - Guiseppe D'Angelo
 
 ### KDSignalThrottler for Qt
 * reduce the frequency; also debounce, ..
@@ -242,4 +246,33 @@
 * detect frozen mainthread: instead of writing it yourself
 * add to code and to the cnetral main
 * and if the UI is blocked, then just add handler code or a debugger .. two lines of code
+* toContainer: 
 
+--------
+
+## porting qt application to webassembly - benjamin Deuter
+* "geek in business"-company
+* comes from the tradition of compiling stuff to javascript and to run it then in the browser
+* why would you want to do this?
+* porting via emscripten; follow the guideline
+* example: simple statemacine first, ten porting some snake-game; check the pro-file first
+* runs snake and arqiver - compiled with Qt
+  * but file-access not possible: because sandboxed
+
+--------
+
+## handling large amount of text in QML - Shantanu Tushar
+* customer request: not show just te last 1000 lines, but the whole big file?
+* "textarea sucks" - does not work when you use lots of lines in textedit
+* this worked fine for widgets, but not for qml
+* firststep was profiling: resizing 
+* webview was working, but does not scale
+* listview with delegate: textarea was working 
+  * but now the scrollbar would be wrong (slightly), but selecting across delegates did not work
+
+--------
+
+
+
+
+--------
