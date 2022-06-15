@@ -1,7 +1,7 @@
 # 20220614 Qt Dev Con - day 1
 
 ## Qt 6.3 and beyond? - Maurice Kalinowski
-* oreview on Qt with web assembly
+* overview on Qt with web assembly
 * qt quick compiler ist becoming better in terms of performance
 * Qt Speech (text to speech)
 * physics/collision
@@ -27,7 +27,7 @@
 --------
 
 ## the jouney to the cloud has to go through the edge - Dario Freddi
-* 5 stages of grief: denial, anger, bargainin, dperession, acceptance
+* 5 stages of grief: denial, anger, bargainin, deperession, acceptance
 * technology is nothing, but a mean to enable a use case
 * technology is something which should not get in the way to do something
 * techn. and customer demand evolve fast than ever; turns out the learning curve is still there
