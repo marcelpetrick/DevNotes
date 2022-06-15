@@ -193,6 +193,18 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 
 --------
 
+## Qt Design Studio - Bridging the gap between developers and designers
+* similar talks before, but will show the results of the last half year
+* Figma integration now new; Design Viewer; Qt Creator
+* Qt's dedicated Design Tool
+* languages behind is QML; 2D and 3D (last one is commercial)
+* fast and iterative release approach: now once amonth; before every 3 months
+* Figma as design system tools for UI/UX; creating a structured design
+
+--------
+
+## Speeding up compilation using precompiled headers - 
+
 
 --------
 
