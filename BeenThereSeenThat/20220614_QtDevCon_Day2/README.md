@@ -203,7 +203,8 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 
 --------
 
-## Speeding up compilation using precompiled headers - 
+## Speeding up compilation using precompiled headers - Kevin Funk
+
 
 
 --------
