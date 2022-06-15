@@ -151,3 +151,48 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 
 --------
 
+## Hybrid Qt development: boosting your projects with Python - Dr. Christian MAurereia-Fredes
+
+* why is it really cool to add new languages to the Qt ecosystem?
+* check his slides on qtinfo.dev/qtforpython_qtdevcon22
+
+* Python and Qt are roughly the same age
+* besides their mautrity, both stand out for a common goal: simplicity
+* but you can make simple languges complex as well
+* idea is not to replace cpp with python
+* PyQt already exposed Qt-API to tech people
+* but they (Qt) wanted to do more
+* but we can not neglect the impact on fields like Data Science and AI; and the many conferences and organizations
+* popularity is the reason: many people start to jump into python and start to learn it
+* 2022 update for the popularity: ?
+* most of the same python has is because of popular modules, which rely on compiled languages like fortran, c, cpp, ..
+  * numpy, pandas, pytorch, tensorflow
+* initial question was: why just be another binding? there are already some?
+  * but casing, for instance, looks different due to casing
+  * feature import runtime: snakecase; also use "true_property"
+* opaque containers: python containers need to have a c++ containers
+* python popping first element of list: use deque instead of list
+### project distribution and packaging
+* problem with the zipped-shipping, like customers grabbed the business intelligence
+* compatible with many freezers and compilers: PyInstaller; works for Qt5 and Linux, macOS and Windows
+* he also submitted a patch to make briefcase compatble with qt6
+* todo: tomorrow pyside (tomorrow the webinar)
+* not only vanilla python; PyPy recommended; on avergae 4.2 times faster than CPython; has JIT
+  * a couple of minor releases behind
+* add more value for the user, instead of nitpicking "this is mine, that is yours"
+### Shiboken - binding generator
+* used by PySide: shares large
+* libclang for parsing the headers; but codes explodes
+  * but how to handle things: like void? what a refernece? how to handle a pointer? -> you can't
+* how to use: cmake-file and code; then two shiboken files (bindings.h and the bindings.xml)
+* example: a scriptable application; exposed QApplication-interface, can be modified then by python "plugins" (used by autodesk maya)
+
+* QtScrypt: final goal: enable the use of python modules from c++
+* Qt 6.3 enables crosscompiling (again): so building for RAspberry Pi is working now
+* WebAssembly will be next big thing inside Python
+
+--------
+
+
+--------
+
