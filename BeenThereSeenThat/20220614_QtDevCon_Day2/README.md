@@ -204,8 +204,47 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 --------
 
 ## Speeding up compilation using precompiled headers - Kevin Funk
+* if build from scratch takes 20 min and someone just changes the global header, then what to do in that time?
 
+### cmake: speeding up compilation
+* gcc versus clang: friendly rivalry
+* lots of forward includes is great
+* no difference between clang/gcc and ninja/make
+* in short: can't make general statements because it depences on code base, code complexity, optimization base
+* profile the build time of your code base
+* therefore what other options are there: ninja instead of make?
+  * ninja focusses o speed
+  * one single file contains all the instructions: build.ninja; not meant to be human readable
+  * compared to the normal recursive make-file-system this is simple
+* cmake supports ninja as generator: cmake -G Ninja ...
+* example Ruqola: 1200 files: runtime for rebuild with nothing changed: 5s versus immediate return
+* how to use ninja: change in "kits" the cmake generator to ninja -> done
 
+### ccache: caches previous compilations of compiler-units
+* available for gcc and clang
+* reuses the build-support
+* prefi compilation commands with `ccache`
+* or masquerade ccache as your compiler
+* export path to ccache; has alead links to ccache
+* or use cmake: compiler_launcher=ccache
+* ccache -s for statistics of the caching
+* switching branches: now it would rebuild the whole stuff, but with ccache will kick in
+* when just recompiling Qt-lib he does not use ccache, because it would add overhead; for that CCACHE_DISABLE=1 make
+* configuring ccache memory size, .. (check his slides)
+
+### another approach: using precompiled headers (PCH)
+* headers are compiled into a special form, the next time the compiler sees this, it does not have to re-parse it
+* 20 year old feature
+* reduce compilation time: for instance including QWidget would result in 93k LOC!
+* each time a source file includes that header, ithas to be reparsed
+
+* handcrafted versions can save even more time: is part of the KDToolBox: 
+* cmake 3.16 is required: tagrget_precompile_headers(ruqola_cora PUBLIC .. PRIVATE ..)
+* can also be disabled for specific files
+
+* ccache for projects you actively work on
+* ninja for all usages
 
 --------
 
+[end of the Qt Developers Conference - closing words ..]
