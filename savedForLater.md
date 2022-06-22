@@ -23,3 +23,8 @@ Had a problem to use my cpp-Enums in QML: found this <https://qml.guide/enums-in
 
 ## Qt 
 <https://medium.com/21st-century-decision-making-for-teams/painful-lessons-from-scaling-a-software-company-1d14ee7f9ab3>
+
+
+another static checker?
+
+https://github.com/david-a-wheeler/flawfinder
