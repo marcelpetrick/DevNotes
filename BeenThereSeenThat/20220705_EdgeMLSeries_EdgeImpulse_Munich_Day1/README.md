@@ -140,6 +140,35 @@ ml solutions:
 [img for the deployment of the model]
 * continuous deployment with automated pipeline
 
+## Edge ML in the world: datasense by sc robotics
+* using tinyML
+* IoT for agriculture
+* two main products: data logger and wine-smart-bung
+* battery operated devices, so power consumption really important
+* "we don't like being said how to solve a problem, we want to understand it first": we show solutions, because we have the experience
+* edge ml: why and when?
+  * bandwidth saving
+  * energy saving
+  * local operations
+  * network independence
+  * long-time-to-market (due to waiting for data-input from customer)
+* edge gesture detection: no touch
+* systems architecture for Ntouch
+[add image]
+  * uses time of flight sensor 
+  * thanks to edge impulse the reuse of a model for another target is straightforward
+  * once a gesture is detected, any output event can be triggered
+  * TOF-sensor: light ultra-sonic device; 8x8 pixels picture
+  * so with EI they train simply on images
+  * two operation modes: fingers detection (fingers for one, two, three..) and gesture detection (swipe): color for the extra dimension
+  * very useful stacking technique  
+* difficulties: data quality
+  * problem with skin-tone and left-/right handed affected the data quality: no more good clustering of the data-set
+  * the "data explorer" feature helped quite well: with one click data-samples can be reclassified with just a few clicks
+* quick protoyping: they used the RPi and Jetson Nano, support for these platforms was quite useful
+  * any change via ssh quite simple: anything which runs linux; after validation they use smaller microcontrolers
+* model deployment: constraints for OTA and memory sizes; proper strategy should be chosen
+* st vlx5 for the TOF sensor (should be freely available) [check this]
 
 
 
