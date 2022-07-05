@@ -166,10 +166,30 @@ ml solutions:
   * problem with skin-tone and left-/right handed affected the data quality: no more good clustering of the data-set
   * the "data explorer" feature helped quite well: with one click data-samples can be reclassified with just a few clicks
 * quick protoyping: they used the RPi and Jetson Nano, support for these platforms was quite useful
-  * any change via ssh quite simple: anything which runs linux; after validation they use smaller microcontrolers
+  * any change via ssh quite simple: anything which runs linux; after validation they use smaller microcontrollers
 * model deployment: constraints for OTA and memory sizes; proper strategy should be chosen
 * st vlx5 for the TOF sensor (should be freely available) [check this]
 
+## Hardware considerations
+* 2019: previous project: cortex m7 and a fully equipped FPGA: complex design
+* 2022: M7
+* optimizing performance and reducing memory footprint: getting the most data out of a device (sensor fusion)
+* DL models can get big: but the goal is to run big models on tiny devices
+* one of the tricks: quantization: storing data at lower bit depth (than floating point representations)
+* fixpoint versus floatingpoint-storage: quantization as problem in former times, but is solved
+* less power consumed in case of using int8 and also faster
+* quantization values and weights are transformed to int8
+* but: loss of accuracy
+[img of the model with weights]
+* normalization: make use of the whole range of the values; for instance for sound (the volume is louder) -> more information is retained -> hence better accuracy
+* mobilenetv2 96x96 0.35 RGB as comparison model
+### sensor fusion
+* neural networks are not limited to one type of input data
+* as long as data from training to inference stays the same, it can be used for a variety of tasks
+* technique to combine data from different sensors
+* use two separate cameras to combine input for some fake-stereoscopic images
+* pressure, color, brightness, and temperature: indoor/outdoor detection
+* use _serial daemon_ to directly collect sensor data into your edge impulse project
 
 
 
