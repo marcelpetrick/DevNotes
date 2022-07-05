@@ -57,6 +57,7 @@ ml solutions:
 * 2005-2021: attempts to resssurce neural networks with unsupervised pretraining,probalilistic neural nets, aleternative learning rules
 * 2012: imagenet chhallenge: classify unsee saples of the same image; alexnet CNN possible due to the advancement in GPU processing
 * 2021-present: more layers, more parameters, lots more computing cycles, a few important tricks that imrive training and generalization,
+
 ### hot topics in 2022
 * transformer networks; attention based neural networks
   * focus on specific areas in our percetion
@@ -66,6 +67,7 @@ ml solutions:
 * self-supervision great techniqe for labelling unlabelled data
 * zero-shot learning (no trainign data) versus one-shot learning
 * knowledge-distillation
+
 ### ml tasks
 * supervised learning: regression
 * image classification: binary image classification: dog and cat ..
@@ -97,7 +99,31 @@ ml solutions:
 * 4.7 ms to detect a face; 10 ms for yaw and landmarks (face angle and feature): worked quite fast with a group of people
 * alif ensemble development kit: is available
 * currently the kits do not work for automotive, because just down up to 25°C (? or down to minus?)
-* 
+* work with global foundries, not TSMC
+* "great question" ..
+* price range to 5-12 euro for 10k item prices
+
+## syntiant - making edge AI a reality - robert van der waal
+* delivering deep learning solutions for always-on battery powered devices
+* actually a semiconductor company, but also provide tools to train models
+* first idea was to create an edge-device, which is alexa-ready; passed this also in 2019
+* huge journey for the company itself
+* syntiant neural decision processors: at-memory compute; store data close to MAC-part (multiply and accumulate)
+* optimized edge devices, which recud battery consumption: A53 at 1 GHz versus 32 MHz syntiant core v2 -> 3,5days versus 1 year
+* syntiant data hub:
+* glass breaking detection: data from kitchen usage is similar to glass breaking; so this is an additional problem
+[img to add]
+* NDP100, 120 and 200
+* example: runs two networks: one for keyword detection, one for glass breaking; both can run concurrently
+* battery-operatred person detection
+* now the problem is the microphone: some have now no-sound-sensing
+* cameras a re a bit less power hungry than microphones (?)
+* Syntiant and Edge Impulse collaboration
+* tinyml-board is available on digikey [checkthis]: contains ndp101-chip; 2hours of work to get a working model
+
+
+
+
 
 
 
