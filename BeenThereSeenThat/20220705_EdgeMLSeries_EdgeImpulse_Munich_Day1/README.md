@@ -121,16 +121,27 @@ ml solutions:
 * Syntiant and Edge Impulse collaboration
 * tinyml-board is available on digikey [checkthis]: contains ndp101-chip; 2hours of work to get a working model
 
-
-
-
+## MCSA - an old technique in a new dress
+* motor diagnosis: how to improve with ML?
+* two types: AC and DC motors
+* BLDC motors: brushless mtoros; most common in devices and robotics
+* bearing faults and stator faults: short cicruits, shaft faults, brushes fault
+* faults require time to develop
+* condition monitoring for motors
+* objective: reduce maintenance cost, improve components, reliability, optimized motor performance, predict motors failure
+* MCSA: motor current signature analysis is sensorless based
+* sensor based: thermal monitoring, noise monitoring, vibration monitoring, torque m.; disadvantages: possible sesor failures, accurate sensors are expensive, require access to the motors, invasive installation
+* effective dsp approaches: emd (empirical mode decomposition)
+* classical ml worked better than deep learning
+* but there was just the 10year old paper: no opensource, no code existing
+* then they used edgeimpulse to recreate the model
+* ingest the data-set; the tuning the model and layers
+* 60k datasets as input used; 11 classes and combinations can be recognized
+[img for the deployment of the model]
+* continuous deployment with automated pipeline
 
 
 
 
 
 .. wip ..
-
-
-
-
