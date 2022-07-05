@@ -57,7 +57,7 @@ ml solutions:
 * 2005-2021: attempts to resssurce neural networks with unsupervised pretraining,probalilistic neural nets, aleternative learning rules
 * 2012: imagenet chhallenge: classify unsee saples of the same image; alexnet CNN possible due to the advancement in GPU processing
 * 2021-present: more layers, more parameters, lots more computing cycles, a few important tricks that imrive training and generalization,
-## hot topics in 2022
+### hot topics in 2022
 * transformer networks; attention based neural networks
   * focus on specific areas in our percetion
 * quite good for computer vision and natural language processing (NLP)
@@ -66,24 +66,38 @@ ml solutions:
 * self-supervision great techniqe for labelling unlabelled data
 * zero-shot learning (no trainign data) versus one-shot learning
 * knowledge-distillation
-## ml tasks
+### ml tasks
 * supervised learning: regression
 * image classification: binary image classification: dog and cat ..
 * object detedtion: with bounding boxes
 * image segmentation
 * natural language processing: keyword spotting, (google home and alexa)
 * clustering: crime prediction using k-means clustering
-* imensional reduction: squash the 30x30 features into two dimension by reduction, then easy to label
+* dimensional reduction: squash the 30x30 features into two dimension by reduction, then easy to label
 * reinforcement learning: good for learning to play Go or other computer games
 
 * reasons for failure: asking the wrong question
 * having too less, much data, using the wrong tools,not the right model or metrics, wrong people, trying to solve the wrong question
+[todo: add some of the photos - at least those which can be read]
 
-
-
-
-
-
+## Making things smarter
+* coming from Arrow, Amir Sherman
+* adding more semiconductor functionality to grow the platform
+* he will also replace renesas and alif, because they could not come due to sickness
+* "AlifSemiconductors and EdgeImpulse is a great combination"
+* 2022 1.2 billion devices with ML functionality
+* wide, broad support
+[img: platforms]
+* lots of ARM-based solutions
+* cloud AI, edge AI (existing), endpoint AI (new): how to do face and voice recognition without connection to the cloud?
+  * cortex m55: up to 15x uplift
+  * ethos u55; 32x ml uplift
+* combination is possible, can be combined with other platforms: speed to inference increases, also increase the energy efficiency
+* ethos m55: first microNPU for cortx.M
+* 4.7 ms to detect a face; 10 ms for yaw and landmarks (face angle and feature): worked quite fast with a group of people
+* alif ensemble development kit: is available
+* currently the kits do not work for automotive, because just down up to 25°C (? or down to minus?)
+* 
 
 
 
