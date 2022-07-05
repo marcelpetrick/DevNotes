@@ -191,6 +191,21 @@ ml solutions:
 * pressure, color, brightness, and temperature: indoor/outdoor detection
 * use _serial daemon_ to directly collect sensor data into your edge impulse project
 
+### presentation round
+* Marcel Petrick, team lead for the application software
+* Data Modul: creates custom-tailored solutions for SBCs, displays, especially touch displays for european companies; discussing the AI strategy for the next years. team lead for the application software for embedded devices. lots of HMI-solutions could benefit from additional ways to input data; gestures?
+* out of my own interest I played in my freetime with edgeimpulse on a microbit v2; quite impressive; keyword recognition - support of the platform to enable me as non-native software engineer to create ML.model was impressive
 
+### to check
+* definition of time-series (any events, sampling rates)?
+* subtle data drift over time
+* german research institute for AI?
+* NXP: how can edge impulse help for their solutions; try to understand gaps, find synergies
+* to check gas sensors are perfect input for machine learning
+* NN: either complex tool or scaled down to 1 layer (then just linear regression): everything is possible
+* qr-code: starting a model for test on your phone just by scanning a code
+* do ML based on current (use case! check this) - check for defects; temperature/sound is done from everyone, but current is the way to go
+* [check this] coursera course: two are available
+* in-cabin: drowsiness detection, etc.?
 
-.. wip ..
+[end of the day]
