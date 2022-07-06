@@ -69,6 +69,11 @@
 [img of the slide: layout of the board]
   * Thingy 53 has a microphone as well
   * nRF edge impulse App - available via app stores
+* question: LoraWAN: makes sense in ares with exclusive access, in cities may be a lot of quality of service-issues; Nordic won't support it, because patented technology
+
+## Making the impossible, possible - advancement of edge ML (5 year comparison) - Aurelian Lequertier
+* 
+
 
 
 
