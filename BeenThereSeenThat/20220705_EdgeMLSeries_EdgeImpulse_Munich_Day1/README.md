@@ -207,5 +207,7 @@ ml solutions:
 * do ML based on current (use case! check this) - check for defects; temperature/sound is done from everyone, but current is the way to go
 * [check this] coursera course: two are available
 * in-cabin: drowsiness detection, etc.?
+* nn-based detecton compared to kalman-detection based: gps-positioning
+
 
 [end of the day]
