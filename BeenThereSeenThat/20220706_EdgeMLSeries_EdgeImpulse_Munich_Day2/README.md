@@ -101,15 +101,15 @@
 * comaprison of the two networks: pro and cons
 [img of comparison]
 * evaluate: (fomo)[edgeimpulse.com/fomo]
+* example: helmet-manufacturer: with keyword spotting you need for commands like "visor brighter" just few samples instead of 10h samples for 90% accuracy; for 99% you would have needed 400h in the classical way
+* polycom has a cortex m0 in their headsets: few-keyword-spotting for proper accuracy; before they used "sensory" (other company) where they were not happy: charged for unit and items
+* scaling versus one-off-example, where you can do fine-grained ML-engineering
+  * adapt for limits like "flash usage" with certain percentage of accuracy
 
+* link to PDFs will be provided: all slides (YES!)
 
-
-
-
-todo:
+TODO:
 * check how to send MQTT messages - for data logging
 * AWS learning paths .. and certificates
 
-
-
-.. wip ..
+[end: lunch]
