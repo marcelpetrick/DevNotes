@@ -72,13 +72,38 @@
 * question: LoraWAN: makes sense in ares with exclusive access, in cities may be a lot of quality of service-issues; Nordic won't support it, because patented technology
 
 ## Making the impossible, possible - advancement of edge ML (5 year comparison) - Aurelian Lequertier
-* 
+### few shot keyword spotting:
+  * usually collecting data, feature extraction (MFCC), then neural network
+  * model usually a 1D or 2D constitutional network; if you have someone with knowledge about signal processing, you can adjust the features for the preprocessing as well
+  [img]
+* problem: keyword spotting requires a giant, diverse datasets which are difficult to source
+* 560 samples ->75% accuracy, but with 19x data just 19% better accuracy - for even better acc. yu need even more data
+* solution uses transfer learning, just like we do with images, but for keyword spotting
+* similar to image transfer learning: maybe trained on huge data-set: pre-trainign step
+  * new data-set is using cancer-cells, only the last layer of the model has to be retrained and fine tuned
+* few shot-keyword spotting: pre-training with millions of utterances in many languages (20 mio), then just apply few examples of specific utterances  
+* now the model is trained with just 20 samples -> right away 97% accuracy
+* inferencing can be tested directly on the smartphone [check this out again - maybe renew my microbit project?]
+### FOMO - faster objects, more objects
+* computer vision: either image classification, or object detection (also shows the bounding boxes to show where something is located)
+* problem: traditional object detection models are poorly suited to MCUs
+* object detection: creates several bounding boxes and then extracting the one which can find your object -> this consumes a lot of ressources
+* [check] MobileNet and Yolo
+* based on MobileNEt architecture: ultra fast: 60 fps on RPi class, 30 fps von Corext M7
+* extremely fast to detect objects and count them (segmentation is needed for that)
+[img mobilent v2]
+* reuses MobileNet v2 architecture, but astrip it down a bit earlier
+[img fomo]
+* creates feature-maps: 16 feature maps with 30x30 cells, then do a "D convolution with 1x1 kernel
+* each cell is given scores: p background, ball, toy, dog ..
+* creates a heatmap of object locations, neighbouring cells with the same class are removed - leaving the highest score
+* during inference centroids are used: so output is not a bounding box, but a center
+* comaprison of the two networks: pro and cons
+[img of comparison]
+* evaluate: (fomo)[edgeimpulse.com/fomo]
 
 
 
-
-
-  
 
 
 todo:
