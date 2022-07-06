@@ -32,7 +32,7 @@
   * challenge: done in a lab environment - so quite calm, but what about a noisy industrial environment?
 * is there something in EdgeImpulse for removing a known ambient noise: no, has to be done as apart of manual preprocessing
 
-## Renesas introduction: what can they do for npus and mcus?
+## Renesas introduction: what can they do for MPUs and MCUs?
 * 21k employees, 1k billion yen revenue 20221
 * core markets: automotive, industrial, infrastructure, IoT
 * AI building blocks: motion detect, vibration detection, upside down detection, fall detection
@@ -40,13 +40,45 @@
 * you can have the best hardware, but if the ecosystem is not fitting, then you will not go far
 * currently they used a translator (DRP-AI) to convert ONX-models to their embedded target -> will provide tooling for EdgeImpulse soon
 
+## Edge Impulse and Nordic Semiconductor: Kevin Kotinkar
+* intro: fabless semiconductor companies, focus on low power wireless connectivity; 2.4GHz range, bu also LTE-M
+* 1200 employees, 1.5 billion revenue
+* 2018: nRF91: first cortex M33 + ARM TrustZzone security
+* every BLE device has to be listed: Nordic still with 40% market leader
+* synergy:
+  * low power edge devices
+  * connected devices, analyze data easily with great UX
+  * limited development effort
+  * R&D costs show that they are more a software company, even when revenue comes from hardware
+  * requirement for smartness in energy constrained devices
+* classifying images possible (M4 on legacy products), M33 on newer ones - is possible
+* air quality, recognizing sounds, audio input
+* nRF connect SDK (already used yesterday xD)
+* 75% of customers run battery-powered devices
+* idea to reduce what you have to send over the air
+* nRF9160: voids cellular modules; already certified for use around the world
+* nRF connect SDK: based on zephyr RTOS (by Linux foundation)
+* scalable SDK: fits single, but also multi-core SoCs
+  * one code base and toolchain for nRF52, nRF53, nRF91 series; includes Bluetooth LE, MLE mesh, thread, homekit, matter, zigbee, LTE
+  * Visual Studio Code as supported platform; cmake, git ..
+  * integrated edgeimpulse support for all boards
+* DevKit are mostly nice for testing the cpu, but you have to add sensors
+  * more important are the "thingies", which come pre-equipped with sensors
+  * Thingy: 52, Thingy:91 and Thingy:53 (some weeks ago); is pre-programmed with firmware to work directly with edgeimpulse-studio; also with smartphone app via bluetooth
+  * example runs a ml model for gestures and sending the classification result to a MQTT server
+[img of the slide: layout of the board]
+  * Thingy 53 has a microphone as well
+  * nRF edge impulse App - available via app stores
+
+
+
 
   
 
 
 todo:
 * check how to send MQTT messages - for data logging
-
+* AWS learning paths .. and certificates
 
 
 
