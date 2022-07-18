@@ -23,3 +23,16 @@ GitHub Repo: https://github.com/data-science-on-aws/
 YouTube: https://youtube.datascienceonaws.com
 Slideshare: https://slideshare.datascienceonaws.com 
 
+--------------------------
+## Francesco Pochetti:
+
+* check his blogpost for details: and to follow along if something is missing frrom the transcript
+* face detection to find the bounding boxes and to add blurring (but with segmentation and not just circles)
+![](img0.png)
+* check huggingface.com - a community for ai-learning?
+* vs-code session running on top of docker container
+* face-synthetics dataset: all artificial images: [https://github.com/microsoft/FaceSynthetics](https://github.com/microsoft/FaceSynthetics)
+  * render with icevision image with separation into background and face
+  * pure pytorch model to recognize the face area
+  * pytorch model is then converted to torchscript (easier to deploy, he says)
+  
