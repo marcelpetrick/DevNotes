@@ -20,7 +20,14 @@ ABOUT THE TALK Bad Meetings don't have to be a fact of life. With facilitation t
   * involvement
   * wrapping up
 * cameras off is ok, using chat is fine - but how to encourage participation?
+![](img03.png)
+* nomad8 - facilitation canvas
+![](img04.png)
+* bad meeting not only on the facilitator's shoulders - what about bad behaviour, etc members?
+* retro formats can degrade over time
+![](img05.png)
 
+TBC
 
 
 ---------------
