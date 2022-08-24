@@ -21,3 +21,13 @@
 * scrum alliance wants 2.400 to 2.500€ for "Certified Scrum Product Owner"; scrum.org calls it "Professional Scrum Product Owner" for 1.400 + VAT
 
 * took & booked PSPO for end of March ... hey ho, let's go!
+
+
+------------
+
+## 2022
+* coursera: Project Management course by Google
+* Coursera: Remote Team Management by Gitlab
+
+### check for something for this
+* design thinking
