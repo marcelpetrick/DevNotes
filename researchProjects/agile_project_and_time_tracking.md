@@ -7,7 +7,9 @@
 # question
 * what is the usual way to handle this in agile?
 * drop it at all? just prepare a sum and charge-as-needed?
+* use some tracking software as help for the developers?
+* what about the overhead for managing/tracking the "Vorgänge"?
 
 # sources
 * https://www.microtool.de/projektmanagement/brauchen-agile-teams-eine-zeiterfassung/
-* 
+* https://www.pivotaltracker.com/blog/time-tracking-secret-sauce
