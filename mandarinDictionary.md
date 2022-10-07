@@ -70,4 +70,6 @@ B: 没关系。- méi guān xì. - It doesn't matter.
 
 吃饭了吗？- chī fàn le ma? – Have you eaten yet?
 
+
+zhù nǐ shēngrì kuàilè - Happy birthday to you.
 [TBC]
