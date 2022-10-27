@@ -21,5 +21,9 @@
 * Wer schreibt die Akzeptanzkriterien? Nicht nur der PO allein
 * Wer schreibt die strategische Ausrichtung des Produktes? Die Stakeholder genauso
 * Backlogrefinement-Meetings sollte man nicht als JIRA-Administrationstasks sehen
-
-
+* "Let's feed the hippo" - Welches Hippo? (highest paid person's opinion) - Wer am meisten Geld gibt (bekommt), hat die meiste Macht.
+  * durch den Anreiz, dass man variable Gehaltsanteile hat, fördert man Features, die eventuell den Geldbeutel füllen, aber nicht sinnvoll für das Produkt sind
+  * Product-Backlog-Verwalter vs. Product Owner
+  * mit Stakeholdern in "media res" gehen sollte man fördern, weniger 1on1s
+  * Product Backlog Poker with Monopoly Money ... everyone of the stakeholders get the same value. the Items with the highest placement come first ..
+  * Teams leiden unter multipler Popose? Mangel an Fokus?
