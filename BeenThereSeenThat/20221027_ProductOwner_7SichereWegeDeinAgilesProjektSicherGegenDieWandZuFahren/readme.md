@@ -4,3 +4,22 @@
 
 ## 1. Weg: Unterschied in der Denkweise "Projekt" vs. "Projekt"
   * finalen Endtermin versus inkrementelle Entwicklung
+  * Projekte um Firmenstrategien zu erfüllen
+  * wie zahlt mein Produkt auf die Firmenstrategie ein?
+  * Produktportfolio: wenn man als Org auf Portfolio-Ebene erfolgreich sein möchte
+  * Firmenvision und der Weg dahin zu kommen?
+  * wie misst man Fortschritt in Organisationen? (Wie bei euch?)
+  * date-first versus scope-first Ansatz? jeweils das andere muss dann fix sein. Da hat man nur den Ansatz die Qualität zu beschränken, die ist aber das Aushängeschild nach außen
+  
+* Features First Ansatz führt zu technischen Schulden; damit sinkt dann auch der Output, weil man nur damit beschäftigt ist "drumherum zu arbeiten"
+  * Beispiel: wichtiger Termin steht im Raum; jetzt schauen wie man doch den Liefertermin halten kann, weil man das "ja später fixen kann"; 
+  * Productbacklog Einträge gern in vier unterschiedliche Quadranten:
+    * einer hat positiven Mehrwert und direkt wahrnehmbar -> Features
+	* nicht wahrnehmbar, aber verursachen Herzschmerz -> Defects (Bugs)
+	* zwei Farben verwenden: positive Farbe und negative Farbe; Productbacklog färben, schauen was oben als Farbe zeigt ... säuft man in technischen Schulden ab?
+* Wer erzeugt den Mehrwert?
+* Wer schreibt die Akzeptanzkriterien? Nicht nur der PO allein
+* Wer schreibt die strategische Ausrichtung des Produktes? Die Stakeholder genauso
+* Backlogrefinement-Meetings sollte man nicht als JIRA-Administrationstasks sehen
+
+
