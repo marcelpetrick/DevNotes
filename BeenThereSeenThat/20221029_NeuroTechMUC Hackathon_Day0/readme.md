@@ -94,14 +94,32 @@ Greetings, I am Marcel. I am a software engineer with some experience in C++/Qt/
 * unicorn-bi.com - a brain interface - https://www.unicorn-bi.com/product/unicorn-hybrid-black/ - 999€ ..
 * todo: bee bot kaufen ... 92 euro
 * g.Tec Suite 2020: for anccess to the channels, programming interfaces, just output of data - all in one
-* how to do measurems, how to mount a cap? active electrodes, which amplify the signal put cap on, then chin strap, the massage it to the head, reference electrode on the earlobe (with gel), one electrode on the forehead as groudn eelctrode (yellow), the inject gel in all of the signal electrodes, then with gel really clean signals, takes roundabout 2 minutes
-* 
+* how to do measurems, how to mount a cap? active electrodes, which amplify the signal put cap on, then chin strap, the massage it to the head, reference electrode on the earlobe (with gel), one electrode on the forehead as groudn eelctrode (yellow), the inject gel in all of the signal electrodes, then with gel really clean signals, takes roundabout 6 minutes (for someone experienced)
+* eyeblinks, moving the teeth, rolling eyes, bithing teeth really screws up the signal (movement artifacts)
+* dry-electrode-cap with screwing electrods and 16 inputs it took like 30 seconds to get the cap fixed
 
+slow cortical potentials: anticipation tasks: not used anymore because of easy defets
+* event-related, non-phase-locked changes
+* the phenomenon of synchronisation of the signals happens even before the finger moves;before and after the movement the amplitude is getting really big
+  * the signal looks really similar when you just imagine the movement
+  * this is used to rehabilitate stroke patients
+  * recovering stroke patient had after a while of training (last sessions) alsmost 100% accuracy, just by imagining he movement instead of doing it, usually patients start with 60%
 
+* todo: read this later : https://www.researchgate.net/publication/357698587_PIEEG_Turn_a_Raspberry_Pi_into_a_Brain-Computer-Interface_to_measure_biosignals_arXiv220102228
+* PIEEG - where to buy and price?
 
+* quick overview of the brain can be done with EEG quite fast: like cortex-mapping
+* also where the face-decoding is located: characters versus faces, quite well doable
 
+* new idea: pangolin grid: really small electrode with 16 positions, one clip to connect the grid to
 
+### P330 - approach (EEG):
+* after 300ms a peak on average, 
+* the 6x6 matrix speller
 
+* before using any BCI-application some calibration is needed first
+* out of the collected data offline some classifier is generated: then the game (world of warccaft, e.g.) can be controlled
+* SSVEP: needs update of the classifier every day+
 
-
+* todo: check this brain41.io - hackathon; BCI designers hackathon (url does not work?)
 
