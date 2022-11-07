@@ -93,7 +93,7 @@ Greetings, I am Marcel. I am a software engineer with some experience in C++/Qt/
 * important is to get a clean EEG signal; if the subject is clenching with teeth, then the signal degrades much
 * unicorn-bi.com - a brain interface - https://www.unicorn-bi.com/product/unicorn-hybrid-black/ - 999€ ..
 * todo: bee bot kaufen ... 92 euro
-* g.Tec Suite 2020: for anccess to the channels, programming interfaces, just output of data - all in one
+* g.Tec Suite 2020: for access to the channels, programming interfaces, just output of data - all in one
 * how to do measurems, how to mount a cap? active electrodes, which amplify the signal put cap on, then chin strap, the massage it to the head, reference electrode on the earlobe (with gel), one electrode on the forehead as groudn eelctrode (yellow), the inject gel in all of the signal electrodes, then with gel really clean signals, takes roundabout 6 minutes (for someone experienced)
 * eyeblinks, moving the teeth, rolling eyes, bithing teeth really screws up the signal (movement artifacts)
 * dry-electrode-cap with screwing electrods and 16 inputs it took like 30 seconds to get the cap fixed
@@ -123,3 +123,10 @@ slow cortical potentials: anticipation tasks: not used anymore because of easy d
 
 * todo: check this brain41.io - hackathon; BCI designers hackathon (url does not work?)
 
+### practise
+* formed a Team with Tom and Shuhong 
+
+
+* problems to gather data with ganglion or the cyton board ... unclear why
+
+* https://docs.google.com/spreadsheets/d/1yuI23OhaGvtNob2QMKmxH_Hp8yNZVCKmW3oSV6VyfGQ/edit#gid=0
