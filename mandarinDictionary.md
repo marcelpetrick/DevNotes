@@ -73,4 +73,8 @@ B: 没关系。- méi guān xì. - It doesn't matter.
 zhù nǐ shēngrì kuàilè - Happy birthday to you.
 祝你成功 - Wish you success (good luck).
 
+不客气 - Bu ke qi - You're welcome  
+没鸟关系 - mei guan xi - It does not matter  
+对不起 - Dui bu qi - Sorry  
+
 [TBC]
