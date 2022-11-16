@@ -15,8 +15,8 @@
 * eine gute kommunizierende PErson sein
 * datenbassiert, Google-intern und auch McKinsey
 
-* offene Kommunikationskultur , Mitarbeiter unterstützen, fachlich wie 
-* gemeinsame ziele als Führungskraft
+* offene Kommunikationskultur , Mitarbeiter unterstützen, fachlich
+* gemeinsame Ziele als Führungskraft
 * passende Delegation; kein Mikromanagement
 
 ### großartige Führungskräft
@@ -25,8 +25,8 @@
 * Teamentwicklung
 * begleiten, entwickel, füreinander da sein
 
-#### Zusammenfassung
-* haben eine klare vision und strategie für das team
+#### V
+* haben eine klare ision und Strategie für das team
 * sind produktiv und ergebnisorientiert
 * sind stark darin, Entscheidungen zu treffen
 * kollaborieren im gesamten Unternehmen
@@ -79,5 +79,42 @@ TODO: von handy
 * Interesse zeigen: Fragen stellen, um von den Teammitgliedern zu lernen; Sich auf das Gespräch konzentrieren; Input geben
 * verständnisvoll sein: gehörtes zusammenfassen und fragen, ob es richtig verstanden wurde; Körpersprache beachten
 
+TODO: von handy
+!()[img03.png]
+
 * als Opener etwas persönliches bringen; was man macht, was schief lief in der aktuellen Woche?
-* Struktur: mit Socialising beginnen; dann Perspektive reflektieren (du, ich weiß nicht, wie es dir geht. aber mein letztes teammeeting war nicht so toll.), 
+* Struktur: mit Socialising beginnen; dann Perspektive reflektieren (du, ich weiß nicht, wie es dir geht. aber mein letztes Teammeeting war nicht so toll.), auf Leistungen eingehen "ich habe das Gefühl, das hat dir Spaß gemacht", "ich habe den Eindruck, du wartest noch auf eine neuer Herausforderung"; bei manchen LEtuen kann eine Agenda helfen - sollte aber individuell entschieden werden; eventuell keine feste Agenda, sondern "ich hätte gern mit dir folgende Punkte besprochen?"
+* persönliches Interesse an den Leuten zeigen: nachfragen, wenn Details bekannt sind
+* in kleinen GEsprächen eher nicht hart "Company - Projekt - Person" rangehen, sondern es eher um die Person drehen
+* wiki page pro Mitarbeiter; CRM-System; OneNote .. dann elektronisch verschlüsseln; mindmap tool - Wohlfühlfaktor de sMitarbeiters spielt größeren Raum als Datenschutz
+* TODO: Struktur überlegen
+  * Mitarbeitergeburtstage im Kalender eintragen
+  * als Vorgesetzter darf man gewisse Daten über die Mitarbeiter haben
+* verständnisvoll sein, Nachfragen um zu zeigen, dass man etwas verstanden hat
+
+### pt2
+* wertschätzendes Umfeld schaffen: DAnkbarkeit für Lösungen, Beiträge aus dem Team zeigen; sich einschalten, wenn negativ über einander gesprochen wird; eigene Erfahrungen teilen
+* Entscheidungen treffen: Input und Feedback des Teams suchen; Input von anderen anerkennen und kennzeichnen; erklären, wie die Entscheidung getroffen wurde
+* Sparring anbieten und einfordern: Teammitglieder um Feedback bitten; Sparring durch Team einfordern; Kontrovers und sachlich diskutieren
+
+## Wie sie gemeinsam zum Ziel kommen
+* Infrastruktur
+* Methoden
+* KPIs
+
+* Konflikte lösen: Mediation - ersteinmal auf die Definition eines guten Konsens zu einigen: gut umsetzbar, trackbar, .. im Vorfeld entscheiden, was ist wichtig
+* goo.gle/zw-note TODO check the offered tools, which maybe improve collaboration and make it more transparent
+
+### Agile Methoden testen
+* Überprüfung: Fortschritte werden regelmäßig überprüft
+* Anpassung: kurze Intervalle ermöglichen jederzeit Anpassung im Hinblick auf das Ziel
+* Transparenz und Kollaboration: gemeinsames Verständnis und Standards für die Zusammenarbeit erarbeiten
+
+### Messen, wo das Team steht
+* In Bezug auf das Ziel des Teams
+* regelmäßige, anonyme Zufriedenheitsbefragung im Team durchführen
+* Feedback-Kanal einführen und nutzen
+
+* Methode diskutabel, aber der Ansatz ist der richtige
+* vielleicht eher aus dem 1:1 rausholen, oder im Großen machen
+* bei großen Firmenbefragungen sollte es auch Resultate geben, also was sich basierend darauf tut?
