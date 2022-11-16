@@ -1,10 +1,10 @@
 # 20221116: Google Zukunftswerkstatt: Alles was sie über die Führung im Homeoffice wissen müssen
 * TODO check later: zukunftswerkstatt.de seit 20214, nicht nur Deutschland - hat auch E-Learning-Angebot
-* München, BErlin, Hamburg live
+* München, Berlin, Hamburg live
 * Innovationstechniken und kollaborativer Zusammenarbeit
 * komplettes Seminarangebot auch auf youtube
 * Zertifizierungen möglich! TODO
-* Konfliktmanagement, Idea thinking, ..
+* Konfliktmanagement, Design thinking, ..
 
 * Oliver Weber, MunichMarketing
 
@@ -13,7 +13,7 @@
 * Sicherheit schaffen
 * den Rahmen abstecken
 * eine gute kommunizierende PErson sein
-* datenbassiert, Google-intern und auch McKinsey
+* datenbasiert, Google-intern und auch McKinsey
 
 * offene Kommunikationskultur , Mitarbeiter unterstützen, fachlich
 * gemeinsame Ziele als Führungskraft
@@ -102,7 +102,7 @@ TODO: von handy
 * Methoden
 * KPIs
 
-* Konflikte lösen: Mediation - ersteinmal auf die Definition eines guten Konsens zu einigen: gut umsetzbar, trackbar, .. im Vorfeld entscheiden, was ist wichtig
+* Konflikte lösen: Mediation - erst einmal auf die Definition eines guten Konsens zu einigen: gut umsetzbar, trackbar, .. im Vorfeld entscheiden, was ist wichtig
 * goo.gle/zw-note TODO check the offered tools, which maybe improve collaboration and make it more transparent
 
 ### Agile Methoden testen
@@ -110,7 +110,7 @@ TODO: von handy
 * Anpassung: kurze Intervalle ermöglichen jederzeit Anpassung im Hinblick auf das Ziel
 * Transparenz und Kollaboration: gemeinsames Verständnis und Standards für die Zusammenarbeit erarbeiten
 
-### Messen, wo das Team steht
+### Messen, wo Sie als Team stehen
 * In Bezug auf das Ziel des Teams
 * regelmäßige, anonyme Zufriedenheitsbefragung im Team durchführen
 * Feedback-Kanal einführen und nutzen
@@ -118,3 +118,86 @@ TODO: von handy
 * Methode diskutabel, aber der Ansatz ist der richtige
 * vielleicht eher aus dem 1:1 rausholen, oder im Großen machen
 * bei großen Firmenbefragungen sollte es auch Resultate geben, also was sich basierend darauf tut?
+
+* mit Verbesserungsansatz aus Lean auch Kummerkasten einrichten
+
+#### Retrospektive
+* vier Quadraten: ..
+
+## Erfolge feiern, auch jetzt!
+* statt einer Rund-Mail gemeinsam remote feiern
+* zeigt Wertschätzung und Dankbarkeit
+* Fördert den Zusammenhalt im Team
+* Gintasting, Guglhupf.de - one man Guglhupf (nicht das billigste)
+* Warum nicht den Einzelpersonen mal etwas schicken? Mit dem was es bringt, kostet es im Vergleich nichts
+--> schafft ein psychologisch sicheres Umfeld
+
+* Kudo-Karten, sammeln - dann in Box, ziehen, ein Gewinn - gewisser Zufallsaspekt
+* Management3.0-Umfeld - Jürgen Apello? Wie arbeitet man im neuen Management zusammen?
+* Rundmail als gutes Mittel auch noch einmal die Anerkennung zu verteilen bzw. an ein, zwei Managementebenen höher die Sichtbarkeit zeigen
+  * Benchmark-Sharing; auch Rolle als Führungskraft nutzen und Erfolge entsprechend teilen
+
+TODO: von handy
+!()[img04.png]
+
+## Was können sie tun, um erfolgreich zu kommunizieren
+* Echt bzw. ehrlich sein: keine "Rolle" spielen, aufrichtiges Verhalten (Loyalität beibehalten, herausstreichen, dass man nicht herauskann, weil man im Kontext handelt)
+* kongruentes handeln: das Gesagt und Verhalten passen zusammen; verbale und nonverbale Kommunikation stimmen überein
+* Transparenz herstellen: Ziele und Verhalten sind klar und verständlich; kritische Fragen und Zweifel adressieren
+* Mitgefühl zeigen: Sorge um Ihre Teammitglieder/Kolleginnen machen; Emotionen der Gesprächsbeteiligten beachten, aktiv zuhören; Hilfe anbieten
+* Kontext beachten: überlegen und fragen, ob der Zeitpunkt für die Gesprächsbeteiligten passend ist; immer erst einmal eine positive Absicht unterstellen
+* Den Kanal/das Tool wechseln: jederzeit möglich; sicherstellen, dass Verständnis möglichst einfach ist
+
+## Wer trifft welche Entscheidung?
+* Entscheidungen:
+  * die ich selbst fällen möchte
+  * die jeder selbst treffen kann
+  * die wir im Team gemeinsam treffen
+  * die das Team one mich trifft
+  
+TODO: von handy
+!()[img05.png]
+
+### Wie werden Entscheidungen getroffen?
+* Konsens: nimmt die Ja-Stimmen in den Fokus
+* Konsent (Abgrenzung zu Konsens): nimmt nur die Bedenken/schwerwiegenden Einwände in den Fokus (Beispiel: Bedenken äußern, aber auch festhalten, dass es Leute gibt, die es anders sehen)
+  * Widerstandmessung (Wo geht man Mittagessen? gibt Bedenken vom Trainer); kleinster-gemeinsamer-Nenner
+* (Quelle: New Work Glossar 2021)
+
+## Feedback geben und einfordern
+* Situation: beschreien die sie Situation um die es Ihnen geht und seien sie konkret
+* Verhalten: welches Verhalten haben sie beobachtet? Was hat ihr gegenüber genau gemacht?
+* Auswirkung? Welche Auswirkungen hatte dieses Verhalten auf das Team oder Sie selbst
+
+### Remote 1:1
+* unsere Zusammenarbeit: gut so/so; ändern
+* Agenda: text, text, text, ..
+* Verpflichtungen & Todos: to do; in progress, done
+
+### Adaptieren:
+* Facilitator (Moderator)
+* Kollaborationskarten
+* Pausen (Halbstundenpause oder einfach mal eine Woche ..)
+* Keine back-to-back-Meetings (45 min instead of 60?)
+* Energizer
+
+### Check-in Runden
+* Was habe ich geschafft? Was werde ich heute erledigen? Welche Hindernisse gibt es?
+* Stimmung vorab: als Präfix
+* Anpassungen: als Suffix?
+
+### Digitale Alternativen zur Kaffeeküche
+* Analoge Aufmerksamkeit
+* virtuelle Kochevents
+* After Work Events
+* Sportliche Mittagspause
+
+### Zusammenfassung
+
+#### Key Takeaways
+* ein psychologisch sicheres Arbeitsumfeld fördern
+* klare Rahmenbedingungen für eine produktive Zusammenarbeit im Team schaffen
+* Effektiv kommunizieren
+* Überprüfung, Anpassung und Kollaboration als Maxime
+
+* Google Feedback ausfüllen (TODO)
