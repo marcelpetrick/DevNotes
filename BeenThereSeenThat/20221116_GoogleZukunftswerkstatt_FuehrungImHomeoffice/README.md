@@ -6,7 +6,7 @@
 * TODO: Zertifizierungen möglich!
 * Konfliktmanagement, Design thinking, ..
 
-* Oliver Weber, MunichMarketing
+* Dozent: Oliver Weber, MunichMarketing
 
 ## Agenda
 * Grundlagen, eine gute Führungskraft, das Team
@@ -25,21 +25,20 @@
 * Teamentwicklung
 * begleiten, entwickel, füreinander da sein
 
-#### V
+#### Großartige Führungskräfte kriegen Dinge geregelt
 * haben eine klare Vision und Strategie für das team
 * sind produktiv und ergebnisorientiert
 * sind stark darin, Entscheidungen zu treffen
 * kollaborieren im gesamten Unternehmen
 * verfügen über die zentralen fachlichen Fähigkeiten um das Team zu beraten - nicht nur immer "primus inter pares" sein; Arbeit der Mitarbeiter auch wertschätzen zu können
 
-TODO: von handy
-!()[img00.png]
+* ![](00.jpg)
 
 * lieber auch einmal das Risiko gehen eine falsche Entscheidung zu treffen, als gar keine #schieberitis, aber sehr offen
 * Halt geben
 * heutzutage durch NewAge und NewWork anderes, offeneres Kollaborieren. Früher: Wissen ist Macht
 
-### gute Führungskrafte entwickeln das TEam
+### gute Führungskräfte entwickeln das TEam
 * sind ein guter Coach
 * ermächtigen ihr team und micromanagen nicht
 * schaffen ein inklusives Umfeld, das Erfolg und Wohlbefinden vereint (Entscheidungsrahmen, räumliche und Arbeitsplatzsituation)
@@ -68,8 +67,7 @@ TODO: von handy
 * wie geht das Team mit Fehlschlägen/Fehltritten um? Wird sich schützend vor einem gestellt oder noch draufgehauen?
 * bei Sicherheit kann man auch mal ein Risiko gehen und etwas ausprobieren, gegebenenfalls bringt es das Team weiter
 
-TODO: von handy
-!()[img02.png]
+![](01.jpg)
 
 * analog zum Kaizen-Gedanken (ständige Verbesserung)
 * Experimente ansagen und auch einen Rahmen stecken; als Gruppe das Risiko einschätzen, ob es gerade passt
@@ -79,8 +77,7 @@ TODO: von handy
 * Interesse zeigen: Fragen stellen, um von den Teammitgliedern zu lernen; sich auf das Gespräch konzentrieren; Input geben
 * verständnisvoll sein: gehörtes zusammenfassen und fragen, ob es richtig verstanden wurde; Körpersprache beachten
 
-TODO: von handy
-!()[img03.png]
+![](02.jpg)
 
 * als Opener etwas persönliches bringen; was man macht, was schief lief in der aktuellen Woche?
 * Struktur: mit Socialising beginnen; dann Perspektive reflektieren (Du, ich weiß nicht, wie es Dir geht? Aber mein letztes Teammeeting war nicht so toll.), auf Leistungen eingehen "ich habe das Gefühl, das hat dir Spaß gemacht", "ich habe den Eindruck, du wartest noch auf eine neuer Herausforderung"; bei manchen LEtuen kann eine Agenda helfen - sollte aber individuell entschieden werden; eventuell keine feste Agenda, sondern "ich hätte gern mit dir folgende Punkte besprochen?"
@@ -129,16 +126,14 @@ TODO: von handy
 * zeigt Wertschätzung und Dankbarkeit
 * Fördert den Zusammenhalt im Team
 * Gintasting, Guglhupf.de - one man Guglhupf (nicht das billigste)
-* Warum nicht den Einzelpersonen mal etwas schicken? Mit dem was es bringt, kostet es im Vergleich nichts
---> schafft ein psychologisch sicheres Umfeld
+* Warum nicht den Einzelpersonen mal etwas schicken? Mit dem, was es bringt, kostet es im Vergleich nichts --> schafft ein psychologisch sicheres Umfeld
 
 * Kudo-Karten, sammeln - dann in Box, ziehen, ein Gewinn - gewisser Zufallsaspekt
 * Management3.0-Umfeld - Jürgen Apello? Wie arbeitet man im neuen Management zusammen?
 * Rundmail als gutes Mittel auch noch einmal die Anerkennung zu verteilen bzw. an ein, zwei Managementebenen höher die Sichtbarkeit zeigen
   * Benchmark-Sharing; auch Rolle als Führungskraft nutzen und Erfolge entsprechend teilen
 
-TODO: von handy
-!()[img04.png]
+![](04.jpg)
 
 ## Was können sie tun, um erfolgreich zu kommunizieren
 * Echt bzw. ehrlich sein: keine "Rolle" spielen, aufrichtiges Verhalten (Loyalität beibehalten, herausstreichen, dass man nicht herauskann, weil man im Kontext handelt)
@@ -155,14 +150,15 @@ TODO: von handy
   * die wir im Team gemeinsam treffen
   * die das Team one mich trifft
   
-TODO: von handy
-!()[img05.png]
+![](05.jpg)
 
 ### Wie werden Entscheidungen getroffen?
 * Konsens: nimmt die Ja-Stimmen in den Fokus
 * Konsent (Abgrenzung zu Konsens): nimmt nur die Bedenken/schwerwiegenden Einwände in den Fokus (Beispiel: Bedenken äußern, aber auch festhalten, dass es Leute gibt, die es anders sehen)
   * Widerstandmessung (Wo geht man Mittagessen? gibt Bedenken vom Trainer); kleinster-gemeinsamer-Nenner
 * (Quelle: New Work Glossar 2021)
+
+![](06.jpg)
 
 ## Feedback geben und einfordern
 * Situation: beschreien die sie Situation um die es Ihnen geht und seien sie konkret
@@ -186,6 +182,8 @@ TODO: von handy
 * Stimmung vorab: als Präfix
 * Anpassungen: als Suffix?
 
+![](07.jpg)
+
 ### Digitale Alternativen zur Kaffeeküche
 * Analoge Aufmerksamkeit
 * virtuelle Kochevents
@@ -201,3 +199,5 @@ TODO: von handy
 * Überprüfung, Anpassung und Kollaboration als Maxime
 
 * Google Feedback ausfüllen (TODO)
+
+![](08.jpg)
