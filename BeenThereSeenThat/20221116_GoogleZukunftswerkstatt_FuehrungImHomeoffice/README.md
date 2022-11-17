@@ -51,7 +51,7 @@ TODO: von handy
 * Feedback geben, nebenher reden - das geht durch die Videocalls nicht mehr wie früher, was man vorher auf "dem Flur" machen konnte
 * push versus pull Marketing - Kommunikation heißt nicht, dass man nur selber redet, sondern auch mal Fragen stellt
 
-### Mehr als die summe seiner Teile
+### Mehr als die Summe seiner Teile
 * Teams sind in hohem Maße voneinander abhängig: sie planen Arbeitspakete, lösen Probleme, treffen Entscheidungen und kontrollieren den Fortschritt eines bestimmten Projektes. Die Mitglieder eines Teams brauchen einander, um ihre Aufgaben zu erledigen.
 * bis zu 75% der Projekte gehen kaputt (scheitern) - Hauptgrund mangelnde Zusammenarbeit
 * wenn es nicht stimmt im Team, wird es nicht viel bringen (die fachliche Kompetenz)
@@ -113,7 +113,7 @@ TODO: von handy
 * Feedback-Kanal einführen und nutzen
 
 * Methode diskutabel, aber der Ansatz ist der richtige
-* vielleicht eher aus dem 1:1 rausholen, oder im Großen machen
+* vielleicht eher aus dem 1:1 herausholen, oder im Großen machen
 * bei großen Firmenbefragungen sollte es auch Resultate geben, also was sich basierend darauf tut?
 
 * mit Verbesserungsansatz aus Lean auch Kummerkasten einrichten
