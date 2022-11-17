@@ -3,7 +3,7 @@
 * München, Berlin, Hamburg live
 * Innovationstechniken und kollaborativer Zusammenarbeit
 * komplettes Seminarangebot auch auf youtube
-* Zertifizierungen möglich! TODO
+* TODO: Zertifizierungen möglich!
 * Konfliktmanagement, Design thinking, ..
 
 * Oliver Weber, MunichMarketing
@@ -12,21 +12,21 @@
 * Grundlagen, eine gute Führungskraft, das Team
 * Sicherheit schaffen
 * den Rahmen abstecken
-* eine gute kommunizierende PErson sein
+* eine gute kommunizierende Person sein
 * datenbasiert, Google-intern und auch McKinsey
 
-* offene Kommunikationskultur , Mitarbeiter unterstützen, fachlich
+* offene Kommunikationskultur, Mitarbeiter unterstützen, fachlich
 * gemeinsame Ziele als Führungskraft
 * passende Delegation; kein Mikromanagement
 
-### großartige Führungskräft
+### großartige Führungskräfte
 * kriegen Dinge geregelt
 * regelmässiges Feedback holen
 * Teamentwicklung
 * begleiten, entwickel, füreinander da sein
 
 #### V
-* haben eine klare ision und Strategie für das team
+* haben eine klare Vision und Strategie für das team
 * sind produktiv und ergebnisorientiert
 * sind stark darin, Entscheidungen zu treffen
 * kollaborieren im gesamten Unternehmen
@@ -39,8 +39,8 @@ TODO: von handy
 * Halt geben
 * heutzutage durch NewAge und NewWork anderes, offeneres Kollaborieren. Früher: Wissen ist Macht
 
-### gute führungskrafte entwickeln das TEam
-* sind ein guter coach
+### gute Führungskrafte entwickeln das TEam
+* sind ein guter Coach
 * ermächtigen ihr team und micromanagen nicht
 * schaffen ein inklusives Umfeld, das Erfolg und Wohlbefinden vereint (Entscheidungsrahmen, räumliche und Arbeitsplatzsituation)
 * Unterstützen Karriereentwicklung und besprechen Leistung
@@ -65,27 +65,27 @@ TODO: von handy
 * Einfluss
 
 ## Sicherheit als Fundament
-* wie geht das Team mit FEhlschlägen/Fehltritten um? Wird sich schützend vor einem gestellt oder noch draufgehauen?
+* wie geht das Team mit Fehlschlägen/Fehltritten um? Wird sich schützend vor einem gestellt oder noch draufgehauen?
 * bei Sicherheit kann man auch mal ein Risiko gehen und etwas ausprobieren, gegebenenfalls bringt es das Team weiter
 
 TODO: von handy
 !()[img02.png]
 
 * analog zum Kaizen-Gedanken (ständige Verbesserung)
-* Experimente ansagen und auch einen Rahmen stecken; als Gruppe das Risiko einschätzen ob es gerade passt
+* Experimente ansagen und auch einen Rahmen stecken; als Gruppe das Risiko einschätzen, ob es gerade passt
 
 ### Psychologische Sicherheit schaffen
-* erreichbar und ansprechbar sein: digitale Sprechstunden, 1:1 mit den Teammitgliedern, sich selbst einbringen (auch aktiv einfordern, so dass man sieht: wo steht man denn?)
-* Interesse zeigen: Fragen stellen, um von den Teammitgliedern zu lernen; Sich auf das Gespräch konzentrieren; Input geben
+* erreichbar und ansprechbar sein: digitale Sprechstunden, 1:1 mit den Teammitgliedern, sich selbst einbringen (auch aktiv einfordern, so daß man sieht: wo steht man denn?)
+* Interesse zeigen: Fragen stellen, um von den Teammitgliedern zu lernen; sich auf das Gespräch konzentrieren; Input geben
 * verständnisvoll sein: gehörtes zusammenfassen und fragen, ob es richtig verstanden wurde; Körpersprache beachten
 
 TODO: von handy
 !()[img03.png]
 
 * als Opener etwas persönliches bringen; was man macht, was schief lief in der aktuellen Woche?
-* Struktur: mit Socialising beginnen; dann Perspektive reflektieren (du, ich weiß nicht, wie es dir geht. aber mein letztes Teammeeting war nicht so toll.), auf Leistungen eingehen "ich habe das Gefühl, das hat dir Spaß gemacht", "ich habe den Eindruck, du wartest noch auf eine neuer Herausforderung"; bei manchen LEtuen kann eine Agenda helfen - sollte aber individuell entschieden werden; eventuell keine feste Agenda, sondern "ich hätte gern mit dir folgende Punkte besprochen?"
+* Struktur: mit Socialising beginnen; dann Perspektive reflektieren (Du, ich weiß nicht, wie es Dir geht? Aber mein letztes Teammeeting war nicht so toll.), auf Leistungen eingehen "ich habe das Gefühl, das hat dir Spaß gemacht", "ich habe den Eindruck, du wartest noch auf eine neuer Herausforderung"; bei manchen LEtuen kann eine Agenda helfen - sollte aber individuell entschieden werden; eventuell keine feste Agenda, sondern "ich hätte gern mit dir folgende Punkte besprochen?"
 * persönliches Interesse an den Leuten zeigen: nachfragen, wenn Details bekannt sind
-* in kleinen GEsprächen eher nicht hart "Company - Projekt - Person" rangehen, sondern es eher um die Person drehen
+* in kleinen Gesprächen eher nicht hart "Company - Projekt - Person" rangehen, sondern es eher um die Person drehen
 * wiki page pro Mitarbeiter; CRM-System; OneNote .. dann elektronisch verschlüsseln; mindmap tool - Wohlfühlfaktor de sMitarbeiters spielt größeren Raum als Datenschutz
 * TODO: Struktur überlegen
   * Mitarbeitergeburtstage im Kalender eintragen
@@ -93,9 +93,9 @@ TODO: von handy
 * verständnisvoll sein, Nachfragen um zu zeigen, dass man etwas verstanden hat
 
 ### pt2
-* wertschätzendes Umfeld schaffen: DAnkbarkeit für Lösungen, Beiträge aus dem Team zeigen; sich einschalten, wenn negativ über einander gesprochen wird; eigene Erfahrungen teilen
+* wertschätzendes Umfeld schaffen: Dankbarkeit für Lösungen, Beiträge aus dem Team zeigen; sich einschalten, wenn negativ über einander gesprochen wird; eigene Erfahrungen teilen
 * Entscheidungen treffen: Input und Feedback des Teams suchen; Input von anderen anerkennen und kennzeichnen; erklären, wie die Entscheidung getroffen wurde
-* Sparring anbieten und einfordern: Teammitglieder um Feedback bitten; Sparring durch Team einfordern; Kontrovers und sachlich diskutieren
+* Sparring anbieten und einfordern: Teammitglieder um Feedback bitten; Sparring durch Team einfordern; kontrovers und sachlich diskutieren
 
 ## Wie sie gemeinsam zum Ziel kommen
 * Infrastruktur
