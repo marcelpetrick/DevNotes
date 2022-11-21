@@ -6,5 +6,6 @@ More often than not, people state that companies cannot be agile because they ar
 
 !()[img00.png]
 !()[img01.png]
-
-
+!()[img02.png]
+!()[img03.png]
+!()[img04.png]
