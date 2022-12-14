@@ -117,7 +117,7 @@
 
 ### sharing data between threads
 * read copy, update (RCU): wait-free reading "CAS loop"
-* wait-free writing: double-bufferin or SeqLock (talk coming in 2023)
+* wait-free writing: double-buffering or SeqLock (talk coming in 2023)
 
 ### error handling
 * no exceptions
