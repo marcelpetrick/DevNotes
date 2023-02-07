@@ -12,7 +12,7 @@
 * increase productivity, yield, reduce costs
 ![](img01.png)
 ![](img02.png)
-* smart home and centralisation
+* smart home and centralization
 * CAGR (compound annual growth rate) of 13% 2022-2026
 ![](img03.png)
 * matter as protocol to connect
@@ -28,12 +28,9 @@
 ![](img09.png)
 ![](img10.png)
 ![](img11.png)
+* SRP process - service recognition protocol
+## LoRa basics
+![](img12.png)
 
-
-
-
-
-
--------------
-
-![](img10.png)
+## conclusion
+![](img13.png)
