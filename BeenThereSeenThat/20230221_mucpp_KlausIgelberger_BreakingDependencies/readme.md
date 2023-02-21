@@ -72,4 +72,12 @@
 	  * is a database at the same level as the STL? no, this is not at the sam level; database is a low level detail!
 	  * singletons destroy architectures!
 	  * std::pmr:null_memory_ressource - does not give something back 
-	  * 
+	  * note: immediately invoked lamdba expression (IILE, from the std-lib) - withh (); at the end of the lamdba
+	  * dependency inversion (for instance via the strategy design pattern) is the necessaey first step to an "acceptable" singleton
+	    * a testable singleton isounds acceptable ..
+		* is this now the invetion of a new design pattern? no, this is the service locator-design pattern
+
+### summary
+* sw design is not an afterthought, but esential for the success of a project
+* let's stop pretending that c++ is all about feature and standards
+* let's start to talk about the structure of code..
