@@ -25,7 +25,7 @@
 * viele Möglichkeiten: Asynchroner Austausch (Mail, Messenger) <--> Synchroner Austausch (Gespräche, Videocall)
   * bei emotionalen Themen ist es nicht so gut zu schreiben
 * Was ist ein gutes Gespräch? ausgewogene Gesprächsanteile, keine Störungen, ausreichend Zeit, Offenheit
-  * Großteil kann man steuern: auch Vorbereitung, ansprechende Umgebung, die andere PErson aussprechen lassen
+  * Großteil kann man steuern: auch Vorbereitung, ansprechende Umgebung, die andere Person aussprechen lassen
 * Gespräche strukturieren
   * Einstieg: freundliche Begrüßung, Vorstellung bei Bedarf, Klärung der Themen, Gesprächsziele, Zeitrahmen
   * Themenbearbeitung: Ausgangssituation beschreiben, Argumente nennen, Ziele und Bedürfnisse aufzeigen, miteinander ins Gespräch kommen
