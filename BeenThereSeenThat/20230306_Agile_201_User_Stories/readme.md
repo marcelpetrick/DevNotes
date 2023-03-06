@@ -17,4 +17,8 @@ How to split?
 ![](img03.png)
 ![](img04.png)
 * something like the perfect user-story are nothing which exists - just a tool for communication with stakeholders
-
+![](img05.png)
+* common restrainer: not enough time for refinement!
+![](img06.png)
+* useful hints
+![](img07.png)
