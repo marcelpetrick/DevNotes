@@ -1,6 +1,6 @@
 # 20230324 Meeting the Challenge of OTA for Embedded Linux Systems
 
-* hosted by Doulos
+* hosted by Doulos & Toradex
 
 ## requirements for an OTA system
 * security & integrity
@@ -34,7 +34,19 @@
 ![](img06.png)
 * runtime daemon as update client
 * functionality is part of the OTA system; has special requirements for power-down
-* 
-
-
+* based on TUF - the update framework
+### security
+* mutual TLS device <-> server, OAuth2 for API access
+* uptane
+* what can be updated: apps, kernel, but not bootloader right now (should come with future release)
 ![](img07.png)
+![](img08.png)
+![](img09.png)
+* global lockfile - which can be controlled by app to tell the updater to wait; right now an all-or-nothing-approach
+![](img10.png)
+### Torizon platform
+* devices, packages, fleets
+![](img11.png)
+![](img12.png)
+* refresh rate on the device was set to 5s -> works after reboot
+![](img13.png)
