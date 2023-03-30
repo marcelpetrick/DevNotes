@@ -18,6 +18,7 @@
   * lots of complexity comes in the backend engine
   * what to do with 10k devices, which want to update all at once
 * there has to be a way thtat the bootloader kan know that this image is safe and confirmed and won't brick the device
-* security in updtes:
+* security in updates:
   * integrity of the image (not corrupted or compromised), so another layer like signing is needed (image signed, device checks - either bootloader or cryptographic space), key management therefore becomes something to care now for
-  * 
+* factory images - to revert everything and going back to a working state
+* fallback mechanisms and -strategies: signature verification, rollback (tomic) in case of flash-error, crash-detection (counting)
