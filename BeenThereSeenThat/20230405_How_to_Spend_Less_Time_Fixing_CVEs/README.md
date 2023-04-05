@@ -13,15 +13,11 @@ TODO: add references for the first 9 ones
   * software supply chain attacks need not much effort and skill
   *  spreads rapidly
   *  abuse trust relationships between companies
+![](img08.png)
 ![](img09.png)
 * SSC - software supply chain
 * if you don't store your builds in some artifactory, then you will have a problem. because you can't tell how and who else will be affected by this
-
-
-
 ![](img10.png)
 
 
 ![](img10.png)
-
-
