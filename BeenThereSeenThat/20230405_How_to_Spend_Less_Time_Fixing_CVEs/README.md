@@ -28,4 +28,4 @@
 * sniffer onto the docker; it was starting a service in the background, which was sending the logfiles somewhere else - this is terryfing. because you have no control over this
 
 ## demo
-* when you desing you repositories: analyse xray-analysis, adjust watches and policies..
+* when you design your repositories: analyse xray-analysis, adjust watches and policies..
