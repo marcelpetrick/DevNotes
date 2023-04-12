@@ -38,7 +38,14 @@
 ![](img12.png)  
 ![](img13.png)  
 ![](img14.png)  
-
+## final question: qhi9ch is the right kernel for your project?
+* out of tree kernel code?
+* field updates possible?
+* product lifespan?
+* vendor only kernel features?
+* real-time requirements?
+![](img15.png)  
+![](img16.png)  
 
 ## Questions and answers from the chat
 ```
@@ -94,4 +101,16 @@ Q:
     Is the kernel testsuite is available somewhere ? 
 A:
     The kernel includes some testing mechanisms within it and you can see tests in the kernel source base. See https://docs.kernel.org/dev-tools/testing-overview.html. There is also an ongoing project to standardise kernel testing: https://docs.kernel.org/dev-tools/testing-overview.html 
+```
+```
+Q:
+    difference between vendor and distro kernels?
+A:
+    As I said, vendor kernels are maintained by hardware providers whereas distro kernels come from Linux distros.
+```
+```
+Q:
+    What is Poky in Yocto? 
+A:
+    Poky is an example Linux distro provided in Yocto. Sometimes people refer to the Yocto build system itself as Poky, confusingly. 
 ```
