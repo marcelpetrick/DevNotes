@@ -21,12 +21,17 @@ TODO add stuff from the invitation
 * linux driver model
 ![](img06.png)
 * maximize the amount of code, which is used, shared
+![](img07.png)
+## How to read the driver's source file?
+* recommendation: start at the bottom, not top
+* initalized, registered with matching framework, then matching to, populates the device
+![](img08.png)
+* platform devices
+![](img09.png)
+![](img10.png)
+![](img11.png)
+![](img12.png)
+![](img13.png)
+![](img14.png)
+![](img15.png)
 
-
-
-
-------------
-
-![](img02.png)
-
-todo: add all the screenshots
