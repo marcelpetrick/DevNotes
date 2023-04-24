@@ -1,7 +1,7 @@
 # 20230419 C and C++ Software Testing explained by Parasoft
 * hosts: Chantal Wauters & Zak Maiga
-* today: Parasoft C/C++ test U'nified Testing tool
-* helping organizations reduce the burden of achieving compliance#
+* today: Parasoft C/C++ test Unified Testing tool
+* helping organizations reduce the burden of achieving compliance
 ![](img00.png)
 * provides static analysis
 * standard compliance
