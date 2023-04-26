@@ -1,0 +1,3 @@
+20230426_HackingMachineLearning_2023_04_Generative_AI_StableDiffusion_and_AutoGPT
+
+placeholder - add the notes!
