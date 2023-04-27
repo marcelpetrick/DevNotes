@@ -65,4 +65,33 @@
 * possible to use h5 models, also onnx, pytorch ..
 * EON compiler is fully open source
 
+## Zapotek
+* how they struggled to come to such a polished product?
+* 2 years ago they created HW-prototypes, tried to integrate teh cloud, because it ws crushing pressure
+* so they tried to do it from scratch, inhouse machine learning capabilities: not the way to got
+* there is no complete hw ecosystem, sink for time and money, because migrating models and firmware was hard
+* this was not the focus: so the oculd not become hardwre and ml-experts at the same time
+* so they searched for a partner, who could help with the ML
+* first: created a workplace organizer with nvidia jetson
+* they simplified the model then, after seeing results with EI
+* tried also some recyclable material sorter: bottles, jar, alu can
+  * good detection but some problems with milk cartons until they added quickly machine vision
+* customers had requests, but did not like answers with "cost money, takes time, .."
+* gas detection with the nordic thingy91 for oil platforms
+* (all the projects are public, so they can be found on the expert material on the EI page)
+* vineyard pest detection: only bugs, not flies
 
+* free to use for prototype
+* all major hardware supported
+* labeling data is super easy
+* retrain and redepoly was fast
+
+## Nordic Semiconductor - Advantages of low power consumption for ML edge devices
+* Kristian Kurz
+* market leader in Bt and low energy solutions
+* Matter over Thread or Wifi: both possile
+* devzone.nordicsemi.com as community
+* nordic has a special approach: no special AI/ML hardware implemented
+  * powerful cpu, helps to do machine learning
+* on device processing mackes it possible to process more data and then send just the rsult
+* information not data 
