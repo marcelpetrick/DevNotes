@@ -95,3 +95,19 @@
   * powerful cpu, helps to do machine learning
 * on device processing mackes it possible to process more data and then send just the rsult
 * information not data 
+
+## workshop - TI board
+* sk-tda4vm board
+```
+ping 172.20.157.128
+```
+not working
+* use the edgeimpulse network, not the hotel network (clear)..
+* goal for today: connect device, collect data, make an impulse, then flash to baord
+* mine: marcelpetrick / EdgeImpulseConf_HandOn_TI 
+* collect first he data: from the laptop of the current laptop; just needs access via browser
+* then "create impulse": create basic image processing, use sqre input, then also generic obejct detection, then save impulse
+* yolox for tvi4dm as model
+* training can take some time ..
+
+
