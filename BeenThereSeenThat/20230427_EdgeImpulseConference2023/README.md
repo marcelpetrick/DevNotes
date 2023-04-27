@@ -140,4 +140,10 @@ root@tda4vm-sk:~/workshop#
 * on top of the output you can see also an ip adress for the local network; where you can see the stream in your browser, with inference, etc.
 
 #------------------- break -------------------------
+## next workshop:
+* docu: tinyurl.com/edgeml-workshop
+* since the transprent case of the serial.connector does block my second usb-port, I can't continue with the demo :/
+* but, connect and power on, then use putty or whatever
+* 115200 as speed
 
+#----- end of the session -------
