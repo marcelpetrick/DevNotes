@@ -44,6 +44,9 @@
 * SaaS-company; uses AWS in the backend
 
 #--------------- talks from TI and Alif -----------
+* check neuromorphic processors
+* TODO: check brainchip & mercedes for car overwatch
+#------------------- break -------------------------
 
 # sleep stage prediction
 * with Oura ring
@@ -55,3 +58,11 @@
 * several ways to collect data: amazon S3, google cloud or azure
 * first collect data, then set up pipelines, then fetch it
 * do someML on it: Sagemaker, notebook, ..
+* when doing the ml-engineering, don't focus on the energy consumption - the engineers will compress it
+* JAX: google project which can compute python compute into an efficient compute graph
+* EON compiler compiles the graph to c++, then it runs on the device
+* this shortens the feedback loop
+* possible to use h5 models, also onnx, pytorch ..
+* EON compiler is fully open source
+
+
