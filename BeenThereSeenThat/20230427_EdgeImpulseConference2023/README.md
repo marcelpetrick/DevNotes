@@ -109,5 +109,35 @@ not working
 * then "create impulse": create basic image processing, use sqre input, then also generic obejct detection, then save impulse
 * yolox for tvi4dm as model
 * training can take some time ..
+* no visible loss function
+* cloned a project: marcelpetrick / Person-Detection-ML-Show-Demo_clone
+```
+    ~  ssh -oHostKeyAlgorithms=+ssh-rsa root@172.20.157.131                                             255 ✘ 
+The authenticity of host '172.20.157.131 (172.20.157.131)' can't be established.
+RSA key fingerprint is SHA256:t6pFYc6PUVurkno2Qv6QHoGY3BfwEc43j7sJ0u4n3L4.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? y
+Please type 'yes', 'no' or the fingerprint: yes
+Warning: Permanently added '172.20.157.131' (RSA) to the list of known hosts.
+root@tda4vm-sk:/opt/edge_ai_apps# 
+```
+* copy the file via scp to the board: 
 
+```
+root@tda4vm-sk:/opt/edge_ai_apps# pwd
+/opt/edge_ai_apps
+root@tda4vm-sk:/opt/edge_ai_apps# cd 
+root@tda4vm-sk:~# cd workshop/ 
+root@tda4vm-sk:~/workshop# ls
+commands.txt  workshop.eim
+root@tda4vm-sk:~/workshop# cat commands.txt 
+
+udhcpc -i wlp1s0
+
+edge-impulse-linux-runner --model-file workshop.eim --force-target runner-linux-aarch64-tda4vm
+root@tda4vm-sk:~/workshop# 
+```
+* on top of the output you can see also an ip adress for the local network; where you can see the stream in your browser, with inference, etc.
+
+#------------------- break -------------------------
 
