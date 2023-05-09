@@ -24,14 +24,9 @@
 ![](img13.png)
 ![](img14.png)
 * data scientists are using AI to build AI
-* TODO: check the token
+* TODO: check the token in the screenshot - apply for a test platform
 ![](img15.png)
 
 ## show
 * dashboard
 ![](img16.png)
-
-
--------
-
-![](img12.png)
