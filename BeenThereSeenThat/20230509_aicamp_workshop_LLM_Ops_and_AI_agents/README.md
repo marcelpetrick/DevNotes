@@ -25,8 +25,12 @@
 ![](img14.png)
 * data scientists are using AI to build AI
 * TODO: check the token in the screenshot - apply for a test platform
+  * here you go: https://abacus.ai/app/signup?signupToken=chatllm_webinar
 ![](img15.png)
 
 ## show
 * dashboard
 ![](img16.png)
+
+## workshop
+* created a new project and agent: continue at https://abacus.ai/app/fast_notebook/f44d2f584/100154b3fa
