@@ -43,3 +43,15 @@ TODO find grammar checker for FF ...
 ![](img01.png)
 ![](img02.png)
 ![](img03.png)
+
+# 2 application example: portfolio optimization
+* creating an agent to refresh the portfolio based on a budget, etc.
+![](img04.png)
+* in reality there are some constraints, like budget, transaction costs, available items (in yoru own portfolio)
+![](img05.png)
+* get the optimal chain of actions
+* agent can observe the environment
+* keyword: action masking ..
+![](img06.png)
+![](img07.png)
+![](img08.png)
