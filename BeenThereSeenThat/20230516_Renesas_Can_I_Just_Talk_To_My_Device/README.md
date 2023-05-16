@@ -34,3 +34,6 @@ This session is part of our Renesas Virtual Conference. Registration/event page 
 * use intention-based model - instead of being able to handle everything
 ![](img10.png)
 
+# license / deployment fee?
+* no fee for development
+* usually royalties based on deployment: took away the licensing: there is no separate royalty charge (already bundled with the Renesas quoting agreement)
