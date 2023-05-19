@@ -12,23 +12,23 @@
 * weitere gesundheitsinduzierte Risiken
 ![](img01.png)
 * Folgen am Arbeitsplatz: Produktivitätsverlust
-* Mehrkosten durch zusätzliches PErsonal
+* Mehrkosten durch zusätzliches Personal
 * Know-how-Verlust
 * Reputationsverlust am Markt
 * "War of talents"
 * Absentismus - 2,7fache der Fehlzeiten
-## schlecher Schlaf - höheres Unfallrisiko
+## schlechter Schlaf - höheres Unfallrisiko
 ![](img02.png)
 ![](img03.png)
-* Abwesenheit gut erfassbar; Knowhowverlust schwer
+* Abwesenheit gut erfassbar; Knowhow-Verlust schwer
 ## Was bedeutet KVTI?
-* Aspekte: Schlafwissen/Entspanung/kognitive Techniken/Stimuklsukontrolle (Bettzeirestriktion)
+* Aspekte: Schlafwissen/Entspannung/kognitive Techniken/Stimuluskontrolle (Bettzeitrestriktion)
 * angeleitete Atemübungen
-  * **Resonaznatmung**: Beruhigungsübung, die Herz, Lungen und Kreislauf in einen Zustand der Kohärenz versetzt (besonders geeeignet vor Meetings oder Prüfungen)
-  * Entspannung Schultern und Bauch, gerade Hinsetzen,   
+  * **Resonanzatmung**: Beruhigungsübung, die Herz, Lungen und Kreislauf in einen Zustand der Kohärenz versetzt (besonders geeignet vor Meetings oder Prüfungen)
+  * Entspannung Schultern und Bauch, gerade Hinsetzen,   
 ![](img04.png)
-* kognitive TEchniken: Probleme selbst unter Kontrolle bringen
-* vermeiden und Abbau negativer Gedanken in Bezug auf den Schlaf spielen eine Rolle -> Gedankestuhl. Bequemer Platz ausserhalb des Schlafzimmers.
+* kognitive Techniken: Probleme selbst unter Kontrolle bringen
+* Vermeiden und Abbau negativer Gedanken in Bezug auf den Schlaf spielen eine Rolle -> Gedankenstuhl. Bequemer Platz außerhalb des Schlafzimmers.
 ![](img05.png)
 ![](img06.png)
 
