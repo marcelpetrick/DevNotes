@@ -32,4 +32,5 @@
 ![](img05.png)
 ![](img06.png)
 
+* Martina: kein Kraftsport nach 20 Uhr, kein schweres Essen - nur leichte Mahlzeit
 * note for myself: `You should meditate each day 20 min. in case of a really stressful and filled day, you should do it for 1 hour.`
