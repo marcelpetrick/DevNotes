@@ -19,9 +19,9 @@ E-Mail: ab@astridbruggemann.com
 ![](img02.png)
 * unsere Alleinstellung: Urteilsfähigkeit, soziale Zusammenarbeit
 * Kreativität: Slogans generieren lassen
-* "Gib mir provokate Titel für Fehlerkultur und Jonglage" ..
+* "Gib mir provokante Titel für Fehlerkultur und Jonglage" ..
 * Datensammlung -> personalisiertes Marketing
-* Pressemitteilung / Schreibe wie ein Journalist-> "jetzt ändere deine Rolle und gib mir Feedback zu der Mitteilung": Agiere wie eine Redakteurin
+* Pressemitteilung / Schreibe wie ein Journalist> "jetzt ändere deine Rolle und gib mir Feedback zu der Mitteilung": Agiere wie eine Redakteurin
 * Linkedin-Strategie
 ![](img03.png)
 ![](img04.png)
@@ -30,10 +30,10 @@ E-Mail: ab@astridbruggemann.com
 * Recruiting und Auswahl: Vorauswahl von Bewerbungen; automatisierte Vorstellungsgespräche; Kandidatenkommunikation
   * kann dazu führen dass Vorurteile und Biase aufgeweicht werden
 * Personalentwicklung: Feedbackgespräche; Entwicklungspläne, individualisierte Weiterbildung
-  *  gerade Freshmans profitieren
+  *  gerade Neulinge profitieren
 
 ### Führungskräfte
-* rise of AI (siehe youtube)
+* rise of AI (siehe youtube): Konferenz in Berlin
 * Zeitsparer: youtube -> das Transkript nehmen (drei Pünktchen) -> Zusammenfassung generieren
 * Führung: Strategieplanung/Administration/Sparringspartnerin
 * Use Case: Strabag: Einsparungen /Risikomanagement
@@ -63,4 +63,4 @@ E-Mail: ab@astridbruggemann.com
 * Warum passieren überhaupt Fehler? Statistik; kein Wissen, kein Bewusstsein
 * ChatGPT - nicht KnowledgeGPT
 
-* for infos: https://www.futurepedia.io/
+* für mehr infos: https://www.futurepedia.io/
