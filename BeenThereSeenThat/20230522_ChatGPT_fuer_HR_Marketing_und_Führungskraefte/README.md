@@ -16,13 +16,15 @@ E-Mail: ab@astridbruggemann.com
 ## Wofür nutzen?
 * Texterstellung -> neue Produktivität
 ![](img01.png)
+![](img02.png)
 * unsere Alleinstellung: Urteilsfähigkeit, soziale Zusammenarbeit
 * Kreativität: Slogans generieren lassen
 * "Gib mir provokate Titel für Fehlerkultur und Jonglage" ..
 * Datensammlung -> personalisiertes Marketing
 * Pressemitteilung / Schreibe wie ein Journalist-> "jetzt ändere deine Rolle und gib mir Feedback zu der Mitteilung": Agiere wie eine Redakteurin
 * Linkedin-Strategie
-![](img02.png)
+![](img03.png)
+![](img04.png)
 * Haufe - HR-Chatbot 
 * Arbeiten der KI überlassen, so dass man Zeit für andere Sachen hat ..
 * Recruiting und Auswahl: Vorauswahl von Bewerbungen; automatisierte Vorstellungsgespräche; Kandidatenkommunikation
@@ -35,9 +37,6 @@ E-Mail: ab@astridbruggemann.com
 * Zeitsparer: youtube -> das Transkript nehmen (drei Pünktchen) -> Zusammenfassung generieren
 * Führung: Strategieplanung/Administration/Sparringspartnerin
 * Use Case: Strabag: Einsparungen /Risikomanagement
-
-![](img03.png)
-![](img04.png)
 
 ### Advocatus diaboli
 * jemand, der widerspricht
@@ -56,6 +55,7 @@ E-Mail: ab@astridbruggemann.com
 ![](img05.png)
 ![](img06.png)
 * Qualitätssicherung: KI bitten Fragen zu stellen für fehlende Informationen
+![](img07.png)
 
 ## Fallstricke
 * Halluzinationen
@@ -64,4 +64,3 @@ E-Mail: ab@astridbruggemann.com
 * ChatGPT - nicht KnowledgeGPT
 
 * for infos: https://www.futurepedia.io/
-
