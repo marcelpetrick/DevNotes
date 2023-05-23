@@ -53,3 +53,6 @@
 * individual perspective: simulate user actions, verifying behaviour of the application, appearance of the applicatioon, increasing test accurary, reducing human factor
 * organization perspective: increasing the test coverage, high repeatability and scalability reducing feedback time, people focussing on creative tasks
 
+* TODO add rest of input
+* TODO fix typos
+* 
