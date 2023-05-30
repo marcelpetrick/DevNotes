@@ -33,7 +33,6 @@ www.cnsconsult.de
 
 ## Erfolgskritische Positionen - Key Positions
 * in Hinsicht auf Ergebnis, effiziente Prozesse oder Expertenwissen
-* Beispiel: Personalbereich:
 * interne Nachfolgeplanung ist erforderlich bis zu einem bestimmten Termin
 
 ## Schritte: Talentidentifikation
@@ -45,3 +44,7 @@ www.cnsconsult.de
 ## Fragen
 * Wer ist ein Talent: jemand, der nachfragt, querdenkt und die Ambition zeigt in größere Position zu wachsen
   * jemand, der in zwei bis drei Jahren in eine höhere Position wachsen kann
+* Leute binden und verantwortung weitergeben: durch Projektarbeit; Leute direkt an die Geschäftsführung bringen; darüber Verantworung sehr gut delegieren
+![](img04.png)
+![](img05.png)
+![](img06.png)
