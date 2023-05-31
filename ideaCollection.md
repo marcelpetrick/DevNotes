@@ -15,6 +15,6 @@ AutoIt-script (most likely) to change the Jabber-status and the RocketChat-statu
 todo: idee: md-files mit fileending glattziehen (first commandline: inputfile: then check if the linendings have newline (with two spaces before; except maybe for lines which start with a # or *, because they are wrapped anyway)
 
 ## The mother of all gits
-Jk, idea is to create a script which retrieves the list of all (publicly) avaialble git(hub) repositories and then clones them to a specific path. Just ouf of backup reasons.  
+Jk, idea is to create a script which retrieves the list of all _my_ (publicly) avaialble git(hub) repositories and then clones them to a specific path. Just to have a local backup.  
 I don't want to to this manually for all repos manually.  
 Maybe just do baremetal-cloning.
