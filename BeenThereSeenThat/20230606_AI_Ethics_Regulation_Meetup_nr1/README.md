@@ -59,5 +59,3 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * specificities of Heatlh: fuzzy data and overlap between mediacal dta and demographic features
 * specificities of AI: biased data and limitations of hardware solutions
 ![](img09.png)
-
-
