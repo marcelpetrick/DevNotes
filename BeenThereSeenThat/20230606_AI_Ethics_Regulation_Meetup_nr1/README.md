@@ -31,4 +31,33 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 
 ## Securing Human Rights in the Age of AI: A Guide for Corporate Responsibility
 * Alexander Kriebitz (iuvenal research)
-* 
+* AI development for companies as main focus; because very much driven by corparate entities
+* PoV from academics and consulting; mixed experience which is helpful also for the evaluation, because of the ivory tower .. distance to the real world engineering problems
+* growing divide between the biased AI and ethical AI
+![](img02.png)
+* regulation will not be able to fill all potential scenarios
+* why do we have tht kind of mismatch?
+* issues:
+  * complexity of AI ethics
+  * use-case specific challenges: autonomous driving, medical, HR or finance
+  * competing legal frameworks: EU AI act, national laws, frameworks, ..
+  * involvement of business functions: procurement, human ressources, product development
+![](img03.png)
+* the pivot to human rights in AI regulation is likely to change this
+  * human rights are at the cneter and normative pillar of contemporary ethics
+![](img04.png)
+![](img05.png)
+* the business and human rights angle matters ihly for ESG ratings that determine access to finance and B2B clients
+* European Supply Chain Legislation...
+* Why does a company need an EU AI Act Impact Assessment?
+![](img06.png)
+* see the four different risk levels of AI developers
+* TODO: map AI risks tailored to the company; and provide an report
+* case study: Diabetes patient
+![](img07.png)
+![](img08.png)
+* specificities of Heatlh: fuzzy data and overlap between mediacal dta and demographic features
+* specificities of AI: biased data and limitations of hardware solutions
+![](img09.png)
+
+
