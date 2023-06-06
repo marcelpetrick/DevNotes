@@ -68,4 +68,23 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * for LLMs: what kind of overarching data-inout is used for training? also clarifying if there is some cutoff or continuous new data makes the decision different
 * question is also about non-deterministic and deterministic AI
   * for courtyard, etc much different
+
+## Value Based Engineering and IEEE 7000
+* Soner Bargu (WU Wien)
+* SDLC - system development life cycle
+* what to do to run an AI project with ethics inside
+* value based engineerng; UNICEF youma project/platform
+![](img10.png)
+* will be IS/IEC/IEEE 24748-7000
+* "certifAIed" group for getting certified
+![](img11.png)
+* can help companies to comply with the EU AI regulation
+* can helpinvestors to make better investment devisions
+* IEEE7000 has 3 phases:
+  * preparing of the grounds
+  * eliciting relevant values
+  * deriving value-based system requirements
+* stakeholder representatives are reflecting on three moral questions: utilitarianism, virtue ethics, duty ethics
+![](img12.png)
+* value clusters are built bottom up from stakeholder remarks (explain the value without using another value - then you found a new value cluster)
 * 
