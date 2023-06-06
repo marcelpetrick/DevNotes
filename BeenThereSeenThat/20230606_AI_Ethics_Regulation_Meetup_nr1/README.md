@@ -59,3 +59,13 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * specificities of Heatlh: fuzzy data and overlap between mediacal dta and demographic features
 * specificities of AI: biased data and limitations of hardware solutions
 ![](img09.png)
+
+## public questions
+* line between perceived human action and human action is betting smaller; interaction with chatbot versus a real doctor
+* right now the human rights decision is really centered on real humans
+* what if AI develops some real consciousness? not reached yet
+* but what about closd integration of humans and robots
+* for LLMs: what kind of overarching data-inout is used for training? also clarifying if there is some cutoff or continuous new data makes the decision different
+* question is also about non-deterministic and deterministic AI
+  * for courtyard, etc much different
+* 
