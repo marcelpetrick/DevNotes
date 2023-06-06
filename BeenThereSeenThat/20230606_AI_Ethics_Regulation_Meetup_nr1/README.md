@@ -16,3 +16,19 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 
 19:50 Networking
 ```
+
+![](img00.png)
+
+## Intro by Allison (RightMinded AI GmbH)
+* two ends of the spectrum (saves us all, never have to work again) versus AI is going to kill us all (Motherboard, drone simulation, etc, the one talk - uncalibrated reward system; see https://www.vice.com/en/article/4a33gj/ai-controlled-drone-goes-rogue-kills-human-operator-in-usaf-simulated-test )
+* we shape technology and technology shapes us
+* "AI is a tool we must wield to transform our nations.."
+* but the messy middle is what matters most
+* her first consulting project was to evaluate a bought AI software and the faculty members
+![](img01.png)
+* trolley problem: navigating ethical decisions in AI product and business development
+* but engineers make hundreds of ethical decision every day
+
+## Securing Human Rights in the Age of AI: A Guide for Corporate Responsibility
+* Alexander Kriebitz (iuvenal research)
+* 
