@@ -47,3 +47,7 @@
    * foster culture of healthy, constructive discussions!
 * remove artificial obstacles like flow-states: because all tickets should move from all states to all states (known problem..)
 ![](img10.png)
+
+## Open discussion with miro board
+* collection of input with priorization
+![](img11.png)
