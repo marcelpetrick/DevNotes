@@ -2,7 +2,7 @@
 * hosted by Teamleadsky (Alex)
 ![](img00.png)
 * miro board: https://miro.com/app/board/uXjVPnyOtM8=/
-* sprint and product backlog: difference ..
+* sprint and product backlog: difference
 ![](img01.png)
 * product is a vehicle to deliver value
 * product goal describes a future state of the product, which allows to generate more value
@@ -34,7 +34,7 @@
 ![](img09.png)
 ### good
 * POs experience and soft skills ++
-* clear roadmap and prios
+* clear roadmap and priorities
 * well defined product goals
 * regular and timely sessions
 
@@ -46,3 +46,4 @@
 * people should not be afraid to share their ideas
    * foster culture of healthy, constructive discussions!
 * remove artificial obstacles like flow-states: because all tickets should move from all states to all states (known problem..)
+![](img10.png)
