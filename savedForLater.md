@@ -1,7 +1,7 @@
 ## Get certified: "Certified Qt and QML Developer"
 https://www.kdab.com/qt-certification/
 
-## reactiveate and check how to deploy micropython for the ESP32
+## reactivate and check how to deploy microPython for the ESP32
 https://www.bastelgarage.ch/esp32-new-wifi-kit-32-mit-32mbit-flash
 (with Heltec OLED version)
 
@@ -25,6 +25,5 @@ Had a problem to use my cpp-Enums in QML: found this <https://qml.guide/enums-in
 <https://medium.com/21st-century-decision-making-for-teams/painful-lessons-from-scaling-a-software-company-1d14ee7f9ab3>
 
 
-another static checker?
-
-https://github.com/david-a-wheeler/flawfinder
+## another static checker?
+<https://github.com/david-a-wheeler/flawfinder>

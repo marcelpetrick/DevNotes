@@ -17,6 +17,6 @@ Individuals or organizations with a high change quotient are often able to antic
 
 Developing a high change quotient is becoming increasingly important in today's fast-paced and rapidly evolving business environment, where change is constant and disruption is the norm. By cultivating a high change quotient, individuals and organizations can not only survive but also thrive in the face of change, and use it to their advantage.
 
-## baselineagile organization assessment: 1 point
+## baseline agile organization assessment: 1 point
 ![](img00.png)
 

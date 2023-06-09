@@ -1,11 +1,11 @@
 **note: WIP**
 
 * Satzschablone
-* Gruende
-* Versionierung von Requirements. Eher advanced
+* Gründe
+* Versionierung von Requirements. Von Nützlichkeit eher advanced
 * Traceability
-* Planungsfehler erzeugen mehrfaches an Aufwand zur Korrektur der implementierung und mehrfach bei Bugfixing nach Auslieferung (Faktor 10x jeweils)
+* Planungsfehler erzeugen mehrfaches an Aufwand zur Korrektur der Implementierung und mehrfach bei Bugfixing nach Auslieferung (Faktor 10x jeweils)
 * Widerspruchsfreiheit
 * Verweis auf das Buch von Rupp und Pohl
-* Konfliktloesungsstrategien
+* Konfliktlösungsstrategien
 * Vision, user story, use case, requirement

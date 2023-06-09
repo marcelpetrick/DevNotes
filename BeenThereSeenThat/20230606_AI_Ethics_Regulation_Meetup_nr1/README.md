@@ -31,23 +31,23 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 
 ## Securing Human Rights in the Age of AI: A Guide for Corporate Responsibility
 * Alexander Kriebitz (iuvenal research)
-* AI development for companies as main focus; because very much driven by corparate entities
+* AI development for companies as main focus; because very much driven by corporate entities
 * PoV from academics and consulting; mixed experience which is helpful also for the evaluation, because of the ivory tower .. distance to the real world engineering problems
 * growing divide between the biased AI and ethical AI
 ![](img02.png)
 * regulation will not be able to fill all potential scenarios
-* why do we have tht kind of mismatch?
+* why do we have that kind of mismatch?
 * issues:
   * complexity of AI ethics
   * use-case specific challenges: autonomous driving, medical, HR or finance
   * competing legal frameworks: EU AI act, national laws, frameworks, ..
-  * involvement of business functions: procurement, human ressources, product development
+  * involvement of business functions: procurement, human resources, product development
 ![](img03.png)
 * the pivot to human rights in AI regulation is likely to change this
-  * human rights are at the cneter and normative pillar of contemporary ethics
+  * human rights are at the center and normative pillar of contemporary ethics
 ![](img04.png)
 ![](img05.png)
-* the business and human rights angle matters ihly for ESG ratings that determine access to finance and B2B clients
+* the business and human rights angle matters highly for ESG ratings that determine access to finance and B2B clients
 * European Supply Chain Legislation...
 * Why does a company need an EU AI Act Impact Assessment?
 ![](img06.png)
@@ -56,16 +56,16 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * case study: Diabetes patient
 ![](img07.png)
 ![](img08.png)
-* specificities of Heatlh: fuzzy data and overlap between mediacal dta and demographic features
-* specificities of AI: biased data and limitations of hardware solutions
+* specificity of Health: fuzzy data and overlap between medical data and demographic features
+* specificity of AI: biased data and limitations of hardware solutions
 ![](img09.png)
 
 ## public questions
 * line between perceived human action and human action is betting smaller; interaction with chatbot versus a real doctor
 * right now the human rights decision is really centered on real humans
 * what if AI develops some real consciousness? not reached yet
-* but what about closd integration of humans and robots
-* for LLMs: what kind of overarching data-inout is used for training? also clarifying if there is some cutoff or continuous new data makes the decision different
+* but what about closed integration of humans and robots
+* for LLMs: what kind of overarching data-input is used for training? also clarifying if there is some cutoff or continuous new data makes the decision different
 * question is also about non-deterministic and deterministic AI
   * for courtyard, etc much different
 
@@ -73,13 +73,13 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * Soner Bargu (WU Wien)
 * SDLC - system development life cycle
 * what to do to run an AI project with ethics inside
-* value based engineerng; UNICEF yoma project/platform
+* value based engineering; UNICEF `yoma` project/platform
 ![](img10.png)
 * will be IS/IEC/IEEE 24748-7000
 * "certifAIed" group for getting certified
 ![](img11.png)
 * can help companies to comply with the EU AI regulation
-* can helpinvestors to make better investment devisions
+* can help investors to make better investment decisions
 * IEEE7000 has 3 phases:
   * preparing of the grounds
   * eliciting relevant values
@@ -88,7 +88,7 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 ![](img12.png)
 * value clusters are built bottom up from stakeholder remarks (explain the value without using another value - then you found a new value cluster)
 * risk logic identifies system requirements
-* creativity eplodes in terms of product ideas
+* creativity explodes in terms of product ideas
 ![](img13.png)
-* value analyis leads to more sober investment
+* value analysis leads to more sober investment
 ![](img14.png)

@@ -3,9 +3,9 @@
 ## 2021
 
 ### must
-* project management: get some basic seminar and exam (certification); eighter IPMA, Prince2 (with Agile?) or IHK
+* project management: get some basic seminar and exam (certification); later IPMA, Prince2 (with Agile?) or IHK (IHK is too national, zero impact outside of DACH)
 * HSK1: basic Mandarin certification (this year for sure)
-* machine learnin studies have to continue
+* machine learning studies have to continue
 
 ### want
 * start extra-occupational master studies
@@ -22,11 +22,10 @@
 
 * took & booked PSPO for end of March ... hey ho, let's go!
 
-
 ------------
 
 ## 2022
-* coursera: Project Management course by Google
+* Coursera: Project Management course by Google
 * Coursera: Remote Team Management by Gitlab
 
 ### check for something for this

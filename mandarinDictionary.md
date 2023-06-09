@@ -3,7 +3,7 @@
 ## hints for myself
 * instead of just putting the words I've learnt so far (via Duolingo, evening school at MVHS, flash cards, some other apps, ..) I should tackle directly the HSK1-vocabulary: <https://improvemandarin.com/hsk-1-vocabulary-list/> - learn those 150 words and we are already fine
 * also handle this <https://hsk.academy/en/learn/starting-with-learning-chinese>
-* signed up for account for the chinese test HSK1: but got no mail confirmation?!? [todo]
+* signed up for account for the Chinese test HSK1: but got no mail confirmation?!? [todo]
 
 ## legend
 simplified chinese - pinyin - english
