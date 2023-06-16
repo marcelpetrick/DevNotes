@@ -17,7 +17,7 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 19:50 Networking
 ```
 
-![](img00.png)
+![](img00.jpg)
 
 ## Intro by Allison (RightMinded AI GmbH)
 * two ends of the spectrum (saves us all, never have to work again) versus AI is going to kill us all (Motherboard, drone simulation, etc, the one talk - uncalibrated reward system; see https://www.vice.com/en/article/4a33gj/ai-controlled-drone-goes-rogue-kills-human-operator-in-usaf-simulated-test )
@@ -25,7 +25,7 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * "AI is a tool we must wield to transform our nations.."
 * but the messy middle is what matters most
 * her first consulting project was to evaluate a bought AI software and the faculty members
-![](img01.png)
+![](img01.jpg)
 * trolley problem: navigating ethical decisions in AI product and business development
 * but engineers make hundreds of ethical decision every day
 
@@ -34,7 +34,7 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * AI development for companies as main focus; because very much driven by corporate entities
 * PoV from academics and consulting; mixed experience which is helpful also for the evaluation, because of the ivory tower .. distance to the real world engineering problems
 * growing divide between the biased AI and ethical AI
-![](img02.png)
+![](img02.jpg)
 * regulation will not be able to fill all potential scenarios
 * why do we have that kind of mismatch?
 * issues:
@@ -42,23 +42,23 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
   * use-case specific challenges: autonomous driving, medical, HR or finance
   * competing legal frameworks: EU AI act, national laws, frameworks, ..
   * involvement of business functions: procurement, human resources, product development
-![](img03.png)
+![](img03.jpg)
 * the pivot to human rights in AI regulation is likely to change this
   * human rights are at the center and normative pillar of contemporary ethics
-![](img04.png)
-![](img05.png)
+![](img04.jpg)
+![](img05.jpg)
 * the business and human rights angle matters highly for ESG ratings that determine access to finance and B2B clients
 * European Supply Chain Legislation...
 * Why does a company need an EU AI Act Impact Assessment?
-![](img06.png)
+![](img06.jpg)
 * see the four different risk levels of AI developers
 * TODO: map AI risks tailored to the company; and provide an report
 * case study: Diabetes patient
-![](img07.png)
-![](img08.png)
+![](img07.jpg)
+![](img08.jpg)
 * specificity of Health: fuzzy data and overlap between medical data and demographic features
 * specificity of AI: biased data and limitations of hardware solutions
-![](img09.png)
+![](img09.jpg)
 
 ## public questions
 * line between perceived human action and human action is betting smaller; interaction with chatbot versus a real doctor
@@ -74,10 +74,10 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * SDLC - system development life cycle
 * what to do to run an AI project with ethics inside
 * value based engineering; UNICEF `yoma` project/platform
-![](img10.png)
+![](img10.jpg)
 * will be IS/IEC/IEEE 24748-7000
 * "certifAIed" group for getting certified
-![](img11.png)
+![](img11.jpg)
 * can help companies to comply with the EU AI regulation
 * can help investors to make better investment decisions
 * IEEE7000 has 3 phases:
@@ -85,13 +85,12 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
   * eliciting relevant values
   * deriving value-based system requirements
 * stakeholder representatives are reflecting on three moral questions: utilitarianism, virtue ethics, duty ethics
-![](img12.png)
+![](img12.jpg)
 * value clusters are built bottom up from stakeholder remarks (explain the value without using another value - then you found a new value cluster)
 * risk logic identifies system requirements
 * creativity explodes in terms of product ideas
-![](img13.png)
+![](img13.jpg)
 * value analysis leads to more sober investment
-![](img14.png)
-![](img15.png)
-![](img16.png)
-
+![](img14.jpg)
+![](img15.jpg)
+![](img16.jpg)
