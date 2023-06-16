@@ -92,3 +92,6 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 ![](img13.png)
 * value analysis leads to more sober investment
 ![](img14.png)
+![](img15.png)
+![](img16.png)
+
