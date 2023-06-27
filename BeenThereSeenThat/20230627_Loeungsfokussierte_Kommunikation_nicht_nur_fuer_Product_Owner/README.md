@@ -14,4 +14,16 @@ Mein Name ist Alexander A. Giurca, kurz Alex, und ich freue ich mich, dich am Di
 Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in verschiedenen Branchen (FMCG, Pharma, Food, Banking, Automotive, ...) für agile Entwicklungen, Führung, Change Enablement, Innovation und Produktmanagement. Er ist ein ehemaliger Product Owner für eine Software mit über 4 Millionen Nutzern. In seiner Rolle als ehemaliger Digital Transformation Manager half er verschiedenen Unternehmen, mehr Innovation zu erreichen und neue, digitale Geschäftsmodelle aufzubauen. Als lösungsfokussierter Coach und zertifizierter "Training from the BACK of the Room"-Trainer bietet er neben seiner Beratungstätigkeit praxisnahe Trainings für Agilität, Führung, Lösungsfokus und Produktmanagement an.
 ```
 
-more notes follow
+![](img00.png)
+* erster agiler Wert: Individuen und Interaktionen
+* wirklich wirksame Kommunikation ist der übergeordnete Titel für dieses Meetup
+* auf erwünschte Zukunft fokussieren: nicht troubled past or dreasded future
+![](img01.png)
+* nicht problelm-phobisch sein, sondern Problem wertschätzen und sich auf Lösung konzentrieren
+* Was ist das Problem? Was ist schief gelaufenß Was kann in Zukunft schief laufen?
+* *in Praxis hängen Problem und Lösung nicht immer direkt zusammen
+* Wozu (Frage): Ich trinke gerne Kaffee - Durst löschen/Koffein hilft beim Wachwerden/Morgenroutine
+  * hilft Lösungen zu entwickeln
+ * Bedürfnisse, welche hinter dem Ziel stehen, erfragen
+ ![](img02.png)
+ 
