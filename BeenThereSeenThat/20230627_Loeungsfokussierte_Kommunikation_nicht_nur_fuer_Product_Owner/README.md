@@ -26,4 +26,24 @@ Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in v
   * hilft Lösungen zu entwickeln
  * Bedürfnisse, welche hinter dem Ziel stehen, erfragen
  ![](img02.png)
- 
+* in der Haltung des "Nicht-Wissens" bleiben, damit man nicht übersieht dass eine Lösung vielleicht nicht 100% korrekt war
+* User sind ei Experten für Ihre Situation! Das Produktteam ist Experte für die (technische) Umsetzung
+  als PO coaching-like die erwünschte Zukunft herausfinden
+   * Gegensatz: Bedürfnsise verstehen versus Probleme verstehen
+* "never put you but(t) in the face of an angry person" Marshal Rosenberg
+* Kurzfassung er bisherigen lösungsfokussierten Haltungen und Prinzipien
+  * User sind Experten für ihre Situation
+  * Ressourcenfokus
+  * Fokus auf eine bessere Zukunft
+  * Der Lösung (preferred future) ist es meist egal, wie das Problem entstanden ist
+  * Lösungssprache schafft Lösungen - Problemsprache schafft Probleme
+  Ü Haltung des Nicht-Wissens - um neugierig zu blweiben
+  * Widerstände als schlecht formulierte Bitten sehen: nicht gut genug ausgedrückt (Veronika Jungwirth)
+![](img03,png)
+* Stichwort "future jump"; aus Coachinecke
+* * als Product Owner führen wir viele Coaching-like Konversationen
+
+* Coaching ist freiwilling
+* Product Ownership ist Haltungssache und hauptsächlich Kommunikation
+* Haltung per se ist die Summe vieler, bewusster Entscheidungen in bestimmten Situationen anders zu reagieren
+
