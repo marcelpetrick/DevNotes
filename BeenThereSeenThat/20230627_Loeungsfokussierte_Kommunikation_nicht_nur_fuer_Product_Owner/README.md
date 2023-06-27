@@ -46,4 +46,4 @@ Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in v
 * Coaching ist freiwilling
 * Product Ownership ist Haltungssache und hauptsächlich Kommunikation
 * Haltung per se ist die Summe vieler, bewusster Entscheidungen in bestimmten Situationen anders zu reagieren
-
+![](img04,png)
