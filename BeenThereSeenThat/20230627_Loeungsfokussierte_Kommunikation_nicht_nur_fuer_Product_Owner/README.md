@@ -39,11 +39,11 @@ Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in v
   * Lösungssprache schafft Lösungen - Problemsprache schafft Probleme
   Ü Haltung des Nicht-Wissens - um neugierig zu bleiben
   * Widerstände als schlecht formulierte Bitten sehen: nicht gut genug ausgedrückt (Veronika Jungwirth)
-![](img03,png)
+![](img03.png)
 * Stichwort "future jump"; aus Coachinecke
 * * als Product Owner führen wir viele Coaching-like Konversationen
 
 * Coaching ist freiwillig
 * Product Ownership ist Haltungssache und hauptsächlich Kommunikation
 * Haltung per se ist die Summe vieler, bewusster Entscheidungen in bestimmten Situationen anders zu reagieren
-![](img04,png)
+![](img04.png)
