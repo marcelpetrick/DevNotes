@@ -25,5 +25,47 @@ Shabnam will talk about the extent to which the large language models can demons
 
 An exploration of the FB prophet library and its capabilities via a brent oil prices kaggle dataset.
 ```
+## Alasco
+* 120 people, 35 engineers
 
-## notes
+## Can large language models reason?
+* data & applied scientist at microsoft
+* Agenda:
+  * reasoning
+  * benchmarks
+  * techniques
+  * practical tips
+* TODO: insert the photo with the qr-code
+* code:
+* talk will be mostly  review of literature, not a product promotion
+* criterias for picking: single-stage over multi-stage; has real world application; in context learning / prompt engineering over fiene tuning
+
+### why do we need reasoning?
+* generate code
+* self criique
+* problem solving
+* planning/priorization
+* plugin/tool use
+
+![](img03.png)
+* arithmetical reasoning
+* commonsense reasoning
+* logical reasoning
+* multi-hop question answering
+
+examples from common benchmarks (titles as foot lines)
+img04
+* arithmetic calculations quite doable; commonsense reasoning, deductive (based on relationships of people)
+* Qiao, Shuofei: "REasoning with Language Model Prompting: a survey" (todo: check this; google "paers with code")
+### most common idea: chain of thought
+* img05
+* standard prompting versus chain of thought-prompting: compared models GPT, LamDa, PaLM
+* few shot prompting: giving the model some rational behind the question, then the results improve
+* when the LLM starts with rationalizing, then the end result is more often true
+
+### LLMs are zero-shot reasoners
+* even if you do not give the reasoning as example,, it improves
+* trying different ways of instructing the LLM gives different quality for the result
+* misleading ones decrease the results as well
+* irrelevant gives the same results like no instructions - so there is a bit of knowledge inside the LLMS
+*
