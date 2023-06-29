@@ -68,4 +68,70 @@ img04
 * trying different ways of instructing the LLM gives different quality for the result
 * misleading ones decrease the results as well
 * irrelevant gives the same results like no instructions - so there is a bit of knowledge inside the LLMS
-*
+
+### self-consistency
+* img07
+* todo: add the algorithm from the image
+  * "aggregate by choosing the most consistent answer i the final answer set""
+* good way to tweak the responses to improve the obustness
+
+### DIVERSE (diverse verifier on reasoning step)
+* step 1: diverse prompts
+* step2: step-aware voting verifier
+* majority voting could also lead to wrong results, because something is common-sense, but wrong
+* therefore use maybe a smaller LLM to verify the answer: so that the results are better than with "self consistency" -> gets to 82% accuracy
+
+### self-verification
+* img08
+* use the same LLM for verification
+
+### faithful chain-of-thought reasoning
+* paper came out at the same time
+* when you can verify something statistically why use another llm?
+* model writes code, which can give the answer: therefore more powerful (by running the code)
+* two aspects: just asking the model to give the results in python language gives more correct results and second their claim is that if you can compute results, why then use a model?
+* temperature as influence: if you are aiming for accuracy, then the temperature goes down
+* add "answer this in python" to the prompt - this is everything
+
+### least-to-most prompting
+* query the LLM to decompose the problem into subproblems, then 2: query the llm to solve sequentially the subproblems
+* img09
+
+* all the presented approaches deal with the accuracy of the answer
+
+### self-refine
+* img10
+*  check the given prompt for acronym generation
+* feedback is not just self-critique, but it actually asks for some different criteria:
+* "iterative improvement with self-feedback"
+
+### question from the audience: why do those reasoning-optimizations  are working?
+* because of transformers; because of code? or is that the training data contains better answers?
+* will this stay valid with upcoming models?
+  * due to the continued training of models and their fine-tuning they know about those approaches: davinci -2 knew about CoT .. therefore the results became better compared to the initial version
+  * why is the code optimization done? (other visitor says that this is a good question): step-by-step approach reveals new data; memorization is not the only cause
+  * "bevharioural science on a model": because analytical approach is a bit grey matter
+  * "how does in-context learning work?" - check for this paper
+    * idea is quite similar to back-propagation
+* what happens withs slightly wrong intermediate anaswers? then the LLM can quite good rationalize
+  * hypothesis: metaphorically the model is buying more time to think -> more time results in more correct answers (!)
+
+* things which were not covered today: RL, fine tuning; grounding / retrieval argumented
+
+### Take aways (summary)
+* img11
+* TODO cross check with the image!
+* many LLms can benefit form CoT
+    * include a thought section in your prompt besides the desired response
+    * it gives the model some capacity to think
+    * it helps with debugging sometimes as well
+* setting the tone seems to be important
+  * you are a perfect mathematician ..
+* make your result more reproducible and reliable by self-consistency or similar approaches
+* cheaper fine-tuned models as a prompter
+* comparison needs less cognitive effort
+* auto verifiers: deterministic ones or model based ones
+* LLM can be LM teacher: data augmentation via LLMs
+
+
+* struggle to have good quality training data: now lLM can be used to improve the less quality trainng data; to have better augmented training data to use to train smaller LLMs; to our benefit
