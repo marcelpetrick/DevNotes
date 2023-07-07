@@ -45,25 +45,25 @@ https://www.linkedin.com/in/franziskahauck/
 * not seeing yourself as the victim, but taking active charge
 * strict decisions might also go against team members
 * question also yourself if you are maybe the source for a problem?
-* when you become a leader, then every action you do is watched - things which are done, said, .. everthing will be pin-pointed
+* when you become a leader, then every action you do is watched - things which are done, said, .. everything will be pin-pointed
 * systemic thinking
 * willingness to digest bad situations and stand-up again and again
-* negottiation skills: see Harvard TODO
+* negotiation skills: see Harvard TODO
 * non-violent communication - TODO
 
 ![](img05.png)
 * 01. values and competencies; 02. competency model; 03. Journey: first-time; senior; executive
  * manager first: try it out on yourself the very first time; this creates interesting insights
 
-## how to get tha tfeedback?
+## how to get that feedback?
 ![](img06.png)
 * 360° feedback: ask peers, other managers and other people with a working relationship to give working feedback; maybe also based on a score; based on a skill
-  * check templates on the internet; send that out and get that feedback; huge potential for reflection (for things which still have to be learnt)
+  * check templates on the internet; send that out and get that feedback; huge potential for reflection (for things which still have to be learned)
   * written report helps also to avoid awkward 1:1-situations
-* leadership assesments are another way
+* leadership assessments are another way
 * 1:1 with leader
 
-* after gathering the input, put this into a structured model, then devise a development plan (todo) starting from that
+* after gathering the input, put this into a structured model, then devise a development plan (TODO) starting from that
 * leadership books usually present mostly the view from a white men's perspective which does not reflect the diversity of reality
 * helpers: courses, coaching, CoP
 * coaching versus mentorship
