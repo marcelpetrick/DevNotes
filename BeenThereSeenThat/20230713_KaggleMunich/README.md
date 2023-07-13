@@ -39,7 +39,7 @@ We look forward to seeing you at the next Kaggle meetup!
 
 ## Introduction
 * Constructor and Acronis have the same owner
-* 'knowledge is the solution against all evil'; educationalinstitution
+* 'knowledge is the solution against all evil'; educational institution
 *  constructor start-garden -already starting to learn in kindergarden - check this out
 * earlier: Schaffhausen institut for technology
 * for their courses they do 2-stage-interviews and work also with capstone projects from real companies - less dropouts
@@ -59,30 +59,53 @@ We look forward to seeing you at the next Kaggle meetup!
 * hackers don't look for companies, but vulnerabilities
 * most of the time 7million $ are the average cost for a successful cyber attack
 * AI is no match for human stupidity
-* (germans: risks instead of opportunities)
+* (Germans: risks instead of opportunities)
 * Acronis is using gpt for event invitations, presentations, website content, for lots of use cases
 *  incivta.ai - share own model?
 
-* hat might be next for AI in malware?
+* what might be next for AI in malware?
+
 ### poly/metamorphic malware
 * ask te AI to write new malware version for each new infection, e.g. BlackMamba
 * the behaviour changes little
 
 ### self adapting malware
 * behaves differently depending on the env and compromised system
-* eg. DeepLocker IBM 2018
+* e.g. DeepLocker IBM 2018
 
-## Autonome KI Malware
+### Autonome KI Malware
 * completely new never-before-seen attack methods, like Rowhammer
 
 #### asymetric attack
 * attacker uses very low resources, the defender as to use high resources to defend
 * little effort, expertise, fast and scaled - great effort expertise necessary, time-consuming
 
-
-
-
 ##  "NLP in Radio NASCAR Communications" by Adriano Persegani Daguzan (Constructor Learning) - 30 mins
+* from Data Science to NASCAR
+* Adriano is one of those career shifters; from restaurant manager to data science
+
+* why become a DS?
+  *  high demand
+  * versatile skills
+  * impactful insights
+  * problem-solving opportunities
+  * constant learning and growth
+  * future-proof career
+
+### The fast and the verbose: NLP takes on NASCAR radio
+*team and drivers communicate with each other
+* you can check the radio of everyone
+* someone previously implemented already some speech recognition (nvidia) -> ginourmous data set
+* filter: importance and intent labelling
+* this time some unsupervised ML
+* automatic topic identification
+* topic comparison
+* identified different clusters after dimension reduction
+* topic classification: frequent words worked quite well
+* Few shot learning has a really high score, therefore preferable
+* used Google Colab for training
+* right now they could classify 23k talks in less than 6 seconds
+* check on radionascar.com - has also chat for testing out the models
 
 ## "Credit risk analytics with machine learning" by Fares Djerourou (UniCredit) - 30 mins
 
