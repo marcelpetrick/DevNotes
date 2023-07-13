@@ -108,4 +108,26 @@ We look forward to seeing you at the next Kaggle meetup!
 * check on radionascar.com - has also chat for testing out the models
 
 ## "Credit risk analytics with machine learning" by Fares Djerourou (UniCredit) - 30 mins
+* modelling expected and unexpected loss
+* before: logistic regression or decision trees were used; but there was a correlation between the values
+*  cure: person defaulted, but they paid it back
+![](img01.png)
+* splitting it into more components allows to model it more directly - but this does not work
+* banking sector not really happy about ML models because of the lack of trust
+* data preparation as first task; proper encoding of some columns
+* fixing missing columns - because no use for them
+![](img02.png)
+* models tested: logistic regression, gradient boosting, random forest, feed forward neural networks
 
+### next topic: options
+![](img03.png)
+* call and out options as vanilla options, most basic ones
+* good for speculation
+* monte carlo sampling with python (todo?)
+* strike price (?)
+* Heston volatility smile
+* trained a feed-forward model on 100k samples: confidence 99%
+* reference: Investopedia - check this
+* his approach: never go above four layers
+* holding does not want to have models, which lack interpreteability
+* he supersampled the imbalanced classes
