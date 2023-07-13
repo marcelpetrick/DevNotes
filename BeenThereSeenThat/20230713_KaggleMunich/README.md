@@ -37,3 +37,52 @@ We are always looking for speaker. If you have any ideas or suggestions, please 
 We look forward to seeing you at the next Kaggle meetup!
 ```
 
+## Introduction
+* Constructor and Acronis have the same owner
+* 'knowledge is the solution against all evil'; educationalinstitution
+*  constructor start-garden -already starting to learn in kindergarden - check this out
+* earlier: Schaffhausen institut for technology
+* for their courses they do 2-stage-interviews and work also with capstone projects from real companies - less dropouts
+* why? university degrees take too long to complete
+* become a data-scientist in 12 weeks?
+
+* upcoming events: 28.07. Jetbrains office for presentations of capstone projects
+* harnessing aI for product management; online?
+![](img00.png)
+* 10k€ course fee; but also voucher and loans, etc.
+
+## "Artificial Intelligence - Hype & Reality: Will the Terminator Ransomware arrive soon?" by Lukas Nester (Acronis) - 25 mins
+* helping the world get #cyberfit for 20 years
+* starting with a small backup solution - right now one of the leading vendors for data protection ...
+* growing quite fast: 2k employees in over 30 locations
+
+* hackers don't look for companies, but vulnerabilities
+* most of the time 7million $ are the average cost for a successful cyber attack
+* AI is no match for human stupidity
+* (germans: risks instead of opportunities)
+* Acronis is using gpt for event invitations, presentations, website content, for lots of use cases
+*  incivta.ai - share own model?
+
+* hat might be next for AI in malware?
+### poly/metamorphic malware
+* ask te AI to write new malware version for each new infection, e.g. BlackMamba
+* the behaviour changes little
+
+### self adapting malware
+* behaves differently depending on the env and compromised system
+* eg. DeepLocker IBM 2018
+
+## Autonome KI Malware
+* completely new never-before-seen attack methods, like Rowhammer
+
+#### asymetric attack
+* attacker uses very low resources, the defender as to use high resources to defend
+* little effort, expertise, fast and scaled - great effort expertise necessary, time-consuming
+
+
+
+
+##  "NLP in Radio NASCAR Communications" by Adriano Persegani Daguzan (Constructor Learning) - 30 mins
+
+## "Credit risk analytics with machine learning" by Fares Djerourou (UniCredit) - 30 mins
+
