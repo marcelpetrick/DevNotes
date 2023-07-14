@@ -57,7 +57,7 @@ We look forward to seeing you at the next Kaggle meetup!
 * growing quite fast: 2k employees in over 30 locations
 
 * hackers don't look for companies, but vulnerabilities
-* most of the time 7million $ are the average cost for a successful cyber attack
+* most of the time 7million $ are the average cost for a successful cyber-attack
 * AI is no match for human stupidity
 * (Germans: risks instead of opportunities)
 * Acronis is using gpt for event invitations, presentations, website content, for lots of use cases
@@ -73,7 +73,7 @@ We look forward to seeing you at the next Kaggle meetup!
 * behaves differently depending on the env and compromised system
 * e.g. DeepLocker IBM 2018
 
-### Autonome KI Malware
+### autonomous AI malware
 * completely new never-before-seen attack methods, like Rowhammer
 
 #### asymetric attack
@@ -95,8 +95,8 @@ We look forward to seeing you at the next Kaggle meetup!
 ### The fast and the verbose: NLP takes on NASCAR radio
 *team and drivers communicate with each other
 * you can check the radio of everyone
-* someone previously implemented already some speech recognition (nvidia) -> ginourmous data set
-* filter: importance and intent labelling
+* someone previously implemented already some speech recognition (nvidia) -> ginormous data set
+* filter: importance and intent labeling
 * this time some unsupervised ML
 * automatic topic identification
 * topic comparison
@@ -108,7 +108,7 @@ We look forward to seeing you at the next Kaggle meetup!
 * check on radionascar.com - has also chat for testing out the models
 
 ## "Credit risk analytics with machine learning" by Fares Djerourou (UniCredit) - 30 mins
-* modelling expected and unexpected loss
+* modeling expected and unexpected loss
 * before: logistic regression or decision trees were used; but there was a correlation between the values
 *  cure: person defaulted, but they paid it back
 ![](img01.png)
