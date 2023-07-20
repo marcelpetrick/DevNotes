@@ -89,5 +89,4 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 * profile your code
 * fix your vode design and algorithms first
 
-
 TODO add the images from phone
