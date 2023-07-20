@@ -37,6 +37,45 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 *  means: gather data, analyze data, tune, test .. repeat
 ![](img03.png)
 
+### how to build a solid baseline?
+* use right compiler falgs: compile in reelease mode, compile with optimization flags
+* compile for the target cpu
+* use optimized libraries
+¹[](img04.png)
+### how to make a right workload
+* meaureable
+* reproducible
+* static
+* reprensentative
+* stable
+### performance optimization levels
+* first: design (!): revising te code architecture and design to avoid potential downtimes
+* algorithms and data structures: choosing better algorithms that are of the best complexitiy and the most suitable
+* source code and compilers: loop/function optimization, parallelization, ..
+
+## looking at the app of the day: n-body gravity simulation
+* some kind of HPC application
+* baseline is 17min for a run on a quite performant platform (Xeon, 96 logical cores, 144 GB RAM)
+* goal is to execute it in less than 3 seconds
+### finding hotspots
+* GravitySimulation::run is of course the hotspot
+* cpu-utilization is almost zero, not multithreaded yet
+* using OpenMP: just add `pragma omp parallel` for - less intrusive for the code
+  * already down to 19s
+* code is auto-vectorized, but the vectorization is not efficient (maybe not the right data-types or not good memory access?, also about the instruction set)
+* what is vectorization? transform sequential code to explot vector processing capabilities
+¹[](img05.png)
+* examples: Intel SSE or SSE2
+* Intel AVX, AVX2
+* multithreading & vectorization speed-up
+  * in the real world the result is bit less good than the optimal idal execution speed; see Amdahl's law: https://en.wikipedia.org/wiki/Amdahl%27s_law
+* look at the recommendations to improve vectorization..
+* chosing a proper datatype (float) reduces the time by 50% again: 10s
+* using 512 bit-package-nstructions reduced it to 4 seconds
+* uArch (micro architecture) optimization: ideal CPI (clocks per instruction) of 0.25
+* CPI does not depend on CPU frequency which may change
+* why instructions might not retire: frontend-bound; back-end bound, bad speculation
+* 
 
 
 TODO add the images from phone
