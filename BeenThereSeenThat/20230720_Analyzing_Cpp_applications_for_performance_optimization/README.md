@@ -49,7 +49,7 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 * reprensentative
 * stable
 ### performance optimization levels
-* first: design (!): revising te code architecture and design to avoid potential downtimes
+* first: design (!): revising the code architecture and design to avoid potential downtimes
 * algorithms and data structures: choosing better algorithms that are of the best complexitiy and the most suitable
 * source code and compilers: loop/function optimization, parallelization, ..
 
@@ -75,9 +75,19 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 * uArch (micro architecture) optimization: ideal CPI (clocks per instruction) of 0.25
 * CPI does not depend on CPU frequency which may change
 * why instructions might not retire: frontend-bound; back-end bound, bad speculation
-* 
+* iregular memory access patterns present: works better when the data is close together - best: uni-stride access, onstant stride access, worst: variable stride access
+* SIMD is effective with unit stride access: array of structures is bad; structure of arrays is better and SIMD compatible!
+* therefore rewrite the code or use the SDLT library: now it takes just 1.5s
+* going deeper by using ASM would be possible, but then you are HW-bound
+* best approac is to go: top-down, then focus on execution problems
+* also offloading code to accelerators can help
+
+## key points
+* use optimized libs when possible: parallel STL, openmp, tbb, mkl, ipl
+* get a solid baseline
+* define optimization criteria for your workload
+* profile your code
+* fix your vode design and algorithms first
 
 
 TODO add the images from phone
-
-*  
