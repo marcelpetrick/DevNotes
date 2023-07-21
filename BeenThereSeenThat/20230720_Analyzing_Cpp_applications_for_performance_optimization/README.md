@@ -6,7 +6,7 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 
 ## Introduction by the R&D guys from Zeiss
 * Zeiss ZEN als platform
-* data acquistion from the microscope as first step (multichannel, z-stack, panoramo and stitching)
+* data acquisition from the microscope as first step (multichannel, z-stack, panorama and stitching)
 * processing of the images & data
 * descale, denoise, deconvolute
 * dealing with high data loads
@@ -15,71 +15,76 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 * C++ in 80% of their products
 
 ## The real talk: analyzing C++ apps ..
+
 ### about performance optimization
 * increased speed or efficiency of software
 * better user experience, cost reduction, reliability increase
 * sometimes: no ability to use a more powerful hardware to meet performance needs
+* 
 ### how to tune?
-* find metric for the optimization cirtiera
+* find metric for the optimization criteria
 * and second a stopping condition
 * examples:
   * execution time
   * compute performance
   * frame rate
-  * memory bandwith
+  * memory bandwidth
 ![](img01.png)
-* top down, closed loop methodology: priorization of the optimization
+* top down, closed loop methodology: prioritization of the optimization
   * 1. System level tuning (processor, memory, network, disk)
   * 2. app level tuning: locking & synchronization, heap interaction, threading model, APIs used
-  * 3. microarchitecture level tuning: instruction efficiency, branch preditiction/speculation, caches, data alignment/Byte Boundaries
+  * 3. micro architecture level tuning: instruction efficiency, branch prediction/speculation, caches, data alignment/Byte Boundaries
  ![](img02.png) 
 * 1. start with baseline, 2. go through performance improvement iterations, 3. break when a stopping condition is met
 *  means: gather data, analyze data, tune, test .. repeat
 ![](img03.png)
 
 ### how to build a solid baseline?
-* use right compiler falgs: compile in reelease mode, compile with optimization flags
+* use right compiler flags: compile in release mode, compile with optimization flags
 * compile for the target cpu
 * use optimized libraries
 ¹[](img04.png)
+
 ### how to make a right workload
-* meaureable
+* measurable
 * reproducible
 * static
-* reprensentative
+* representative
 * stable
+
 ### performance optimization levels
 * first: design (!): revising the code architecture and design to avoid potential downtimes
-* algorithms and data structures: choosing better algorithms that are of the best complexitiy and the most suitable
+* algorithms and data structures: choosing better algorithms that are of the best complexity and the most suitable
 * source code and compilers: loop/function optimization, parallelization, ..
 
 ## looking at the app of the day: n-body gravity simulation
 * some kind of HPC application
 * baseline is 17min for a run on a quite performant platform (Xeon, 96 logical cores, 144 GB RAM)
 * goal is to execute it in less than 3 seconds
+
 ### finding hotspots
 * GravitySimulation::run is of course the hotspot
 * cpu-utilization is almost zero, not multithreaded yet
 * using OpenMP: just add `pragma omp parallel` for - less intrusive for the code
   * already down to 19s
 * code is auto-vectorized, but the vectorization is not efficient (maybe not the right data-types or not good memory access?, also about the instruction set)
-* what is vectorization? transform sequential code to explot vector processing capabilities
+* what is vectorization? transform sequential code to exploit vector processing capabilities
 ¹[](img05.png)
 * examples: Intel SSE or SSE2
 * Intel AVX, AVX2
 * multithreading & vectorization speed-up
-  * in the real world the result is bit less good than the optimal idal execution speed; see Amdahl's law: https://en.wikipedia.org/wiki/Amdahl%27s_law
+  * in the real world the result is bit less good than the optimal ideal execution speed; see Amdahl's law: https://en.wikipedia.org/wiki/Amdahl%27s_law
 * look at the recommendations to improve vectorization..
-* chosing a proper datatype (float) reduces the time by 50% again: 10s
-* using 512 bit-package-nstructions reduced it to 4 seconds
+* choosing a proper datatype (float) reduces the time by 50% again: 10s
+* using 512 bit-package-instructions reduced it to 4 seconds
 * uArch (micro architecture) optimization: ideal CPI (clocks per instruction) of 0.25
 * CPI does not depend on CPU frequency which may change
 * why instructions might not retire: frontend-bound; back-end bound, bad speculation
-* iregular memory access patterns present: works better when the data is close together - best: uni-stride access, onstant stride access, worst: variable stride access
+* irregular memory access patterns present: works better when the data is close together - best: uni-stride access, constant stride access, worst: variable stride access
 * SIMD is effective with unit stride access: array of structures is bad; structure of arrays is better and SIMD compatible!
 * therefore rewrite the code or use the SDLT library: now it takes just 1.5s
 * going deeper by using ASM would be possible, but then you are HW-bound
-* best approac is to go: top-down, then focus on execution problems
+* best approach is to go: top-down, then focus on execution problems
 * also offloading code to accelerators can help
 
 ## key points
@@ -87,6 +92,6 @@ On July, 20th, we have the pleasure to welcome Elizaveta Shulankina to our user 
 * get a solid baseline
 * define optimization criteria for your workload
 * profile your code
-* fix your vode design and algorithms first
+* fix your code design and algorithms first
 
 TODO add the images from phone
