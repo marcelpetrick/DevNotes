@@ -20,3 +20,8 @@ I don't want to to this manually for all repos manually.
 Maybe just do baremetal-cloning.  
 **Implemented:** https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOfAllGits
 
+## python-api-access of Azure DevOps
+* authentificate
+* get all tickets with certain tag (just like usual query)
+* check the history of each ticket when it got the "Update3"-tag assigned
+* create a graph or structured outout in the form of "date0: ticket1, ticket2, ..; date1: ticket3, ticket; .."
