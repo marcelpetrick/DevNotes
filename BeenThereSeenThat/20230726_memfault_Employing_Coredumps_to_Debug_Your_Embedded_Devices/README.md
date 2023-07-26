@@ -40,4 +40,3 @@ Utilize Memfault to collect coredumps on any embedded MCU, Linux, or Android dev
 ![](img08.png)
 * encourage use of gdb-bundle: because quite helpful
 * example: gdb pauses after remote-connection
-* 
