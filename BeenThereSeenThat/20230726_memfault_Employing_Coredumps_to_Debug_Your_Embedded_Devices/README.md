@@ -11,26 +11,26 @@ Utilize Memfault to collect coredumps on any embedded MCU, Linux, or Android dev
 ```
 
 ## host
-* Eric Johnson von Zeyphyr is the presenter today
+* Eric Johnson von Zephyr is the presenter today
 ![](img00.png)
 ![](img01.png)
 * gdb python extension: also covered today
 
 ## real talk
 * logging is great, but does not cover everything
-* hides and masks other logs; but having much problems
-* logs hard to use i post mortem analysis
+* hides and masks other logs; but having many problems
+* logs hard to use in postmortem analysis
 * hard to replicate at your desk
 * Zephyr has panic-logging-function; good for diagnosis, but just one frame; needs lots of symbol decoding
 * coredumps are better; and non-invasive
 ![](img02.png)
-* normal runtime behaviour completely unaffected
+* normal runtime behavior completely unaffected
 * logging uses at least one background thread
 * log immediate mode
 ### content of a core dump
 * different regions of memories in the dump
 ![](img03.png)
-* what os is your device based on? FreeRTOS, Zyphyr, other RTOS or bare-metal?
+* what OS is your device running on? FreeRTOS, Zephyr, other RTOS or bare-metal?
 ![](img04.png)
 * if assertions are involved, then the stack becomes a bit more complicated
 ![](img05.png)
