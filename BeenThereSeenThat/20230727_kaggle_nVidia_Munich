@@ -2,6 +2,8 @@
 
 todo: add photos
 
+todo: add photos
+
 ## host
 * currently grandmaster number three worldwide
 * started at lmu, works at nvidia
@@ -72,4 +74,25 @@ classification
 * quite modular: training/experimentation; storing; incremental deployment
 * training: not a fan of docker 2 years ago; but now he lieks it: same environment wherever he goes; just insalls some more pip-packages
 * consistency between different team members and machines ..; version mismatches bugs!
-*
+#### details
+* he loves jupyter lab as IDE
+* better support for multi-gpu training
+* uses github to store code and share with team members
+*feature: github actions: push code to kaggle dataset and kernels
+* ASWS for storage
+* neptune: for visualization; displaying metrics, stroing hyperparameters; comparing training runs; compare with team members
+* the pushing to kaggle and its automation was quite helpful for him ... also the requirements.txt
+### tips for large scale data
+* really helps with experimentation: just use a subset of the data
+* 1 percent of the data: just check stuff
+* then larger subset for experiemntation (half), but still not the full data - to save time
+* same is true for the image sizes; also re-use the weights on larger images, the retrain again for even bigger images -> gives you a much more efficient approach fr experimentation
+* in theory everything should run on GPU, but his experience is that this way CPUs are starving
+* multi-GPU training: distributed data parallel over DP (distributed parallel); because it reduces the communication between GPUs and is therefore faster
+
+### modelling and architecture
+* use backbones where weights of the images are already pretraining on imagenet
+* two main  models: hybrid swin transformer and DOLG
+TODO: image of his architecture
+* STEM -> Body -> neck -> Arface classification head
+---------------------
