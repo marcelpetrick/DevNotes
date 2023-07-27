@@ -2,11 +2,10 @@
 
 todo: add photos
 
-todo: add photos
-
 ## host
 * currently grandmaster number three worldwide
 * started at lmu, works at nvidia
+* Christof Henkel; https://twitter.com/kagglingdieter
 
 # image rretrieval
 * given a query image find the most similar image in a db of indexe images
@@ -95,4 +94,24 @@ classification
 * two main  models: hybrid swin transformer and DOLG
 TODO: image of his architecture
 * STEM -> Body -> neck -> Arface classification head
----------------------
+
+## first model: DOLG
+* efficeint net encoding
+* de-orthogonal fusion of locaol and global descriptors
+* image TODO
+* subcenter arcface with dynamic margins handles the intra-class variability well; 2nd and 3rd place the year before
+* transformers can be used as well for computer vision: but need specific input resolution; pathing up the image into parts; also using the global virtual token into the neck and into the loss function
+
+## second approach for the recognition
+* he used his cleansed non-landmark dataset to flag images
+* idea is discriminated class reranking
+todo image of class consstency reranking
+* at the end of the day he had 9 models in his kernel: accumulated training time 7-10 days on 8xV100
+
+## curent SOTA
+* transformer/CNN hybrids like convnext, maxfit
+* large scale pretraining on image-text pairs:
+  * CLIP learns visual concepts just by matching image with description of the image; gives much better image representation than training on image net
+* using Matchformer, using cross-attention for spatial verification
+* sources: youtube series also github open-sourced code and papers
+
