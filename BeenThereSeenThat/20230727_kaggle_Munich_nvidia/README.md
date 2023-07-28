@@ -115,3 +115,13 @@ todo image of class consistency reranking
 * using Matchformer, using cross-attention for spatial verification
 * sources: youtube series also github open-sourced code and papers
 
+# 2nd talk: Adolf Hohl -  Solution architect - from nvidia
+* loves to build large scale number crunchers in his free time
+* start: given an ONNX by Crhistof - pytorch versus tensorflow people; pytorch was the absolute majority of the users in the room
+* he combined two models into one
+* CLIP as feature extractor
+* Triton is their inference server: ensemble model
+* input tensor is a unfolded image; makes model more convenient to use; jpeg-decoder (current GPUs have jpeg encoders in hardware); does not need CUDA
+* he usually wants to convert all ONNX models; his fingers start to twitch to do onnx export ..
+* TODO: check TRITON model navigator
+* followed by a demonstration: he does everything containerized (DOCKER!)
