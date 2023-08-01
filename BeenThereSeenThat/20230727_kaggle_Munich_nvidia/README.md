@@ -1,13 +1,13 @@
-20230727_kaggle_nVidia_Munich
+# 20230727 kaggle Munich nvidia
 
 todo: add photos
 
-## host
+## 1st talk: Winning a Kaggle competition: Large-scale image Retrieval of Google Landmarks by Christof Henkel, PhD, Senior Deep Learning Scientist (KGMON), NVIDIA
 * currently grandmaster number three worldwide
 * started at LMU, works at nvidia
 * Christof Henkel; https://twitter.com/kagglingdieter
 
-# image retrieval
+## image retrieval
 * given a query image find the most similar image in a db of indexed images
 * normally create embedding or correlation, feature vector fort he image (all different names)
 * main challenge to train a model to have a good image embedding vector
@@ -59,6 +59,7 @@ classification
 * comparisons of annual solutions: img03
 * local feature recognition is really important for proper classification; for instances for churches
 * kaggle kernels using deep learning approaches
+
 ### competition of 2021
 * requirements: 1 P100 GPU, 2 cores CPU, needs to run in 9 hours; everything needs to be offline
 * tight timeline: only 6 weeks; last weeks winners were published as well - so everyone starts at the 1st place of the last year
@@ -66,6 +67,7 @@ classification
 
 * elevate retrieval and recognition quality
 * he used the 2019 results and test-images to identify pure landmark items
+
 ### his ML workflow
 ![](img04.png)
 * workflow which helps him to iterate quite fast
@@ -73,6 +75,7 @@ classification
 * quite modular: training/experimentation; storing; incremental deployment
 * training: not a fan of docker 2 years ago; but now he likes  it: same environment wherever he goes; just installs some more pip-packages
 * consistency between different team members and machines ..; version mismatches bugs!
+
 #### details
 * he loves jupyter lab as IDE
 * better support for multi-gpu training
@@ -115,7 +118,8 @@ todo image of class consistency reranking
 * using Matchformer, using cross-attention for spatial verification
 * sources: youtube series also github open-sourced code and papers
 
-# 2nd talk: Adolf Hohl -  Solution architect - from nvidia
+# 2nd talk: Training is Silver, Inference is Gold by Adolf Hohl, Solution Architect Manager, NVIDIA
+* Adolf Hohl -  Solution architect - from nvidia
 * loves to build large scale number crunchers in his free time
 * start: given an ONNX by Crhistof - pytorch versus tensorflow people; pytorch was the absolute majority of the users in the room
 * he combined two models into one
