@@ -30,3 +30,11 @@
 
 ### check for something for this
 * design thinking
+
+------------
+# 2023
+* finsih the PM2 course from Google
+* finish the intercultural communication thing
+* Agile Leadership instead of Scrum Master?
+* Docker(!9
+* AWS basics - deployment and usage
