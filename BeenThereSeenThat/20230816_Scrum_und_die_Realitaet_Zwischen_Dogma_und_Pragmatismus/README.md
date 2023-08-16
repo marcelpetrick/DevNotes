@@ -64,3 +64,5 @@ When it comes to Scrum, projects, and software development, TCO can encompass a 
 
 It is crucial to consider the TCO when deciding to implement Scrum, undertake software projects, or invest in any software or hardware. This will give you a clearer understanding of the total expenses involved and help make better-informed decisions. Remember, the initial purchase or implementation cost is often just the tip of the iceberg, and it's essential to look at the long-term expenses associated with any investment.
   ```
+
+* wir machen Scrum nicht, weil es so im Buche steht. Sondern weil es funktioniert. (Und dann aufgeschrieben wurde).
