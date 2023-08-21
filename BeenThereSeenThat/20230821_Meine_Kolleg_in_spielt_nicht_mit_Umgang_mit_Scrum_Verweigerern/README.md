@@ -30,4 +30,7 @@ Wir wollen mit euch Wege entdecken, wie wir als Scrum Master:innen zu Team-Ermut
 * Resistenz, weil Leute sich überfordert fühlen
 * Resistenz, weil man sich committen muss - zu Workflows und zu Deadlines und zur Machbarkeit
 * Klasse des Alignments: Kundenorientierung statt zielspezifisch nur "Data Science"; das erfordert die Beachtung zusätzlicher Aspekte -> das kann die Motivation senken
-* 
+* Leute, die sich der Komplexität eines Großkonzerns verschrieben haben müssten plötzlich umdenken: vorher belohnt sie die Organsiation für ein bestimmtes Verhalten - jetzt muss man selber aktiv werden und aus Regularien ausbrechen
+* Scrum-Verweigerer aus Gruppendynamik entstanden: Mehrheit weist `Besserwisser`ab; SM versucht die Situation ansprechbar zu machen um die Gruppe zusammenzuführen
+* Was wenn man alles ausgespielt hat von Einzelgesprächen und Empathie und Workshops: Verpflichtung einsehen: dem Team und der Organisation; nicht dem Einzelnen
+  * falls man nicht vermitteln kann: das eskalieren; eventuell Besetzungswechsel
