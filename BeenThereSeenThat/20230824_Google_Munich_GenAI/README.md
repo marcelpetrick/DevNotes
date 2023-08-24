@@ -52,4 +52,98 @@ img04
 * be accountable ..
 * 16 safety filters, which can be defined for your use-case
 * your data, your terms: data not shared with other users; model is frozen, not touched by promting and fine-tuning
+[end of the session]
+
+# Ready to code?
+* google cloud platform console
+https://console.cloud.google.com/getting-started?pli=1&authuser=1
+* 2 PaLM sizes: gecko and bison (more costly, larger)
+* list of bison and gecko models..
+img05 - the two models as cheat sheet
+
+* now we start ..
+* setup lab environment: open jupyterlab..
+* clone this repo: https://github.com/GoogleCloudPlatform/generative-ai.git
+* either usable via ui or pure code:
+* spend time with "ntro for gen ai api.."
+```
+Using Vertex AI PaLM API
+
+You can interact with the Vertex AI PaLM API using the following methods:
+
+    Use the Generative AI Studio for quick testing and command generation.
+    Use cURL commands in Cloud Shell.
+    Use the Python SDK in a Jupyter notebook
+```
+* chain of thought prompting elicits reasoning in LLMs
+```Available models
+
+The Vertex AI PaLM API currently supports five models:
+
+    text-bison@001 : Fine-tuned to follow natural language instructions and is suitable for a variety of language tasks.
+
+    chat-bison@001 : Fine-tuned for multi-turn conversation use cases like building a chatbot.
+
+    textembedding-gecko@001 : Returns model embeddings for text inputs.
+
+    code-bison@001: A model fine-tuned to generate code based on a natural language description of the desired code. For example, it can generate a unit test for a function.
+
+    code-gecko@001: A model fine-tuned to suggest code completion based on the context in code that's written.
+
+    codechat-bison@001: A model fine-tuned for chatbot conversations that help with code-related questions.
+
+You can find more information about the properties of these foundational models in the Generative AI Studio documentation.
+```
+
+```
+How does temperature affect the response?
+
+Lower temperatures are good for prompts that require a more deterministic and less open-ended response. In comparison, higher temperatures can lead to more "creative" or diverse results. A temperature of 0 is deterministic: the highest probability response is always selected. For most use cases, try starting with a temperature of 0.2.
+
+A higher temperature value will result in a more exploratative output, with a higher likelihood of generating rare or unusual words or phrases. Conversely, a lower temperature value will result in a more conservative output, with a higher likelihood of generating common or expected words or phrases.
+```
+
+```
+Code generation with code-bison@001
+
+The code generation model (Codey) from PaLM API that you will use in this notebook is code-bison@001. It is fine-tuned to follow natural language instructions to generate required code and is suitable for a variety of coding tasks, such as:
+
+    writing functions
+    writing classes
+    web-apges
+    unit tests
+    docstrings
+    code translations, and many more use-cases.
+
+Currently it supports the following languages:
+
+    C++
+    C#
+    Go
+    GoogleSQL
+    Java
+    JavaScript
+    Kotlin
+    PHP
+    Python
+    Ruby
+    Rust
+    Scala
+    Swift
+    TypeScript
+```
+### prompt design
+* go to prompts folder and into "prompt design": https://2cbed9ac6b3b308-dot-us-central1.notebooks.googleusercontent.com/lab/tree/generative-ai/language/prompts/intro_prompt_design.ipynb
+* evaluation of summarizations: https://en.wikipedia.org/wiki/ROUGE_(metric)
+* this is the vertex ai workbench, but those examples can also be run in colab
+
+[break]
+
+## Use case implementation
+* use case implementation n product data
+*
+
+
+
+
 
