@@ -141,8 +141,61 @@ Currently it supports the following languages:
 
 ## Use case implementation
 * use case implementation n product data
-*
+img07
+* use case: open source data-set from best buy (also see github for best buy data set)
 
+git clone https://github.com/NucleusEngineering/NucleusEngineering-genai-product-data-challenge.git
+* maybe needs data cleaning
+* ideas
+img08
+https://2cbed9ac6b3b308-dot-us-central1.notebooks.googleusercontent.com/lab/tree/NucleusEngineering-genai-product-data-challenge/Product_Data_Analysis.ipynb
+* we should read this as a start
+* ... hard time building groups, because they were either too large or already settled for a certain idea
+* did some ideation with gpt: went wit review generation
+  * "Review Generator:
+
+    Idea: Can the AI model generate a product review based on the product's features, price, and other available data? This can be used to understand potential customer feedback before actual reviews come in.
+    Implementation: Use generative models to produce hypothetical reviews."
+* working .. hardest part was to get used to jupyter and dataframes ... but quite mighty:
+
+```
+context = """
+Storage and content policy \n
+How durable is my data in Cloud Storage? \n
+Cloud Storage is designed for 99.999999999% (11 9's) annual durability, which is appropriate for even primary storage and
+business-critical applications. This high durability level is achieved through erasure coding that stores data pieces redundantly
+across multiple devices located in multiple availability zones.
+Objects written to Cloud Storage must be redundantly stored in at least two different availability zones before the
+write is acknowledged as successful. Checksums are stored and regularly revalidated to proactively verify that the data
+integrity of all data at rest as well as to detect corruption of data in transit. If required, corrections are automatically
+made using redundant data. Customers can optionally enable object versioning to add protection against accidental deletion.
+"""
+# todo replace content with the description coming
+df_health_fitness_beauty[["description","embeddings"]]
+
+
+def process_description(context):
+    question = "I am a buyer of the product and used it for quite a while. Write some positive, encouraging review which would trigger readers to pick that product as well. Write five sentences. Make it positive. Mention some features of the product."
+
+    prompt = f"""Answer the question given in the contex below:
+    Context: {context}?\n
+    Question: {question} \n
+    Answer:
+    """
+
+    #print(f"prompt:\n {prompt}")
+    response = generation_model.predict(prompt, temperature=0.9).text
+    print(f"response:\n {response}")
+    print("-----------------------")
+    return response
+
+# Applying the function to the 'description' column
+df_health_fitness_beauty['description'] = df_health_fitness_beauty['description'].apply(process_description)
+df_health_fitness_beauty['description']
+
+```
+
+img: positive_reviews.png
 
 
 
