@@ -60,27 +60,31 @@ print(f"x: {x}, y: {y}")
   * variables are just local to the function
   * there is no classical stack, just stack frame objects (for recursive functions): which is released from the gc later
 ![](img07.png)
+
 ### Generators
 ![](img08.png)
-* just possible because stack frames are retained during function calles
+* just possible because stack frames are retained during function calls
 * a generator function makes a new stack frame object with all the local variables
-* * every time the function yields, that stack frame remembers that point so it can continue on the next iteration
-# multithreading
+  * every time the function yields, that stack frame remembers that point so it can continue on the next iteration
+
+### multithreading
 ![](img08.png)
 * see: module asyncio
-* functions sleep, they take no ressources
-* the stack frame object keeps track of where to retrun to in our task
-# decorators
+* functions sleep, they take no resources
+* the stack frame object keeps track of where to rerun to in our task
+
+### decorators
 ![](img09.png)
 * the call to the decorator returns a newly decorated or wrapped function based on the program code that was f bound to
 * the user still calls f() - the original function - but they called the edited function
 
-# Seeing this in practice
-* showcases in a jupyter notbook (coming in some days)
+### Seeing this in practice
+* showcases in a jupyter notebook (coming in some days)
 * using `nbtutor` to see the python internals
 ![](img10.png)
 * check for equality: `x is y`?
 * in python the name moves, not the object!
+
 ## reference counts and garbage collector
 ![](img11.png)
 * `sys.getrefcount(x)` to check for refcount of a certain object ..
@@ -100,6 +104,11 @@ print(f"x: {x}, y: {y}")
 ## Summary
 ![](img16.png)
 * Python is, at its heart, a simple language but very powerful
+![](img17.png)
+![](img18.png)
+![](img19.png)
+![](img20.png)
+![](img21.png)
 
 ## Questions
 
