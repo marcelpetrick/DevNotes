@@ -19,5 +19,31 @@ Agenda:
 Sponsor: Brainlab (brainlab.com)
 ```
 
-# my notes
-* to be added
+## no match for sync_wait(talk_title())
+* Daniel Eiband, snke os, working since 2007 for Brainlab/snke os
+* * P2300 std::exectuion, ex:sync_wait)talk_title())
+* what are snders: lazy and asynchronous programming model
+* sender consumer <-< sender factory
+* async. and lazy
+* GCC 11.3
+* segmentation and registration of medical images
+* develop sfotware in a way to maximize utilization of the hardware
+  * thread pools?
+  * accelerators?
+  * clusters?
+* why cpp? beause fast, but think twice in a cloud environment
+* also: coroutines
+```
+auto talk_title()
+{
+  // see more in img00.png
+}
+```
+* why not use a statemachine instead of functional composition?  unclear
+* also maybe just te builder pattern
+
+* completion signatures: why not eror messages at compile time?
+  * PR2300R7 only supports a query, but most of the senders know their signatures beforehand
+
+## Main talk - concepts, ranges and views
+*
