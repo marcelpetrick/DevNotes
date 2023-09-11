@@ -46,4 +46,50 @@ auto talk_title()
   * PR2300R7 only supports a query, but most of the senders know their signatures beforehand
 
 ## Main talk - concepts, ranges and views
-*
+* add a constraint to allow template overloading: img01.png
+* constraints with concepts: overload resolution prefers more specialized function
+* spelling error leads to: not accepted constraints
+* now you need test-code for concepts:
+  * static_assert(HasPushback<std::vector<int>>); //.. and so on.
+* now use auto to hide the template: much simpler
+![](img02)
+* use std:: decay: strip cv-references; ref ..
+* how to concept a container which is a sequence container?
+  * add a list of requirements: how to define proper functions?
+* concepts cost compile-time
+* requires expression can use the requires clause
+* simplicity is so much key
+* if constexp (requires { coll.push_back(val); }) {
+  coll.push_back(val):
+  }
+  else
+  {
+    coll.insert(val)
+  }
+* "in C++ once you understand the error-message, you understand the error"
+* live example in godbolt.org
+* comparison of gcc (bad), clang (short and readable), msvc19 (quite good)
+
+### Ranges
+* so requirements can't be added toe xisting algorithms, therefore std::Sort gets superseeded now by std::ranges::sort(..)
+* stdd:ranges::sort(coll1);
+* ten ways to call sort (various ways to call algorithms)
+* but there is a problem, because there is no policy to clean up c++ --> namespace mess
+
+#### Views
+*  const auto& should be replaced with auto&& (forwarding auto)
+* using a filterview can create a problem, because begin() is cached: which leads to unexpected behaviour: cpp-committee declared this also as undefined behaviour if the resulting value does not satisfy the filter predicate -> "explicite statement"
+  * std-lib: fucks the stuff up
+ ```
+ for (auto& m: monsters | std::views::filter(isDead)) {
+  m.ressurrect(); //undefined behavior: because no longer dead
+}
+  ```
+* when an expert group discusses something for three years, then they think everything is fine. Because they know the rules. But not everyone knows the rules.
+img04
+
+* zip_view: a pair of elements: should be combined ... const has no meaning, because it does not propagate
+* most containers are broken by views
+
+* recommendation: don't use the views-library, because it is broken by design
+* except when you never modify something, then multiple use of views is not useful, but broken
