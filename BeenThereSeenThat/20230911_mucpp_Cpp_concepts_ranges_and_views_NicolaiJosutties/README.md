@@ -40,9 +40,9 @@ auto talk_title()
 }
 ```
 * why not use a statemachine instead of functional composition?  unclear
-* also maybe just te builder pattern
+* also maybe just the builder pattern
 
-* completion signatures: why not eror messages at compile time?
+* completion signatures: why not error messages at compile time?
   * PR2300R7 only supports a query, but most of the senders know their signatures beforehand
 
 ## Main talk - concepts, ranges and views
@@ -71,7 +71,7 @@ auto talk_title()
 * comparison of gcc (bad), clang (short and readable), msvc19 (quite good)
 
 ### Ranges
-* so requirements can't be added toe xisting algorithms, therefore std::Sort gets superseeded now by std::ranges::sort(..)
+* so requirements can't be added to existing algorithms, therefore std::Sort gets superseded now by std::ranges::sort(..)
 * stdd:ranges::sort(coll1);
 * ten ways to call sort (various ways to call algorithms)
 * but there is a problem, because there is no policy to clean up c++ --> namespace mess
