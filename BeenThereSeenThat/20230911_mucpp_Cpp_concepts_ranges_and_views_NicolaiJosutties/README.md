@@ -21,24 +21,19 @@ Sponsor: Brainlab (brainlab.com)
 
 ## no match for sync_wait(talk_title())
 * Daniel Eiband, snke os, working since 2007 for Brainlab/snke os
-* * P2300 std::exectuion, ex:sync_wait)talk_title())
-* what are snders: lazy and asynchronous programming model
-* sender consumer <-< sender factory
+* * P2300 std::execution ex:sync_wait talk_title()
+* what are senders: lazy and asynchronous programming model
+* sender consumer <-> sender factory
 * async. and lazy
 * GCC 11.3
 * segmentation and registration of medical images
-* develop sfotware in a way to maximize utilization of the hardware
+* develop software in a way to maximize utilization of the hardware
   * thread pools?
   * accelerators?
   * clusters?
-* why cpp? beause fast, but think twice in a cloud environment
+* why cpp? because fast, but think twice in a cloud environment
 * also: coroutines
-```
-auto talk_title()
-{
-  // see more in img00.png
-}
-```
+![](img00.jpg)
 * why not use a statemachine instead of functional composition?  unclear
 * also maybe just the builder pattern
 
@@ -52,7 +47,8 @@ auto talk_title()
 * now you need test-code for concepts:
   * static_assert(HasPushback<std::vector<int>>); //.. and so on.
 * now use auto to hide the template: much simpler
-![](img02)
+![](img01.jpg)
+![](img02.jpg)
 * use std:: decay: strip cv-references; ref ..
 * how to concept a container which is a sequence container?
   * add a list of requirements: how to define proper functions?
@@ -72,7 +68,7 @@ auto talk_title()
 
 ### Ranges
 * so requirements can't be added to existing algorithms, therefore std::Sort gets superseded now by std::ranges::sort(..)
-* stdd:ranges::sort(coll1);
+* std:ranges::sort(coll1);
 * ten ways to call sort (various ways to call algorithms)
 * but there is a problem, because there is no policy to clean up c++ --> namespace mess
 
@@ -86,10 +82,15 @@ auto talk_title()
 }
   ```
 * when an expert group discusses something for three years, then they think everything is fine. Because they know the rules. But not everyone knows the rules.
-img04
+![](img04.jpg)
 
 * zip_view: a pair of elements: should be combined ... const has no meaning, because it does not propagate
 * most containers are broken by views
 
 * recommendation: don't use the views-library, because it is broken by design
 * except when you never modify something, then multiple use of views is not useful, but broken
+
+![](img05.jpg)
+![](img06.jpg)
+![](img07.jpg)
+![](img08.jpg)
