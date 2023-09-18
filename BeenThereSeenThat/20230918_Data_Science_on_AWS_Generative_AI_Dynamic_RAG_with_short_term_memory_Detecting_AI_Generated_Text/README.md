@@ -37,4 +37,18 @@ Slideshare: https://slideshare.datascienceonaws.com
 
 ## Dynamic RAG - Vasily Vasino
 * Griptape is OSS framework with company built around it
-* 
+![](img00.png)
+* RAG- retrieval augmented generation
+![](img01.png)
+* query vectorized data and implement LLM outputs
+![](img02.png)
+* pre-processed data is a limiting factor
+![](img03.png)
+![](img04.png)
+* really honest and modest presentation style 👍
+
+
+
+
+
+
