@@ -46,8 +46,9 @@ Slideshare: https://slideshare.datascienceonaws.com
 ![](img03.png)
 ![](img04.png)
 * really honest and modest presentation style 👍
+* Dynamic RAG demos and slides: https://github.com/griptape-ai/dynamic-rag-demos
 
-## detecting generated texts - Nikita Kozodoi
+## Detecting generated texts - Nikita Kozodoi
 ![](img05.png)
 ![](img06.png)
 * LLM was instructed to make a typo .. therefore misleading for some people who checked
@@ -98,3 +99,6 @@ TODO add all the missing files. .
   * detectors perform well in  standard cases but new LLM poses challenges
   * detectors are very vulnerable to adversarial attacks
   ![]()last slide
+
+
+* will increasing the temperature help to avoid detection? 
