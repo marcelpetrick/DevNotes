@@ -47,8 +47,54 @@ Slideshare: https://slideshare.datascienceonaws.com
 ![](img04.png)
 * really honest and modest presentation style 👍
 
+## detecting generated texts - Nikita Kozodoi
+![](img05.png)
+![](img06.png)
+* LLM was instructed to make a typo .. therefore misleading for some people who checked
+
+### why is detecting generated text important?
+* volume of generated text increases every day
+* examples: removing fake product reviews, plagiarism, moderating blogposts and articles, adressing cheating on job interviews ..
+![](img07.png)
+![](img08.png)
+![](img09.png)
+
+### linguistic comparison of text
+![](img10.png)
+* differences in sentiment and corpus is different (parts-of-speech comparison) -> statistical detection is possible
+* LLM responses tend to be:
+  * most strictly purposed on a given question
+  * use less subjective expressions
+  * written in a more formal style
+  * express less emotion through punctuation and grammar
+  * written in a more organized manner with clear logic
+  * longer and more detailed
+
+### existing detectors
+* three classes:
+  * watermark-based aproaches
+  * supervised detectors
+  * zero-shot detectors
+* watermarking has to be embedded on the watermarking stage: but needs access in the creation phase
+* or: `soft watermarking`
 
 
 
 
+TODO add all the missing files. .
 
+
+
+#### Summary
+---- last slide with the comparison
+
+### Evading text detectors
+* paraphrasing is really good at hiding auto- generated text; human can paraphrase and the accuracy to detect drops drastically
+* instructing the model to use a certain persona and being informal makes it really good at hiding ..
+* summary:
+  * generated text detecting is important
+  * humans are doing a poor job in distringuishing generated texts
+  * existing detectr approaches: watermarking, usperised and  zero shot detectors
+  * detectors perform well in  standard cases but new LLM poses challenges
+  * detectors are very vulnerable to adversarial attacks
+  ![]()last slide
