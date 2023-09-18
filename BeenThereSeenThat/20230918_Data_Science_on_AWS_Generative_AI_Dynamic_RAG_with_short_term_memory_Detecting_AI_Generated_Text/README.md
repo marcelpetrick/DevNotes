@@ -78,16 +78,16 @@ Slideshare: https://slideshare.datascienceonaws.com
   * zero-shot detectors
 * watermarking has to be embedded on the watermarking stage: but needs access in the creation phase
 * or: `soft watermarking`
-
-
-
-
-TODO add all the missing files. .
-
-
+![](img11.png)
+![](img12.png)
+![](img13.png)
+![](img14.png)
+![](img15.png)
+![](img16.png)
+![](img17.png)
 
 #### Summary
----- last slide with the comparison
+![](img18.png)
 
 ### Evading text detectors
 * paraphrasing is really good at hiding auto- generated text; human can paraphrase and the accuracy to detect drops drastically
@@ -98,7 +98,7 @@ TODO add all the missing files. .
   * existing detectr approaches: watermarking, usperised and  zero shot detectors
   * detectors perform well in  standard cases but new LLM poses challenges
   * detectors are very vulnerable to adversarial attacks
-  ![]()last slide
+  ![](img19.png)
 
-
-* will increasing the temperature help to avoid detection? 
+* will increasing the temperature help to avoid detection? yes
+![](img20.png)
