@@ -67,9 +67,29 @@ About our speakers:
   * fast to apply but also reaching ast its limits and often difficult to extend
   * we had to combine mlflow with aporia and benefit from each strengths -> allows to cchange plarts of the platform for better tools (drop in replacement)
   * -> stainyg flexible, no vendor lockin
-# how is the platform used?
+### how is the platform used?
 * 5 stages:
   * process management: freedom to choose libs and tools; ubuntu vms in the cloud, AWS E2 instances ..
-  * data ingestion: streaming/batch; storage; best practice: basic quality checks and monitoring (use case agnostic); storage optimizations for faster queries, anonymization/pseudoymization
-  *  
+  * data ingestion: streaming/batch; storage; best practice: basic quality checks and monitoring (use case agnostic); storage optimizations for faster queries, anonymization/pseudoymization (see also governance: certain type of data can't be stored longer than ten days)
+  *  training: model selection, training, evaluation; GPUs/CPUs/TPUs cluster for deep learning
+  *  experiment rracking - mlflow
+  *  model versioning - mlflow
+  *  test&deploy: automated deployment stage; blue/green; automated re-training; one-click-deployment - mlflow; quality & security testing gateway; model compilation containerization - tagret specific deployment
+  *  run & serve:  infrastructures and software monitoring; model monitoring (performance/feedback), data drift, generic API for inception, high availabilty; all provided by a secure REST API
+  *  governance layer
+### practical considerations
+* first get a good understanding between current and future demands
+*fexibility to replace tools because they grow out of scope fast
+* still staying lean, but not planning too far ahead into the future
+* fail early/fail fast - start with small PoC and grow continuously
+* always look for generic solutions for specific use cases
+* reserve time for data governance
+### pitfalls
+* aoid technology islands to reach quick wins
+* tool evaluation is time consuming and expensive, important to do in a structured way
+* avoid vendor lock-ins
+
+![](img03?)
+
+
 
