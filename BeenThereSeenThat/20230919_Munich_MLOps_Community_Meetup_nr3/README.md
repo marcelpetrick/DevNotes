@@ -1,5 +1,6 @@
 # 20230919 Munich MLOps Community Meetup #3
 
+* Sadiu Bakiu, Cesare Bosi, Diana rtiom
 * host: JetBrains Munich
 
 ## Agenda
@@ -33,4 +34,42 @@ About our speakers:
     Saahil Ognawala is Senior Product Manager at Jina AI, a cutting-edge Multimodal AI startup founded in 2020 that has already appeared in Forbes AI30 and CBInsights AI100. Saahil has previously worked as a data scientist and product manager for Munich Re. Prior to that, he finished his M.Sc. and PhD Computer Science at the Technical University of Munich, specializing in deep learning and software engineering.
 ```
 
-TBC
+## Sergey from JetBrains
+* IDEs, TeamCity, uTrack, ..
+* developing currently a tool to run MLOps in the cloud, will be presented next time this event takes place
+
+## Eric Liese - An End-to-End MLOps Platform - Practical experiences
+* works for BSH Home Appliances Group; now 100% daughter of Bosch; mission
+* Lead Architect and also Advisor and Lecturer
+* oven cooking, surface cooking, cooling, dish care, laundry care, small appliances
+* all new devices have something like a rapsberry pi: system-master; all devices can be connected to the internet
+* one question o answer is maybe: make the device self aware: fridge can answer if you can still eat something
+* starting with computer vision; before already cameras in fridge
+* they noticed: we need some validation and quality gates: so they needed an MLOps platform
+* what is this and why do we need it?
+  * why omnipresent if sw engineering?
+  * three stages: CI/CD/run
+  * reproducibility, teamwork, automated test & deploy, check current status of code; does it work as intended; monitoring when it runs (performance, robustness)
+* MLOps:
+  * still versioned code, but also versioned model, vesioned data snapshot: three artifacts now
+  * logbook for all the experiments which have been run
+  * CD: model behaviour and performance, expected predictions on well known data points; concept drift, data drift
+  * Run: monitoring, model monitoring
+### why did they build their own platform?
+* have hterogenous use cases; slow and fast moving data
+* images and NLP
+* sensor data from IoT, IIoT/I4.0
+* flexible and verastile, modular end-to-end-platform
+* handling complexity: many code versions on lost jupyter notebooks
+* hundreds of users, high turnover (fluctuation) of employees in data science
+* ready made platform often not sufficient:
+  * black box
+  * fast to apply but also reaching ast its limits and often difficult to extend
+  * we had to combine mlflow with aporia and benefit from each strengths -> allows to cchange plarts of the platform for better tools (drop in replacement)
+  * -> stainyg flexible, no vendor lockin
+# how is the platform used?
+* 5 stages:
+  * process management: freedom to choose libs and tools; ubuntu vms in the cloud, AWS E2 instances ..
+  * data ingestion: streaming/batch; storage; best practice: basic quality checks and monitoring (use case agnostic); storage optimizations for faster queries, anonymization/pseudoymization
+  *  
+
