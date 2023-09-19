@@ -99,5 +99,33 @@ About our speakers:
 * goal: models on edge devices
 * octoml - shrink the models
 * or nvidia: shrink and pooling; as different approach
-* 
 
+## Saahil Ognawala from Jinia AI
+* raised 38 M$, Berlin, Beijing, Shenzen
+* what if you combine LLMs with oter modality models?
+* 10 months at Jino; before Munich RE
+* until Octobre 2022 the task was always: we need an optimized model
+* now: we need to customize an LLM to handle our tasks
+* right now we are past the stage of hype
+* before: one task - one model; now: one model for all tasks
+* "using an LLM as a non-paid intern; give them all the context they need, then let them work on the task" 
+* ![](img04)
+* if you have a large model, then you can add a task instead of having tojustify to train a new model
+* how to enable large models to handle customized tasks?
+* how to communicate effectively with large model?
+* using Joari-window to understand communication with large models: framework to understand our conscious and uncoscious bias; decrease lind spots, avoid misunderstandings; increase consensus
+  * check LM and humans against each other: ![]()img06
+* two paths to increase consensus with large models
+  * fine-tuning the model: reduce blind spots
+* how a large language model is trained
+* ![](img07)
+* first: unsupervised pre-training ->supervised instruction learning -> RLHF (reinformcement learning on human feedback)
+### fine tuning a LLM
+* partial fine-tuning: mostly adapters:
+* complete fine-tuning:
+* parameter efficient LoRa:
+* Finetuner by Jina: see Github
+### second path: prompt tuning
+* PromptPerfect by Jina: optimize prompts, use it for RAG, prompt as service
+
+TODO add all images from phone ..
