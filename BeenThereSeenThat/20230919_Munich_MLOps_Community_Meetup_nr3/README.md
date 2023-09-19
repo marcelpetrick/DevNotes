@@ -1,6 +1,6 @@
 # 20230919 Munich MLOps Community Meetup #3
 
-* Sadiu Bakiu, Cesare Bosi, Diana rtiom
+* Sadiu Bakiu, Cesare Bosi, Diana Artiom
 * host: JetBrains Munich
 
 ## Agenda
@@ -90,6 +90,14 @@ About our speakers:
 * avoid vendor lock-ins
 
 ![](img03?)
-
-
+* about the islands: better a general solution with 20% overhead instead of 3 times 100%
+* data science teams are very close to the application, centralised data lake
+* in the beginning 2 people, now 10-15 for the whole company; maybe 120 engineers worldwide dealing with it
+* AWS ECS platform for the containers
+* maybe every si month a release until now (aiflow, aporia, ..) - but with LLMs it can drastically change
+* 2 years ago some sentiment analysis: talk about differnt products in social media
+* goal: models on edge devices
+* octoml - shrink the models
+* or nvidia: shrink and pooling; as different approach
+* 
 
