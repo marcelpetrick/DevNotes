@@ -1,94 +1,103 @@
 # 20230922 What is an SBOM and why should I care?
-* presenter: Simon Goda
+* Presenter: Simon Goda
 ![](img00.png)
 
-* data is written in a design to be machine-readable: for interpretation, usage, analysis
-  * therefore XML
+* Data is written to be machine-readable: for interpretation, usage, analysis
+  * Therefore, XML
 ![](img01.png)
+
 ## Why are they needed?
-* need to know which are on board, also which are secure, alsowhat licenses are being used?
-* which dependencies are needed as well?
+* Need to know which are on board, which are secure, and what licenses are being used.
+* Which dependencies are needed as well?
 ![](img02.png)
-* triangle between regulator goernment <-< end user customer <-> vendor product developer
-* greater level of trust and confidence in the device
-* also needed an regulatory level
+* Triangle between regulator government ← end user customer ↔ vendor product developer
+* Greater level of trust and confidence in the device
+* Also needed at regulatory level
 ![](img03.png)
 * US Executive Order 14028 from Biden administration
-  * as well EU Cyber Resilience Act (CRA) Proposal, article 37
-* NIST has specified different standard models: and three data formats
+  * As well EU Cyber Resilience Act (CRA) Proposal, article 37
+* NIST has specified different standard models and three data formats
 ![](img04.png)
-* three formats: CycloneDX, SWID, SPDX
+* Three formats: CycloneDX, SWID, SPDX
+
 ### CycloneDX:
-* Release in 2018 by OWASP (very relevant)
-### SWID - Software identifications Tags
-* backed by NIST
-* used as unique ID tag but can contain enough information to be used in SBOMs
-### SPDX - software package data exchange format
-* backed by the Linux foundation
-* open standard fpr SBOM information
+* Released in 2018 by OWASP (very relevant)
+
+### SWID - Software Identification Tags
+* Backed by NIST
+* Used as a unique ID tag but can contain enough information to be used in SBOMs
+
+### SPDX - Software Package Data Exchange format
+* Backed by the Linux foundation
+* Open standard for SBOM information
 ![](img05.png)
 ![](img06.png)
-![](img06.png)
-* for SWID you have to pay for the format of the standard
-* four types of tag: primary, patch, corpus, supplemental (good if you have not a self-contained installer)
-* example: component name, version, license, supplier, unique id, hash value ..
+* For SWID, you have to pay for the format of the standard
+* Four types of tags: primary, patch, corpus, supplemental (good if you don't have a self-contained installer)
+* Example: component name, version, license, supplier, unique id, hash value ..
 ![](img07.png)
 * SPDX: originally designed for open-source compliance checking
-* also allows to generate SBOM data
+* Also allows generating SBOM data
 ![](img08.png)
-* data can be reprepsented in a range of formats
-* support CPE and Purl ID formats
-* there is also a more light version: SPDX lite
+* Data can be represented in a range of formats
+* Supports CPE and Purl ID formats
+* There is also a lighter version: SPDX lite
 ![](img09.png)
 ![](img10.png)
-* CPE: common platform enumeration
-  * only relevant fields are complete - else *
+* CPE: Common Platform Enumeration
+  * Only relevant fields are complete - else *
 ![](img11.png)
-* Purl: package URL
+* Purl: Package URL
 ![](img12.png)
+
 ## Tools to generate SBOMs
 ### CycloneDX
-* a huge amount of tools which can generate those SBOMs (alone for CycloneDX more than 200)
-* tools for:
-  * generation
+* A huge amount of tools which can generate these SBOMs (alone for CycloneDX more than 200)
+* Tools for:
+  * Generation
   * SBOM analysis (vulnerability tracking, license reporting)
   * SBOM file management
-  * build integration ..
+  * Build integration ..
 ![](img13.png)
+
 ### SPDX
-* not soo many tools
+* Not so many tools
 ![](img14.png)
+
 ### SWID
-* basic tools are from NIST, but not many tools out there
+* Basic tools are from NIST, but not many tools out there
 ![](img15.png)
+
 ### Others
 * Microsoft SBOM Tool: SPDX JSON SBOM: limited formatting control
 * ScanCode is an open-source command line tool
 ![](img16.png)
-* Yocto has a really complete support for SPDX - added in kirkstone release of Yocto
-  * similar tools: meta-spdxscanner
-  * similar tools: meta-dependencytrack
+* Yocto has comprehensive support for SPDX - added in Kirkstone release of Yocto
+  * Similar tools: meta-spdxscanner
+  * Similar tools: meta-dependencytrack
 ![](img17.png)
+
 ## SBOM Use Cases (important)
-* Security: vuln. tracking, integrity checking, penettration testing, incident response
-* product management: regulatory compliance, license & copyright tracking, platform migration
-* user/customer assurance
---> take confidence from presence of SBOM data
-* papaer from IoT Security foundation
+* Security: vulnerability tracking, integrity checking, penetration testing, incident response
+* Product management: regulatory compliance, license & copyright tracking, platform migration
+* User/customer assurance
+  → Gain confidence from the presence of SBOM data
+* Paper from IoT Security foundation
 ![](img18.png)
+
 ## Vulnerability Management
-* Generate SBOM -> Search Vulnerability Databases -> Filtering & Triage Issues -> Deploy Fixes
+* Generate SBOM → Search Vulnerability Databases → Filtering & Triage Issues → Deploy Fixes
 ![](img19.png)
 ![](img20.png)
 ![](img21.png)
-* other tool: Grype
+* Another tool: Grype
 ![](img22.png)
-* some projects/products: generate SBOMs themselves or provide them easily: 
-## OSS versus Commercial is simlar to Make vs Buy
-* shift from "best practice" to "hard requirement"
+* Some projects/products generate SBOMs themselves or provide them easily:
+## OSS versus Commercial is similar to Make vs Buy
+* Shift from "best practice" to "hard requirement"
 ![](img23.png)
-* certainity and trust; reproducibility of the build
+* Certainty and trust; reproducibility of the build
 ![](img24.png)
 * SBOMs will not solve problems on their own, but facilitate the solutions
-* CycloneDX and SPDX are best options, SWID has limited flexibility
+* CycloneDX and SPDX are best options; SWID has limited flexibility
 ![](img25.png)
