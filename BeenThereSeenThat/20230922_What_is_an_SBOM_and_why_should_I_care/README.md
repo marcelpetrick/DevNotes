@@ -85,5 +85,10 @@
 ![](img22.png)
 * some projects/products: generate SBOMs themselves or provide them easily: 
 ## OSS versus Commercial is simlar to Make vs Buy
-* 
-
+* shift from "best practice" to "hard requirement"
+![](img23.png)
+* certainity and trust; reproducibility of the build
+![](img24.png)
+* SBOMs will not solve problems on their own, but facilitate the solutions
+* CycloneDX and SPDX are best options, SWID has limited flexibility
+![](img25.png)
