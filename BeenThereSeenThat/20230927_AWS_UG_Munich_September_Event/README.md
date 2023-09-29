@@ -31,6 +31,7 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
 * host: Markus Ostertag
 * hosted by Ares Consulting
 * cloud practitioner maybe later, first the solution architect
+![](02.jpg)
 
 ## AWS Important Releases
 * in 14d next meetup
@@ -72,12 +73,16 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
 ### Else
 * WorkSpaces announces new Linux client with versions supporting Ubuntu 20.04 and 22.04
 * next meetup will be at the 10th of October "Gaszählerwerkstatt" at Stadtwerke Munich - quick start until tomorrow, when it is announced officially
+
+
 # Architecting Highly Available, Multi-Region Applications
 * Viktoria Seeman, previously Mendix, now DevRel, came from California
 * Marten Smeets and Ravi Singh from Mendix as well, subsidiary of Siemens
 * "Everything fails, all the time" CTO Werner Vogels
 * mitigation with failover in case something fails - quite clever; softens the impact
 * 99.99% availability
+![](03.jpg)
+![](04.jpg)
 
 ### Resilience
 * three-part framework: high availability, disaster recovery, and continuous improvement
