@@ -19,7 +19,23 @@ Das Treffen ist daher ideal für alle, die nach dem Sommerurlaub wieder zurück 
 * Entwicklern nur eine Priorität geben: keine Mehrzahl
 * Informationsflut
 
-* Mentimeter as tool to collect feedback: with word cloud? - cool Idea
+* Mentimeter as tool to collect feedback: with word cloud? - cool Idea; also allowed to make a bubble cloud out of several options
 ![](img01.png)
 
 ## Methoden, welche helfen können
+![](img02.png)
+![](img03.png)
+* Visualisierung und Struktur als Mittel zur Reduktion
+* Flow-Management -> Abhängigkeiten reduzieren
+* flight-level-concept: mit kanban/jira machbar(?)
+* Wissen über Streß: je mehr der PO wichtiges von unwichtigem zu trennen, desto mehr wächst das Teamvertrauen
+* Überstundenlevel in den Teams gibt simple Auskunft über die Teamzufriedenheit
+* Aufmerksamkeitssteuerung
+* Erwartungsmanagement
+![](img04.png)
+* looks like picking everything beside option 1 is already a disaster
+* 
+
+
+
+
