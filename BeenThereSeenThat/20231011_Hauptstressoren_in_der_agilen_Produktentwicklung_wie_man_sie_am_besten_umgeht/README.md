@@ -1,5 +1,7 @@
 # 20231011 Hauptstressoren in der agilen Produktentwicklung & wie man sie am besten umgeht
 
+* organizer: Martin Ruprecht
+
 ```
 Details
 
@@ -22,7 +24,7 @@ Das Treffen ist daher ideal für alle, die nach dem Sommerurlaub wieder zurück 
 * Mentimeter as tool to collect feedback: with word cloud? - cool Idea; also allowed to make a bubble cloud out of several options
 ![](img01.png)
 
-## Methoden, welche helfen können
+## Methoden, welche helfen können - aus dem Projektmanagement
 ![](img02.png)
 ![](img03.png)
 * Visualisierung und Struktur als Mittel zur Reduktion
@@ -34,8 +36,23 @@ Das Treffen ist daher ideal für alle, die nach dem Sommerurlaub wieder zurück 
 * Erwartungsmanagement
 ![](img04.png)
 * looks like picking everything beside option 1 is already a disaster
-* 
 
+## Methoden Stresskompetenz
+* default mode network: persönliches stress-system: man hat als Ruhemodus dauerhaft den Stressmodus
+  * mit MRT sichtbar zu machen, wenn man Fortschritt messen möchte
+* 5 Schritte Plan: Stress-Transformation; aber individuell notwendig anzupassen
+* braucht persönlichen Zeitinvest:
+![](img05.png)
+* manchmal Problem: sinnfrei Zeit verplempern auf IG oder Linkedin
+  * durch bewusste Fragmentierung steigt die Wahrscheinlichkeit, dass man damit interagiert -> in Bezug auf Dopamin
+* sich maximal 5 min über etwas aufregen
+* crazy 8-brainstorming Ideen (Google?)
 
-
-
+## Main benefits
+* Stress nur zielgerichtet einsetzen
+![](img06.png)
+* pounding heart is preparing you for more action, more oxygen for your brain
+* mehr Stresskompetenz macht sozialer: mehr nach Hilfe fragen oder Hilfe anbieten
+* .. und andere
+* Stress-Profil als Test: siehe QR-Code oder URL
+![](img07.png)
