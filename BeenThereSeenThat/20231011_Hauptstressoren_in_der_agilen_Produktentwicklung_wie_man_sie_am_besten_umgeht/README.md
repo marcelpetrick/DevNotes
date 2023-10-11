@@ -14,45 +14,49 @@ Vorgestellt wird das Ganze von Sabine Bachmayer. Selbst Product Ownerin und nebe
 
 Das Treffen ist daher ideal für alle, die nach dem Sommerurlaub wieder zurück in die Büros kommen und sich langfristig noch etwas Gelassenheit mitnehmen wollen, statt gleich wieder im Alltags-Trubel zu versinken.
 ```
-
-## Zusammensetzung von Streß ..
+## Zusammensetzung von Stress
 ![](img00.png)
-* Ownership .. weil PO als Einzelperson verantwortlich
-* Entwicklern nur eine Priorität geben: keine Mehrzahl
-* Informationsflut
 
-* Mentimeter as tool to collect feedback: with word cloud? - cool Idea; also allowed to make a bubble cloud out of several options
+* Ownership: Der PO ist als Einzelperson verantwortlich.
+* Entwicklern sollte nur eine Priorität gegeben werden, nicht mehrere.
+* Informationsflut.
+
+* Mentimeter dient als Tool zur Sammlung von Feedback: Vielleicht mit einer Word Cloud? Tolle Idee! Es ist auch möglich, eine Bubble Cloud aus verschiedenen Optionen zu erstellen.
 ![](img01.png)
 
-## Methoden, welche helfen können - aus dem Projektmanagement
+## Methoden, welche im Projektmanagement helfen können
 ![](img02.png)
 ![](img03.png)
-* Visualisierung und Struktur als Mittel zur Reduktion
-* Flow-Management -> Abhängigkeiten reduzieren
-* flight-level-concept: mit kanban/jira machbar(?)
-* Wissen über Streß: je mehr der PO wichtiges von unwichtigem zu trennen, desto mehr wächst das Teamvertrauen
-* Überstundenlevel in den Teams gibt simple Auskunft über die Teamzufriedenheit
-* Aufmerksamkeitssteuerung
-* Erwartungsmanagement
+
+* Visualisierung und Strukturierung als Mittel zur Reduktion.
+* Flow-Management: Abhängigkeiten reduzieren.
+* Flight-level-concept: Mit Kanban/Jira umsetzbar?
+* Wissen über Stress: Je besser es dem PO gelingt, Wichtiges von Unwichtigem zu trennen, desto stärker wird das Vertrauen des Teams.
+* Das Überstundenlevel in den Teams gibt einfach Auskunft über die Teamzufriedenheit.
+* Aufmerksamkeitssteuerung.
+* Erwartungsmanagement.
 ![](img04.png)
-* looks like picking everything beside option 1 is already a disaster
 
-## Methoden Stresskompetenz
-* default mode network: persönliches stress-system: man hat als Ruhemodus dauerhaft den Stressmodus
-  * mit MRT sichtbar zu machen, wenn man Fortschritt messen möchte
-* 5 Schritte Plan: Stress-Transformation; aber individuell notwendig anzupassen
-* braucht persönlichen Zeitinvest:
+* Es sieht so aus, als ob die Wahl von allem außer Option 1 bereits ein Desaster ist.
+
+## Methoden für Stresskompetenz
+
+* Default mode network: Persönliches Stress-System. Als Ruhemodus ist dauerhaft der Stressmodus aktiv.
+  * Mit MRT kann man den Fortschritt sichtbar machen.
+* 5 Schritte Plan: Stress-Transformation. Dieser Plan muss individuell angepasst werden.
+* Persönlicher Zeitaufwand ist erforderlich:
 ![](img05.png)
-* manchmal Problem: sinnfrei Zeit verplempern auf IG oder Linkedin
-  * durch bewusste Fragmentierung steigt die Wahrscheinlichkeit, dass man damit interagiert -> in Bezug auf Dopamin
-* sich maximal 5 min über etwas aufregen
-* crazy 8-brainstorming Ideen (Google?)
+* Manchmal besteht das Problem darin, unnötig Zeit auf IG oder LinkedIn zu verbringen.
+  * Durch bewusste Fragmentierung steigt die Wahrscheinlichkeit, dass man damit interagiert, besonders in Bezug auf Dopamin.
+* Sich maximal 5 Minuten über etwas aufregen.
+* Crazy 8-Brainstorming-Ideen (Google?).
 
-## Main benefits
-* Stress nur zielgerichtet einsetzen
+## Hauptvorteile
+
+* Stress nur zielgerichtet einsetzen.
 ![](img06.png)
 * pounding heart is preparing you for more action, more oxygen for your brain
 * mehr Stresskompetenz macht sozialer: mehr nach Hilfe fragen oder Hilfe anbieten
-* .. und andere
+* .. und andere Vorteile
 * Stress-Profil als Test: siehe QR-Code oder URL
 ![](img07.png)
