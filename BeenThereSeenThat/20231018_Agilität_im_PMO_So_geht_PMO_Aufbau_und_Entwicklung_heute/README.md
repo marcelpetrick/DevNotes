@@ -69,5 +69,24 @@ Dabei?
 * Challenges:
   * Überblick verloren über die Projekte im Unternehmen; aber nach oben begrenztes budget, weil Krankenkassen-finanziert
   * viele Ressourcenprobleme
+![](img05.png)
+* wer ist eigentlich Projektleitender? vielen war dies nicht bewusst; keine freigestellten Projektleitenden
+* gleichzeitig Atlassian Jira und Confluence eingeführt; somit Wikis und Videos möglich
+![](img06.png)
+* Etablierung einer Community für die Wissensvermittlung and ie neuen Projektleitenden ..
+* Resultate: schnelle Reifegraderhöhung der Projektleitenden; auch durch ihre Coachingerfahrung
+![](img07.png)
+* Was ist daran eigentlich agil?
+  * Testgruppe, die gar nicht agil war:
+![](img08.png)
+* was möchte die Geschäftsleitung, was die Linienvorgesetzten, was die Projektleitenden? unterschiedliche Ansichten
+* iteratives Vorgehen fing viel Nutzerfeedback ein
+![](img08.png)
+* kontinuierliches Entwickeln und Ausrollen erzeugte gute Nähe: Lessons Learned/Retrospektive
+## was haben sie **NICHT** gemacht
+![](img09.png)
+
+
+
 
 
