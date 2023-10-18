@@ -48,55 +48,54 @@ Dabei?
 #Scrum
 #Agile Coaching
 ```
-
 ## Worum geht es hier eigentlich?
 ![](img00.png)
 ![](img01.png)
-* Werner Plewa wurde empfohlen für PMP-Zertifizierung
+* Werner Plewa wurde für die PMP-Zertifizierung empfohlen.
 
 ## Klärung von Agilität
-* Fähigkeit sich schnell, nachhaltig, wirksam (effektiv) an sich verändernde Umgebungsparameter anzupassen
-* ein PMO soll diesen Gestaltungsspielraum schaffen
-* 30 min Impuls, dann 90 min Q&A
+* Fähigkeit, sich schnell, nachhaltig und wirksam (effektiv) an sich verändernde Umgebungsparameter anzupassen.
+* Ein PMO soll diesen Gestaltungsspielraum schaffen.
+* 30 min Impuls, dann 90 min Q&A.
 
 ## Anja Zeitschel übernimmt: Agilität im Projekt-Management-Office (PMO)
-* Projekte menschenzentriert organisieren
+* Projekte menschenzentriert organisieren.
 ![](img02.png)
 ![](img03.png)
-* beispiel ist ein Unternehmen im Gesundheitswesen; viele Menschen, die in kleinen Teams arbeiten, aber Zusammenarbeit wenig gelernt haben
-  * Org-Informationen:
+* Beispiel ist ein Unternehmen im Gesundheitswesen: Viele Menschen, die in kleinen Teams arbeiten, haben jedoch die Zusammenarbeit wenig gelernt.
+  * Organisationsinformationen:
 ![](img04.png)
-* Challenges:
-  * Überblick verloren über die Projekte im Unternehmen; aber nach oben begrenztes Budget, weil Krankenkassen-finanziert
-  * viele Ressourcenprobleme
+* Herausforderungen:
+  * Überblick über die Projekte im Unternehmen verloren; jedoch nach oben begrenztes Budget, weil durch Krankenkassen finanziert.
+  * Viele Ressourcenprobleme.
 ![](img05.png)
-* wer ist eigentlich Projektleitender? vielen war dies nicht bewusst; keine freigestellten Projektleitenden
-* gleichzeitig Atlassian Jira und Confluence eingeführt; somit Wikis und Videos möglich
+* Wer ist eigentlich der Projektleitende? Vielen war dies nicht bewusst; keine freigestellten Projektleitenden.
+* Gleichzeitig wurden Atlassian Jira und Confluence eingeführt, somit sind Wikis und Videos möglich.
 ![](img06.png)
-* Etablierung einer Community für die Wissensvermittlung and die neuen Projektleitenden ..
-* Resultate: schnelle Reifegraderhöhung der Projektleitenden; auch durch ihre Coachingerfahrung
+* Etablierung einer Community für die Wissensvermittlung und für die neuen Projektleitenden.
+* Resultate: Schnelle Reifegraderhöhung der Projektleitenden, auch durch ihre Coaching-Erfahrung.
 ![](img07.png)
 * Was ist daran eigentlich agil?
   * Testgruppe, die gar nicht agil war:
 ![](img08.png)
-* was möchte die Geschäftsleitung, was die Linienvorgesetzten, was die Projektleitenden? unterschiedliche Ansichten
-* iteratives Vorgehen fing viel Nutzerfeedback ein
+* Was möchte die Geschäftsleitung, die Linienvorgesetzten und die Projektleitenden? Unterschiedliche Ansichten.
+* Iteratives Vorgehen sammelte viel Nutzerfeedback.
 ![](img08.png)
-* kontinuierliches Entwickeln und Ausrollen erzeugte gute Nähe: Lessons Learned/Retrospektive
-## was haben sie **NICHT** gemacht
+* Kontinuierliches Entwickeln und Ausrollen erzeugte eine gute Nähe: Lessons Learned/Retrospektive.
+## Was haben sie **NICHT** gemacht
 ![](img09.png)
-* auch kein Scrum offiziell genutzt, um Abwehrhaltung von Leuten, die negative Vorerfahrungen haben, vermieden
+* Sie haben auch kein Scrum offiziell genutzt, um die Abwehrhaltung von Personen, die negative Vorerfahrungen haben, zu vermeiden.
 ## Agilität im PMO-Betrieb
 ![](img10.png)
-* lernende Organisation extrem wichtig
-* Orientierung an Kundenwünschen
-* Fokussierung auf PMO (oder auch XMO genannt)
-* Projektabschluss: wenn man ein Projekt abschliesst, bekommen die Leute ein Zeugnis; von ihr als Mentorin (nicht nur bei Verlassen des Arbeitgebers) - das macht es menschlich und nach
-* regelmäßiges Feedback durch Nutzer
+* Eine lernende Organisation ist extrem wichtig.
+* Orientierung an Kundenwünschen.
+* Fokussierung auf PMO (auch XMO genannt).
+* Projektabschluss: Wenn man ein Projekt abschließt, erhalten die Personen ein Zeugnis von ihr als Mentorin (nicht nur beim Verlassen des Arbeitgebers) – das macht es menschlich.
+* Regelmäßiges Feedback durch Nutzer.
 ![](img11.png)
-## Hautpfaktoren für Projekterfolg?
+## Hauptfaktoren für Projekterfolg?
 ![](img12.png)
-* Standards einführen und unterstützen; eigentlich ist sie kein Freund davon; weil es Ablehnung fördert
-## grenzen der Agilität
+* Standards einführen und unterstützen; eigentlich ist sie kein Fan davon, weil es Ablehnung fördert.
+## Grenzen der Agilität
 ![](img13.png)
-* Rollenkonflikte; auch Führungskräfte, die Projekte leiten .. auch da sie gewohnt waren disziplinarisch zu führen
+* Rollenkonflikte, auch bei Führungskräften, die Projekte leiten, da sie es gewohnt waren, disziplinarisch zu führen.
