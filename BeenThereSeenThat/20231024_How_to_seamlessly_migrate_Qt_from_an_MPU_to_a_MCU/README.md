@@ -50,43 +50,45 @@ Are you a device maker looking to make a transition from an MPU to an MCU for yo
 * Rendered with Monotype Spark.
 * Library of stylable UI controls and 2D shapes.
 * Extensive image format support and HW-acceleration support.
+![](img05.png)
+![](img06.png)
 
 ## Reusing Qt code across MCUs and MPUs
-![](img05.png)
+![](img07.png)
 * Can run for MCUs directly on the drivers; RTOS not mandatory.
 
 ## Real-life examples
 * Yangfen Visteon: Automotive Tier 1 supplier from China; achieved cost reduction by transitioning to MCUs.
 * Hasselblad: 3 displays; one was already using an MPU, but a switch was made for the new third display.
+![](img08.png)
+![](img09.png)
 
 ## Remi: Migrating Qt from MPU to MCUs
 * Either you have someone familiar with the MPU world, but there's still much to learn about MCUs.
-![](img06.png)
+![](img10.png)
 * PTSD from strange experiences.
-![](img07.png)
+![](img11.png)
 * The team had previously no knowledge about the MCU world; it was seen as outdated.
 * The main question was: what can be transferred from the existing skills?
 * Reused the coffee-machine-example from Qt 6.6 to QtForMcu 2.5: it's a simple QML based application without a C++ backend.
-![](img08.png)
+![](img12.png)
 * Just a copy-paste of the QQuick application to the Qul app - with some adaptations. <-- check: Elaborate on what adaptations were made?
 * Note: the sugar cube isn't rotated; the font is also different; sliders lack customization (new stylesheet needed).
 * My question: `Regarding these styling issues, does the toolchain for Qul generate any warnings? Both during build and at runtime?`
-![](img09.png)
+![](img13.png)
 * Most features are present; if not, re-implementation didn't take much time.
-![](img10.png)
+![](img14.png)
 * The need for C++ singletons has been simplified: see the `charging station` example.
-
-TODO: Add screenshots
+![](img15.png)
+![](img16.png)
+![](img17.png)
 
 ### Custom control creation
-![](img20?.png)
 * The MPU uses a standard linear gradient, which is replicated in MCU using the Painted QUL Monotype.
-![](img21?.png)
+![](img19.png)
 
 ## How to write code for MCU?
 * Most of the QUL types are available in QML.
-![](img22?.png)
-![](img23?.png)
 * Transitioning from the MPU world and writing in QUL isn't straightforward.
 * A mechanism for dynamic item creation must be established to prevent having dozens of views loaded simultaneously.
 * Be cautious with image resources.
@@ -94,3 +96,8 @@ TODO: Add screenshots
 * The documentation is thorough.
 
 * Using one codebase for both platforms is feasible nowadays, but it shouldn't be mixed with desktop deployments.
+![](img20.png)
+![](img21.png)
+![](img22.png)
+![](img23.png)
+![](img24.png)
