@@ -13,3 +13,47 @@ Are you a device maker looking to make a transition from an MPU to an MCU for yo
 
 * Remi is at the Qt WS in Berlin: has a sample
 * Witekio is an AVNET company
+
+![](img00.png)
+![](img01.png)
+![](img02.png)
+* MCUs can be easier to use and have unique advantages
+* currently more and more MCUs, which offer high performance; sometimes easier to integrate (simplicity)
+
+## why choose an MCU over a MPU
+* real-time processing!
+* low power consumption
+* simpler thermal management
+* instant boot time
+* low BOM cost
+
+* why Qt? cross-platform development
+![](img03.png)
+* homogenous UX across the devices; maintaining this across devices can be costly -> reuse of code
+* GUI application prerequisits to migrate to MCUs
+  * medium to low-resolution displays: 320x240 to 1280x720; with really high performance MCUs even more possible, but rare
+  * no real-time 3D; pre-rendered stuff possible, also realtime 2.5D on some MCUs (2d objects in 3d space ..)
+![](img04.png)
+* QML language adapted for MCUs and ressource constrained systems
+  * like Cortex M, R or equivalent, low-end MPUs..
+## Qt Quick Ultralite
+* less code with QML declarative language
+* low memory requirements (200 KB RAM minimum)
+* rendered with Monotype Spark
+* library of stylable UI controles and 2D shapes
+* extensive image format support and HW-accelleration support
+
+## reusing Qt code across MCUs and MPUs
+![](img05.png)
+* can run for MCUs directly on the drivers; RTOS not mandatory
+
+## real life examples
+* Yangfen Visteon: Automotive Tier 1 supplier from China; cost reduction by moving towards MCUs
+* Hasselblad: 3 displays; one was already using a MPU, but wanted another one for the new third display
+
+## Remi: migrating Qt from MPU to MCUs* 
+
+
+
+![](img03.png)
+  
