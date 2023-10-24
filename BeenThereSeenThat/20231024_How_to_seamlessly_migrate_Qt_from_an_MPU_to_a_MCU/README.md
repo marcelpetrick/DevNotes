@@ -1,8 +1,8 @@
 # 20231024 How to seamlessly migrate Qt from an MPU to a MCU
 
-* host: Geogie
-* yoann lopes (qt)
-* remi roux
+* host: Georgina Ryan-Casling (Witektio)
+* speaker: Yoann Lopes (Qt)
+* speaker: Remi Roux (Witektio)
 
 
 ```
@@ -52,8 +52,37 @@ Are you a device maker looking to make a transition from an MPU to an MCU for yo
 * Hasselblad: 3 displays; one was already using a MPU, but wanted another one for the new third display
 
 ## Remi: migrating Qt from MPU to MCUs* 
+* either you take someone coming from the MPU world MUC, but still much to know at once
+![](img06.png)
+* PTSD from strange experiences
+![](img07.png)
+* team had before no knowledge about the MCU world: MCU world seen as something old
+* question was: what can be transferred from existing skills?
+* reuse of the coffee-machine-example from Qt 6.6 -> QtForMcu 2.5: is a simple QML based application, no C++ backend
+![](img08.png)
+* just copy paste of the QQuick application to the Qul app - and some adaptation (what adaptation?)
+* note: sugar cube not rotated; font is also different; sliders lack customization (new stylesheet)
+* my question: `Those styling-issues: does the toolchain for Qul generate any warnings? Build-/runtime ones?`
+![](img09.png)
+* most features are present - even if not: re-implementation did take not much time
+![](img10.png)
+* necessity of C++ singletones  has been simplified: see example `charging station`
 
+TODO add screenshots
 
+### custom control creation
+![](img20?.png)
+* MPU has standard linear gradient -> done in MCU by using the Painted QUL Monotype
+![](img21?.png)
 
-![](img03.png)
-  
+## How to write code for MCU?
+* most of the QUL types are available in QML
+![](img22?.png)
+![](img23?.png)
+* coming from MPU world and writing QUL is not straight forward
+* a mechanism of dynamic item creation must be put in place to prevent having dozen of views simultaneously loaded
+* beware of image resources
+* everything could be implemented, what was planned - some trial&error had to be applied
+* documentation are thorough
+
+* one codebase for both platforms should be possible nowadays, but not mixing with desktop-deployments
