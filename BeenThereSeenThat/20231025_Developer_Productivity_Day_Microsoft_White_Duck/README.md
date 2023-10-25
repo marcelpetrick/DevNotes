@@ -3,10 +3,10 @@
 * hosted by Microsoft
 
 ## Introduction
-* markus suemmchen, white duckK
-* christina von github; chipeng von microsoft
-* Prof Dr. Alexander Pretschner
-* Shqiponj Alidemi, MS Deutschland
+* markus suemmchen, white duck <-- TODO needs correction
+* christina von github <-- TODO needs correction
+* Prof Dr. Alexander Pretschner <-- TODO needs correction
+* Shqiponj Alidemi, MS Deutschland <-- TODO needs correction
 
 ![](img00.png)
 ![](img01.png)
@@ -89,4 +89,29 @@
 * wir sitzen im Fahrersitz, aber wir können schneller fahrne
 * Begriff der Urteilsfähigkeit kann früher geprägt werden
 
-##
+## Accelerate Developer PRoductivity - ShqiponjAlidemi
+* Warum sollten Sie die Produktivität der Entwickler steigern?
+* fast 100 M+ developers; 4M organsations
+* github gehört microsfot, abseits davon gibt es noch azure devops
+* 2023 magic garnter quadratng: mitcrosoft und gitlab als visionaires und leaders
+* copilot chat - wie chatgpt TODO ausprobieren
+*  was ist devops? union zwischen people, processes und products
+* Common pain points across the market:
+  * tools sprawl to accomodate developer repferences
+  * time spent onboarding, task switching and troubleshooting
+  * siloed teams and projects
+  * security and increased risk
+  * expensive solutions and a fragmented procedure procurement experience
+* todo: check shift left - sichrheitsaspekte(?)
+* github advanced security: alles relative neu
+* github platform: powered by ai; neben reinen collaborations aufgaben; erstellung von codespaces soll schnell gehen
+* (githeb event in zwei wochen - eventuell virtuell anmelden)
+* copilot enables faster coding; 55%; 46% of the code is written with the help of copilot; ore than 1 m developers
+* copilot verbindet openai, microsoft und github
+* copilot for business wird keine daten leaken
+* 562% ROI within three years; extrem große zahl - als total economic impact
+* 66% in decrease of time to market, reduction in time to remediate, ..
+* roundtable der github-legal; eigene firmenanwälte hinschciekn zwecks rücksprache; gerade wichtige bei lizenzierungsproblemen
+* use cases: reduction time with onnoarding task switching, better collaboration in siloed teams and projects; shifting left with security and risk mitigation; one solution and an aligned procurement experience
+
+
