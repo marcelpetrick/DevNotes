@@ -151,6 +151,58 @@
 * achtung: deprecation-problem; also vorschläge basierned auf der "mehrheit" im internet -> neuerungen sezten sich erst nachfolgend durch
 * nachfolge frage: wie oft wird copilot im hintergund aktualisiert - unklar TODO
 * copilot explorer: some reverse engineering - how does it work
-*
 
+## Der gesamte DevOps-Lebenszyklus - Nico Meisenzahl
+* hilft den Kunden ihre Anwendungen in die Cloud zu bekommen; DevOps-Schiene
+* "The tools you need to build what you want."
+* Unify your DevOps lifecycle with Github
+* your environment at your fingertips with github codespaces
+* collaborate with your fellows with issues and PRs
+* manage your team with github projects
+* automate everything with github actions
+* artefakte bereistellen ebenfalls möglich; komplett integriert in einer plattform
+* cyber security: integrated into all stages
 
+### github codespaces
+* "dev environments that just work" - kein aufwand dependencies vorzubereiten
+* ready-to-go developer environment in the cloud
+* fully integrated in your favorite IDE orabstracted in your browser
+* secure by design
+* faster than your laptop
+* auch als runtime in eigene IDE (jetbrains..) einzupacken
+* TODO definitiv checken wie man das einsetzen kann
+* devcontainer.json als basis
+* wird später auch beim hackathon genutzt
+
+### github actions
+* es gibt vordefinierte Actions, die schon existieren: Chance, dass man etwas vorgefertigtes findet, ist sehr groß
+* auch eigene Actions zu erstellen, bringt auch extremen Aufwind
+
+### DevSecOps
+* early vulnerability detection aka "shift left"
+* cntinuous security testing & streamline drisk management
+* greater business agility & faster delivery aka "fail-fast"
+* increased collaboration
+* gleich während man ein feature entwickelt, kann man dort nachbessern, gegenarbeiten, falls etwas unsicher ist
+* siehe: dependabot
+* how can github help?
+  * security policy
+  * security advisories
+  * dependabot alerts and security updates
+  * dependabot version updates: packages, ..
+ * dependency graph
+ * secret scanning alerts for partners (public repos only) - azure könnte zB. einen Storage-key direkt invalidieren
+* Github Advanced Security features:
+  * CodeScanning, codeQL
+  * available for free for public repos n github.com - ok, mal checken
+  * secret scanning; denial on push
+
+### demo time
+* see github meisenzahl/gh-demo
+* ganzer lifecycle fon entwickler über devops-mensch
+* erstellt erst issue "redis cache" with information
+*  automatische projectsortierung und label - passiert automatisch
+* dependabot liefert auch drei warnungen
+* dependabot.yml in .github im repo: dort parameter festlegen wie etwas arbeitet
+* code spaces: erstellt sich in sekunden; lief im browser
+* versuch secrets zu pushen im commit - wird verweigert, steht dann auch im git commit
