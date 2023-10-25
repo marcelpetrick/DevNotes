@@ -114,4 +114,43 @@
 * roundtable der github-legal; eigene firmenanwälte hinschciekn zwecks rücksprache; gerade wichtige bei lizenzierungsproblemen
 * use cases: reduction time with onnoarding task switching, better collaboration in siloed teams and projects; shifting left with security and risk mitigation; one solution and an aligned procurement experience
 
+## Die Vorteile der Anwendungsentwicklung mit Github Copilot - Martin Brandl
+* wie schafft man in der gleichen Zeit mehr? und auch sicerer und qualitativ ansprechender
+* vergleich zu lochkarten vor ueber 50 jahren versus aktuelle IDEs mit HoDebugging, IntelliSense, ..
+* why copilot, wat you need, example..
+* effizienter, mehr im Flow, produktiver .. sagen Entwickler über ihrer Erfahrungen
+* Aufgabe: Webserver in Javascript zu bauen
+  * nochmal das 95 Entwickler-Beispiel
+* copilot seat: free for opensource (maintainer); business variante hat zugriff auf mehr preview-features
+* supported: visual studio, code, vim, neovim, jetbrains IDEs, azure data studio
+* VS Code: unten rechts an Octocat ansehbar
+
+### beispiel: verwendung mit powershell: aufgabe: skript, welches die komplexität eines passwortes überprüft
+* neue datei: fun.ps1
+* erster Vorschlag nicht hilreich, weil keine direkte Verwendung der Variable geplant; aber erstmal Kommentar schreiben: Was beduetet ein sicheres Passwort?
+* er will ein Regex: wird automatisch erzeigt in weniger als 1s
+* copilot chat: färbung der zeilen für die ausgabe: direkter vorschlag, copy&paste, done
+* nächste frage mit copilot chat: show missing policies: auch ein guter vorschlag
+* testerzeugung: /tests -> brauchte aber noch die anweisung bitte alle alternatien abzudecken; lief dann
+* ergebnis in 15 min statt 1h für einen erfahrenen entwickler
+
+### tipps
+* keep certain relevant tabs open in the IDE to tell this context to the IDE
+* use good coding practices
+* use descriptive variable names and functions -> better results
+* follow consistent coding styles and patterns
+
+## Can I use copilot to create code in a business context?
+* .. and should I worry about copyright claims? or even copyleft-force
+* statement von microsoft: ja, kann man ohne bedenken einsetzen, dann übernimmt microsoft den fall und alle verbundenen kosten <-- extrem wichtig
+* copilot copyright commitment von microsoft
+* see: githubnext.com
+* Copilot for Pullrequests; for Docs; Copilot Voice (mit dem ding reden); Copilot for CLI - dürfte recht hilfreich sen bei den Unterschieden
+* CTRL+Enter um ein Fenster mit mehr Vorschlägen zu erhalten
+* oder Kommando /explain
+* achtung: deprecation-problem; also vorschläge basierned auf der "mehrheit" im internet -> neuerungen sezten sich erst nachfolgend durch
+* nachfolge frage: wie oft wird copilot im hintergund aktualisiert - unklar TODO
+* copilot explorer: some reverse engineering - how does it work
+*
+
 
