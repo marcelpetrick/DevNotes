@@ -137,7 +137,7 @@
 * Use descriptive variable names and functions -> better results
 * Follow consistent coding styles and patterns
 
-## Can I use Copilot to create code in a business context?
+### Can I use Copilot to create code in a business context?
 * .. and should I worry about copyright claims? Or even copyleft-force
 * Statement von Microsoft: Ja, kann man ohne Bedenken einsetzen, dann übernimmt Microsoft den Fall und alle verbundenen Kosten <-- extrem wichtig
 * Copilot Copyright Commitment von Microsoft
