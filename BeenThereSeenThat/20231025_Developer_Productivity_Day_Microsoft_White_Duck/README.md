@@ -7,9 +7,6 @@
 * Prof. Dr. Alexander Pretschner
 * Shqiponj Alidemi, MS Deutschland
 
-![](img00.png)
-![](img01.png)
-
 ## Keynote: Prof. Dr. Alexander Pretschner - Was bedeutet ChatGPT?
 * Bayerisches Forschungsinstitut für Digitale Transformation
 * "Für uns alle - und im Software Engineering"
