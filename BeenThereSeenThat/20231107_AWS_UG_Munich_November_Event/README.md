@@ -24,4 +24,35 @@ If you have an office or co-working space where we can meet (100-150 people), wa
 Everyone who participates in an AWS UG Munich event must adhere to the Code of Conduct!
 ```
 
-#TBC
+## Short intro - Ostertag
+* clemens from IBM, nordcloud and ibm sponsored it
+* biggetst event ever, Clemens words
+* first thought "mainframes" when you hear IBM
+* IBM consulting for AWS ..
+* prett open in technology and solutions
+* nordcloud knwon for `hyperscaler` and AWS
+
+## AWS important releases
+* what happened since the last meetup? (last octobre)
+* wip: AWS European Sovereign Cloud: full eu-based; run by eu.residents
+* region will be in Germany
+* every hyperscaler is us-based
+* Markus said that Amazon never handed data to us-government (fbi, cia..) from a EU-customer; but there is a business need in germany for that
+  * prefix like "aws-gov-eu" are totally decoupled from anything from AWS before; needs also new AWS account! just like "aws-gov-us" or "aws-cn"
+  * everything should be siloed, so that you don't try to connect to outside services
+* EC2 allows to set AMIs now also to a disabled state
+* instances-suffix is saying if intel or amd: M6in means Intel, C6a - AMD
+* Spain is most of the times a new region where they add new instances
+* reserving GPU-instances for certain days and lenghts now possible in US-east
+* network: first scales out, then terminates the unhealthy target (before this could lead to a death spiral)
+* SQS thoghtput now up to 18k messages/second
+* R7g is arm-based, because graviton3-based
+*databases: transaction logs: always gets appended on
+* ETL - extract transform load
+* AWS Glue now supports GitLab, BitBucket in its Git integration feature
+* AWS X-Ray now supports W3C format rrace IDs - sent via OpenTelemetry Collector
+* coepipeline can now be triggered by tags as well: can also retry from the first action in a failed stage
+* codewhisperer can now be customized
+* AI/ML: Rekognition moderation model can be customized
+* Bedrock now available in Frankfurt
+* next AWS UG meeting: 14th Decembre at AWS office - talking about re:iInvent hgithlights
