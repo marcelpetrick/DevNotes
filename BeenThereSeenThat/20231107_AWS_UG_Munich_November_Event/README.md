@@ -56,3 +56,56 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
 * AI/ML: Rekognition moderation model can be customized
 * Bedrock now available in Frankfurt
 * next AWS UG meeting: 14th Decembre at AWS office - talking about re:iInvent hgithlights
+
+## innovating vehicle connectivity - a serverless IoT architecture on AWS
+* talk by the three guys: markus introduced them as boyband
+* "advisory solution architect"
+* IoT 101: enable to connect people anywhere and everytime
+* use-cases: smart home; smart grid (power grid), smart city, smart industry
+* growth of 130% over four years
+  * 83 bn connections in 2024
+  * 70% of the IoT connections are in the industrial sector
+* Edge on the one hand - cloud on the other hand
+* remotely triggered functions
+* add IoT architecture - photo ![](img00.png) todo
+* the whole stack does not generate much value unless ou create some IoT applications
+on the sides are the management and security dimeniosn: no faking of events or devices allowed
+* challenges in the development of IoT solutions
+  * device management
+  * distributed systems
+  * scalability
+  * intelligence
+* what if you have different machines from different vendors, also different models.. diffrent formats, capabilities of these devices, ..
+### project: showcase for connected vehicles
+* 63k sensor-equipped vehicles; 2 mio datasets daily; 20k geofences for psoitioning in Europe
+* data is put into data lakes
+* why does the data to be processed at all? could it not be put into the datalakes directly?
+* needs: consuming applications need homogenized data; vehicles are equipped with sensors from various manufacturers, different sensor privde different data
+* AWS S3, eventbridge and lambda and SQS are the used technologies
+* all of them are pay as you go -as you use them
+* ETL pipeline is split into five different components
+* patterns: queued based architecture; event driven architecture (EDA), serverless architecture
+* SQS added as load blanacer: collects all messages; just possible due to the queing - no immediate response needed
+* serveless: scalability will be done by AWS; reduces operational fee
+* DevOps with IaC on different stages
+* img02 todo
+* AWS lambda is responsible for enrichting the homogenized events
+* much spikes during the day, but also datepoints with almost zero traffic
+* nonfunctionla requirements of the external services not known - was a challenge; not sure how to handle a massive amount of data
+* simple retry-mechanism was not enough
+* three potential solutions:
+  * reserved concurrency of AWS lambdas
+  * introduction of the circuit breaker pattern: to support the recovery of the external system and improve failure management
+  * ambassador pattern: introduction of the ambassador pattern
+* Iot core broker is expensive; also can just handle messages with max. 128 kbytes
+
+
+## BMW framework public cloud
+* henrik anderson
+* marco hutzsch
+* 60 nationalites in 29 countries, 20 mio connected cars; centered in munich
+* more than 11k applications
+* agile transofrmations of the bmw group
+* bmw cloud foundaton team: is more than 500 people
+
+[rest missing due to empty battery]
