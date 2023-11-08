@@ -23,89 +23,88 @@ If you have an office or co-working space where we can meet (100-150 people), wa
 
 Everyone who participates in an AWS UG Munich event must adhere to the Code of Conduct!
 ```
-
 ## Short intro - Ostertag
-* clemens from IBM, nordcloud and ibm sponsored it
-* biggetst event ever, Clemens words
-* first thought "mainframes" when you hear IBM
-* IBM consulting for AWS ..
-* prett open in technology and solutions
-* nordcloud knwon for `hyperscaler` and AWS
+* Clemens from IBM spoke some words, Nordcloud and IBM sponsored it
+* Biggest event ever, Clemens' words
+* First thought "mainframes" when you hear IBM
+* IBM consulting for AWS
+* Pretty open in technology and solutions
+* Nordcloud known for `hyperscaler` and AWS
 
-## AWS important releases
-* what happened since the last meetup? (last octobre)
-* wip: AWS European Sovereign Cloud: full eu-based; run by eu.residents
-* region will be in Germany
-* every hyperscaler is us-based
-* Markus said that Amazon never handed data to us-government (fbi, cia..) from a EU-customer; but there is a business need in germany for that
-  * prefix like "aws-gov-eu" are totally decoupled from anything from AWS before; needs also new AWS account! just like "aws-gov-us" or "aws-cn"
-  * everything should be siloed, so that you don't try to connect to outside services
+## AWS important releases - Ostertag
+* What happened since the last meetup? (last October)
+* WIP: AWS European Sovereign Cloud: full EU-based; run by EU residents
+* Region will be in Germany
+* Every hyperscaler is US-based
+* Markus said that Amazon never handed data to the US government (FBI, CIA..) from an EU customer; but there is a business need in Germany for that
+  * Prefix like "aws-gov-eu" are totally decoupled from anything from AWS before; needs also a new AWS account! Just like "aws-gov-us" or "aws-cn"
+  * Everything should be siloed, so that you don't try to connect to outside services
 * EC2 allows to set AMIs now also to a disabled state
-* instances-suffix is saying if intel or amd: M6in means Intel, C6a - AMD
-* Spain is most of the times a new region where they add new instances
-* reserving GPU-instances for certain days and lenghts now possible in US-east
-* network: first scales out, then terminates the unhealthy target (before this could lead to a death spiral)
-* SQS thoghtput now up to 18k messages/second
-* R7g is arm-based, because graviton3-based
-*databases: transaction logs: always gets appended on
-* ETL - extract transform load
+* Instance suffix is saying if Intel or AMD: M6i means Intel, C6a - AMD <-- check: SUGGESTION: Confirm correct instance suffix for Intel
+* Spain is most of the time a new region where they add new instances
+* Reserving GPU instances for certain days and lengths now possible in US East
+* Network: first scales out, then terminates the unhealthy target (before this could lead to a death spiral)
+* SQS throughput now up to 18k messages/second
+* R7g is ARM-based, because it's Graviton3-based
+* Databases: transaction logs always get appended on
+* ETL - Extract, Transform, Load
 * AWS Glue now supports GitLab, BitBucket in its Git integration feature
-* AWS X-Ray now supports W3C format rrace IDs - sent via OpenTelemetry Collector
-* coepipeline can now be triggered by tags as well: can also retry from the first action in a failed stage
-* codewhisperer can now be customized
+* AWS X-Ray now supports W3C format trace IDs - sent via OpenTelemetry Collector
+* CodePipeline can now be triggered by tags as well: can also retry from the first action in a failed stage
+* CodeWhisperer can now be customized
 * AI/ML: Rekognition moderation model can be customized
 * Bedrock now available in Frankfurt
-* next AWS UG meeting: 14th Decembre at AWS office - talking about re:iInvent hgithlights
+* Next AWS UG meeting: 14th December at AWS office - talking about re:Invent highlights
 
-## innovating vehicle connectivity - a serverless IoT architecture on AWS
-* talk by the three guys: markus introduced them as boyband
-* "advisory solution architect"
-* IoT 101: enable to connect people anywhere and everytime
-* use-cases: smart home; smart grid (power grid), smart city, smart industry
-* growth of 130% over four years
+## Innovating vehicle connectivity - a serverless IoT architecture on AWS
+* Talk by the three guys: Markus introduced them as boy band
+* "Advisory solution architect"
+* IoT 101: enable to connect people anywhere and anytime
+* Use-cases: smart home; smart grid (power grid), smart city, smart industry
+* Growth of 130% over four years
   * 83 bn connections in 2024
   * 70% of the IoT connections are in the industrial sector
 * Edge on the one hand - cloud on the other hand
-* remotely triggered functions
-* add IoT architecture - photo ![](img00.png) todo
-* the whole stack does not generate much value unless ou create some IoT applications
-on the sides are the management and security dimeniosn: no faking of events or devices allowed
-* challenges in the development of IoT solutions
-  * device management
-  * distributed systems
-  * scalability
-  * intelligence
-* what if you have different machines from different vendors, also different models.. diffrent formats, capabilities of these devices, ..
-### project: showcase for connected vehicles
-* 63k sensor-equipped vehicles; 2 mio datasets daily; 20k geofences for psoitioning in Europe
-* data is put into data lakes
-* why does the data to be processed at all? could it not be put into the datalakes directly?
-* needs: consuming applications need homogenized data; vehicles are equipped with sensors from various manufacturers, different sensor privde different data
-* AWS S3, eventbridge and lambda and SQS are the used technologies
-* all of them are pay as you go -as you use them
+* Remotely triggered functions
+* Add IoT architecture - photo ![](img00.png) TODO
+* The whole stack does not generate much value unless you create some IoT applications
+  On the sides are the management and security dimensions: no faking of events or devices allowed
+* Challenges in the development of IoT solutions
+  * Device management
+  * Distributed systems
+  * Scalability
+  * Intelligence
+* What if you have different machines from different vendors, also different models, different formats, capabilities of these devices, ..
+ 
+### Project: Showcase for connected vehicles
+* 63k sensor-equipped vehicles; 2 mio datasets daily; 20k geofences for positioning in Europe
+* Data is put into data lakes
+* Why does the data have to be processed at all? Could it not be put into the data lakes directly?
+* Needs: consuming applications need homogenized data; vehicles are equipped with sensors from various manufacturers, different sensors provide different data
+* AWS S3, EventBridge, Lambda, and SQS are the used technologies
+* All of them are pay as you go - as you use them
 * ETL pipeline is split into five different components
-* patterns: queued based architecture; event driven architecture (EDA), serverless architecture
-* SQS added as load blanacer: collects all messages; just possible due to the queing - no immediate response needed
-* serveless: scalability will be done by AWS; reduces operational fee
+* Patterns: queue-based architecture; event-driven architecture (EDA), serverless architecture
+* SQS added as load balancer: collects all messages; just possible due to the queuing - no immediate response needed
+* Serverless: scalability will be done by AWS; reduces operational fee
 * DevOps with IaC on different stages
-* img02 todo
-* AWS lambda is responsible for enrichting the homogenized events
-* much spikes during the day, but also datepoints with almost zero traffic
-* nonfunctionla requirements of the external services not known - was a challenge; not sure how to handle a massive amount of data
-* simple retry-mechanism was not enough
-* three potential solutions:
-  * reserved concurrency of AWS lambdas
-  * introduction of the circuit breaker pattern: to support the recovery of the external system and improve failure management
-  * ambassador pattern: introduction of the ambassador pattern
-* Iot core broker is expensive; also can just handle messages with max. 128 kbytes
-
+* img02 TODO
+* AWS Lambda is responsible for enriching the homogenized events
+* Much spikes during the day, but also datapoints with almost zero traffic
+* Nonfunctional requirements of the external services not known - was a challenge; not sure how to handle a massive amount of data
+* Simple retry mechanism was not enough
+* Three potential solutions:
+  * Reserved concurrency for AWS Lambdas
+  * Introduction of the circuit breaker pattern: to support the recovery of the external system and improve failure management
+  * Ambassador pattern: introduction of the ambassador pattern
+* IoT Core Broker is expensive; also can only handle messages with max. 128 kilobytes
 
 ## BMW framework public cloud
-* henrik anderson
-* marco hutzsch
-* 60 nationalites in 29 countries, 20 mio connected cars; centered in munich
-* more than 11k applications
-* agile transofrmations of the bmw group
-* bmw cloud foundaton team: is more than 500 people
+* Henrik Anderson <-- check: SUGGESTION: Confirm correct spelling of the name
+* Marco Hutzsch
+* 60 nationalities in 29 countries, 20 mio connected cars; centered in Munich
+* More than 11k applications
+* Agile transformation of the BMW Group
+* BMW Cloud Foundation team: is more than 500 people
 
 [rest missing due to empty battery]
