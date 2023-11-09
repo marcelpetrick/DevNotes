@@ -35,7 +35,7 @@
  * financial sanction if a company does not apply those regulations: up to 2.5% of the WW annual turnover
  * will gain traction in 2026 <-- check: 2026?, but due to the pipeline, it will take some time to implement
  * will be in practice: 90% of the products are self-assessment, 10% will be Class 1 or 2; standard or third-party assessment; cloud SaaS are out of scope (covered by another act); just for hard- and software
- * todo: check: German guide for SBOM for CRA
+ * TODO: check: German guide for SBOM for CRA
  * personal data is any data which can be linked to your person, directly or via a database (therefore SSID - big databases)
 
 ### CS Simplified Flow
@@ -201,5 +201,30 @@
 * Fitted for mass market with low MOQ including provisioning and Microchip certificates
 * Architecture agnostic with any cloud, any PKI, any controller
 
+## Renesas - [TODO: Add Title]
+* Security requires a solid foundation
+* "Solid security cannot be added later"
+* Initially, a developer creates a prototype in a known and controlled environment; later, it transitions to mass production in a product within an unknown, uncontrolled environment
+* Wrapping versus encrypting: Take data, encrypt it, producing encrypted data; it can be decrypted with the key to retrieve the original data; however, if a corrupted key is used, the result is garbage data
+* Wrapping at Renesas: An extra fixture to check the integrity of the data
+* Each MCU from Renesas has a unique key
 
+## Lattice Semiconductors
+* Dr. Hardik Shah & Dr. Baris Konuk
+* Altera, Xilinx, and Lattice are all quite old companies: now only existing as Intel, AMD, and Lattice; but Lattice sells the most
+* Focus on smallest size and also low power, security from the ground up
+* 14 continuous quarters of growth
+* Cybersecurity failure costs millions to OEMs
+* Yesterday's security paradigm: centralized computing citadel
+* Huge security problem in an automotive system
+* Quantum algorithms and computers will break many of the current cryptography algorithms, like AES256, ECC, RSA, ECDH, ECDSA
+* A decade seems like a long time, but many devices built today will be in the field for much longer than 10 years
+* "Steal now, decrypt later" strategy
+* NIST has already made a choice for PQC (Post-Quantum Cryptography) algorithms
+* Root of trust should always be the first one to wake up
+* Secure boot as part of the CIA triad - CIA as the acronym for Confidentiality, Integrity, Availability, not the agency
 
+## Summary
+* Change of mindset
+* Security is not just an add-on
+* Maintenance during the lifetime is a new aspect
