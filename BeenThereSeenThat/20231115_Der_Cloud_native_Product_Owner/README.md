@@ -32,6 +32,8 @@ TODO image
 * früher hatte das einen guten Grund, weil höhere Reichweite
 * aber jetzt: cloud-basiert
 * Beispiel AWS:
+![](img00.png)
+![](img01.png)
 ![](img02.png)
 * mehr Effizienz, geringere Kosten, ... er merkt dies noch nicht
 * von CapEx zu OpEx - Kernwechsel: BWL und technisches braucht gleiche Gehirnbereiche
@@ -46,6 +48,7 @@ TODO image
 * Budgets sind nicht mehr da: weil nicht vorher allokierbar
 * warum sollte man dann noch in Budgets und Investments denken?
 * die Architektur ist nicht mehr da: Technologieentscheidungen werden on demand getroffen; das gilt für Einführung, Beendigung, Wechsel von Technologien
+![](img04.png)
 * "die Applikation" ist nicht mehr da: dank SaaS, Lambda, MicroServices Verteilung bis auf Featureebene hinunter
 * die Grenzen meiner Software sind nicht mehr da: alles ist integrierbar, alles ist eine API, dann SDK und DevEx: Integration geht schnell; weniger Reuse von Sourcecode, sondern von Softwareapplikationen
 * non-funktionale Capabilities sind jetzt eh da: früher teuer, jetzt mit in der Tüte
@@ -55,7 +58,7 @@ TODO image
 * Dinge, welche man nicht selber macht, sind eh Dinge, welche man sparen sollte
 * Was sollte ich denn alles weglassen? Falls man sich entscheidet kostensparend zu arbeiten, dann kann ich das machen - aber wie trifft man diese Entscheidung
   * DDD - domain driven design-guys: either core, supporting oder generic
-* ![](img06.png)
+![](img06.png)
 * falls es trivial ist, was man macht, was andere machen, dann ist man schnell ausgetauscht - siehe ganze AI-Startups
 * supporting domain: unterstützt nur die core-domain; kann spezifische aber unkritische Lösungen enthalten (wie zum Beispiel: Reporting)
 * reduziert die Komplexität der core-domain
@@ -64,7 +67,7 @@ TODO image
   * Beispiel: anpassbarer Meister: SAP
 * general domain: standardisierte Lösungen, die Pflicht sind; Entwickler mögen es, aber keine Priorität
 * Frage: welche Domains sollte ich selbst machen, welche nicht?
- * Core-Domain: selber machen; supporting aussuchbar (Services, SaaS), General Domain (SaaS) - auf gar keinen Fall selber machen
+ * Core-Domain: selber machen; Supporting aussuchbar (Services, SaaS), General Domain (SaaS) - auf gar keinen Fall selber machen
   * falls man kein Hoster ist, sollte man nicht selber hosten
 
 ## Was bedeutet das für mich als Product Owner?
@@ -120,10 +123,6 @@ TODO image
 * Maintenance-Kosten: ISO25010
 ![](img15.png)
 
-
 ---
 
 * Info: starke Gegenstimme als Zuschauer; elegant darauf eingegangen von Johann Hartmann und souverän die Ausführungen angepasst während des Vortrages
-
-
-TODO: add all screenshots
