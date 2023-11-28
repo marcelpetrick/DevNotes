@@ -1,13 +1,13 @@
 # 20231127 Qt World Summit 2023 - Day 1
 
-kate . am.i a good.programme
+kate gregory - am.i a good.programme
 wants to be a good programmer
 
 people.fulled with doubt and worry
 payingher since 1979 to write code. says nothing aboutntoday
 not arcitect, manager, cbersecurity, not a good person or not
 but typing code does what sou habe planned for tld o
-pipes dont elak, table sturdy for table
+pipes dont leak , table sturdy for table
 dnd people..lawful.good, lawful.evil
 nut about capable or competent
 or about great
@@ -106,6 +106,134 @@ questions:
 qt qml.or widgets? qt wuicj as first class technology. highlyndeclarwtive, designer friendly, hwrswsre acxellerwted. but qt focuess on qt quick.
 printingnto the qtpdf module?
 peoblem eith qt macros and the cpp23 modules
+whole. rat tail of things to handle for new widgets. cross platform, ...
+effective. css supporz in wt widgets
+but can be comoute heavy. after prototyping review
+efficient: implment own style
 
 
-TBC
+mmmmmmmm
+
+
+change i was afraid of that - kevin henney
+
+even english alnguages changes, just lacks the version number
+sandman neil gaiman - brief lives
+how do you know time is hapoening? change
+humans are allergic to change, grace hopper
+aechitectuee reprwenrs the significant desing decisions thwt shape.the form.and rhe function a system - grady booch
+a view of the architecure. not.the architecruee. 
+drawing air is architecture. because not a small.change
+measuremnrts ib costs, time and pain
+“cpp developers are unique in their tolerance to pain“ 🤣
+97 thungs evrysoftware architecture should know
+simplicity before genrrality
+a4chitecure changes. scales to.humans
+half life of code quite high. see winxp
+code has no.decay. does not rot. 
+maintenance is fixing wear ant ear. not fiying bugs. this has been there always. perform an ootimization
+look at it from a higger context. do it with focus.
+definitikn of focus. ignode everything else
+features ar emode ofnstfwar.e software modr of code. so comoany suceces is based on code. therefoee they should focus else they lose money
+managingndebt..total control. not intrinsically a problem.
+unmanaged debtm.thats theprovlem.
+the handling of the debt is the question.
+technical neglect
+cant pint to the abscene of change. just pointing to the chnage is possible
+dependency steucture for security
+## issues:
+not refactoring before change. big problem..prepare the space!
+not refactoring change.
+not testing. aboid breaking peoples assumptions.
+not reviweing code.
+not recoeding decisions.
+not revisiting decisions.
+not updating technology. to draw from a large portion of the population. and chatgpt has been trained up on.
+
+-------
+
+from code to influence - jonathan courtois
+* how to becoke a leader without becoming a manager
+* aince 2010 freelance developer, studied many diffenrt industry sectors
+* tech lead, architect, solver, right hand: see photo
+* does the title.matter: yes..because it will.give you credibility, unlocks you the room, comoensation boost, role teansition, confery autbority, but lasting inoact is derived from aproach an skill
+* strategies for success: operating at the staff level
+* learning curve: slow feedback loop, strategix work over instantious gratifixatiin of coding
+* prioritze your impact
+* strategy crafting
+mentoship and growth, shift focus from.orovubg personal capabilotx to empowering and geowing rhe team
+diverse networking: talk to people inside the company learn from.the departments
+recommendation lead dev.com good starting ooint. 4. to 5.12..2023.
+also.teo.book recooemndations
+slack channel for free as well
+todo check leaddev
+check his linkedin
+heavy advertisement for sky as company
+
+-----
+
+mathematical.segue
+delivering eqyland and Qt
+plan is to have 60 fps
+wayland wuit abstract
+mercedes does jotmproduce content
+hard to ask netflix to adpt their drm.apps to mercedes ui
+maximizing the potential.of qt by running sStemui and compoaitor in one proxess
+stability risks
+
+----
+qt academy
+before missing bigger picture..18 months
+put.limited amoubtof content and made some.prototype. would it work? surpassed the expectations. in 4.onths results..wrnt all.in
+badges, can do eebinars, also.partner content
+scythe studio and kdab added content as well
+toso: check the qt cmqke course 
+sponsored learning path?
+more pedagocial.understanding
+also: working eith real.life examples
+
+why do you see a career in teh worth pursuing.
+mathrmsticians, prigeammers, coders ctos
+
+the ceo of FYI
+
+if you want to.solve problems on the highest level..aply.yourself.to the language, coding or protocol
+
+dreamers,ideators have the task.to.do great things
+
+
+----
+andreas aal
+optimized hardware software cod design
+
+ingegration of ux into the codesign
+
+digital twins enalbe vr expeirnce at any priject stage
+
+canrun algirthms.eespecialy for.autonomous driving on a design, which is not even produced..arm baeed, ip.protected architecture..
+goos.for.measurement of poeer consumption
+
+mmmmmmmmmmm
+is.sodtware.making the luves of developers easier?
+
+genai
+kevlin: you made youeself a legacy maintainrr. because you have not lead the devdlopment, unknown defects are hidden
+not good.cuktuee to vreate good tools.for developers
+observe how developers use.git?
+is it designed as a consunable product?
+
+people.are doing things they can check..emials, write.text, convwrt code..good uae xases.because check ablr
+
+but what about taking code from.stack oveflow and then xonvert into unknown language, no clue how to Debug. dangerous
+
+can we.check the rsult..do.we habe enough time.to.check the result?
+
+discussuon rotated much around the usage of genrrwtive ai.
+
+and accountability.
+gwt better by repetition..by ubdersranding. once you habedone you can automste.the stuff
+
+no genrations of  who used genAi
+you cant engineer yourself.out of a cuktural problem..volker
+
+the tools.facilitate something.
