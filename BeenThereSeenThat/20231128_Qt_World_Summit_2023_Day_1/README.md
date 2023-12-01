@@ -1,6 +1,8 @@
-# 20231127 Qt World Summit 2023 - Day 1
+# 20231128 Qt World Summit 2023 - Day 1
 
-kate gregory - am.i a good.programme
+----------------
+
+kate gregory - am.i a good.programmer
 wants to be a good programmer
 
 people.fulled with doubt and worry
@@ -48,8 +50,8 @@ the real.key: enkoying it, do you like writing code?
 does this person enjoy programming? second part: doing it in theirnfreee time? would you even donitnwhen you won the lottery?
 * emotions in code?
 
+----------------
 
------
 data proxessing
 2.8 gbyte/s 160 ms.e to e delay
 identifying the right partnerships.is key
@@ -58,7 +60,7 @@ mix.of qt3d and opengl
 want to.bzild the futrue.of cardio imaging
 direct transfer betwern the 3 gpu. share textures. get everythingnreally.effixiently to screen
 
-mmmmmm
+----------------
 
 markomklementti , eficode - dev ops pipeline
 strongpoint for ci/cd
@@ -78,7 +80,7 @@ automated test coverage
 cost of delay
 ratio of.modular dependencies
 
-mmmmmm
+----------------
 
 qt will.continue to support steongly cross platform
 os versions release and qt timeline for feature freeze have thrmnin mind
@@ -111,9 +113,7 @@ effective. css supporz in wt widgets
 but can be comoute heavy. after prototyping review
 efficient: implment own style
 
-
-mmmmmmmm
-
+----------------
 
 change i was afraid of that - kevin henney
 
@@ -150,7 +150,7 @@ not recoeding decisions.
 not revisiting decisions.
 not updating technology. to draw from a large portion of the population. and chatgpt has been trained up on.
 
--------
+----------------
 
 from code to influence - jonathan courtois
 * how to becoke a leader without becoming a manager
@@ -170,7 +170,7 @@ todo check leaddev
 check his linkedin
 heavy advertisement for sky as company
 
------
+----------------
 
 mathematical.segue
 delivering eqyland and Qt
@@ -181,7 +181,8 @@ hard to ask netflix to adpt their drm.apps to mercedes ui
 maximizing the potential.of qt by running sStemui and compoaitor in one proxess
 stability risks
 
-----
+----------------
+
 qt academy
 before missing bigger picture..18 months
 put.limited amoubtof content and made some.prototype. would it work? surpassed the expectations. in 4.onths results..wrnt all.in
@@ -202,7 +203,8 @@ if you want to.solve problems on the highest level..aply.yourself.to the languag
 dreamers,ideators have the task.to.do great things
 
 
-----
+----------------
+
 andreas aal
 optimized hardware software cod design
 
@@ -213,7 +215,8 @@ digital twins enalbe vr expeirnce at any priject stage
 canrun algirthms.eespecialy for.autonomous driving on a design, which is not even produced..arm baeed, ip.protected architecture..
 goos.for.measurement of poeer consumption
 
-mmmmmmmmmmm
+----------------
+
 is.sodtware.making the luves of developers easier?
 
 genai
