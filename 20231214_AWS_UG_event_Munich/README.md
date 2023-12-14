@@ -70,4 +70,21 @@
 * Werner Vogel: You build it, you run it. Expanded with "you pay for it" - by victor
 * billing and cost management combined n one account
 * also: AWS cost optimization hub
-*
+* AWS free tier usage API: enable budget limits to prevent overspending
+* programmatically track free tier usage against monthly usage limits
+* lots of EC2 isntances: more than 700
+* graviton4: R8g instances for EC2
+* 30% faster than graviton3 .. and more sustainable
+* also: AWS Trainium2: purpose-built chip for generative AI and ML training; coming in 2024; 4 times faster than tRainium
+* EC2: P5e instances: based on nvidia H200 tensor core GPUs
+
+### AWS application composer in VS code: drag and drop and connect AWS ressources using visual studio
+* TODO: try this out
+* just drag the blocks and it adds the configuration!
+
+* create cloud formation based on git(hub)
+* AWS SDKs for Rust and Kotlin
+* Amazon SageMaker Studo Code Editor
+* Amazon CodeCatalyst
+* Amazon cloudwatch infrequent access class: half the price than lowest tier until now; best suited fr logs that require infrequent querying, e.g. for forensic analysis
+* Amazon CloudWatc Application Signals: like "Golden signals"
