@@ -26,9 +26,10 @@ Maybe just do baremetal-cloning.
 * check the history of each ticket when it got the "Update3"-tag assigned
 * create a graph or structured outout in the form of "date0: ticket1, ticket2, ..; date1: ticket3, ticket; .."
 
+## outlook connector: pull information feom calenser or a person or group, then display as output
+* started implementation but frozen due to missing PAT (personal access token) because my current organisation does not allow to create one within their domain, and I have no personal Office365-accoutn which I could use otherwise
+
 ---------
 
-* outlook cobnector: pull information feom calenser or a person or group, then display as output
-* ml idea: recognition of movemwnt luke weight lifting, etc..what would sensor fusion do?
-
-
+* edgeML idea: recognition of lovement luke weight lifting, etc..what would sensor fusion do?
+* diary cutter: separates the given entries into specific files based on month and creates proper directory/file-stucture; needs proper unit-test-coverage, because loss of information is not acceptable
