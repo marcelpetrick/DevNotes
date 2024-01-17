@@ -18,18 +18,20 @@ Should be quite easy due to missing authentication.
 Jk, idea is to create a script which retrieves the list of all _my_ (publicly) available git(hub) repositories and then clones them to a specific path. Just to have a local backup.  
 I don't want to to this manually for all repos manually.  
 Maybe just do baremetal-cloning.  
-**Implemented:** https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOfAllGits
+Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOfAllGits  
+**Fixed and improved version which handles private repos as well:** https://github.com/marcelpetrick/codingWithGPT/tree/master/motherOfAllGitsV2
 
 ## python-api-access of Azure DevOps
 * authentificate
 * get all tickets with certain tag (just like usual query)
 * check the history of each ticket when it got the "Update3"-tag assigned
 * create a graph or structured outout in the form of "date0: ticket1, ticket2, ..; date1: ticket3, ticket; .."
+* **Implemented:** https://github.com/marcelpetrick/codingWithGPT/tree/master/azureDevOpsTools
 
 ## outlook connector: pull information feom calenser or a person or group, then display as output
 * started implementation but frozen due to missing PAT (personal access token) because my current organisation does not allow to create one within their domain, and I have no personal Office365-accoutn which I could use otherwise
 
 ---------
 
-* edgeML idea: recognition of lovement luke weight lifting, etc..what would sensor fusion do?
+* edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
 * diary cutter: separates the given entries into specific files based on month and creates proper directory/file-stucture; needs proper unit-test-coverage, because loss of information is not acceptable
