@@ -42,12 +42,12 @@ AGENDA:
 * Sentiment analysis, translation, summarization, named entity recognition, classification, question answering, text generation
 * There are so many cool things you could do within your application...
 
-* History of NLP:
-  * The journey starts in the 80s: RNN, LSTM, classic methods, Markov chains (super interesting concepts)
-  * Looked cool, did not work: Everything changed when the fire nation attacked... 2017 transformers were proposed
-  * NLP was doable and also fast: 2018 brought BERT as a foundational model
-  * 2020 GPT-3: end of 2022 ChatGPT: lots of people understood what it can do then everything took off
-  TODO: img of Pablo pointing towards the timeline
+  * History of NLP:
+    * The journey starts in the 80s: RNN, LSTM, classic methods, Markov chains (super interesting concepts)
+    * Looked cool, did not work: Everything changed when the fire nation attacked... 2017 transformers were proposed
+    * NLP was doable and also fast: 2018 brought BERT as a foundational model
+    * 2020 GPT-3: end of 2022 ChatGPT: lots of people understood what it can do then everything took off
+    TODO: img of Pablo pointing towards the timeline
 
 ### NLP nowadays
 * Check: article llm-privacy.org
@@ -112,9 +112,9 @@ TODO image of the chatbot architecture
   * Not necessarily needed in production
 * In September, it was not very well adapted for AWS Bedrock, so using the raw endpoints would have been better; but this is just a hindsight
 
-* 2nd talk will be replaced with a lightning talk due to missing Richard from AWS
+* note: the 2nd talk will be replaced with a lightning talk due to missing Richard from AWS
 
-# 2nd Talk: How We Made Document Processing 955% Faster with GenAI -  Matheus Jacques  (from Netlight)
+# 2nd Talk: How We Made Document Processing 95% Faster with GenAI - Matheus Jacques  (from Netlight)
 * 1h preparation only for the talk
 * Motivation & scope: AWS fast start client
 * Five weeks for the PoC. Goal: Client insurance company trying to optimize the process
