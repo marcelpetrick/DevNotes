@@ -20,61 +20,62 @@ Schedule
 ~20:30 -- Open Discussions
 22:00 -- Official End
 ```
-## organi computing - luis hohman
-* the futre of embedded systems ..
-* motivation: increasing complexty, Moore's law .. integrated circruits increase b factor of 2 every 2 years
-* todo img of him speaking
-* engineering embedded systems on ways observed in nature: self-oranization
-* example: ant colony: self-cnfiguration, self-optimization, self-healing, self-protection -- self-X properties
-* organic computing as systems science, paradigm shift
-* "move design time decision tun run time"
-* arfificatl hormone ytem circulatory system; core c1 -c2 - c3
-* if core c3 crashes, task4 cnat be finished: artificial hormones
 
-## c++ patterns for non saftey ... - antons jelkins
+## Organic Computing - Luis Hohman
+* The future of embedded systems
+* Motivation: Increasing complexity, Moore's Law - integrated circuits increase by a factor of 2 every 2 years
+* TODO: Image of him speaking
+* Engineering embedded systems in ways observed in nature: self-organization
+* Example: Ant colony - self-configuration, self-optimization, self-healing, self-protection -- self-X properties
+* Organic computing as systems science, paradigm shift
+* "Move design time decision to run time"
+* Artificial hormone system, circulatory system; core C1 - C2 - C3
+* If core C3 crashes, Task4 can't be finished: artificial hormones
+
+## C++ Patterns for Non-Safety Critical Systems - Antons Jelkins
 * 2024 work on remote software update
-* principal engineer - staff sofware engineer for bigger it-tech companies
-* what is automotive software: low lvel, safety critical (intrumetn clusters, autonomous driving stack), misra, Autosar
-* cars are complex dynamic, hevily asnchronous and nterconnected osftware systems
-* cares are in a constant communication with the cloud
-* the nature of these interactions is highly asynchronous
-+ cars constif of many interconnected ECUs (electronic control untis)
-* many ecus run Linux
-* interconnected applications:
-  * each ECUs runs multiple applications
- * tey interact withother applcaitions
- * on the same ECU, on other ECUs, ofboard services
-* separation into two major classes split: safety critical and non safety critical
-* can harm people and prpoerty, and has much stricter, c++11 or maybe 144, uite limited, no dynamic memory allocation
-* non saftey critcal: c++17 or 20, mostly iobound, implements some bmw specific busines logic
-  * most of the time, waits until something happens
-  * examples: infotainment, navigation, speech, augmented reality, time temperature, light, system infrastruture, software update
+* Principal engineer - Staff software engineer for bigger IT-tech companies
+* What is automotive software: Low-level, safety-critical (instrument clusters, autonomous driving stack), MISRA, AUTOSAR
+* Cars are complex, dynamic, heavily asynchronous, and interconnected software systems
+* Cars are in constant communication with the cloud
+* The nature of these interactions is highly asynchronous
++ Cars consist of many interconnected ECUs (Electronic Control Units)
+* Many ECUs run Linux
+* Interconnected applications:
+  * Each ECU runs multiple applications
+  * They interact with other applications
+  * On the same ECU, on other ECUs, off-board services
+* Separation into two major classes: safety-critical and non-safety-critical
+* Can harm people and property, and has much stricter, C++11 or maybe 14, quite limited, no dynamic memory allocation
+* Non-safety-critical: C++17 or 20, mostly IO-bound, implements some BMW-specific business logic
+  * Most of the time, waits until something happens
+  * Examples: Infotainment, navigation, speech, augmented reality, time, temperature, light, system infrastructure, software update
 
-### their c++ application framework
-* common problems:
-    * doing asynchronous software righ is hard
-    * no industry standard to do it
-    * risk that teams would reinvent the wheel
-    * people onboarding and communicarion; each team an isolated island, because they can't communicate
-* its in everyone best interest to solve a prolblem really well once and then adopt the solution
-* this helps team to focus on business logic
-* common instructions, shes how (todo add from photo)
-* design goals: car's software is still embedded software, cant deploy a quick fix to production. costs of software errors are high. this affects design decisions
-* no scaling vertically or horizontally: prioritize, robustness, easy to use APIs, hard to misuse APIs; make it harder to make a mistake; mitigate asynchronous programming difficulties
-* framework consits of two distinct parts
-*business agnostic code
-* built on top of the standrd c++ to support our needs
-and also business specific code: specific bmw behaviour
-* execution flow: applications are primiayl single threaded, yet asynchronous; if necessary use worker threads
-* asyncrhony via event loops and concept of executors
-* each thread runs a specialized version of event loop: executable tasks
-* anyone can enque thread-safely a task
-* tasks run in sequentce
-* not mutexes, no synchroisation needed
-* threads do nt comunicate directly
-* executores represent an event loop of a specific thread: treadsafe way to post taks to be exected
-* managing oject lifetimes is hard: especially with async systems
-* execution context similar to lifetime of various entry
-* context binds callables (lambda) to the object; the lambda becomes a no-op; ths prevents problems
-* naive approach fr callbacks: to use callbacks
-* vin number: some car identificiation
+### BMW's C++ Application Framework
+* Common problems:
+    * Doing asynchronous software right is hard
+    * No industry standard to do it
+    * Risk that teams would reinvent the wheel
+    * People onboarding and communication; each team an isolated island, because they can't communicate
+* It's in everyone's best interest to solve a problem really well once and then adopt the solution
+* This helps teams to focus on business logic
+* Common instructions, shows how (TODO: Add from photo)
+* Design goals: Car's software is still embedded software, can't deploy a quick fix to production. Costs of software errors are high. This affects design decisions
+* No scaling vertically or horizontally: prioritize robustness, easy-to-use APIs, hard to misuse APIs; make it harder to make a mistake; mitigate asynchronous programming difficulties
+* Framework consists of two distinct parts
+* Business-agnostic code
+* Built on top of the standard C++ to support our needs
+* And also business-specific code: specific BMW behavior
+* Execution flow: Applications are primarily single-threaded, yet asynchronous; if necessary, use worker threads
+* Asynchrony via event loops and concept of executors
+* Each thread runs a specialized version of event loop: executable tasks
+* Anyone can enqueue thread-safely a task
+* Tasks run in sequence
+* No mutexes, no synchronization needed
+* Threads do not communicate directly
+* Executors represent an event loop of a specific thread: threadsafe way to post tasks to be executed
+* Managing object lifetimes is hard, especially with async systems
+* Execution context similar to the lifetime of various entries
+* Context binds callables (lambda) to the object; the lambda becomes a no-op; this prevents problems
+* Naive approach for callbacks: to use callbacks
+* VIN number: Some car identification <-- check: Clarify meaning or context of 'VIN number' mention
