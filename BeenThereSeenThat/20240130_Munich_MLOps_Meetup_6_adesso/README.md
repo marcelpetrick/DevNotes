@@ -47,4 +47,38 @@ Looking forward to your RSVPs and to meeting you there!
 Keep on hacking!🤩🤩🤩
 ```
 
-TBC
+# isabella GEiß
+* adessor on f the leading  I service providers in germany
+** project management  officer
+
+## saumya - leveraging opensource tools (todo check the agenda for correct name)
+*leveraging OSS tools for advanced ML pipelines
+* MLops engineer from some consultancy extends service to BSH home appliances group
+* regular conference speaker
+* part time lectuer at macromedia hochschule
+* msc informatics TUM
+* AWS certified solutins architect
+  * all quite impresive
+* comes from DAtamics: helps audio, bmw, bsh, dailmer, vodafone - create content on udemy
+* talks at ML convered and pydata; she mentioned rene brunner as well
+### why oss tools?
+* labelstudio
+* fifty one
+* it costs nothing, until and unless you wish to experinece entreprise version, deplyoing exlcusivfeatures, require extensive support
+* excellent capabilities to customiue ad fixx: ad plugins, augment feautres, fix bugs
+* no misue of data
+* fulfillsthe technical demands
+* allows to become creative with code
+avoid becoming a code monkey
+requires a dedicated techinal understanding
+* some sophsiticated tools: data exploration and ..
+TODO add img from phone with the tools
+### label studio
+* labelling tool: mutliple projects, users and data types
+* supports images, video, audio, time series, formats
+* supported format: JSOn CSV, TXT ... cloud support as well for AWS, gPC, azure
+* integrates wellmitMl models tosupply predictions for label or perform continuous active learnin
+* highly cutomisable interface
+* intuitive desing
+* well documented
+*
