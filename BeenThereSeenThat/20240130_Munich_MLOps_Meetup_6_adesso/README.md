@@ -81,4 +81,38 @@ TODO add img from phone with the tools
 * highly cutomisable interface
 * intuitive desing
 * well documented
-*
+* she recommends this tool really much
+* look and fell: cloudflare, nvidia, meta use this ..
+* labelling configuration is done via XML: object, control, visual
+* can be set up wit one Compute, one Store and one ostgreSQL item n AWS forisntance
+  * can also be put into docker, or be replaced with local installations
+## next tool: (Voxel) FiftyOne
+* for CV tasks
+* tool for building high quality datassts and CV models
+visualize datasheets and interpret models
+core features: curating datasets, identify possible label mistakes in your datasets, evaluatiog models, embeddings visualzations, working wiht geolocations: storng, visualizing, querying datasets by location+
+* powerful plugin framewok for extending and customizing the functionality of the tols#ailityto orchestrate tasks wiith apache airflow, etc.
+* used by MS, lego, ..
+* opensource version allows only local dataset, closed one has remote data storage/usage
+* feature: FiftyOne Brain: finding problems
+TODO add img of the example
+* standard workflow: load dataset intoremote machine, launc fiftyone remote sessions, ssh into this remote server - cn be restricted to a particualr ip/host
+* allows also usage with notebooks (juypter)
+
+## how to integrate labelstudio and fityone?
+* proposed workflow: raw daa -> visualize and curate dataset -> send it for labelling -> receive the labelled data ->
+TODO add image for the workflow
+TODO image of the archivetcure for AWS
+* possible to put both configs into one EC2; but better searate, because labellers and data scientists are different
+
+## plug and play: your call
+* understand the needs of your data scientists and their roadblocks - communicate
+* explore teh plethora of tools available in the OSS world
+* new tools are released often - find your flavor
+* find the tools which have room for customization
+* example: add custom plugin in fiftyone (very well documentesd process for directed creativitiy)
+* save some money* dont stick to one tool forever
+* avoid vendor lockin by desgning your architecture like lego
+* contribute to the open source communicaty, beceause you can
+
+
