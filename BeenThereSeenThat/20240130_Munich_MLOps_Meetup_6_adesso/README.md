@@ -115,4 +115,74 @@ TODO image of the archivetcure for AWS
 * avoid vendor lockin by desgning your architecture like lego
 * contribute to the open source communicaty, beceause you can
 
+# second talk - MemeGPT (TODO add proper title from agenda)
+* Stefan Ojanen - Director of product management at Genesis Cloud
+* how to create memes with LLMs
+* unleashing huor with ai
+* largest database for memes: imgflip.com
+* roadmap for memGPT
+* training on different sets of powerful hardware: 8x nvidia H110 versus 8x Intel Gaudi2 AI
+* his third startup he is working at: has already some exit plans
+* chatgpt has problems to understand memes,
+* paper: Dank Learning: generating memes using deep neural networks
+* based on LSTMs - already way back the idea, before transformers
 
+### attention is not all you need, daa is what you need - imgflip.com
+* where to get data? imgflig, 650k mem templates
+* mailed the founder: 40 million individula user created memes
+### brief hsitory of LLMs
+* word2vec (2013) -> LSTM (RNN) 1997--2017> transformers 2017
+ - -> Hyena &Mmba (2023 -)* google translate is for instance google translate, or alexa
+* so mamba is a good competitor
+
+## why do mems mater?
+* fac:t: 49% of americans dont understand irony
+* humor harder than any business case
+* humor: sarcasm/irony
+* contextuality
+* subjectivity
+* linguistic nuances
+
+### can robots crack ajjoke? july 2023
+* memes are multimodal
+* Meme drift - Cosimo Iaia - personal friedn
+* memes incorporate cultural drift (evolution) much fast than expressions and word in language
+
+### sampling
+* lots of work dealing iwht teh data, not work with the model
+* 256 most common templates; only english memes; on dataset for the metadata for 650k templates, 40 mio invidiual mems
+* data looked prety nasty into something nicely looking stuff
+* readable sturcutre -> huging face format
+
+### roadmap
+* model development -> concept -> POC -> release candidate -> final model -> multimodal model
+* model servin, GC internal K8s + Triton, imgflip.com
+* some small OSS LLMS they tried: stable-lm, redpajama, eleutherAI/pythia-2.8b
+## implementation
+* they offer theigr high end short term test platform for 2$/hr starting with february
+* llama2-70b: parameter-effficient fine-tuning using LoRa adapters
+* recommended reading ram efficient pytorch
+TODO add img about the drake meme
+* fine-tuning an LLM: by showing examples ofwhat you expect; to affect the beahviour of the model, ossible wiht releaitvely little data
+* 16h for one tuning run
+
+## what is Lora: low rank adapatio pf large langue models
+* take a fozen model with its parameters, change matrix= lora updated paameters
+* Gaudi2 looks like the real contender against the H100
+* some explanes form the llama2-70b
+* what is the treshold for "Large"?
+
+### recent developments and why to do it yourself
+* while openai is still working on understanding memes, we are already creating them -> just do it yourself!
+* why?
+  * mantain full control
+  * no external dependencies
+  * tooling widely available
+* al the used code is boilerplate stuff, nothing really fancy - his words
+* special thanks from him to: dylan wenzlau, the founder of imglfip.com; maroune khouk is the AI evangelist; stefan ojanen is the director of product managemnt
+* how powerful the machine is neded to make the machine: similar to the finetuning machine
+* is this model used in day to day? not yet, lan to ntegrate and offer API to imgflip
+* RAG: not used here, idea is to be totally in model - not retrieved
+* book "thinking fast and slow": the llm is a fast brain; how to make it more thoughful: chain of reasining, RAG, ..
+  * RAG is deucing hallucinations; but for memes you don't want to mimic. the mdel should generalize and geenrate completyl new content!
+* yes, they used a good ra, when everyone is fighting for machines
