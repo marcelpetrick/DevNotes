@@ -47,142 +47,144 @@ Looking forward to your RSVPs and to meeting you there!
 Keep on hacking!🤩🤩🤩
 ```
 
-# isabella GEiß
-* adessor on f the leading  I service providers in germany
-** project management  officer
+# Isabella Geiß
+* adesso the leading provider for IT services in Germany
+* Project Management Officer usually and today the host
 
-## saumya - leveraging opensource tools (todo check the agenda for correct name)
-*leveraging OSS tools for advanced ML pipelines
-* MLops engineer from some consultancy extends service to BSH home appliances group
-* regular conference speaker
-* part time lectuer at macromedia hochschule
-* msc informatics TUM
-* AWS certified solutins architect
-  * all quite impresive
-* comes from DAtamics: helps audio, bmw, bsh, dailmer, vodafone - create content on udemy
-* talks at ML convered and pydata; she mentioned rene brunner as well
-### why oss tools?
-* labelstudio
-* fifty one
-* it costs nothing, until and unless you wish to experinece entreprise version, deplyoing exlcusivfeatures, require extensive support
-* excellent capabilities to customiue ad fixx: ad plugins, augment feautres, fix bugs
-* no misue of data
-* fulfillsthe technical demands
-* allows to become creative with code
-avoid becoming a code monkey
-requires a dedicated techinal understanding
-* some sophsiticated tools: data exploration and ..
-TODO add img from phone with the tools
-### label studio
-* labelling tool: mutliple projects, users and data types
-* supports images, video, audio, time series, formats
-* supported format: JSOn CSV, TXT ... cloud support as well for AWS, gPC, azure
-* integrates wellmitMl models tosupply predictions for label or perform continuous active learnin
-* highly cutomisable interface
-* intuitive desing
-* well documented
-* she recommends this tool really much
-* look and fell: cloudflare, nvidia, meta use this ..
-* labelling configuration is done via XML: object, control, visual
-* can be set up wit one Compute, one Store and one ostgreSQL item n AWS forisntance
-  * can also be put into docker, or be replaced with local installations
-## next tool: (Voxel) FiftyOne
-* for CV tasks
-* tool for building high quality datassts and CV models
-visualize datasheets and interpret models
-core features: curating datasets, identify possible label mistakes in your datasets, evaluatiog models, embeddings visualzations, working wiht geolocations: storng, visualizing, querying datasets by location+
-* powerful plugin framewok for extending and customizing the functionality of the tols#ailityto orchestrate tasks wiith apache airflow, etc.
-* used by MS, lego, ..
-* opensource version allows only local dataset, closed one has remote data storage/usage
-* feature: FiftyOne Brain: finding problems
-TODO add img of the example
-* standard workflow: load dataset intoremote machine, launc fiftyone remote sessions, ssh into this remote server - cn be restricted to a particualr ip/host
-* allows also usage with notebooks (juypter)
+## Saumya - Leveraging Open-Source Tools (todo: check the agenda for correct name) <-- check: Saumya Goyal
+* Leveraging OSS tools for advanced ML pipelines
+* MLOps engineer from some consultancy extends service to BSH Home Appliances Group
+* Regular conference speaker
+* Part-time lecturer at Macromedia Hochschule
+* MSc Informatics TUM
+* AWS Certified Solutions Architect
+  * All quite impressive
+* Comes from Datamics: helps Audi, BMW, BSH, Daimler, Vodafone - create content on Udemy
+* Talks at ML Convered and PyData; she mentioned Rene Brunner as well
+### Why OSS Tools?
+* LabelStudio
+* FiftyOne
+* It costs nothing, until and unless you wish to experience enterprise version, deploying exclusive features, require extensive support
+* Excellent capabilities to customize and fix: add plugins, augment features, fix bugs
+* No misuse of data
+* Fulfills the technical demands
+* Allows to become creative with code
+* Avoid becoming a code monkey
+* Requires a dedicated technical understanding
+* Some sophisticated tools: data exploration and ... <-- check: additional tools
+TODO: add image from phone with the tools
+### Label Studio
+* Labeling tool: multiple projects, users, and data types
+* Supports images, video, audio, time series, formats
+* Supported format: JSON, CSV, TXT ... Cloud support as well for AWS, GCP, Azure
+* Integrates well with ML models to supply predictions for label or perform continuous active learning
+* Highly customizable interface
+* Intuitive design
+* Well documented
+* She recommends this tool really much
+* Look and feel: Cloudflare, NVIDIA, Meta use this ...
+* Labeling configuration is done via XML: object, control, visual
+* Can be set up with one Compute, one Store, and one PostgreSQL item on AWS for instance
+  * Can also be put into Docker, or be replaced with local installations
+## Next Tool: (Voxel) FiftyOne
+* For CV tasks
+* Tool for building high-quality datasets and CV models
+* Visualize datasheets and interpret models
+* Core features: curating datasets, identifying possible label mistakes in your datasets, evaluating models, embeddings visualizations, working with geolocations: storing, visualizing, querying datasets by location
+* Powerful plugin framework for extending and customizing the functionality of the tools
+* Ability to orchestrate tasks with Apache Airflow, etc.
+* Used by MS, LEGO, ...
+* Open-source version allows only local dataset, closed one has remote data storage/usage
+* Feature: FiftyOne Brain: finding problems
+TODO: add image of the example
+* Standard workflow: load dataset into remote machine, launch FiftyOne remote sessions, SSH into this remote server - can be restricted to a particular IP/host
+* Allows also usage with notebooks (Jupyter)
 
-## how to integrate labelstudio and fityone?
-* proposed workflow: raw daa -> visualize and curate dataset -> send it for labelling -> receive the labelled data ->
-TODO add image for the workflow
-TODO image of the archivetcure for AWS
-* possible to put both configs into one EC2; but better searate, because labellers and data scientists are different
+## How to Integrate LabelStudio and FiftyOne?
+* Proposed workflow: raw data -> visualize and curate dataset -> send it for labeling -> receive the labeled data ->
+TODO: add image for the workflow
+TODO: image of the architecture for AWS
+* Possible to put both configs into one EC2; but better separate, because labelers and data scientists are different
 
-## plug and play: your call
-* understand the needs of your data scientists and their roadblocks - communicate
-* explore teh plethora of tools available in the OSS world
-* new tools are released often - find your flavor
-* find the tools which have room for customization
-* example: add custom plugin in fiftyone (very well documentesd process for directed creativitiy)
-* save some money* dont stick to one tool forever
-* avoid vendor lockin by desgning your architecture like lego
-* contribute to the open source communicaty, beceause you can
+## Plug and Play: Your Call
+* Understand the needs of your data scientists and their roadblocks - communicate
+* Explore the plethora of tools available in the OSS world
+* New tools are released often - find your flavor
+* Find the tools which have room for customization
+* Example: add custom plugin in FiftyOne (very well documented process for directed creativity)
+* Save some money
+* Don't stick to one tool forever
+* Avoid vendor lock-in by designing your architecture like LEGO
+* Contribute to the open-source community, because you can
 
-# second talk - MemeGPT (TODO add proper title from agenda)
-* Stefan Ojanen - Director of product management at Genesis Cloud
-* how to create memes with LLMs
-* unleashing huor with ai
-* largest database for memes: imgflip.com
-* roadmap for memGPT
-* training on different sets of powerful hardware: 8x nvidia H110 versus 8x Intel Gaudi2 AI
-* his third startup he is working at: has already some exit plans
-* chatgpt has problems to understand memes,
-* paper: Dank Learning: generating memes using deep neural networks
-* based on LSTMs - already way back the idea, before transformers
+# Second Talk - MemeGPT (TODO: add proper title from agenda) <-- check: Unleashing Humor with AI: MemeGPT
+* Stefan Ojanen - Director of Product Management at Genesis Cloud
+* How to create memes with LLMs
+* Unleashing humor with AI
+* Largest database for memes: imgflip.com
+* Roadmap for MemeGPT
+* Training on different sets of powerful hardware: 8x NVIDIA H110 versus 8x Intel Gaudi2 AI
+* His third startup he is working at: has already some exit plans
+* ChatGPT has problems understanding memes
+* Paper: Dank Learning: Generating Memes Using Deep Neural Networks
+* Based on LSTMs - already way back the idea, before transformers
 
-### attention is not all you need, daa is what you need - imgflip.com
-* where to get data? imgflig, 650k mem templates
-* mailed the founder: 40 million individula user created memes
-### brief hsitory of LLMs
-* word2vec (2013) -> LSTM (RNN) 1997--2017> transformers 2017
- - -> Hyena &Mmba (2023 -)* google translate is for instance google translate, or alexa
-* so mamba is a good competitor
+### Attention is Not All You Need, Data is What You Need - imgflip.com
+* Where to get data? Imgflip, 650k meme templates
+* Mailed the founder: 40 million individual user-created memes
+### Brief History of LLMs
+* Word2Vec (2013) -> LSTM (RNN) 1997--2017 > Transformers 2017
+ - -> Hyena & Mamba (2023 -) * Google Translate is for instance Google Translate, or Alexa
+* So Mamba is a good competitor
 
-## why do mems mater?
-* fac:t: 49% of americans dont understand irony
-* humor harder than any business case
-* humor: sarcasm/irony
-* contextuality
-* subjectivity
-* linguistic nuances
+## Why Do Memes Matter?
+* Fact: 49% of Americans don't understand irony
+* Humor harder than any business case
+* Humor: sarcasm/irony
+* Contextuality
+* Subjectivity
+* Linguistic nuances
 
-### can robots crack ajjoke? july 2023
-* memes are multimodal
-* Meme drift - Cosimo Iaia - personal friedn
-* memes incorporate cultural drift (evolution) much fast than expressions and word in language
+### Can Robots Crack a Joke? July 2023
+* Memes are multimodal
+* Meme Drift - Cosimo Iaia - personal friend
+* Memes incorporate cultural drift (evolution) much faster than expressions and words in language
 
-### sampling
-* lots of work dealing iwht teh data, not work with the model
-* 256 most common templates; only english memes; on dataset for the metadata for 650k templates, 40 mio invidiual mems
-* data looked prety nasty into something nicely looking stuff
-* readable sturcutre -> huging face format
+### Sampling
+* Lots of work dealing with the data, not work with the model
+* 256 most common templates; only English memes; one dataset for the metadata for 650k templates, 40 million individual memes
+* Data looked pretty nasty into something nicely looking stuff
+* Readable structure -> Hugging Face format
 
-### roadmap
-* model development -> concept -> POC -> release candidate -> final model -> multimodal model
-* model servin, GC internal K8s + Triton, imgflip.com
-* some small OSS LLMS they tried: stable-lm, redpajama, eleutherAI/pythia-2.8b
-## implementation
-* they offer theigr high end short term test platform for 2$/hr starting with february
-* llama2-70b: parameter-effficient fine-tuning using LoRa adapters
-* recommended reading ram efficient pytorch
-TODO add img about the drake meme
-* fine-tuning an LLM: by showing examples ofwhat you expect; to affect the beahviour of the model, ossible wiht releaitvely little data
+### Roadmap
+* Model development -> Concept -> POC -> Release candidate -> Final model -> Multimodal model
+* Model serving, GC internal K8s + Triton, imgflip.com
+* Some small OSS LLMs they tried: Stable-LM, RedPajama, EleutherAI/Pythia-2.8b
+## Implementation
+* They offer their high-end short-term test platform for $2/hr starting in February
+* Llama2-70b: parameter-efficient fine-tuning using LoRa adapters
+* Recommended reading: RAM efficient PyTorch
+TODO: add image about the Drake meme
+* Fine-tuning an LLM: by showing examples of what you expect; to affect the behavior of the model, possible with relatively little data
 * 16h for one tuning run
 
-## what is Lora: low rank adapatio pf large langue models
-* take a fozen model with its parameters, change matrix= lora updated paameters
+## What is LoRa: Low-Rank Adaptation of Large Language Models
+* Take a frozen model with its parameters, change matrix = LoRa updated parameters
 * Gaudi2 looks like the real contender against the H100
-* some explanes form the llama2-70b
-* what is the treshold for "Large"?
+* Some examples from the Llama2-70b
+* What is the threshold for "Large"?
 
-### recent developments and why to do it yourself
-* while openai is still working on understanding memes, we are already creating them -> just do it yourself!
-* why?
-  * mantain full control
-  * no external dependencies
-  * tooling widely available
-* al the used code is boilerplate stuff, nothing really fancy - his words
-* special thanks from him to: dylan wenzlau, the founder of imglfip.com; maroune khouk is the AI evangelist; stefan ojanen is the director of product managemnt
-* how powerful the machine is neded to make the machine: similar to the finetuning machine
-* is this model used in day to day? not yet, lan to ntegrate and offer API to imgflip
+### Recent Developments and Why to Do It Yourself
+* While OpenAI is still working on understanding memes, we are already creating them -> just do it yourself!
+* Why?
+  * Maintain full control
+  * No external dependencies
+  * Tooling widely available
+* All the used code is boilerplate stuff, nothing really fancy - his words
+* Special thanks from him to: Dylan Wenzlau, the founder of imgflip.com; Maroune Khouk is the AI evangelist; Stefan Ojanen is the Director of Product Management
+* How powerful the machine is needed to make the machine: similar to the fine-tuning machine
+* Is this model used in day-to-day? Not yet, plan to integrate and offer API to imgflip
 * RAG: not used here, idea is to be totally in model - not retrieved
-* book "thinking fast and slow": the llm is a fast brain; how to make it more thoughful: chain of reasining, RAG, ..
-  * RAG is deucing hallucinations; but for memes you don't want to mimic. the mdel should generalize and geenrate completyl new content!
-* yes, they used a good ra, when everyone is fighting for machines
+* Book "Thinking Fast and Slow": the LLM is a fast brain; how to make it more thoughtful: chain of reasoning, RAG, ..
+  * RAG is reducing hallucinations; but for memes you don't want to mimic. The model should generalize and generate completely new content!
+* Yes, they used a good RA, when everyone is fighting for machines
