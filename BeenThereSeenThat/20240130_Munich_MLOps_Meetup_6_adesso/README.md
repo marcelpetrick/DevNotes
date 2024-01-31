@@ -47,20 +47,18 @@ Looking forward to your RSVPs and to meeting you there!
 Keep on hacking!🤩🤩🤩
 ```
 
-# Isabella Geiß
+## Isabella Geiß
 * adesso the leading provider for IT services in Germany
 * Project Management Officer usually and today the host
 
-## Saumya - Leveraging Open-Source Tools (todo: check the agenda for correct name) <-- check: Saumya Goyal
+## Talk #1: Leveraging Open Source Tools for Advanced Machine Learning Pipelines - Saumya Goyal
 * Leveraging OSS tools for advanced ML pipelines
 * MLOps engineer from some consultancy extends service to BSH Home Appliances Group
-* Regular conference speaker
-* Part-time lecturer at Macromedia Hochschule
-* MSc Informatics TUM
-* AWS Certified Solutions Architect
-  * All quite impressive
+* Regular conference speaker; Part-time lecturer at Macromedia Hochschule; MSc Informatics TUM;  AWS Certified Solutions Architect
+  * all quite impressive
 * Comes from Datamics: helps Audi, BMW, BSH, Daimler, Vodafone - create content on Udemy
-* Talks at ML Convered and PyData; she mentioned Rene Brunner as well
+* Talks at ML Convered and PyData; she mentioned René Brunner as well
+
 ### Why OSS Tools?
 * LabelStudio
 * FiftyOne
@@ -73,6 +71,7 @@ Keep on hacking!🤩🤩🤩
 * Requires a dedicated technical understanding
 * Some sophisticated tools: data exploration and ... <-- check: additional tools
 TODO: add image from phone with the tools
+
 ### Label Studio
 * Labeling tool: multiple projects, users, and data types
 * Supports images, video, audio, time series, formats
@@ -86,6 +85,7 @@ TODO: add image from phone with the tools
 * Labeling configuration is done via XML: object, control, visual
 * Can be set up with one Compute, one Store, and one PostgreSQL item on AWS for instance
   * Can also be put into Docker, or be replaced with local installations
+
 ## Next Tool: (Voxel) FiftyOne
 * For CV tasks
 * Tool for building high-quality datasets and CV models
@@ -100,13 +100,13 @@ TODO: add image of the example
 * Standard workflow: load dataset into remote machine, launch FiftyOne remote sessions, SSH into this remote server - can be restricted to a particular IP/host
 * Allows also usage with notebooks (Jupyter)
 
-## How to Integrate LabelStudio and FiftyOne?
+### How to Integrate LabelStudio and FiftyOne?
 * Proposed workflow: raw data -> visualize and curate dataset -> send it for labeling -> receive the labeled data ->
 TODO: add image for the workflow
 TODO: image of the architecture for AWS
 * Possible to put both configs into one EC2; but better separate, because labelers and data scientists are different
 
-## Plug and Play: Your Call
+### Plug and Play: Your Call
 * Understand the needs of your data scientists and their roadblocks - communicate
 * Explore the plethora of tools available in the OSS world
 * New tools are released often - find your flavor
@@ -117,7 +117,7 @@ TODO: image of the architecture for AWS
 * Avoid vendor lock-in by designing your architecture like LEGO
 * Contribute to the open-source community, because you can
 
-# Second Talk - MemeGPT (TODO: add proper title from agenda) <-- check: Unleashing Humor with AI: MemeGPT
+# Talk #2: Unleashing Humor with AI: MemeGPT - Fine-Tuning LLMs for Meme Generation using NVIDIA HGX™ H100 and Intel Gaudi2 - Stefan Ojanen
 * Stefan Ojanen - Director of Product Management at Genesis Cloud
 * How to create memes with LLMs
 * Unleashing humor with AI
@@ -132,12 +132,13 @@ TODO: image of the architecture for AWS
 ### Attention is Not All You Need, Data is What You Need - imgflip.com
 * Where to get data? Imgflip, 650k meme templates
 * Mailed the founder: 40 million individual user-created memes
+
 ### Brief History of LLMs
 * Word2Vec (2013) -> LSTM (RNN) 1997--2017 > Transformers 2017
  - -> Hyena & Mamba (2023 -) * Google Translate is for instance Google Translate, or Alexa
 * So Mamba is a good competitor
 
-## Why Do Memes Matter?
+### Why Do Memes Matter?
 * Fact: 49% of Americans don't understand irony
 * Humor harder than any business case
 * Humor: sarcasm/irony
