@@ -35,3 +35,4 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 
 * edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
 * diary cutter: separates the given entries into specific files based on month and creates proper directory/file-stucture; needs proper unit-test-coverage, because loss of information is not acceptable
+* RAG/finetuning of an LLM for ESP32-related dev-tasks: the espressif documentation is nice, but what about a custom tailored answering machine?
