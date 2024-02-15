@@ -1,6 +1,6 @@
 # 20240215 - meetup: Team Health as the Number one Metric for Your Team Spirit
 
-* presenter: Barrett flowers
+* presenter: Barrett Flowers
 * hosted by partnaer
 
 ```
@@ -25,50 +25,90 @@ Let’s grow together and enable people-powered transformation
 •Outro
 ```
 
-todo: img00
+todo: add img00
 
-todo: img01
+todo: add img01
 
-todo: img02
+todo: add img02
 
-# what is team health?
-*
-* self assesment tool for agile prohjec teams who look to improve their work together
-* like humans, teams are living organisms
-* teams carry emotions, encoutern conflicts, seek a sense of purpose
-img04
-* communiction, velocity, culture have impact on outcome
-* healthy teams build better products
-* interaction:
-  * how valuable do you find tema health in youir team?
-  * if a question or statistic is plummetting, which impct does it have?
+# What is Team Health?
+* A self-assessment tool for agile project teams looking to improve their collaboration.
+* Like humans, teams are living organisms.
+* Teams carry emotions, encounter conflicts, and seek a sense of purpose.
+* Communication, velocity, culture have an impact on the outcome.
+* Healthy teams build better products.
+* Interaction:
+  * How valuable do you find team health in your team?
+  * If a question or statistic is plummeting, which impact does it have?
 
-* TH is a metric to have a more objective look at the very subjective constituion of the team
-* in former time it was done with company surveys, then calculates, then presented
-* example working together for several sprints:
-  img06
-* normally with the first iteration
-* most likely a dip after the start of a team, then it increases
-* how to avoid problems and how to boost team morale
-* something where the scrum master has to take action
+* Team Health (TH) is a metric to have a more objective look at the very subjective constitution of the team.
+* In former times, it was done with company surveys, then calculated, then presented.
+* Example of working together for several sprints:
+* Normally, with the first iteration.
+* Most likely a dip after the start of a team, then it increases.
+* How to avoid problems and how to boost team morale.
+* Something where the Scrum Master has to take action.
 
-### avoid - beware of these
-* measuring individuals instead of a team
-* using metrics as a micromanagement tool
-* focussing on the absolute values
-* ignoring patterns over time
-* missing analysis of the results
-* comparing results of teams
+### Avoid - Beware of These
+* Measuring individuals instead of a team.
+* Using metrics as a micromanagement tool.
+* Focusing on the absolute values.
+* Ignoring patterns over time.
+* Missing analysis of the results.
+* Comparing results of teams.
 
-## patterns over time (examples):
-* always when we onboard new people in the team
-* every August the team health falls down
-* when the product owner is on holiday
-* each time we get feedback from the customer
-* every third sprint
+## Patterns Over Time (Examples):
+* Always when we onboard new people to the team.
+* Every August, the team health falls down.
+* When the Product Owner is on holiday.
+* Each time we get feedback from the customer.
+* Every third sprint.
 
-## taking action from it
-* why, why, why, why ..?
-  * what is the root cause?
-* fishbone diagram: rituals, team, roles, environment -> demanding product owner -> decreasing team health
-* enabling people driven transformation
+## Taking Action From It
+* Why, why, why, why...?
+  * What is the root cause?
+* Fishbone diagram: rituals, team, roles, environment -> demanding Product Owner -> decreasing team health.
+* Enabling people-driven transformation.
+
+# What is Team Health?
+* A self-assessment tool for agile project teams looking to improve their collaboration.
+* Like humans, teams are living organisms.
+* Teams carry emotions, encounter conflicts, and seek a sense of purpose.
+* Communication, velocity, culture have an impact on the outcome.
+* Healthy teams build better products.
+* Interaction:
+  * How valuable do you find team health in your team?
+  * If a question or statistic is plummeting, which impact does it have?
+
+* Team Health (TH) is a metric to have a more objective look at the very subjective constitution of the team.
+* In former times, it was done with company surveys, then calculated, then presented.
+* Example of working together for several sprints:
+* Normally, with the first iteration.
+* Most likely a dip after the start of a team, then it increases.
+* How to avoid problems and how to boost team morale.
+* Something where the Scrum Master has to take action.
+
+### Avoid - Beware of These
+* Measuring individuals instead of a team.
+* Using metrics as a micromanagement tool.
+* Focusing on the absolute values.
+* Ignoring patterns over time.
+* Missing analysis of the results.
+* Comparing results of teams.
+
+## Patterns Over Time (examples):
+* Always when we onboard new people to the team.
+* Every August, the team health falls down.
+* When the Product Owner is on holiday.
+* Each time we get feedback from the customer.
+* Every third sprint.
+
+## Taking Action From It
+* Why, why, why, why...?
+  * What is the root cause?
+* Fishbone diagram: rituals, team, roles, environment -> demanding Product Owner -> decreasing team health.
+* Enabling people-driven transformation.
+
+## Partner.com
+* Rosenheim one dependence <-- check: "dependence" should possibly be "branch" or "office".
+* https://signup.triangle.community/
