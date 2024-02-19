@@ -13,6 +13,7 @@ Should be quite easy due to missing authentication.
 
 ## Markdown-Fixer
 * todo: idee: md-files mit File-ending glattziehen (first commandline: inputfile: then check if the line-endings have newline (with two spaces before; except maybe for lines which start with a # or *, because they are wrapped anyway)
+  * **Implemented**: via GPT4-prompt. Works well, but is of course not self-contained. No need to spend additioanl ressources at the moment.
 
 ## The mother of all gits
 Jk, idea is to create a script which retrieves the list of all _my_ (publicly) available git(hub) repositories and then clones them to a specific path. Just to have a local backup.  
@@ -30,6 +31,9 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 
 ## outlook connector: pull information feom calenser or a person or group, then display as output
 * started implementation but frozen due to missing PAT (personal access token) because my current organisation does not allow to create one within their domain, and I have no personal Office365-accoutn which I could use otherwise
+
+## kid's book auto-story-teller
+* put a book page under a camera, press "button", get the story told (or the text from the page): use OCR and TTS
 
 ---------
 
