@@ -95,10 +95,22 @@ TODO add the image ![](img00.png)
 * chat-completion-models versus embedding-models
 * chose openAI because they wanted to go live as fast as possible
 
-
 ## Andreas Jadrin (NTT Data): AI Companion: A Serverless Travel Copilot
-TBC
-
-
-
- 7
+* ongoing project, therefore no photos allowed
+* imagine a companion:
+  * cluster view and IV (middle unit)
+  * demo written with the CDK
+  * also uses tome TTS
+  * geofence for toll road (in  Austria): toll badge can be purchased automatically
+  * can suggest gas-station whcih has sian food
+  * POIs - proactive information/point of interests: sights - companion can tell you in advance
+* requirements: different ai character moduels for communication: chattier, reserved, casual, or formal ..
+* individual mapping of user -> ai character model
+* text-to-speech for the response
+* individual, user-tailored, and human-like answers from an LLM (large language model)
+* architecture:
+  * has also a session history
+* TODO insert image of the architecture
+* the language processor is the promot of the user and the lambda client history
+* prompting: prpared template, which rovides some context for the llm; also has a service orientation and service blocks
+* paameter (like personality block) has target groups (formal business person ..) and a prompt block (you are a formale supportive, patient. you) understand the imortance of professionalism and aim to provide a sense of reliability in all your interactions ..)
