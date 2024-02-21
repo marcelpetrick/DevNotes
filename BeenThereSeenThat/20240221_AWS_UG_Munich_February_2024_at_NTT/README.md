@@ -20,10 +20,33 @@ Do you dream of a travel experience that's effortless and tailored to your every
 ```
 
 ## intro - Markus Ostertag
-TBC
+* Chief AWS TEchnologist @ adesso SE
+* 180 announcements since the last meetup
+* NTT has an AWS hero in their ranks
+* u-9tb1.112xlarge (9 TiB RAM) now available in Stockholm (SAP Hana certified)
+* Mac M2 and M2 PRo availalbe in Frankfurt
+* attribute based price selection for auto-scaling: based on a percentage (like "I want to save always 40% to the following instances type")
+* storage: higher read IOPS for EFS: up to 250k read IOPS for frequently-accessed data
+* container: ECS announced managed instance draining for EC2
+* Amazon Q data integration in AWS Glue in preview: Q is something like GPT
+  * "Woe does not know who Amazon Q ist?" - asked twice
+* Finch is AWS's docker; because the docker license has changed; is available n Windows
+* IaC generator for CFN and CDK - no more clickops, but not new, because everyone uses Terraform ;)
+  * scan current config, then scan, get a template, select template and get IaC for cloud formation
+  * pretty huge and cool improvement
+* use CodePipeline for Github Actions
+* CodeCatalyst is introducing pull request approval rules: like 2 people of this and that team
+* SageMaker Automatic Model Tunicn supportsnow Delete API
+* next AWS UG event 14.03. AutoScout24
+* AWS Community Day DACH: smartville Bogenhausen, 17.09.
 
 ## Fuad Ibrahimov & Michael Loibl (NTT Data): Building Scalable Gen AI RAG Applications with AWS Serverless
-TBC
+*
+
 
 ## Andreas Jadrin (NTT Data): AI Companion: A Serverless Travel Copilot
 TBC
+
+
+
+ 7
