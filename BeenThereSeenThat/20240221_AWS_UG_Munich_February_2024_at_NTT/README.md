@@ -41,7 +41,59 @@ Do you dream of a travel experience that's effortless and tailored to your every
 * AWS Community Day DACH: smartville Bogenhausen, 17.09.
 
 ## Fuad Ibrahimov & Michael Loibl (NTT Data): Building Scalable Gen AI RAG Applications with AWS Serverless
-*
+* Michael: part of the genAI-core-team
+* cloud SME - subjectmatterexpert (what is this)
+* November 2022 ChatGPT was released, bi hype about genAI started
+* they built their own chatbot - GoodGPT
+* small frontend: vue.js - backend with LangChain
+* next step: RAG application: document intelligence slution to also execute Prompts against private non publicly known documents
+* they needed more advanced genAI functionalities
+* they needed a document-intelligence tool: GPT is trained with public data, but you want to use your own data
+* RAG for retrieval augmented generation:
+  * RAG is used for comple and knowledge-intensive tasks
+  * RAG is also used for tasks, that are not nown by the LLM
+  * external sources are used to obtain specific additional information This information are then added to the prompt.
+  * both, te additional nformation as well as the prompt are itself sent to the LLM
+
+### RAG - deep dive
+* 1. how to upload private data and documents
+* 2. how to use prompt engineering against your private data
+* for 1: genAI backend application: split the dpcument
+  * what is a word embedding? mathematical impression of text
+  * those are put into a highly dimensional vector space
+  * semantical closeness for similar things like: apples and banans, because both are fruits
+  * the distance between two vectors (embeddings) measures their relationship
+* GenAI applied backend: puts the result into the VectorDB: so the indexing was successful
+* for 2: document prompting part:
+  * VectorDB: cosine-search: determine angle between vectors and fetch them - retrieve similar documents
+  * on top of that the prompt is used wth the chat-completion model:
+    * LLM is providing now some answer based on the provided (four) results
+    * result is sentd back to the frontend
+* first you index your private documents (confluence, jira pages, code ..): then prompt engineering against the vectordb
+
+### implementation
+* AWS cloud with kubernetes, langchain, python, milvus, ..
+TODO add the image ![](img00.png)
+* but the result of the first load tests were not so good: two main issues: challenge were the max tokens and also rate-limits
+* so big prolems with scalability, limited ressources and cost management
+* thinks ike LangChain and LLamaIndex provide already a lots of functionality
+* a jupyter notebook works, but not with 2000 employees
+* even with load balancing this did not work out
+
+#### first approach
+* separate endpoints: fr document upload and the splitting, parsing, ... embedding generation
+  * used Weaviate
+* RFP file: request for project - how to summarize this?
+* why not expand the pipeline, by doing a summary as well? so the summary will be found in the vector-search? good approach - very clever!
+* business csalability: how? by adding more fancy indexing and so on ...
+
+### demo time
+* the GoodGPT has self-awareness: has access to its own code base?
+* really great speed; impressive results and dogfooding for the company - impressive
+* uses GPT on Azure as backend for the LLM
+* their developer's knowledge has the same value like "before GenAI", because it matters to verfi the result
+* chat-completion-models versus embedding-models
+* chose openAI because they wanted to go live as fast as possible
 
 
 ## Andreas Jadrin (NTT Data): AI Companion: A Serverless Travel Copilot
