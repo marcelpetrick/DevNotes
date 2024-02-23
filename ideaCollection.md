@@ -35,6 +35,9 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 ## kid's book auto-story-teller
 * put a book page under a camera, press "button", get the story told (or the text from the page): use OCR and TTS
 
+## RAG for a chatbot about a product:
+* pump in two different ticket-systems, the whole git of two repos, maybe even the sales-documents and then allow to make requests - with resulting pointer to the original document
+
 ---------
 
 * edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
