@@ -38,6 +38,9 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 ## RAG for a chatbot about a product:
 * pump in two different ticket-systems, the whole git of two repos, maybe even the sales-documents and then allow to make requests - with resulting pointer to the original document
 
+## kid bookstory teller
+take image with camera, do OCR, convert story into age appropriate storytelling, TTS with cloned voice (my own)
+
 ---------
 
 * edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
