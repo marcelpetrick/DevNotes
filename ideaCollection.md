@@ -41,6 +41,10 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 ## kid bookstory teller
 take image with camera, do OCR, convert story into age appropriate storytelling, TTS with cloned voice (my own)
 
+## QR code generator and printer
+* add possibility to add a log to showcase the error-correction and how safe that algorithm actually is
+* maybe even allow to add layers of proctection?
+
 ---------
 
 * edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
