@@ -25,7 +25,36 @@ Louis started his career developing a low-power and GPS-based IoT solution to pr
 * todays tasks
 1.  data pipeline
 2. model development & optimization
+![](img01) TODO
 
+* how familiar are you with EI-pipelines? questionnaire
+* example Industrial ML pipeline
 
-## How to automatie data pipelines?
+## 1. How to automate data pipelines?
+* getting gold standard labels is hard - catch errors early
+![](img02) TODO
+* add a cloud bucket: is a S3 bucket; region, access key, ..
+* create organizational database
+* validate data: are all files present? do all files start/end at the same time? are all expected labels present?
+* advanced checks: correlation between different devices?
+* catch errors early
+how to do this? use transformation blocks
+* preparation of data can be done with a data-pipeline as well
+  * their github repo contains data for that as well
+* Multi sensor fusion: multi impulse: run two different projects on the same target: how to merge it to the same c++ library:
+  * glass breaking sound -> then check the camera image
 
+* training set: wood images - anomaly detection
+* check for machinery piece
+* EON Tuner search spaces: combine also several parameters to one
+
+## Deployment options
+![](img03) TODO
+![](img04) TODO
+* edgeimpulse cli: EIM or even docker
+
+## announcement
+* EON compiler: RAM optimized - save even more RAM
+* developed because most customers report that they are RAM-constrained: less RAM -> smaller MCU -> smaller BOM-costs ..
+* tradeoff is a higher latency
+![](img05) TODO
