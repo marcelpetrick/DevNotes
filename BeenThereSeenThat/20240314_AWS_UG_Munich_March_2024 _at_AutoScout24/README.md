@@ -26,7 +26,16 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
 ```
 
 ## Markus Ostertag (AWS Hero): Recent AWS announcements
-* TBC
+*if someone is interested, he shall talk to Maria from "talent acquiston - not HR""
+*AWS backup restore testing: really cool feature: test the retore on a certain schedule
+* who uses .NET on Lambda: obviously nobody
+* Eentbridge API destinations calling 3rd party aPIS ina nutshell
+* amazon neptune: i/o optimized now GA - zero charges for read and write i/o operations ->  potentilly cost savings
+* 99.999% durability - five-nine durability as spoken
+* cloudformatio now 40% faster a stack creation
+* AI/ML: Bedrock: mistral AI foundation models now GA
+  * Anthropic Claude 3 Sonnet model now available
+*
 
 ## Sana Shah (Founder AWS Women's UG Berlin & Cloud Operations Lead @ DEMICON): GenAI on AWS - Exploring Amazon Bedrock Knowledge Bases and Agents
 * TBC
