@@ -1,10 +1,6 @@
 # 20240314 AWS UG Munich March 2024 @ AutoScout24
 
 ```
-AWS UG Munich March 2024
-AWS UG Munich March 2024
-Details
-
 Connecting diverse people is core of what we're doing at AWS User Group Munich and so we couldn't ask for a better speaker line-up for the March event right after the International Women's Day (March 8th 2024)!
 
 This time we meet at the AutoScout24 office and thankfully get food and drinks provided.
