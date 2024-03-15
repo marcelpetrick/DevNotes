@@ -26,73 +26,72 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
 ```
 
 ## Markus Ostertag (AWS Hero): Recent AWS announcements
-*if someone is interested, he shall talk to Maria from "talent acquiston - not HR""
-*AWS backup restore testing: really cool feature: test the retore on a certain schedule
-* who uses .NET on Lambda: obviously nobody
-* Eentbridge API destinations calling 3rd party aPIS ina nutshell
-* amazon neptune: i/o optimized now GA - zero charges for read and write i/o operations ->  potentilly cost savings
+* if someone is interested, they shall talk to Maria from "talent acquisition - not HR"
+* AWS backup restore testing: really cool feature: test the restore on a certain schedule
+* Who uses .NET on Lambda: obviously nobody
+* EventBridge API destinations calling 3rd party APIs in a nutshell
+* Amazon Neptune: I/O optimized now GA - zero charges for read and write I/O operations -> potentially cost savings
 * 99.999% durability - five-nine durability as spoken
-* cloudformatio now 40% faster a stack creation
-* AI/ML: Bedrock: mistral AI foundation models now GA
+* CloudFormation now 40% faster at stack creation
+* AI/ML: Bedrock: Mistral AI foundation models now GA
   * Anthropic Claude 3 Sonnet model now available
 
 ## Sana Shah (Founder AWS Women's UG Berlin & Cloud Operations Lead @ DEMICON): GenAI on AWS - Exploring Amazon Bedrock Knowledge Bases and Agents
-* special focus on: bias
-* cloud operations lead; at demicon; platform automation..
-* why genaI? is so effective; uses pretrained models; use it to increase productivit, automation, ..
-* traditional Ml allows to handle only one task on labelled data; but with FM you can adapt to several tasks with unlabelled data
-* building a FM (foundation model) bears challenges
-  * costs: very expensive
-  * clusters of GPU and CPU
-  large amount of data: like internet-scale data
-  * performance s a problem: inaccurate, unreliable answers, hallucinations
-* challenge: biaes and toxicity: without adressing these risks
-* for the customization of FMs there ae differenoptons:
-  * prompt engineering
-  * in context learning? to optimize the output?
-  * while picking a model, read the docuentation: best way to interact with the model
-  * retrieval augmented generation
-  * continued pre-training: more epensive
-  * build your own model
+* Special focus on: bias
+* Cloud Operations Lead at Demicon; platform automation..
+* Why GenAI is so effective; uses pretrained models; use it to increase productivity, automation, ..
+* Traditional ML allows handling only one task on labelled data; but with FM you can adapt to several tasks with unlabelled data
+* Building a FM (foundation model) bears challenges
+  * Costs: very expensive
+  * Clusters of GPU and CPU
+  * Large amount of data: like internet-scale data
+  * Performance is a problem: inaccurate, unreliable answers, hallucinations
+* Challenge: biases and toxicity: without addressing these risks
+* For the customization of FMs there are different options:
+  * Prompt engineering
+  * In-context learning? to optimize the output? <-- check: in-context learning
+  * While picking a model, read the documentation: best way to interact with the model
+  * Retrieval augmented generation
+  * Continued pre-training: more expensive
+  * Build your own model
 * RAG mitigates the problem of lacking actual information; also can be used to use concurrent information
 
-### genAI applications on AWS
-* two approaches: Amazon Sagemaker Jumpstart versus Amazon Bedrock
-* ML hub with foundation models, built-in algorithsm - verss a Service: fully mananged service to build and scale generative AI application with FMS
+### GenAI applications on AWS
+* Two approaches: Amazon SageMaker Jumpstart versus Amazon Bedrock
+* ML hub with foundation models, built-in algorithms - versus a Service: fully managed service to build and scale generative AI application with FMs
 * Amazon Bedrock really easy to use:
-* amazon bedrock - a signle API call
+* Amazon Bedrock - a single API call
 * Bedrock - build knowledge bases: fully managed support for end-to-end RAG workflow
-* securely connect FMs and agents to data sources
-* easily retrieve relevant data and augment prompts
-* provide source attributions
-* workflow: 1. data source -> 2. document chunks - 3. embeddings model -> 4. vector store
-* buidl agents with amazon bedrock
-* agent action group description, API schema, lambda function
+* Securely connect FMs and agents to data sources
+* Easily retrieve relevant data and augment prompts
+* Provide source attributions
+* Workflow: 1. data source -> 2. document chunks - 3. embeddings model -> 4. vector store
+* Build agents with Amazon Bedrock
+* Agent action group description, API schema, lambda function
 * AMAZON BEDROCK - give it a try: ASAP!
-* how to do augmentation:  how to create a knwoledge base?
-  * so ver esdy to create a knwoledge base; really easy to create something like this - also can attribute source!!!
-* cloud computing has 14% of women in the field; AI has 36, enineering like 20, according to the world economic forum
+* How to do augmentation: how to create a knowledge base?
+  * So very easy to create a knowledge base; really easy to create something like this - also can attribute source!!!
+* Cloud computing has 14% of women in the field; AI has 36%, engineering like 20%, according to the World Economic Forum
 
-### risks in GenAI - Bias
-* examples for bias in AI:
-  * amazon recruitment tool: gender bias
-  * google photo misclassification: racial bias
-  * compas recidivism prediction: racial bias
-* based on data: selectn bias, measurement bias, sample bias, lael bias, observer bias, historical bias
-* algorithmic bis: algoithm ias, model bias, interaction bias, confirmation bias
+### Risks in GenAI - Bias
+* Examples for bias in AI:
+  * Amazon recruitment tool: gender bias
+  * Google photo misclassification: racial bias
+  * COMPAS recidivism prediction: racial bias
+* Based on data: selection bias, measurement bias, sample bias, label bias, observer bias, historical bias
+* Algorithmic bias: algorithm bias, model bias, interaction bias, confirmation bias
 
-## amazon sagemaker clarify
-* will not mitigate bias, just create a report
-* shared repsonisiblity model!like always
+## Amazon SageMaker Clarify
+* Will not mitigate bias, just create a report
+* Shared responsibility model! Like always
 
-## conclusion
-* data is your differentatior - data strategy is key to any successful AI application
-* mitiarting rsisk is your continued rsponsibility
-* costs, costs, costs, -> know ROI
-* availability of features in regions
-* keep learning + trial&error approach
-* keep staying informed about trends
-
+## Conclusion
+* Data is your differentiator - data strategy is key to any successful AI application
+* Mitigating risk is your continued responsibility
+* Costs, costs, costs, -> know ROI
+* Availability of features in regions
+* Keep learning + trial & error approach
+* Keep staying informed about trends
 
 ## Evelyn Osman & Anastasios Vomvylas (AutoScout24): Scaling k8s services based on custom metrics: From discovery to delivery
-* TBC
+* Not watched - left early
