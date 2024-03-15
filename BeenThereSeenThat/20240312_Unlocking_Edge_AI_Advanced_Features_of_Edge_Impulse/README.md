@@ -21,40 +21,40 @@ Louis started his career developing a low-power and GPS-based IoT solution to pr
 
 * Linda Watkins, SVP of Marketing
 
-## notes
-* todays tasks
-1.  data pipeline
-2. model development & optimization
+## Notes
+* Today's tasks
+1. Data pipeline
+2. Model development & optimization
 ![](img01) TODO
 
-* how familiar are you with EI-pipelines? questionnaire
-* example Industrial ML pipeline
+* How familiar are you with EI-pipelines? Questionnaire
+* Example Industrial ML pipeline
 
-## 1. How to automate data pipelines?
-* getting gold standard labels is hard - catch errors early
+### 1. How to automate data pipelines?
+* Getting gold standard labels is hard - catch errors early
 ![](img02) TODO
-* add a cloud bucket: is a S3 bucket; region, access key, ..
-* create organizational database
-* validate data: are all files present? do all files start/end at the same time? are all expected labels present?
-* advanced checks: correlation between different devices?
-* catch errors early
-how to do this? use transformation blocks
-* preparation of data can be done with a data-pipeline as well
-  * their github repo contains data for that as well
-* Multi sensor fusion: multi impulse: run two different projects on the same target: how to merge it to the same c++ library:
-  * glass breaking sound -> then check the camera image
+* Add a cloud bucket: it's an S3 bucket; region, access key, ...
+* Create organizational database
+* Validate data: Are all files present? Do all files start/end at the same time? Are all expected labels present?
+* Advanced checks: correlation between different devices?
+* Catch errors early
+How to do this? Use transformation blocks
+* Preparation of data can be done with a data pipeline as well
+  * Their GitHub repo contains data for that as well
+* Multi-sensor fusion: multi-impulse: run two different projects on the same target: how to merge it to the same C++ library:
+  * Glass breaking sound -> then check the camera image
 
-* training set: wood images - anomaly detection
-* check for machinery piece
+* Training set: wood images - anomaly detection
+* Check for machinery piece
 * EON Tuner search spaces: combine also several parameters to one
 
-## Deployment options
+## Deployment Options
 ![](img03) TODO
 ![](img04) TODO
-* edgeimpulse cli: EIM or even docker
+* Edge Impulse CLI: EIM or even Docker
 
-## announcement
+## Announcement
 * EON compiler: RAM optimized - save even more RAM
-* developed because most customers report that they are RAM-constrained: less RAM -> smaller MCU -> smaller BOM-costs ..
-* tradeoff is a higher latency
+* Developed because most customers report that they are RAM-constrained: less RAM -> smaller MCU -> smaller BOM costs...
+* Tradeoff is a higher latency
 ![](img05) TODO
