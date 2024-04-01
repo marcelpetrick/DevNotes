@@ -45,6 +45,15 @@ take image with camera, do OCR, convert story into age appropriate storytelling,
 * add possibility to add a log to showcase the error-correction and how safe that algorithm actually is
 * maybe even allow to add layers of proctection?
 
+## update my homepage: marcelpetrick.it
+* haha
+* add photo, make it more convenient to read
+* add some context about me - else, keep it short
+
+## fix the wordpress forwarding problem
+* someone took over WP - not sure how
+* if someone does not use an adblocker, you get forwarded to suspicious pages
+  
 ---------
 
 * edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
