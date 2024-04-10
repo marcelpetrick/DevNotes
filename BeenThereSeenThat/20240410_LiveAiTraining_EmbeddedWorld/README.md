@@ -149,7 +149,11 @@ TODO add image of the slide
 * C++ application with 10 lines of code (ok, this has to be proven ..)?
 * trusted execution environment: SyKure Truseted application
   * NPU is completely isolated into the secure environment
-*
+* what is heterogenous AI inference?
+
+## Hands-on tutorial
+* setup is running
+
 
 
 
