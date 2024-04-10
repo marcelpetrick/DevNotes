@@ -155,8 +155,92 @@ TODO add image of the slide
 * setup is running
 
 
+```
+The error you're encountering, invalid reference format: repository name (library/USB) must be lowercase, usually occurs when Docker interprets part of the command as a repository name when it shouldn't, often due to an unexpected space or character. In this case, it seems like the issue might be related to how the current working directory ($(pwd)) is being interpreted or passed into the command.
+
+Given your command structure, if the working directory ($(pwd)) or $HOME path contains spaces or special characters, it can lead to this error. In UNIX-like systems, paths with spaces must be quoted or escaped properly.
+
+Try modifying your alias to ensure that paths with spaces are correctly handled:
+
+bash
+
+alias synap='sudo docker run -i --rm -u $(id -u):$(id -g) -v "$HOME":"$HOME" -w "$(pwd)" ghcr.io/synaptics-synap/toolkit:3.0.0'
+
+Notice the addition of quotes around "$HOME":"$HOME" and "-w "$(pwd)"". This should ensure that paths containing spaces are interpreted correctly by the shell and passed properly to Docker.
+
+After updating the alias, try running the synap help command again.
+```
+* synapsis haptics - synpatics; last 2-3 years the company was transformed into the IoT space
+*  MPUs - a class processors; MCU - M class processors; all tied together with unfied software
+* security unified across all platforms
+  * chromecast was initially snyptics SoC
+
+* go to github, find model, convert it
+`synap convert --model yolov5s_face_480x640.onnx  --meta yolo_q.yaml --target sl1680 --out-dir compiled`
+```
+    ~/repos/synpatics_ai_tutorial  synap convert --model yolov5s_face_480x640.onnx  --meta yolo_q.yaml --target sl1680 --out-dir compiled
+    ~/repos/synpatics_ai_tutorial  ls -lah                                                          ✔  35s 
+total 28M
+drwxr-xr-x  7 mpetrick mpetrick 4.0K Apr 10 12:25 .
+drwxr-xr-x 47 mpetrick mpetrick 4.0K Apr 10 12:19 ..
+drwxr-xr-x  2 mpetrick mpetrick 4.0K Apr  4 21:24 code
+drwxr-xr-x  3 mpetrick mpetrick 4.0K Apr 10 12:26 compiled
+drwxr-xr-x  2 mpetrick mpetrick 4.0K Apr  4 21:24 extra-models
+-rw-r--r--  1 mpetrick mpetrick 4.0K Apr  5 04:23 README.txt
+drwxr-xr-x  9 mpetrick mpetrick 4.0K Apr  4 21:24 ref
+drwxr-xr-x  2 mpetrick mpetrick 4.0K Apr  4 21:24 sample
+-rw-r--r--  1 mpetrick mpetrick  394 Apr  5 04:23 yolo_od16.yaml
+-rw-r--r--  1 mpetrick mpetrick  433 Apr  5 04:23 yolo_odmqt2.yaml
+-rw-r--r--  1 mpetrick mpetrick  496 Apr  5 04:23 yolo_odmqt.yaml
+-rw-r--r--  1 mpetrick mpetrick  432 Apr  5 04:23 yolo_odmq.yaml
+-rw-r--r--  1 mpetrick mpetrick  394 Apr  5 04:23 yolo_od.yaml
+-rw-r--r--  1 mpetrick mpetrick  112 Apr  5 04:23 yolo_q.yaml
+-rw-r--r--  1 mpetrick mpetrick  27M Apr  5 04:23 yolov5s_face_480x640.onnx
+    ~/repos/synpatics_ai_tutorial  cd compiled                                                              ✔
+    ~/repos/synpatics_ai_tutorial/compiled  ls -lah                                                         ✔
+total 7.0M
+drwxr-xr-x 3 mpetrick mpetrick 4.0K Apr 10 12:26 .
+drwxr-xr-x 7 mpetrick mpetrick 4.0K Apr 10 12:25 ..
+drwxr-xr-x 2 mpetrick mpetrick 4.0K Apr 10 12:26 cache
+-rw-r--r-- 1 mpetrick mpetrick 1.1M Apr 10 12:26 model_info.txt
+-rw-r--r-- 1 mpetrick mpetrick 5.9M Apr 10 12:26 model.synap
+-rw-r--r-- 1 mpetrick mpetrick  63K Apr 10 12:26 quantization_info.yaml
+    ~/repos/synpatics_ai_tutorial/compiled 
+```
+
+```
+    ~/repos/synpatics_ai_tutorial/compiled  sudo adb wait-for-device                                        ✔
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+    ~/repos/synpatics_ai_tutorial/compiled  adb devices                                                     ✔
+List of devices attached
+SL16x0  device
+
+    ~/repos/synpatics_ai_tutorial/compiled 
+```
+* adb just simpler than ssh and scp
 
 
+
+#### linkedin pretext
+
+-----------
+
+𝐎𝐤, 𝐈 𝐜𝐚𝐧 𝐠𝐨 𝐡𝐨𝐦𝐞 𝐧𝐨𝐰. 𝐈 𝐬𝐚𝐰 𝐞𝐯𝐞𝐫𝐲𝐭𝐡𝐢𝐧𝐠.*
+
+Travel worked well, found a parking spot immediately - only ten minutes from turning off the car to checking in with my printed voucher (#germanThings 🙈). Therefore, I had some minutes to check the exhibition itself. Visited booths from #nvidia, #greenhill, ... ran into my former esteemed coworker @elmar (what a surprise!) and entered the seminar room. Funny coincidence: traveling from Munich and get trained in "Munich 2".
+The workshop by Synaptics revolved around their #edgeAI platform, Astra  Machina, which features an SBC with the Astra SL1680, which NPU offers up to 8 TOPS. They offer a framework, which enables developers to customize any given classification model and convert it to their *.synap format, which offers some benefits. The SBC is preflashed with a #yocto Linux, ...
+So, while doing the hands-on on the gifted hardware, we were walked through several setup steps, converted a #yolov5 model, and ran some inferences. Choosing a proper quantization improves performance. Also, the whole team was super helpful, and in the end, everything was working. This was a great experience. Thank you, Abdel Younes, Lorenzo Keller and everyone else who was involved.
+
+(Sidenote: this yolov5-model-usage reminds me to publish my #yolov5 driven catcam. It's been running for almost a year now :3)
+
+Now I can enjoy a short break with more exploration and then the next training starts. Looking forward.
+
+*Just kidding. The day just started!
+
+#neverstoplearning #embeddedworld2024 #ew24 #classification #ai #yolo #synaptics #astra
+
+-----------------
 
 ## where do i start?
 * go to these model repositories: ultralytics
