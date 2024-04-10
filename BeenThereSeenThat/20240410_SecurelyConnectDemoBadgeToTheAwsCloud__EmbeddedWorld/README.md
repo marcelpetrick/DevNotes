@@ -82,4 +82,46 @@ FEATURED PRESENTERS
     Full Profile
 ```
 
-TBD
+## intro
+* thomas kriechbaumer started
+* help and educate the customer to build the next product or services
+* agenda: presentation 30 min, uided walk through 2 hours, open discussion 30 minutes
+* loud: it-ressources on demand
+* things linke iot-services are cloud as well; lots of flexibility; and danymic allocation
+* traditional: on premise stuff
+*  by 2030 29 bio devices are expected
+* common challenges of connected products:
+  * turning data into value
+  * deploying connected devices
+  * managing and scaling large fleets
+  * managing security and privacy
+* a prototype is done in 5 minutes, but rolling out i hundreads ofthrousands needs more effort
+
+## AW ressources
+* AWS IoT Core; like an MQTT broker - fully compliant, MQTT 3 and 5; securely and privately wrapped
+  * use publish and subscribe capabilities
+* attach to the broker rules and actions
+* if something matches a topic it should be routed and forwarded to a specific point
+* AWS IoT Core is a fully managed server; not needed to write any specific code, already provided
+* Amazon Sidewalk network: community aspect
+* also: MAtter devices - local communication 8device to device)
+* LoRaWAN
+* DemoBade is purpose-built:
+  * run through all typical aspects of the lifecycle
+  * has microcontroller
+  * has color TFT display, several sensors
+  * AWS IoT ExpressLink module as link to the cloud with wifi-technology
+  * expresslink is certified and qualified
+
+## topics
+* introduction to MQTT with publish/subscribe
+* sensor data ingestion
+* device location using wifi scanning
+* digital twin and shadow
+* image transfer using over the air updates
+* optional: low poer connectivitiy with amazon sidewalk
+
+
+* amazon geolocation feature?can use for instance ssid/mac-adress to give some idea where you are
+* our devices are in a "workshop" mode; can be turned off later
+*
