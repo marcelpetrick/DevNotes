@@ -110,3 +110,44 @@ compiler wrapper
   * earlier error prevention + debugging
   * tooling is crucial: pytest, lyint, mypy, black
 
+## guy davidson: the main talk: file io: past, present and future
+* mean life time 37 years on earth, but he programmed for more than 37 years in cpp
+*engineers not known as most sociable people
+* BSI IST/5: brtish standard institute
+  * he is the ing of programming
+  * author of Beautiful C++
+
+### why do we have files?
+* sub-megabyte days
+* more RAM, more disk capacity
+* moving data nto and out of RAM
+* file IO in C++ from fstream to the OS SDK
+* the 64-bit adress space
+* why do we have tfiles: organize data; persistency;
+* kids dont believe in those days
+* otepad on windows as example: not fitting into the 1 kb of the ZX81
+* Z80 assembly first: find all depedencies of the ; file itself is also a dependency
+* push the envelope: assemly to machine code, then point the cpu to start
+* then there was one file on the caseette tape: one bitstream
+* Atar ST with 3,5" floppy: the 3d printed save symbol
+* files as way to order data
+* bought her a atari st for her brithday; but divorced in 2010; not because of this
+* Mondrian: composition 2, 1930
+* his first hard disk: 44 MB hard disk
+* FAT16 - MSDS compatible
+* FAT developed in 1977, file alocation table; bi tree of data
+* get std-fileystem into cpp
+* standardizing is quite tricky: find an idea and talk with lots of people; then imple,ent it
+* different from proof of concept:
+* have great idea, implement it, socialize it (publish on github and count the stars), proose it, travel the world
+* TODO use std::filesystem for the imaeviewer?
+* ReiserFS: authro incarcerated
+* ap -> system call -> linux -> VFS -> ext3, ext4, btrfs, reiserFS, XFS
+* abstraction: the true superpower of C++ (2022), also gyu davidson
+* von neuman bottleneck: serial architecures get slower with increased speed
+* c++ stream library was a product of the 80s
+* 2038 epoch-alypse
+* homcc`, the improve distributed compiler
+* << chevron - name them by what they are and not what they do
+* operator() - prentehsis; operator[] brackets
+* why does c++ not offer something to move the whole file content into the RAM?
