@@ -73,6 +73,12 @@
 * sysroot? TODO
 * cooker mode opposed to sdk mode?
 ![](img21.png)
-
-
 ![](img21.png)
+![](img21.png)
+* sdk is usually based on the image: self-contained
+* if you need additional packages on the image, then modiy it and release a new image and release a new sdk
+* image can update itself by connecting to a new repository
+
+
+todo fix the images
+todo fix the
