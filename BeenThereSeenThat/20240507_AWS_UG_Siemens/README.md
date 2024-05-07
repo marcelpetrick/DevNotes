@@ -56,3 +56,53 @@ AGENDA:
 
 * next meetup: june 12th Scalable Capital
 
+# Leo Hanisch - LAmbda-lith
+* business solutions and platforms is his department
+* get rid of excel and emails: customer are actualy fifferent siemens departments
+* 30 experts: from project management fo business analysts, front and backend developers, solution architectus, ...
+* scalable, hbdrid team setups (more than 80 projects p. a.)
+* people come witha problem statement to them
+not only imple,ent them but also operate them throughout the whole lifecycle
+* munich is a hq for gemany
+* AWS certified solutions arcect, cloud chapter ead for their department
+* enthusiastic about ayting serverless
+* use case: product master data
+  * hardware coponents evolve over time
+  * architecture: amazonapi gateway <-> aws lambda <>< (crud) amazon dynamoDB
+  * buz is this suitable for complex processes:
+  * lambdalith:
+    * advancages: less cold starts, easier migration from existing system (re-platforming)
+    * drawbacks: longer cold starts; synchonous execution only, difficutl error handling/retries, bundle size limits
+  * but is listed as anti-pattern for lambda based applicatons: increases cognitive burden on developers
+  * single key and very nested oject, then you have to scan every table for a filtering
+  * maybe do a flat setup: only top-level keys?
+  * why would you use it: re-platforming, easy to get started with AWS, because you do not know better
+
+### second use-case: siemens COIN - get siemens shares
+* now same pattern, but with amazon aurora instead of dynamodb:
+* created several smaller lambda-liths
+* an endpoint and a lambda function create a micro service
+* drawback: once a year HR will run their annual email campagin: share matching program -> within feew hours enthousands of users: scaling (no problem?):
+  * therefore they configured a proxy before the writers: nable enhanced connection handling
+  * configure automaticscaling for readers on te aurora cluster
+  * challenge your assumptions!
+
+### digital visit management - use case
+* do a tour for potential customers: to convince them to build with simens
+* really huge flowchart for the state machine: primary thougt: AWS step functions?
+* enables async. communication
+* event driven mindset is closer algined to the business use case
+* decouple your system into smallr domains
+* smaller blat radius in case a micro service fails
+* learnt: plan for observability; one big step functon can become overwhelming; do not create its own orchestration service
+* be aware of duplicate events: due to event-driven architecture, but also some servces emit certain events twice
+
+### last use case: my digital lab assistant
+* in colaboration with siemens helathineers
+* idempotency: identify repeated events and prevent duplicated, inconsistent or lost data
+  * how to:
+    * extract a unique attribute of input event
+    * control datbase for identification? if does not exist, just continue with the original action; if it exists, just do nothing (stop processing gracefully)
+* learnt: use x-ray to trace requests; use comon log format; prefer smaller step functions over a big one; use versioning to ensure backward compatibility, use idempotent event handler to increase resiliency
+
+* Plan your architecture to adapt!
