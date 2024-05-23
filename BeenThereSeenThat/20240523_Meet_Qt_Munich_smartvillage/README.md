@@ -27,7 +27,7 @@
 * multi-platform Qt support
 
 ### GenAI is everywhere
-* ![]() - image of the genai todo
+* ![]() - image of the genAI todo
 * generate all test-cases when you have introspection: should be easy - Qt company looks into those fields
 
 ### Open platform
@@ -107,7 +107,7 @@ Btw. Qt World Smmit 2025 takes place in Munich, woah!
 customers are machine builders, plant builders, medical, mesaurement equipment
 
 
-### benfits of using qt - what makes it a great framework
+### Benfits of using Qt - what makes it a great framework
 * longevity, performance, efficiency, cross platform, rich framework, easy integration, FOSS (scratch your own itch), ability to create high fidelity HMIs and great user experiences
 * basyskom is part of the ux group - like imago; mago helped them to create a measurement device and ugrade its embedded hmi
 * narda fieldman: embedded linux on an imx7 (no GPU), battery powered, not touch controlled, has buttons, (hardware keys), hmi is done using Qt Quick and the software renderer, 20k lines of code, custom charting implementation
@@ -141,8 +141,9 @@ customers are machine builders, plant builders, medical, mesaurement equipment
 
 -------
 
-# Maurice Kalinowski -
+# Cyber resilience with Qt - Maurice Kalinowski
 * cyber resilience act - legislation to ensure safer hardware and software
+* PDE - product with a digital enhancement; SaaS is already covered by other legislations
 * obligation to provide a duty of care for the entire lifecycle of products: this includes planning, design, development, and maintenance stages
 * embeded linux/yocto stack: handle all lirbraries and knowin where to get them
 * legislation impacts all vendors operating or selling in EU
@@ -151,8 +152,23 @@ customers are machine builders, plant builders, medical, mesaurement equipment
   * documentaton: product manual, technical documentation, contribution verification and processes, risk assessment
   * incident handling: vulnerability management, notification responsibilities
   * process/certifications: CVE management, audits by customers, archiving, ISO27001 (Ongoing)
+* hint: qt docu should tell which imlications in regard to cyber security it has
+* "a rough sketch"
+* applies for open source and also the commercial version
+* documentation improvements: product manual, technical documentation, SBOM, transparent issue tracking, conformity asessment
+* LTS phase: strict or very strict
+* incident handling: reporting support, guaranteed response times, early warning list
+* CVE dashboard (new), LTS-releases, extended support
+* CRA classification: levels:
+  * self-declaration
+  * class 1 or 2
+* it is easier to certify something if all components already are class 2
+* once you have the certification you can only change very minimal things, else you have to re-certify
+* discussion aboutLTS support changes: 3 versus 5 years, third party depenndencies
+* the IO standard arount the CRA has to be built in the next 3 years
+* question: does the certification apply to self-built binaries?
+* the product is a software, rolling out an update is not a new product
+  * what is with a major update: definitely has to be done
+* Rust: open platform discussion for Qt, but not plan to reimplement Qt in Rust
+* push away from memory-unsafe languages like C++ ... but Rust has no certifications yet
 
-
-
-
-todo: nicholas fella; kda, kde
