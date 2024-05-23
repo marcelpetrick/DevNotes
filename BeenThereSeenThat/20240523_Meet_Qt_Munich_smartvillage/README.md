@@ -2,7 +2,7 @@
 
 * shoutout to Michael Zuchtriegel for recognizing me :sweat:
 
-## Intro by JAkub: about next events ..
+## Intro by Jakub: about next events ..
 * Qt World Summit in 2025 in Munich
 
 ## Maurice Kalinowski
@@ -70,4 +70,47 @@
 * scalability: possible to extend the functionality via extensions, a wide selection of tool extensions available, additional LLMs, support for additional programming lnauges
   * preview for changes of the ABI
 
+## QA tools
+* better insights into legacy code bases
+* aggregating test data and identifying failures
+* typical challenges our customers are facing:
+  * time and budget constraints
+  * cost of issues
+  manual testing
+  * transition to automated pipelines (CI/CD/CT)
+  * manual testing: mondane - boring ..
+  * changes in the software team
+  * security and safety
+  * scalabilty and performance
 
+---------
+𝙋𝙝𝙤𝙩𝙤 𝙙𝙪𝙢𝙥: 𝙈𝙚𝙚𝙩 𝙌𝙩 𝙈𝙪𝙣𝙞𝙘𝙝
+
+Time to assing some purpose to a free day..
+This is a raw, unedited, unfiltered photo dump.
+Only the first ninety minutes have passed and I got a refresh for the product pipeline for the Qt ecosystem, reconnected with a former colleague, take my notes - wonder what the rest of the day will bring.
+
+Shoutout to @michael zuchtriegel, @jakub, @mauricce and everyone attending and making this event possible. Thank you.
+
+Btw. Qt World Smmit 2025 takes place in Munich, woah!
+
+#neverstoplearning #bestpractice #meetqt #qtws
+
+----
+
+# basyKom - Frank Meerkötter
+* since 2004 they have beend developing applications using qt, qt quick and c++
+* is Qt Service partner
+* OPC UA, umati, open62541
+* OPC UA is a central component of Industry 4.0
+customers are machine builders, plant builders, medical, mesaurement equipment
+
+
+### benfits of using qt - what makes it a great framework
+* longevity, performance, efficiency, cross platform, rich framework, easy integration, FOSS (scratch your own itch), ability to create high fidelity HMIs and great user experiences
+* basyskom is part of the ux group - like imago; mago helped them to create a measurement device and ugrade its embedded hmi
+* narda fieldman: embedded linux on an imx7 (no GPU), battery powered, not touch controlled, has buttons, (hardware keys), hmi is done using Qt Quick and the software renderer, 20k lines of code, custom charting implementation
+* narda-tsx as evaluation tool: is qt quick based, which is an unusual approach
+* shared codebase: shared ui-code
+* qt as common SDK enables a shared mindset for all developers involved
+*
