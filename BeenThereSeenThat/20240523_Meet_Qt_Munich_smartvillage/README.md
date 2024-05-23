@@ -1,9 +1,9 @@
 # 20240523 Meet Qt Munich - smartvillage
 
-* shoutout to Michael Zuchtriegel for recognizing me :sweat:
-
 ## Intro by Jakub: about next events ..
 * Qt World Summit in 2025 in Munich
+
+-------
 
 ## Maurice Kalinowski
 
@@ -83,7 +83,8 @@
   * security and safety
   * scalabilty and performance
 
----------
+-------
+
 𝙋𝙝𝙤𝙩𝙤 𝙙𝙪𝙢𝙥: 𝙈𝙚𝙚𝙩 𝙌𝙩 𝙈𝙪𝙣𝙞𝙘𝙝
 
 Time to assing some purpose to a free day..
@@ -96,7 +97,7 @@ Btw. Qt World Smmit 2025 takes place in Munich, woah!
 
 #neverstoplearning #bestpractice #meetqt #qtws
 
-----
+-------
 
 # basyKom - Frank Meerkötter
 * since 2004 they have beend developing applications using qt, qt quick and c++
@@ -113,4 +114,20 @@ customers are machine builders, plant builders, medical, mesaurement equipment
 * narda-tsx as evaluation tool: is qt quick based, which is an unusual approach
 * shared codebase: shared ui-code
 * qt as common SDK enables a shared mindset for all developers involved
-*
+* lack of GPU required some "tight" programming and custom graphing code
+* creating a desktop application with Qt Quick that behaves platform native is extra work; custom charting needed as well
+
+-------
+
+## Performance Improvements - Profiling - Qui Shen
+* qml profiler and compiler
+* cmake profiler
+* QML bench (?)
+* Qt Graphs as replacement for QtCharts
+* Performance Evaluation App: to be used as base for 2D desktop performance application
+  * example on some Raspberry Pi
+  * released: integrated in next Qt version as demo (6.8?)
+* Building Optimized Qt: see as part of the Qt 6.8 docu
+* Qt lite: 15% of original ROM footprint: staitc linking, Link Time Optimization and strip-command and Qt Lite
+
+-------
