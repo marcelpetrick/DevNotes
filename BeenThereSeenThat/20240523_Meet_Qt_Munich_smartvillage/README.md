@@ -131,3 +131,28 @@ customers are machine builders, plant builders, medical, mesaurement equipment
 * Qt lite: 15% of original ROM footprint: staitc linking, Link Time Optimization and strip-command and Qt Lite
 
 -------
+
+# TeamViewer - Korbinian Kram
+* 2.5bn installations, 630.000 subscribers
+* global player, but national to germany
+* TeamViewer Tensor Product: bringing this to embedded products
+* 150k+ installed embedded agents
+* after sales support: instad of regular IT handling this
+
+-------
+
+# Maurice Kalinowski -
+* cyber resilience act - legislation to ensure safer hardware and software
+* obligation to provide a duty of care for the entire lifecycle of products: this includes planning, design, development, and maintenance stages
+* embeded linux/yocto stack: handle all lirbraries and knowin where to get them
+* legislation impacts all vendors operating or selling in EU
+* topics:
+  * secure development: secure development cycle, secure privacy practives, fuzzing and safet testing, code analysis tools
+  * documentaton: product manual, technical documentation, contribution verification and processes, risk assessment
+  * incident handling: vulnerability management, notification responsibilities
+  * process/certifications: CVE management, audits by customers, archiving, ISO27001 (Ongoing)
+
+
+
+
+todo: nicholas fella; kda, kde
