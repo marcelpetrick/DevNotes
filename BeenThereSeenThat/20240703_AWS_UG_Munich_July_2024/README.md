@@ -41,5 +41,50 @@ For this special occasion we deviate a bit from our regular agenda:
 * start with a simple approach: input -> program -> output
 * relies on what humans can observe and program
 * machine learning is different: take the available data, feed into algorithm, algorithm does it for your, the model -> get the output: you get a statistial answer
-*
+* also: this approach scales well
+*  AWS used ML since 2007: decision tree models (if then else on steroids) -> quickly switched to deep learning models
+* al fitting items are put into shelves, yellow ones, fulfillment enters
+* guided stow/picking activities through bin vision system
+* stowed in chaotic order: wherever is any space
+* shelf-lighting: to prevent mixing of heavy items and to avoid mixing similar items
+* also: optimize packaging: not traditional (box) packaging, but smaller envelopes: 75% lighter and 50% smaller
+* big question: which packaging to choose
+* ML model changing the game: basic decision making rules + visual inspection of (only) top products
+  * feedback loops; gaterhing small amount of data; feed the results and knowledge of workers back into the model
+* now this knowledge can be used to adapt to things which never have been seen before
+* what about collectibles: for those it means they are delivered in the best possible way
+* genAI makes it a bit more interesting:
+  * traditional ml models mean a lot of work: ather data, prepare model, tune
+  * versus: take a foundation model and use the same model for different tasks
+  * working backwards questions: what is the customer? what is the customer problem or opportunity? in most mortant customer benefit clearn? ow do you knwo what customers want?
+  * risks vs opportunities: unkown data provenance -> cost implications -> unpredictable behaviours
+  * low touch use-cases: well served by existing tehcnologies -  not cost effective
+  high touch use cases: risk of negative customer experience (reputation ..)
+  * new feature: customer review summaries (Q3/2023): clever idea
+  * create customized product photos with background based on the wanted campaign
 
+### what did they learn as organization?
+* ml-first mindset and culture
+* eanbling teams for the mission
+*powerful data platform
+
+* every manager at amazon has t write a business plan eevery year (Op1): chalenges,opportunities, how much to invest, what we see ..
+* also: How will we use machine learning? sound slike the ahmmer-naiö-problem: a forcing function
+* to think AI as natural way of how we do thigs at amazon - not just make it a "tech people" problem
+* tin the problem from the very business side of the task
+* ("We wont as not acceptable answer"). conversaton starter.
+* break down the silos! domain experts and the technical experts are part of the same team - avoid silo behaviour (known from devops: throw stuff over the wall .. let the tech people sort out the ml-part ..)
+* also: they are fast .. they can coordinate within the same day
+* apply the right tool for the job: cloud computing gives the team access to all the technology they want
+* everyon has access to all tools; automatic compliance rules; remove friction from the rpocess, by adding self service automation ... wow!
+* data fuels ML-driven innovations
+  * security and performance at scale; innovation happens at the edge; remove heavy lifting
+  * amazon.com's ig data marketplace: created a marketplace for data and information ..
+* bottleneck people want t do 2x more with AI but struggle to put t into production
+* enable speed and scale through automation: make sure it is 100% automated ..
+  * what manual process can be replaced with a script to make it faster?
+* summary:
+  * ai ml not just a toy, but mission critical for amazon
+  * ml delivers a differential impact and non-linear scaling for amazon
+  * building and scaling ml usage at entreprise level requires clear strategies across a system of enablers
+  * .. ask him for questions and give feedback..
