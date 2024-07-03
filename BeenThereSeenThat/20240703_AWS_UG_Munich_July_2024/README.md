@@ -116,6 +116,6 @@ For this special occasion we deviate a bit from our regular agenda:
 * AWS cloudshell now supports VPC ("we never do cloudshell, only infrastructure as code!")
 * AWS Meetup: the well architected startup
 
-## Women's user group
+## Women's user group - Meyyar Palaniappan
 * not enough diversity in the tch space
 *
