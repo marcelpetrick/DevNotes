@@ -88,3 +88,34 @@ For this special occasion we deviate a bit from our regular agenda:
   * ml delivers a differential impact and non-linear scaling for amazon
   * building and scaling ml usage at entreprise level requires clear strategies across a system of enablers
   * .. ask him for questions and give feedback..
+
+## break and AWS important releases by Markus
+* the very first time that the employer hosts the AWS meeting (for Markus)
+* adesso a full service provider: end to end IT-service provider
+  * do a lot of things in the cloud
+  * cloud agnostic, not only AWS
+  * more than 11k employees, more than 1 biollion€ in group revenue in 2023; 60 locations
+  * has 280 AWS certifications
+  * internet of things .. in the cloud, on the cloud, for the cloud
+* customer obsession
+* around 400 updates per month from AWS
+* detect new malware uploads in new object uploads to Amazon S3 with Amazon GuardDuty
+* container: EKS: open source the Pod identity agent
+  * introduces cluster creation flexibility for netowrking add-ons
+* elasticache serverless now supports snashot and restore for memcached
+* AWS glue: usage profiles is now GA
+  * add additional 13 new transforms
+  * DAta Quality Definition Language enhancements
+* AWS codebuild: create hooks based on the github organization - also build timeout increased to 36h
+* amazon codecatalyst:  introducing maven, python, nuget support in codecatalyst package repositories
+* now supports gitlab.com source code repos
+* AWS codeartifact supports now Cargo, the rust package manager
+* "two pizza things"
+* AWS cloud trail lake announces AI-powered natural language query generation (in preview us-east-1 only)
+* more support for AWS biling and cost management for dashboards: supports FOCUS as data export; as least common nominator
+* AWS cloudshell now supports VPC ("we never do cloudshell, only infrastructure as code!")
+* AWS Meetup: the well architected startup
+
+## Women's user group
+* not enough diversity in the tch space
+*
