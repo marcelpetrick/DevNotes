@@ -118,4 +118,32 @@ For this special occasion we deviate a bit from our regular agenda:
 
 ## Women's user group - Meyyar Palaniappan
 * not enough diversity in the tch space
-*
+* why now (ten years after teh other group exists)
+* global staistics: for everyt rhee men is 1 woman
+* EU. for every 5 men is 1 woman in IT
+* spread the word, be the multplyer, empower women
+* Amazon culture of writing
+* women who want to switch into the cloud career
+* make cloud technologies to all
+* "if she can see it, she can do it"
+* role-models and visibility
+* Förderverein AWS Community daCH
+* first offical meetup in October 2024, AWS Office Munich
+* follow AWS Women's User Group Munich: and spread the word
+* TODO: share the QR code
+* "pulse of the audience"": check what the audience thinks .. reach out to her and tell what they epeect to see
+
+## AWS Builder cards: Michael Wahlers - Head of Technology
+* usually convinces governemnts to get rd of digitalization .. (not sure if I understood this correctly)
+* what is builder cards: card game, not a service
+* architecture building game, educational, game concept unique to AWS, sustainable, a pretty decent board game
+* house-rules are possible for adapation; team building
+* TODO add the photo
+* is it like MAgic? (MTG)
+* the challeng and the slution: what service can be combined with what?
+* cards, legacy cards, costs, categories .. TCO 8total cost of ownership) credits
+* 2nd edition coming: at reinvent
+* mission cards: winner has the most well-architected points
+* make it available i to buy online in Q4
+* right now not buyable, currently just swag
+
