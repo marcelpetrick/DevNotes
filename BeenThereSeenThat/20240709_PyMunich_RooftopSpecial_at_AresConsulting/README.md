@@ -43,4 +43,43 @@ We can't wait to see you at the roof-top!
 ```
 
 ## my notes ..
-TBC
+
+algorithmic trading..johannes sommer
+
+why crypto? is a growong industty, heabily.adopted, has enough volatily. capitalize on it
+less comoetition of big players
+crypto markets wuite noisy
+sample: linear regessionaand gradient boost
+can.say with any statisticla.certainty. odd squares and t test
+checklist creates a very stable trading bot
+divsrsity of profiles: 25 percent right is good enough in case of enough stuff to.win
+volatility is key
+.......
+
+from.dev to.prodb the hidden costs of pyhton programming
+financial.and encironmental.costs
+* ai grow by 280 bln
+data.scientist.40.blnn
+* eatimations. traberse and aloocate binary trees. 
+3 hours to 3.month runtime.with same.energy conpared germany to kenya
+can using vertain packages make it more efficient
+assignment ooeratoe and comma methodntonprint strings..double usage
+comparing numpy and pandas. 10 mio inputs, numoy.faster and consumes less enetgy
+compiling for.speed is compiling for energy
+full.throttle is more wfficient
+enegry = power * time
+race to sleep. eveb with uneveb usage
+better to save energy by less time.or memory usage..python stands up
+example.pythonn script removing duplicates in aws lambda
+
+........
+top zo bottom.feedbakc loops
+get error from.trst and move on. 
+
+as little.as possible.in unknown states: want to know what the error is about
+really being on the known path will.gibe you the feeling of peogrss!
+put yourarlf in thebconsuner shoes
+public interface of the class is tested
+* add tests to increase confidence
+find a tradeoff between thr cotst.and thr tisks of the tests..if a trst does not provide anything useful, you might deletr it
+
