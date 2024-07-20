@@ -53,6 +53,12 @@ take image with camera, do OCR, convert story into age appropriate storytelling,
 ## fix the wordpress forwarding problem
 * someone took over WP - not sure how
 * if someone does not use an adblocker, you get forwarded to suspicious pages
+
+## duo/language-learning clone:
+* generae level appropriat sentences and word chains for croatian
+* give user way to input them, then check /verify via LLM (or even simpler deterministic approach - by usingpre-generated stuff)
+* also allow to enter spoke phrases,then correct them
+* also generate spoken output and then let the user type (or input by given word blocks) 
   
 ---------
 
