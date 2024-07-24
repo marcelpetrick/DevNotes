@@ -28,13 +28,26 @@ Unser Coach Jan Klostermann befasst sich seit über 10 Jahre auch mit Wegen zur 
 --------------
 
 * [..] 10 min später gekommen aufgrund anderem Meeting
-![](img00.ppng
+
+![](img00.png)
 * Spannung bedeutet Leben
-* zu große Spannung führt zui Körperkrampf
+* zu große Spannung führt zu Körperkrampf
 * spannungsbasiertes Arbeiten
-* Untrerscheidung zwischne persönlicher Spannung und organisatorischer Spannung:
+* Unterscheidung zwischen persönlicher Spannung und organisatorischer Spannung:
+![](img01.png)
 ![](img02.png)
 * "Konflikt wollen wir nicht haben und der muss weg"
-* muss aber nicht Fehlverhaltenals Ursache sein, kann auch "anderes" Verhalten sein
+* muss aber nicht Fehlverhalten als Ursache sein, kann auch "anderes" Verhalten sein
 * Glaube an Erziehbarkeit der Welt ist eine Quelle für Konflikte
-* Konflikte wie Komnfliktlosigkeit können fruchtbar und furchtbar sein: schüren, wenn notwendig ist, aber nicht stattfindet. Aber man muss ihn auch dämpfen können
+* Konflikte wie Konfliktlosigkeit können fruchtbar und furchtbar sein: schüren, wenn es notwendig ist, aber nicht stattfindet. Aber man muss ihn auch dämpfen können <-- check: "Aber man muss sie auch dämpfen können"
+* Empfehlung:  "Klaus Eidenschink − Die Kunst des Konflikts" 29€; 978-3-8497-0502-2
+* Konflikte führen, Strukturen schaffen und nutzen, um sie auszufüllen
+* Toleranzpoker?
+* persönliche Triggerpunkte treffen
+
+![](img03.png)
+![](img04.png)
+![](img05.png)
+![](img06.png)
+![](img07.png)
+![](img08.png)
