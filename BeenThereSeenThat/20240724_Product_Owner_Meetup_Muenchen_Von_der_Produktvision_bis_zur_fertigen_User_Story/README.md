@@ -35,6 +35,10 @@ Allgemeine Information
 ![](img02.png)
 * halbgare Stories fertigmachen
 * uinstrukturiertes feedback - gibt es clsuter? erstelle tabelle?
+* marketresearch; daten strukturieren lassen, als teabelle. oder gruppiert - dann auch ideation -> ideensammmlung
+* AI tools for giam: jam?
+* kein gutes Tool gefunden, welches behauptet aus Use-cases ein Ui zu erstellen; sah meist nicht gut aus
+  * liegt daran, dass die Modelle nicht auf UX/UI Komponenten trainiert wurden
+
 
 TODO add the screenshots
-
