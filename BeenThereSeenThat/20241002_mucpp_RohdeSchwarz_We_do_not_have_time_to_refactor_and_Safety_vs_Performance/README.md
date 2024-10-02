@@ -44,4 +44,38 @@ Lifestream: https://streaming-service.rohde-schwarz.com/Watch/3f5bAq
 ```
 
 ## notes
-TBC
+
+## Title: We do not have time to refactor! - David Sautter
+* coder, project manager, trainer
+* trainer how to make code more maintainable for internal teams at R&S
+* new hire, bi pile of mud, weird names, complexity, nested functions, ...
+*  "we need to rewrite parts of the code" - but not possible in any economic setting
+* as experienced progammer an importnt skill is negotation: first answer from manager is no; but then "maybe one refactoring sprint, then continue with the features"
+  * what to refactor in that one sprint? big impact on job satisfaction for the next month
+  * ROI-formula; but how to measure the gain from a refactoring
+  * a beautiful codebase is fine for open source projects, but not business related ones: so "avoid costs"
+  * study: "we spend most of our time understanding code": dev-surveillance; 70% of time is spent on trying to understand code
+  * martin fowler: "any fool can write code a computer can understand. good programmers write code that humans can understand." - getting mental model into code
+  * how to judge if code is readable: not judge yourself; take the code and give it to someone else; when you noticed it takes a longer timer to understand, then comment "i was stuck here for a onger time"
+    * but: what does this say about me as programmer? as side-effect
+  * complexity: does not really matter which one (LoC and others)
+  * second level: do we have to read this file agan in the future
+  * so an indicator is needed: what we touched recently, will also change in the future; over a broad scale
+    * maybe: number of commits per file - for the last six months -> and this is called "the churn"
+    * lower left quadrant: top left, bottom left, bottom right: all fine; but the killer are the files top right
+    * focus onto middle and top right quadrant
+    * https://codersint.net: sautte_d churcn complexity.git - why not implement this myself? #nih
+  * hidden pain:
+  * tool YakLog - physical wall: post it with complaint; each time something is touched; draw a hangman (one stroke)
+    * also print "a pile of burning money" ... manager will notice it and then ask about it and also advice to get rid of that showstopper ... thank you
+    * good tool to recognize problems over time and deal with them
+  * clean slate; couple of months it is a mess ... why? knowledge - understanding of the code and features
+* why should i touch existing code? no direct benefit, risk to add more defects, maybe not even fitting
+* they expet me to be done: slowing down;  why i am taking so long? people stop, when it works and not when it is right
+* "the dopamine rush: results, more results."
+* you have to spread your knowledge in a team
+* "your code is a crime scene" book recommendation
+
+## Title: Safety vs Performance. A case study of C, C++ and Rust sort implementations - Lukas Bergdoll
+tbc
+
