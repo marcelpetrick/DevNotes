@@ -77,5 +77,28 @@ Lifestream: https://streaming-service.rohde-schwarz.com/Watch/3f5bAq
 * "your code is a crime scene" book recommendation
 
 ## Title: Safety vs Performance. A case study of C, C++ and Rust sort implementations - Lukas Bergdoll
-tbc
+* all langauges are aspriing system-levl languages
+* agenda today: motivating example, protperyt analysis, property results, performance, conclusion
+* std::unordered_amp<std::string, int64_t> XX = {..}
+  * adress sanitizer fine, memory sanitizer, is overwritten
+  * then: how to turn it off
+  * ordering safety in C++ is bad: sort vector of float, not possible, because of NaN
+  * in rust not psisble to proof that someting has a total order
+  * exception safety: in Rust panic (also unwinds the stack)
+  * exception safety: basic exception safety (promises that when an exception happens, when unwinding the stack) - strong eception safety (if something happesn, you go to the state before; noting inbetween)
+  * check: std::aligned_storage
+  * type confusion: CVE for V8 engine were of this type; really dangerous
+* what is crumsort? pdqsort
+* cmparison of the implementations: all unstable different proerpties, in the end only two from rust fulfll all properties .. see photo
+* performance benchmarks with pprepared input patterns some pre-sorted: 100x difference between implementtions, also spread
+* DAnila Kutenin
+* github: voultapher - Lukas? see avatar
+* c++ std-mplementation almost never beats rust ones
+* correlations: performance does not correlate to the usage-safety
+* conclusion saftey and performance is not a zero sum tradeoff
+  * safety is a question of culture
+  * unlock performance with research and creativity
 
+----
+
+* both speakers were pacing the stage with tremendous speed; like some explosive power waiting to be released
