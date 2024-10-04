@@ -43,62 +43,62 @@ Schedule:
 Lifestream: https://streaming-service.rohde-schwarz.com/Watch/3f5bAq
 ```
 
-## notes
+## Notes
 
-## Title: We do not have time to refactor! - David Sautter
-* coder, project manager, trainer
-* trainer how to make code more maintainable for internal teams at R&S
-* new hire, bi pile of mud, weird names, complexity, nested functions, ...
-*  "we need to rewrite parts of the code" - but not possible in any economic setting
-* as experienced progammer an importnt skill is negotation: first answer from manager is no; but then "maybe one refactoring sprint, then continue with the features"
-  * what to refactor in that one sprint? big impact on job satisfaction for the next month
+### Title: We do not have time to refactor! - David Sautter
+* Coder, project manager, trainer
+* Trainer on how to make code more maintainable for internal teams at R&S
+* New hire, big pile of mud, weird names, complexity, nested functions, ...
+* "We need to rewrite parts of the code" - but not possible in any economic setting
+* As an experienced programmer, an important skill is negotiation: first answer from manager is no; but then "maybe one refactoring sprint, then continue with the features"
+  * What to refactor in that one sprint? Big impact on job satisfaction for the next month
   * ROI-formula; but how to measure the gain from a refactoring
-  * a beautiful codebase is fine for open source projects, but not business related ones: so "avoid costs"
-  * study: "we spend most of our time understanding code": dev-surveillance; 70% of time is spent on trying to understand code
-  * martin fowler: "any fool can write code a computer can understand. good programmers write code that humans can understand." - getting mental model into code
-  * how to judge if code is readable: not judge yourself; take the code and give it to someone else; when you noticed it takes a longer timer to understand, then comment "i was stuck here for a onger time"
-    * but: what does this say about me as programmer? as side-effect
-  * complexity: does not really matter which one (LoC and others)
-  * second level: do we have to read this file agan in the future
-  * so an indicator is needed: what we touched recently, will also change in the future; over a broad scale
-    * maybe: number of commits per file - for the last six months -> and this is called "the churn"
-    * lower left quadrant: top left, bottom left, bottom right: all fine; but the killer are the files top right
-    * focus onto middle and top right quadrant
-    * https://codersint.net: sautte_d churcn complexity.git - why not implement this myself? #nih
-  * hidden pain:
-  * tool YakLog - physical wall: post it with complaint; each time something is touched; draw a hangman (one stroke)
-    * also print "a pile of burning money" ... manager will notice it and then ask about it and also advice to get rid of that showstopper ... thank you
-    * good tool to recognize problems over time and deal with them
-  * clean slate; couple of months it is a mess ... why? knowledge - understanding of the code and features
-* why should i touch existing code? no direct benefit, risk to add more defects, maybe not even fitting
-* they expet me to be done: slowing down;  why i am taking so long? people stop, when it works and not when it is right
-* "the dopamine rush: results, more results."
-* you have to spread your knowledge in a team
-* "your code is a crime scene" book recommendation
+  * A beautiful codebase is fine for open source projects, but not business-related ones: so "avoid costs"
+  * Study: "we spend most of our time understanding code": dev-surveillance; 70% of time is spent on trying to understand code
+  * Martin Fowler: "Any fool can write code a computer can understand. Good programmers write code that humans can understand." - Getting mental model into code
+  * How to judge if code is readable: don't judge yourself; give the code to someone else; if it takes them longer to understand, then comment "I was stuck here for a longer time"
+    * But: what does this say about me as a programmer? (as a side-effect)
+  * Complexity: does not really matter which one (LoC and others)
+  * Second level: do we have to read this file again in the future?
+  * An indicator is needed: what we touched recently will also change in the future, over a broad scale
+    * Maybe: number of commits per file - for the last six months -> this is called "the churn"
+    * Lower left quadrant: top left, bottom left, bottom right: all fine; but the killer are the files in the top right
+    * Focus on the middle and top right quadrant
+    * https://codersint.net: sautte_d churn complexity.git - Why not implement this myself? #NIH
+  * Hidden pain:
+  * Tool YakLog - physical wall: post-it notes with complaints; each time something is touched; draw a hangman (one stroke)
+    * Also print "a pile of burning money" ... manager will notice it and then ask about it and also advise to get rid of that showstopper ... thank you
+    * Good tool to recognize problems over time and deal with them
+  * Clean slate; after a couple of months, it is a mess ... why? Knowledge - understanding of the code and features
+* Why should I touch existing code? No direct benefit, risk of adding more defects, maybe not even fitting
+* They expect me to be done: slowing down; why am I taking so long? People stop when it works and not when it is right
+* "The dopamine rush: results, more results."
+* You have to spread your knowledge in a team
+* "Your Code as a Crime Scene" book recommendation
 
-## Title: Safety vs Performance. A case study of C, C++ and Rust sort implementations - Lukas Bergdoll
-* all langauges are aspriing system-levl languages
-* agenda today: motivating example, protperyt analysis, property results, performance, conclusion
-* std::unordered_amp<std::string, int64_t> XX = {..}
-  * adress sanitizer fine, memory sanitizer, is overwritten
-  * then: how to turn it off
-  * ordering safety in C++ is bad: sort vector of float, not possible, because of NaN
-  * in rust not psisble to proof that someting has a total order
-  * exception safety: in Rust panic (also unwinds the stack)
-  * exception safety: basic exception safety (promises that when an exception happens, when unwinding the stack) - strong eception safety (if something happesn, you go to the state before; noting inbetween)
-  * check: std::aligned_storage
-  * type confusion: CVE for V8 engine were of this type; really dangerous
-* what is crumsort? pdqsort
-* cmparison of the implementations: all unstable different proerpties, in the end only two from rust fulfll all properties .. see photo
-* performance benchmarks with pprepared input patterns some pre-sorted: 100x difference between implementtions, also spread
-* DAnila Kutenin
-* github: voultapher - Lukas? see avatar
-* c++ std-mplementation almost never beats rust ones
-* correlations: performance does not correlate to the usage-safety
-* conclusion saftey and performance is not a zero sum tradeoff
-  * safety is a question of culture
-  * unlock performance with research and creativity
+### Title: Safety vs Performance. A case study of C, C++ and Rust sort implementations - Lukas Bergdoll
+* All languages are aspiring system-level languages
+* Agenda today: motivating example, property analysis, property results, performance, conclusion
+* `std::unordered_map<std::string, int64_t> XX = {...}`
+  * Address sanitizer fine, memory sanitizer, is overwritten
+  * Then: how to turn it off
+  * Ordering safety in C++ is bad: sort vector of float, not possible because of NaN
+  * In Rust, not possible to prove that something has a total order
+  * Exception safety: in Rust panic (also unwinds the stack)
+  * Exception safety: basic exception safety (promises that when an exception happens, during unwinding of the stack) - strong exception safety (if something happens, you go to the state before; nothing in between)
+  * Check: `std::aligned_storage`
+  * Type confusion: CVE for V8 engine was of this type; really dangerous
+* What is crumsort? pdqsort
+* Comparison of the implementations: all unstable, different properties, in the end only two from Rust fulfill all properties .. see photo
+* Performance benchmarks with prepared input patterns, some pre-sorted: 100x difference between implementations, also spread
+* Danila Kutenin
+* GitHub: voultapher - Lukas? see avatar
+* C++ std-implementation almost never beats Rust ones
+* Correlations: performance does not correlate with usage-safety
+* Conclusion: safety and performance are not a zero-sum tradeoff
+  * Safety is a question of culture
+  * Unlock performance with research and creativity
 
 ----
 
-* both speakers were pacing the stage with tremendous speed; like some explosive power waiting to be released
+* Both speakers were pacing the stage with tremendous speed; like some explosive power waiting to be released
