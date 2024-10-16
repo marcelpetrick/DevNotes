@@ -144,5 +144,11 @@ Networking Happy Hour
 * hosts secrets and platform integrity credentials
 * post-quantum cryptography: Dilithium 3.1 signature verification
 * clock frequency monitor, glitch detector
-* secure debug enforcement: challegene-reponse based authentication for enablement in the field
+* secure debug enforcement: challenge-response based authentication for enablement in the field
 
+## Breakout: Vision pipeline
+* ARM Mali G310 3D processor
+* industry HMI engine support: Crank, Qt
+* in-house ISP (image signal processor): HDR 12-bit processing
+* able to use libcamera for Linux userspace
+* i.MX 8M Plus and i.MX 95 have the same TOPS, but performance is 2-3 times better due to optimization
