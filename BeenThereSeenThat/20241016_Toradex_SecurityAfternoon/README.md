@@ -110,5 +110,38 @@ Networking Happy Hour
 * by default you don't have to provide the sbom to customer; so they can't know which things are affected by vulnerabilities
 * torizon offers help with sbom, risk management, secure-by-default, vulnerability monitoring, updates
 
-## edlgeLock security
+## nxp edgelock secure enclase
+* owncpu core and ROM; isolated from the rest of the SoC
+* provides enhanced isolation for execution
+
+## transormation
+* todo add the photo here
+* be faster, be secure, be reliable
+* TorizonCloud: OTA, remote access & control (console!); fleet management, ..
+* example: splunk video - did not work; uses full stack from Toradex; hardware, torizonOS, own hmi-framework
+* traditional or bare-metal debian deployments: no zero-conf, no monitoring, remot access, OTA -> customers end up with messy fleets
+* demo gallery: CodeSys Demo, Crank GUI, Slint UI, ROS - check the first ones
+* application containerization (dockerisation): OTA services, container runtime, linux kernel as base: on top the applications
+  * needs a bit more memory, and a bit more boot time
+  * but running the app directly is also possible
+
+## QNX: secure RTOS for next Toradex project
+* Thomas de Lellis
+* QNX is part of the BlackBerry IoT pillar
+* customers: automotive, industrial autmation, medical devices, defense heavy machinery, energy, rail ..
+* QNX is unix-like, but not built on top of Linux; is a microkernel
+* every software component i isolated as a process: drivers, stacks, os services, applications
+* can restart any comonent individually, without interrupting the kernel
+* all processes an use the same PAIs: POIX PSE54 and C11, C++14/17/20 - greatly simplifies embedded development
+* hypervisor host domain: microkernel with scheduler
+* separation of mixed criticality componentns can facilitate certification efforts
+  * failure in no-safety cricitical component does no create failure in safety-crictical component
+
+* talked with Burkhard Stubert a bit about licensing
+
+## breakout session with advanced security
+* edgelock secure enclase as root of trust in the system
+* hosts secrets and platform integrity credentials
+* post quantum cryptography: dilithium 3.1 signature verification
+* clock frequency monitor, glitch detector
 *
