@@ -79,4 +79,36 @@ Networking Happy Hour
 * TODO add image of benchmark chart
 * edge ai workload acceleration for facial recognition, access control, classification, preditctive maintenance, pose detection, traffic monitoring, voice-to-intent
 * support for TFLite, PyTorch, Caffee2, ONNX
+* question about the Qt saferender: todo check this https://doc.qt.io/QtSafeRenderer/
+
+## EU Cyber Resilience Act
+* global annual cost of cybercrime: 5.5 trilion € - equal to spend 1 mio € per day for the next 15k years
+* do botnets with coffee machines
+* why now?
+  * motivation on device manufactrer side was too low; there was no forcing legal framework
+  * customers do not understand the security of devices
+* goals of CRA are: framework for cybersecurity requirements; products are dedsigned, developed and produced with cybersecurity in mind; transparency in handling cybersecurity risks and incidents
+* 90% of productas: are in the default category, self-asssssment
+* 10% of products: critical class I: either standard or third party assessment, critical class II: thidrd party assessment
+* why should you comply? because the fines are huge
+* requirements simplified:
+  * free security patches for 5 years or the lifetime of the produt
+  * protect the device, security by default, secure boot
+  * no known exploitable vulnerabilities
+  * protect customer data t rest and in transit
+  * automatic security update that are enabled as default setting(!)
+  * limit attack surfaces, including external interfaces
+  * document software used: provide a SBOM
+  for vulnerabilities, early warning in 24h, full notification n 72h
+  * address vulnerabilities and patch with no delay (no time mentioned)
+  * provide a secure update mechanism
+* discussion of GDPR-implications in B2C-relation
+* how to provide the vulnerabilities, which were discovered
+* patching independent of vulnerability
+* if you are using the downstream kernel, do you have to report those CVE on your product as well? not answerable
+* check, who handles this: open source software "steward"?
+* by default you don't have to provide the sbom to customer; so they can't know which things are affected by vulnerabilities
+* torizon offers help with sbom, risk management, secure-by-default, vulnerability monitoring, updates
+
+## edlgeLock security
 *
