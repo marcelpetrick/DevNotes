@@ -36,10 +36,39 @@
 * organisatorische planung wichtig um zu bestmmen, ob man das gestemmt bekommt
 * best practise: hochverfgbare schlüsselablage: nitrokeys können auch verschrnänkt werden bei initialisierung
 * falls in tresor gelagert: geht, aber nicht praktikabel
+* alternative: zentral gemenagten service anbieten
+* vier augen prinzip für entwickler: gute idee für die developer experience
+* best practice: automatisierte signing pipeline:
+  * signing pipeline (DevOps)
+  * Signing Server
+  * Signing Service
+  * Firewalls
+  * merer eEntwicler invlviert:
+  1 devops engineers
+  2. firmware engineers
+  3. it-admins
+  4. security engineers
 
+## was wäre wenn sich keiner um  das schlüsselmanagemtn kümmert?
+* was bei erher eteilen, welche vo unterschiedlichen zulieferern kommt?
+* 2 aus 3 prinzip: so dass auch leute mal abwesend sein können; auch personalwechsel machbar
+* das braucht dann auch dokumentierte prozesse um so etwas erneut zu erzeugen
+* transparenz sicherstellen: vier-augen-prinzip; auditierbarkeit
+* best practise: erzeugung der schlüssel in einer eremonie
+  * dedizierter prozess für die erzeugung
+  * zeremoieportokoll
+  * doppelbesetzung der rollen
+  * aufbau einer public key-infrastructure (PKI)
 
+* secure boot versus secure update (für die metadaten)
+* ARM-chips mit trustzone können sich auch darüber identifizieren
+* imx-Plattform erlaubt bis zu vier fusekeys: muss dann auch sichegestellt werden, dass ein aufragsferiger da nicht noch einen zusätzlichen key reinpackt ..
+* soides sclüsselmanagement nd die integration der signing-prozesse in den ci-workflow st kein hexenwerk
+* akzeptanz und einbindung dr entwickler ist notwendig
 
-
-* question: key rolling?
-
-
+* Entwicklungsprozess: kein Merge ohne Code-Review; signierte Commits; in Verbindung mit 4 uage prinzip hebt das die hürde an
+* secure testing: schliesst teilweise auch das problem erhöhen
+* ebenfalls auch die eigenbundenen abhängigkeiten tracken und nachstellen
+* security: mmer wieder anpassen; schleife "wo stehe ich, was kann ich verbessern"
+* bei safety hingegen nur ein einziger erfolgreicher check notwendig
+* je grßer die softwarebasis, desto größer die notwendig zum update
