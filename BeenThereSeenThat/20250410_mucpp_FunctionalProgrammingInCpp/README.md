@@ -41,4 +41,34 @@ Schedule
 21:30 -- Official End
 ```
 
-TBC
+* think-cell: provide ome tool for Powerpoint, for 21 ears; all written in C++; combing from Berlin
+
+## Lightning Talk by Daniel Teubl
+* the UAV actuator montorigin
+* a refactoring case study
+* UAV, flight testing; test automoatization
+* QR code for the talk on website: good idea
+* configuation file: baseline, itertie approach, database approach
+* system: actuator control an montiron unit
+* stm32 f446RE as MCU for the board
+* UAV has six actuators
+* baseline as hardcoded magic numbers in the main.cpp
+  * thre yrs ago for the state: dead code, etc.
+* v1.3: a config file - config.txt, key value pairs; lots of repeated parsing of lines until values are found
+* v1.11: loading the configuration in one go
+* problems: configuration schema reflects domain; only manual configuartion change possible
+* final version was smaller, by some 5k ines of code, but in executio slower? real time impact; almost nothing
+* relied on cppcheck and clang-tidy
+
+
+## declarative programming
+* functional porogramming is declarative programming by composing functions
+* you define sthe state and outcome and some magical system figures out how to compute the result
+* Haskell: order of functions does not matter
+* 
+
+
+
+
+todo: check if sansevieria can flower in germany climate
+
