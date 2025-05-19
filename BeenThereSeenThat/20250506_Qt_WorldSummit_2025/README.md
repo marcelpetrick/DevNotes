@@ -117,3 +117,11 @@ and much more, integreated with our comprehsenive world
 * bring those impulses innto the teams every day
 * this brought them bakc to their embedded roots - great closing word
 
+---
+
+## christ barton - shazam
+* never used the technology: what is shazam - recongize songs to figure out what it is
+* phds in standrifd, etc could not do what he had as idea, to create a tool to reconigze songs
+* even with white room approach of radio 
+
+-- TODO to be continued with the notes from whatsapp --
