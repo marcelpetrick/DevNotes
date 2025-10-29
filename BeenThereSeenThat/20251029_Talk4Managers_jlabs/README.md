@@ -199,7 +199,28 @@ The author of one of the most popular Udemy Productivity Courses - check it here
 * look fr simple, everyday automations
 * focussed work blocks - pomodoro technique - even 90mins, if you can allow this yourself
 
+---
 
+* layers: pomodoro as level 1, organize life; then level 2: if you have kids then they have a predicatable schedule; rythm happens to be preditable, but nto too boring; strategy as mirror
+* only one good book about strategy: todo ask him, what this is, then switch to war-books
+* try to reduce the cognitive load: remove stuff from life, which does not matters
+* impprove sleep quality; improve breathing
+* wimhoff (netherlands): cold baths; learning to brathe; overbreathers - muscles are tense
+* recommend to incrfease light exposure
+* co2 levels: drop of 15% by 1000 pp co2 ((check what the proper unit is))
+* experiemnt with katogenic diet: did it improve the energy levels?
+* active noise cancelling headphones: less distraction from noise
+* exercise
+* get after 30 min of stiiting our lymph to move
+* but lying down for 5 min is also recommended and do some breathwork
+
+-----
+* due to automations your brain is bombarded with tons of detailed data and reports; constant answers - and when you atuomate several thigns - started to feel more tired
+* aUTOMATE TOO MUCH - this is a learning; dont automate what you like
+* if the automation creates more to precss, then also a problem
+* i need less cognitive load: not more
+* hundreds of experiemnts which failed
+* experimenting mindset
 -----
 
 Since i had recently birthday, th age diversity topic interested me. i am not one of the younger member of teams anymore ...
@@ -211,3 +232,7 @@ made new connections. hopefully meaningful
 skit with the deep work book
 
 balancing meetings and real work (as quote)
+
+--
+
+topics from piotr
