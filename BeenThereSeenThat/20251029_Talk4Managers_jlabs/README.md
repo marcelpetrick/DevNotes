@@ -79,3 +79,58 @@ He is also a musician, DJ, and TEDx speaker.
 
 The author of one of the most popular Udemy Productivity Courses - check it here.
 ```
+
+## first talk
+* joined at 1830
+* employees with managers more than 12 years older report more likels low productivity, 15x
+* tehse employees re 3x more likely to be extremely dssatisfied
+* age gap is a good clue
+* same employees are also more likely tob e dissaisfied withtheir jobs
+* but the opportunity is in age diverse teams: with effective collaboration they can produce 41% more results
+
+### how to do this?
+* imagine a employee of 120
+* team of four 120 iq people. iq will drop. many psycological studies
+* main causes: group think, echo chambers, solidified tradtions and rigidity inside the team
+* how to raise the iq? to like 130 and more? 50&of team intelligence are based on the interaction between the members, not just how they are?
+* how to hack this?
+* conlsuion: diversity, if the team s diverse, there is a chance to break those communication patterns
+  * maybe do gender diversity; does tings better
+  * or add age diferent generations together
+  * thirds options is culture: differnet backgrounds
+* how much can be gained? 10% increase age diversity, 3,5% productivity gain per year
+* cost ebenfit ratio for age diverse teams
+* indvidual performance declines with qge, but for companies it has positive effects
+
+### 5 ways to utilize generational diversity
+* a modern fintech team might need gen'z rapid protodping digitalfleny for quick prototping
+* milendials with breaking matri strsuctures, genX robutst build quality and risk managent (make things work)
+* a baby boomer is perfect to handle auditros; perfect process knowledge and understanding
+
+#### customer connection
+* when the organisation generationa age composition mirrors the customer base: then 33% growth in customer satisfaction compared to competitors
+* ux: fast access button; genx did not notice, genz used all functions throught that interface
+
+* reciprocal adjustment: 47% fee generatinal conflits, 38% hgierh cross generational collaboration
+* thinking style based ideation: thinking caps method, belkin method, ..)
+  * this has been crossed aout across the genration
+
+## take aways
+* recognize your generational context
+* specialize your approach towards 4 (soon5) generations
+* lubricate potential frictions
+
+* but what if this is not sufficient? with current fertility rates, there is a progrnosed decline. shal we adopt AI?
+  * the AI twist
+* slides? ittd.space
+
+
+* audience opinions: he sees a trend of teamleading of really early people, where the team is older: does the research saa something?
+  * the 12 year gap goes plus and minus
+* genZ and gen-alpha? start my own business, ne my own boss  ; gen-alpha born after 2010
+
+----
+
+Since i had recently birthday, th age diversity topic interested me. i am not one of the younger member of teams anymore ...
+
+statement, private ooinion, do not represent my company... at the end of the post.
