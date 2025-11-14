@@ -1,36 +1,36 @@
 # 20251113 ingenics: unit testing
 
-* design, coding, prechecks, vrsionierung, build und testauotmasieriung, statische codeanalyse, unit testing, deployment, funktionale systemtests
-  * für statische code analyse: cppcheck verappm, diverse andere open source tools
-  * komponenten, welche man simulaieren kann, ermöglichen test ohne hardware HILT durch SILT ersetzen
+* Design, Coding, Prechecks, Versionierung, Build und Testautomatisierung, Statische Codeanalyse, Unit Testing, Deployment, Funktionale Systemtests
+  * Für statische Codeanalyse: Cppcheck verwenden, diverse andere Open-Source-Tools
+  * Komponenten, welche man simulieren kann, ermöglichen Tests ohne Hardware – HILT durch SILT ersetzen
 
 * Anforderung:
   * Toolevaluierung notwendig
-  * nachvollziehbarkeit (des gesamten entwicklungsprozesses): falls normung gefordert ist durch den branchenhintergrund
-  * HW-unabhägnigkeit: muss egal sein auf was es läuft; unterschiede win, linux, fpga, embedded linux board?
-  * lokal und serverbasiert: ausführung lokal, egal welche unterlage; steuerung aus der cloud
-  * amortisierung ab zweitem projekt gegeben
-  * hardware nachbauen: SIL (akkupack welcher serielle schnttstelle komuniziert, einfach ersetzen)
-  * nicht zertifizierbar, weil toolings nicht zertifizierbar - aber dafür die billige variante
-* HILF (RPi), schaltbare steckdose, sterubare soannungsversorgung, schaltbares usb-hub (abstecken simulieren: enumeration geht verloren); digitales oszilloskop (strommessung beim anfahren, spannungsverlufe); bluetooth (esp32 perfekt zum nachstellen; out of reach; spannung wegnehmen, wieder geben - fehler finden); dauertests kann man damit ebenfalls umsetzen
-* testrunner bsieren auf pytest (Aasserts weiternutzen, test reports, 90% der entwickler hatten python an schule, uni ... daher vorerfahrung gegeben); tsdruchführung und reporting glech miterledigt
+  * Nachvollziehbarkeit (des gesamten Entwicklungsprozesses): falls Normung gefordert ist durch den Branchenhintergrund
+  * HW-Unabhängigkeit: muss egal sein, auf was es läuft; Unterschiede Windows, Linux, FPGA, Embedded Linux Board?
+  * Lokal und serverbasiert: Ausführung lokal, egal welche Unterlage; Steuerung aus der Cloud
+  * Amortisierung ab zweitem Projekt gegeben
+  * Hardware nachbauen: SIL (Akkupack, welcher serielle Schnittstelle kommuniziert, einfach ersetzen)
+  * Nicht zertifizierbar, weil Toolings nicht zertifizierbar – aber dafür die billige Variante
+* HILF (RPi), schaltbare Steckdose, steuerbare Spannungsversorgung, schaltbares USB-Hub (Abstecken simulieren: Enumeration geht verloren); digitales Oszilloskop (Strommessung beim Anfahren, Spannungsverläufe); Bluetooth (ESP32 perfekt zum Nachstellen; Out of Reach; Spannung wegnehmen, wieder geben – Fehler finden); Dauertests kann man damit ebenfalls umsetzen
+* Testrunner basieren auf Pytest (Asserts weiternutzen, Test Reports, 90% der Entwickler hatten Python an Schule, Uni ... daher Vorerfahrung gegeben); Testdurchführung und Reporting gleich miterledigt
 
 ## hardware
-* ubs husb: yepkit ykush <-- noch einmal checken
-* desktop psu: siglent
-* mqtt basierte IPC zwischen den services
-* Bluetooth über micropython
+* USB Hub: Yepkit YKUSH <-- check: ubs husb
+* Desktop PSU: Siglent
+* MQTT-basierte IPC zwischen den Services
+* Bluetooth über MicroPython
 
 ## geplant
-* grafana dashbaord
-* ehctzeitmessungen?
+* Grafana Dashboard
+* Echtzeitmessungen?
 
-* funktionalie sicherheit: was muss man erreichen um SIL2 zu erreichen (was ist das überhaupt)?
-* ISO/IEC 29119: ab 2007 enwickelt als testing norm: I liefrt fachbegriffe (95 stück); top-down-approach; firmenweiter strategie; III man muss dokumentieruen; IV: beschreibt testverfahren: wirklich klasse; 
+* Funktionale Sicherheit: Was muss man erreichen, um SIL2 zu erreichen (was ist das überhaupt)?
+* ISO/IEC 29119: Ab 2007 entwickelt als Testing-Norm: I liefert Fachbegriffe (95 Stück); Top-Down-Approach; firmenweite Strategie; III man muss dokumentieren; IV beschreibt Testverfahren: wirklich klasse
 
-* parser für bootlog/screen: test recht schnell gemacht
+* Parser für Bootlog/Screen: Test recht schnell gemacht
 
-## was bietet ingenics -- aber auch gut zum abkupfern
-* sodtwarequalitt von projektbeginn an sicherstellen
-* konzept und realisierung von frameworks
-* methodik
+## Wwas bietet ingenics -- aber auch gut zum Abkupfern
+* Softwarequalität von Projektbeginn an sicherstellen
+* Konzept und Realisierung von Frameworks
+* Methodik
