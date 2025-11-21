@@ -73,13 +73,79 @@ Inspiring LEadership - Mutige Führungskräfte entwicklung
   * Herz (empathie, Resonanzfähgikeit); aus emotion ein gefühl ableiten - warum triggert mich mein sohn mit vierr jahren so stark?
   * körper
   * spirit: was ist mei fussabdruck,wlchen ich hinterlasen möchte? waurm wacht man jeden morgen auf? was ist die vision für deinleben? welche werte leiten dich? - krasser motivatiosnfaktor
+* acht qualittäten für gesunde hochstleistung und ihre wirklung
+ * mindful awareness: bewusste selsbtwarhnehmung und präsenz
+ * inner elonging: innere sicherheit ud emotionale erdung
+ * radical ownership: radikael eigenverantwrung für wirkung und verhalten
+ * self transcendence: verbindung mit sinn,w ertenund em größeren ganzen
+ * purposeful focus; klarheit im innen, ausrichtung im aussen
+ * flow mastery: präsenz, energie und wirksamkeit im natürlichen rhythmus: auf endorphinen aufbauenen zyklus: aboslute hochs und tiefs - dann kann man ganz anders arbeiten: 90 min arbeit, 20 min pause. lebennsnotwendig
+ * collective growth: ko-kreative entwkcung von menschen & teams
+ * regenerativer impact
+* meine inspriring leadership journal folgt dem 8x4x3 prinzip?
+  * homecoming, unfolding, transforming: 
+![](img08.png)
+* lifeline: dieheat experience deines lebens
+![](img09.png)
+* biografiesche selbsterfahrung durch zeichnen der lebenslinie; aha momete, tiefe dankbakeit für mein eigenes lebens, überwältngung durch öffnung; teamentwicklungen
+* verteifung von selbsterkenntnis und klarheit
+* TODO selber die eigene lebenslinie zeichnen - reflektieren - wo fällt es leicht sie zu zeichnen?; teilen mi mensche; was warn schlüselmoment, wo besonders mutig?
+
+## wirksame führung beginnt mit dem Atem
+* zu flach, z schnell, durch den mund atmen
+* LSD: leicht, slow, deep
+* einziges autonomens körpersystem,w as wir steuern könen
+* Wimhoff Atmung?
+![](img10.png)
+* atmung nicht abschtlichignoriert,aber viel zu unbewusst verwendet
+* bold-score: eifnache tet um atmung zu checken: luft anhalten: nicht speziell vorberieten: auf kommanda die luft anhalten, bei bluthochdruck lieber nicht
+  * nase zuhalten: zärtlich zuhalten
+  * für mich: 19s (nicht viel, oder?) - 45s wäre topliga, ausdauersportler - geringe toleranz; 20-30s gute co2-toleranz; ugh
+  * kann man gern auch noch selber machen
+  * je neidriger die toleranz, destos chneller geärt körper in alarmzustand
+  * you can't lead others from a brain of fire
+* Atempause: breahtholes , regernative journeys, 5min atemreise
+* [..]
+* 5 min von 24h - diese übung knn auf undertschieldicher ebene unterschiede erzeugen
+* im körper heilungsprozesse losptreten
+  * wie möchte man in zukunft atmen?
+* kleines geschenk: brahtwork journey_=? sich in flow arbeiten? hirnwellen absenken
+* alpha wellen und theta zustand
+![](img11.png)
+* flow: aktiv hinzinziehen lassen nd mit tätigkeit verschmezlen
+* ocus and flow: neurochecmischer peak zustand
+![](img11.png)
+* neurotransmitter cokctail wird ausgeschüttet
+  * 30 km mammutmarsch! schreibt ene dame
+* deep work - ken newport (fähgikei ohne ablenkung an einer sache zu arbeiten) 
+![](img12.png)
+![](img13.png)
+* körper und geit finden zusammen: struggle; dann release; 3. flow; 4. recovery
+* fokus ist kein zufall; flow kein glück; beides entsteht durch klare prioritäten
+* mein fokus, mein flow; neue wochenstruktur
+* mehr slbstwahrnehmung und präsenz
+* klaneder sortieren und blockieren; markeire und blockiere fokusblöcke im kalender
+* plane aktive pausen: bewegung,f rischluf, körperwahrnehmung, digitale pausen
+![](img14.png)
+* experten begleitung
+* pulse checks, ki coachng journaling, 1:1 coachings, prupose & viion labs
+* experten begleiter vielelicht? digitale lernplatformen? jhrtausende alte weisheiten, ebst of neurowissenschaft, flow & embodinemen practice
+* fürhngskraft & organisaiton
+![](img15.png)
+* tbut: große ernplatform - das ist wohl der selling point; mit smartphone
+
+## wie hat workshop gefallen? größtes learning
+* Selbsterkenntnis, geringe Stressresilienz. Den Messpunkt aus der Atembübung könnte man jetzt wegerklären, aber es ist ein Indikator woran ich arbeiten kann.
+  Learnig: proaktiver Kalender gestalten.
+
+* in der präsenz sind die größten fortschritte erzielbar! (masterclass)
+
+-----------------------------
+* wertea als führungsinstrument. um dezentrale führung möglich machen!
+-----------------------------
 
 
+* todo:gather the screenshots
+* todod participant list -LI
 
-
-
-
-
-* todo:get the screenshots
-
-![](img02.png)
+![](img10.png)
