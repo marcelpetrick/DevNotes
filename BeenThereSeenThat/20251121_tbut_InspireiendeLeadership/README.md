@@ -59,150 +59,144 @@
 
 -----
 
-## Inspiring LEadership - Mutige Führungskräfte entwicklung
-* gefühl: nach program - -es greift nicht
-
-* was wird man heute lernen? mit ganz viel klarheit lernen innerlich zu führen
-* beginnt bei innerer führung
-* drei sachen ganz konrekt: innere reife und haltung; wie kann man das in organisationnen brignen; und wie n orgs bringen?
-* tbut.org als domain, auch linkedin
-* Verena Jordan unterstützt ihn - Lindau, 2jährige Tochter, Schnee heute; Projektleiterin für Führungskräfte; Wirtschaftingenieurin un dPsychologin - beide Setien des Bakgrounds
+## Inspiring Leadership – Mutige Führungskräfte-Entwicklung
+* Gefühl: Nach Programmen – es greift nicht
+* Was wird man heute lernen? Mit ganz viel Klarheit innerlich zu führen
+* Beginnt bei innerer Führung
+* Drei Sachen ganz konkret: innere Reife und Haltung; wie kann man das in Organisationen bringen; und wie in Orgs bringen? <-- check: Wiederholung? Vorschlag: „… und wie man das in Organisationen verankert“
+* tbut.org als Domain, auch LinkedIn
+* Verena Jordan unterstützt ihn – Lindau, 2-jährige Tochter, Schnee heute; Projektleiterin für Führungskräfte; Wirtschaftsingenieurin und Psychologin – beide Seiten des Backgrounds
 ![](img00.png)
-* was fanden andere gut an guten führungskräften:
-  * gutes spiel wzsicehne saklaiation und deeskalation, mitarbeiter n zukunft projeziert, vertrauen und freiraum, wertschätzend, ausgeglchen, stkaerer innerer wertekompass, 
-* innen ankommen, nach aussen wirken
-* kindheit als startpunkt mary answorth: secure base - bassis entwickelt sich innerlich
-* welche entscheidend ist, ob man aus anspannung oder aus der ruhe auf die impulse regiert
-* verantwortung für muster übernehmen
-* emmy atminson - also zu innerer sicherheit 
-* er hat eie sichere bassis; innere ruhe
-* für mich: was sid intuitiv meine stärken? selbstständigkeit, eigenorganisation
+* Was fanden andere gut an guten Führungskräften:
+  * Gutes Spiel zwischen Eskalation und Deeskalation, Mitarbeiter in Zukunft projiziert, Vertrauen und Freiraum, wertschätzend, ausgeglichen, starker innerer Wertekontext <-- check: „Wertekompass“?
+* Innen ankommen, nach außen wirken
+* Kindheit als Startpunkt Mary Ainsworth: Secure Base – Basis entwickelt sich innerlich
+* Welche entscheidend ist, ob man aus Anspannung oder aus der Ruhe auf Impulse reagiert
+* Verantwortung für Muster übernehmen
+* Emmy Atkinson <-- check: „Ammy Atkinson?“ → „Emmy Atkinson“ ist unklar
+* Er hat eine sichere Basis; innere Ruhe
+* Für mich: Was sind intuitiv meine Stärken? Selbstständigkeit, Eigenorganisation
 ![](img01.png)
-* tobias mayer: zu früh im lead - eltern hatten sich getrennt; pass auf deinen kleinen bruder auf .. fürsorglich gedacht, aber überfordert: "tragen, funktionieren, nicht hinterfragen" - er selber hinterfragt das. professioneller weg
-  * echt cokreation bei mercedes
-  * ultra im aussen utnerwegs: status wichtig, jetzt seinem ruf gefolgt
-  * ultur muss man dauerhaft hochhalten - sonst reisst es ein
-  * ** vom verwähnte konzern-manager zum unternehmer** - sein weg
-* entwicklug durch ausprobieren, selbst weachen, aber um auch andere sachen erfahren zu haben um zu sehen wie sie wirken 2019 gegründet; 0 auf 12 mitarbeitedene; innerlich überlastet; emotional abgeschnitten, implodiert
-* der größte helbe in veränderungsprojekten ist de rmensch: führungskrafte sind im lead dafür
-* ich kann niemanden halten, wenn ich mich selbst nicht halten kann.
+* Tobias Mayer <-- check: „Mayr“? → Info prüfen: zu früh im Lead – Eltern hatten sich getrennt; „Pass auf deinen kleinen Bruder auf“ … fürsorglich gedacht, aber überfordert: „tragen, funktionieren, nicht hinterfragen“ – er selber hinterfragt das. Professioneller Weg
+  * Echte Co-Creation bei Mercedes
+  * Ultra im Außen unterwegs: Status wichtig, jetzt seinem Ruf gefolgt
+  * Kultur muss man dauerhaft hochhalten – sonst reißt es ein
+  * **Vom verwöhnten Konzern-Manager zum Unternehmer** – sein Weg
+* Entwicklung durch Ausprobieren, selbst wachsen, aber auch andere Sachen erfahren, um zu sehen wie sie wirken; 2019 gegründet; 0 auf 12 Mitarbeitende; innerlich überlastet; emotional abgeschnitten, implodiert
+* Der größte Hebel in Veränderungsprojekten ist der Mensch: Führungskräfte sind im Lead dafür
+* Ich kann niemanden halten, wenn ich mich selbst nicht halten kann
 ![](img02.png)
-* eisbad, bewusst atmen; verkleinert,, geschärft
-* Wir sind hier um räume zuschaffen, i denen menschen sich selbst begegenen
-* zwischen zwei welten und am anfang von etwas neuem: erst welt gepräfgt von stabilität, wachtsu, effizien -> zu: hypervernetzung, polykrisen, komplxibität, zerstreuung, erscöpfung, sinnkrise,
+* Eisbaden, bewusst atmen; verkleinert, geschärft zurückkehren
+* Wir sind hier, um Räume zu schaffen, in denen Menschen sich selbst begegnen
+* Zwischen zwei Welten und am Anfang von etwas Neuem: Erste Welt geprägt von Stabilität, Wachstum, Effizienz → zu: Hypervernetzung, Polykrisen, Komplexität, Zerstreuung, Erschöpfung, Sinnkrise
 ![](img03.png)
-* man kann entscheiden: angstkultur und dytopische weltbilder? wohin ist man utnerwegs?
-* fürhung in herausfrodenden zeiten:
- * dauerstress
- * sinn- und verreaunsverlust
- * orientierungslogkeit
- * isolation
- * identitäskrise
+* Man kann entscheiden: Angstkultur und dystopische Weltbilder? Wohin ist man unterwegs?
+* Führung in herausfordernden Zeiten:
+  * Dauerstress
+  * Sinn- und Vertrauensverlust
+  * Orientierungslosigkeit
+  * Isolation
+  * Identitätskrise
 ![](img04.png)
 * Du willst:
-  * mehr klarheit
-  * bessere ergebnisse
-  * entsheidungen, die sich lohnen **
-  * echte beziehungen
-  * gesunde höchstleistungen **
-  + beser schalfen, kalrer denken
-  * routinen etablieren **
-  * veränderung legeb und andere mitnehmen
-* warum fällt es uns so schwer all das zu entwiceln? trotz unzähliger programme und trainings?
+  * mehr Klarheit
+  * bessere Ergebnisse
+  * Entscheidungen, die sich lohnen
+  * echte Beziehungen
+  * gesunde Höchstleistungen
+  * besser schlafen, klarer denken
+  * Routinen etablieren
+  * Veränderung leben und andere mitnehmen
+* Warum fällt es uns so schwer, all das zu entwickeln? Trotz unzähliger Programme und Trainings?
 ![](img05.png)
-* horizontale entwicklung: mehr wissen, skills und tools
-  *  gefäss als wasserlevel: kritikgespräüche, geundsheitsmanagemntm agile,O OKRs ..
-  * braucht man alles: aber irgendwann ist das glas voll
-  * gefühl, dass man mit neuen tols und herauforderungen nicht schaffen kann - wil das gefäss zu voll oder zu klein ist
-  * die frage ist: wie machen wir das gefäss größer?
-  * gestern war ich klug und wollte die welt verändern. heute bn ich weise, deshalb verändere ich mich selbst.-
+* Horizontale Entwicklung: mehr Wissen, Skills und Tools
+  * Gefäß als Wasserlevel: Kritikgespräche, Gesundheitsmanagement, agile, OKRs <-- check: „agile Methoden“?
+  * Braucht man alles: aber irgendwann ist das Glas voll
+  * Gefühl, dass man mit neuen Tools und Herausforderungen nicht umgehen kann – weil das Gefäß zu voll oder zu klein ist
+  * Die Frage ist: Wie machen wir das Gefäß größer?
+  * „Gestern war ich klug und wollte die Welt verändern. Heute bin ich weise, deshalb verändere ich mich selbst.“
 ![](img06.png)
-* daher auf vertikale entwicklöung setzen: konditonierung hinterfragen, trigger erkennen und annehmen, authentisch kmunizeren, beziehung sls entwicklunsfeld, werte klären, kollektive intelligenz aktiviert, embodimen praktizieren
-  * wie geht es mir heute? gut, etwas neues getstaret <- mit hoher warhscheintlichkeit keien gefühle
-  * er selbst hat auregung vor workshops: daher 10 min auf dem boden gelegen. jezt flow
-* vertikale entwicklung unterstützt mich dabei im job
-* was braucht gesunde höchstleistung?
-* 1. heat experience: the what? es braucht den moment, wo das gewohnte denken ershüttert wird. damit kan ich nicht umgehen; colliding perspective (the who); elevated sensemaking (the how)
-  * wo alles zusammenkommt, hat man den vertical sweet spot
+* Daher auf vertikale Entwicklung setzen: Konditionierung hinterfragen, Trigger erkennen und annehmen, authentisch kommunizieren, Beziehungen als Entwicklungsfeld, Werte klären, kollektive Intelligenz aktivieren, Embodiment praktizieren
+  * Wie geht es mir heute? „Gut, etwas Neues gestartet“ ← mit hoher Wahrscheinlichkeit kein Gefühl
+  * Er selbst hat Aufregung vor Workshops: daher 10 min auf dem Boden gelegen. Jetzt Flow
+* Vertikale Entwicklung unterstützt mich dabei im Job
+* Was braucht gesunde Höchstleistung?
+* 1. Heat Experience: the what? Es braucht den Moment, wo das gewohnte Denken erschüttert wird. „Damit kann ich nicht umgehen“; Colliding Perspective (the who); Elevated Sensemaking (the how)
+  * Wo alles zusammenkommt, hat man den Vertical Sweet Spot
 ![](img07.png)
-* vier ebnen für ganzheitliches wachtsum: 
-  * verstand (hirn)
-  * Herz (empathie, Resonanzfähgikeit); aus emotion ein gefühl ableiten - warum triggert mich mein sohn mit vierr jahren so stark?
-  * körper
-  * spirit: was ist mei fussabdruck,wlchen ich hinterlasen möchte? waurm wacht man jeden morgen auf? was ist die vision für deinleben? welche werte leiten dich? - krasser motivatiosnfaktor
-* acht qualittäten für gesunde hochstleistung und ihre wirklung
- * mindful awareness: bewusste selsbtwarhnehmung und präsenz
- * inner elonging: innere sicherheit ud emotionale erdung
- * radical ownership: radikael eigenverantwrung für wirkung und verhalten
- * self transcendence: verbindung mit sinn,w ertenund em größeren ganzen
- * purposeful focus; klarheit im innen, ausrichtung im aussen
- * flow mastery: präsenz, energie und wirksamkeit im natürlichen rhythmus: auf endorphinen aufbauenen zyklus: aboslute hochs und tiefs - dann kann man ganz anders arbeiten: 90 min arbeit, 20 min pause. lebennsnotwendig
- * collective growth: ko-kreative entwkcung von menschen & teams
- * regenerativer impact
-* meine inspriring leadership journal folgt dem 8x4x3 prinzip?
-  * homecoming, unfolding, transforming: 
+* Vier Ebenen für ganzheitliches Wachstum: 
+  * Verstand (Hirn)
+  * Herz (Empathie, Resonanzfähigkeit); aus Emotion ein Gefühl ableiten – warum triggert mich mein Sohn mit vier Jahren so stark?
+  * Körper
+  * Spirit: Was ist mein Fußabdruck, welchen ich hinterlassen möchte? Warum wacht man jeden Morgen auf? Was ist die Vision für dein Leben? Welche Werte leiten dich? – großer Motivationsfaktor
+* Acht Qualitäten für gesunde Höchstleistung und ihre Wirkung
+  * mindful awareness: bewusste Selbstwahrnehmung und Präsenz
+  * inner belonging: innere Sicherheit und emotionale Erdung
+  * radical ownership: radikale Eigenverantwortung für Wirkung und Verhalten
+  * self transcendence: Verbindung mit Sinn, Werten und dem größeren Ganzen
+  * purposeful focus: Klarheit im Innen, Ausrichtung im Außen
+  * flow mastery: Präsenz, Energie und Wirksamkeit im natürlichen Rhythmus: auf Endorphinen aufbauender Zyklus: absolute Hochs und Tiefs – dann kann man ganz anders arbeiten: 90 min Arbeit, 20 min Pause. Lebensnotwendig
+  * collective growth: ko-kreative Entwicklung von Menschen & Teams
+  * regenerativer Impact
+* Mein Inspiring Leadership Journal folgt dem 8x4x3-Prinzip?
+  * homecoming, unfolding, transforming
 ![](img08.png)
-* lifeline: dieheat experience deines lebens
+* Lifeline: die Heat Experience deines Lebens
 ![](img09.png)
-* biografiesche selbsterfahrung durch zeichnen der lebenslinie; aha momete, tiefe dankbakeit für mein eigenes lebens, überwältngung durch öffnung; teamentwicklungen
-* verteifung von selbsterkenntnis und klarheit
-* TODO selber die eigene lebenslinie zeichnen - reflektieren - wo fällt es leicht sie zu zeichnen?; teilen mi mensche; was warn schlüselmoment, wo besonders mutig?
+* Biografische Selbsterfahrung durch Zeichnen der Lebenslinie; Aha-Momente, tiefe Dankbarkeit für mein eigenes Leben, Überwältigung durch Öffnung; Teamentwicklungen
+* Vertiefung von Selbsterkenntnis und Klarheit
+* TODO: selbst die eigene Lebenslinie zeichnen – reflektieren – wo fällt es leicht, sie zu zeichnen?; teilen mit Menschen; was waren Schlüsselmomente, wo besonders mutig?
 
-## wirksame führung beginnt mit dem Atem
-* zu flach, z schnell, durch den mund atmen
-* LSD: leicht, slow, deep
-* einziges autonomens körpersystem,w as wir steuern könen
-* Wimhoff Atmung?
+## Wirksame Führung beginnt mit dem Atem
+* Zu flach, zu schnell, durch den Mund atmen
+* LSD: light, slow, deep
+* Einziges autonomes Körpersystem, das wir steuern können
+* Wim-Hof-Atmung?
 ![](img10.png)
-* atmung nicht abschtlichignoriert,aber viel zu unbewusst verwendet
-* bold-score: eifnache tet um atmung zu checken: luft anhalten: nicht speziell vorberieten: auf kommanda die luft anhalten, bei bluthochdruck lieber nicht
-  * nase zuhalten: zärtlich zuhalten
-  * für mich: 19s (nicht viel, oder?) - 45s wäre topliga, ausdauersportler - geringe toleranz; 20-30s gute co2-toleranz; ugh
-  * kann man gern auch noch selber machen
-  * je neidriger die toleranz, destos chneller geärt körper in alarmzustand
-  * you can't lead others from a brain of fire
-* Atempause: breahtholes , regernative journeys, 5min atemreise
+* Atmung nicht absichtlich ignoriert, aber viel zu unbewusst verwendet
+* BOLT-Score: einfacher Test, um Atmung zu checken: Luft anhalten; nicht speziell vorbereitet; auf Kommando die Luft anhalten, bei Bluthochdruck lieber nicht
+  * Nase zuhalten: zärtlich zuhalten
+  * Für mich: 19 s (nicht viel, oder?) – 45 s wäre Topliga, Ausdauersportler – geringe Toleranz; 20–30 s gute CO₂-Toleranz; ugh
+  * Kann man gern auch noch selbst machen
+  * Je niedriger die Toleranz, desto schneller gerät der Körper in Alarmzustand
+  * You can't lead others from a brain on fire
+* Atempause: breath holds, regenerative journeys, 5-min Atemreise
 * [..]
-* 5 min von 24h - diese übung knn auf undertschieldicher ebene unterschiede erzeugen
-* im körper heilungsprozesse losptreten
-  * wie möchte man in zukunft atmen?
-* kleines geschenk: brahtwork journey_=? sich in flow arbeiten? hirnwellen absenken
-* alpha wellen und theta zustand
+* 5 min von 24 h – diese Übung kann auf unterschiedlicher Ebene Unterschiede erzeugen
+* Im Körper Heilungsprozesse lostreten
+  * Wie möchte man in Zukunft atmen?
+* Kleines Geschenk: Breathwork Journey ← check: „Journey=?“ → vielleicht „Journey = sich in Flow arbeiten“?
+* Alpha-Wellen und Theta-Zustand
 ![](img11.png)
-* flow: aktiv hinzinziehen lassen nd mit tätigkeit verschmezlen
-* ocus and flow: neurochecmischer peak zustand
+* Flow: aktiv hinziehen lassen und mit Tätigkeit verschmelzen
+* Focus and Flow: neurochemischer Peak-Zustand
 ![](img11.png)
-* neurotransmitter cokctail wird ausgeschüttet
-  * 30 km mammutmarsch! schreibt ene dame
-* deep work - ken newport (fähgikei ohne ablenkung an einer sache zu arbeiten) 
+* Neurotransmitter-Cocktail wird ausgeschüttet
+  * 30 km Mammutmarsch! schreibt eine Dame
+* Deep Work – Ken Newport <-- check: „Cal Newport“
 ![](img12.png)
 ![](img13.png)
-* körper und geit finden zusammen: struggle; dann release; 3. flow; 4. recovery
-* fokus ist kein zufall; flow kein glück; beides entsteht durch klare prioritäten
-* mein fokus, mein flow; neue wochenstruktur
-* mehr slbstwahrnehmung und präsenz
-* klaneder sortieren und blockieren; markeire und blockiere fokusblöcke im kalender
-* plane aktive pausen: bewegung,f rischluf, körperwahrnehmung, digitale pausen
+* Körper und Geist finden zusammen: struggle; dann release; 3. flow; 4. recovery
+* Fokus ist kein Zufall; Flow kein Glück; beides entsteht durch klare Prioritäten
+* Mein Fokus, mein Flow; neue Wochenstruktur
+* Mehr Selbstwahrnehmung und Präsenz
+* Kalender sortieren und blockieren; markiere und blockiere Fokusblöcke im Kalender
+* Plane aktive Pausen: Bewegung, Frischluft, Körperwahrnehmung, digitale Pausen
 ![](img14.png)
-* experten begleitung
-* pulse checks, ki coachng journaling, 1:1 coachings, prupose & viion labs
-* experten begleiter vielelicht? digitale lernplatformen? jhrtausende alte weisheiten, ebst of neurowissenschaft, flow & embodinemen practice
-* fürhngskraft & organisaiton
+* Expertenbegleitung
+* Pulse Checks, KI-Coaching, Journaling, 1:1 Coachings, Purpose & Vision Labs
+* Expertenbegleiter vielleicht? Digitale Lernplattformen? Jahrtausende alte Weisheiten, Best of Neurowissenschaft, Flow & Embodiment Practice
+* Führungskraft & Organisation
 ![](img15.png)
-* tbut: große ernplatform - das ist wohl der selling point; mit smartphone
+* tbut: große Lernplattform – das ist wohl der Selling Point; mit Smartphone
 
-## wie hat workshop gefallen? größtes learning
-* Selbsterkenntnis, geringe Stressresilienz. Den Messpunkt aus der Atembübung könnte man jetzt wegerklären, aber es ist ein Indikator woran ich arbeiten kann.
-  Learnig: proaktiver Kalender gestalten.
-
-* in der präsenz sind die größten fortschritte erzielbar! (masterclass)
+## Wie hat der Workshop gefallen? Größtes Learning
+* Selbsterkenntnis, geringe Stressresilienz. Den Messpunkt aus der Atemübung könnte man jetzt wegerklären, aber es ist ein Indikator, woran ich arbeiten kann  
+  Learning: proaktiver Kalender gestalten
+* In der Präsenz sind die größten Fortschritte erzielbar! (Masterclass)
 
 -----------------------------
-* wertea als führungsinstrument. um dezentrale führung möglich machen!
+* Werte als Führungsinstrument – um dezentrale Führung möglich zu machen
 -----------------------------
 
-
-* todo:gather the screenshots
-* todod participant list -LI
-
-![](img10.png)
+* TODO: gather the screenshots
