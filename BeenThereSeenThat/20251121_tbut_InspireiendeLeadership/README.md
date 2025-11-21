@@ -1,8 +1,65 @@
-## Tobias Mayr
-* 90 min vorbereitet
+# 20251121: Tobias Mayr - Mutige Führungskräfte-Entwicklung: Wer sich an seine Persönlichkeit traut, wächst über sich hinaus!
+* 90 min geplant
 
+```
+ ​LIVE-WORKSHOP (Online via Zoom)
+​​Mutige Führungskräfte-Entwicklung: Wer sich an seine Persönlichkeit traut, wächst über sich hinaus!
+​​💥 „Was war das für ein Feuerwerk?“
+​​Das war eine der vielen Rückmeldungen aus unserem Live Workshop.
+​​Nach dem großen Erfolg am 26.09. gehen wir in die zweite Runde.
+​​Falls du ihn beim letzten Mal verpasst hast, könnten diese 90 Minuten ein echter Gamechanger für deine Führung sein.
+​​❗ Das Problem:
+​​Führung wird optimiert, trainiert, mit Tools ausgestattet und trotzdem bleiben viele Führungskräfte erschöpft, Teams orientierungslos und Kulturen oberflächlich.
+​​🔍 Warum?
+​​Weil echte Führung nicht bei neuen Techniken beginnt, sondern bei der inneren Haltung. Solange wir nur im Außen nach Lösungen suchen, fehlt die Tiefe, die Menschen wirklich verbindet und Orientierung gibt.
+​​
+​📊 Was du wissen musst:
+​​Laut Gallup 2025 sind nur 21 % der Mitarbeitenden weltweit emotional engagiert. Der Rest hat Luft nach oben.
+​​👉 Führung entscheidet also nicht nur über Ergebnisse, ​sondern darüber, ob Menschen sich gesehen, verbunden und inspiriert fühlen.
+​​
+​✅ Unsere Lösung:
+​​Inspiring Leadership! Eine neue Haltung für Führungskräfte.
+​Kein weiterer Methodenkoffer, sondern ein Entwicklungsweg.
+​​
+​💬 Was dich erwartet:
+​​Du erlebst, wie inspirierende Führung in einer komplexen Welt wirkt:
+​​👉  Klarheit schaffen inmitten von Unsicherheit
+​👉  Vertrauen kultivieren – in dich selbst und andere
+​👉  Verantwortung übernehmen – mit innerer Stabilität statt äußerem Aktionismus
+​👉  Kulturveränderung anstoßen – aus Haltung statt aus Druck
+​​
+​​📘 Du lernst:
+​​Warum klassische Führungsmodelle oft nicht mehr tragen
+​​Was vertikale Entwicklung für deine Wirkung und Präsenz bedeutet
+​​Wie du durch bewusstes Atmen dein Nervensystem regulierst, Stress reduzierst und echten Flow entwickelst
+​​Wie du Kulturveränderung aus deiner Haltung heraus anstößt
+​​
+​​📅 Workshop-Infos:
+​​🗓️ Freitag, 24. Oktober 2025
+​​🕘 09:30–11:00 Uhr (online via Zoom)
+​​🎟️ Kostenfrei & live
+​​
+​​💥 Stimmen vom ersten Termin (26.09.2025):
+​​„Was war das für ein Feuerwerk?“
+​​„Großartiger Workshop zum Freitag. Danke!“
+​​„Vielen herzlichen Dank – das war sehr aufschlussreich und inspirierend!“
+​​„Mir hat es super gefallen! Viele Anregungen für den Alltag und mein größtes Learning: Mehr atmen 🙂“
+​​„Inspirierend! Ich nehme einige Impulse und Übungen für mein Team und Organisation mit. Vielen Dank!“
+​​„Besten Dank – der Flow im Arbeitsalltag. Das probiere ich intensiver aus“
+​​„Der Workshop hat mir sehr gut gefallen. Man merkt so noch mehr, wie viel man von außen gesteuert ist.“
+​​„Der Workshop hat mir mega gut gefallen!“
+​​„Ich spüre mehr Erdung und Verbindung mit mir selbst.“
+​​
+​​🧭 Für wen ist dieser Workshop?
+​​Für Geschäftsführer, Gründer, HR/People/Culture Leads und Führungskräfte, die 2026 nicht nur etwas verändern wollen, sondern den Wandel bei sich selbst beginnen.
+​​
+​​Wir freuen uns auf dich.
+​​Tobias & das tbut Team
+```
 
-Inspiring LEadership - Mutige Führungskräfte entwicklung
+-----
+
+## Inspiring LEadership - Mutige Führungskräfte entwicklung
 * gefühl: nach program - -es greift nicht
 
 * was wird man heute lernen? mit ganz viel klarheit lernen innerlich zu führen
