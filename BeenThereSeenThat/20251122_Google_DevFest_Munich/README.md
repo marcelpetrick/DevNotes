@@ -163,4 +163,34 @@ also try p1 and so on..
 * make it easy to rpdoutionize your agent
 * cli t9ol to get a project up and running
 * 
-agent twsteub foe the eather forecast
+agent twsteub foe the weather forecast
+
+-------
+
+## jeremy wilken, ai around the world. nvidia and gc0
+* academicallz trained futurist. disclaimer alls taemrnts are his own..does jot represent his employeer
+* diffenrent eegiona aieht own standards. mains 3levtricity by region..different standards and outlets
+* how does innovation change and evelop
+* second issue: modems, all vonnect you to the same thing
+* why this history lesson? innovations have patterns?
+* innocations build on orevious iterations
+* afoption of innocation takes time
+* innovations lead to innovations
+* a8 had alo unique characteristis. interctivity. personalization, svalez evolving. very unteractive withhumans
+* futures triangle. pull of the future, qeight of the oadyz push of the present
+* duturesplatform.cin/blog/how can we oreicct plausible future
+* national language technology platform: 5 european coubtries connecte and byild localized models
+* also for indigenious languages some special.prijects
+* cultural forces as well: like ai in faith. global, hyperclova south korea
+* img for the investemnts from governments. build or buy?! again
+* 04: talent: some coubtries liek taiwan have a national. natinal teainingprogeams
+* lots of policies for ai usage..germany in 2018. easy to block peogress limit things
+* renew commitments..adoptions.
+* 8nfia: ai garage, albinia ai minidter fro fraud, kenya: local first approach
+* pace layer concept: slow nature, culture, governance infrasteucturez commerce, fashion fast
+* layered speeds
+* alone or with a partner: scarcity, collaboation, local regional bgloabl
+* not a dingle way to do ai. shall have inclusivity. motivationa..evolution..investments..talent
+* 5 lrimary icons: machine assisted. to tell how this conetent was gernated
+
+-------
