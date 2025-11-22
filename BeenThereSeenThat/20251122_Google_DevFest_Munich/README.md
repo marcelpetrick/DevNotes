@@ -61,3 +61,54 @@ DevFest Munich 2025 - Morning Workshop + Afternoon Main Stage Sessions
 * clone this repo: carneiro.dev/track1
 * CLONED THE REPO: /home/mpetrick/repos/carneiro_ai_engineering_ttrack/DevFest25-WS/P6-SequentialAgents/ GOT TO THIS EXERCISE
 
+
+---
+
+AIzaSyBb87ipYY
+
+
+export GOOGLE_API_KEY='AIzaSyBb87ipYYZarmA5'
+
+
+# Shared environment variables for all workshop agents
+# Copy this file to .env and add your actual API key
+
+# Get your API key from: https://codelabs.developers.google.com/onramp/instructions#1
+GOOGLE_API_KEY=AIzaSyBb87ipYYZar
+
+Followed to run with local environment:
+```
+uv venv && source .venv/bin/activate && uv sync
+adk web --port 8000  # Web UI at http://localhost:8000
+```
+* open then 127.0.0.1:8000 wtgh
+
+
+of course, this is dangerous, but i will invalidate it later - already shortened.
+
+--------
+observability
+![](img events.png)
+
+-----
+also try p1 and so on..
+
+--------
+
+* now go to carneiro.dev/track2
+  * this resolves to https://codelabs.developers.google.com/codelabs/cloud-run/use-mcp-server-on-cloud-run-with-an-adk-agent#2
+* wqhy to deploy to cloud run?
+* creatr an agent workflow? tab 5
+  * deploy your own mcp server? (not have done this - because another lab)
+  * goo.gle/aaiwcr-2 - for a public mcp server
+  PROJECT_NUMBER=90783857331
+----
+
+* P1: angety.py to check first: with the prompt
+* p5: router agents: way different and more complex; tasks requests delegation: so a first agent is created; then a foodie-agent; specialist 3 is an agent for eevents ads guide;
+* wrap the agents as tools: 
+
+* google cloud skills: carneiro.dev/skills - 
+* go to https://www.skills.google/ - credits based courses; pay theorethically
+
+
