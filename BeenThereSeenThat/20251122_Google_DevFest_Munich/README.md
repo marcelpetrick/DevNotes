@@ -39,3 +39,25 @@ DevFest Munich 2025 - Morning Workshop + Afternoon Main Stage Sessions
 
 
 ## luiz carbeiro - solution engineer
+* ¹ houer  very hot
+* so we will get a homework, if we dont make it
+* build with gemini: lets explore the agent development kit
+* what is the ADK? felxbile and mdular dev kit
+* he is a terminal person: browsr and terminal: two software for him
+* hardcore programming, fast
+* DK IS MODEL AGNOSTIC:for developing and deplyong aiagents
+* it is about dveloepr experience: simple. simple list in python
+* lot of prompt engineering: cimple for dvelopers
+* model agnostic, deplyoment agnostic, compatible with other frameworks
+  * so just use whatever you want
+  * in the end we have a docker container: can go to any platform as a service
+  * langchain: importing tools also possible
+* setup gcp and gemini api key; ai eng develop your own agent, or cloud engineers more ai agents ifrastructure
+* maYBE NIT ONLY PYTHON BUT MORE FOR SCALING AND HOW TO MAINTAIN OBSERVABILITY
+* trygcp.dev/claim/devfest-munich
+* ai,studio
+* import my created projecT: devfest2025
+* crate api key
+* clone this repo: carneiro.dev/track1
+* CLONED THE REPO: /home/mpetrick/repos/carneiro_ai_engineering_ttrack/DevFest25-WS/P6-SequentialAgents/ GOT TO THIS EXERCISE
+
