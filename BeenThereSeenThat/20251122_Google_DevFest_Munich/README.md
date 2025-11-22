@@ -237,3 +237,23 @@ agent twsteub foe the weather forecast
    * ai blurs induatry bou daries
    * innovation is about moving people
    * innvoation should not be a feature. it shall be something to move people
+
+--------
+
+# johanne pirker - tum and tu graz..how ai is shaping our games
+
+* strams at twitch: to talk about indiy games and computer science
+* demis hassabis: alphafold googles deepmind chief who designed games received the nobel prize last year
+* coming close to: making ai mobe closer to avtire like in movies
+* illusion of freedom..delusion of choices? for games
+* free world strtegies..can you go wherever you want to do?
+* responsive ai and adaptive: but does not unvovle real learning..limited awt of choices
+* finely tunung of the level of artificial stufpidity
+* graph with the categorization of games
+* balancing: infinite shots..it is a shooter. eith just rheee shots it will e ba survivelal hame..only one oarameter chnaged
+* monte carlo simuation to ttes tdifferent aspects of this realm
+* evaluating llms throguh communiction games: endless stories
+* oasis-ai.org predictive system. not a single line of code
+* 
+--------------
+
