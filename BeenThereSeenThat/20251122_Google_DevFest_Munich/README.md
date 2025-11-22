@@ -156,4 +156,11 @@ also try p1 and so on..
 * img for the agent descrition. really easy
 * agent..descriptuon for discovery. instructionsnand ehich tools to use
 * run you development with
-* once your agent is deplyed. you can figure out how to run this locally or with google cloud run. but aelf managed also possible. socker host  or vertex ai agent engine (fully managed). 
+* once your agent is deplyed. you can figure out how to run this locally or with google cloud run. but aelf managed also possible. socker host  or vertex ai agent engine (fully managed).
+* from hype to value
+* girhub.com/google/afk-samples. deep reaearch good point
+* also: agent starter pack
+* make it easy to rpdoutionize your agent
+* cli t9ol to get a project up and running
+* 
+agent twsteub foe the eather forecast
