@@ -25,4 +25,17 @@ DevFest Munich 2025 - Morning Workshop + Afternoon Main Stage Sessions
 * get more buy un feom conpanues..to use the available tools
 * all in one single platform
 * nano banana peo..on vertext ai
-* 
+  * also better control over your stichting. 14 parts..composition. 
+* groundich. nore consistent output
+* also thr accurate depictions of real world samples. tell things. add lines to phots and text
+* photographic mastery. 4k resolution for setails
+* style consistency got better
+* lgoo ro people and clothes
+* tezt still hit or kiss. but got better. top tipp: dont promot int he fucked up chat. just start frwsh
+* also multilingual text tendering: one image. several languages
+* spa ish commynity lives aharing. french less. have to vreate more content. share knowledge
+* tey the agentic sandbox
+* share the key take aways..top three things inlearnt..todo. learning 8n my own time. growth mindset. passionate aboute technologies. i take time to investigate this are the key take aways. use this as guidance for the post. lol
+
+
+## luiz carbeiro - solution engineer
