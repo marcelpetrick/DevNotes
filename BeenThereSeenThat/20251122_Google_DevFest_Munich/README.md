@@ -111,4 +111,49 @@ also try p1 and so on..
 * google cloud skills: carneiro.dev/skills - 
 * go to https://www.skills.google/ - credits based courses; pay theorethically
 
-
+-----
+* feancisco riveros - empowering your vusiness with ai agents, pwc, emea giigle cloud architect
+* welcome to the age tic era, what is ana eg tz ai agents in your wnteperisen dicover, build and eploy agents, ressoruxe and next ateps
+* we are in an era of ai innovation and adoption
+* multimodality, and agentic workflows
+* ai in the knwiledge frontier..how to ineract with infoemation..break down knowledge silos. get insights
+* ai agents trandform how organization operate across indsutries
+*   * adoption lags: only 17 percent have embedded agents. where clear benefits
+    * cost savings, faster decisions, better expe7rnces
+    * prolblem are the people un technand trust: 50perxent aof ezecutives say their operations will be unregnonizable un 2 years
+    * ai can deluver tanbilge qualifyable results
+ * what is an agent
+ * needs models &())#, orchestrationagents use tools, apis, functions
+ * orechetration layer, also agent definitiins and agent runtime with execution.
+ * llm peomot (2years ago), then rag to reteieve data..then also function calling foe tools, llm plus rag plus tiils
+ * now multi agent systems 5alking to each other
+ * a whole college course
+ * collaboration: can work together and share information
+ * scalability and maintianability
+ * in the room like 5pe9ple had deplyed ai agents in their enteeprise
+ * agents drive roi
+ * creative agents, empliyee agents, customer agents, coee agentsz sexurity agents... you nesf the infeasteucture and powerful models
+ * step 1: identify the why. the calue proposition
+   * user focus as part as well..what job are you getting doibe? how will you measure your value?
+   * if yhis cant be quantified, then  no agent
+   * technical feasibility and also business viability. ia tuis conpliant? how yo do the chnage mangement? time for a pilot
+   * dont start with models or frameworks..start with value? weeks as measursble.imoact..bot months
+   * will this move the needle for customer and employee needs?
+   * img from the techn feasibility and the business impact
+   * 3.peiple.have agents on production. not aurprising
+   * taking agents to priduction is really hard. have big roi..demos look great. but to move from roototype to production is hard
+   * new framework of the months.. swcueity and orivacy risks. agent ops skill rampu
+   *  unpredivtability of results..
+* two ways to aerve people. no code versus full control developers and felxibilty.
+* dev side: ADK. convenient to use.  flexible feqmewik for developing and eplioing agents. optimized for gemini ans google ecosystem. model agnostic and deplyment agnostic.
+* 500 loc for your tevael agent. now only 50 lines with the help of adk
+* ai agents. make agents easier and more compiable. rich tool ecosystem. built in safety features.
+* core concepts. building bloxks of ibtelligent agents
+* img with the differnt agent types
+* adk lets you build conplex appa by comvinin
+* neede: python, java or go. terminal and google cloud priject
+* google ai production key
+* img for the agent descrition. really easy
+* agent..descriptuon for discovery. instructionsnand ehich tools to use
+* run you development with
+* once your agent is deplyed. you can figure out how to run this locally or with google cloud run. but aelf managed also possible. socker host  or vertex ai agent engine (fully managed). 
