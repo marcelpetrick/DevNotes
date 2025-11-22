@@ -194,3 +194,21 @@ agent twsteub foe the weather forecast
 * 5 lrimary icons: machine assisted. to tell how this conetent was gernated
 
 -------
+
+## segun famisa - staff engineer at mozilla
+* getting started with android xr
+* furefox for android
+* ehat is it and why should we use it? galaxy xr from google..androids pick on mixed reality space
+* from history of mobile devices. adnfoid broguht computing power to most of the peoplem.not able to afford an iphone or mac..found android phone. and then get etuff done
+* once the cost of manufacturing goes down: way more poularity for thise devices
+* xr for extended reality
+* er is more than ar..also feedbakc of the augnented rality..mix of virtual and real world
+* concepts: subspaces or subsets of spcae where you can ppave 3d items ir 2d ui elements
+* cobcept: spatial panels
+* orbiters as floating elements
+* levels of support: baiv support does work by default, large acreen apps will be rendered like large screens
+* use jetpack conpoae to power your app
+* easy checks if someyhing has spatialconfigustion: font check for device clases. check for feautres
+* androiduyf as test app for lots of google features
+
+-------
