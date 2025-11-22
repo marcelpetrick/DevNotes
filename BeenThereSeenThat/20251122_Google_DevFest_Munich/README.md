@@ -212,3 +212,28 @@ agent twsteub foe the weather forecast
 * androiduyf as test app for lots of google features
 
 -------
+
+## christian kuhn - head if innovation 
+* from cars to catwalks
+* explirer mindset..explore the wolrld, technolgy and also myself 
+* bring entrepreneurially mindset to big corporaations
+* first bubble: whrn engineering meets reality: find some learnings
+  * idea to revolutionize the kady mile logistics
+  * real life wall hit. simulation steps out to stuttgart. thwt teat crashed the project.
+  * innocationndoes not fail because of bad technologies
+  * it fails because of
+  * without solving a rwal peovlem..innovation musses the mark
+  * overengineerinf a non problem
+  * ferris wheel for transportation did not work..with presorting..wrong addumptions
+  * 2016 ai powered cargo camera
+  * innovation is not about defending your first idea
+  * it is about eilling to kill your favorite idea the moment feeedbakc makes it wrong
+ * why do uou go from automative to fadhion?
+   * fashion is the fastest test lab in earth
+   * it is not what the product does, but what it means
+   * jacket which has nfc chip to handle mastervard and ski pass
+   * fashion prefrence id..which is carried tover to llm and from one place to another
+   * ai acccerlates everything..the inly safeguard is clariy. the challenge is not yo code a solution..but yo get yo knwo the roght problem you enat to solve
+   * ai blurs induatry bou daries
+   * innovation is about moving people
+   * innvoation should not be a feature. it shall be something to move people
