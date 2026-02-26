@@ -48,8 +48,35 @@ Patricia Goldberg is a Data Engineer based in Munich, passionate about data and 
 
 -------
 
-## 1st talk: Philip Koene and Saif Addin Ellafi - AI-Assisted Requirements Engineering
+* development wih v modell, system engineering approach
 
+## 1st talk: Philip Koene and Saif Addin Ellafi - AI-Assisted Requirements Engineering
+* v modell: drecrease project risk and ost by increasing efficiency and quality
+majaority of stm engineering has to do with language artifacts
+* application of genai support thgouhout the v model workflow withing and across proces steps
+* funding oproject by the bavarian state: BayTp plus
+* rais workstreams: providing sstem context to individual workflow steps; ai angets for inteface between proces steps
+* multi agent ssystem
+chatbots as system engineer companion
+multi model approach with crss verification
+* requirements emanagenet: basis for systems engineering, syntxa chek, smenatic cuqlait check of single requirements, correctness of requirements in system context, generation of requirements from project ressources
+* software develoet: genertion of embeddd source code; api generation, testcode generation, ai supported code anylsis and bugfixing, genertion of docue documentation, bsh knowledge base generation, automated translation of gui texts
+
+* expectations: indeitification and automation of re-curring and time consuming tsks
+* expected productivity gains n alle workstreams
+higher quality of producted outcome in all worksteams
+* fewer errors in requirements
+ more comlete requirements
+ 
+ * raise RM: requirements with strcit syntax
+ * iming for intersubjhective comprehensibility
+ 
+  write and then review by some other requirements engineer
+  * s the right nomenclature used, keywords used, snetence conxstruon, preconditions, spelling errors, passive versus active voice
+  * done witha quick web frontend
+  
+  * also check against clarift, atomicit, completeness, itnernal consistency, ambiguit, verificabilot, quantifiabiity, unspecific on implementation, .. to refine individual items and improve the overall count
+  
 
 
 ## 2nd talk: Patricia Goldberg - From Chaos to Control Automating BI Tools with Pydantic and Python
