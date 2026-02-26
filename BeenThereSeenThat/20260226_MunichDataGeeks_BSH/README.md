@@ -76,7 +76,36 @@ higher quality of producted outcome in all worksteams
   * done witha quick web frontend
   
   * also check against clarift, atomicit, completeness, itnernal consistency, ambiguit, verificabilot, quantifiabiity, unspecific on implementation, .. to refine individual items and improve the overall count
+  * requirement context quality check: consistency, completeness, correctness, feasibility..
+  * vounsws refinement loop: for ssntax check. if after five runs this is not fitting, then something else is wrong. after two or three reruns is wrong so it vannot be fixed
+  * polarion as authoring tool, apache velocity, java and js
+  * but polarion database is mirrored, thne some vector db is done. also the topic of data security; need to know priciple - is not helpful for the llm use cases
+  * runs on backend ai platform
   
+  * zaid as next presenter; barbara ammer as writer of the next slides?
+  * why a central ai  platform in bsh?
+  * ai platform globally: a governance model for service
+  * onboard a product/team to cdl
+  * review of the user asses srequest processes and automatized them
+  * focus on the steps which bring value
+  * standardizing is hard
+  * POCs are fast, see vibecoding
+  * but when this is proofed and then wanted, how to do this: 
+  * cant afford mistakes like user is asked to press buttons which dont exist
+  * RAGs are on way to handle this; semantinc chunking, but has to e standardize
+  * doing rag for each department would make them automatically unprofitable! wow
+  * standard rag boilerplate
+  * need traceabilitx, because thex need accountability!
+  * RAG ingestion..
+  getting data AI ready ..
+  * model routing handled by gateway: stay flexible; liteLLM as key
+  * one key, zhis then provided to proper handling - check that litellm
+  * speed is key
+  * their solution: a single, secure, and compliant entry point for all llms
+  *observability: define scope, build golden data dataset; set evalatuon metrics, evaluate during development, monitor post-deployment; continuous improvement loop
+  * promtflow . not langsmith anymore
+  * guardrails control wht comes in and out of the llm models, to filer and deflect invalid user requeets
+  * lots of examples for used tools. but based on platform engineering
 
 
 ## 2nd talk: Patricia Goldberg - From Chaos to Control Automating BI Tools with Pydantic and Python
