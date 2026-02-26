@@ -109,4 +109,13 @@ higher quality of producted outcome in all worksteams
 
 
 ## 2nd talk: Patricia Goldberg - From Chaos to Control Automating BI Tools with Pydantic and Python
+* from brazil
+works at wmeolo: simplified setp: personio, python then some outout, python adn dachs, achsa?
+* everyone in the comoany has access for self handling services: metabase is used
+  * business intelligence tool and also self service analytics
+* why need automatic governance: automatic permission system: give permission to users according totheir position at any point in time
+* documentation snschronization; version controlled yml file
+* names change, ideas change of the column, etc.
+* daxter? as scheduler for python - have to check, looks like a blue octopus
 
+* baRBARA AMMER as orgnizer, at least appeared in the talk slides from first presentation; and she arranged things, good.
