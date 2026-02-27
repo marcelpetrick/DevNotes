@@ -1,4 +1,5 @@
 # 20260226 Munich Data Geeks - BSH
+
 ```
 Munich Datageeks February Edition
 
@@ -48,74 +49,103 @@ Patricia Goldberg is a Data Engineer based in Munich, passionate about data and 
 
 -------
 
-* development wih v modell, system engineering approach
+* development with V-Model, systems engineering approach
 
-## 1st talk: Philip Koene and Saif Addin Ellafi - AI-Assisted Requirements Engineering
-* v modell: drecrease project risk and ost by increasing efficiency and quality
-majaority of stm engineering has to do with language artifacts
-* application of genai support thgouhout the v model workflow withing and across proces steps
-* funding oproject by the bavarian state: BayTp plus
-* rais workstreams: providing sstem context to individual workflow steps; ai angets for inteface between proces steps
-* multi agent ssystem
-chatbots as system engineer companion
-multi model approach with crss verification
-* requirements emanagenet: basis for systems engineering, syntxa chek, smenatic cuqlait check of single requirements, correctness of requirements in system context, generation of requirements from project ressources
-* software develoet: genertion of embeddd source code; api generation, testcode generation, ai supported code anylsis and bugfixing, genertion of docue documentation, bsh knowledge base generation, automated translation of gui texts
+## 1st Talk: Philip Koene and Saif Addin Ellafi - AI-Assisted Requirements Engineering
 
-* expectations: indeitification and automation of re-curring and time consuming tsks
-* expected productivity gains n alle workstreams
-higher quality of producted outcome in all worksteams
-* fewer errors in requirements
- more comlete requirements
- 
- * raise RM: requirements with strcit syntax
- * iming for intersubjhective comprehensibility
- 
-  write and then review by some other requirements engineer
-  * s the right nomenclature used, keywords used, snetence conxstruon, preconditions, spelling errors, passive versus active voice
-  * done witha quick web frontend
-  
-  * also check against clarift, atomicit, completeness, itnernal consistency, ambiguit, verificabilot, quantifiabiity, unspecific on implementation, .. to refine individual items and improve the overall count
-  * requirement context quality check: consistency, completeness, correctness, feasibility..
-  * vounsws refinement loop: for ssntax check. if after five runs this is not fitting, then something else is wrong. after two or three reruns is wrong so it vannot be fixed
-  * polarion as authoring tool, apache velocity, java and js
-  * but polarion database is mirrored, thne some vector db is done. also the topic of data security; need to know priciple - is not helpful for the llm use cases
-  * runs on backend ai platform
-  
-  * zaid as next presenter; barbara ammer as writer of the next slides?
-  * why a central ai  platform in bsh?
-  * ai platform globally: a governance model for service
-  * onboard a product/team to cdl
-  * review of the user asses srequest processes and automatized them
-  * focus on the steps which bring value
-  * standardizing is hard
-  * POCs are fast, see vibecoding
-  * but when this is proofed and then wanted, how to do this: 
-  * cant afford mistakes like user is asked to press buttons which dont exist
-  * RAGs are on way to handle this; semantinc chunking, but has to e standardize
-  * doing rag for each department would make them automatically unprofitable! wow
-  * standard rag boilerplate
-  * need traceabilitx, because thex need accountability!
-  * RAG ingestion..
-  getting data AI ready ..
-  * model routing handled by gateway: stay flexible; liteLLM as key
-  * one key, zhis then provided to proper handling - check that litellm
-  * speed is key
-  * their solution: a single, secure, and compliant entry point for all llms
-  *observability: define scope, build golden data dataset; set evalatuon metrics, evaluate during development, monitor post-deployment; continuous improvement loop
-  * promtflow . not langsmith anymore
-  * guardrails control wht comes in and out of the llm models, to filer and deflect invalid user requeets
-  * lots of examples for used tools. but based on platform engineering
+* V-Model: decrease project risk and cost by increasing efficiency and quality  
+* majority of systems engineering has to do with language artifacts  
+* application of GenAI support throughout the V-Model workflow within and across process steps  
+* funding project by the Bavarian state: BayTP Plus <-- check: BayTP+  
+* RAISE workstreams: providing system context to individual workflow steps; AI agents as interface between process steps  
+* multi-agent system  
+  * chatbots as system engineering companions  
+  * multi-model approach with cross-verification  
+
+* requirements management: basis for systems engineering  
+  * syntax check  
+  * semantic quality check of single requirements  
+  * correctness of requirements in system context  
+  * generation of requirements from project resources  
+
+* software development  
+  * generation of embedded source code  
+  * API generation  
+  * test code generation  
+  * AI-supported code analysis and bug fixing  
+  * generation of documentation  
+  * BSH knowledge base generation  
+  * automated translation of GUI texts  
+
+* expectations  
+  * identification and automation of recurring and time-consuming tasks  
+  * expected productivity gains in all workstreams  
+  * higher quality of produced outcomes in all workstreams  
+  * fewer errors in requirements  
+  * more complete requirements  
+
+* RAISE RM: requirements with strict syntax  
+* aiming for intersubjective comprehensibility  
+
+  * write and then review by another requirements engineer  
+  * is the right nomenclature used, keywords used, sentence construction, preconditions, spelling errors, passive versus active voice  
+  * done with a quick web frontend  
+
+  * also check against clarity, atomicity, completeness, internal consistency, ambiguity, verifiability, quantifiability, and being unspecific on implementation to refine individual items and improve the overall count  
+  * requirement context quality check: consistency, completeness, correctness, feasibility  
+  * continuous refinement loop for syntax check: if after five runs this is not fitting, then something else is wrong; after two or three reruns, if it is still wrong, it cannot be fixed automatically  
+  * Polarion as authoring tool, Apache Velocity, Java and JS  
+  * Polarion database is mirrored, then a vector DB is created; topic of data security; need-to-know principle is not helpful for LLM use cases  
+  * runs on backend AI platform  
+
+  * Zaid as next presenter <-- check: Saif Addin Ellafi?  
+  * Barbara Ammer as writer of the next slides <-- check  
+  * why a central AI platform in BSH  
+  * AI platform globally: a governance model for services  
+  * onboard a product/team to CDL <-- check: Corporate Data Lake?  
+  * review of user access request processes and automation  
+  * focus on the steps which bring value  
+  * standardizing is hard  
+  * POCs are fast, see vibe coding <-- check: vibe coding  
+  * but once this is proven and then wanted in production, how to do this  
+  * cannot afford mistakes like users being asked to press buttons which do not exist  
+  * RAGs are on the way to handle this; semantic chunking, but it has to be standardized  
+  * doing RAG for each department would make them automatically unprofitable  
+  * standard RAG boilerplate  
+  * need traceability because they need accountability  
+  * RAG ingestion  
+  * getting data AI-ready  
+
+  * model routing handled by gateway: stay flexible; LiteLLM as key  
+  * one key, which is then provided to proper handling  
+  * speed is key  
+  * their solution: a single, secure, and compliant entry point for all LLMs  
+  * observability  
+    * define scope  
+    * build golden dataset  
+    * set evaluation metrics  
+    * evaluate during development  
+    * monitor post-deployment  
+    * continuous improvement loop  
+  * Promptflow, not LangSmith anymore  
+  * guardrails control what comes in and out of the LLM models, to filter and deflect invalid user requests  
+  * lots of examples of used tools, based on platform engineering  
 
 
-## 2nd talk: Patricia Goldberg - From Chaos to Control Automating BI Tools with Pydantic and Python
-* from brazil
-works at wmeolo: simplified setp: personio, python then some outout, python adn dachs, achsa?
-* everyone in the comoany has access for self handling services: metabase is used
-  * business intelligence tool and also self service analytics
-* why need automatic governance: automatic permission system: give permission to users according totheir position at any point in time
-* documentation snschronization; version controlled yml file
-* names change, ideas change of the column, etc.
-* daxter? as scheduler for python - have to check, looks like a blue octopus
+## 2nd Talk: Patricia Goldberg - From Chaos to Control: Automating BI Tools with Pydantic and Python
 
-* baRBARA AMMER as orgnizer, at least appeared in the talk slides from first presentation; and she arranged things, good.
+* from Brazil  
+* works at Wemolo  
+  * simplified setup: Personio, Python, then some output, Python and DAX <-- check: DAX?   Dagster? Daxter?!?
+* everyone in the company has access for self-handling services: Metabase is used  
+  * business intelligence tool and also self-service analytics  
+
+* why automatic governance is needed  
+  * automatic permission system: give permissions to users according to their position at any point in time  
+  * documentation synchronization; version-controlled YAML file  
+  * names change, column names change, ideas change  
+
+* Dagster as scheduler for Python <-- check: Dagster  
+  * looks like a blue octopus  
+
+* Barbara Ammer as organizer, appeared in the slides of the first presentation and arranged things  
