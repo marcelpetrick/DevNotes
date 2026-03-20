@@ -1,5 +1,11 @@
 # collection of ideas
 
+## food processor
+* things like that myfitnesspal have premium feature to add photos of a food you ate and then it gets the data lice calories, protein, etc.
+* this can be done by manual lookup and calculations
+* but a tool which takes some photos of the nutritional values, then determines the sum based on the weight (or text input) and gives you overview of all foods (table) and then the sum - no more adding it manually
+* use one of the tiny OCR-models which can be run locally
+
 ## web scraping
 Get all the loved songs from last.fm for an account. Save result as some csv/text for further processing.  
 Should be quite easy due to missing authentication.  
