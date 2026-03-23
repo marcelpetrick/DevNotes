@@ -1,5 +1,4 @@
 # 20260323 - Was wir aus 100+ KI-Rollouts gelernt haben (meinGPT)
-20260323_Was_wir_aus_100_KI_Rollouts_gelernt_haben_meinGPT
 
 ```
 Was wir aus 100+ KI-Rollouts gelernt haben
@@ -32,62 +31,62 @@ Erfahren Sie, wie Sie KI zu einem festen Bestandteil Ihres Unternehmenserfolgs m
 
 Referent: Florian Baader
 ```
-* Vortragende Marc Thormann, Jan Sträger as well
-* mein GPT: wer sind sie; 32 Mitarbeiter; 2 neue
-* seit 2023 ausschliesslich genAI
-  * outreach algorithmus aufgebaut, etc. - was ist mein GPT?
-  * sieht nicht anders aus als die chatGPT - komplett iso-zertigfiziert, dsvgo konform, ermöglicht alle tools zu nutzen - alle möglichen KI-modelle
-  * auch sämtliche integrationen darin - und auch eigene MCP - mehr als eine KI Plattform
-  * ach adoption und training mit Fokus auf Mittelstand; ki workshops, rolloutpläne, use-case bauen
+* Vortragende: Marc Thormann, Jan Sträger as well <-- check: ebenfalls?
+* meinGPT: Wer sind sie; 32 Mitarbeiter; 2 neue <-- check: zwei neue Mitarbeiter?
+* seit 2023 ausschließlich GenAI
+  * Outreach-Algorithmus aufgebaut etc. - was ist meinGPT?
+  * sieht nicht anders aus als ChatGPT - komplett ISO-zertifiziert, DSGVO-konform, ermöglicht alle Tools zu nutzen - alle möglichen KI-Modelle
+  * auch sämtliche Integrationen darin - und auch eigene MCP - mehr als eine KI-Plattform
+  * auch Adoption und Training mit Fokus auf Mittelstand; KI-Workshops, Rollout-Pläne, Use Cases bauen
 
-## Was genau brignt KI?
+## Was genau bringt KI?
 * abseits von Buzzwords - wie messbar?
-* dies mit einem Pilotkunden geprüft: 170 Pilotnutzer über 30d - 4.250 Chats - 1870 App-Usages; über den ersten Monat wie meinGPT genutzt wurde
-* case-study: Klassifizierung der Chats gemacht (AI Analyse, use case komplexität, erfolg)
-* 3 erfolgskriterin wurden definiert: **time savings, enablement, risk reduction**
-  * enablement: was kann an erledigen, was man vorher nicht konnte - Demokratisierung
-  * risikoreduzierung: nicht quantifiziert in €; Doublecheck by KI - gibt es besondere Punkte, was ist unstimmig? Compliancethemen abbilden
+* dies mit einem Pilotkunden geprüft: 170 Pilotnutzer über 30d - 4.250 Chats - 1.870 App-Usages; über den ersten Monat, wie meinGPT genutzt wurde
+* Case Study: Klassifizierung der Chats gemacht (AI-Analyse, Use-Case-Komplexität, Erfolg)
+* 3 Erfolgskriterien wurden definiert: **Time Savings, Enablement, Risk Reduction**
+  * Enablement: was kann man erledigen, was man vorher nicht konnte - Demokratisierung
+  * Risikoreduzierung: nicht quantifiziert in €; Double-Check by KI - gibt es besondere Punkte, was ist unstimmig? Compliance-Themen abbilden
 ![](img00.png)
-* 12 use-case-kategorien: writing, business intel, technical engineering, it-support, ...
-* Komplexität der usecases ist seh variable: ein Viertel komple, 50% mittel, einfach so auf 35%; größter mehrwert auf mittel und komplex
+* 12 Use-Case-Kategorien: Writing, Business Intelligence, Technical Engineering, IT-Support, ...
+* Komplexität der Use Cases ist sehr variabel: ein Viertel komplex, 50% mittel, einfache ca. 35% <-- check: Prozentangaben summieren sich nicht; größter Mehrwert bei mittel und komplex
 * Case Study: ein paar Beispiele
 ![](img01.png)
-* ROI Berechnung: erster Monat 550h Zeitersparnis (dort mit 50€/h) -> 27k time savings, 13k enablement -> quantified monthly value of 40k€
+* ROI-Berechnung: erster Monat 550h Zeitersparnis (dort mit 50€/h) -> 27k Time Savings, 13k Enablement -> quantifizierter monatlicher Wert von 40k€
 * einfaches RAG ist nicht ausreichend - viele Systeme mit komplexen Permissions
 ![](img02.png)
-* CRM durchsuchen, sharepoint durchsuchen, outlook durchsuchen, SAP abfragen .. aus vier Quellen die Daten heraussuchen -> dies dann alles zusammenfassen
+* CRM durchsuchen, SharePoint durchsuchen, Outlook durchsuchen, SAP abfragen .. aus vier Quellen die Daten heraussuchen -> dies dann alles zusammenfassen
 ![](img03.png)
-  * microsoft cloud und tools angebunden; wissensdatenbank, on-premise connectoren, data warehouses as well (SAP, DBS, DWH-Integrationen)
-* workflows (beispiel kunde Lauda):
-  * Protokolle wurden noch händisch ausgefüllt und gemanaget - wie das per KI lösen?
-  * Photo aus Protokoll -> Upload sharepoint, meinGPT, OCR, Assistent, Supervisor enthält E-Mail
-![](img04.png)
-### AI-apps - Supply Chain bei IFM
-* loveable, replit ..
-* eine Idee: alle Informationen von ERP-System finde und eingehende Mails -> KI erstellt Vorschläge
-  * Dashboard mit Vorschlägen, ..
-* wichtig: vibeoding ist ein Problem im Unternehmen - Zugriffsberechtigungen; oder OAuth als Sicherheitslayer davor geschaltet
+  * Microsoft Cloud und Tools angebunden; Wissensdatenbank, On-Premise-Connectoren, Data Warehouses as well (SAP, DBS <-- check: DBs?, DWH-Integrationen)
+* Workflows (Beispiel Kunde LAUDA):
+  * Protokolle wurden noch händisch ausgefüllt und gemanagt - wie das per KI lösen?
+  * Foto aus Protokoll -> Upload SharePoint, meinGPT, OCR, Assistent, Supervisor enthält E-Mail <-- check: Supervisor sendet E-Mail?
 
-### Wie bringe ich jeden dau KI zu nutzen?
-* Adoption: Menschen bringen KI bei; KI nutzen um KI zu lernen
+### AI-Apps - Supply Chain bei IFM
+* Lovable, Replit ..
+* eine Idee: alle Informationen vom ERP-System finden und eingehende Mails -> KI erstellt Vorschläge
+  * Dashboard mit Vorschlägen ..
+* wichtig: Vibe Coding <-- check: Schreibweise? ist ein Problem im Unternehmen - Zugriffsberechtigungen; oder OAuth als Sicherheitslayer davor geschaltet
+
+### Wie bringe ich jeden dazu, KI zu nutzen?
+* Adoption: Menschen bringen sich KI bei; KI nutzen, um KI zu lernen
 * interne Championsrunde aufbauen (wie bei Pilotgruppe); begleitet und geschult
-* Use-case-support bereitstellen
-* FAQ Runden mscahen
-* Trainings: Basis, Plattform, DeepDive
-* Prompting Feedback: die KI warnt bei schlechten Prompts und gibt Fedback dazu, welche Inhalte fehlen
-* Use-case voice agent: der sprach assistent befragt die Mitarbeitet und erstellt passende Assistenten (noch nicht ausgerollt bei mein GPT)
+* Use-Case-Support bereitstellen
+* FAQ-Runden machen
+* Trainings: Basis, Plattform, Deep Dive
+* Prompting-Feedback: die KI warnt bei schlechten Prompts und gibt Feedback dazu, welche Inhalte fehlen
+* Use Case Voice Agent: der Sprachassistent befragt die Mitarbeiter und erstellt passende Assistenten (noch nicht ausgerollt bei meinGPT)
 
 ### Fazit
-* KI braucht ein Betriebssystem für alle Use-cases; was ist erlaubt und gern gesehen; nicht hinter jedem Tool hinterher hecheln
+* KI braucht ein Betriebssystem für alle Use Cases; was ist erlaubt und gern gesehen; nicht hinter jedem Tool hinterherhecheln
 * internes Champion-Team und klare Verantwortlichkeiten (Owner)
-* basic chat ist super wertvoll, aber dort nicht stehen bleiben
-* echter Mehrwert entsteht durch die tiefe integration mit allen Systemen
+* Basic Chat ist super wertvoll, aber dort nicht stehen bleiben
+* echter Mehrwert entsteht durch die tiefe Integration mit allen Systemen
 
-* GO BRAOD, GO DEEP
+* GO BROAD, GO DEEP
 
 * meinGPT kann 10 Tage kostenlos genutzt werden
 ![](img05.png)
-* bei Enterprise-Use auch "bring your own key" möglich
+* bei Enterprise-Use auch "Bring Your Own Key" möglich
 
 ```
 Vielen Dank für die Präsentation!
