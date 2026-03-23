@@ -87,6 +87,7 @@ Referent: Florian Baader
 
 * meinGPT kann 10 Tage kostenlos genutzt werden
 ![](img05.png)
+* bei Enterprise-Use auch "bring your own key" möglich
 
 ```
 Vielen Dank für die Präsentation!
