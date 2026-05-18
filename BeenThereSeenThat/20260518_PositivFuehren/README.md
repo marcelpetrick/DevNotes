@@ -33,52 +33,62 @@ Dieser Online-Impuls ist kostenfrei und richtet sich an alle Interessierten. Die
 Hier finden Sie alle Veranstaltungen aus dieser Serie: https://www.bvmw.de/de/kontakt/ingrid-janssen
 ```
 
+----------
+
 * Vortragende: Christian Thiele
 
-* wie innovationsförderndes Klima erstellen?
-* Lerntheorie mit 90° - L mit Lernwinkel - wir sind nie ganz leer
-* Nutzung von Mentimeters
+* Wie erstellt man ein innovationsförderndes Klima?
+* Lerntheorie mit 90° – L wie Lernwinkel – wir sind nie ganz leer
+* Nutzung von Mentimeter
 * TODO screenshot 1
-* 28% als Führungskraft dabei; viel bescheidenheit im raum
+* 28 % als Führungskraft dabei; viel Bescheidenheit im Raum
 * WHY?
-  * Ed Pearson, Boeing; Juli 2028 Mail change of culture at boeing; written before flight JT610 und EA302 (beide Absutrz)
-  * Mail hatte prophetische Züge; weil er genau auf die Punkte hingwewiesen hat, welche zu Abstürzen geführt haben
-  * came from military culture; noticed that finger blaming became common
-* studien legen nahe: performance steig auf individueller und Team- und Organisationsebene
-* Lernen steigert auchd as wohlbefinden
-* forschungsergebniosse auf Gruppen/Organ Eben ebenfalls: Han et al, 2017)
-* citizienship behaviour: Organ 19988; werden wahrscheinlichr auf hhere PsySafety
-  * erweisen sich sinnvoll auf Firmenebene
-* "weak signals" feststelle, welche gut wären nachzuverfolgen
-* unternhemen mit hoher psychologischer sicherheit erfolgreicher mit AI (2025)
-* 84% messbare verbinden zwischen psychologischer sicherheit und tangiblem ai-outcomes (schneller eimopementierung, weniger widerstand)
-* 22% der mitarbeiter zögerten AI projekte vorzuhsclagen, angst vor schuldzuweisungen
-* todo add screenshot
-* was wünscht man sich aebr in zeiten von unsicherheit? mehr klarheit nd führung; deutsches spezifikum; seit 1872 in merriam-webster "angst" steht aus Deutschen
-* diffuse angst und passivität
-* freier ideen äußern und auch disktuieren
-* Amy Edmonson; professorin for leadership harvard business school
-  * psych sicherheit als group level faktor; the belief that the workplace is safe for interpersonal risk-taking and tha tmistakres or errors will not be held against you
-  * psych sicherheit NICHT: alle haben sich permanent unter allen umständen lieb; individuelles erleben, das gleiche wie zwischenmenschliches vertrauen; bro culture
-  * heisst stattdessen: mehr gesunder dissens; organisationales thema; steuerbar
-* menti: aumass an psychSafety in eigener Org: 49% sagen niedrig; paar mittel, wenige hoch
-  * todo add screenshot
-* was sind themen, welche hilfreich sein könnte und welche nicht?
-  * - nazrissmus; + feedbackkultur; +gleichbehandlung; +transparenz; -Arbeitsbelastung; Stimmige Kommunikation; Gute Checkins
-Screenshot scala
-* psychological safety scale: wird es dir angelastet oder nicht?
-* je höher man sitztin der hierachive desto stärker is tdie erlebte PS! (ist aber nicht so; wird unten aber anders erlebt)
-screenshit
-* psoitive leadership: perma - psotive emotion, egnagenment, relationshis, meaning, accomplishment
-* loneliness cuts psychologial safety nearly in half
-  * epidemie der einsamkeit, gerade in hybrideen kontexten
-* Manual of me: gebrauchsnaweisung für mich; in vriante für mich; von polizei mittelhessen
-screenshot
-* im team sich nicht nur als personalnummern sehen: chancen psych sicherheit auch erlebt wird
-* reissleine ziehen: als erstes bei person bedanken, dass es immer einen guten grund gibt - dem teammitgleid danken
-  * I am Concerned; I am Uncomfortable; This is a SAfety issue -> CUS -> Stop the line
-* chefs hire lots of mini-mes
-* diverse teams are safer teams: cross functional; with highly diverse expertise
+  * Ed Pearson, Boeing; Juli 2018 Mail: “Change of culture at Boeing”; geschrieben vor den Flügen JT610 und EA302 (beide Abstürze)
+  * Mail hatte prophetische Züge, weil er genau auf die Punkte hingewiesen hat, die zu den Abstürzen geführt haben
+  * Kam aus einer militärischen Kultur; bemerkte, dass Finger-Pointing immer häufiger wurde
+* Studien legen nahe: Performance steigt auf individueller, Team- und Organisationsebene
+* Lernen steigert auch das Wohlbefinden
+* Forschungsergebnisse auf Gruppen-/Organisationsebene ebenfalls: Han et al., 2017
+* Citizenship Behaviour: Organ 1988; wahrscheinlicher bei höherer psychologischer Sicherheit
+  * Erweist sich als sinnvoll auf Firmenebene
+* „Weak signals“ feststellen, die sinnvoll wären nachzuverfolgen
+* Unternehmen mit hoher psychologischer Sicherheit erfolgreicher mit AI (2025)
+* 84 % messbare Verbindung zwischen psychologischer Sicherheit und greifbaren AI-Outcomes (schnellere Implementierung, weniger Widerstand)
+* 22 % der Mitarbeitenden zögerten, AI-Projekte vorzuschlagen, aus Angst vor Schuldzuweisungen
+* TODO add screenshot
+* Was wünscht man sich aber in Zeiten von Unsicherheit? Mehr Klarheit und Führung; deutsches Spezifikum; seit 1872 steht „Angst“ im Merriam-Webster aus dem Deutschen übernommen
+* Diffuse Angst und Passivität
+* Freier Ideen äußern und auch diskutieren
+* Amy Edmondson; Professorin for Leadership, Harvard Business School
+  * Psychologische Sicherheit als Group-Level-Faktor: “The belief that the workplace is safe for interpersonal risk-taking and that mistakes or errors will not be held against you”
+  * Psychologische Sicherheit NICHT: Alle haben sich permanent unter allen Umständen lieb; individuelles Erleben; das Gleiche wie zwischenmenschliches Vertrauen; Bro Culture
+  * Heißt stattdessen: mehr gesunder Dissens; organisationales Thema; steuerbar
+* Menti: Ausmaß an psychologischer Sicherheit in eigener Organisation: 49 % sagen niedrig; einige mittel, wenige hoch
+  * TODO add screenshot
+* Was sind Themen, die hilfreich sein könnten und welche nicht?
+  * - Narzissmus
+  * + Feedbackkultur
+  * + Gleichbehandlung
+  * + Transparenz
+  * - Arbeitsbelastung
+  * + Stimmige Kommunikation
+  * + Gute Check-ins
+* Screenshot Skala
+* Psychological Safety Scale: Wird es dir angelastet oder nicht?
+* Je höher man in der Hierarchie sitzt, desto stärker ist die erlebte psychologische Sicherheit (muss aber nicht der Realität entsprechen; wird weiter unten oft anders erlebt)
+* Screenshot
+* Positive Leadership: PERMA – Positive Emotion, Engagement, Relationships, Meaning, Accomplishment
+* Loneliness cuts psychological safety nearly in half
+  * Epidemie der Einsamkeit, gerade in hybriden Kontexten
+* Manual of Me: Gebrauchsanweisung für mich; Variante „Für mich“; von Polizei Mittelhessen
+* Screenshot
+* Im Team sich nicht nur als Personalnummern sehen: höhere Chance, dass psychologische Sicherheit erlebt wird
+* Reißleine ziehen: Als Erstes bei der Person bedanken; es gibt immer einen guten Grund – dem Teammitglied danken
+  * “I am Concerned; I am Uncomfortable; This is a Safety issue” → CUS → Stop the line
+* Chefs hire lots of mini-mes
+* Diverse teams are safer teams: cross-functional; with highly diverse expertise
 
-* 
-
+* Annahmen transparent machen
+* Wie kann man im Mittleren Management aktives Mitdenken fördern, auch wenn es nicht Unternehmenskultur entspricht? Organisationeller Rahmen wichtig; als Menschen sich wieder näherkommen; für Austausch sorgen; Konfliktkompetenz gegeneinander erträglich machen im Ringen; Leute durch Mentimeter auch befragen
+* Welche Hebel haben Mitarbeiter, auch wenn Führungskraft nicht Klima des Austausches fördert? Auch aussprechen, was man denkt und nicht auf die Zunge beissen; andere ermutigen auch auszusprechen, was man denkt
+* gefährlich: Techno-Optimismus unterschätzt die kulturelle Komponente von Fortschritt und Organisation
