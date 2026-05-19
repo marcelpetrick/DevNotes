@@ -40,7 +40,8 @@ Hier finden Sie alle Veranstaltungen aus dieser Serie: https://www.bvmw.de/de/ko
 * Wie erstellt man ein innovationsförderndes Klima?
 * Lerntheorie mit 90° – L wie Lernwinkel – wir sind nie ganz leer
 * Nutzung von Mentimeter
-* TODO screenshot 1
+![](img00.png)
+![](img01.png)
 * 28 % als Führungskraft dabei; viel Bescheidenheit im Raum
 * WHY?
   * Ed Pearson, Boeing; Juli 2018 Mail: “Change of culture at Boeing”; geschrieben vor den Flügen JT610 und EA302 (beide Abstürze)
@@ -55,7 +56,6 @@ Hier finden Sie alle Veranstaltungen aus dieser Serie: https://www.bvmw.de/de/ko
 * Unternehmen mit hoher psychologischer Sicherheit erfolgreicher mit AI (2025)
 * 84 % messbare Verbindung zwischen psychologischer Sicherheit und greifbaren AI-Outcomes (schnellere Implementierung, weniger Widerstand)
 * 22 % der Mitarbeitenden zögerten, AI-Projekte vorzuschlagen, aus Angst vor Schuldzuweisungen
-* TODO add screenshot
 * Was wünscht man sich aber in Zeiten von Unsicherheit? Mehr Klarheit und Führung; deutsches Spezifikum; seit 1872 steht „Angst“ im Merriam-Webster aus dem Deutschen übernommen
 * Diffuse Angst und Passivität
 * Freier Ideen äußern und auch diskutieren
@@ -64,7 +64,9 @@ Hier finden Sie alle Veranstaltungen aus dieser Serie: https://www.bvmw.de/de/ko
   * Psychologische Sicherheit NICHT: Alle haben sich permanent unter allen Umständen lieb; individuelles Erleben; das Gleiche wie zwischenmenschliches Vertrauen; Bro Culture
   * Heißt stattdessen: mehr gesunder Dissens; organisationales Thema; steuerbar
 * Menti: Ausmaß an psychologischer Sicherheit in eigener Organisation: 49 % sagen niedrig; einige mittel, wenige hoch
-  * TODO add screenshot
+![](img02.png)
+![](img03.png)
+![](img04.png)
 * Was sind Themen, die hilfreich sein könnten und welche nicht?
   * - Narzissmus
   * + Feedbackkultur
@@ -73,15 +75,14 @@ Hier finden Sie alle Veranstaltungen aus dieser Serie: https://www.bvmw.de/de/ko
   * - Arbeitsbelastung
   * + Stimmige Kommunikation
   * + Gute Check-ins
-* Screenshot Skala
 * Psychological Safety Scale: Wird es dir angelastet oder nicht?
 * Je höher man in der Hierarchie sitzt, desto stärker ist die erlebte psychologische Sicherheit (muss aber nicht der Realität entsprechen; wird weiter unten oft anders erlebt)
-* Screenshot
+![](img05.png)
 * Positive Leadership: PERMA – Positive Emotion, Engagement, Relationships, Meaning, Accomplishment
 * Loneliness cuts psychological safety nearly in half
   * Epidemie der Einsamkeit, gerade in hybriden Kontexten
 * Manual of Me: Gebrauchsanweisung für mich; Variante „Für mich“; von Polizei Mittelhessen
-* Screenshot
+![](img06.png)
 * Im Team sich nicht nur als Personalnummern sehen: höhere Chance, dass psychologische Sicherheit erlebt wird
 * Reißleine ziehen: Als Erstes bei der Person bedanken; es gibt immer einen guten Grund – dem Teammitglied danken
   * “I am Concerned; I am Uncomfortable; This is a Safety issue” → CUS → Stop the line
