@@ -16,7 +16,6 @@ What You Will Learn
 
 * speakers: Daniel Lodu QNX , Sara Monteiro NXP, Rohitaswa Bhattacharya NPX
 ```
-
 Daniel Lodu
 Senior Product Marketing Manager, QNX
 1776803979-bb61221622988c05
@@ -29,3 +28,28 @@ Technical Director, Systems Architecture, NXP Semiconductors
 Ken Briodagh
 Editor in Chief Embedded Computing Design
 ```
+
+* QNX is a division of Blackberry; worldwide, several locations; 45 years; failure is not an option (high-performance, reliable operating systems)
+* NXP: 33k employees; also silicon for hearing aids
+
+## Talk
+* regulatory compliance is not just a requirement - it is a strategic enabler for safety and market access
+* FDA database gets over 2 million medical device reports annually - failures, issues, whatever
+* ongoing vigilance needed by device manufacturers and their suppliers
+* trends in the medical device market: complexity and connectivity; scrutiny of software; regulatory focus; safety and security approach; cybersecurity
+* path to regulatory approval: IEC 62304 software lifecycle; risk management; quality management ISO 13485; product safety IEC 60601
+
+* expanded regulatory expectations
+  * requires an SBOM for transparency
+  * expect ongoing vulnerability management and patching
+  * place full cybersecurity responsibility on the manufacturer
+* increased risk surface
+  * increasing software complexity expands the attack surface
+  * connectivity exposes devices to remote threats
+  * vulnerabilities can impact safety-critical functions
+* device manufacturer challenges
+  * no single dominant standard
+
+* aspects: culture, standards, assessment, expertise, protection, architecture, monitoring, lifecycle
+* safety and security as a system design and user responsibility
+* safe medical application - concept mapping
