@@ -31,9 +31,34 @@
 
 -------------
 
-## John Oster: Resilience
-* TBC
+## John Oster: Resilience - navigating the CRA for resilience and competitive advantage
+* lead for th cyber security deparment there, chair for some uptane standard (update for automotive, 5 ears with toradex)
+* "its the cyber resilience act, not the cyber seuritct act or cyber defense act"" - he liked that sentence
+* risk managemtn four tools: prevent the risk (ideal); mitigate the damage from the threat, transfer (the risk - CRA does not allow this; full responsibility as manufacturer); accept (residual risk - jsut accept this)
+* CRA standards process (i brief)
+  * horizontal standards: general standars, that apply across all pridouct categories
+  * vertical standards: more detailed standards, specific to a particular product category
+* vertical standars will be harmonized: more efficient to apply them; presumption by applying them - means you apply all the standards  
+* ETSI standards (verticals): like WP38 tamper resistant microcontrollers
+
+
+* quesiton: do securitsy products have to have automatic updates? not gonna make sense; due to closed networks, etc. cra is risk management framework -> so docment in the risk assessment what the intendendd reasonable uses are; then done
+  * asutomatic updates text: ".. if applicable .."
+  * so when you plug in a usb-stick, that the updates start: when reaosnable without more user interaction?
+
+
+
+
+
+
+
+
+
 
 -------------
 
 * challenge: sbom generation for c++ products; cdxgen - works, but reports too many, example stm32 project; then do some curation ... but is this not a source for failure because not fully automateable?
+
+
+* using fable 5 to rename a vairable ..
+  * talk about how breaking the flow, like for creating a document is interrupting your work. so even when overkill i saometimes dictate directl to the agent, then tell him to create the document himself. less overhead.
