@@ -76,7 +76,22 @@
 * defective it it lacks the saety eole are entitled to expect/required by law
 
 
-
+-------------
+# The CRA - a paradigm shift - jenirathese nadar
+* Jeni Nadar - System Sales LEad Security
+* the inofficial CRA guy from NXP
+* NXP is not doing anything regarding CRA - as fair feedback
+* as reference: http://nxp.com/cra - check then the documentation section
+* application notes for multiple different appliances: home apps, ..
+* just a legal recommendation, not an advice
+* essential cybersecurity checklist: only for own tracking, not legal advice
+* recommend to give the design to another tesam which is not inviolved into the design process; or thrid party for risk assessment
+* atechnokogy agnostic approach: CRA sets device security principles without specyfying how
+* CRA ECRs cover: product configuration, rpoduct authentication, acces to product, data protextion, product monitoring and cyber state awareness, vulneraviblit fi xand product update, reduction of incidents impac and product availabilit
+* cra does not specify: level of security; level of protections must reflect the lefel f risks, depending on product type, use case and application; functional requirements cryptogaphic algorithms proctols, pki, x.509 certificate format, etc.; technoloogical impelemtnatios; security hardware, software, etc
+* no refernce that sas it has to be in hardware: but NXP would say yes
+* Secure Enclave as new feature sometimes in sync with TrustZone
+* 
 
 
 
