@@ -1,40 +1,38 @@
-# 20260611 CRA Summit from Toradex and NXP in Munich
-* 0900 to 1800
+# 20260611 CRA Summit - NXP & Toradex in Munich
+* 09:00 to 18:00
 * TODO add the agenda from OCR-ed image
 
-* maybe 100 participants in the bürgerbräukeller
+* ~100 participants in the Bürgerbräukeller
 
 ## 1st talk: CRA overview - David Osterberger - from TÜV Süd
-* September2026 reporting duties for vendors
-* december 2027 all requirements have to b applied
-* which products are in scope: harware product, laptops, clients, software clients like operating systems; and remote software data processing capabilities (cloud stuff)
-* exclude: hobby software; only sold to friends
-* also things under other standards: military, marine, medical .. does not fall under that regulation
-* categorization into four different groups: 
-* reporting obligations! due to some bug or some lib you use has a vuln, then have to find way to fix this
-* provide software updates, during support period, at least 5 years
-* also needs conformity assessment: falls now under CE
-* technical requirements: made available without exploitable vulns, secure by default configutation, software updates, acces control , data confidentiality and integrity, security logging, availability of essential functions, control data outflow, data detletiin, limit attack surfaces, limit impact of attacks, minimisation of data processing
-* security updates for free, functional updates - you can take money; so maayb separate tehm
-* data deletion: even comissioning is to be kept in mind; even if thrown away, how to delete the data safeyl?
+* Reporting obligations begin September 2026 for vendors
+* December 2027: all requirements must be applied
+* Products in scope: hardware products, laptops, clients, software clients (e.g., operating systems), and remote software data processing capabilities (cloud)
+* Exclude: hobby software; software only sold to friends
+* Products under other standards (military, marine, medical) do not fall under this regulation
+* Categorization into four different groups:
+* Reporting obligations: if a vulnerability is discovered in a library you use, you must find a way to fix it
+* Provide software updates during the support period for at least 5 years
+* Needs conformity assessment: falls under CE marking
+* Technical requirements: available without exploitable vulnerabilities, secure by default configuration, software updates, access control, data confidentiality and integrity, security logging, availability of essential functions, control data outflow, data deletion, limit attack surfaces, limit impact of attacks, minimization of data processing
 * product lifecycle management design, develop and production -> deliver< -> maintenance
 * minimum of five years support period
-  * five years individually from product launch for each device sales date
-* CE marking for manufacturers: identify applicable directives -> create eu declatation of conformity and affic the CE marking, ... SEE PHOTO
-* requirements are governed by the EU new legislative directirves
-* manfacturer ms conduct regular audits and tests and evaluations
-* take care that 3rd parties and open source components do not compromise product secrity
-* requirements for vuln management: single reporting platfom by enisa by september 2026
-* timelines for reporting: 24h for th first report on the vulnerability; max 72 hours comprehensive description of the vulnerability and incident
+  * Five years individually from product launch for each device sales date
+* CE marking for manufacturers: identify applicable directives -> create EU declaration of conformity and affix the CE marking... SEE PHOTO
+* Requirements are governed by EU new legislative directives
+* Manufacturers must conduct regular audits, tests, and evaluations
+* Take care that third parties and open source components do not compromise product security
+* Vulnerability management requirements: single reporting platform by ENISA by September 2026
+* Reporting timelines: 24h for the first report on the vulnerability; max 72 hours for comprehensive description of the vulnerability and incident
 * todo photo of the decision tree: for the CRA compliance check
 
 
 -------------
 
 ## John Oster: Resilience - navigating the CRA for resilience and competitive advantage
-* lead for th cyber security deparment there, chair for some uptane standard (update for automotive, 5 ears with toradex)
-* "its the cyber resilience act, not the cyber seuritct act or cyber defense act"" - he liked that sentence
-* risk managemtn four tools: prevent the risk (ideal); mitigate the damage from the threat, transfer (the risk - CRA does not allow this; full responsibility as manufacturer); accept (residual risk - jsut accept this)
+* Lead for the cybersecurity department there, chair for some UPTANE standards (update for automotive, 5 years with Toradex)
+* "It's the Cyber Resilience Act, not the Cyber Security Act or Cyber Defense Act" - he liked that sentence
+* Risk management: four tools: prevent the risk (ideal); mitigate the damage from the threat, transfer (the risk - CRA does not allow this; full responsibility as manufacturer); accept (residual risk - just accept this)
 * CRA standards process (i brief)
   * horizontal standards: general standars, that apply across all pridouct categories
   * vertical standards: more detailed standards, specific to a particular product category
@@ -48,22 +46,21 @@
   
 -------------
 
-## 3rd talk: BE solutions - icing on the cake - philippe dmitiry - fix the name TODO
+## 3rd talk: BE solutions - icing on the cake - Philippe Dmitiry
 * different from ten years ago to now
 * 10y ago: hardware features differnetiated; software had to run along with it
-* today the situation has changed: dveloping produt has to be delveope, maintained and to be secured
-* major difference is the cber threats: 10y ago nobody cared because not important
+* Today the situation has changed: developing products has to be developed, maintained and secured
+* Major difference: cyber threats. 10 years ago nobody cared because it wasn't important
 * buainess requirements versus techncial requirements:
-  * business req: fater time to market, ( major); reduced engineering effort; predictable lifecycle costs, reduced operational risk; compliance readiness
-  * technical requirements: secure OTA updates; containerized applications; fleet monitoring; reproducible deyploemnets, secure software supply chain; vulnerability manangement; long term maintenance
-* maintaining the product - is now a major requirement; over OTA; and when secure - even better
-* vukn. habve to be found, managed, ttracked and fixes to be deployed
+  * Business requirements: faster time to market (major); reduced engineering effort; predictable lifecycle costs, reduced operational risk; compliance readiness
+  * Technical requirements: secure OTA updates; containerized applications; fleet monitoring; reproducible deployments, secure software supply chain; vulnerability management; long-term maintenance
+* Maintaining the product is now a major requirement; over OTA; and when secure - even better
+* Vulnerabilities have to be found, managed, tracked and fixes deployed
 * so to fulfill the market needs you need to cover everything
 * more important: to have a platform for all those topics is more important than just a build system (like yocto)
-* 10 people inthe copmpany so limited team and ressources: so how to handle this? SBOm, OTA, vuln management, monitoring, containers, fleet management ... all already included
+* 10 people in the company, so limited team and resources: so how to handle this? SBOM, OTA, vulnerability management, monitoring, containers, fleet management... all already included
 * within one year to put the first version onto the market
 
-  
 -------------
 
 ## 4th talk: amelia alder  - cybersecurity grc manager at knorr-bremse
@@ -74,7 +71,6 @@
 * product includes software (and digital manufacturing files)
 * pld - product liability directive says and aplies to products to products which are substantially modified when being put to service
 * defective it it lacks the saety eole are entitled to expect/required by law
-
 
 -------------
 # The CRA - a paradigm shift - jenirathese nadar
@@ -91,15 +87,75 @@
 * cra does not specify: level of security; level of protections must reflect the lefel f risks, depending on product type, use case and application; functional requirements cryptogaphic algorithms proctols, pki, x.509 certificate format, etc.; technoloogical impelemtnatios; security hardware, software, etc
 * no refernce that sas it has to be in hardware: but NXP would say yes
 * Secure Enclave as new feature sometimes in sync with TrustZone
+
+-------------
+# dr. peiet TODO - product security guy
+* encourage people to do their own risk assessment
+* he is one company, speciliazes in CRA and RED
+* linux foundation: survey 68 % or organisations are unwaware with the CRA - last sear 66% - so in europe also as bad as rest of the world
+* many irganizations will have a lot of work to be CRA comliant
+* mATURITY NEEDED: LEARN TO BUILD SECURE DEVICES
+* myth: the CRA legal text should give us clear requreiemtns - it does not; because fluffy; NLF essential requirements are made more specific by stanrads: out of oa one sentence essential requirement fllow a standard with ike 100 pages
+  * software may not harm kittens -> where lasers are used to create a product, the optical power should not be higher thna 1 mW.
+* CRA asessment procedures: TODO add photo
+* establish the product context: for home or for factory?; risk acceptance criteria, asset identification, threat identification, risk assessment, your own securit requirements, secure design, secure implementatio, testing and validation, risk monitoring & review
+* you as manufacturer are responsible fo the whole product: your part of software and  ALL components and libraries and dependencies! - check if that is secure
+
+-------------
+
+# burkhard stubert - from threat modeling to risk assessment
+* threat is a violation of essential product property
+* example 2d: access control -> threat (from unauthoried access) to securtiy measure (by appropriate control mechanism, including ahtentication, identiy or access mangement system and report on possible unahtorised access)
+* amdm shostack: four question framework for threat modelling:
+  * what are we working on? user stories related to system nteractions
+  * what can go wrong? violeated product properties (threats)
+  * what are we going to do about it? elimint, reduce, accept, transfer,rssk; security measures to mitigate violations
+  * did we do a good job? review of all violations fund; write tests for violations
+* mititate risk from supplier by asking them about their assessment
+* use security decision records - as markdown, in git repo
+* add user story to sdr context
+* slides from website
+* brainstorm for the violations mitigtation efforts
+* security critical functionalty on demand: good recipe to mitigate security problems; limit time when a device can be attacked; someone needs ophysical access; intentional tactivation
+* with mitgations it should nt get worse; should only get better
+* validate the risk assessment, when you do an important update : CRA stands for continuous risk assessment.. from his opinion
+
+-------------
+
+# build versus buy under the CRA: jon Oster
+* the toaster project .. do everything from scratch
+* overbuilding has a failure mode; buying has one as well
+* rules of thumb for doning evaluation: for security products:
+  * open is better than closed
+  * standards-based is better than custom
+  * a system ou full y understand is better than a black box
+  * for open source: paid maintainers are better than hobby projects
+  * but OSS projects comindated by a single company can be risky
+* it costed us a meaningful amount of development time
+* dont roll your own crytpo; bruce schneier
+* what do we mean when we say: software update update system?
+  * 4 elements:
+    * a repository where update and metadata are stored, new updates are uloaded, may include feleet management functionality
+    * an update agents responsible for interacting with th respotiroy (downloading updates, verifying integrity, reporting oin currently installed software)
+    * one or more backends for installing the software once downloaded and validated
+    * a protocol for how these elements interact
+* new ENISA echnical advisory on secure update mechanism: 
+* use standrd VEX for vulnerability exposure: cyclone DX vex, openVEX
+* dont want to have so many false positives
+* but alsdo dont wanna miss real issues
+a funnel: all CVE are like 500k -> 2k are applying to your SBOM -Y VEX files then shrink it to 50 -> your threat model cuts it down to 10 -> remediate those (mitigteu, dapted, mitigate)
+* vuknerability manager with torizon
+* ariana from security pattern; or vulnscout.io from yocto; dependenc track; onekey; guac
 * 
 
 
-
-
 -------------
+
 
 * challenge: sbom generation for c++ products; cdxgen - works, but reports too many, example stm32 project; then do some curation ... but is this not a source for failure because not fully automateable?
 
 
 * using fable 5 to rename a vairable ..
   * talk about how breaking the flow, like for creating a document is interrupting your work. so even when overkill i saometimes dictate directl to the agent, then tell him to create the document himself. less overhead.
+
+  * ran qwen3.5:3b locally ro fix the grammar errors. 270k tokens (8 min with battery saving) later we had a fixed version. good. But one api call for GPT3 three years ago could fix it in seconds .. way less energy consumption
