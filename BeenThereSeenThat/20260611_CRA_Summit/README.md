@@ -44,10 +44,36 @@
 
 * quesiton: do securitsy products have to have automatic updates? not gonna make sense; due to closed networks, etc. cra is risk management framework -> so docment in the risk assessment what the intendendd reasonable uses are; then done
   * asutomatic updates text: ".. if applicable .."
-  * so when you plug in a usb-stick, that the updates start: when reaosnable without more user interaction?
+  * so when you plug in a usb-stick, that the updates start: when reaosnable without more user interaction? in person via usb-stick could be fitting; but have to see how the regulators will view this
+  
+-------------
 
+## 3rd talk: BE solutions - icing on the cake - philippe dmitiry - fix the name TODO
+* different from ten years ago to now
+* 10y ago: hardware features differnetiated; software had to run along with it
+* today the situation has changed: dveloping produt has to be delveope, maintained and to be secured
+* major difference is the cber threats: 10y ago nobody cared because not important
+* buainess requirements versus techncial requirements:
+  * business req: fater time to market, ( major); reduced engineering effort; predictable lifecycle costs, reduced operational risk; compliance readiness
+  * technical requirements: secure OTA updates; containerized applications; fleet monitoring; reproducible deyploemnets, secure software supply chain; vulnerability manangement; long term maintenance
+* maintaining the product - is now a major requirement; over OTA; and when secure - even better
+* vukn. habve to be found, managed, ttracked and fixes to be deployed
+* so to fulfill the market needs you need to cover everything
+* more important: to have a platform for all those topics is more important than just a build system (like yocto)
+* 10 people inthe copmpany so limited team and ressources: so how to handle this? SBOm, OTA, vuln management, monitoring, containers, fleet management ... all already included
+* within one year to put the first version onto the market
 
+  
+-------------
 
+## 4th talk: amelia alder  - cybersecurity grc manager at knorr-bremse
+* talking about the product liability
+* running unsupported systems many be interpreted as operating below expeced safet levels (risk mangement, NIS2)
+* CRA suüport period ends IS NOT safe harbour
+* incident after support period finishes: then there could be also claims afterwards; five yers after the support period ends -> claimto econimic operator
+* product includes software (and digital manufacturing files)
+* pld - product liability directive says and aplies to products to products which are substantially modified when being put to service
+* defective it it lacks the saety eole are entitled to expect/required by law
 
 
 
