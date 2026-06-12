@@ -16,7 +16,7 @@ This webinar is suitable for tech professionals of all levels who want to improv
 
 ## challenges
 * development `siloing`
-* development tools: the confusign bridge between you and your users: maybe sometimes as gatekeeping tool between you and your customers
+* development tools: the confusing bridge between you and your users: maybe sometimes as gatekeeping tool between you and your customers
 * dead documentation
 
 ## consequences
@@ -24,13 +24,13 @@ This webinar is suitable for tech professionals of all levels who want to improv
 * bugs
 * harder to onboard people
 
-## best practives
-* singles sources of truth
+## best practices
+* single sources of truth
 * work where the work actually happens
-* do all components ft the same process?
+* do all components fit the same process?
 
 ## tools
 * slack + github is fire
-* github notifications for specific chnnels + teams
+* github notifications for specific channels + teams
 * overview of projects from a development PoV
 * gamifies development
