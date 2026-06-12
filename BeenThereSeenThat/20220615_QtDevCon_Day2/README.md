@@ -1,6 +1,6 @@
 # 20220615 Qt Dev Con - day 2
 
-## how i learnt to stop. eorrying and lobe Unicode - guiseppe d'angelo
+## how i learnt to stop worrying and love Unicode - guiseppe d'angelo
 * most important part about cpp is tooling, so use all the available tooling (clazy, clang-tidy,..) to make your code as safe as possible
 
 --------
@@ -13,7 +13,7 @@
 ### agenda
 * CI/CD basics
 * example gitlab ci/cd setup for qt project
-* introducing ci/cd in legac projects
+* introducing ci/cd in legacy projects
 
 * a story: former company, he worked as developer, no tests,  no conventions, no ci/cd, much testing by testers, but not ci/cd: but the company did not listen
   * when a new release for mac was prepared, so he struggled to do this; also create a release on friday; .. you know what follows
@@ -21,7 +21,7 @@
 * safety, save time and money
 
 ### what makes up CI/CD?
-* cotinuous integration: code should not be broken when it is integrated
+* continuous integration: code should not be broken when it is integrated
   * unit-tests, static checking, create current documentation
 * continuous delivery:
   * create installers, upload stuff, sign installers, ..
@@ -30,7 +30,7 @@
 ### Hygiene in work with CI/CD
 * despite having the pipeline, always run tests locally before pushing
 * even the best setup won't catch everything
-* aways optimize pipeline time
+* always optimize pipeline time
 ### ci/cd tools to choose
 * code hosting service
 * ci/cd solution
@@ -56,26 +56,26 @@
 ### gitlab ci/cd variables
 * TEAM_ID $ENV{TEAM_ID}
 * how to keep sensitive data secret?
-* protected variables, make yourself maintainr, only maintainer can push to protected branches and merge on them; so no one can extradit protected variables
+* protected variables, make yourself maintainer, only maintainer can push to protected branches and merge on them; so no one can extract protected variables
 
 * include templates from other repositories:  company wide branded template (which has some benefits)
 
 ### why ci/cd in legacy projects is challenging?
 * low code quality, huge number of little issues;
-* what to utomate first? wat to automatize first? compiling, packaging, then regression tests
+* what to automate first? what to automatize first? compiling, packaging, then regression tests
 
-ci/cd makes sw engineers more productive and happier; impact on business: either have a high-quality sotware code base which allows easy releases or have low quality code where it is hard to release
+ci/cd makes sw engineers more productive and happier; impact on business: either have a high-quality software code base which allows easy releases or have low quality code where it is hard to release
 * gitlab.com; kosadev; example ci gitlab .. (add from photo)
 
-* relesae for ios is done with fastlane: release app to appstore and google play immedietaly
-* google file based istribution for testing
+* release for ios is done with fastlane: release app to appstore and google play immediately
+* google file based distribution for testing
 * todo check what means CTA?
 
 --------
 
 ## QML Hot reload in practice - Alex Leutgöb (Felgo)
 * how to improve review meetings for remote teams
-* fueled by the story: pandemic changeed the way of working
+* fueled by the story: pandemic changed the way of working
 * Felgo SDK expands the Qt SDK
 * Felgo Live is their hot reload solution
 ### the virus and challenges
@@ -83,18 +83,18 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * more overhead of communication, but less knowledge transfer
 * felgo powerweek: people work on own projects, once every three months every employee comes to a single location, team-events in the afternoon/evening
   * more about spending time together and interaction
-### chalenge in leadership and management
+### challenge in leadership and management
 * keeping people motivated
 * sustaining team productivity
 * creating a hybrid work environment
-* challenge;: giving key feedback remotly:
+* challenge: giving key feedback remotely:
   * keep communication, foster learning and knowledge transfer
   * issue: missing conversational cues in written feedback
-    * like body language or tone f voice
-	* tipps:
+    * like body language or tone of voice
+	* tips:
 	  * use clear language: so no assumptions are made
 	  * use tools
-	  * use feedback processes: give feedback based pn Asana's do, try and consider approach
+	  * use feedback processes: give feedback based on Asana's do, try and consider approach
 	    * do: find a solution and take actions
 	    * try: explore and provide options
 	    * consider: thing through and respond
@@ -102,7 +102,7 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 
 ### summary
 * communication is hard if going fully remote
-* communication between deprtments even harder
+* communication between departments even harder
 * proper choice of tools can remove a lot of friction
 
 
@@ -110,10 +110,10 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * MQL: language, QtQuick: UI Framework
 * very mature (more than ten years in the Qt SDK)
 * QML is declarative, JSON-like syntax
-* node define a tree of objects for visual items andbehaviour, lgoic added via javascript
+* node define a tree of objects for visual items and behaviour, logic added via javascript
 
 * QML is reactive
-* propery bindings
+* property bindings
 
 ### Advantages of QML UIs
 * help for prototyping, better than a sheet of paper
@@ -123,14 +123,14 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 ### WML code reload
 * stop waiting for builds :rocket:
 * usual cycle is: code, save compile, deploy, test and repeat
-* compile and deploy can take huge amounts of time, but an interrutpion no case how long
-* if not just one device, but severalplatforms, then this scales!
+* compile and deploy can take huge amounts of time, but an interruption no matter how long
+* if not just one device, but several platforms, then this scales!
 * and this is also done multiple times per day
 * how to cut those two parts out to save time?
 
-* code reload: changes can e applied automatically to a running program, without build package and deploy steps
+* code reload: changes can be applied automatically to a running program, without build package and deploy steps
 * no manual restart required
-* QML preview is part of QtCreator and enables automtical reload: [example]; is reloaded after save
+* QML preview is part of QtCreator and enables automatic reload: [example]; is reloaded after save
   * but this just happens for the dialog (loader) when you really click the button; so the app-state gets lost on reload! this is a problem
 * what is hot reload? applies changes while keeping the current state
 
@@ -142,11 +142,11 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * hot reload should also work on this; model changes also do work instantly!
 * how does code reload work: c++ layer with qml engine does the heavy lifting
 
-* fast project with us automotive customer: several workflows tried: nightly bilds, felga cloud builds; 
-* split up team nto core development; ad review dev team
-* shipped first vrsion in two months; immediate polishing of things; reduced amount of follow-up-meetings; so we only had to work on bugs, not polishing
+* fast project with us automotive customer: several workflows tried: nightly builds, felgo cloud builds; 
+* split up team into core development; and review dev team
+* shipped first version in two months; immediate polishing of things; reduced amount of follow-up-meetings; so we only had to work on bugs, not polishing
 ### my questions
-* live ide is completey free (for students)
+* live ide is completely free (for students)
 * for custom sbc (like imx8) they have in the licensed version already some connector
 
 --------
@@ -157,15 +157,15 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * check his slides on qtinfo.dev/qtforpython_qtdevcon22
 
 * Python and Qt are roughly the same age
-* besides their mautrity, both stand out for a common goal: simplicity
-* but you can make simple languges complex as well
+* besides their maturity, both stand out for a common goal: simplicity
+* but you can make simple languages complex as well
 * idea is not to replace cpp with python
 * PyQt already exposed Qt-API to tech people
 * but they (Qt) wanted to do more
 * but we can not neglect the impact on fields like Data Science and AI; and the many conferences and organizations
 * popularity is the reason: many people start to jump into python and start to learn it
 * 2022 update for the popularity: ?
-* most of the same python has is because of popular modules, which rely on compiled languages like fortran, c, cpp, ..
+* most of the fame python has is because of popular modules, which rely on compiled languages like fortran, c, cpp, ..
   * numpy, pandas, pytorch, tensorflow
 * initial question was: why just be another binding? there are already some?
   * but casing, for instance, looks different due to casing
@@ -175,20 +175,20 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 ### project distribution and packaging
 * problem with the zipped-shipping, like customers grabbed the business intelligence
 * compatible with many freezers and compilers: PyInstaller; works for Qt5 and Linux, macOS and Windows
-* he also submitted a patch to make briefcase compatble with qt6
+* he also submitted a patch to make briefcase compatible with qt6
 * todo: tomorrow pyside (tomorrow the webinar)
-* not only vanilla python; PyPy recommended; on avergae 4.2 times faster than CPython; has JIT
+* not only vanilla python; PyPy recommended; on average 4.2 times faster than CPython; has JIT
   * a couple of minor releases behind
 * add more value for the user, instead of nitpicking "this is mine, that is yours"
 ### Shiboken - binding generator
 * used by PySide: shares large
-* libclang for parsing the headers; but codes explodes
-  * but how to handle things: like void? what a refernece? how to handle a pointer? -> you can't
+* libclang for parsing the headers; but code explodes
+  * but how to handle things: like void? what a reference? how to handle a pointer? -> you can't
 * how to use: cmake-file and code; then two shiboken files (bindings.h and the bindings.xml)
 * example: a scriptable application; exposed QApplication-interface, can be modified then by python "plugins" (used by autodesk maya)
 
 * QtScrypt: final goal: enable the use of python modules from c++
-* Qt 6.3 enables crosscompiling (again): so building for RAspberry Pi is working now
+* Qt 6.3 enables crosscompiling (again): so building for Raspberry Pi is working now
 * WebAssembly will be next big thing inside Python
 
 --------
@@ -198,7 +198,7 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * Figma integration now new; Design Viewer; Qt Creator
 * Qt's dedicated Design Tool
 * languages behind is QML; 2D and 3D (last one is commercial)
-* fast and iterative release approach: now once amonth; before every 3 months
+* fast and iterative release approach: now once a month; before every 3 months
 * Figma as design system tools for UI/UX; creating a structured design
 
 --------
@@ -210,10 +210,10 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * gcc versus clang: friendly rivalry
 * lots of forward includes is great
 * no difference between clang/gcc and ninja/make
-* in short: can't make general statements because it depences on code base, code complexity, optimization base
+* in short: can't make general statements because it depends on code base, code complexity, optimization base
 * profile the build time of your code base
 * therefore what other options are there: ninja instead of make?
-  * ninja focusses o speed
+  * ninja focusses on speed
   * one single file contains all the instructions: build.ninja; not meant to be human readable
   * compared to the normal recursive make-file-system this is simple
 * cmake supports ninja as generator: cmake -G Ninja ...
@@ -223,9 +223,9 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 ### ccache: caches previous compilations of compiler-units
 * available for gcc and clang
 * reuses the build-support
-* prefi compilation commands with `ccache`
+* prefix compilation commands with `ccache`
 * or masquerade ccache as your compiler
-* export path to ccache; has alead links to ccache
+* export path to ccache; has already links to ccache
 * or use cmake: compiler_launcher=ccache
 * ccache -s for statistics of the caching
 * switching branches: now it would rebuild the whole stuff, but with ccache will kick in
@@ -236,10 +236,10 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * headers are compiled into a special form, the next time the compiler sees this, it does not have to re-parse it
 * 20 year old feature
 * reduce compilation time: for instance including QWidget would result in 93k LOC!
-* each time a source file includes that header, ithas to be reparsed
+* each time a source file includes that header, it has to be reparsed
 
 * handcrafted versions can save even more time: is part of the KDToolBox: 
-* cmake 3.16 is required: tagrget_precompile_headers(ruqola_cora PUBLIC .. PRIVATE ..)
+* cmake 3.16 is required: target_precompile_headers(ruqola_cora PUBLIC .. PRIVATE ..)
 * can also be disabled for specific files
 
 * ccache for projects you actively work on
