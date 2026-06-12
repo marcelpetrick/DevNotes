@@ -15,8 +15,8 @@
 * "jfrog security research report 2023" - TODO read this
 
 ## How can JFrog help?
-* they analyze in anyp phase, validate and sign (tag) in order to prevent manipulation
-* checks on soruce and binary-level: because binary is more than just source
+* they analyze in any phase, validate and sign (tag) in order to prevent manipulation
+* checks on source and binary-level: because binary is more than just source
 * results are presented in a very easy manner
 * scanner will automatically determine combinations which prevent exploitation of a vulnerability
 * contextual analyzer in advanced packages
