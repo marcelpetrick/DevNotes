@@ -37,7 +37,7 @@
 ![](img09.png)
 * conclusion
 ![](img10.png)
-* C will prevail due to the interoperability .. there is for almost all languages an API to interace with C
+* C will prevail due to the interoperability .. there is for almost all languages an API to interface with C
 
 ### “Containerize your Qt embedded application” by Valter Minute, Toradex
 * containers are not virtual machines
