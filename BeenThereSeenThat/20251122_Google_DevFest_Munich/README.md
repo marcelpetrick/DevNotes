@@ -5,14 +5,14 @@ DevFest Munich 2025 SAP Labs Munich, Friedrich-Ludwig-Bauer-Straße 5, Sat 22 No
 DevFest Munich 2025 - Morning Workshop + Afternoon Main Stage Sessions 	
 ```
 
-* 100x youe capabilities to problem solve. 90s.yo a new app
+* 100x your capabilities to problem solve. 90s.yo a new app
 * build innovative applications..reach millions of people
-* ve as ambitious as you can possible be
+* be as ambitious as you can possibly be
 * safe secure scalable
 * emea.has.50 percent of the exoerts from all rwguons
 * 5 gdgs and 41 events and 1.9k attendees
 * you sre going to change 5y4 labdscape
-* code is kot gonna do itaelf
+* code is not gonna do itself
 * gemini: developer shall be mor eproductivem.remive friction..make life rasier. focus onyhihgs which matters most
 * nano banana..antigeavitz. gemini 3 pro
 * googlers get early access
@@ -42,13 +42,13 @@ DevFest Munich 2025 - Morning Workshop + Afternoon Main Stage Sessions
 * ¹ houer  very hot
 * so we will get a homework, if we dont make it
 * build with gemini: lets explore the agent development kit
-* what is the ADK? felxbile and mdular dev kit
-* he is a terminal person: browsr and terminal: two software for him
+* what is the ADK? flexible and modular dev kit
+* he is a terminal person: browser and terminal: two software for him
 * hardcore programming, fast
-* DK IS MODEL AGNOSTIC:for developing and deplyong aiagents
-* it is about dveloepr experience: simple. simple list in python
-* lot of prompt engineering: cimple for dvelopers
-* model agnostic, deplyoment agnostic, compatible with other frameworks
+* DK IS MODEL AGNOSTIC: for developing and deploying ai agents
+* it is about developer experience: simple. simple list in python
+* lot of prompt engineering: simple for developers
+* model agnostic, deployment agnostic, compatible with other frameworks
   * so just use whatever you want
   * in the end we have a docker container: can go to any platform as a service
   * langchain: importing tools also possible
@@ -81,7 +81,7 @@ Followed to run with local environment:
 uv venv && source .venv/bin/activate && uv sync
 adk web --port 8000  # Web UI at http://localhost:8000
 ```
-* open then 127.0.0.1:8000 wtgh
+* open then 127.0.0.1:8000
 
 
 of course, this is dangerous, but i will invalidate it later - already shortened.
@@ -97,27 +97,27 @@ also try p1 and so on..
 
 * now go to carneiro.dev/track2
   * this resolves to https://codelabs.developers.google.com/codelabs/cloud-run/use-mcp-server-on-cloud-run-with-an-adk-agent#2
-* wqhy to deploy to cloud run?
-* creatr an agent workflow? tab 5
+* why to deploy to cloud run?
+* create an agent workflow? tab 5
   * deploy your own mcp server? (not have done this - because another lab)
   * goo.gle/aaiwcr-2 - for a public mcp server
   PROJECT_NUMBER=90783857331
 ----
 
-* P1: angety.py to check first: with the prompt
-* p5: router agents: way different and more complex; tasks requests delegation: so a first agent is created; then a foodie-agent; specialist 3 is an agent for eevents ads guide;
+* P1: agent.py to check first: with the prompt
+* p5: router agents: way different and more complex; tasks requests delegation: so a first agent is created; then a foodie-agent; specialist 3 is an agent for events ads guide;
 * wrap the agents as tools: 
 
 * google cloud skills: carneiro.dev/skills - 
-* go to https://www.skills.google/ - credits based courses; pay theorethically
+* go to https://www.skills.google/ - credits based courses; pay theoretically
 
 -----
-* feancisco riveros - empowering your vusiness with ai agents, pwc, emea giigle cloud architect
+* francisco riveros - empowering your business with ai agents, pwc, emea google cloud architect
 * welcome to the age tic era, what is ana eg tz ai agents in your wnteperisen dicover, build and eploy agents, ressoruxe and next ateps
 * we are in an era of ai innovation and adoption
 * multimodality, and agentic workflows
-* ai in the knwiledge frontier..how to ineract with infoemation..break down knowledge silos. get insights
-* ai agents trandform how organization operate across indsutries
+* ai in the knowledge frontier..how to interact with information..break down knowledge silos. get insights
+* ai agents transform how organizations operate across industries
 *   * adoption lags: only 17 percent have embedded agents. where clear benefits
     * cost savings, faster decisions, better expe7rnces
     * prolblem are the people un technand trust: 50perxent aof ezecutives say their operations will be unregnonizable un 2 years
@@ -158,9 +158,9 @@ also try p1 and so on..
 * run you development with
 * once your agent is deplyed. you can figure out how to run this locally or with google cloud run. but aelf managed also possible. socker host  or vertex ai agent engine (fully managed).
 * from hype to value
-* girhub.com/google/afk-samples. deep reaearch good point
+* github.com/google/adk-samples. deep research good point
 * also: agent starter pack
-* make it easy to rpdoutionize your agent
+* make it easy to productionize your agent
 * cli t9ol to get a project up and running
 * 
 agent twsteub foe the weather forecast
@@ -168,15 +168,15 @@ agent twsteub foe the weather forecast
 -------
 
 ## jeremy wilken, ai around the world. nvidia and gc0
-* academicallz trained futurist. disclaimer alls taemrnts are his own..does jot represent his employeer
-* diffenrent eegiona aieht own standards. mains 3levtricity by region..different standards and outlets
-* how does innovation change and evelop
-* second issue: modems, all vonnect you to the same thing
+* academically trained futurist. disclaimer all statements are his own..does not represent his employer
+* different regions with own standards. mains electricity by region..different standards and outlets
+* how does innovation change and evolve
+* second issue: modems, all connect you to the same thing
 * why this history lesson? innovations have patterns?
-* innocations build on orevious iterations
-* afoption of innocation takes time
+* innovations build on previous iterations
+* adoption of innovation takes time
 * innovations lead to innovations
-* a8 had alo unique characteristis. interctivity. personalization, svalez evolving. very unteractive withhumans
+* ai had also unique characteristics. interactivity. personalization, scalable, evolving. very interactive with humans
 * futures triangle. pull of the future, qeight of the oadyz push of the present
 * duturesplatform.cin/blog/how can we oreicct plausible future
 * national language technology platform: 5 european coubtries connecte and byild localized models
@@ -197,62 +197,62 @@ agent twsteub foe the weather forecast
 
 ## segun famisa - staff engineer at mozilla
 * getting started with android xr
-* furefox for android
-* ehat is it and why should we use it? galaxy xr from google..androids pick on mixed reality space
-* from history of mobile devices. adnfoid broguht computing power to most of the peoplem.not able to afford an iphone or mac..found android phone. and then get etuff done
-* once the cost of manufacturing goes down: way more poularity for thise devices
+* firefox for android
+* what is it and why should we use it? galaxy xr from google..androids pick on mixed reality space
+* from history of mobile devices. android brought computing power to most of the people, not able to afford an iphone or mac..found android phone. and then get stuff done
+* once the cost of manufacturing goes down: way more popularity for those devices
 * xr for extended reality
-* er is more than ar..also feedbakc of the augnented rality..mix of virtual and real world
-* concepts: subspaces or subsets of spcae where you can ppave 3d items ir 2d ui elements
-* cobcept: spatial panels
+* xr is more than ar..also feedback of the augmented reality..mix of virtual and real world
+* concepts: subspaces or subsets of space where you can place 3d items or 2d ui elements
+* concept: spatial panels
 * orbiters as floating elements
-* levels of support: baiv support does work by default, large acreen apps will be rendered like large screens
-* use jetpack conpoae to power your app
-* easy checks if someyhing has spatialconfigustion: font check for device clases. check for feautres
+* levels of support: basic support does work by default, large screen apps will be rendered like large screens
+* use jetpack compose to power your app
+* easy checks if something has spatial configuration: font check for device classes. check for features
 * androiduyf as test app for lots of google features
 
 -------
 
-## christian kuhn - head if innovation 
+## christian kuhn - head of innovation 
 * from cars to catwalks
-* explirer mindset..explore the wolrld, technolgy and also myself 
-* bring entrepreneurially mindset to big corporaations
-* first bubble: whrn engineering meets reality: find some learnings
-  * idea to revolutionize the kady mile logistics
-  * real life wall hit. simulation steps out to stuttgart. thwt teat crashed the project.
-  * innocationndoes not fail because of bad technologies
+* explorer mindset..explore the world, technology and also myself 
+* bring entrepreneurial mindset to big corporations
+* first bubble: when engineering meets reality: find some learnings
+  * idea to revolutionize the last mile logistics
+  * real life wall hit. simulation steps out to stuttgart. that test crashed the project.
+  * innovation does not fail because of bad technologies
   * it fails because of
-  * without solving a rwal peovlem..innovation musses the mark
-  * overengineerinf a non problem
-  * ferris wheel for transportation did not work..with presorting..wrong addumptions
+  * without solving a real problem..innovation misses the mark
+  * overengineering a non problem
+  * ferris wheel for transportation did not work..with presorting..wrong assumptions
   * 2016 ai powered cargo camera
   * innovation is not about defending your first idea
-  * it is about eilling to kill your favorite idea the moment feeedbakc makes it wrong
- * why do uou go from automative to fadhion?
-   * fashion is the fastest test lab in earth
+  * it is about being willing to kill your favorite idea the moment feedback makes it wrong
+ * why do you go from automotive to fashion?
+   * fashion is the fastest test lab on earth
    * it is not what the product does, but what it means
-   * jacket which has nfc chip to handle mastervard and ski pass
-   * fashion prefrence id..which is carried tover to llm and from one place to another
-   * ai acccerlates everything..the inly safeguard is clariy. the challenge is not yo code a solution..but yo get yo knwo the roght problem you enat to solve
-   * ai blurs induatry bou daries
+   * jacket which has nfc chip to handle mastercard and ski pass
+   * fashion preference id..which is carried over to llm and from one place to another
+   * ai accelerates everything..the only safeguard is clarity. the challenge is not to code a solution..but to get to know the right problem you want to solve
+   * ai blurs industry boundaries
    * innovation is about moving people
-   * innvoation should not be a feature. it shall be something to move people
+   * innovation should not be a feature. it shall be something to move people
 
 --------
 
 # johanne pirker - tum and tu graz..how ai is shaping our games
 
-* strams at twitch: to talk about indiy games and computer science
+* streams at twitch: to talk about indie games and computer science
 * demis hassabis: alphafold googles deepmind chief who designed games received the nobel prize last year
-* coming close to: making ai mobe closer to avtire like in movies
+* coming close to: making ai move closer to active like in movies
 * illusion of freedom..delusion of choices? for games
-* free world strtegies..can you go wherever you want to do?
-* responsive ai and adaptive: but does not unvovle real learning..limited awt of choices
-* finely tunung of the level of artificial stufpidity
+* free world strategies..can you go wherever you want to do?
+* responsive ai and adaptive: but does not involve real learning..limited set of choices
+* finely tuning of the level of artificial stupidity
 * graph with the categorization of games
-* balancing: infinite shots..it is a shooter. eith just rheee shots it will e ba survivelal hame..only one oarameter chnaged
-* monte carlo simuation to ttes tdifferent aspects of this realm
-* evaluating llms throguh communiction games: endless stories
+* balancing: infinite shots..it is a shooter. with just three shots it will be a survival game..only one parameter changed
+* monte carlo simulation to test different aspects of this realm
+* evaluating llms through communication games: endless stories
 * oasis-ai.org predictive system. not a single line of code
 * 
 --------------
