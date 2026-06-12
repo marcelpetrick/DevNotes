@@ -19,7 +19,7 @@
 * big names: openai, stability.ai - the only one open-source, (google) imagen, midjourney
 * what is the expensive process: step by step? (check the photos)
 
-### interesting components and areas emerging from stabled Diffusion
+### interesting components and areas emerging from stable Diffusion
 * text prompting/engineering
 * training/fine-tuning for new concepts
 * controlled/desired output
@@ -41,12 +41,12 @@
 * ControlNet as additional instance as neural network structure to control diffusion models by adding extra conditions: noise style, positions, ..
 * in other models you have almost no control over the details, with ControlNet you can!
 
-* TPODO: got to huggingface.com/diffusers and try the stuff
+* TODO: got to huggingface.com/diffusers and try the stuff
 * stable diffusion web UI: by AUTOMATIC!!! .. try this as well
 * also check the other good prompts for good stable diffusion prompts
 
 ## final thoughts on the future of AI
-* although the models are promising, they are still limited and far for human output
+* although the models are promising, they are still limited and far from human output
 * limits to fine-tuning, training and running it on local devices
 * not all content types has similar outputs like for text or images, but for audio and video it is lagging a bit behind
 * but there are promising outlooks. fundamental shift in the concept of learning creativity for younger generations
@@ -74,7 +74,7 @@
 * that ai can also create another AI to solve its problems
   * its like having a large company working for you
 * how does it work?
-* initialize goals -> task creation -> priorization -> action -> feedback -> done (or loop from feedback to task creation..)
+* initialize goals -> task creation -> prioritization -> action -> feedback -> done (or loop from feedback to task creation..)
 * example of autonomous agents: hyperwrite, huggingGPT, auto-gpt4
 ### example hyperwrite
 * give task, like order pizza, fulfills it ..
@@ -108,7 +108,7 @@
 * AI is an exoskeleton - be responsible
 * don't wait. how long before a society change?
   * most people don't grasp the implications
-  * agentGTP: agentgpt.reworked.ai there is also a API key? working?
+  * agentGPT: agentgpt.reworked.ai there is also a API key? working?
   * also referenced autoGPT on github ...
 * no limit to how many agents can run at once (in a VM, etc.) - just the billing is the limit
 
