@@ -57,7 +57,7 @@
 * Grund der Doku: Accountability - das ist der Zweck
 * Wenn man die Doku automatisch erstellen kann, macht es dann noch Sinn, dass die Doku existiert
 * LLMs extrem gut im Vergleich bei standardisierten Tests; im ersten oder zweiten Perzentil
-  * Kritik: Wel unklar ist, wie viele Fragen man für das Training verwendet hat
+  * Kritik: Weil unklar ist, wie viele Fragen man für das Training verwendet hat
 * github.com/LudwigStumpp/llm-leaderboard <-- todo: check this
 * Ähnliche Ergebnisse auch für Bayern: Schulabitur oder auch Bachelorvorlesungen an der Uni
 
@@ -115,7 +115,7 @@
 * Wie schafft man in der gleichen Zeit mehr? Und auch sicherer und qualitativ ansprechender
 * Vergleich zu Lochkarten vor über 50 Jahren versus aktuelle IDEs mit HoDebugging, IntelliSense, ..
 * Why Copilot, what you need, example..
-* Effizienter, mehr im Flow, produktiver .. sagen Entwickler über ihrer Erfahrungen
+* Effizienter, mehr im Flow, produktiver .. sagen Entwickler über ihre Erfahrungen
 * Aufgabe: Webserver in Javascript zu bauen
   * Nochmal das 95 Entwickler-Beispiel
 * Copilot Seat: Free for OpenSource (Maintainer); Business Variante hat Zugriff auf mehr Preview-Features
