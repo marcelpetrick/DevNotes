@@ -10,7 +10,7 @@
 
 * Ted Neward's Architecture Kata Rules (see image 03.png)
 
-* container diagram: also shows the technoklogy decisions, how do the containers talk with each other?
+* container diagram: also shows the technology decisions, how do the containers talk with each other?
 * up to 12.png - the c4 model itself
 
 ## phase 1: requirements & quality goals
@@ -26,7 +26,7 @@
 ### our goals
 * portability (web solution for browser and phone, can be used also for guests in the lobby, also for telephone (if the hotel-workers use it))
 * Usability
-* Maintanability
+* Maintainability
 --> our PO Philip Schmitt agrees to those goals
 
 ### working on the High Level Architecture
