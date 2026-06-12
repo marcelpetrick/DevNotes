@@ -1,5 +1,5 @@
 # 20260628 - Medical Equipment by Design: Building Secure, Safe and High‑Performance Systems with NXP's i.MX 9 Series Applications Processors and QNX
-* webinar; not sure if life or canned ..
+* webinar; not sure if live or canned ..
 
 ```
 Hospital medical equipment is expected to deliver continuous uptime, deterministic performance, and uncompromising safety and security—all while meeting strict regulatory requirements. Achieving this level of reliability starts with the right system architecture.
@@ -14,7 +14,7 @@ What You Will Learn
     How architectural design choices can simplify and accelerate functional safety and regulatory compliance in medical devices
 ```
 
-* speakers: Daniel Lodu QNX , Sara Monteiro NXP, Rohitaswa Bhattacharya NPX
+* speakers: Daniel Lodu QNX, Sara Monteiro NXP, Rohitaswa Bhattacharya NXP
 ```
 Daniel Lodu
 Senior Product Marketing Manager, QNX
