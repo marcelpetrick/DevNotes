@@ -28,17 +28,17 @@ Kommunikation hat vier Säulen:
 * falls notwendig: auch Raum einnehmen; sich größer machen (kann man auch nutzen)
 * Körpersprache für die eigene Wirkung nutzen
 
-## Menschen lese
+## Menschen lesen
 * Tipp:
 
 * Überleben
   * Gefahr und Unbehagen verhindern
   * Sicherheit und Behagen suchen: die Behagens-Waage
 * Beruhigungsgesten: stammen aus der Kindheit, sollen uns beruhigen (Endorphine)
-  * sind Zeichen für emotionalem Stress (Verlegenheit, Scham, Angst); auch Langeweile; Männer spielen mit dem Bart herum; Frauen tendenziell anders; auch Nacken massieren, Lippen lecken, über das Bein streichen
+  * sind Zeichen für emotionalen Stress (Verlegenheit, Scham, Angst); auch Langeweile; Männer spielen mit dem Bart herum; Frauen tendenziell anders; auch Nacken massieren, Lippen lecken, über das Bein streichen
   * es gibt auch statt persönlichen auch Objektgesten (Handy checken, mit Wasserglas spielen, Stift drücken, ..)
   
 * innerer Krieger: eine Person, die sich selber erobert
 * Wirkung hat viel mit Selbstbewusstsein zu tun: jeder hat Pokerchips und um seine Idee loszuwerden, muss man fünf davon in den Pot werfen, keine Chips aus dem Fenster werfen, wenn man negativ zu sich selber spricht; lieber sich innerlich selber loben und Erfolge herausarbeiten und sich so einen großen Stack an Chips aufzubauen
 
-* initial kann es aufgesetzt wirken, aber das liegt daran, dass es etwas neu ist, was man lernt
+* initial kann es aufgesetzt wirken, aber das liegt daran, dass es etwas Neues ist, was man lernt
