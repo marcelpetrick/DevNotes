@@ -1,6 +1,6 @@
 # 20230509 aicamp workshop LLM Ops and AI agents
 * host Bindu Reddy
-* concerns of customers of sending their data to openAi: because it could be used for training - what if the next version hallucinates your IP?
+* concerns of customers of sending their data to OpenAI: because it could be used for training - what if the next version hallucinates your IP?
 ![](img00.png)
 ![](img01.png)
 ![](img02.png)
@@ -20,7 +20,7 @@
 * to run those agents, you need an LLM-platform - the engine: without that engine nothing works
 ![](img11.png)
 ![](img12.png)
-* need some capabilities to run those agents bklocks -> chain blocks to create AI agents -> deployment & monitoring -> AI agent
+* need some capabilities to run those agents blocks -> chain blocks to create AI agents -> deployment & monitoring -> AI agent
 ![](img13.png)
 ![](img14.png)
 * data scientists are using AI to build AI
