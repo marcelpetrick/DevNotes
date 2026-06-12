@@ -19,7 +19,7 @@ Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in v
 * wirklich wirksame Kommunikation ist der übergeordnete Titel für dieses Meetup
 * auf erwünschte Zukunft fokussieren: nicht troubled past or dreaded future
 ![](img01.png)
-* nicht problelm-phobisch sein, sondern Problem wertschätzen und sich auf Lösung konzentrieren
+* nicht problem-phobisch sein, sondern Problem wertschätzen und sich auf Lösung konzentrieren
 * Was ist das Problem? Was ist schief gelaufen? Was kann in Zukunft schief laufen?
 * *in Praxis hängen Problem und Lösung nicht immer direkt zusammen
 * Wozu (Frage): Ich trinke gerne Kaffee - Durst löschen/Koffein hilft beim Wachwerden/Morgenroutine
@@ -27,7 +27,7 @@ Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in v
  * Bedürfnisse, welche hinter dem Ziel stehen, erfragen
  ![](img02.png)
 * in der Haltung des "Nicht-Wissens" bleiben, damit man nicht übersieht dass eine Lösung vielleicht nicht 100% korrekt war
-* User sind ei Experten für Ihre Situation! Das Produktteam ist Experte für die (technische) Umsetzung
+* User sind die Experten für Ihre Situation! Das Produktteam ist Experte für die (technische) Umsetzung
   als PO coaching-like die erwünschte Zukunft herausfinden
    * Gegensatz: Bedürfnisse verstehen versus Probleme verstehen
 * "never put you but(t) in the face of an angry person" Marshal Rosenberg
@@ -40,7 +40,7 @@ Alexander A. Giurca, BA ist Unternehmensberater und Organisationsentwickler in v
   Ü Haltung des Nicht-Wissens - um neugierig zu bleiben
   * Widerstände als schlecht formulierte Bitten sehen: nicht gut genug ausgedrückt (Veronika Jungwirth)
 ![](img03.png)
-* Stichwort "future jump"; aus Coachinecke
+* Stichwort "future jump"; aus Coaching-Ecke
 * * als Product Owner führen wir viele Coaching-like Konversationen
 
 * Coaching ist freiwillig
