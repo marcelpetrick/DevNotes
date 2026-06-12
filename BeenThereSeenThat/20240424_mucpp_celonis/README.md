@@ -57,37 +57,37 @@ Sponsor: Celonis (http://celonis.com/de/legal/)
 
 ```
 
-## intro about CElonis
+## intro about Celonis
 * structured process mining
 * process intelligence graph
 * process mining engine: in memory OLAP database; for read only, uses PQL (process query language) to power process mining; a cloud based database in a modern SaaS eco system with modern C++ at its core
-* teams around this process mining engine: first: find all depedencies of the ; file itself is also a dependency
-* alsohas load balancing on he client side
+* teams around this process mining engine: first: find all dependencies of the ; file itself is also a dependency
+* also has load balancing on the client side
 * uses the StateFile
 *
   *  PQL: bringing the semantics to life
-  * orchestrationsquad
-  *altform team: setting
+  * orchestration squad
+  * altform team: setting
 
 
-  ## homccc - traffic efficient distributed c/c+ compiler
+  ## homcc - traffic efficient distributed c/c++ compiler
   * oliver layer, SE
   simon pfirsich, SE
   willi mann, principal software engineer
 
 simon pirsch, not
 
-compiling a c++ codebase on your loal machine can take long
-* offload te compilation to remote machines
-client uploads the source files, server compiles them and retrun resulted
-some dsitributed comilers: distcc, goma, icecc
+compiling a c++ codebase on your local machine can take long
+* offload the compilation to remote machines
+client uploads the source files, server compiles them and return result
+some distributed compilers: distcc, goma, icecc
 * what is homcc and why do we need it?
 *
-* willi now: * why was it trigered: 2019 everthing worked fine, but in 2020 the pandemie spread and the cmpile times went up, because their internet connection ws not good
+* willi now: * why was it triggered: 2019 everything worked fine, but in 2020 the pandemic spread and the compile times went up, because their internet connection was not good
 ** before distcc without pump mode, means preprocess on the client
-* with pump mode: preprocess on the server: doesnt work wth some boost headers, no caching
+* with pump mode: preprocess on the server: doesn't work with some boost headers, no caching
 * work from home due to covid
-* limited uplink bandwith at home (10 Mbps)
+* limited uplink bandwidth at home (10 Mbps)
 * distcc becomes your bottleneck: compilation takes longer than building locally
 * main problem: repeated transmission of the same files
 * has github repo: work from home friendly distcc replacement
@@ -96,58 +96,58 @@ developed in less than a year
 compiler wrapper
 * $ homcc --verbose +g++ -std=c++23 main.cpp
 * developed for SaolaDB needs, developed for celonis
-*  first: find all depedencies of the ; file itself is also a dependency
-* this means that each file is transmitted separately, not a list of iles
+*  first: find all dependencies of the ; file itself is also a dependency
+* this means that each file is transmitted separately, not a list of files
 * challenge: recreate the environment like on the local setup
-* recreationof file paths based on client environment
+* recreation of file paths based on client environment
 * one folder per ongoing compilation
 * cache directory contains cached dependencies, LRU eviction of dependencies
 * potential issues: different version (compiler, libraries), debug information, special macros (such as __FILE__)
 * * but modern compilers support path rewriting: -ffile-prefix-map={old_path_pattern}={new pattern)
-* mainly to faciliate reproducible builds
+* mainly to facilitate reproducible builds
 
 * learnings: type hints are awesome for python: dict[str, str]
   * earlier error prevention + debugging
-  * tooling is crucial: pytest, lyint, mypy, black
+  * tooling is crucial: pytest, linting, mypy, black
 
 ## guy davidson: the main talk: file io: past, present and future
 * mean life time 37 years on earth, but he programmed for more than 37 years in cpp
-*engineers not known as most sociable people
-* BSI IST/5: brtish standard institute
-  * he is the ing of programming
+* engineers not known as most sociable people
+* BSI IST/5: British standard institute
+  * he is the king of programming
   * author of Beautiful C++
 
 ### why do we have files?
 * sub-megabyte days
 * more RAM, more disk capacity
-* moving data nto and out of RAM
+* moving data into and out of RAM
 * file IO in C++ from fstream to the OS SDK
-* the 64-bit adress space
-* why do we have tfiles: organize data; persistency;
-* kids dont believe in those days
-* otepad on windows as example: not fitting into the 1 kb of the ZX81
-* Z80 assembly first: find all depedencies of the ; file itself is also a dependency
-* push the envelope: assemly to machine code, then point the cpu to start
-* then there was one file on the caseette tape: one bitstream
-* Atar ST with 3,5" floppy: the 3d printed save symbol
+* the 64-bit address space
+* why do we have files: organize data; persistency;
+* kids don't believe in those days
+* notepad on windows as example: not fitting into the 1 kb of the ZX81
+* Z80 assembly first: find all dependencies of the ; file itself is also a dependency
+* push the envelope: assembly to machine code, then point the cpu to start
+* then there was one file on the cassette tape: one bitstream
+* Atari ST with 3,5" floppy: the 3d printed save symbol
 * files as way to order data
-* bought her a atari st for her brithday; but divorced in 2010; not because of this
+* bought her an atari st for her birthday; but divorced in 2010; not because of this
 * Mondrian: composition 2, 1930
 * his first hard disk: 44 MB hard disk
-* FAT16 - MSDS compatible
-* FAT developed in 1977, file alocation table; bi tree of data
-* get std-fileystem into cpp
-* standardizing is quite tricky: find an idea and talk with lots of people; then imple,ent it
+* FAT16 - MSDOS compatible
+* FAT developed in 1977, file allocation table; binary tree of data
+* get std-filesystem into cpp
+* standardizing is quite tricky: find an idea and talk with lots of people; then implement it
 * different from proof of concept:
-* have great idea, implement it, socialize it (publish on github and count the stars), proose it, travel the world
-* TODO use std::filesystem for the imaeviewer?
-* ReiserFS: authro incarcerated
+* have great idea, implement it, socialize it (publish on github and count the stars), propose it, travel the world
+* TODO use std::filesystem for the imageviewer?
+* ReiserFS: author incarcerated
 * ap -> system call -> linux -> VFS -> ext3, ext4, btrfs, reiserFS, XFS
-* abstraction: the true superpower of C++ (2022), also gyu davidson
-* von neuman bottleneck: serial architecures get slower with increased speed
+* abstraction: the true superpower of C++ (2022), also guy davidson
+* von neumann bottleneck: serial architectures get slower with increased speed
 * c++ stream library was a product of the 80s
 * 2038 epoch-alypse
-* homcc`, the improve distributed compiler
+* homcc`, the improved distributed compiler
 * << chevron - name them by what they are and not what they do
-* operator() - prentehsis; operator[] brackets
+* operator() - parenthesis; operator[] brackets
 * why does c++ not offer something to move the whole file content into the RAM?
