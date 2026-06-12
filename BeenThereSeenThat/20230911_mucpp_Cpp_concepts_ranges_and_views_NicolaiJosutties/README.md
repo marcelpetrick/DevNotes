@@ -74,7 +74,7 @@ Sponsor: Brainlab (brainlab.com)
 
 #### Views
 *  const auto& should be replaced with auto&& (forwarding auto)
-* using a filterview can create a problem, because begin() is cached: which leads to unexpected behaviour: cpp-committee declared this also as undefined behaviour if the resulting value does not satisfy the filter predicate -> "explicite statement"
+* using a filterview can create a problem, because begin() is cached: which leads to unexpected behaviour: cpp-committee declared this also as undefined behaviour if the resulting value does not satisfy the filter predicate -> "explicit statement"
   * std-lib: fucks the stuff up
  ```
  for (auto& m: monsters | std::views::filter(isDead)) {
