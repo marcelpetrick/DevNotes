@@ -10,8 +10,8 @@ Oliver ist Enterprise Agile Consultant, Flight Levels Coach, Business Agility an
 ```
 
 ## Agenda
-* Oliver Pernener, Impulsvortrag, miro, dann Q&A
-  * Entreprise Agile Coach
+* Oliver Perner, Impulsvortrag, miro, dann Q&A
+  * Enterprise Agile Coach
 ![](img00.png)
 ## Soll das Business agil sein?
 ![](img01.png)
@@ -23,17 +23,17 @@ Oliver ist Enterprise Agile Consultant, Flight Levels Coach, Business Agility an
 ![](img04.png)
 * Hypothese: viele Unternehmen sind erfolgreich, weil sie Glück hatten
 * Risiken für das Geschäft:
-*   *ewige Entwicklungszeiten, zu geringe Ressourcen, Kunde akzeoptiert Produkt nicht, Marketing funktioniert nicht, ..
+*   *ewige Entwicklungszeiten, zu geringe Ressourcen, Kunde akzeptiert Produkt nicht, Marketing funktioniert nicht, ..
 ![](img05.png)
 ![](img06.png)
-* Unternehmen wandeln sich von unternehmerische Denkweise zu Manageder-Denkweise in ihrem Verlauf
+* Unternehmen wandeln sich von unternehmerische Denkweise zu Manager-Denkweise in ihrem Verlauf
 ![](img07.png)
 * Business Portfolio Map
 ![](img08.png)
 * Fortune 1000 Firm Replacement Rate: steigt an (früher 30%, dann 70% in 2003-2013, what now?)
 * passende Pivotierung für Startups
 * Innovationsprozesse brauchen bestimmte Rahmenbedingungen
-* Beispiel Bosch: _250_ 100k¼ innovationsprojekt um einen 1 milliarden business casse hervorzubringen?
+* Beispiel Bosch: _250_ 100k¼ innovationsprojekt um einen 1 milliarden business case hervorzubringen?
   * 6 von 10 Investitionen verlieren Geld, 3 von 10 liefern wenig Gewinn, 4 von 1000 sind Homeruns (Unicorns)
   * Input 850 Businessideen: 
 ![](img09.png)
