@@ -173,7 +173,7 @@
 ![](img11.png)
 * Neurotransmitter-Cocktail wird ausgeschüttet
   * 30 km Mammutmarsch! schreibt eine Dame
-* Deep Work – Ken Newport <-- check: „Cal Newport“
+* Deep Work – Cal Newport
 ![](img12.png)
 ![](img13.png)
 * Körper und Geist finden zusammen: struggle; dann release; 3. flow; 4. recovery
