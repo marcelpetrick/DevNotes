@@ -43,7 +43,7 @@
 * simple example: ![](img14.png)
   * only one line of code will already achieve good performance
   
-* automatic hyperparamter-optimization:
+* automatic hyperparameter-optimization:
 ![](img15.png)
 ![](img16.png)
 ![](img17.png)
@@ -69,7 +69,7 @@
 ![](img24.png)
 * transformers perform good; for NLP
 * still not clear what is the best performing one; which is a stable one?
-* that is wanted to b avoided
+* that is wanted to be avoided
 
 + autogluon (is from Amazon) is a bit more * auto.gluon.ai/stable
 ![](img25.png)
@@ -82,7 +82,7 @@
 * when searching for HP:
 
 * don't train on the whole dataset
-* don't train all epochs: dependin on problem size and input-size it can take to 2 hours to two months; don't want to use the whole budget; just use a small part of the bduget to get an idea what to do and get
+* don't train all epochs: depending on problem size and input-size it can take 2 hours to two months; don't want to use the whole budget; just use a small part of the budget to get an idea what to do and get
  ![](img26.png)
 
 * batch processing: train models
