@@ -3,20 +3,20 @@
 ## agenda
 introduction to rust
 safety feature of rust language
-mmemory mangen in rust
+memory management in rust
 * the rust ecosystem
 
 
 * is a modern systems programming language
-* focus on safety, speed and cncurrency
+* focus on safety, speed and concurrency
 * created by Mozilla: in 2015
 * is an open source language
-* compiled language just liek c/c++, Ada, ..
+* compiled language just like c/c++, Ada, ..
   * type rich with strong static checks (at compile time)
-* spend a lot of time to getting your pgoram to compile
-* once it runs, you hve a cast iron guaranteee it is memeory safe
+* spend a lot of time to getting your program to compile
+* once it runs, you have a cast iron guarantee it is memory safe
 * no runtime or garbage collection
-  * with performance and memeory safety guarantees
+  * with performance and memory safety guarantees
 * enforcing some tight rules enforced by the compiler
 * C is over 50 years old and has hardly changed since its creation date
 * Rust is a modern language with all the niceties that come with it
@@ -29,42 +29,42 @@ mmemory mangen in rust
 * type inference - leave it up to the compiler to work out the type based on the context
 * really nice pattern matching
 ![](img02.png)
-* intrinsic memeory safety: static code analysis
-* variables mus t have a value before we can use them
+* intrinsic memory safety: static code analysis
+* variables must have a value before we can use them
 * initial example won't work, compiler prevents you and tells you what to do
-* checks are done during compiel time or run-time, if necessary
+* checks are done during compile time or run-time, if necessary
  * runtime-access of index 3 with array with three elements results in a `panic`
  * array fixed; vector can grow and shrink during runtime
-* varibles immmutabe by default
+* variables immutable by default
 ![](img03.png)
 * intrinsic safety: default immutability
-* use the keyword m̀ut`to make them mutable
-* immmutability is propagated thought the code's hierarchy
+* use the keyword `mut` to make them mutable
+* immutability is propagated through the code's hierarchy
 ![](img04.png)
 * there are no NULL pointers in Rust: any references are guaranteed to be non Null
 * no hidden states
 * fine grained memory control: heap versus stack
 * variables have an intrinsic memory location
 ![](img05.png)
-* in system languges you want to control where to put the memory: heap or stack
-* Box-type allows to create heap.-allocationed ressources, like malloc or new in C/C++
+* in system languages you want to control where to put the memory: heap or stack
+* Box-type allows to create heap-allocated resources, like malloc or new in C/C++
 * fine grained memory control: custom allocators
 ![](img06.png)
 * when the variable gets out of scope, the allocated variable gets reclaimed
 * there is a standard memory allocator, which is efficient for large machines
 * but what if you want to run it on a small micro controller?
-* lol: the resut's club rules:
+* lol: the rust's club rules:
 ![](img07.png)
 * you have to follow the rules else it won't compile
-* each value in memory has an ownner
+* each value in memory has an owner
 * only one owner
-* the value gets dropped if it's owner goes out of scope
+* the value gets dropped if its owner goes out of scope
 ![](img08.png)
-* non trivially copiabe types are moved
-* their origininal owner remains on the stack un-initialized
+* non trivially copyable types are moved
+* their original owner remains on the stack un-initialized
 ![](img09.png)
 * ownership is transferred through argument passing
-* pragmatic solutions are availalbe (cloning, shadowing)
+* pragmatic solutions are available (cloning, shadowing)
 * intrinsic safety: borrowing
 ![](img10.png)
 
@@ -75,7 +75,7 @@ mmemory mangen in rust
 * modules are either physical files or logical Rust constructs
 * module with submodule
 
-## embedd unit tests directy into code
+## embed unit tests directly into code
 ![](img12.png)
 ![](img13.png)
 ## rust ecosystem
