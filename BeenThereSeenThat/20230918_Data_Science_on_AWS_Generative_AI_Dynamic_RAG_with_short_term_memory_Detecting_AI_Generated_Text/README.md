@@ -55,7 +55,7 @@ Slideshare: https://slideshare.datascienceonaws.com
 
 ### why is detecting generated text important?
 * volume of generated text increases every day
-* examples: removing fake product reviews, plagiarism, moderating blogposts and articles, adressing cheating on job interviews ..
+* examples: removing fake product reviews, plagiarism, moderating blogposts and articles, addressing cheating on job interviews ..
 ![](img07.png)
 ![](img08.png)
 ![](img09.png)
@@ -73,7 +73,7 @@ Slideshare: https://slideshare.datascienceonaws.com
 
 ### existing detectors
 * three classes:
-  * watermark-based aproaches
+  * watermark-based approaches
   * supervised detectors
   * zero-shot detectors
 * watermarking has to be embedded on the watermarking stage: but needs access in the creation phase
@@ -94,8 +94,8 @@ Slideshare: https://slideshare.datascienceonaws.com
 * instructing the model to use a certain persona and being informal makes it really good at hiding ..
 * summary:
   * generated text detecting is important
-  * humans are doing a poor job in distringuishing generated texts
-  * existing detectr approaches: watermarking, usperised and  zero shot detectors
+  * humans are doing a poor job in distinguishing generated texts
+  * existing detector approaches: watermarking, supervised and  zero shot detectors
   * detectors perform well in  standard cases but new LLM poses challenges
   * detectors are very vulnerable to adversarial attacks
   ![](img19.png)
