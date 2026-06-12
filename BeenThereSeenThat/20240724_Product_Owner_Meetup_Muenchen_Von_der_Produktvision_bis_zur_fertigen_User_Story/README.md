@@ -31,11 +31,11 @@ Allgemeine Information
 * ab 2030 ist AI so schlau wie der Mensch?
 * AI als Entscheider: aspekte abwägen - guter Vermittler
 
-* user story und backlog managemnent
+* user story und backlog management
 ![](img02.png)
 * halbgare Stories fertigmachen
-* uinstrukturiertes feedback - gibt es clsuter? erstelle tabelle?
-* marketresearch; daten strukturieren lassen, als teabelle. oder gruppiert - dann auch ideation -> ideensammmlung
+* unstrukturiertes feedback - gibt es cluster? erstelle tabelle?
+* marketresearch; daten strukturieren lassen, als Tabelle. oder gruppiert - dann auch ideation -> Ideensammlung
 * AI tools for giam: jam?
 * kein gutes Tool gefunden, welches behauptet aus Use-cases ein Ui zu erstellen; sah meist nicht gut aus
   * liegt daran, dass die Modelle nicht auf UX/UI Komponenten trainiert wurden
