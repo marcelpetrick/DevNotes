@@ -87,13 +87,13 @@ FEATURED PRESENTERS
 * `really excited to be here` xD
 *
 
-# angeda
-* worskhop goals
-* snyaptic astra platform
-*code repos overview: yocto linux, syNAP
+# agenda
+* workshop goals
+* synaptic astra platform
+* code repos overview: yocto linux, syNAP
 * first hour long session is an overview with selected AI use cases
 * hands on development
-* quick pulse of te room: Qr-code, then office.forms
+* quick pulse of the room: QR-code, then office.forms
   * 71 beginner, 17 intermediate, rest advanced
   * most prefer linux over rtos and android and windows: 50% versus rest
   * major hurdles: proprietary software, and the SoC are not designed for AI, lack of standards only 17%
@@ -103,24 +103,24 @@ FEATURED PRESENTERS
 * workflow: sense, process, connect
 * 8 TOPS NPU machine for the Astra-SoC we got (wow)
 * core board where additional board can be plugged in
-* Synpatics SL1680; 4 cores ARM
+* Synaptics SL1680; 4 cores ARM
 * abstraction layers for the synaptics sdk: below RTOS, Linux, Android
-* stong background for synpatics for AI: first finterprint, then pc trackpad palm prediction, then multi-modal capable SoC, to fleible platform nowadays
-* what does Synpatics offer?
+* strong background for Synaptics for AI: first fingerprint, then pc trackpad palm prediction, then multi-modal capable SoC, to flexible platform nowadays
+* what does Synaptics offer?
   * BYO data
   * BYO model
 * BYO data
-  * generate production modesl from snypatic refernece models
+  * generate production models from Synaptic reference models
  * post training compiler optimizations
 securely deploy with guaranteed highest performance metrics across portfolio
 
 ## How to install
-* WSL2 with Ubutnu 22.04
+* WSL2 with Ubuntu 22.04
 * Docker
 * SoC has already an image with basic wayland shell
-* SocC has already some apps, like quad-video player
+* SoC has already some apps, like quad-video player
 * video for linux api
-* single object detection, dual obect, pose estimation (working out of box, more or less fluent - 15 fps?)
+* single object detection, dual object, pose estimation (working out of box, more or less fluent - 15 fps?)
   * even running three video streams and doing pose estimation works without performance challenges
 * for
 
@@ -128,11 +128,11 @@ securely deploy with guaranteed highest performance metrics across portfolio
 * https://github.com/synaptics-astra
 * getting started guide
 * also: Astra Yocto Linux User Guide; default image can be downloaded on github as well
-* synpatics Astra SDK: not doing open development yet, but main branch and release 0.9.0 can be found
-* also minimum number of layers to get an functional image
+* Synaptics Astra SDK: not doing open development yet, but main branch and release 0.9.0 can be found
+* also minimum number of layers to get a functional image
 * `crops` as docker container - reproducible environment; clean environment for the whole org
 * import the two tar.gz to docker ..
-* import from TFLite, TesnorFlow, PyTorch, Caffee, ONNX is possible
+* import from TFLite, TensorFlow, PyTorch, Caffe, ONNX is possible
 * docker and python based tooling and process, enabling cross-platform support
 * network graph and metadata generation for target NPU
 * best is TFLite quantized
@@ -142,7 +142,7 @@ securely deploy with guaranteed highest performance metrics across portfolio
     /run/media/mpetrick/D241-940D/Workshop USB stick/docker-images 
 ```
 * yolov5s model, face detection
-  * generate out of that a synpa-file
+  * generate out of that a synap-file
 * optimization by pruning and applying pre-processing steps for the training is possible
 TODO add image of the slide
 * syNAP Driver Architecture
@@ -170,10 +170,10 @@ Notice the addition of quotes around "$HOME":"$HOME" and "-w "$(pwd)"". This sho
 
 After updating the alias, try running the synap help command again.
 ```
-* synapsis haptics - synpatics; last 2-3 years the company was transformed into the IoT space
-*  MPUs - a class processors; MCU - M class processors; all tied together with unfied software
+* Synaptics haptics - Synaptics; last 2-3 years the company was transformed into the IoT space
+*  MPUs - a class processors; MCU - M class processors; all tied together with unified software
 * security unified across all platforms
-  * chromecast was initially snyptics SoC
+  * chromecast was initially Synaptics SoC
 
 * go to github, find model, convert it
 `synap convert --model yolov5s_face_480x640.onnx  --meta yolo_q.yaml --target sl1680 --out-dir compiled`
@@ -245,24 +245,24 @@ Now I can enjoy a short break with more exploration and then the next training s
 ## where do i start?
 * go to these model repositories: ultralytics
 * either use v5 or v8 for yolo; usual detection - pick the model (step1)
-* yolov5 is flexible enough to recude the use-case only to faces: 80 class model
-* TODO image for the hgh level workflow
-* what to do first: install te toolkit
+* yolov5 is flexible enough to reduce the use-case only to faces: 80 class model
+* TODO image for the high level workflow
+* what to do first: install the toolkit
 * runtime launches .synap file, delivering key benefits
-  * graph-slitting, heterrogenous infering across NPU, CPU, GPU, DSP
-  * qualtzation: mixed-precision, entropy optimized, per chnalle
+  * graph-splitting, heterogenous inferring across NPU, CPU, GPU, DSP
+  * quantization: mixed-precision, entropy optimized, per channel
   * pre-processing: input data format conversion on NPU
 * SL1680/SL1640 functional block diagram
-* PPU can run OpenCL oor OpenVL code
+* PPU can run OpenCL or OpenVL code
 * PPU - ConvCore (NN) - Tensor processor (TP)
-* ghcr - github contaner registry
-* quanitzation: floating point arithmentic or integer; for maximum precision floating point is better, but interger is faster - especially 8 bit
+* ghcr - github container registry
+* quantization: floating point arithmetic or integer; for maximum precision floating point is better, but integer is faster - especially 8 bit
   * then you have to refer to a typical dataset typical for your use-case
   * extract range of the floating point values, result is min and max integer
-  * quatize to int8
+  * quantize to int8
 ### TODO
-* how to use docker for the dvelopment workflow for c++?
+* how to use docker for the development workflow for c++?
 * how to build own yocto/poky/bitbake?
   * how to add custom layers?
 
-* took today less goodies, but more knowledge from the exhbition
+* took today less goodies, but more knowledge from the exhibition
