@@ -2,7 +2,7 @@
 
 * (todo) tinyML on linkedin
 * also on Meetup
-* also the youtube-channel offers all the recordings - great ressource
+* also the youtube-channel offers all the recordings - great resource
 
 ![](img00.png)
 ![](img01.png)
