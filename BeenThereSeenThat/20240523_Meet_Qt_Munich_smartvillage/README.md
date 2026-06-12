@@ -93,7 +93,7 @@ Only the first ninety minutes have passed and I got a refresh for the product pi
 
 Shoutout to @michael zuchtriegel, @jakub, @mauricce and everyone attending and making this event possible. Thank you.
 
-Btw. Qt World Smmit 2025 takes place in Munich, woah!
+Btw. Qt World Summit 2025 takes place in Munich, woah!
 
 #neverstoplearning #bestpractice #meetqt #qtws
 
