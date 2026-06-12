@@ -9,7 +9,7 @@
 
 ## challenges with training large-scale models
 * hardware, health checks, orchestration, data, scaling up, cost
-* todays models don't fit on one GPU
+* today's models don't fit on one GPU
 --> sagemaker can help (product from AWS)
 * also: hosted TensorBoard for tracking stats; automated data management
 
