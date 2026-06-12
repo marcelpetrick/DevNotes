@@ -53,9 +53,9 @@ End the hackathon by connecting with all of the other neurotech enthusiasts
 
 ---------------
 
-* todo: check the discord: there are some ressources and stuff
+* todo: check the discord: there are some resources and stuff
 * equipment:
-  * three openbci bords
+  * three openbci boards
   * one musebit?
 * evaluation by the guys from blackrock tomorrow
 * neurotechx munich: connect people who want to become experts in that space
@@ -66,20 +66,20 @@ End the hackathon by connecting with all of the other neurotech enthusiasts
 
 * todo: book: the neurotech primer - buy this
 xr biosense 2022; was online in 2022
-* three tracks: tech/handson / the data challnge / design/strategy
+* three tracks: tech/handson / the data challenge / design/strategy
 * links for the datassets will be published as well: to handle that task maybe later
-* in the ende everything goes for design/strategy
+* in the end everything goes for design/strategy
 * 1 hackathon, 600 signups, 6 in person locations, 6 judges, 16 happy sponsors, awesome prize pool ..
 
 hackathon process walkthrough:
-* first welcome-rules; resourrces in the files ..
+* first welcome-rules; resources in the files ..
 * my intro for the discord-channel
 ```
 Greetings, I am Marcel. I am a software engineer with some experience in C++/Qt/Python and Desktop and embedded environments. My experience with the whole BCI topic is zero (sadly), I just stumbled over that quite interesting field two week ago. But I am willing to learn and participate and bring in my skills. github: https://github.com/marcelpetrick - located in Munich. Would prefer a local team 🙂
 ```
 
 ## g.tec medical engineering:
-* bio-engineering, medical eletronics, bio-electricity
+* bio-engineering, medical electronics, bio-electricity
 * developing hard- and software products for biosignal research
 * mainly: austria: schiedlberg, austria
 * EEG or ECOG (for invasive) interfaces
@@ -88,17 +88,17 @@ Greetings, I am Marcel. I am a software engineer with some experience in C++/Qt/
 * device could be the easiest one your computer
 * FMRI or MEG are skipped for this, because not optimal and slow
 * Electrocorticogram: ECoG: surgery is needed
-* Electroencephalogram (EEG) - easy ot apply and the signal is pretty good
-  * moderate spacial resolution, hih temporal resolution, low signal tonoise ratio, 0-40Hz, 1-64(128) channels, 1 mV - 100 mV
+* Electroencephalogram (EEG) - easy to apply and the signal is pretty good
+  * moderate spacial resolution, high temporal resolution, low signal to noise ratio, 0-40Hz, 1-64(128) channels, 1 mV - 100 mV
 * important is to get a clean EEG signal; if the subject is clenching with teeth, then the signal degrades much
 * unicorn-bi.com - a brain interface - https://www.unicorn-bi.com/product/unicorn-hybrid-black/ - 999€ ..
 * todo: bee bot kaufen ... 92 euro
 * g.Tec Suite 2020: for access to the channels, programming interfaces, just output of data - all in one
-* how to do measurems, how to mount a cap? active electrodes, which amplify the signal put cap on, then chin strap, the massage it to the head, reference electrode on the earlobe (with gel), one electrode on the forehead as groudn eelctrode (yellow), the inject gel in all of the signal electrodes, then with gel really clean signals, takes roundabout 6 minutes (for someone experienced)
-* eyeblinks, moving the teeth, rolling eyes, bithing teeth really screws up the signal (movement artifacts)
+* how to do measurements, how to mount a cap? active electrodes, which amplify the signal put cap on, then chin strap, the massage it to the head, reference electrode on the earlobe (with gel), one electrode on the forehead as ground electrode (yellow), the inject gel in all of the signal electrodes, then with gel really clean signals, takes roundabout 6 minutes (for someone experienced)
+* eyeblinks, moving the teeth, rolling eyes, biting teeth really screws up the signal (movement artifacts)
 * dry-electrode-cap with screwing electrods and 16 inputs it took like 30 seconds to get the cap fixed
 
-slow cortical potentials: anticipation tasks: not used anymore because of easy defets
+slow cortical potentials: anticipation tasks: not used anymore because of easy defeats
 * event-related, non-phase-locked changes
 * the phenomenon of synchronisation of the signals happens even before the finger moves;before and after the movement the amplitude is getting really big
   * the signal looks really similar when you just imagine the movement
@@ -118,7 +118,7 @@ slow cortical potentials: anticipation tasks: not used anymore because of easy d
 * the 6x6 matrix speller
 
 * before using any BCI-application some calibration is needed first
-* out of the collected data offline some classifier is generated: then the game (world of warccaft, e.g.) can be controlled
+* out of the collected data offline some classifier is generated: then the game (world of warcraft, e.g.) can be controlled
 * SSVEP: needs update of the classifier every day+
 
 * todo: check this brain41.io - hackathon; BCI designers hackathon (url does not work?)
