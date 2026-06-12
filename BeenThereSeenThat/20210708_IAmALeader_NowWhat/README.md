@@ -56,4 +56,4 @@
 ----------------------------------------
 [shorturl.at/pAN25](shorturl.at/pAN25)
 
-* whow to ask for help
+* how to ask for help
