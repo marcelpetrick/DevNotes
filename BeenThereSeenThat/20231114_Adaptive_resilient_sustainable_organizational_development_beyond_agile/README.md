@@ -14,7 +14,7 @@ But still, as it becomes more widespread, its limitations become more apparent. 
 
 Of course, experience helps, but that is not the point here. We want to point out which are blind spots of the framework, which aspects beyond Agile and Lean still need to be considered when designing an organization. We also want to introduce comprehensible tools to diagnose dysfunctionalities and design the concrete organization.
 
-These tools go beyond Agile and come from the fields of organizational design and cybernetics. They can be harmoniously extend the agile approach and be offered in a scaled implementation of Agile and Lean.
+These tools go beyond Agile and come from the fields of organizational design and cybernetics. They can harmoniously extend the agile approach and be offered in a scaled implementation of Agile and Lean.
 
 Agenda:
 
@@ -35,7 +35,7 @@ Martin Pfiffner, Expert in Organizational Structures, Founder at MPC
 * acceptance and new storming phase is needed
 * lots of organizations have already a challenge to implement existing frameworks
 * too many existing frameworks are already a challenge and miss their promise
-* as new framework: is it vaiable and profitable enough?
+* as new framework: is it viable and profitable enough?
 
 ![](img00.png)
 
