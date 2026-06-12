@@ -135,6 +135,6 @@ Olof-Palme-Straße 9 · München, BY
 
 -----------------
 
-Since I was interested in the current context-window sizes after Dr. Daisy hollman's talk last ngiht for #mucpp - here is an overview:
+Since I was interested in the current context-window sizes after Dr. Daisy Hollman's talk last night for #mucpp - here is an overview:
 ![](contextWindows.png)
 
