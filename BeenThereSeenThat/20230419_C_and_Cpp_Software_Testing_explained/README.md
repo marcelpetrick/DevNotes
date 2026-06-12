@@ -14,8 +14,8 @@
 ![](img02.png)
 ![](img03.png)
 ![](img04.png)
-* plugins for ecplipse, visutal studio and visual studio code
-* different packages for different compliance reports - easily selectable via menues
+* plugins for eclipse, visual studio and visual studio code
+* different packages for different compliance reports - easily selectable via menus
 ![](img05.png)
 ![](img06.png)
 * configuration of the rules can be adapted as wished; picking from different sets
@@ -32,7 +32,7 @@
 ## Questions
 ```
 Q:
-    The auto-generation of tests-cases looks really mighty. How does it determine which cases to create? Doing a permutationof all input-parameters? With extreme values?
+    The auto-generation of test-cases looks really mighty. How does it determine which cases to create? Doing a permutation of all input-parameters? With extreme values?
 A:
     Depends on prototype of function; permutation, boundary testing (min, max), also zero, ones..
 ```
