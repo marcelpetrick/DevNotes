@@ -33,8 +33,8 @@
 
 ------------
 # 2023
-* finsih the PM2 course from Google
+* finish the PM2 course from Google
 * finish the intercultural communication thing
 * Agile Leadership instead of Scrum Master?
-* Docker(!9
+* Docker(!)
 * AWS basics - deployment and usage
