@@ -7,7 +7,7 @@
 * cloud ai <-> edge ai <-> endpoint ai: not everything can be done on the cloud
 * not everything will have 5 G, because it is draining the battery
 * every sensor (camera, gyro, acceleration, ..) needs already energy
-* in 2025 95% of the industrial IoT deployments wil include analytics or AI components .. Gartner
+* in 2025 95% of the industrial IoT deployments will include analytics or AI components .. Gartner
 * the problem: quite a lot of different architectures; especially if you could choose freely
 * goal for EI is to use all those technologies in one platform
 * companies start their models with nvidia, but later realize they need something less pricey and less power consuming
@@ -26,7 +26,7 @@
 ### BYOM - bring your own model
 * customers wanted to bring their own model
 * usable with pip,  used in a notebook
-* runs on literally on any device under the sun
+* runs on literally any device under the sun
 * TODO also try this out
 
 ### examples
@@ -50,7 +50,7 @@
 # sleep stage prediction
 * with Oura ring
 * previously they collect the data, labeled it manually and then had a gold standard
-* later they used the Our ring t collect the data and create a fitting model, which gave the same results
+* later they used the Oura ring to collect the data and create a fitting model, which gave the same results
 * getting gold standard label data is really hard
   * super expensive, lots of data (both on device and later), multiple sensor, time-alignment issues, requires interaction with research labs
   * ideally: very short feedback loop
@@ -104,9 +104,9 @@ not working
 * use the edgeimpulse network, not the hotel network (clear)..
 * goal for today: connect device, collect data, make an impulse, then flash to board
 * mine: marcelpetrick / EdgeImpulseConf_HandOn_TI 
-* collect first he data: from the laptop of the current laptop; just needs access via browser
+* collect first the data: from the laptop of the current laptop; just needs access via browser
 * then "create impulse": create basic image processing, use square input, then also generic object detection, then save impulse
-* YOLOx for tvi4dm as model
+* YOLOx for tda4vm as model
 * training can take some time ..
 * no visible loss function
 * cloned a project: marcelpetrick / Person-Detection-ML-Show-Demo_clone
@@ -136,7 +136,7 @@ udhcpc -i wlp1s0
 edge-impulse-linux-runner --model-file workshop.eim --force-target runner-linux-aarch64-tda4vm
 root@tda4vm-sk:~/workshop# 
 ```
-* on top of the output you can see also an ip adress for the local network; where you can see the stream in your browser, with inference, etc.
+* on top of the output you can see also an ip address for the local network; where you can see the stream in your browser, with inference, etc.
 
 #------------------- break -------------------------
 ## next workshop:
