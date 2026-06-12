@@ -32,7 +32,7 @@ See you soon!
 
 Don't miss out on this opportunity to learn, network, and have fun with other Data Science- / ML- / Kaggle fans!
 
-We are always looking for speaker. If you have any ideas or suggestions, please don't hesitate to let us know.
+We are always looking for speakers. If you have any ideas or suggestions, please don't hesitate to let us know.
 
 We look forward to seeing you at the next Kaggle meetup!
 ```
@@ -40,7 +40,7 @@ We look forward to seeing you at the next Kaggle meetup!
 ## Introduction
 * Constructor and Acronis have the same owner
 * 'knowledge is the solution against all evil'; educational institution
-*  constructor start-garden -already starting to learn in kindergarden - check this out
+*  constructor start-garden -already starting to learn in kindergarten - check this out
 * earlier: Schaffhausen institut for technology
 * for their courses they do 2-stage-interviews and work also with capstone projects from real companies - less dropouts
 * why? university degrees take too long to complete
@@ -66,7 +66,7 @@ We look forward to seeing you at the next Kaggle meetup!
 * what might be next for AI in malware?
 
 ### poly/metamorphic malware
-* ask te AI to write new malware version for each new infection, e.g. BlackMamba
+* ask the AI to write new malware version for each new infection, e.g. BlackMamba
 * the behaviour changes little
 
 ### self adapting malware
@@ -76,8 +76,8 @@ We look forward to seeing you at the next Kaggle meetup!
 ### autonomous AI malware
 * completely new never-before-seen attack methods, like Rowhammer
 
-#### asymetric attack
-* attacker uses very low resources, the defender as to use high resources to defend
+#### asymmetric attack
+* attacker uses very low resources, the defender has to use high resources to defend
 * little effort, expertise, fast and scaled - great effort expertise necessary, time-consuming
 
 ##  "NLP in Radio NASCAR Communications" by Adriano Persegani Daguzan (Constructor Learning) - 30 mins
@@ -129,5 +129,5 @@ We look forward to seeing you at the next Kaggle meetup!
 * trained a feed-forward model on 100k samples: confidence 99%
 * reference: Investopedia - check this
 * his approach: never go above four layers
-* holding does not want to have models, which lack interpreteability
+* holding does not want to have models, which lack interpretability
 * he supersampled the imbalanced classes
