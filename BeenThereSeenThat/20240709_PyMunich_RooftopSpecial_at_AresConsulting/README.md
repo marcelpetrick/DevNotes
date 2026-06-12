@@ -46,40 +46,40 @@ We can't wait to see you at the roof-top!
 
 algorithmic trading..johannes sommer
 
-why crypto? is a growong industty, heabily.adopted, has enough volatily. capitalize on it
-less comoetition of big players
-crypto markets wuite noisy
-sample: linear regessionaand gradient boost
-can.say with any statisticla.certainty. odd squares and t test
+why crypto? is a growing industry, heavily.adopted, has enough volatility. capitalize on it
+less competition of big players
+crypto markets quite noisy
+sample: linear regression and gradient boost
+can.say with any statistical.certainty. odd squares and t test
 checklist creates a very stable trading bot
-divsrsity of profiles: 25 percent right is good enough in case of enough stuff to.win
+diversity of profiles: 25 percent right is good enough in case of enough stuff to.win
 volatility is key
 .......
 
-from.dev to.prodb the hidden costs of pyhton programming
-financial.and encironmental.costs
+from.dev to.prod the hidden costs of python programming
+financial.and environmental.costs
 * ai grow by 280 bln
-data.scientist.40.blnn
-* eatimations. traberse and aloocate binary trees. 
-3 hours to 3.month runtime.with same.energy conpared germany to kenya
-can using vertain packages make it more efficient
-assignment ooeratoe and comma methodntonprint strings..double usage
-comparing numpy and pandas. 10 mio inputs, numoy.faster and consumes less enetgy
+data.scientist.40.bln
+* estimations. traverse and allocate binary trees. 
+3 hours to 3.month runtime.with same.energy compared germany to kenya
+can using certain packages make it more efficient
+assignment operator and comma method to print strings..double usage
+comparing numpy and pandas. 10 mio inputs, numpy.faster and consumes less energy
 compiling for.speed is compiling for energy
-full.throttle is more wfficient
-enegry = power * time
-race to sleep. eveb with uneveb usage
+full.throttle is more efficient
+energy = power * time
+race to sleep. even with uneven usage
 better to save energy by less time.or memory usage..python stands up
-example.pythonn script removing duplicates in aws lambda
+example.python script removing duplicates in aws lambda
 
 ........
-top zo bottom.feedbakc loops
-get error from.trst and move on. 
+top to bottom.feedback loops
+get error from.test and move on. 
 
 as little.as possible.in unknown states: want to know what the error is about
-really being on the known path will.gibe you the feeling of peogrss!
-put yourarlf in thebconsuner shoes
+really being on the known path will.give you the feeling of progress!
+put yourself in the consumer shoes
 public interface of the class is tested
 * add tests to increase confidence
-find a tradeoff between thr cotst.and thr tisks of the tests..if a trst does not provide anything useful, you might deletr it
+find a tradeoff between the cost.and the risks of the tests..if a test does not provide anything useful, you might delete it
 
