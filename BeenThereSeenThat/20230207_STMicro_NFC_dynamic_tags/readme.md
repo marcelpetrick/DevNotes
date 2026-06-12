@@ -24,7 +24,7 @@
 ![](img07.png)
 ![](img08.png)
 
-## NFC comissioning on thread network
+## NFC commissioning on thread network
 ![](img09.png)
 ![](img10.png)
 ![](img11.png)
