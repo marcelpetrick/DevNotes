@@ -11,7 +11,7 @@
 * miro board for more information: https://miro.com/app/board/uXjVPtn4Ydg=/
 * double the need for Product Owners than for Scrum Masters
   * even when you need just one PO per product, but more SM!
-* theory X and theory Y: x - need direction; Y for "give it the right conditions, people want to work and will look for something whcih interests them"
+* theory X and theory Y: x - need direction; Y for "give it the right conditions, people want to work and will look for something which interests them"
 ![](img01.png)
 * depending on the belief-system you have, you create structure
 * management and organizational theory
