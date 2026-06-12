@@ -1,6 +1,6 @@
 20200625 toradex
 
-benchmaring Qt on uC
+benchmarking Qt on uC
 
 - company: sequality
 - no window managers
@@ -15,10 +15,10 @@ automotive off the highway
 overdraw analysis
 batches
 flamegraph
-- tools from Qt framework for performance anaylsis?
+- tools from Qt framework for performance analysis?
 
 render graph analysis for qt quick
-- overdrawing can be shown: helöpful to find out how clipping can be improved
+- overdrawing can be shown: helpful to find out how clipping can be improved
 - 
 
 - effectively set the visible property to false, if not needed!
@@ -42,9 +42,9 @@ even problems with black screen (empty application)
 - if the route is prerendered by some intel nuc, then the graphics performance grows
 - imx8, imx6, imx6 quadcore, intel nuc
 
-no code optimiatzions raised fps from 24 to 60 fps (for almost all platforms)
-- optimizign qml raised it even higher: even while navigating 40 fps on iMX8
-- worse performance for mapboxgl - lower fps; unknoqwn reasons
+no code optimizations raised fps from 24 to 60 fps (for almost all platforms)
+- optimizing qml raised it even higher: even while navigating 40 fps on iMX8
+- worse performance for mapboxgl - lower fps; unknown reasons
 
 i.Mx6 Quad better than DL at FullHD
 
@@ -63,7 +63,7 @@ qml language scene graph
 efficient rendering of ui elements 
 
 how to figure out hardware platform before selecting it?
-Qt Quick 3D Benchmarking Application: can be fo0und at qt.io ... check tora12.png; is also open source
+Qt Quick 3D Benchmarking Application: can be found at qt.io ... check tora12.png; is also open source
 
 !!!!!!!!!!!!!!!!!!
 content is king, in 3d
@@ -75,7 +75,7 @@ so for Qt6 they try to introduce a new rendering HW-interface, affecting 2d and 
 - vulkan is future in embedded systems; less cpu-usage
 
 - how to cache in the qt quick app?
-- there is a flag or feature; also mentioned in the officla docu; guy could not name it directly
+- there is a flag or feature; also mentioned in the official docu; guy could not name it directly
 
 
 my own additions:
