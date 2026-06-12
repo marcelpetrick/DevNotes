@@ -61,7 +61,7 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 ![](img09.jpg)
 
 ## public questions
-* line between perceived human action and human action is betting smaller; interaction with chatbot versus a real doctor
+* line between perceived human action and human action is getting smaller; interaction with chatbot versus a real doctor
 * right now the human rights decision is really centered on real humans
 * what if AI develops some real consciousness? not reached yet
 * but what about closed integration of humans and robots
