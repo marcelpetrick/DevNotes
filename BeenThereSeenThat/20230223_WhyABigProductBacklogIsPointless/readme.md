@@ -12,7 +12,7 @@ Product management is about getting the right things done. It is easy to come up
 
 * tickets spoil over time (like moldy bread)
 ![](img01.png)
-* just because we don't see the sprinkler water5, does not mean it is not stale
+* just because we don't see the sprinkler water, does not mean it is not stale
 * recently created tickets are fresh, because share the latest insights
 * become stale over time, because company or product changes direction
 * fixed as part of some other issue
@@ -47,7 +47,7 @@ Product management is about getting the right things done. It is easy to come up
 
 -----
 ### Discussions
-* What is the best timeframe got the backlog( 3 month?)
+* What is the best timeframe for the backlog( 3 month?)
   * they should have enough work for the current sprint and the next sprint, but not more than that
   * as short as possible
   * also the dependencies like UX-design, etc. have to be incorporated
