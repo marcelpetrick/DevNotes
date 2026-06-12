@@ -16,19 +16,19 @@ img_TODO.png
 * haystack: open source by deepset
 * next use case: similarity search
 img_TODO.png
- * simple local vector DB: document input -> docuemnt processing-> conversion to vectors -> retrieval
+ * simple local vector DB: document input -> document processing -> conversion to vectors -> retrieval
  img_TODO.png
  * based on LangChain components
 
-## RAG_: retrieval ugmented gerneration (RAG)
+## RAG: retrieval augmented generation (RAG)
 !img todo
-* decouples an LLM from only being able to act on orginal training data
-* obtivates the needto retrain the LLm with the latest data
-* LLMs limite by contxt window sizes
+* decouples an LLM from only being able to act on original training data
+* obviates the need to retrain the LLM with the latest data
+* LLMs limited by context window sizes
 concept:
-  * connect llm to dat sources at inference time: eg. databases, documents, 3rd party APIs
+  * connect llm to data sources at inference time: eg. databases, documents, 3rd party APIs
   * find relevant data
-  inject relevant data into the promopt
+  * inject relevant data into the prompt
 * components ..
 ### canonical RAG workflow
 img_TODO.png
@@ -37,33 +37,33 @@ img_TODO.png
 * embeddings are data represented as numerical vector
 * part of semantic search
 useful for: classification, clustering, topic discovery
-many pretrained and trinabled embedding model sources ..
+many pretrained and trainable embedding model sources ..
 img_TODO.png
-### stage 1 data preapration: loading and chunking data
+### stage 1 data preparation: loading and chunking data
 img_TODO.png
 * workflow: storage -> doc loaders -> doc chunking
-* document loading, splitting, chunking, storing -> lod from file formats: pdf, json
+* document loading, splitting, chunking, storing -> load from file formats: pdf, json
 ### stage2: chunking
 * check: splitting methods: need to pick right splitting method to ensure no-loss of information, ex. Split on separators
 * chunk size: smaller chunk size (fine grained) vs. large chunk size (holistic). Needs experimentation to fin right-size chunk based on doc types
 ### stage 3. retrieval options
 * subquery chaining: decompose prompt to multiple retrieval stages
-* re-ranking: rewtrieve more results, and rank on multiple atrtributes to improve query relevance
+* re-ranking: retrieve more results, and rank on multiple attributes to improve query relevance
 img_TODO.png
 * building the app
-* the whole app is surprisingly brief: because he framework does the heavy lifting
-* optimizing retrieval to accellerate performance
+* the whole app is surprisingly brief: because the framework does the heavy lifting
+* optimizing retrieval to accelerate performance
 img_TODO.png
 * TODO: invitation to explore the nvidia ai foundation models
-*Ü nemotron-3, code llama, Neva, Stable Diffusion XL, LLam 2, CLIP
+* nemotron-3, code llama, Neva, Stable Diffusion XL, LLama 2, CLIP
 img_TODO.png
 * TODO add the two URLS
 ## What did you learn?
 img_TODO.png
 
-core concepts of LLm architecture and fondation models
-factors for selecting between and evaluationg LLM APIs
-prompt enbinerring mbasis..
+core concepts of LLM architecture and foundation models
+factors for selecting between and evaluating LLM APIs
+prompt engineering basics..
 
 todo more lines from this slide.
 
@@ -76,7 +76,7 @@ Do you see in potential in NLP wit GNNs?
 
 GNN archtectures have been used for text classification and language translation. These are smaller models than the ChatGPT architectures we're discussing at the moment. So, perhaps an oppo for GNN models running on edge processing for narrow tasks.
 
-What do you recommend would be a good framework to conenct multiple LLMS over HTML 5 Web App
+What do you recommend would be a good framework to connect multiple LLMS over HTML 5 Web App
 
 LangChain, Griptape, Haystack, and LlamaIndex are a few of the frameworks you can consider for building LLM applications.
 
@@ -122,7 +122,7 @@ We will be discussing strategies for mitigating hallucinations in Session 2: Tai
 
 What is a minimal hardware setup for working with LLMs? Which types of GPUs (how many) are needed for fine-tuning (in an on-premise setup)?
 
-For self-managed LLMs, you'll want to check our the session later today: "Running Your Own LLM"!
+For self-managed LLMs, you'll want to check out the session later today: "Running Your Own LLM"!
 
 Can you explain more about benchmark for a beginner?
 
@@ -198,13 +198,13 @@ We don't specifically recommend one framework over another--LangChain is just a 
 
 How can we chunk by semantic meaning so the same topic or paragraph isnt split into different chunks?
 
-Reduce chunk size is one way. Others have proposed using semanic similarity metrics (like shown here) to know when a "new" chunk should begin.
+Reduce chunk size is one way. Others have proposed using semantic similarity metrics (like shown here) to know when a "new" chunk should begin.
 
 I am equally interested in the 2 webinars starting at 9:30, will the webinar be available on demand later? I can't choose which to attend.
 
 Glad to hear it! Yes, the sessions will be available on demand.
 
-Can we also combine RAG methods with a fine-tuned model on our data? Or would that just be redudant
+Can we also combine RAG methods with a fine-tuned model on our data? Or would that just be redundant
 
 Yes! We talk about doing exactly that--and why you might want to--in the session "Tailoring LLMs to Your Use Case"
 
@@ -212,11 +212,11 @@ where can we prepare our own LLM?
 
 NeMo offers an end-to-end framework from building, customizing and deploying generative AI models anywhere, learn more here: https://www.nvidia.com/en-us/ai-data-science/generative-ai/nemo-framework/. You can also use one of the many frameworks available in the community to build custom LLMs such as DeepSpeed, HuggingFace, etc.
 
-to run a 40B paramater model would a A100 GPU be sufficient ?
+to run a 40B parameter model would a A100 GPU be sufficient ?
 
 With quantization, you could potentially run a Llama 2 70B model on a single A100 80GB GPU.
 
-Is there a good tutorial on toolkits like LangChain that you would reccomend?
+Is there a good tutorial on toolkits like LangChain that you would recommend?
 
 A good one is at DeepLearning.ai
 
