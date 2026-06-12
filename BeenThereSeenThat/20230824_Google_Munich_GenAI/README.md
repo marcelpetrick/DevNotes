@@ -100,7 +100,7 @@ How does temperature affect the response?
 
 Lower temperatures are good for prompts that require a more deterministic and less open-ended response. In comparison, higher temperatures can lead to more "creative" or diverse results. A temperature of 0 is deterministic: the highest probability response is always selected. For most use cases, try starting with a temperature of 0.2.
 
-A higher temperature value will result in a more exploratative output, with a higher likelihood of generating rare or unusual words or phrases. Conversely, a lower temperature value will result in a more conservative output, with a higher likelihood of generating common or expected words or phrases.
+A higher temperature value will result in a more explorative output, with a higher likelihood of generating rare or unusual words or phrases. Conversely, a lower temperature value will result in a more conservative output, with a higher likelihood of generating common or expected words or phrases.
 ```
 
 ```
@@ -110,7 +110,7 @@ The code generation model (Codey) from PaLM API that you will use in this notebo
 
     writing functions
     writing classes
-    web-apges
+    web-pages
     unit tests
     docstrings
     code translations, and many more use-cases.
@@ -140,7 +140,7 @@ Currently it supports the following languages:
 [break]
 
 ## Use case implementation
-* use case implementation n product data
+* use case implementation on product data
 img07
 * use case: open source data-set from best buy (also see github for best buy data set)
 
