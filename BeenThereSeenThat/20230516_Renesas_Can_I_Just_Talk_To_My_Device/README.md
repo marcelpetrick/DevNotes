@@ -17,10 +17,10 @@ This session is part of our Renesas Virtual Conference. Registration/event page 
 ## phonemes - language
 ![](img03.png)
 ![](img04.png)
-* what's it gonna cost me to add AI to my product? it is not the software or hardware; itis the data collection, the analyzis and the training part
+* what's it gonna cost me to add AI to my product? it is not the software or hardware; it is the data collection, the analysis and the training part
 * success factors: Definition -> Design -> Deployment
 ![](img05.png)
-* so the language is really everything which is possible: but to a toaster you willl just use an appropriate command set for the product
+* so the language is really everything which is possible: but to a toaster you will just use an appropriate command set for the product
 * but what are appropriate selections of functions and which are not? what is a proper response time? (button: 
 ![](img06.png)
 * VUI (voice UI) approach by Renesas has some advantages: by handling dialects, etc. for the user: no voice training or data collection is needed; just deal with text
@@ -30,7 +30,7 @@ This session is part of our Renesas Virtual Conference. Registration/event page 
 ![](img09.png)
 ## summary
 * voice enabled AI would have tremendous impact
-* must be cloud-independant - much of the stuff has to happen locally
+* must be cloud-independent - much of the stuff has to happen locally
 * use intention-based model - instead of being able to handle everything
 ![](img10.png)
 
