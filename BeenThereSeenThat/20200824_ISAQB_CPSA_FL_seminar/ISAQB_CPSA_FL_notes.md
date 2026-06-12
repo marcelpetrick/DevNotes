@@ -37,15 +37,15 @@
 - umldiagramme: sequenz-d., ..
 besteht aus verschiedenen Sichten
 - Informationen rausnehmen, die für diesen Fokus nicht relevant sind; andere informationen hervorgehoben: siehe 3d-ansicht; grundriss oder elektroplan
-- Entwurfsentscheidungen sschaffen Raum für Flexibilität: nachträgliche Änderung möglioch, aber vielleicht nicht ökonomisch machbar
+- Entwurfsentscheidungen schaffen Raum für Flexibilität: nachträgliche Änderung möglich, aber vielleicht nicht ökonomisch machbar
 - im Rahmen ist das System gut anpassbar; außerhalb nicht
 - Cloud, Microservices, ... frühere Zeiten andere Ansätze (keine Redundanz; Hardware teuer; ja nichts vielfach haben)
-- falls sich die Kontextbedingungen ändern, muss das System anpgeasst werden. Vorschau i die Zukufnt nur begrenzt möglich
+- falls sich die Kontextbedingungen ändern, muss das System angepasst werden. Vorschau in die Zukunft nur begrenzt möglich
 - wie sieht der Problembereich aus? Sichten und Abstraktionen helfen -> Qualität schaffen
 
 - welche menge an defintionen gibt es?
-- EX! übung: welche begrifflichkeiten kommen in nallen sechs defintionen vor?
--- components; relationship between components; environment; innensicht/außensicht; constraints, fundamental; system; Orgranisation
+- EX! übung: welche begrifflichkeiten kommen in allen sechs definitionen vor?
+-- components; relationship between components; environment; innensicht/außensicht; constraints, fundamental; system; Organisation
 -- Result:
 --- Komponenten/Bausteine mit Schnittstellen und Beziehungen (Komponenten ist Baustein, aber nicht jeder Baustein muss eine Komponente sein; Ausprägung)
 --- Bausteine als  allgemeiner Begriff, Komponenten als spezielle Ausprägung davon (Stereotyp Component?)
@@ -56,7 +56,7 @@ besteht aus verschiedenen Sichten
 was muss ein Architekt können?
 - reicht es aus sich mit der Technik auszukennen?
 - Architektur immer als Kompromiss; eierlegende Wollmilchsau nicht möglich; bedingt durch die Einflußfaktoren (die zum Teil in Widerspruch stehen)
-- Anforderungsanalyse: dort sollte der A. mitarbeiten: Anforderungsmanagement; so ist es möglich fürhzeitig ein Feedback zu geben; mit Produktmanagement und PO; auch Prüfung der Machbarkeit; Kosten; Reliablity; Portability; .. haben hohen Einfluss auf die Archtitektur, aber oft nicht explizit genannt
+- Anforderungsanalyse: dort sollte der A. mitarbeiten: Anforderungsmanagement; so ist es möglich frühzeitig ein Feedback zu geben; mit Produktmanagement und PO; auch Prüfung der Machbarkeit; Kosten; Reliability; Portability; .. haben hohen Einfluss auf die Architektur, aber oft nicht explizit genannt
 - mitmachen beim RE! (nicht nur, aber involviert sein)
 - Prototypen anfragen
 - Anforderungen; Priorisierung; Releases- & Iterationsplan
@@ -64,7 +64,7 @@ was muss ein Architekt können?
 - Qualitätssicherung: Risikenm, Zeitplan, Testkonzept, Testbarkeit, Testautomatisierung vorbereiten
 - IT-Betrieb:
 - Projektleitung: projektplan; Entscheidung über Umfang, Konste, Zeitplan
-- es reicht nicht nur technisch brilliant uafgestellt zu sein; sondern man muss kommunikativ gut aufgestellt sein; kompromisses schließen, leute abholen, win-wion-situationen schaffen, .. nicht nur in hinsicht auf die reine funktionalität
+- es reicht nicht nur technisch brilliant aufgestellt zu sein; sondern man muss kommunikativ gut aufgestellt sein; kompromisse schließen, leute abholen, win-win-situationen schaffen, .. nicht nur in hinsicht auf die reine funktionalität
 - verständnis über das System herstellen; dependency injection, observer pattern, states, .. so erklären, das leute auch außerhalb mitreden können
 - raum schaffen leuten zuzuhören, die tenisch versiert, aber introvertiert sind
 - sechs stakeholder teilweise auch im konflikt
@@ -75,18 +75,18 @@ typen der sw-intensiven systeme: informationsS, embedded S, mobile SW
 - Entscheidungsunterstützungssysteme; Expertensysteme; Suchmaschine; Büroautomatisierung
 - architektur im wasserfallmodell: rückschritte/rückmeldungen möglich; aber nur zum nächstvorderen schritt; führt zu problemen, der kunde wird seine lösungswünsche anpassen, also das ziel bewegt sich
 - V-modell als verfeinerung: aber trotzdem noch ein phasenmodell
-- man(n) hat haufig mit unvollständiger information zu tun; iterative architektur-entwicklung dann als natürliche folge; inkremementelle entwicklung
+- man(n) hat haufig mit unvollständiger information zu tun; iterative architektur-entwicklung dann als natürliche folge; inkrementelle entwicklung
 - Scrum in Grundzügen: Selbstheilung durch iterative abwicklung; transparent umsetzung der "dinge"; klare Aufteilungen; falls man etwas direkt nach Sprint ändern will - weiß der PO eigentlich was er (oder die stakeholder) wollen?; oder falls team nicht performt, sollte man nachbessern; zielen bei moving target einfacher; product backlog, sprint backlog
 - welche folgen für die architektur (scrum): innerhalb des teams mit PO und Team zusammenarbeiten; was, wenn man aber einen zentralisitischen ansatz für die frameworks hat? in drei wochen kann man die nicht so viel umsetzen, viel, viel initialisierungsaufwand; aber wir sind nicht allein mit diesem problem, Krücke (Hilfe) der Nullsprints: 2-3 sprints mit durchstich technisch die basis legen (tooling und mit sonstigen dingen, die man benötigt; mit timeboxed events); oder am anfang iust das potential shipable product "so dünn"; vielleicht am anfang nur ein "login screen"; und nebenbei die architektur entwicklen; oder eben iterativ-inkrementell
 - [Pause bis 10:55 Uhr]
 
 ## Ebenen der Architektur:
 - Themen bisher: Bausteine, Schnittestellen, Definition der Begrifflichkeiten, 
-- [check this] conways law: organisiation und teamstruktur stehen in wechselwirkung zueinander; kommunikatinsstruktur ist eine kopie der systemstruktur; melvon conway 1968
+- [check this] conways law: organisation und teamstruktur stehen in wechselwirkung zueinander; kommunikationsstruktur ist eine kopie der systemstruktur; melvin conway 1968
 - kann man teams aufteilen, wenn man bausteine nicht entkoppelt? nur mit hohem orga-aufwand
 - technische lösung sollte zur orga-struktur passen; also die technische lösung; das kann zu viel negativem feedback führen
 - 4 teams working on a compiler -> four pass compiler
-- falls man eine schichten architektur: gui, logick datenbank hat -> dann drei teams
+- falls man eine schichten architektur: gui, logik, datenbank hat -> dann drei teams
 - architekten in jedem team: abstimmung der architekten (zentral); aber sehr hoher overhead für die abstimmung; quelle von missverständnisse?
 - vor- und nachteile zentraler und dezentraler architektur?
 - Ex! Übung 1.1.1. Zentrale versus dezentrale Architektur
@@ -228,7 +228,7 @@ My notes:
 - Einflußfaktoren
 - Systemkontext: Rollen; externe Ressourcen/systeme, die einwirken
 - Separation of concerns: (nicht verwechseln mit Single-Responsibility): Aspekt nicht selber aufteilen [check this]
-- Top-Down vs. Bottom-up: was ist besser? beides. TD + schnittstellenfokusiert; BU: sehr konrekt; verheddern in Details
+- Top-Down vs. Bottom-up: was ist besser? beides. TD + schnittstellenfokussiert; BU: sehr konkret; verheddern in Details
 - Teile-Hersche: Vorteil: Komplexitätsreduktion
 - Resue-release-Äquivalenz-Principle: externe Ressourcen komplett nutzen oder eventuell Refactorisieren
 - Common closure-principle: 
@@ -275,8 +275,8 @@ Monolith versus Microservices? [check this]
 - Mustersprachen? DomainDrivenDesign? [check this] Werkzeug, Automat, Material
 - Referenzarchitekturen
 
-- Mustersrpachen sind Architekturstile
-- definieren auf Klassenebene Musterleemnte: Mustersrpache reichert Klasen mit Semantik an; Definieren Regeln für Musterelement (Eric Evans) - Services; Entitäten
+- Mustersprachen sind Architekturstile
+- definieren auf Klassenebene Musterelemente: Mustersprache reichert Klassen mit Semantik an; Definieren Regeln für Musterelement (Eric Evans) - Services; Entitäten
 - Eric Evans: "Schwierigkeiten kommen aus der Fachdomäne und weniger aus der Technik"; deshalb sein Ansatz nicht mit technische Konstrukten reden, aber lieber mit technischer Fachsprache reden
 - Fachmodell auf Basis des Metalmodells
 https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd1a6f90091
@@ -287,7 +287,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - Software ist Werkzeug um die Information (Material) zu bearbeiten
 - auch dort Begrifflichkeiten und Regeln: Fachwerte, Materialien, Fachliche Services, Werkzeuge, Automaten, Technische Services --> vorkonfiguriertes Metamodell
 
-- CRC Karten - classes-Responsiblitlies-Collaboration (uralt; 70er..)
+- CRC Karten - classes-Responsibilities-Collaboration (uralt; 70er..)
 
 - modellgetriebene Architektur: MDA https://www.omg.org/mda/ - object management group
 - Generierung von Anwendungen aus UML-Modellen (ist nicht SA im engeren Sinn!)
@@ -301,10 +301,10 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 ## Goldene Regeln
 - Beginne mit dem Fachmodell (Begrifflichkeiten und fachliche Zusammenhänge ausarbeiten)
 - Strebe nach geringer Kopplung und hoher Kohäsion
-- Entwirf unabhängig und leicht austaushcbare Bausteine
+- Entwirf unabhängig und leicht austauschbare Bausteine
 - Verwende etabliert und erprobte Sturkturen wieder (Architekturmuster)
 - Denke an Alternativen
-- Bausteine sollen keine Annahmenüber Strukturen anderen Bausteine machen
+- Bausteine sollen keine Annahmen über Strukturen anderen Bausteine machen
 - Entwirf in Iterationen: Prototypen und technische Durchstiche mindern Risiko
 - Dokumentiere Entscheidungen, damit sie nachvollziehbar sind (sic!) - um nachträgliches Aufflammen von Diskussionen zu mindern
 
@@ -317,7 +317,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 ### Pipes & Filters
 - für Systeme, die Datenströme verarbeiten
 - Parallelverarbeitung möglich ist
-- wiecerverwendbar und austauschbar
+- wiederverwendbar und austauschbar
 - schwierige Fehlerfindung, da kein Systemzustand vorhanden
 
 ### BlackBoard (shared Repository)
@@ -344,7 +344,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 ### Nachrichtenbasierte Kommunikation (Messaging)
 - RabbitMQ, ZeroMQ
-- MessaqeQueue als Muster für Resilienz
+- MessageQueue als Muster für Resilienz
 - just out of my own interest: https://www.educba.com/rabbitmq-vs-mqtt/ - very good page to compare
 - Stack oder Queue: LIFO versus FIFO
 
@@ -443,7 +443,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 ## [Ex!] Describe those three patterns to the other users without naming them:
 - Factory: Erzeugungsentwurfmuster; Anforderung von Objekten mit bestimmten Eigentschaften, die man aber nicht selber explizit instanziieren möchte
-- Gateway: stackoverflow: "Facade provides a simple uniform view of complex internals to (one or more) external clients; Gateway provides a simple uniform view of external resources to the internals of an application." Gateway erzeugt einen einzeitlichen Blick auf externe Ressourcen für eine Applikation
+- Gateway: stackoverflow: "Facade provides a simple uniform view of complex internals to (one or more) external clients; Gateway provides a simple uniform view of external resources to the internals of an application." Gateway erzeugt einen einheitlichen Blick auf externe Ressourcen für eine Applikation
 - Registry: globales Zugriffspattern zm mithilfe eines Keys ein Objekt zu finden (hat Hinzufügemethode)
 
 -- mehrere Komponenten auf einem Stand halten mit geringer Systemlast: Observer
@@ -459,8 +459,8 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 ## festlegen und entwerfen:
 - gehören zur BlackBox-Sicht
-- einfach zu entwerfen, einfach zu njtuzen, funktional vollständig, schwer zu missbrauchen (robustes system)
-- Postels Gesetz: ich achte auf die Spezifikation, aber tolerant zu allem, was man akzeptiert; ich bin toleratn nach außen und hoffe, dass die anderen dies auch sind
+- einfach zu entwerfen, einfach zu nutzen, funktional vollständig, schwer zu missbrauchen (robustes system)
+- Postels Gesetz: ich achte auf die Spezifikation, aber tolerant zu allem, was man akzeptiert; ich bin tolerant nach außen und hoffe, dass die anderen dies auch sind
 -- siehe: https://de.wikipedia.org/wiki/Robustheitsgrundsatz
 - service-orientierte und ressourcen-orientierte Schnittstellen
 -- URI: service-aufruf selber versus URI: ressourcenorientiert (verändert und freigeben)
@@ -572,7 +572,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 0. Welcher der folgenden Begriffe ist kein cross-cutting-concept (ccc)?
 - Persistenz
-- Verfifizierung x
+- Verifizierung x
 - Protokollierung
 - Geschäftsregeln
 
@@ -631,7 +631,7 @@ Warum als Architekt damit auseinandersetzen?
 
 - nicht nur Aufnahme von mögliichen Bedenken im Team: auch ein Kommunikationswerkzeug
 - falls periodisch bis hin zu den Requirements zurück zu neuen Lösungen finden
-- Failure More and Effects Analysis
+- Failure Mode and Effects Analysis
 
 ## Risiko
 
@@ -643,7 +643,7 @@ Was sind Risiken?
 Zyklus:
 - Risikoidentifikation: Abholen/Brainstorming, Tür weit öffnen, so dass jeder im Team die Bedenken äußern kann: Liste wird größer
 - Risikobewertung (Liste wird kleiner)
-- Risikosteuerung: Maßnahmen und Mechanismen zur Risikobeefinlussung
+- Risikosteuerung: Maßnahmen und Mechanismen zur Risikobeeinflussung
 - Risiko-Controlling: Laufende Berichterstattung; 
 - gutes Beispiel für proaktives Management - frühzeitig Lösungen vorbereiten
 - regelmäßige Durchführung pro Sprint
@@ -859,22 +859,22 @@ Process finished with exit code 0
 ## recapitulation
 
 0. Ist ATAM TOP Down oder 
-TD; von geshcftszielen
+TD; von geschäftszielen
 
 1. Was ist ein qualitätsbaum?
 Entsteht aus ATAM? Qualitätsziele bei ATAM mit stakeholdern bewerten; und dann entscheiden inwiefern jedes
 - untersuchung der wechselwirkungen
 
-2. Vier hauptpphasen des ATAM?
+2. Vier hauptphasen des ATAM?
 vorbereitung, kickoff, bewertung, report (abschluss)
 
 3. werden die A.-ansätze während des Atams überarbeitet?
-nein, wir schauen, ob wir sie überarbeiten müssen (wie retrospektvie)
+nein, wir schauen, ob wir sie überarbeiten müssen (wie retrospektive)
 
-4. was sind die vier phasen des risikomanangements?
+4. was sind die vier phasen des risikomanagements?
 erfassung, Risikobewertung (Reihung), management (maßnahmen),  todos
 - was kann man tun?
- eintrittswahrshcinlichkeit verrringern, impact verrringern, akzeptieren, absolut vermeiden (projekt nicht machen)
+ eintrittswahrscheinlichkeit verringern, impact verringern, akzeptieren, absolut vermeiden (projekt nicht machen)
  
 5. entscheidungsfindungsprozess? siehe auch arc42-template?
  - annahmen dokumentieren, alternativen, klare entscheidung mit begründung [check this] one is missing
@@ -896,19 +896,19 @@ falsch, agile manifesto funktioniren software wichtiger als doku
 9. UML: sichtenbasierte architektur: welche vier sichten? Und welche Dokus
 - Kontext (Use-cases)
 - Baustein (Klassendiagram, Packagediagram, Componentdiagram, kompositionsstrukturdiagram)
-- Laufzeit (seqeunz, aktivitäs, zustandsdia.)
+- Laufzeit (sequenz, aktivitäts, zustandsdia.)
 - verteilungssicht (verteilungsdiagram)
 
 10. Warum bringt nur UML nichts?
 - In der Sprache des Lesers bleiben
 - fokussieren auf einfache Dinge
-- wissen entwickeln, Leser etwas klar machen, nicht mdoellgetriebene Entwicklungsteam
+- wissen entwickeln, Leser etwas klar machen, nicht modellgetriebene Entwicklungsteam
 
 12. zwei vorlagen für schnittstellenebeschreibungen?
 - arc42-vorlagen:
 - paul clements (kleiner als arc42)
 
-13. in welche richtung beschreibeun wir zeitpunkt und detailierungsgrad?
+13. in welche richtung beschreiben wir zeitpunkt und detailierungsgrad?
 innen nach außen
 oder außen nah innen?
 --> außen nach innen
@@ -916,19 +916,19 @@ oder außen nah innen?
 14. Was ist das *)
 der lolly? schnittstelle: anbieter und nutzer
 
-15. dependecncy inversion
-- beziehung umdrehen: zwischen wem? entkoppplung auf grundlage der depdency injection
+15. dependency inversion
+- beziehung umdrehen: zwischen wem? entkopplung auf grundlage der dependency injection
 - sich von etwas abstraktem abhängig machen
 
 16. Qualität
 - heisst das keine bugs? nein
 - dem user das bieten, was er als bedürfsnis oder spezifizierte anforderung fordert
 
-17. qualität am ende des projekts mahcen oder regelmäßig?
+17. qualität am ende des projekts machen oder regelmäßig?
 regelmäßig um im korridor der effizienten sw-entwicklung bleiben, mal technsiche schulden aufbauen, mal abbauen
 - um kompletes neuschreiben zu vermeiden
 
-18. zwei aktegorien zumm bewerten von qualität:
+18. zwei kategorien zum bewerten von qualität:
 - qualitative und quantitative:
 codezeilen
 - mccabe: anzahl binäroperation+1
@@ -936,7 +936,7 @@ codezeilen
 
 19. Kohäsion und Kopplung durch Werkzeuge berechnen lassen?
 - nein, beides nicht. wird schwer
-- deshalb hat Robert C. martin das maß der instalbiltä, abstrakheit und distanz entwickelt: je mehr abhängigkeiten man hat, desto abstrakter sollte ich werden
+- deshalb hat Robert C. martin das maß der Instabilität, Abstraktheit und Distanz entwickelt: je mehr abhängigkeiten man hat, desto abstrakter sollte ich werden
 - je mehr andere von dir abhängig sind
 - von je weniger ich abhänge, desto stabiler bin ich [check this]
 - je mehr von mir abhängig sind, desto abstrakter sollte ich sein
@@ -982,7 +982,7 @@ zahl abstrakter Klassen / alle Klassen
 
 ## Statische Analyse
 - kann grundlage für refactoring sein
-- kriterien: automatisierbarket, aufbereitung und visualisierung der ergebnisse; unterstützte Analysekriterien und metriken
+- kriterien: automatisierbarkeit, aufbereitung und visualisierung der ergebnisse; unterstützte Analysekriterien und metriken
 - Kohäsion kann mit SCA nicht gemessen werden- jarchitect, sonarqube
 
 ### dynamische analyse
@@ -990,7 +990,7 @@ zahl abstrakter Klassen / alle Klassen
 - lieber Standardsoftware
 
 ### Generierung
-- Übereinstimmung von Architekturmodell und Imülementierung gewährleisten
+- Übereinstimmung von Architekturmodell und Implementierung gewährleisten
 - Code soll lesbar sein
 
 ### Dokumentation
@@ -1022,7 +1022,7 @@ zahl abstrakter Klassen / alle Klassen
 -----
 
 Frage:
-- Kopplung: bei Datentypen verringern -> Daten textuell becshreiben
+- Kopplung: bei Datentypen verringern -> Daten textuell beschreiben
 - JSON, XML, ... textuell statt binär, so dass man sich das Format nachträglich zusammenpuzzlen kann
 
 - textuell (wie REST) auch heute ein Ding wegen Performance
