@@ -7,7 +7,7 @@
 ## Agenda
 * Die eigenen Stärken und Fähigkeiten (er-)kennen
 * Den Lebenslauf erstellen
-* Das Anschreiben gestalte
+* Das Anschreiben gestalten
 * In Online-Bewerbungsgesprächen überzeugen
 
 * weltweit planen 82% der Unternehmen Neueinstellungen (Monster, 2021, weltweit)
@@ -72,9 +72,9 @@ https://goo.gle/personenmarke - todo check this
 * Stellenbezeichnung
 * Von wann bis wann waren sie tätig?
 * Schlüsselprojekte und erreichte Ergebnisse
-* Ehrenamtliches Engagement, u.ä. inkludieren, wenn es für die sTelle relevant ist
+* Ehrenamtliches Engagement, u.ä. inkludieren, wenn es für die Stelle relevant ist
 
-## Ausbidung
+## Ausbildung
 * Berufliche und akademische Ausbildung
 * die aktuellste Erfahrung ganz oben
 * Qualifikation/Abschluss/Zertifikat
@@ -84,7 +84,7 @@ https://goo.gle/personenmarke - todo check this
 
 ## Fähigkeiten und Stärken
 * Welche Fähigkeiten und Stärken bringen sie mit?
-* wie stark sind die Fähigkeiten ausgebildet (Balken oder Zahl als Bewertung des eigenen LEvels)
+* wie stark sind die Fähigkeiten ausgebildet (Balken oder Zahl als Bewertung des eigenen Levels)
 * Welches Level bringen Sie mit?
 * Bezug zu der ausgeschriebenen Stelle herstellen
 
@@ -94,10 +94,10 @@ https://goo.gle/personenmarke - todo check this
 * Haben Sie z.B. neue Fähigkeiten erworben oder konnten Stärken ausbauen?
 * Lügen gegebenenfalls als Kündigungsgrund
 
-## Tools zur Erstellung des LEbenslaufes
+## Tools zur Erstellung des Lebenslaufes
 * lebenslauf.com als Tool
 * ob man ein Photo hinzu packt, ist individuell; weglassen passt
-* Farben gegebenene
+* Farben gegebenenfalls
 ## Welche Aspekte gehören ins Anschreiben
 * Adresse und Kontaktdaten
 * Anrede
@@ -119,14 +119,14 @@ https://goo.gle/personenmarke - todo check this
 * lieber selbst vorher googlen
 
 ## Tipps für das Online-Bewerbungsgespräch
-* stabile Internetverbindung: das A und O fü eine erfolgreiches Bewerbungsgespräch online
+* stabile Internetverbindung: das A und O für ein erfolgreiches Bewerbungsgespräch online
 * software: vorab installieren und testen, auf professionellen Benutzernamen achten
-* Hardware: Mikrofon und KAmera testen
+* Hardware: Mikrofon und Kamera testen
 * Kamera ausrichten: auf Augenhöhe, sie sollte möglichst zentriert im Bild sichtbar sein
 * Beleuchtung: weiches Licht von vorn, kein Licht von hinten
 * Kleidung: passend zum Unternehmen und zur Stelle
 * Muster wirken schnell verstörend
-* auf Accessorizes verzichten, die KRach machen
+* auf Accessoires verzichten, die Krach machen
 * Körperhaltung: bequem, aber aufrecht
 * Vorbereitung: Stellenausschreibung nochmal durchgehen, Infos rund um das Unternehmen, die Stelle recherchieren, Ihre Unterlagen griffbereit haben, Fragen vorbereiten
 * Test-Interview: vorab die Interviewsituation mit Freunden üben
