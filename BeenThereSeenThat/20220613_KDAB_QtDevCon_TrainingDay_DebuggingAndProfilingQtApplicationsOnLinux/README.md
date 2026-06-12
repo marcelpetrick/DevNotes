@@ -4,11 +4,11 @@
 * usually a three day training
 
 ## topics:
-* debug symbols, compiler optimiations (page8)
+* debug symbols, compiler optimizations (page8)
 * debugger (page 13)
 * gammaray (page32)
 * sanitizers (page 58)
-* most notably: existance of the tools!
+* most notably: existence of the tools!
 * kickstart the tooling experience
 
 ## rr - reverse debugger (like gdb)
@@ -26,7 +26,7 @@
 * windows specific tools from nvidia and vivante for gpu-profiling
 
 * hint: do not put business logic into qml! no javascript
-* linux perf and heaptracker are the most important one for profiling, evne for embedded applications
+* linux perf and heaptracker are the most important one for profiling, even for embedded applications
 
 # please write down 3 things you hope to learn in this training
 * targeting embedded devices
@@ -37,7 +37,7 @@
 
 ## debugging
 * debugger, gammaray, sanitizers
-* debug symboles, from instructionpointer to function name and line number
+* debug symbols, from instruction pointer to function name and line number
   * how are they related to compiler-optimizations:
   * needed for all of the tools!
   * have no inherent runtime overhead, just not used in case of no need
@@ -47,36 +47,36 @@
   * independent of compiler optimizations
 * qmake: either release build or debug build (dog slow?)
 
-* to verify if your applcation or library has debug symboles:
+* to verify if your application or library has debug symbols:
   * use your debugger; GDB's info shared
   * objdump
 * build code and  dependencies with debug support:
-  * Qt: conigure -debug
+  * Qt: configure -debug
   cmake: cmake -DCMAKE_BUILD_TYPE=Debug (relwithdebinfo)
-* or invole the compiler with gcc/clang -o -g
+* or invoke the compiler with gcc/clang -o -g
 
 * profile option: is just release with debug symbols on top
 * release is completely useless, because you can run it, but don't get the information if something faulty happens
 
 ## rr
-* showing "lab_cache" exmplae application: displaying delta of sines
-* conditional breakpoint maybe as first try to figure out why the plot is so distorted aftre resizing
+* showing "lab_cache" example application: displaying delta of sines
+* conditional breakpoint maybe as first try to figure out why the plot is so distorted after resizing
 * he uses gdb: start&attach, set bp and edit with "cond 1 (original -cached) > 1. breaks with original 0.12 and cached -3e+19 -> out of range excess
 * without tools: essentially restart the application in case you want to find the previous values ... a nightmare -> therefore we want to be able to jump back in time
-*  rr very closely related to gdb, but also differnt
+*  rr very closely related to gdb, but also different
 * rr should be properly integrated into visual studio
 * time travel debugging tool for x86 linux
 * records the whole application runtime
-* ehances gdb by allowing fast reverse execution
+* enhances gdb by allowing fast reverse execution
 * can be used to record non deterministic failures and replay them deterministically
-* low overhed (~1.2 slowdown)
-* really shines when a failure occurs randomlny, once in a hundred runs
-* rr explots the performance measuring unit: works with intel and kernel >= 3.5 and amd zen
+* low overhead (~1.2 slowdown)
+* really shines when a failure occurs randomly, once in a hundred runs
+* rr exploits the performance measuring unit: works with intel and kernel >= 3.5 and amd zen
 * works in VmWare in case of performance counters are virtualized
 * ARM architecture not supported
 * the tracefiles can get quite large; for the few seconds of the lab-app it was 6 Mibyte
 * he does a replay and the "reverse-next" to see that the index is 1032; but it should be a maximum of 1000.
-  * so where is the m_values buffer created? hardware watchpoint (!) -> he finds the location this bufer is initiaoized; but just with lenght 1000!
+  * so where is the m_values buffer created? hardware watchpoint (!) -> he finds the location this buffer is initialized; but just with length 1000!
   * creating "checkpoints" to jump between different locations
 * "so it is less code, so it is already better y defininition"
 * replaced then the raw buffer with a std::vector
@@ -85,7 +85,7 @@
 * go back in time in case of an assertion! was ist set properly, what is the value, see the code (computation bug)
 * "info locals" - no symbol table in case of stripped exectuable
 * KDAB uses docker to run CI, not virtualized
-* a trace/recording is completyl self-contained; no more syscalls, no network access, no rendering
+* a trace/recording is completely self-contained; no more syscalls, no network access, no rendering
 * toolset:
   * reverse-continue
   * reverse-step
@@ -99,7 +99,7 @@
 * interprocess communication: dbus; record time will work as usual
 
 ## GammaRay
-* debug in minimum time a codebase which exists for years, graphically insepct the state of the application
+* debug in minimum time a codebase which exists for years, graphically inspect the state of the application
 * colleague: Volker has started it
 * GR is picky, especially for windows; has to be build against the exact version of qt
 * for yocto you can built it as part; else it maybe refuses to work or crashes
@@ -113,14 +113,14 @@
 * minimumheight of qt: set to 1 instead of 0! to get rid of the problem
 * delete on runtime the items
 * widgets > analyze paintings: [F9] - every single draw call; even with cost numbers
-* also a gamechanger for coplex model-view-hierarchies; proxies, ..
+* also a gamechanger for complex model-view-hierarchies; proxies, ..
 * also shows statistics for object-creation; and also debugging levels
 
 [short break]
 
 ### state machines
 * dropped in qt6?
-* benefit; restructuring easy, signals and slots for each transtion, simple way to decouple the logic; simple to expand because everyone says "for simple things i can implement it on my own"
+* benefit; restructuring easy, signals and slots for each transition, simple way to decouple the logic; simple to expand because everyone says "for simple things i can implement it on my own"
 * statemachines constrain you a bit; but constraints are good because they also limit your 'creativity' (for better readability)
 * use scxml: state chart xml; w3c-standard for future use; also in Qt5.15; use this for further development instead of Qt-state-machines
 
@@ -146,7 +146,7 @@
 
 ## Sanitizers
 * sanitizers are compiler addons
-* missing init of memory, somethign was freed and then accessed later; big potential to shot yourself in the back
+* missing init of memory, something was freed and then accessed later; big potential to shoot yourself in the back
 * with sanitizers and c++ it becomes really hard to write crappy code
 * evolution of valgrind
 * available ones:
@@ -156,23 +156,23 @@
   * and more, with mixed maturity levels
 * valgrind has a problem due to slowness and lots of synchronized threads
 * google paid very smart people to solve this problem: valgrind as compiler plugin
-  * add checks during compilation instead -> much larger setup-overhead; compile app in specific mode; everytime you run it, the checks will be there; but multiple checks will maybe be optimized away
+  * add checks during compilation instead -> much larger setup-overhead; compile app in specific mode; every time you run it, the checks will be there; but multiple checks will maybe be optimized away
   * he uses: address and undefined always enabled
 * demo: crashing app, he could get in with gdb and debug
-* how to: qtcreator > projects page, then clone the debug build; just look into the cmake cache variables and then toggle it (check: advanced as well);  CMAKE_CXX_FLAGS; -fsanitize=adress,undefined (thread and address don't work well together - make different build configs)
+* how to: qtcreator > projects page, then clone the debug build; just look into the cmake cache variables and then toggle it (check: advanced as well);  CMAKE_CXX_FLAGS; -fsanitize=address,undefined (thread and address don't work well together - make different build configs)
   * now while running it will give output with undefined behaviour messages, etc. then also the sigsegv has more information, with context, really detailed! read the report: always read it from the top
   * in our case: forgot to init the data-member (m_ui)
 * using a sanitized build has small overhead (he usually does) and has impact of 1 min instead of 20sec running
 * meant for errors: no warnings
 * continue running: -fsanizte-recover=all, then eset the environment var ASAN_OPTIONS=halt_on_error=0; BUT THIS IS NOT RECOMMENDED!
   * it is really suggested to fix the first appearing issue first
-* example: "deepblue"; with generator; without optimiatzion it is 42, with -o1 it is 0. wow! but with address-sanitizer it shows again 42
-  * so what is the problem here? therefore opt in addditional checks; all of them are rock-solid; no fase positives
+* example: "deepblue"; with generator; without optimization it is 42, with -o1 it is 0. wow! but with address-sanitizer it shows again 42
+  * so what is the problem here? therefore opt in additional checks; all of them are rock-solid; no false positives
   * "capture by reference is not a good thing" -> was a problem for the generator-lambda
   * 55 ways for effective c++ code; scott myers? <-- check this; -Weffc++
 * also: leak checks for free
 * "when you can read the backtrace, you are responsible for the leak" - simple
-  * eversthing else is internal and can mostly be ignored
+  * everything else is internal and can mostly be ignored
 * maybe also create custom-suppression files to filter common things with used libs
 
 * his workflow: source the script (to start in a well-defined session): check the common options
@@ -185,12 +185,12 @@
 * then you have to build Qt as well and the libs which do the threading; so much larger overhead
 * in former times the clang-lib worked better, but GCC's libstdc++ should work now as well
 * example "race()"
-* lock order ivnersion problem: abba - classic problem of a deadlock
+* lock order inversion problem: abba - classic problem of a deadlock
 * p.75; sanitizers vs. valgrind
 * sanitizers are much faster and use less memory
 * no recompilation is required for Valgrind; all libraries linked into your application will be checked by Valgrind
-  * some functionalities are not possible with valgrind at alle (like alignment fault and integer overflow)
-* workflow: every patch which will be uploaded will be contiuously tested for win/mac/linux and for linux also the adress- and undefined behaviour-setup
+  * some functionalities are not possible with valgrind at all (like alignment fault and integer overflow)
+* workflow: every patch which will be uploaded will be continuously tested for win/mac/linux and for linux also the address- and undefined behaviour-setup
   * directly get the report if something fails
   * nightly builds do static code analysis on top
 * with qmake the suggested way is CONFIG+="sanitizer sanitize_address" ... (because qmake passes the flags only to compiler, not linker!)
@@ -200,7 +200,7 @@
 ## Profiling
 * Linux Perf and heaptrack
 * not talking today about QML: should not be used to implement business logic
-* enable - and -02 (always with optimizations): ith std::vector and no optimizations would be very bad; with optimizations it works on level with C; "zero cost overhead" for cpp
+* enable - and -O2 (always with optimizations): with std::vector and no optimizations would be very bad; with optimizations it works on level with C; "zero cost overhead" for cpp
   * only true to the optimized versions; else always you have to pay for the optimized version
   * do not profile un-optimized things; always -g and -O2
 * godbolt: compiler explorer: check for the the de-virtualisation-example
@@ -219,7 +219,7 @@
   * context-switches
 * perf stat: better than time
   * example: `ex_container QList`
-  * time gives three numbers: real, user, sys: user+sys can be bigger than real, bceause of multithreading
+  * time gives three numbers: real, user, sys: user+sys can be bigger than real, because of multithreading
 * pikaur: what is this? 
 * time -v ex_container QList (?)
 * never ever use time again, always use perf stat: QList has 7 billion cycles, qvector 5 billions
@@ -227,7 +227,7 @@
   * less "backend bound" slots is better: backend means "waiting for file input"
   * even use perf list /d
   * Qvector better than qlist because contiguous buffer, no random pointer chasing (on the heap)
-* `perf stat -repeat 10 -- my benchmark` with cycles to avoid fluctutations: but still pick targets which fluctuate less; so to change something were something can be said with high confidence; don't optimize noise
+* `perf stat -repeat 10 -- my benchmark` with cycles to avoid fluctuations: but still pick targets which fluctuate less; so to change something where something can be said with high confidence; don't optimize noise
 * workflow: write a very specific benchmark for one part of the app; then micro-optimize this one
 * makes no sense for a ui-application, literally just for benchmarks
 * example: ex_branches (with param 1 it sorts the data; branch predictior kicks in) -> result: sorting additionally the data literally makes it faster!
@@ -261,7 +261,7 @@
 * attach later via -p $(pidof programname) and then detach later (ctrl+c)
 * since Linux 5.1: use --aio for asynchronous I/O
 * yocto has a standard recipe for perf: also use the z-standard
-* benchmark on laptop or target? more comfortable on desktop -> but ground-truth on target; but if some improvement was done at desktop, then it will apply at tagret as well; but always do the final run on the target (especially due to constrained ressources: like just one cpu-core, task being switched otu, memory constraints, ..)
+* benchmark on laptop or target? more comfortable on desktop -> but ground-truth on target; but if some improvement was done at desktop, then it will apply at target as well; but always do the final run on the target (especially due to constrained resources: like just one cpu-core, task being switched out, memory constraints, ..)
 * for windows: Vtune, mtuner and also etw - uiforetw (brue dawson)
 * imx6 has maybe perf, but measures maybe on the very first core!
 
@@ -279,7 +279,7 @@
 * moving the mutext inside the loop should  decrease the period of locked mutex
 * "lost events": means that the perf-subsystem was not capable to write all data to disk which was needed; perf drops them to avoid skweing the measurement
 * use the global qthreadpool instead of a custom made one
-* automotive projects are awesome: actor-pattern is best thing since sliced bread; but 1 thread has already 1 megabyte of stackspace! not good on a system with 2 gibyte RAM
+* automotive projects are awesome: actor-pattern is best thing since sliced bread; but 1 thread has already 1 megabyte of stack space! not good on a system with 2 gibyte RAM
 * avoiding recording-loss can be done by setting perf to one core, and the rest of the cores for the app; but grain of salt: once there is loss, then the measured times can be very misleading
 * M. Wolff is also responsible for parts of hotspot
 * std::atomic allows to get rid of the mutex
@@ -291,19 +291,19 @@
 ## heaptrack
 * after improving the code by checking perf and then optimize, heap memory consumption comes into the view
 * heap memory allocations determine how much time is spent in malloc/free: better use code caches to avoid
-* `heaptrack ./labe_memory/lab_memory` - sometimes on-run-time-attach is also needed, but then you can only track the delta
+* `heaptrack ./lab_memory/lab_memory` - sometimes on-run-time-attach is also needed, but then you can only track the delta
 * those zst-files are self-contained; but debug-symbols have to be available to use a target-recording; if there are problems, then contact Milian via mail
 * after fixing: only 8 mibyte instead of 800 mibyte are used (and not leaked anymore)
 * but substring-solution has still too much allocations: substrings are created!
 * heaptrack-gui -d with two files: then diffing
-* moving a string-allocation outide the loop for resuing the buffer can improve things a lot (100k allocs saved with one simple move)
+* moving a string-allocation outside the loop for reusing the buffer can improve things a lot (100k allocs saved with one simple move)
 * std::exchange (even better than std::move); for move and invalidate
 * heaptrack has also a tab for the most used sizes
 * also watch the memory alignment: else padding happens due to the boundaries (for instance a bool) takes 8 bytes because of 7 bytes padding
 
 * question: how to deploy on target-system for long-time-test to check even for issues leaks:
   * better reduce this really to a well-defined case and then analyze this
-  * also create a pre-recorded data-input-file and then replay it for analyzis  
+  * also create a pre-recorded data-input-file and then replay it for analysis  
 
 * hotspot and heaptrack have app-images: for the latest and greatest use those; else rely on the distribution-ones
 * these tools should be completely independent to the used Qt-version
