@@ -10,17 +10,17 @@ chef fragen, wann werden die budgetrs verteilt. wann wird geplant
 
 wir machen erstes angebot
 nicht der chef
-wenn es unternehmen gut geht, meie beteiligung
-nachfragen, was man denn tuen musste um eine gehaltsverhöhung von x prozent zu bekommen? neue aufgaben uebernehmen?
+wenn es unternehmen gut geht, meine beteiligung
+nachfragen, was man denn tun musste um eine gehaltserhöhung von x prozent zu bekommen? neue aufgaben uebernehmen?
 
 * leistungmappe: zahlen, daten, fakten
-* erfolge ichtbar machen: besser nach oben herauskommen; mehrwert
+* erfolge sichtbar machen: besser nach oben herauskommen; mehrwert
 * drei bis vier gute argumente anbringen
 ----
 beförderung anbringen
 teamkoordination:
 dreimal gezahlter bonus wird gewohnheitsrecht
-* merry increase: inflationsausgleich bei internationalen firmen (microsoft, apple,..): alles darübe rhinaus ist reale gehaltsanpassung
+* merry increase: inflationsausgleich bei internationalen firmen (microsoft, apple,..): alles darüber hinaus ist reale gehaltsanpassung
 
 hinweise für mich:
 * wissensverteilung im team: dokumentation und auch aktives heranführen von leuten an die aufgaben
@@ -34,17 +34,17 @@ wahrnehmung fur den nutzen
 
 
 testimonials einsammeln: * wie war die zusammenarbeit auf einer skala von 1 bis 10, reaktionszeit bei problemen? wo war ich der treibende faktor?
-feedback von kunden esammeln: zwecks best practices;
+feedback von kunden einsammeln: zwecks best practices;
 kosten gespart; prozesse verbessert
 
 
 anbringen der persönlichen ziele fuer die nachsten sechs monate: was will ich leisten
-wie wird das unternehmen davon priofitieren
+wie wird das unternehmen davon profitieren
 positive woerter
 img03
 ----
 eigenes selbstmarketing aufbauen
-wer bin ichm wofuer stehe eich?
+wer bin ich, wofuer stehe ich?
 in welchen bereichen?
 
 * reaktionszeit beim kunden: detailierter anmerken, wie wir entgegenkommen
@@ -58,21 +58,21 @@ todo: vorab schonmal dem gegenüber bescheid geben
 dies auh bei mir am 15.02. machen
 vorab leistungsmappe schicken
 
-erstmal aufmekersamkeit vom chef haben, wahrnehmung, nicht direkt mehr geld
-wie wäre esd denn, wenn das ziel erreicht ist?
+erstmal aufmerksamkeit vom chef haben, wahrnehmung, nicht direkt mehr geld
+wie wäre es denn, wenn das ziel erreicht ist?
 img05
 img06
 img07
 was kann ich alles? dort auch sw-dev leistung auflisten (trotz elternzeit und kurzarbeit); auf gleichem level wie andere entwickler commits geliefert!
 
-status in proejktleiste aktuell halten
+status in projektleiste aktuell halten
 kpis für einen projekterfolg vorschlagen: so dass man sie dann nachträglich reflektieren kann
 
 ## !! erstellen der leistungsmappe
 
-was macht man denn so den geanzen tag?
+was macht man denn so den ganzen tag?
 hat man KPIs dazu?
-12:00 uhr - vorschlag jetzt 14 Uhr wieder zu treffen; somit 1h paus eund 1h erstellen der mappe
+12:00 uhr - vorschlag jetzt 14 Uhr wieder zu treffen; somit 1h pause und 1h erstellen der mappe
 img10 als template nutzen
 letzte 12 monate als basis verwenden
 
@@ -99,7 +99,7 @@ requirements vom kunden abholen: mit domänenwissen und vorformulieren
 
 nicht gehaltswunsch, sondern gehaltspaket als wording verwenden
 * "mein gehaltspaket ist 80.000 euro"
-* gehaltspaket: tankgutscheine, firmenwagen, weiterbildungne mit zweimal 5ke pro jahr, damit spart der arbeitgeber die sozialabgaben - mit wertsteigerung
+* gehaltspaket: tankgutscheine, firmenwagen, weiterbildungen mit zweimal 5ke pro jahr, damit spart der arbeitgeber die sozialabgaben - mit wertsteigerung
 
 * "eigene schmerzgrenze finden, dann verdoppeln"
 * falls man eine zu schnelle zusage bekommt, dann "winner's curse"
@@ -132,8 +132,8 @@ img14
 Pause: bis 15:35
 
 ## auf karten vorbereiten - anhand des leistungsbogens
-* übergreifende Zusammenarbeit: ... meine gschichte dazu ..
-* Kosten sparen: ... meine gschichte dazu ..
+* übergreifende Zusammenarbeit: ... meine Geschichte dazu ..
+* Kosten sparen: ... meine Geschichte dazu ..
 img15
 
 * kooperativ vs. kompromissler
@@ -152,7 +152,7 @@ img16
 [Pause]
 
 * statt nur einfach einen kompromiss festzulegen, sollte man die Interessen (der gegenseite) ergründen
-* Orangenbesipiel mit zwei kindern. mutter halbiert es einfach, aber eines wollte nur saft, eines nur die schale. so haben beide am ende das nachsehen.
+* Orangenbeispiel mit zwei kindern. mutter halbiert es einfach, aber eines wollte nur saft, eines nur die schale. so haben beide am ende das nachsehen.
 
 * nicht vergleichen mit anderen Bewerbern/Kollegen. wenn man sich auf eine stelle bewirbt, dann ist man sich ja sicher, dass man auch der passende Kandidat ist
 * Gesprächsverlauf: je mehr "JAs" man bekommt, desto schwieriger wird es für den gegenüber am ende abzuwinken
@@ -185,7 +185,7 @@ Gehaltsanpassung zuerst als Zahl setzen
 * todo: was wäre das dann bei uns?
 
 Gehaltsanpassung:; mit meiner Leistung zufrieden?
-Passen die WEiterbildungen im SW-Bereich? ISAQB, PSPO?
+Passen die Weiterbildungen im SW-Bereich? ISAQB, PSPO?
 Sehen sie einen Mehrwert durch die Verbesserungen?
 
 * positive Handbewegungen; handfläche nach oben
@@ -197,5 +197,5 @@ Sehen sie einen Mehrwert durch die Verbesserungen?
 
 * Nachfrage für Coaching: 45 min mit 95€
 
-* Finaler Tipp: auf eine Stelle zwei, drei Level über eigenem Knowhow bewerben ... das schlimsmte was zurückkommen kann, wäre ja ein Nein
+* Finaler Tipp: auf eine Stelle zwei, drei Level über eigenem Knowhow bewerben ... das schlimmste was zurückkommen kann, wäre ja ein Nein
 
