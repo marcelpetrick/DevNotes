@@ -12,13 +12,13 @@
 * debian: Qt6 is now inside debian 11, therefore also in ubuntu..; libqt6
 * android mobile
 
-* he says "cute" for Qt; 8-10 yers availability for Qt6
+* he says "cute" for Qt; 8-10 years availability for Qt6
 
 * Strengthen embedded, connected first, accelerate design/develop/test, adaptation to new android versions and features faster
 * qt language server support (for qt creator): 
 * how to make it easier to connect to webservers? REST current, GraphQL (?), protobuf support is coming in Qt6
-* Qt learning portal will be imoroved
-* conan and vcpackage as package manager: conan has now qt-packages
+* Qt learning portal will be improved
+* conan and vcpkg as package manager: conan has now qt-packages
 
 ### questions:
 * qt api is stuck in cpp11? qt5 with cpp98 in mind, qt6 with 11: problem with existing projects which can't upgrade the compilers
@@ -26,11 +26,11 @@
 
 --------
 
-## the jouney to the cloud has to go through the edge - Dario Freddi
-* 5 stages of grief: denial, anger, bargainin, deperession, acceptance
+## the journey to the cloud has to go through the edge - Dario Freddi
+* 5 stages of grief: denial, anger, bargaining, depression, acceptance
 * technology is nothing, but a mean to enable a use case
 * technology is something which should not get in the way to do something
-* techn. and customer demand evolve fast than ever; turns out the learning curve is still there
+* techn. and customer demand evolve faster than ever; turns out the learning curve is still there
 * framework dev versus application developers
 * demand for technology is increasing
 * **Done is better than perfect!**
@@ -38,29 +38,29 @@
 * embedded devices span nowadays the whole span from "quickly moving companies" to "companies which still try to figure out what the cloud does"
 * data privacy and ownership is growing
 * what is the edge? anything which has a cpu inside: mcu to some im6-board
-* ompany: SECO; handles the whole chain from data ollection, hardware, cloud solution: due t the fragmentend market no two customers want the same thing
-* key take-aways: the secete sauce
+* company: SECO; handles the whole chain from data collection, hardware, cloud solution: due to the fragmented market no two customers want the same thing
+* key take-aways: the secret sauce
   * acquiring assets and know-how vs. building them in house
   * staying ahead of the curve while still ensuring commodity market can be served
-  * focus on technology but lead and assit customers in their evolution
+  * focus on technology but lead and assist customers in their evolution
 * keeping up with ten years of advance when the next big thing is 6 month away is quite hard
-* gitlab as example for great product (open source company) of the last ten years; codebase was crap, but it got fixed over time - te product matters
-*the tricky bit in the one size fits all:
+* gitlab as example for great product (open source company) of the last ten years; codebase was crap, but it got fixed over time - the product matters
+* the tricky bit in the one size fits all:
   * lock-in is a major issue
-  * tradeoff betweend speed and ctrol canges over time
+  * tradeoff between speed and control changes over time
 * why open source matters:
   *  when you control data, you control the usage of your product
   * giving the users back their data is one of the best reward concepts for users (and for keeping them)
   * trusting a single provider isn't easy, open source helps
 * kubernetes as successful choice for them; because it helps to avoid specific providers
-* Qt is still the go-to choice for embedded evelopment
-* containers haen't killed Qt, android has not, html5 has not
+* Qt is still the go-to choice for embedded development
+* containers haven't killed Qt, android has not, html5 has not
 * customers still focus on Qt being Open
 * how does technology play a role
-  * non-tech companies are getting increasedly exosed to technology
+  * non-tech companies are getting increasingly exposed to technology
   * learning curve matters
-  * keeping it simple doesn't mean you shouldn#t keep it technical: simplyfying does not mean to strip out all details
-* the gap between "framework develoopers" and "application developers" will further extend
+  * keeping it simple doesn't mean you shouldn't keep it technical: simplifying does not mean to strip out all details
+* the gap between "framework developers" and "application developers" will further extend
 
 --------
 
@@ -84,9 +84,9 @@
 * 20k cells per second
 ### Prodigy - current blockbuster
 * used for some blood cancer treatment
-* use of certified version of Qt: no version like this; one of te components in the project; pre-qualification and preparation for processes and helped by their supporting company
+* use of certified version of Qt: no version like this; one of the components in the project; pre-qualification and preparation for processes and helped by their supporting company
 * how are the interfaces for data exchange set up? Who is defining the API? 
-  * checks for the tech lead) James Turner
+  * checks for the tech lead (James Turner)
   * data manipulation on the device and also on the laptop; overall user-experience is distributed
   * Python automation, API and format is fluent; scientists write their own converters
 
@@ -106,7 +106,7 @@
 ### packages
 * deb/rpm/ark
 * desktop applications
-* service technicians: if something failes, then technician has to be sent to recover; therefore manual recover is necessary
+* service technicians: if something fails, then technician has to be sent to recover; therefore manual recovery is necessary
 * application updates
 * see: github.com/goreleaser/nfpm: does the packaging, uses yaml, several targets
 
@@ -115,7 +115,7 @@
 * embedded systems
 * failsafe if partition swap is atomic!
 * recoverable if boot into rootfiles-fs b and it crashes, then scroll back to the old version A (but instead of investing into recovery, invest in testing)
-* to check: cpio them together? also scpn - what this?
+* to check: cpio them together? also scpn - what is this?
 
 * sw-update also has C-lib to check the process of the update
 
@@ -135,10 +135,10 @@
 * also allows diff-updates
 * also used by RedHat to do failsafe package-management
 * qtotaupdate from code.qt.io: qt-ostree script
-* after first run n target it will create a distributio of the current state (after user-merge), then sends it to the OSTree-repo
+* after first run on target it will create a distribution of the current state (after user-merge), then sends it to the OSTree-repo
 * on target the server, which was just started on the host (laptop), can be selected, and then the newly offered version be used
 * just fetches then what has changed
-* also allows a roolback in case of need! but does not use double the space
+* also allows a rollback in case of need! but does not use double the space
 
 ### container based
 * container runtime: and then twice the container A and B; good for fleet management; normally they take care of failsafety and sometimes of recovery
@@ -148,10 +148,10 @@
 * looked quite comfortable; had a fleet-manager
 
 ### summarum
-* only packaages in case of technician
-* partition swap and OSTree: both failsafe, both work very well; don't have to think about oartitioning in advance (more flexibility)
+* only packages in case of technician
+* partition swap and OSTree: both failsafe, both work very well; don't have to think about partitioning in advance (more flexibility)
 * container: fleetmanagement is helpful: good for separation between teams; also good for small companies
-* why was reboot required for the OSTree-hardlinks-change? boot into the new system; usualy keep the previous version, but also thousand versions cn be left; cleanup has to happen manually
+* why was reboot required for the OSTree-hardlinks-change? boot into the new system; usually keep the previous version, but also thousand versions can be left; cleanup has to happen manually
 * for uboot also some kind of partition swapping is possible, but unfortunately not all eMMC support this
 * looks like OSTree just replaces the whole file; no diff on file (but maybe possible with squashfs)
 
@@ -172,45 +172,45 @@
   * unchangeable
   * see emerging patterns in code and adopt to it
   * the absolute truth
-* making code easier to read, undertand, write and maintain - if the guideline does not support this, then what is the use? just imposing the will?
+* making code easier to read, understand, write and maintain - if the guideline does not support this, then what is the use? just imposing the will?
 * `qmllint`?
 * the newcomers to a project will also benefit from it
 
 ### how to read qml code
 * first read the filename: what to expect from the class/interface?
-* id, which proerpties are exposed?, which signals - this is the interface
-* then comeas the implementation; rectangle and mousearea ..
+* id, which properties are exposed?, which signals - this is the interface
+* then comes the implementation; rectangle and mousearea ..
 
 ### code order
-* designers don't work the way xevelopers work; so a given structure is helpful forthem to understand and to handle their changes
+* designers don't work the way developers work; so a given structure is helpful for them to understand and to handle their changes
 * check his good/bad examples
 * function ordering - functions not really important, therefore at the bottom
 * states and transitions at the bottom before the signal handlers
-* quite focussed about the readbility of the code
+* quite focussed about the readability of the code
 * not go on the hunt for things, you just see the things
 
 ### bindings: declarative > imperative style
-* js-function can be used inside a bnding and this would still be declaratie style; even when this is not recommended
+* js-function can be used inside a binding and this would still be declarative style; even when this is not recommended
 * unnecessary evaluation of bindings
 
-* on how many ways a qml object can be exposed to cpp: cntext proerpties, global object, signletones, instantiated ojbects (last one preferered)
+* on how many ways a qml object can be exposed to cpp: context properties, global object, singletons, instantiated objects (last one preferred)
 * singletons for API-access only
 * "if you look at QML, you should just look at one block of code, no other files"
-* prefer instantiated types over singletones for data
+* prefer instantiated types over singletons for data
 
 ### watch out for ownership rules
-* use a proerpty for exposing, but not directly
+* use a property for exposing, but not directly
 
 ### memory: profile first! needs contributions
 * functions use imperative form; signals tell you that something has happened (wording)
 * rule of thumb:
-  * when communicating up, use isgnals. when communicating down, use functions.
+  * when communicating up, use signals. when communicating down, use functions.
 
 ### one size does not fit all
 * todo: check for the photo from the phone
 * implicit size: space occupied when no explicit size or anchors are set
-* explicit size: space occupied when an external size like width, heith or anchors are set
-* content size: space occupied by the contentsof a view
+* explicit size: space occupied when an external size like width, height or anchors are set
+* content size: space occupied by the contents of a view
 * padding: space between the content item and the edge of a component
 * margin: space between two controls
 * inset: space between background and the edge of a component
@@ -240,11 +240,11 @@
 * move tabs, reattach them
 
 ### qt is transitioning from qmake to cmake
-* "cmake-project" with -qt 5 as param: createds a cmakelist.txt
+* "cmake-project" with -qt 5 as param: creates a cmakelist.txt
 
 ### ui watchdog:
 * detect frozen mainthread: instead of writing it yourself
-* add to code and to the cnetral main
+* add to code and to the central main
 * and if the UI is blocked, then just add handler code or a debugger .. two lines of code
 * toContainer: 
 
@@ -255,17 +255,17 @@
 * comes from the tradition of compiling stuff to javascript and to run it then in the browser
 * why would you want to do this?
 * porting via emscripten; follow the guideline
-* example: simple statemacine first, ten porting some snake-game; check the pro-file first
-* runs snake and arqiver - compiled with Qt
+* example: simple state machine first, then porting some snake-game; check the pro-file first
+* runs snake and archiver - compiled with Qt
   * but file-access not possible: because sandboxed
 
 --------
 
 ## handling large amount of text in QML - Shantanu Tushar
-* customer request: not show just te last 1000 lines, but the whole big file?
+* customer request: not show just the last 1000 lines, but the whole big file?
 * "textarea sucks" - does not work when you use lots of lines in textedit
 * this worked fine for widgets, but not for qml
-* firststep was profiling: resizing 
+* first step was profiling: resizing 
 * webview was working, but does not scale
 * listview with delegate: textarea was working 
   * but now the scrollbar would be wrong (slightly), but selecting across delegates did not work
@@ -275,7 +275,7 @@
 ## setup a shareable dev environment in docker - julian grube
 * semasquare
 * the problem: it works on my machine
-* development on embedded system always require a big tooolchain: now bigger teams, but the usual case is now: it does not work on all machines
+* development on embedded system always require a big toolchain: now bigger teams, but the usual case is now: it does not work on all machines
 * lots of time is also wasted on onboarding; setting up systems, ..
 * requirements:
   * dockerfiles
