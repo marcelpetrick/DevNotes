@@ -1,6 +1,6 @@
 # 20230519 Geringe Arbeitsleistung durch schlechten Schlaf
 * Impulse für den Mittelstand - Ingrid Janssen Einladende (BVMW)
-* Martina Krohs (Stresspräventation) und Markus Weibel (https://schlechtschlafen.ch/)
+* Martina Krohs (Stressprävention) und Markus Weibel (https://schlechtschlafen.ch/)
 ![](img00.png)
 * Frage: wie lange letzter Woche geschlafen? viele mit 7-8, einige mit 6
 * 20-30% leiden gelegentlich unter Schlafstörungen
