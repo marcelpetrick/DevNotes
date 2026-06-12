@@ -7,7 +7,7 @@
 * Slideshare: https://slideshare.datascienceonaws.com
 
 * Antje and Chris wanted to live-stream this to youtube, but obviously there was a challenge, so they just blew it off: quite interesting decision-making process
-* Generative AI Parameter Fine Tuning (PEFT), Priompt Tuning and Reinforcement Learning with Humand Feedback
+* Generative AI Parameter Fine Tuning (PEFT), Prompt Tuning and Reinforcement Learning with Human Feedback
 
 ```
 Talk #0: Introductions and Meetup Announcements
@@ -34,8 +34,8 @@ https://aws.amazon.com/blogs/machine-learning/portfolio-optimization-through-mul
 TODO find grammar checker for FF ...
 
 #0: PEFT
-* LLMs are pretrained and will be fine-tuned with own inscrutctions and completions
-* Performance efficient fine-tuning is currently on the rise: can be done with a single GPU (everything steill requires a GPU, CPU too slow)
+* LLMs are pretrained and will be fine-tuned with own instructions and completions
+* Parameter efficient fine-tuning is currently on the rise: can be done with a single GPU (everything still requires a GPU, CPU too slow)
 * 1 GB == !B param @ 8 bit (1 byte) int8 - quantization matters; with full 32 bit you need 4 GB of GPU RAM for 1 B params
 * PEFT: common implementation is LoRA/re-parameterization (others are prompt tuning or prefix tuning)
 ![](img00.png)
@@ -47,7 +47,7 @@ TODO find grammar checker for FF ...
 # 2 application example: portfolio optimization
 * creating an agent to refresh the portfolio based on a budget, etc.
 ![](img04.png)
-* in reality there are some constraints, like budget, transaction costs, available items (in yoru own portfolio)
+* in reality there are some constraints, like budget, transaction costs, available items (in your own portfolio)
 ![](img05.png)
 * get the optimal chain of actions
 * agent can observe the environment
