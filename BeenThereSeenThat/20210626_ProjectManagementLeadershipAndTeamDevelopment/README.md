@@ -5,7 +5,7 @@
 * Online Flipchart: with Mural
 * <https://app.mural.co/t/mvhspmbasis8519/m/mvhspmbasis8519/1624687968130/168e9870c238c95297e0289da6fad42bec8541b5>
 * Please treat each other and comments with appreciation.
-* lunch 12:30-13:30; Coffebraks after each 1.5 h; same for Sunday
+* lunch 12:30-13:30; Coffee breaks after each 1.5 h; same for Sunday
 
 ## task: PM  Bazaar
 * groups of two
@@ -34,7 +34,7 @@
 * change and opposition to change
 * communication
 
-* conflict model from "Glasow"? Austriann; nine stages of conflicts
+* conflict model from "Glasow"? Austrian; nine stages of conflicts
 * side notes: she will set up a google drive with the documentation
 
 ## motivation
@@ -49,9 +49,9 @@
 * this means that the leadership approach needs to change
 
 Motivation: official term
-* direction, intensitiv and endurance  of the willingness to move towards or away from a targt
+* direction, intensity and endurance of the willingness to move towards or away from a target
 * there is ex- an intrinsic motivation
-* oftne MOTIVES as basis for motivation; single, isolated reasons for human willingness to behave in a certain way
+* often MOTIVES as basis for motivation; single, isolated reasons for human willingness to behave in a certain way
 * NEED: more likely related to the lack of something
 [insert Steva Jobs quote ..]
   # 1. Intrinsic motivation
@@ -69,8 +69,8 @@ Motivation: official term
 * what was missing as motivation?
 * how to add that little sparkle of motivation yourself to make the day a good day?
 ### Maslow's hierarchy of needs
-![](05.png)* humang being is a group being: wants to be part of a group, sports team, friends, any other group* Maslow says that you have to finish one layer before you can ove up; later refined to "work on different layers at the same point of time"
-* You cannot motivate anybody to do something he does not want to do.; but if you mange to revive intrinsic motivation - for example by fun and play - then you will be successful
+![](05.png)* human being is a group being: wants to be part of a group, sports team, friends, any other group* Maslow says that you have to finish one layer before you can move up; later refined to "work on different layers at the same point of time"
+* You cannot motivate anybody to do something he does not want to do.; but if you manage to revive intrinsic motivation - for example by fun and play - then you will be successful
 * example: chalk number on the floor; factory; 5, then 6 ..
 ![](06.png)
 * Transcendence (like: improve the world)
@@ -78,10 +78,10 @@ Motivation: official term
 * Maslow's pyramid adjusted for employee commitment
 ###  Herzberg's Motivation Hygiene
 ![](08.png)
-### McClelland ned theory
+### McClelland need theory
 * need for achievement: give challenging tasks; give feedback
-* ned for power: maintaining the leader-follower-relations
-* neeed for affiliation: want to be accepted, have group feeling, other employees are highly motivated for them; often conform to the wishes of colleagues; tipp: they look for people; helpful for organising for team meetings 
+* need for power: maintaining the leader-follower-relations
+* need for affiliation: want to be accepted, have group feeling, other employees are highly motivated for them; often conform to the wishes of colleagues; tipp: they look for people; helpful for organising for team meetings 
 ![](09.png)
 [break] until 1145
 ## Leadership
@@ -171,7 +171,7 @@ Motivation: official term
 
 # 20210627: second day
 + sunday morning
-* A questions about yesterday's topics.
+* A question about yesterday's topics.
   * Make a plan to start to change within the next 72 hours.
   * e.g. schedule a time to learn about PMI certification
   * else we tend to forget about our plans to change
@@ -231,7 +231,7 @@ Feedback about. 10min
 ![](39.png)
 * or even a round table, because no corners; and it stops from hiding
 ![](40.png)
-* compromise is only half of the solution; shared intentions would haqve resulted in victory with both
+* compromise is only half of the solution; shared intentions would have resulted in victory with both
 + compromise: sometimes we don't put too much value into the things we fight for; or we don't dare a fight; or sometimes it is just our personality
 ![](41.png)
 different conflict handling tools: when "it is important"  versus "not important", so that in the end you can be successful
@@ -256,13 +256,13 @@ Discuss why he feels overloaded by the project work.
 In case the superior of the controller shall be included, the trainer can play this role. 
 ```
 * Hello Mahkameh, nice to see you.
-* It has come to my ears that you have are experiencing an heavy workload?
+* It has come to my ears that you are experiencing a heavy workload?
 * Your superior thinks you should be removed from the project due to the workload. On the other hand my numbers show that you work exactly 30% of the time.
 * Is there a misconception? Are the number reported properly?
 * How to keep the time-budget
 * Delegate (more) work (to me)? Hire another controller?
 ---
-* fidelity to the project; top project hsd top priority
+* fidelity to the project; top project has top priority
 * I want her in the project; anything else should be shifted along; less priority; 
 * treat by being assigned: but else withdrawn and bad
 [lunchbreak]
