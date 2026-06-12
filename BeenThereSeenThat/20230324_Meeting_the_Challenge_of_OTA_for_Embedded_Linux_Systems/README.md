@@ -18,13 +18,13 @@
 
 ## challenges
 ![](img02.png)
-* fualt recovery: per package or per container
+* fault recovery: per package or per container
 ![](img03.png)
 * partition approach
 * or like early android-devices: with an recovery partition
 ![](img04.png)
 
-## differnt ones: RAUC, mender, SWUpdate, swupd, OSTRee
+## different ones: RAUC, mender, SWUpdate, swupd, OSTree
 ![](img05.png)
 
 ## Toradex part
