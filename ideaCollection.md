@@ -1,7 +1,7 @@
 # collection of ideas
 
 ## food processor
-* things like that myfitnesspal have premium feature to add photos of a food you ate and then it gets the data lice calories, protein, etc.
+* things like that myfitnesspal have premium feature to add photos of a food you ate and then it gets the data like calories, protein, etc.
 * this can be done by manual lookup and calculations
 * but a tool which takes some photos of the nutritional values, then determines the sum based on the weight (or text input) and gives you overview of all foods (table) and then the sum - no more adding it manually
 * use one of the tiny OCR-models which can be run locally
@@ -19,7 +19,7 @@ Should be quite easy due to missing authentication.
 
 ## Markdown-Fixer
 * todo: idee: md-files mit File-ending glattziehen (first commandline: inputfile: then check if the line-endings have newline (with two spaces before; except maybe for lines which start with a # or *, because they are wrapped anyway)
-  * **Implemented**: via GPT4-prompt. Works well, but is of course not self-contained. No need to spend additioanl ressources at the moment.
+  * **Implemented**: via GPT4-prompt. Works well, but is of course not self-contained. No need to spend additional resources at the moment.
 
 ## The mother of all gits
 Jk, idea is to create a script which retrieves the list of all _my_ (publicly) available git(hub) repositories and then clones them to a specific path. Just to have a local backup.  
@@ -32,11 +32,11 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 * authentificate
 * get all tickets with certain tag (just like usual query)
 * check the history of each ticket when it got the "Update3"-tag assigned
-* create a graph or structured outout in the form of "date0: ticket1, ticket2, ..; date1: ticket3, ticket; .."
+* create a graph or structured output in the form of "date0: ticket1, ticket2, ..; date1: ticket3, ticket; .."
 * **Implemented:** https://github.com/marcelpetrick/codingWithGPT/tree/master/azureDevOpsTools
 
-## outlook connector: pull information feom calenser or a person or group, then display as output
-* started implementation but frozen due to missing PAT (personal access token) because my current organisation does not allow to create one within their domain, and I have no personal Office365-accoutn which I could use otherwise
+## outlook connector: pull information from calendar or a person or group, then display as output
+* started implementation but frozen due to missing PAT (personal access token) because my current organisation does not allow to create one within their domain, and I have no personal Office365-account which I could use otherwise
 
 ## kid's book auto-story-teller
 * put a book page under a camera, press "button", get the story told (or the text from the page): use OCR and TTS
@@ -61,8 +61,8 @@ take image with camera, do OCR, convert story into age appropriate storytelling,
 * if someone does not use an adblocker, you get forwarded to suspicious pages
 
 ## duo/language-learning clone:
-* generae level appropriat sentences and word chains for croatian
-* give user way to input them, then check /verify via LLM (or even simpler deterministic approach - by usingpre-generated stuff)
+* generate level appropriate sentences and word chains for croatian
+* give user way to input them, then check /verify via LLM (or even simpler deterministic approach - by using pre-generated stuff)
 * also allow to enter spoke phrases,then correct them
 * also generate spoken output and then let the user type (or input by given word blocks) 
   
@@ -71,4 +71,4 @@ take image with camera, do OCR, convert story into age appropriate storytelling,
 * edgeML idea: recognition of movement like weight lifting, etc..what would sensor fusion do?
 * diary cutter: separates the given entries into specific files based on month and creates proper directory/file-stucture; needs proper unit-test-coverage, because loss of information is not acceptable
 * RAG/finetuning of an LLM for ESP32-related dev-tasks: the espressif documentation is nice, but what about a custom tailored answering machine?
-* refresh personal homepage; only html5/css, responsive design, no cookies - just like now; add image; add mini disclaimer (not adresse, not neede d bceause not commercial)
+* refresh personal homepage; only html5/css, responsive design, no cookies - just like now; add image; add mini disclaimer (not adresse, not needed because not commercial)
