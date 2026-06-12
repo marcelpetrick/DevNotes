@@ -52,7 +52,7 @@
 * jeder Mitarbeiter verantwortet einen Kostenblock, der mindestens seinem/ihren Gehalt entspricht (Konfliktthema: LEistung ausreichend?)
 * Werte und Prinzipien leben und Entscheidungen mitzutragen; manchmal keine Konsensentscheidungen; Entscheidungen der Unternehmensführung "nach unten" tragen
 * Peter Mudra; Uni Ludwigshafen: 50% der Führungskräfte fühlen sich relativ oft überfordert, weil sie unzureichend vorbereitet wurden; solange alles fachlich in Ordnung ist, ist gut. Aber was, wenn es Stress gibt?
-* Changemanangement ist die Königsdisziplin im Management
+* Changemanagement ist die Königsdisziplin im Management
 * Mitarbeiter/Organisationsentwicklung
 * wie kann man sich gezielt Knowhow, Skills, Kompetenzen aneignen, so dass man bereit ist für den Sprung nach oben?
 * soziale Komponenten wichtig, weil derzeit, ab 2006, die Anteile an FEhlzeiten wegen Psychischen und Verhaltensstörungen zunehmen
@@ -66,7 +66,7 @@ Führungskompetenz: das muss ein Manager haben
 * Methodenkompetenz: Anwendung von Instrumenten und Vorgehensweisen
 
 ## Strategieentwicklungs und -umsetzungskompetenz
-* Fähigkeit persönlichens Handeln wirksam mit anderen abzustimmen und bewusst an der Vorstellung einer Vision zu orientieren
+* Fähigkeit persönliches Handeln wirksam mit anderen abzustimmen und bewusst an der Vorstellung einer Vision zu orientieren
 * die Energie folgt der Absicht
 * ein emotional belegtes Ziel, mit Vorfreude, bewirkt, dass man seine gesamte Energie darauf ausrichtet
 
@@ -93,7 +93,7 @@ Buchempfehlung: the first 90 days (this? https://www.amazon.com/First-90-Days-St
 * Einrichten/Akklimatisieren -> Informieren/Abstimmen/Planen -> Netzwerken/Einzelgespräche -> Meeting und Workshop -> Business Planung
 * Das erste erfolgreiche Meeting: verschafft euch ein Bild, was wollt ihr wissen?
 * Einladung, Agenda, Ziele (Standardagenda)
-* Vorbereitung persönlicher VorstellungVorbereitung thematisch
+* Vorbereitung persönlicher Vorstellung; Vorbereitung thematisch
 * Strategisch gute Sitzposition wählen
 * sauber durchmoderieren, Leute beobachten
 * aktiv zuhören, analysieren, zusammenfassen
@@ -144,7 +144,7 @@ Buchempfehlung: the first 90 days (this? https://www.amazon.com/First-90-Days-St
 * Team fasst zusammen, Führungskraft ergänzt
 * die Fragestellungen funktionieren immer, ist nur eine Frage der Methode - heute noch mehr um noch mehr Sachen im Köcher zu haben
 * Vision entwickeln: wo will man mit seinem Team hin?
-* breites Spektrum an Erfahrungen: von der Arbeit mit Auszubildenden bis hin z Uni-Absolventen und Spezies, die erst 11 Uhr aufstehen
+* breites Spektrum an Erfahrungen: von der Arbeit mit Auszubildenden bis hin zu Uni-Absolventen und Spezies, die erst 11 Uhr aufstehen
 * es get darum ein Umfeld zu schaffen, wo sich die Leute wohlfühlen und leisten wollen: employer branding
 * Kinowelt (450e Jobs) vs. Azubi-Welt vs. Uniabsolventen mit Macken
 * Dozent arbeitete nachts ab 0400 Uhr
@@ -166,10 +166,10 @@ TODO: find something with more Kommunikationskills
 
 TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis SOP alles fertig machen"?
 
-### Abhänggkeitsmatrix: Projekte links aufführen, oben auch nochmal abgebildet; dann sollen die Projektleitungen bitten in der Horizontalen Abhängigkeiten markieren
-* so hat man dann eine befüllte Matrix; gegebenenfalls mit Duplexverbindungen; dort genauer zsammensetzen um sich abzustimmen
+### Abhängigkeitsmatrix: Projekte links aufführen, oben auch nochmal abgebildet; dann sollen die Projektleitungen bitten in der Horizontalen Abhängigkeiten markieren
+* so hat man dann eine befüllte Matrix; gegebenenfalls mit Duplexverbindungen; dort genauer zusammensetzen um sich abzustimmen
 
-* falls man Überlastung hat, dann nach "oben" weitergeben, dass man so und so viele Aufgaben hat, die aber nicht alle gleichzeitg fixen kann
+* falls man Überlastung hat, dann nach "oben" weitergeben, dass man so und so viele Aufgaben hat, die aber nicht alle gleichzeitig fixen kann
 * falls die Leute ausbrennen, kommen sie über Monate nicht zurück
 
 ### Problem statement: warum bin ich überhaupt da? Warum komme ich gerade zu euch?
@@ -177,22 +177,22 @@ TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis S
 * unzureichende fachliche Kompetenz im Management: die Leute entscheiden etwas, von dem sie die Folgen nicht überblicken; kurzfristige Lösungen führen zu langfristigen Belastungssituationen
 * falls man Probleme nicht aufzeigt, dann sieht der Chef "läuft; die Person hat genug Ressourcen um ihre Aufgaben zu fixen" - was falsch ist
 
-* Führungsproblem: Leute, die ohne Vorbereitung in Positionen kommen, sich nicht angreifbar machen wollen, "Arschsicherungstaktik", Interessenlagen unterschiedlich (bis zu einem gewissen Pnukt gleich); unterschiedliche Zielrichtung
+* Führungsproblem: Leute, die ohne Vorbereitung in Positionen kommen, sich nicht angreifbar machen wollen, "Arschsicherungstaktik", Interessenlagen unterschiedlich (bis zu einem gewissen Punkt gleich); unterschiedliche Zielrichtung
 * Wer bestimmt, was gewollte Geschäftskultur ist? Das Management, das muss von oben kommen (Code of conduct)
 * wir (also ich) entscheide, wie die Kultur in unserem Team aussieht; LEute sollen sich in dem Umfeld wohl fühlen
 * dann ist man selber dafür verantwortlich dieses Biotop zu schützen (gegenüber nach oben)
 
 ### Wie kann ich ein Team ausrichten (gerade in Problemstellung Remote)
 1.
-* wir achten auf einandern und unterstützen und sgegenseitig
-* wir bringen uns praktive ein und stäkrne unsere konstruktive feedbackkultur
-* wir wollen unsere buroroutinen auch zuhaue beibehalten, ohne uns und andere zu isolieren
-* motivation aus aufgaben, gemeinsamn erfolgen, und gegenseitigem sozialem Engagenment
-* wir bauen auf gegenseitiges vertraun und finde gute balance mit den notwendigen kontrollmechanismuen
+* wir achten auf einander und unterstützen uns gegenseitig
+* wir bringen uns praktisch ein und stärken unsere konstruktive feedbackkultur
+* wir wollen unsere büroroutinen auch zuhause beibehalten, ohne uns und andere zu isolieren
+* motivation aus aufgaben, gemeinsamen erfolgen, und gegenseitigem sozialem Engagement
+* wir bauen auf gegenseitiges vertrauen und finden gute balance mit den notwendigen kontrollmechanismen
 
 2. Zielorientierung
 * Steuerung und delegation
-* KlareZielvereinbarung mit Terminsetzung
+* Klare Zielvereinbarung mit Terminsetzung
 * Kontrolle der vereinbarten Ziele, Zwischenstände
 * Aufgabenmanagement
 
@@ -201,7 +201,7 @@ TODO: eine Vision entwickeln. "nicht nur durchwurschteln, sondern wirklich bis S
 * Erfolge erzielen
 * positive Stimmung
 
-### Statusmeldung für das Proiektmanagement
+### Statusmeldung für das Projektmanagement
 * Statusampel im Wochenbericht?
 * Statusberichte einfordern, so dass man ÜBerblick wahrt. So dass man verantwortlich bleibt und "in the loop" arbeitet
 * in den ersten 100 Tagen dies wöchentlich nach "oben" geben, dann auf monatlich umsteigen
@@ -238,7 +238,7 @@ Konflikte:
 * werden oftmals als Kampfsituation wahrgenommen
 * werden durch den Verlust des Gegners gewonnen
 * führen zu fortschreitender Wahrnehmungs- und Entscheidungsunfähigkeit -> sehr schlechte Ansicht, wenn man sich auf emotionale eben herunterlässt (Metaebene)
-* trüben das Urteislvermögen
+* trüben das Urteilsvermögen
 * haben immer Eskalationspotential
 
 Lösungsgespräch:
@@ -271,7 +271,7 @@ Grundsätzlich gilt:
 * Eine für beide Seiten tragbare Lösung vereinbaren
 
 ## nicht leistungsfähige NEueinstellungen
-* Einschätzngsbogen gegebenenfalls: dies von Vorgesetztem und Angestellten ausfüllen lassen; gleiche Bewertung muss nicht besprochen werden; bei Diskrepanzen darüber sprechen; falls Bemerkungen stark auseinanderliegen
+* Einschätzungsbogen gegebenenfalls: dies von Vorgesetztem und Angestellten ausfüllen lassen; gleiche Bewertung muss nicht besprochen werden; bei Diskrepanzen darüber sprechen; falls Bemerkungen stark auseinanderliegen
 * ansonsten Statusberichte und zwischen meetings zwecks Statuserfassung
 * Jobplan [TODO] check this
 
@@ -289,5 +289,5 @@ Grundsätzlich gilt:
 
 * viele überkritische Geister hier, starke Bewertung der eigenen Leistung: "was für mich 80% ist, ist für andere schon 100%"
 
-* [TODO] Maßnahemnplan für die Jour Fixes! Wie kann man effektiver werden?
+* [TODO] Maßnahmenplan für die Jour Fixes! Wie kann man effektiver werden?
 * ebenso Standardagenda
