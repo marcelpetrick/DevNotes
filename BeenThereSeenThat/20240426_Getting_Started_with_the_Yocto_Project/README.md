@@ -4,11 +4,11 @@
 * Adrian Thomasset - Doulos Senior Member Technical Staff
 
 ## agenda today
-* creating custo linux distributions
-* usin a yocto bsp for the
+* creating custom linux distributions
+* using a yocto bsp for the
 * adding new software to a distribution
 ![](img00.png)
-* compnents of a linux system: boot loader, kernel, c runtime library (glibc), shell/utilities (bussybox)
+* components of a linux system: boot loader, kernel, c runtime library (glibc), shell/utilities (busybox)
 ![](img01.png)
 * these components are well understood
 * choices: software and versions: busybox, toybox, musl
@@ -17,7 +17,7 @@
 * enabled/disable drivers
 
 * this results in the creation of a linux system implementation = "distro"
-* packages, grpahcs support, SELinux, Bluetooth, Wifi
+* packages, graphics support, SELinux, Bluetooth, Wifi
 ![](img02.png)
 * maybe using a common framework?
 ![](img03.png)
@@ -28,7 +28,7 @@
 * part of the linux foundation
 * what is an automated build system?
   * fetch source code, configure and compile and package binaries, create filesystem
-  * the open embedded build system is described of meta data: like tasks and configurtions
+  * the open embedded build system is described of meta data: like tasks and configurations
 ![](img05.png)
 * build system metadata: recipes, classes, configurations
 * recipes are a list of tasks
@@ -38,7 +38,7 @@
   * build system recipes inherit some classes, inheritance, includes git
 * the build system: metadata and tasks
 ![](img08.png)
-* open embeded as common build system
+* open embedded as common build system
 ![](img09.png)
 * build system = metadata + bitbake
 ![](img10.png)
@@ -63,7 +63,7 @@
 * conf/machine/ should already offer a configuration file for your target
 * yocto build-system crosscompiles a compiler for you!
 ![](img17.png)
-* `bitbke -s` for the list of packages
+* `bitbake -s` for the list of packages
 ## let's add GnuChess!
 * create a new layer: don't modify base-layers
 ![](img18.png)
@@ -76,7 +76,7 @@
 ![](img21.png)
 ![](img21.png)
 * sdk is usually based on the image: self-contained
-* if you need additional packages on the image, then modiy it and release a new image and release a new sdk
+* if you need additional packages on the image, then modify it and release a new image and release a new sdk
 * image can update itself by connecting to a new repository
 
 
