@@ -34,9 +34,9 @@ Systematisch Kompetenzen aufbauen, was klaren und souveräne Führung aufbaut
   
 ### Erfolgsfaktor 2: Anerkennung
 * Übung: denken sie an jede Person im Team. Wann das letzte Mal gesagt, dass sie gute Arbeit leistet?
-* "Ich habe in den letzten sieben Tagen Log oder Anerkennung für gute Arbeit erhalten." - Wer zustimmt, ist messbar engagierter
+* "Ich habe in den letzten sieben Tagen Lob oder Anerkennung für gute Arbeit erhalten." - Wer zustimmt, ist messbar engagierter
 
-#### Wenn man seine Stärken einsatzen kann, dann macht die Arbeit Spaß
+#### Wenn man seine Stärken einsetzen kann, dann macht die Arbeit Spaß
 * Talente und Stärken jeder Person im Team erkennen
   * Job-Person-Passung: sind die richtigen Leute an der richtigen Stelle?
 * auch Aufgabe der FK die Personen mit den richtigen Aufgaben zusammenzubringen
@@ -69,7 +69,7 @@ Systematisch Kompetenzen aufbauen, was klaren und souveräne Führung aufbaut
 * wie Stärken und Potenziale der Mitarbeiter erkennen
 * sie wissen, wofür sie als FK stehen wollen
 * man erhält überschaubare Aufgaben, die man in den Führungsalltag integrieren kann
-* richtiger Kurs, falls man ein mittelständische Unternehmen oder (Team in einem ..) führt
+* richtiger Kurs, falls man ein mittelständisches Unternehmen oder (Team in einem ..) führt
 * ungünstige Situationen vermeiden ..
 
 * in Homeoffice-Situationen muss man sich bestimmte Dinge, die regulär sich einfach so entwickeln, vornehmen und direkt initiieren
