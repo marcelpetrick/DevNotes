@@ -41,7 +41,7 @@
 -----------------------------------------
 * Glenn Lamming and Boris Steiner
 
-* Kennenlernen it Christoph in einem Breakoutroom
+* Kennenlernen mit Christoph in einem Breakoutroom
 * Projektmanagement, Organisationsentwicklung, im letzten Projekt agil gearbeitet, 
 ![]((screen00.png)
 * Glenn: Produktmanagement-Historie
@@ -57,7 +57,7 @@
 * PO sammelt requirements von stakeholdern; projektleiter?
 * working agreements: be on time; ask constructive questions; ; try not to fail the certificate-exam (assessment)
 ![](screen01.png)
-* Scrum Framework; Kapitel 4 (wichtig); gemeinsames Verständis mit Begrifflichkeiten [check this]
+* Scrum Framework; Kapitel 4 (wichtig); gemeinsames Verständnis mit Begrifflichkeiten [check this]
 * heute bis Ende Value-Kapitel
 * heute: big picture auf die Sicht als Productowner
 * Feedback wall auch als Übung im Sinne der Transparenz: eat your own dogfood
@@ -80,7 +80,7 @@
 * in product backlog kann es mehr als für product goal braucht, geben
 * ziel einer sprint iteration: welchen value will man zu dem product hinzufügen?
 
-### task 45: Visualisierung von SCRUM schaffen (um jemenaden, der scrum nicht kennt, es zu erklären)
+### task 45: Visualisierung von SCRUM schaffen (um jemanden, der scrum nicht kennt, es zu erklären)
 * wie spielen SM, PO und Devs zusammen?
 ![](screen03.png)
 ![](screen04.png)
@@ -91,10 +91,10 @@
 * zu Beginn kein Anspruch auf Vollständigkeit
 * Product backlog bietet als Möglichkeit einen Fokus
 * Hauptverantwortlichkeit PO in Sprint Planning? Product backlog zu kommunizieren?
-* Muss man das "Warum" kommunizieren? "Start with why"? (Simon Sinning?); sorgt für Verständnis und höheren Beteiligungsgrad; (siehe Scrum guide); was benutzt man? Sprint goal?
+* Muss man das "Warum" kommunizieren? "Start with why"? (Simon Sinek?); sorgt für Verständnis und höheren Beteiligungsgrad; (siehe Scrum guide); was benutzt man? Sprint goal?
 * check auf: sprint ziel, sprint backlog und forecast
 (* own remark: different views from PO and developer: pm asks why i should explain the why? and not just say: do this, this and this. ..)
-* wer definiert das print goal? das team gemeinsam, für verständnis, so dass jeder es mitträgt
+* wer definiert das sprint goal? das team gemeinsam, für verständnis, so dass jeder es mitträgt
 * durch Scrum innere Konflikte aufgelöst: weil es mehrere Personen gibt
 * daily scrum: developer nehmen teil
 * ![](screen05.png)
@@ -112,7 +112,7 @@ Links zu virtuellen Whiteboards:
 * falls man etwa nicht "fertig" hat, dann es nicht in review packt, dann ist das Review intransparent. Weiterführung im nächsten Sprint verringert dort die Kapa, man lügt sich in die eigene Tasche, nächster Sprint langsamer, und man baut an dem qualitativ nicht sauberen Teil weiter.
 * deshalb unfertige Sachen nicht in Review packen; ehrliche Inspektion des aktuellen Standes
 * aus review wird das product backlog aufgearbeitet
-* falls man lange reviews verschiebt, dann gibt es überraschungen (nach drie monatne)
+* falls man lange reviews verschiebt, dann gibt es überraschungen (nach drei monaten)
 * man macht scrum um produktentwicklung in einer komplexen welt zu betreiben
 * mechanismus um das risiko zu kontrollieren
 * sprintlänge: 2 wochen usus; aber eigentlich frage "wieviel risiko ist man bereit in kauf zu nehmen"?; je weniger risiko, desto weniger die sprintlänge - das ist etwas gutes, wenn man dies möglichst schnell feststellt
@@ -130,12 +130,12 @@ Links zu virtuellen Whiteboards:
 *  nun etwas höhere Blickrichtung: Weitsichtung; agile Produktmanagement; ganzheitliche Verantwortung für eine Produkt in seinem größten Reifegrad
 * Produktentwicklung in einer passenden agilen Vorgehensweise: wie zB Scrum
 * was haben alle drei Firmen gemeinsam? Blackberry, Kodak, Blockbuster (Videothek?)
-* Unterscheidung Netflix und Blockbuster? permamnente Evolution, Business agility, mindset impulse!
+* Unterscheidung Netflix und Blockbuster? permanente Evolution, Business agility, mindset impulse!
 * genauso diese Mindset wird auch von den Leadershipteams gebraucht
 * wie definiert man ein Projekt und wie ein Produkt?
 Project Management/Product Management
 ![]()
-* Unteschied Projekt und Produkt in einem Sinn? Projekt Zeitschiene und Produkt Kundenzufriedenheit
+* Unterschied Projekt und Produkt in einem Sinn? Projekt Zeitschiene und Produkt Kundenzufriedenheit
 * klassisches Dreieck aus Time, scope, Budget
 * falls man budget, zeit, scope festgelegt hat, steigt der druck. agile wäre dann den scope anzupassen, er muss "atmen"
 * man hängt nicht an dem ursprungs-scope; welche adaption ist sinnvoll?
@@ -169,14 +169,14 @@ Project Management/Product Management
 ![](screen08.png)
 * product development is a strategic and tactical team sport
 * vertical cutting, delivery&validation; nicht auf einzelne Ebenen fokussieren, sondern quer schneiden
-* maxi und marcel wetrden die glücksfeen: zahl zwischen 1 und 5, A bis E: 1A gewählt
+* maxi und marcel werden die glücksfeen: zahl zwischen 1 und 5, A bis E: 1A gewählt
 * "social media for prisons": das wird die aufgabe, die in den nächsten zwei tagen bearbeitet werden
 * !check Business Model canvas
 * !check Lean canvas
 * !check value proposition canvas
 * Empfehlung: lean canvas
 * see: <http://businessmodelgeneration.com>
-* unfair advantage: herausstelungpunkt, der kopieren verhindert
+* unfair advantage: herausstellungspunkt, der kopieren verhindert
 
 ### breakout: social media for prisons
 * für wen?
@@ -241,8 +241,8 @@ Hilfestellung bei Erstellung der Product vision
 -----------------------------------------
 * walk the wall: Mural sichten
 * zwei Assessments: Link in Mail hat einen Link
-* Developer Open: assesment (Scrum Master & Produkt Owner)
-* Tipps zur Assesmentvorbereitung am Ende des heutigen Tages
+* Developer Open: assessment (Scrum Master & Produkt Owner)
+* Tipps zur Assessmentvorbereitung am Ende des heutigen Tages
 
 * Kachel 38 geht es weiter
 
@@ -299,11 +299,11 @@ Scrum prescribes four formal events for inspection and adaptation, as described 
 -----------
 Kachel 31
 
-* lead time (von idee zu prdukt am markt), cycle time (innerhalb der lead time wievieil zeit ist man eigentlich produktiv auf unser tun fokussiert und wieivel in Halde?)
+* lead time (von idee zu produkt am markt), cycle time (innerhalb der lead time wieviel zeit ist man eigentlich produktiv auf unser tun fokussiert und wieviel in Halde?)
 * [todo] Evidence based Management Guide! (sehr effektiv dies in Ruhe zu lesen)
 * also read about technical debt and defect trends
 * multitasking versus 100% commitment (video)
-* bug: weniger ability to innovate weil amn etwas fixen muss
+* bug: weniger ability to innovate weil man etwas fixen muss
 
 [break]
 * Legacy-Application / Application
@@ -311,7 +311,7 @@ Kachel 31
 * Fallstudien: "LegacyLarry" und "missing PO"
 * Miniteaching: warum ist es uns an dieser Stelle so wichtig? PO, PM und SM in einer Person? In Scrumteam hat man diese drei Accountabilities; falls eine Rolle nicht besetzt ist, fehlt eine bestimmter Kernaspekt
 * man braucht alle Bestandteile um dieses Framework zu leben
-* EBM soll man anwenden, heruasfinden was wirklich vom User benutzt wird (Usage)
+* EBM soll man anwenden, herausfinden was wirklich vom User benutzt wird (Usage)
 * das, was man dort entdeckt, dient als Leitfaden
 * Zahlen, Daten, Fakten ..
 * TIA
@@ -329,8 +329,8 @@ Kachel 31
 * sprint planning abbrechen; product backlog erneut erneuern;
 * "The five Scrum values are commitment, focus, openness, respect, and courage. According to the Scrum guide, “Successful use of Scrum depends on people becoming more proficient in living these five values.”"
 * David als PO sollte transparent arbeiten; falls man merkt, dass sich das Product Backlog drastisch geändert hat, sollte man Sprint planning abbrechen, 
-* hat David das Recht das zu machen: ja; aber besseres Stakeholdermangement
-* systemisches Problem: diese Belohnungssystem; deshalb hört die Arbeit des Scrum Masters nicth an den Teamgrenzen auf (Teaching for the Stakeholders)
+* hat David das Recht das zu machen: ja; aber besseres Stakeholdermanagement
+* systemisches Problem: diese Belohnungssystem; deshalb hört die Arbeit des Scrum Masters nicht an den Teamgrenzen auf (Teaching for the Stakeholders)
 [break]
 
 ## A sprint is a feedback loop
@@ -368,9 +368,9 @@ Kachel 31
 * user stories als Versprechen zur Umsetzung; Geschichte als Hilfe zur Umsetzung, so dass man sich daran entlanghangeln kann
 * daraus wurde leider ein Zwang, zum Teil; das soll so nicht sein
 * user story macht sinn, wenn man damit das gespräch fördert
-* _3Cs_: first is Card; Conversation; Cofirmation
+* _3Cs_: first is Card; Conversation; Confirmation
 * it is about the conversation, not the documentation
-* wie Ziel erreicht? durch Akzeptanzkrierien; drittes Canvas
+* wie Ziel erreicht? durch Akzeptanzkriterien; drittes Canvas
 ![](screen28.png)
 * AS A <who> I WANT <what> SO THAT <why>
 * das wichtigste ist der "so that"-Anteil, so dass alle verstehen worum es geht
@@ -430,13 +430,13 @@ complemental practice:
 ### Prüfung: Anmeldung und Durchführung
 * montag durch trainer durchgeführt
 * 80 fragen in 60 min
-* auf page einloggen, bekommt fragen, multipe choice und timer tickt gnadenlos runter
+* auf page einloggen, bekommt fragen, multiple choice und timer tickt gnadenlos runter
 * zwei wochen frist: innerhalb von zwei wochen erstversuch; falls direkt bestanden, super, falls nicht, dann bekommt man auswertung und kostenlosen zweitversuch
 * prinzip "fast feedback"
 ![](pspo1.png)
 
 * macht gerne die open assessments
-* solange machen bis man bei open assesment 100% richtig hat; kontinuierlich reproduzierbar
+* solange machen bis man bei open assessment 100% richtig hat; kontinuierlich reproduzierbar
 * scrum guide lesen und verinnerlichen; aber auch hinter die Kulissen schauen
 * open book assignment: man darf Sachen daliegen lassen
 * check <scrum.org> !!!
@@ -447,7 +447,7 @@ complemental practice:
 * welches Buch: scrum pocket guide: "Scrum Pocket Guide by Gunther Verheyen" empfohlen
 ![](pspo2.png)
 ![](pspo3.png)
-* link zuM Mural wird geschickt
+* link zum Mural wird geschickt
 * PDF zu Powerpoint-Kurs
 * bei echten Folien schauen, ob man sich eine 30s-elevator-pitch geben könnte
 
