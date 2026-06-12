@@ -85,9 +85,9 @@ FEATURED PRESENTERS
 ## intro
 * thomas kriechbaumer started
 * help and educate the customer to build the next product or services
-* agenda: presentation 30 min, uided walk through 2 hours, open discussion 30 minutes
-* loud: it-ressources on demand
-* things linke iot-services are cloud as well; lots of flexibility; and danymic allocation
+* agenda: presentation 30 min, guided walk through 2 hours, open discussion 30 minutes
+* loud: it-resources on demand
+* things like iot-services are cloud as well; lots of flexibility; and dynamic allocation
 * traditional: on premise stuff
 *  by 2030 29 bio devices are expected
 * common challenges of connected products:
@@ -95,7 +95,7 @@ FEATURED PRESENTERS
   * deploying connected devices
   * managing and scaling large fleets
   * managing security and privacy
-* a prototype is done in 5 minutes, but rolling out i hundreads ofthrousands needs more effort
+* a prototype is done in 5 minutes, but rolling out in hundreds of thousands needs more effort
 
 ## AW ressources
 * AWS IoT Core; like an MQTT broker - fully compliant, MQTT 3 and 5; securely and privately wrapped
@@ -104,7 +104,7 @@ FEATURED PRESENTERS
 * if something matches a topic it should be routed and forwarded to a specific point
 * AWS IoT Core is a fully managed server; not needed to write any specific code, already provided
 * Amazon Sidewalk network: community aspect
-* also: MAtter devices - local communication 8device to device)
+* also: Matter devices - local communication (device to device)
 * LoRaWAN
 * DemoBade is purpose-built:
   * run through all typical aspects of the lifecycle
@@ -121,9 +121,9 @@ FEATURED PRESENTERS
   * state information and state monitoring
 * image transfer using over the air updates
   * also: how to install a new firmware?
-* optional: low poer connectivitiy with amazon sidewalk
+* optional: low power connectivity with amazon sidewalk
 
-* amazon geolocation feature?can use for instance ssid/mac-adress to give some idea where you are
+* amazon geolocation feature? can use for instance ssid/mac-address to give some idea where you are
 * our devices are in a "workshop" mode; can be turned off later
 * the first module is the mandatory one!
 * Instant gratification: never send a human to do a machine's job
@@ -213,7 +213,7 @@ workshop cloudformation outputs
 Outcomes
 You discovered the Outputs of the DemoBadgeWorkshop CloudFormation stack in your AWS account.
 
-You will need all values at a later point in time during this workhop.
+You will need all values at a later point in time during this workshop.
 
 Proceed to the next module.
 
