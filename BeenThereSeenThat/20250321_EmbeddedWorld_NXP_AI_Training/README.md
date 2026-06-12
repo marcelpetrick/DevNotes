@@ -20,7 +20,7 @@ During the workshop, attendees will:
     Deploy and test your object recognition model on the FRDM-IMX93 board.
 
 
-By the end of this workshop, you will have learned how to utilize NXP's resources to jumpstart your machine learning development. From leveraging our GitHub with source code examples for machine learning, vision, human-machine interfaces (HMI), graphics, and more, to modelling your own data with eIQ Toolkit. You will be be ready to start incorporating AI/ML in your new projects and designs.
+By the end of this workshop, you will have learned how to utilize NXP's resources to jumpstart your machine learning development. From leveraging our GitHub with source code examples for machine learning, vision, human-machine interfaces (HMI), graphics, and more, to modelling your own data with eIQ Toolkit. You will be ready to start incorporating AI/ML in your new projects and designs.
 
 You’ll receive (and keep!) the FRDM-IMX93 development board, the first FRDM board to feature an i.MX Application Processor, making it a powerful tool for industrial and IoT application development.
 
