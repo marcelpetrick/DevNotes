@@ -42,13 +42,13 @@ ich:
 Was ist Feedback?
 * Realitätscheck
 * ist keine Kritik!
-* Feedback holt man sich einj; intrinsisch motiviert
+* Feedback holt man sich ein; intrinsisch motiviert
 * Feebackgespräche sind institutionalisiert
 * Kritik ist etwas, was man dem anderen gibt: auch ohne, dass der andere das haben will
 * ergänzt die Selbstwahrnehmung
-* Erkennen der eigneen Potentiale
+* Erkennen der eigenen Potentiale
 * aber auch verbesserungspunkte können klarwerden. Falls man dies möchte.
-* Methode zur Motivation zur Mitarbeier; Yale Studie; regelmäßige und gut geführte Gespräch erhöhen die Motivation der Mitarbeiter
+* Methode zur Motivation zur Mitarbeiter; Yale Studie; regelmäßige und gut geführte Gespräche erhöhen die Motivation der Mitarbeiter
 * bis zu 17%; Herausstellen des Positiven
 * über der Motivation, die rein monetär geschaffen wird
 * auch: mit welcher Haltung will man hineingehen? In welchem Ablauf will man Feedback geben?
@@ -74,7 +74,7 @@ tipps:
 * es als Wunsch zu äußern: "ich fände es gut, wenn.."
 
 
-* zuhören, nicht rechtfertigne
+* zuhören, nicht rechtfertigen
  * nicht erklären
 * aber auch filtern; ist möglich
 * man nimmt selber mehr wahr, was einem wichtig ist, als das was einem anderen wichtig ist
@@ -87,7 +87,7 @@ tipps:
   (* mag alles idealisiert sein, aber ohne ziele bewegt man sich nirgendwohin)
 * Ich-Botschaften: Aufbau und Verwendung
 * Der Ton macht die Musik: paraverbale und nonverbale Kommunikation (alles, was über die Stimme vermittelt wird; Intonation)
-  * Stand und Haltung; Gestik und MimiK; wie aufrecht steht man?
+  * Stand und Haltung; Gestik und Mimik; wie aufrecht steht man?
 
 Plan: dies folgt aber in der zweiten Hälfte
 
