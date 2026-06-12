@@ -43,11 +43,11 @@ https://youtu.be/-2uyzAqefyE - Buttons and Events (Signals)
 During the workout I wanted to see how tutorials introduce to PyQt. The guy did the videos quite well, but I could notice some flaws, which are maybe the result of lack of experience with Qt on C++. On the other hand: he did several video-tutorials and I didn't. So, kudos to him!
 
 ## 20200812 mucpp: Clare Macrae - Quickly and Effectively Testing Legacy C++ Code with Approval Tests
-https://youtu.be/vtWnqqSUzrY - definitely a quicker way to cover more case without using more asserts.m Haven't finished the video (yet), but will defeinitely give it a try!
+https://youtu.be/vtWnqqSUzrY - definitely a quicker way to cover more cases without using more asserts. Haven't finished the video (yet), but will definitely give it a try!
 (CLion, code coverage, unit testing)
 
 ## 20200812 mucpp: Klaus Igelberger - Calling Functions: A Tutorial
-TODO: https://www.twitch.tv/videos/709132681 - couldn't watch live, but I expect some insights. Last time I throught about function-calls was while we implemented a compiler at study times. Will be definitely not a guide to simply call a function xD
+TODO: https://www.twitch.tv/videos/709132681 - couldn't watch live, but I expect some insights. Last time I thought about function-calls was while we implemented a compiler at study times. Will be definitely not a guide to simply call a function xD
 
 ## 20200902: refresher of what is agile ..
 "Agile Product Ownership in a Nutshell" - https://youtu.be/502ILHjX9EE  
