@@ -1,12 +1,12 @@
-# 20240131 Doulos - Anatomy of an embeded linux system
+# 20240131 Doulos - Anatomy of an embedded linux system
 
 ## agenda
 * linux background
-* open soruce softwar & licensing
+* open source software & licensing
 * toolchain
 * bootloader
 * kernel
-* filesytem
+* filesystem
 * linux distributions
 
 ## background
@@ -16,7 +16,7 @@
 * uptake in servers is high
 * much lower on desktop
 * 70% mobile market share through android
-* incresingly used for mebedded systems
+* increasingly used for embedded systems
 * penguins associated with Linux as mascot
 * ported to many architectures: ARM, PowerPC, RISC-V, ..
 
@@ -24,23 +24,23 @@
 ![](img01)
 ![](img02)
 
-## pro'/con
-* pro: architectures supported and hardware support is vast, choice of compoents
+## pro/con
+* pro: architectures supported and hardware support is vast, choice of components
 * con: skills needed, licensing
-* pro: reduction of software licnesing costs: wide usage of components can improve quality
+* pro: reduction of software licensing costs: wide usage of components can improve quality
 * easy to evaluate new software
 * full control of the source code
 * communities (plural): lots of different projects; kernel as project, bootloader is project, libraries are separate, applications, tools ..
 ![](img03)
 
 ## licensing
-* GPL applies to the Linux Kernel an other main compnents of a Linux system
+* GPL applies to the Linux Kernel and other main components of a Linux system
   * v2 and v3 version are different; also LGPL
 * bookkeeping of used licenses
 * consider license terms before using an open-source component
-* no GPL, LGPL in proprietar software
+* no GPL, LGPL in proprietary software
 * consider who is the end user
-* some distribution managemnet systems can helpmanage this
+* some distribution management systems can help manage this
 
 ## toolchain
 ![](img04)
@@ -71,7 +71,7 @@ Webinar staffto everyone
 Q:
     I'm a newbie, but if Linux is truly open-source, then why would you need a license?
 A:
-    Using Linux, means accepting the license term. This impose certain requirements, if you redistribute your work. What this requirements are depend on the Open Source License. 
+    Using Linux, means accepting the license term. This imposes certain requirements, if you redistribute your work. What these requirements are depends on the Open Source License. 
 7:19 PM
 
 Webinar staffto everyone
@@ -79,7 +79,7 @@ Webinar staffto everyone
 Q:
     Why would you prefer Clang over gcc?
 A:
-    A few years ago, I'd say: clang for user space, gcc for kernel (we had no choice). Now things are not that sharps, as gcc has catched up with the clang extra feature (like the sanitizer), and we can use clang to compile the kernel. I use both, whenever possible :)
+    A few years ago, I'd say: clang for user space, gcc for kernel (we had no choice). Now things are not that sharp, as gcc has caught up with the clang extra feature (like the sanitizer), and we can use clang to compile the kernel. I use both, whenever possible :)
 7:20 PM
 
 Webinar staffto everyone
@@ -95,7 +95,7 @@ Webinar staffto everyone
 Q:
     Can you run Linux on CPUs without a memory management unit?
 A:
-    Yes. But that's not common, and you need a lot of patches. It's not use in the industry, as far as I am aware of.
+    Yes. But that's not common, and you need a lot of patches. It's not used in the industry, as far as I am aware of.
 7:22 PM
 
 Webinar staffto everyone
@@ -127,7 +127,7 @@ Webinar staffto everyone
 Q:
     Not binary compatible with what?
 A:
-    Sorry, could you please me give the context? 
+    Sorry, could you please give me the context? 
 7:25 PM
 
 Webinar staffto everyone
@@ -189,7 +189,7 @@ A:
 Webinar staffto everyone
 
 Q:
-    What's a minimum ROM/Flash image size/footprint range of an embedded Linux OS kernal, not including the application?
+    What's a minimum ROM/Flash image size/footprint range of an embedded Linux OS kernel, not including the application?
 A:
     That really depends what options you enable. But you are easily in the Mb range. IIRC, our Embedded Linux class has a kernel of ~5 Mb, and ~16 Mb if we include an initramfs. Again, your mileage will vary here.
 7:33 PM
@@ -199,7 +199,7 @@ Webinar staffto everyone
 Q:
     What is the difference between Yocto and Menuconfig for Kernel configuration? 
 A:
-    Kernel configuration configure what components/feature you want for your kernel image. Yocto is a distribution builder = it builds an entire Linux distribution for you. That is the kernel image, but also the filesystem, uboot and toolchain too!
+    Kernel configuration configures what components/features you want for your kernel image. Yocto is a distribution builder = it builds an entire Linux distribution for you. That is the kernel image, but also the filesystem, uboot and toolchain too!
 7:34 PM
 
 Webinar staffto everyone
@@ -207,7 +207,7 @@ Webinar staffto everyone
 Q:
     What happens with the drivers in the bootloader stage? 
 A:
-    Once the bootloader has finished it's job (ie. jump at the first instruction of the linux kernel), then the boot loader is finished. At some point the RAM where the bootloader got loaded will be reused for other purposes.
+    Once the bootloader has finished its job (ie. jump at the first instruction of the linux kernel), then the boot loader is finished. At some point the RAM where the bootloader got loaded will be reused for other purposes.
 7:36 PM
 
 Webinar staffto everyone
@@ -271,7 +271,7 @@ Webinar staffto everyone
 Q:
     Do you need to have some device driver's configurations when you compile u-boot? 
 A:
-    Uboot come with a "menu config", where you can configure the functionality you want. But your guess is correct. Actually, Uboot is integrating some of the driver coming from Linux.
+    Uboot comes with a "menu config", where you can configure the functionality you want. But your guess is correct. Actually, Uboot is integrating some of the driver coming from Linux.
 7:44 PM
 
 Webinar staffto everyone
