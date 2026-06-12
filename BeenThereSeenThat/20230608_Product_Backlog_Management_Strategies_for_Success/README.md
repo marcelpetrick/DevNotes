@@ -26,11 +26,11 @@
 * continuous process
 * on-demand event (don't be shy)
 
-* thorough refinements = shot plannings
+* thorough refinements = short plannings
 * small groups: more focus time for the team; don't invite all the members to each refinement (really helpful advice, because I was always wondering if excluding some members in the invitations is ok..)
 ![](img08.png)
 
-## drivers ans restrainers for efficient backlog management
+## drivers and restrainers for efficient backlog management
 ![](img09.png)
 ### good
 * POs experience and soft skills ++
@@ -42,7 +42,7 @@
 * incomplete participation
 *  communication issues
 * ineffective tool usage
-* don't plan to far ahead .. or too detailed ahead
+* don't plan too far ahead .. or too detailed ahead
 * people should not be afraid to share their ideas
    * foster culture of healthy, constructive discussions!
 * remove artificial obstacles like flow-states: because all tickets should move from all states to all states (known problem..)
