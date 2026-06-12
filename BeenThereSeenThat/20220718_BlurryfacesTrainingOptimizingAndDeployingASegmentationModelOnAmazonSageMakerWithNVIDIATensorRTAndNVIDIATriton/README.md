@@ -26,7 +26,7 @@ Slideshare: https://slideshare.datascienceonaws.com
 --------------------------
 ## Francesco Pochetti:
 
-* check his blogpost for details: and to follow along if something is missing frrom the transcript
+* check his blogpost for details: and to follow along if something is missing from the transcript
 * face detection to find the bounding boxes and to add blurring (but with segmentation and not just circles)
 ![](img0.png)
 * check huggingface.com - a community for ai-learning?
