@@ -15,10 +15,10 @@
 
 ## factors to consider
 ![](img01.png)
-* what is the excpected life span of your product
+* what is the expected life span of your product
 * will the device be updated and maintained "in the field"?
 * will you be mainlining your code? will the custom-made code be submitted to the kernel-maintenance-teams to be released on kernel.org? an organisation-level choice
-  * will be available to all users (pro); con: getting code accepted can be time consumin and difficult
+  * will be available to all users (pro); con: getting code accepted can be time consuming and difficult
 ![](img02.png)
 * updating your kernel version
 ![](img03.png)
@@ -38,7 +38,7 @@
 ![](img12.png)  
 ![](img13.png)  
 ![](img14.png)  
-## final question: qhi9ch is the right kernel for your project?
+## final question: which is the right kernel for your project?
 * out of tree kernel code?
 * field updates possible?
 * product lifespan?
@@ -74,7 +74,7 @@ A:
 ```
 ```
 Q:
-    Could you tell if other realtime sush as Xenomai, RTAI could be an alternative to prempt RT ? 
+    Could you tell if other realtime such as Xenomai, RTAI could be an alternative to preempt RT ? 
 A:
     Yes, these could be an alternative to using the preempt_RT kernel and in some scenarios may be required to meet real time requirements. This is a subject for a future webinar maybe! 
 ```
@@ -92,7 +92,7 @@ A:
 ```
 ```
 Q:
-    Is it possible to have non Linux kernel derivative as a replacement of the standard Linux kernel for some specific cases, like hard relatime? 
+    Is it possible to have non Linux kernel derivative as a replacement of the standard Linux kernel for some specific cases, like hard realtime? 
 A:
     Well you could use an RTOS instead of Linux but then you would need to start again in terms of your software stack. May be a better option would be to use an RTOS kernel alongside the Linux kernel, either in software (with Xenomai for example) or in hardware on a multicore device using e.g. OpenAMP. 
 ```
