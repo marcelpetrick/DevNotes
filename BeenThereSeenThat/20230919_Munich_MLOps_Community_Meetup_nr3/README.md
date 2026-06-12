@@ -42,7 +42,7 @@ About our speakers:
 * works for BSH Home Appliances Group; now 100% daughter of Bosch; mission
 * Lead Architect and also Advisor and Lecturer
 * oven cooking, surface cooking, cooling, dish care, laundry care, small appliances
-* all new devices have something like a rapsberry pi: system-master; all devices can be connected to the internet
+* all new devices have something like a Raspberry Pi: system-master; all devices can be connected to the internet
 * one question o answer is maybe: make the device self aware: fridge can answer if you can still eat something
 * starting with computer vision; before already cameras in fridge
 * they noticed: we need some validation and quality gates: so they needed an MLOps platform
@@ -51,41 +51,41 @@ About our speakers:
   * three stages: CI/CD/run
   * reproducibility, teamwork, automated test & deploy, check current status of code; does it work as intended; monitoring when it runs (performance, robustness)
 * MLOps:
-  * still versioned code, but also versioned model, vesioned data snapshot: three artifacts now
+  * still versioned code, but also versioned model, versioned data snapshot: three artifacts now
   * logbook for all the experiments which have been run
   * CD: model behaviour and performance, expected predictions on well known data points; concept drift, data drift
   * Run: monitoring, model monitoring
 ### why did they build their own platform?
-* have hterogenous use cases; slow and fast moving data
+* have heterogeneous use cases; slow and fast moving data
 * images and NLP
 * sensor data from IoT, IIoT/I4.0
-* flexible and verastile, modular end-to-end-platform
+* flexible and versatile, modular end-to-end-platform
 * handling complexity: many code versions on lost jupyter notebooks
 * hundreds of users, high turnover (fluctuation) of employees in data science
 * ready made platform often not sufficient:
   * black box
   * fast to apply but also reaching ast its limits and often difficult to extend
-  * we had to combine mlflow with aporia and benefit from each strengths -> allows to cchange plarts of the platform for better tools (drop in replacement)
-  * -> stainyg flexible, no vendor lockin
+  * we had to combine mlflow with aporia and benefit from each strengths -> allows to change parts of the platform for better tools (drop in replacement)
+  * -> staying flexible, no vendor lockin
 ### how is the platform used?
 * 5 stages:
   * process management: freedom to choose libs and tools; ubuntu vms in the cloud, AWS E2 instances ..
   * data ingestion: streaming/batch; storage; best practice: basic quality checks and monitoring (use case agnostic); storage optimizations for faster queries, anonymization/pseudoymization (see also governance: certain type of data can't be stored longer than ten days)
   *  training: model selection, training, evaluation; GPUs/CPUs/TPUs cluster for deep learning
-  *  experiment rracking - mlflow
+  *  experiment tracking - mlflow
   *  model versioning - mlflow
   *  test&deploy: automated deployment stage; blue/green; automated re-training; one-click-deployment - mlflow; quality & security testing gateway; model compilation containerization - tagret specific deployment
   *  run & serve:  infrastructures and software monitoring; model monitoring (performance/feedback), data drift, generic API for inception, high availabilty; all provided by a secure REST API
   *  governance layer
 ### practical considerations
 * first get a good understanding between current and future demands
-*fexibility to replace tools because they grow out of scope fast
+* flexibility to replace tools because they grow out of scope fast
 * still staying lean, but not planning too far ahead into the future
 * fail early/fail fast - start with small PoC and grow continuously
 * always look for generic solutions for specific use cases
 * reserve time for data governance
 ### pitfalls
-* aoid technology islands to reach quick wins
+* avoid technology islands to reach quick wins
 * tool evaluation is time consuming and expensive, important to do in a structured way
 * avoid vendor lock-ins
 
@@ -94,32 +94,32 @@ About our speakers:
 * data science teams are very close to the application, centralised data lake
 * in the beginning 2 people, now 10-15 for the whole company; maybe 120 engineers worldwide dealing with it
 * AWS ECS platform for the containers
-* maybe every si month a release until now (aiflow, aporia, ..) - but with LLMs it can drastically change
-* 2 years ago some sentiment analysis: talk about differnt products in social media
+* maybe every six months a release until now (aiflow, aporia, ..) - but with LLMs it can drastically change
+* 2 years ago some sentiment analysis: talk about different products in social media
 * goal: models on edge devices
 * octoml - shrink the models
 * or nvidia: shrink and pooling; as different approach
 
-## Saahil Ognawala from Jinia AI
+## Saahil Ognawala from Jina AI
 * raised 38 M$, Berlin, Beijing, Shenzen
-* what if you combine LLMs with oter modality models?
-* 10 months at Jino; before Munich RE
-* until Octobre 2022 the task was always: we need an optimized model
+* what if you combine LLMs with other modality models?
+* 10 months at Jina; before Munich RE
+* until October 2022 the task was always: we need an optimized model
 * now: we need to customize an LLM to handle our tasks
 * right now we are past the stage of hype
 * before: one task - one model; now: one model for all tasks
 * "using an LLM as a non-paid intern; give them all the context they need, then let them work on the task" 
 * ![](img04)
-* if you have a large model, then you can add a task instead of having tojustify to train a new model
+* if you have a large model, then you can add a task instead of having to justify to train a new model
 * how to enable large models to handle customized tasks?
 * how to communicate effectively with large model?
-* using Joari-window to understand communication with large models: framework to understand our conscious and uncoscious bias; decrease lind spots, avoid misunderstandings; increase consensus
+* using Joari-window to understand communication with large models: framework to understand our conscious and unconscious bias; decrease blind spots, avoid misunderstandings; increase consensus
   * check LM and humans against each other: ![]()img06
 * two paths to increase consensus with large models
   * fine-tuning the model: reduce blind spots
 * how a large language model is trained
 * ![](img07)
-* first: unsupervised pre-training ->supervised instruction learning -> RLHF (reinformcement learning on human feedback)
+* first: unsupervised pre-training ->supervised instruction learning -> RLHF (reinforcement learning on human feedback)
 ### fine tuning a LLM
 * partial fine-tuning: mostly adapters:
 * complete fine-tuning:
