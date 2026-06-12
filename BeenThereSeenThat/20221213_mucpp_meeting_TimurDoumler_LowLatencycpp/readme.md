@@ -5,17 +5,17 @@
 
 ## Performance
 * various different concepts: throughput vs. latency
-* and what is "real time": not only means t produce the correct result, but it also has to produce it within a certain amount of time
+* and what is "real time": not only means to produce the correct result, but it also has to produce it within a certain amount of time
 * orthogonal ends of a spectrum; and depending on which side you care more, then different optimizations
 * high throughput; optimize the average case performance
-* versus: low latency: optimize the worst cast performance
+* versus: low latency: optimize the worst case performance
 * efficiency: reduce the amount of work/energy required to perform the task
 * low latency: HFT (high frequency trading), audio, games, "embedded"
 * throughout: internet servers, scientific simulations, quantitative finance
 
 ## hot path - concept
 * gaming 5-16 ms, audio 1-5 ms, HFT 100ns to 10 micro-s; GUI 100ms
-* consequences of "ho path" missing deadline
+* consequences of "hot path" missing deadline
   * gaming: dropped video frames
   * audio: audible clicks/glitches
   * HFT: lost money
@@ -23,7 +23,7 @@
 * topology:
   * audio: one hot path
   * gaming: parallel hot paths for rendering, one for the world updates, so multiple optimizations
-* howe mch control do you have over the platform you are running on?
+* how much control do you have over the platform you are running on?
   * audio/gaming: a bit control
   * HFT: more performance and control
   * embedded: total control, less performance
@@ -39,11 +39,11 @@
   * targeting efficiency
   * targeting low latency
 * most crucial thing: measuring!
-  * you donÄt know if something is efficient, fast, etc. unless you measure it
+  * you don't know if something is efficient, fast, etc. unless you measure it
   * recommendations: Fedor Pikus, the art of writing efficient programs (book, 2021)
   * Dave Rowland: optimising a real-time audio processing library (2022; talk)
-* performance analyse: measuring cache misses, branch mispredicts, syscalls ...
-* inspect the generated asembly: compiler explorer
+* performance analysis: measuring cache misses, branch mispredicts, syscalls ...
+* inspect the generated assembly: compiler explorer
 * benchmarking: google benchmark gperftools, Nonius
 * actual code vs. microbenchmarks
   * microbenchmarks are tricky: warm the cache, randomize the heap, measure release build, be mindful of optimizations changing what code you are measuring
@@ -69,7 +69,7 @@
 * alignment rules
 * ..
 
-* use powers of two for sizes (compiler will replace div/mod with bithsifts)
+* use powers of two for sizes (compiler will replace div/mod with bitshifts)
 * undefined behaviour can be your friend: UB & the optimiser
 * [[assume]] - in C++23; inject more undefined behaviour into the compiler
 * [[assume(x >= 0)]]; <-- just assume, don't measure
@@ -89,10 +89,10 @@
   * data locality, avoid node based containers, cache friendly associate containers: std::flat/std::flat_map
   * "almost always vector" 
   * mixins, CRTP?
-  * keep the cache warm: data case - periodically poke data on a timer
+  * keep the cache warm: data cache - periodically poke data on a timer
   * instruction cache: periodically run the critical path with dummy input/output (wow, quite interesting)
   
-## Targetting low latency
+## Targeting low latency
 * what not do do in the critical path
 * dynamic memory allocations
 * i/o
@@ -125,14 +125,14 @@
 * std::optional (not great)
 * std::expected (great, coming in cpp23)
 
-* prevent memory form being swapped out
+* prevent memory from being swapped out
   * lock address range into RAM: mlock (POSIX), VirtualLock (Windows)
 
 * avoid context switches/mode switches
   * thread priority
   * deterministic thread scheduler for real-time operating systems
-  * Kernel bypass: for ether net adapters
+  * Kernel bypass: for Ethernet adapters
 * turn off hyperthreading
-* pin critical path thread to ne cpu core (just in case you don't care about the efficiency of the other threads)
+* pin critical path thread to one cpu core (just in case you don't care about the efficiency of the other threads)
 
 * check later: github.com/crill-dev/crill - plan to make a lib for low latency features
