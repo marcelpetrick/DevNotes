@@ -20,78 +20,78 @@ Do you dream of a travel experience that's effortless and tailored to your every
 ```
 
 ## intro - Markus Ostertag
-* Chief AWS TEchnologist @ adesso SE
+* Chief AWS Technologist @ adesso SE
 * 180 announcements since the last meetup
 * NTT has an AWS hero in their ranks
 * u-9tb1.112xlarge (9 TiB RAM) now available in Stockholm (SAP Hana certified)
-* Mac M2 and M2 PRo availalbe in Frankfurt
+* Mac M2 and M2 Pro available in Frankfurt
 * attribute based price selection for auto-scaling: based on a percentage (like "I want to save always 40% to the following instances type")
 * storage: higher read IOPS for EFS: up to 250k read IOPS for frequently-accessed data
 * container: ECS announced managed instance draining for EC2
 * Amazon Q data integration in AWS Glue in preview: Q is something like GPT
   * "Woe does not know who Amazon Q ist?" - asked twice
-* Finch is AWS's docker; because the docker license has changed; is available n Windows
+* Finch is AWS's docker; because the docker license has changed; is available on Windows
 * IaC generator for CFN and CDK - no more clickops, but not new, because everyone uses Terraform ;)
   * scan current config, then scan, get a template, select template and get IaC for cloud formation
   * pretty huge and cool improvement
 * use CodePipeline for Github Actions
 * CodeCatalyst is introducing pull request approval rules: like 2 people of this and that team
-* SageMaker Automatic Model Tunicn supportsnow Delete API
+* SageMaker Automatic Model Tuning supports now Delete API
 * next AWS UG event 14.03. AutoScout24
 * AWS Community Day DACH: smartville Bogenhausen, 17.09.
 
 ## Fuad Ibrahimov & Michael Loibl (NTT Data): Building Scalable Gen AI RAG Applications with AWS Serverless
 * Michael: part of the genAI-core-team
 * cloud SME - subjectmatterexpert (what is this)
-* November 2022 ChatGPT was released, bi hype about genAI started
+* November 2022 ChatGPT was released, big hype about genAI started
 * they built their own chatbot - GoodGPT
 * small frontend: vue.js - backend with LangChain
-* next step: RAG application: document intelligence slution to also execute Prompts against private non publicly known documents
+* next step: RAG application: document intelligence solution to also execute Prompts against private non publicly known documents
 * they needed more advanced genAI functionalities
 * they needed a document-intelligence tool: GPT is trained with public data, but you want to use your own data
 * RAG for retrieval augmented generation:
-  * RAG is used for comple and knowledge-intensive tasks
-  * RAG is also used for tasks, that are not nown by the LLM
-  * external sources are used to obtain specific additional information This information are then added to the prompt.
-  * both, te additional nformation as well as the prompt are itself sent to the LLM
+  * RAG is used for complex and knowledge-intensive tasks
+  * RAG is also used for tasks, that are not known by the LLM
+  * external sources are used to obtain specific additional information. This information is then added to the prompt.
+  * both, the additional information as well as the prompt are itself sent to the LLM
 
 ### RAG - deep dive
 * 1. how to upload private data and documents
 * 2. how to use prompt engineering against your private data
-* for 1: genAI backend application: split the dpcument
-  * what is a word embedding? mathematical impression of text
+* for 1: genAI backend application: split the document
+  * what is a word embedding? mathematical representation of text
   * those are put into a highly dimensional vector space
-  * semantical closeness for similar things like: apples and banans, because both are fruits
+  * semantic closeness for similar things like: apples and bananas, because both are fruits
   * the distance between two vectors (embeddings) measures their relationship
 * GenAI applied backend: puts the result into the VectorDB: so the indexing was successful
 * for 2: document prompting part:
   * VectorDB: cosine-search: determine angle between vectors and fetch them - retrieve similar documents
-  * on top of that the prompt is used wth the chat-completion model:
+  * on top of that the prompt is used with the chat-completion model:
     * LLM is providing now some answer based on the provided (four) results
-    * result is sentd back to the frontend
-* first you index your private documents (confluence, jira pages, code ..): then prompt engineering against the vectordb
+    * result is sent back to the frontend
+* first you index your private documents (confluence, jira pages, code ..): then do prompt engineering against the vectordb
 
 ### implementation
 * AWS cloud with kubernetes, langchain, python, milvus, ..
 TODO add the image ![](img00.png)
 * but the result of the first load tests were not so good: two main issues: challenge were the max tokens and also rate-limits
-* so big prolems with scalability, limited ressources and cost management
-* thinks ike LangChain and LLamaIndex provide already a lots of functionality
+* so big problems with scalability, limited resources and cost management
+* things like LangChain and LLamaIndex provide already a lot of functionality
 * a jupyter notebook works, but not with 2000 employees
 * even with load balancing this did not work out
 
 #### first approach
-* separate endpoints: fr document upload and the splitting, parsing, ... embedding generation
+* separate endpoints: for document upload and the splitting, parsing, ... embedding generation
   * used Weaviate
 * RFP file: request for project - how to summarize this?
 * why not expand the pipeline, by doing a summary as well? so the summary will be found in the vector-search? good approach - very clever!
-* business csalability: how? by adding more fancy indexing and so on ...
+* business scalability: how? by adding more fancy indexing and so on ...
 
 ### demo time
 * the GoodGPT has self-awareness: has access to its own code base?
 * really great speed; impressive results and dogfooding for the company - impressive
 * uses GPT on Azure as backend for the LLM
-* their developer's knowledge has the same value like "before GenAI", because it matters to verfi the result
+* their developer's knowledge has the same value like "before GenAI", because it matters to verify the result
 * chat-completion-models versus embedding-models
 * chose openAI because they wanted to go live as fast as possible
 
@@ -100,17 +100,17 @@ TODO add the image ![](img00.png)
 * imagine a companion:
   * cluster view and IV (middle unit)
   * demo written with the CDK
-  * also uses tome TTS
-  * geofence for toll road (in  Austria): toll badge can be purchased automatically
-  * can suggest gas-station whcih has sian food
+  * also uses some TTS
+  * geofence for toll road (in Austria): toll badge can be purchased automatically
+  * can suggest gas-station which has Asian food
   * POIs - proactive information/point of interests: sights - companion can tell you in advance
-* requirements: different ai character moduels for communication: chattier, reserved, casual, or formal ..
+* requirements: different ai character modules for communication: chattier, reserved, casual, or formal ..
 * individual mapping of user -> ai character model
 * text-to-speech for the response
 * individual, user-tailored, and human-like answers from an LLM (large language model)
 * architecture:
   * has also a session history
 * TODO insert image of the architecture
-* the language processor is the promot of the user and the lambda client history
-* prompting: prpared template, which rovides some context for the llm; also has a service orientation and service blocks
-* paameter (like personality block) has target groups (formal business person ..) and a prompt block (you are a formale supportive, patient. you) understand the imortance of professionalism and aim to provide a sense of reliability in all your interactions ..)
+* the language processor is the prompt of the user and the lambda client history
+* prompting: prepared template, which provides some context for the llm; also has a service orientation and service blocks
+* parameter (like personality block) has target groups (formal business person ..) and a prompt block (you are a formal, supportive, patient. you understand the importance of professionalism and aim to provide a sense of reliability in all your interactions ..)
