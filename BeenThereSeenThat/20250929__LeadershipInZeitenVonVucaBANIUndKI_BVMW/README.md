@@ -10,19 +10,19 @@ Falls sich jemand vernetzen möchte: gern unter https://www.linkedin.com/in/marc
 
 ---
 
-* vuca: volatile, uncertain, complex, ambiguious
-* bani: britlle, anxous, nonlinear, incomprehensible
+* vuca: volatile, uncertain, complex, ambiguous
+* bani: brittle, anxious, nonlinear, incomprehensible
 ![](img00.png)
-* exogene faktoren ädnern sich stndig, technologien verändern sich
-* dauerzustand aus Reizüberlfutung
+* exogene faktoren ändern sich ständig, technologien verändern sich
+* dauerzustand aus Reizüberflutung
   * note: started the streaming recording - TODO convert this to a audio and then transcription
 * führung von heute braucht einen neuen fokus
-* verantwortung als führungskraft: kein invididueles thema mehr, fübhrungsuafgabe gewordne, aber keine therapeuten werden
-* sensibilitieren, leuiten
-* erkenntnisse aus er neur leadership
+* verantwortung als führungskraft: kein individuelles thema mehr, führungsaufgabe geworden, aber keine therapeuten werden
+* sensibilisieren, leiten
+* erkenntnisse aus der neuen leadership
 * 60 bis 70k gedanken pro tag
-* 90% iunserer gedanken wiederhoen sich: dientisch mit gestern
-* präfrontaler kortext: entscheidungssystem
+* 90% unserer gedanken wiederholen sich: identisch mit gestern
+* präfrontaler kortex: entscheidungssystem
 * entscheidungssystem
 * planung und steuerung von handlungen
 * problem lösungen
