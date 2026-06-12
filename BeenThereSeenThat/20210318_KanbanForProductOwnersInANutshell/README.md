@@ -11,7 +11,7 @@
 * Scrum would be revolutionary: creates also breaks
 * manages the effort (the work), not the workers! -> "Watch the baton, not the runner!"
 * the result is what matters
-* customer not really itnerested what you do in detail, but what is delivered to him
+* customer not really interested what you do in detail, but what is delivered to him
 * Kaizen: continuous improvement
 * feedback loops
 * past "visualize the work", now "visualize"
@@ -25,10 +25,10 @@
 * pull limits, WIP limits?
 * commitment process mit stakeholdern klar definieren: sachen werden erst "real" bearbeitet wenn sie in "selected" sind und nicht wenn sie (stakeholder) den PO angerufen haben
 * gewohnheitsmäßig folgt alles dem Schema: wer (bei mehrerern Stakeholdern) am lautesten schreit, wird zuerst bedient; wie kann man dies handhaben? Weil man sonst nur Feuerwehr spielt?
-* Kanban regelt dies durch Indentifizierung der externen Abhängigkeiten; gibt auch Regeln dies zu managen
+* Kanban regelt dies durch Identifizierung der externen Abhängigkeiten; gibt auch Regeln dies zu managen
 * Pull instead of Push
 * "so true (abseits von Kanban): LIEFERN erstickt jede Diskussion im Keim (da gehts halt los, abseits von PO / outcome Themen, die natürlich mindestens genauso wichtig sind)"
 * Begrenzung wie man Themen neu aufnimmt (nicht nur "über Zaun werfen"): explicit policies; Art zu Arbeiten explizit definiert, Workflows festgelegt (und transparent)
-* Wann wird gepullt? Prioriserung (wie? was taugt, was man kann, was ganz oben liegt? welche serviceklassen?) klarstellen
+* Wann wird gepullt? Priorisierung (wie? was taugt, was man kann, was ganz oben liegt? welche serviceklassen?) klarstellen
 * "On hold"-Spalte..
 
