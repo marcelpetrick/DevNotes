@@ -10,7 +10,7 @@ Franziska Hauck is people strategist and leadership expert, with a strong focus 
 https://www.linkedin.com/in/franziskahauck/
 ```
 
-* Frnziska Hauck known as "tech people code" because she likes to crack tech people code
+* Franziska Hauck known as "tech people code" because she likes to crack tech people code
   * people strategist & leadership coach
 ![](img00.png)
 * 
@@ -32,8 +32,8 @@ https://www.linkedin.com/in/franziskahauck/
 ## what kind of leader do i want to be?
 * what do i not want to be?
 ![](img03.png)
-* evertime she was faced with a bad leader (lack of investment or commitment): she said: everything but that
-  * now she sues those moments to turn the ship around
+* every time she was faced with a bad leader (lack of investment or commitment): she said: everything but that
+  * now she uses those moments to turn the ship around
 * in other scenarios it means: asking yourself again what is currently needed to excel?
 * what is a leadership profile
 ![](img04.png) - the chart
