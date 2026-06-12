@@ -57,7 +57,7 @@ Peter Balogh
 
 LinkedIn
 
-Peter has 25+ years of experience as a Head of PMO, Program Director, and Technology Leader, specializing in strategic program delivery, agile transformation, and cross-border portfolio management across different sectors likeFintech, automotive, banking/payments, telecommunications, retail, and SaaS.
+Peter has 25+ years of experience as a Head of PMO, Program Director, and Technology Leader, specializing in strategic program delivery, agile transformation, and cross-border portfolio management across different sectors like Fintech, automotive, banking/payments, telecommunications, retail, and SaaS.
 
 He’s a Certified SAFe Program Consultant (SPC) and PMI PMP with 10 years of experience building and leading high-performing PMO teams from scratch, accelerating project delivery by 20%+ and ensuring 100% regulatory compliance.
 
