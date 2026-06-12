@@ -9,7 +9,7 @@ todo: add photos
 
 ## image retrieval
 * given a query image find the most similar image in a db of indexed images
-* normally create embedding or correlation, feature vector fort he image (all different names)
+* normally create embedding or correlation, feature vector for the image (all different names)
 * main challenge to train a model to have a good image embedding vector
 * if this is possible do embedding for query image and match this against the content of the database
 * can be used as well for classification
@@ -20,10 +20,10 @@ todo: add photos
 * importance for embedding vectors and similarity
 * images with the same coloring, weather conditions, ... can be found
 
-* cosigned similarity: describes the angle between the embedding vectors
+* cosine similarity: describes the angle between the embedding vectors
   * simplest way: hashing: naive way ..
 * state of the art way: arc face loss
-* cluster the embedding vector across some center, which represent sthe class; also represent tha margin of the calss
+* cluster the embedding vector across some center, which represents the class; also represent the margin of the class
   * can be used for NLP as well, not just image vision
 * how to combine models and approaches:
 img01
@@ -39,7 +39,7 @@ classification
 
 # GLD2
 * google landmark dataset 2 (quite important, has papers about it)
-*a good benchmark for large scale image retrieval: shares a lot of properties for other large scale sets
+* a good benchmark for large scale image retrieval: shares a lot of properties for other large scale sets
 * diverse in terms of 200k classes
   * nature, buildings, globally with some bias on Europe
 * but similar:
@@ -50,7 +50,7 @@ classification
 * high intra class variability (see churches)
 * crowd-sourced: wikimedia commons; right now with climate change for July; needs GPS and some metadata and have the proper license
 * but google also has "operators", who are hired and take specific photos for wanted new classes
-* there was a "cleaned" version after the 1st place solution of the 20129 google landmark competition
+* there was a "cleaned" version after the 1st place solution of the 2019 google landmark competition
 * 3 step approach: 100 nearest neighbours ... GLDB-clean; also resulted in the reduction of classes to 81k; is a subset
 * competition has two tracks: recognition and the retrieval track
 * inference is done on a hidden query set
@@ -81,25 +81,25 @@ classification
 * better support for multi-gpu training
 * uses github to store code and share with team members
 *feature: github actions: push code to kaggle dataset and kernels
-* ASWS for storage
+* AWS for storage
 * neptune: for visualization; displaying metrics, storing hyperparameters; comparing training runs; compare with team members
 * the pushing to kaggle and its automation was quite helpful for him ... also the requirements.txt
 ### tips for large scale data
 * really helps with experimentation: just use a subset of the data
 * 1 percent of the data: just check stuff
 * then larger subset for experimentation (half), but still not the full data - to save time
-* same is true for the image sizes; also re-use the weights on larger images, the retrain again for even bigger images -> gives you a much more efficient approach fr experimentation
+* same is true for the image sizes; also re-use the weights on larger images, the retrain again for even bigger images -> gives you a much more efficient approach for experimentation
 * in theory everything should run on GPU, but his experience is that this way CPUs are starving
 * multi-GPU training: distributed data parallel over DP (distributed parallel); because it reduces the communication between GPUs and is therefore faster
 
 ### modeling and architecture
-* use backbones where weights of the images are already pre-training on imagenet
+* use backbones where weights of the images are already pre-trained on imagenet
 * two main  models: hybrid swin transformer and DOLG
 TODO: image of his architecture
 * STEM -> Body -> neck -> Arface classification head
 
 ## first model: DOLG
-* efficeint net encoding
+* efficient net encoding
 * de-orthogonal fusion of local and global descriptors
 * image TODO
 * subcenter arcface with dynamic margins handles the intra-class variability well; 2nd and 3rd place the year before
@@ -111,7 +111,7 @@ TODO: image of his architecture
 todo image of class consistency reranking
 * at the end of the day he had 9 models in his kernel: accumulated training time 7-10 days on 8xV100
 
-## curent SOTA
+## current SOTA
 * transformer/CNN hybrids like convnext, maxfit
 * large scale pretraining on image-text pairs:
   * CLIP learns visual concepts just by matching image with description of the image; gives much better image representation than training on image net
@@ -121,7 +121,7 @@ todo image of class consistency reranking
 # 2nd talk: Training is Silver, Inference is Gold by Adolf Hohl, Solution Architect Manager, NVIDIA
 * Adolf Hohl -  Solution architect - from nvidia
 * loves to build large scale number crunchers in his free time
-* start: given an ONNX by Crhistof - pytorch versus tensorflow people; pytorch was the absolute majority of the users in the room
+* start: given an ONNX by Christof - pytorch versus tensorflow people; pytorch was the absolute majority of the users in the room
 * he combined two models into one
 * CLIP as feature extractor
 * Triton is their inference server: ensemble model
