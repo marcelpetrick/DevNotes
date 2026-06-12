@@ -3,7 +3,7 @@
 ```
 Details
 
-Spring time in Munich! After our successful collaboration with the AWS Women's User Group in March we're coming back to our regular setting and looking forward to see many of you!
+Spring time in Munich! After our successful collaboration with the AWS Women's User Group in March we're coming back to our regular setting and looking forward to seeing many of you!
 This time at netlight, who are sponsoring food, drinks and opening their offices for us. Thanks for also providing two great talks!
 
 AGENDA:
