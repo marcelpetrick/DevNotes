@@ -16,7 +16,7 @@ Teamleadsky Agile 201 - Discuss Agile concepts in simple terms with other practi
 How to split?
 ![](img03.png)
 ![](img04.png)
-* something like the perfect user-story are nothing which exists - just a tool for communication with stakeholders
+* something like the perfect user-story is nothing which exists - just a tool for communication with stakeholders
 ![](img05.png)
 * common restrainer: not enough time for refinement!
 ![](img06.png)
