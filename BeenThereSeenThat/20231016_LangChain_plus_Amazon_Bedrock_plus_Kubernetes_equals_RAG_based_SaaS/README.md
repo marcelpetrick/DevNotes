@@ -1,6 +1,6 @@
 # 20231016 LangChain + Amazon Bedrock + Kubernetes = RAG-based SaaS
 
-## Multi-tenant Chatboot with RAG using Amazon Bedrock
+## Multi-tenant Chatbot with RAG using Amazon Bedrock
 ![](img00.png)
 * ML is at an inflection point
 * why amazon EKS for AI/ML?
