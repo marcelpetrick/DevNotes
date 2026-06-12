@@ -61,7 +61,7 @@ MP:
 * Zusammenarbeit fördern: Task-Management-Lösungen wie Slack, Asana, Trello, Meister Task, Monday ..
 * Datensicherheit gewährleisten durch technische Hilfsmittel und Mitarbeiterschulungen
 
-## Rolle der Führungkraft
+## Rolle der Führungskraft
 * Orientierung geben, Rahmen setzen, Unterstützung leisten, Handlungsspielräume schaffen
 ![](04.png)
 
@@ -143,7 +143,7 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 ## "Coach oder Führungskraft?" - was will man sein?
 * nur direkt anweisen oder coachen?
 * erstmal Einschätzung der Mitarbeiter machen zwecks Qualifizierungsstand: B1 bis B4
-* Stand in 1:1 GEsprächen herausfinden: eigene Mitarbeitereinschätzung und meine abgleichen: bei großen Diskrepanzen die jeweiligen Felder diskutieren
+* Stand in 1:1 Gesprächen herausfinden: eigene Mitarbeitereinschätzung und meine abgleichen: bei großen Diskrepanzen die jeweiligen Felder diskutieren
 ![](14.png)
 * Bewertung der Mitarbeiter erledigen zwecks Richtungsfindung und Unterstützung
 ![](15.png)
@@ -197,7 +197,7 @@ Siehe: delegieren <-> partizipieren <-> überzeugen <-> anweisen
 * Angst vor Verlust
 * Angst vor Verantwortung
 ![](19.png)
-* viele Variablen für recht einfache Entscheidungen: falls man auc zu lange wartet, dann wird einem als Führungskraft auch die Entscheidung abgenommen
+* viele Variablen für recht einfache Entscheidungen: falls man auch zu lange wartet, dann wird einem als Führungskraft auch die Entscheidung abgenommen
 
 ### Methoden: Entscheidungs-Mindmap
 * Pro und Contra für jede Lösung aufzeigen
@@ -278,7 +278,7 @@ siehe Auflösung der Übung in img29
 * Begeisterung ist ein Spiel mit der Erwartungshaltung
 
 ### kollaboratives Lernen
-* work out loud? lunch&learn? fuckup? best practive-sharing
+* work out loud? lunch&learn? fuckup? best practice-sharing
 
 [Ende Tag 2]
 
@@ -308,7 +308,7 @@ siehe Auflösung der Übung in img29
 * Ergebniskontrolle: Konzentration auf die Ergebnisse
 ![](38.png)
 
-### Übung: Zielvereinbarungen kritsch analysieren (Handbuch Setie 18)
+### Übung: Zielvereinbarungen kritisch analysieren (Handbuch Seite 18)
 ![](39.png)
 * falls man den Leuten nicht in die Augen gucken möchte, dann Punkt auf der Stirn fixieren
 * auf Gestik und Mimik achten
@@ -340,7 +340,7 @@ siehe Auflösung der Übung in img29
 * Gehalt nach Joblevel?
 * wie oft lacht man in seiner Abteilung?
 
-## Checkliste für den virteullen Führungsalltag
+## Checkliste für den virtuellen Führungsalltag
 ![](47.png)
 ![](48.png)
 * vorher Agenda aufstellen für Meeting
