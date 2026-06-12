@@ -1,5 +1,5 @@
 # 20221116: Google Zukunftswerkstatt: Alles was sie über die Führung im Homeoffice wissen müssen
-* TODO check later: zukunftswerkstatt.de seit 20214, nicht nur Deutschland - hat auch E-Learning-Angebot
+* TODO check later: zukunftswerkstatt.de seit 2014, nicht nur Deutschland - hat auch E-Learning-Angebot
 * München, Berlin, Hamburg live
 * Innovationstechniken und kollaborativer Zusammenarbeit
 * komplettes Seminarangebot auch auf youtube
@@ -23,7 +23,7 @@
 * kriegen Dinge geregelt
 * regelmässiges Feedback holen
 * Teamentwicklung
-* begleiten, entwickel, füreinander da sein
+* begleiten, entwickeln, füreinander da sein
 
 #### Großartige Führungskräfte kriegen Dinge geregelt
 * haben eine klare Vision und Strategie für das team
@@ -38,15 +38,15 @@
 * Halt geben
 * heutzutage durch NewAge und NewWork anderes, offeneres Kollaborieren. Früher: Wissen ist Macht
 
-### gute Führungskräfte entwickeln das TEam
+### gute Führungskräfte entwickeln das Team
 * sind ein guter Coach
-* ermächtigen ihr team und micromanagen nicht
+* ermächtigen ihr Team und micromanagen nicht
 * schaffen ein inklusives Umfeld, das Erfolg und Wohlbefinden vereint (Entscheidungsrahmen, räumliche und Arbeitsplatzsituation)
 * Unterstützen Karriereentwicklung und besprechen Leistung
 * Sind gut kommunizierende - hören zu und teilen Informationen
 
 TODO: von handy
-!()[img01.png]
+![](img01.png)
 
 * Feedback geben, nebenher reden - das geht durch die Videocalls nicht mehr wie früher, was man vorher auf "dem Flur" machen konnte
 * push versus pull Marketing - Kommunikation heißt nicht, dass man nur selber redet, sondern auch mal Fragen stellt
@@ -83,7 +83,7 @@ TODO: von handy
 * Struktur: mit Socialising beginnen; dann Perspektive reflektieren (Du, ich weiß nicht, wie es Dir geht? Aber mein letztes Teammeeting war nicht so toll.), auf Leistungen eingehen "ich habe das Gefühl, das hat dir Spaß gemacht", "ich habe den Eindruck, du wartest noch auf eine neuer Herausforderung"; bei manchen LEtuen kann eine Agenda helfen - sollte aber individuell entschieden werden; eventuell keine feste Agenda, sondern "ich hätte gern mit dir folgende Punkte besprochen?"
 * persönliches Interesse an den Leuten zeigen: nachfragen, wenn Details bekannt sind
 * in kleinen Gesprächen eher nicht hart "Company - Projekt - Person" rangehen, sondern es eher um die Person drehen
-* wiki page pro Mitarbeiter; CRM-System; OneNote .. dann elektronisch verschlüsseln; mindmap tool - Wohlfühlfaktor de sMitarbeiters spielt größeren Raum als Datenschutz
+* wiki page pro Mitarbeiter; CRM-System; OneNote .. dann elektronisch verschlüsseln; mindmap tool - Wohlfühlfaktor des Mitarbeiters spielt größeren Raum als Datenschutz
 * TODO: Struktur überlegen
   * Mitarbeitergeburtstage im Kalender eintragen
   * als Vorgesetzter darf man gewisse Daten über die Mitarbeiter haben
@@ -148,7 +148,7 @@ TODO: von handy
   * die ich selbst fällen möchte
   * die jeder selbst treffen kann
   * die wir im Team gemeinsam treffen
-  * die das Team one mich trifft
+  * die das Team ohne mich trifft
   
 ![](05.jpg)
 
@@ -161,7 +161,7 @@ TODO: von handy
 ![](06.jpg)
 
 ## Feedback geben und einfordern
-* Situation: beschreien die sie Situation um die es Ihnen geht und seien sie konkret
+* Situation: beschreiben Sie die Situation um die es Ihnen geht und seien Sie konkret
 * Verhalten: welches Verhalten haben sie beobachtet? Was hat ihr gegenüber genau gemacht?
 * Auswirkung? Welche Auswirkungen hatte dieses Verhalten auf das Team oder Sie selbst
 
