@@ -12,7 +12,7 @@
   * build real world datasets at scale (autolabelling, versioning, structuring)
   * develop custom ml solutions fast (signal processing, data extraction)
   * deploy intelligent edge products
-* everything produced should be open source; right now 40k develops on platform, 85k projects, 1k enterprises
+* everything produced should be open source; right now 40k developers on platform, 85k projects, 1k enterprises
 
 ml solutions:
 * wearables (Oura): voice commands, health prediction, activity detection, gesture recognition, acoustic event detection
@@ -44,34 +44,34 @@ ml solutions:
 * 1763 bayes theorem: statistics
 * 1805 least squares method
 * 1913 Markov chains
-* 1943 artifical neutron
+* 1943 artificial neuron
 * 1951 first neural network machine
 * 1957 perceptron
-* 1969 nearest neightour algirthm
+* 1969 nearest neighbour algorithm
 * 1970 backpropagation
-* 1979 neocortignitron
+* 1979 neocognitron
 * 1982 recurrent neural network
 * 1986 backpropagation applied to neural network
-* 1989 reinformencet learning
+* 1989 reinforcement learning
 * 1990-2005: support vector machines, random forest algorithm
-* 2005-2021: attempts to resssurce neural networks with unsupervised pretraining,probalilistic neural nets, aleternative learning rules
-* 2012: imagenet chhallenge: classify unsee saples of the same image; alexnet CNN possible due to the advancement in GPU processing
-* 2021-present: more layers, more parameters, lots more computing cycles, a few important tricks that imrive training and generalization,
+* 2005-2021: attempts to ressurrect neural networks with unsupervised pretraining, probabilistic neural nets, alternative learning rules
+* 2012: imagenet challenge: classify unseen samples of the same image; alexnet CNN possible due to the advancement in GPU processing
+* 2021-present: more layers, more parameters, lots more computing cycles, a few important tricks that improve training and generalization,
 
 ### hot topics in 2022
 * transformer networks; attention based neural networks
-  * focus on specific areas in our percetion
+  * focus on specific areas in our perception
 * quite good for computer vision and natural language processing (NLP)
 * GANS: generative adversarial networks
 * diffusion models (markov chains with random noise): cat with a hat ..
-* self-supervision great techniqe for labelling unlabelled data
-* zero-shot learning (no trainign data) versus one-shot learning
+* self-supervision great technique for labelling unlabelled data
+* zero-shot learning (no training data) versus one-shot learning
 * knowledge-distillation
 
 ### ml tasks
 * supervised learning: regression
 * image classification: binary image classification: dog and cat ..
-* object detedtion: with bounding boxes
+* object detection: with bounding boxes
 * image segmentation
 * natural language processing: keyword spotting, (google home and alexa)
 * clustering: crime prediction using k-means clustering
@@ -79,7 +79,7 @@ ml solutions:
 * reinforcement learning: good for learning to play Go or other computer games
 
 * reasons for failure: asking the wrong question
-* having too less, much data, using the wrong tools,not the right model or metrics, wrong people, trying to solve the wrong question
+* having too little or too much data, using the wrong tools, not the right model or metrics, wrong people, trying to solve the wrong question
 [todo: add some of the photos - at least those which can be read]
 
 ## Making things smarter
@@ -124,13 +124,13 @@ ml solutions:
 ## MCSA - an old technique in a new dress
 * motor diagnosis: how to improve with ML?
 * two types: AC and DC motors
-* BLDC motors: brushless mtoros; most common in devices and robotics
-* bearing faults and stator faults: short cicruits, shaft faults, brushes fault
+* BLDC motors: brushless motors; most common in devices and robotics
+* bearing faults and stator faults: short circuits, shaft faults, brushes fault
 * faults require time to develop
 * condition monitoring for motors
 * objective: reduce maintenance cost, improve components, reliability, optimized motor performance, predict motors failure
 * MCSA: motor current signature analysis is sensorless based
-* sensor based: thermal monitoring, noise monitoring, vibration monitoring, torque m.; disadvantages: possible sesor failures, accurate sensors are expensive, require access to the motors, invasive installation
+* sensor based: thermal monitoring, noise monitoring, vibration monitoring, torque m.; disadvantages: possible sensor failures, accurate sensors are expensive, require access to the motors, invasive installation
 * effective dsp approaches: emd (empirical mode decomposition)
 * classical ml worked better than deep learning
 * but there was just the 10year old paper: no opensource, no code existing
@@ -165,7 +165,7 @@ ml solutions:
 * difficulties: data quality
   * problem with skin-tone and left-/right handed affected the data quality: no more good clustering of the data-set
   * the "data explorer" feature helped quite well: with one click data-samples can be reclassified with just a few clicks
-* quick protoyping: they used the RPi and Jetson Nano, support for these platforms was quite useful
+* quick prototyping: they used the RPi and Jetson Nano, support for these platforms was quite useful
   * any change via ssh quite simple: anything which runs linux; after validation they use smaller microcontrollers
 * model deployment: constraints for OTA and memory sizes; proper strategy should be chosen
 * st vlx5 for the TOF sensor (should be freely available) [check this]
@@ -194,7 +194,7 @@ ml solutions:
 ### presentation round
 * Marcel Petrick, team lead for the application software
 * Data Modul: creates custom-tailored solutions for SBCs, displays, especially touch displays for european companies; discussing the AI strategy for the next years. team lead for the application software for embedded devices. lots of HMI-solutions could benefit from additional ways to input data; gestures?
-* out of my own interest I played in my freetime with edgeimpulse on a microbit v2; quite impressive; keyword recognition - support of the platform to enable me as non-native software engineer to create ML.model was impressive
+* out of my own interest I played in my free time with edgeimpulse on a microbit v2; quite impressive; keyword recognition - support of the platform to enable me as non-native software engineer to create ML model was impressive
 
 ### to check
 * definition of time-series (any events, sampling rates)?
@@ -207,7 +207,7 @@ ml solutions:
 * do ML based on current (use case! check this) - check for defects; temperature/sound is done from everyone, but current is the way to go
 * [check this] coursera course: two are available
 * in-cabin: drowsiness detection, etc.?
-* nn-based detecton compared to kalman-detection based: gps-positioning
+* nn-based detection compared to kalman-detection based: gps-positioning
 
 
 [end of the day]
