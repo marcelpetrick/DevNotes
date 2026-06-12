@@ -123,7 +123,7 @@ TODO: image of the architecture for AWS
 * Unleashing humor with AI
 * Largest database for memes: imgflip.com
 * Roadmap for MemeGPT
-* Training on different sets of powerful hardware: 8x NVIDIA H110 versus 8x Intel Gaudi2 AI
+* Training on different sets of powerful hardware: 8x NVIDIA H100 versus 8x Intel Gaudi2 AI
 * His third startup he is working at: has already some exit plans
 * ChatGPT has problems understanding memes
 * Paper: Dank Learning: Generating Memes Using Deep Neural Networks
