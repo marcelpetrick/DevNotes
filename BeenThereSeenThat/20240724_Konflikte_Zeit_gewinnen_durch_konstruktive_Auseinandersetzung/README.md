@@ -22,7 +22,7 @@ Zudem ist das (selbst-)verantwortliche Austragen von Konflikten die Quelle für 
 
 Und warum sollten wir uns damit befassen? Wir haben doch keine Konflikte, oder?
 
-Unser Coach Jan Klostermann befasst sich seit über 10 Jahre auch mit Wegen zur Konfliktbearbeitung, ist ausgebildeter Mediator und Faciltator für Restorative Circles.
+Unser Coach Jan Klostermann befasst sich seit über 10 Jahren auch mit Wegen zur Konfliktbearbeitung, ist ausgebildeter Mediator und Facilitator für Restorative Circles.
 ```
 
 --------------
