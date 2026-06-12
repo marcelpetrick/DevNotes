@@ -15,7 +15,7 @@
 2. you want to save money and reduce latency
 3. you want a smaller model (fewer parameters) that was trained to imitate a larger one
 
-## exmaple app 1: domain taILORED SUMMARIZTEATION WITH HOSTED llm apiS
+## example app 1: domain tailored summarization WITH HOSTED llm apiS
 * domain tailored summarization: typical downstream client only read from the API
 ![](img00.png)
 ![](img00.png)
@@ -23,60 +23,60 @@
 * then select the model: using model NeMo GPT20B - compare both of them
 * comparison of the summaries of both models: then evaluate the results
 * when the comparison is checked, it can be customized, so that this is fed back for the next training - with more human input, the custom models will perform better and better
-*## hot it works
+## how it works
 
 # tuning hosted api LLMS
-* e.g. A21lab jurassics, AWS titan, cohere, scale, openai, ndivia
+* e.g. A21lab jurassics, AWS titan, cohere, scale, openai, nvidia
 todo img00png
 
 * example openai API
   * clean no-code environment
   * set some parameters, select model upload data and create prompt
 * what is fine-tuning?
-  * traditionally means updating full parameters of the model with supverised learning
-1. either: suupervised fine-tuning of llm
+  * traditionally means updating full parameters of the model with supervised learning
+1. either: supervised fine-tuning of llm
 2. train reward model with human feedback
-3. reinforcement learning pipeline with human feeedback
+3. reinforcement learning pipeline with human feedback
 * for more details: hugginface.co/blog/rlhf
 * latest techniques for customizing LLMs
 img00
 * prompt engineering is not changing the model!
 * prompt desing is crucial to obtaining good results from an LLM
 img00
-latest techniqes for customizing LLMS
+latest techniques for customizing LLMS
 * few shot prompting
 img00
 * prompt learning: comparison to full-parameter fine-tuning
 * multi-headed self-attention ..
 * prompt learning adds a small number of trainable virtual tokens upstream of the llm
 more efficient: for each new custom task, all we do is train those tokens
-* the downstream foundation modlel is unchanged
+* the downstream foundation model is unchanged
 * or: P-tuning: more accurate than fine-tuning
 * access also possible via POST-request
 * NeMo LLm Service
 * also: adapter-based techniques: adapters, LoRA, IA3
 * adapters: insert into each transformer layer, only update weights of adapters
-* LoRA: low-rank adaptation: optimize rank decompozition matrices of dense layers
+* LoRA: low-rank adaptation: optimize rank decomposition matrices of dense layers
 * IA3: like adapter, but where each adapter is a vectro, that scales key, value or ffn
 * his recommendation: pick what is most efficient as fine-tuning-mechanism; then get started to build the app
   * then try some of the other efficient ways and optimize
 
-## data collection and preaparation for tuning
+## data collection and preparation for tuning
 img03
-* before doing this, check if someone maybe already used it to fine-tuning a model whcih is availble on hugging face
+* before doing this, check if someone maybe already used it to fine-tune a model which is available on hugging face
 * don't over rely on public datasets: need to curate input/output pairs
-*Ü less is more for alignment: high-quality, low quantitiy training da versus low-quality, high quantitiy, see also the arxiv-link
-* synthetic data generation: use high end model and complex prompt template to induce correct behavriou/outputs from smaller model (context distillation)
+* less is more for alignment: high-quality, low quantity training data versus low-quality, high quantity, see also the arxiv-link
+* synthetic data generation: use high end model and complex prompt template to induce correct behaviour/outputs from smaller model (context distillation)
 img04
 
-## exmaple 2: RAg workflow
-* retrieval augmented genration
-* decouples an LLm from only being able to act on original training data
-* obtivates the need to retrain the LLM with the latest data
+## example 2: RAG workflow
+* retrieval augmented generation
+* decouples an LLM from only being able to act on original training data
+* obviates the need to retrain the LLM with the latest data
 * LLMs limited by context window sizes
 
-* concept: connect LLLM to data sources at inference time; eg. datbase, web, documents, 3rd prty
-* embeddings and the vector dtabase
+* concept: connect LLM to data sources at inference time; eg. database, web, documents, 3rd party
+* embeddings and the vector database
 --> todo: img with
 
 + comparison: question decomposition versus chain of thought reasoning
@@ -91,7 +91,7 @@ img!
 
 * how does it work?
   * see OctoML: for synthetic data generation and context distillation
-  * acquire data set -> prompt LLama 2/= B model with few-shot prompts -> manually verify results -> train LLama 2 7B with PEFT and FP4 to mimic Llama 2 70B -> prompt llama 2 7B with zero-shot prompts. Hosted on OactoAI platform
+  * acquire data set -> prompt LLama 2 70B model with few-shot prompts -> manually verify results -> train LLama 2 7B with PEFT and FP4 to mimic Llama 2 70B -> prompt llama 2 7B with zero-shot prompts. Hosted on OctoAI platform
 
 ###  more robust RAG
 * tuning a question decomposition model
@@ -101,29 +101,29 @@ tuning a QA model that explicitly only answer from context
  * re-ranker
  * decoupling retrieval and generation chunks
  * using document metadata/hierarchy
-* agenst: using external tools (to answer a math question)
+* agents: using external tools (to answer a math question)
 * serving for inference
 
 ## tuning self-managed LLMs
 img00 todo
 * self-managed: own and manage underlying model weights
-* privacy, ownership, portability, flexibility, cost:run on own infrastrcutre; choice of customization
+* privacy, ownership, portability, flexibility, cost: run on own infrastructure; choice of customization
 * examples for getting started: nemo framework, huggingface hub+PEFT
 
 ### hosted aPI llms
-* accessibl enly throuh hosted APIs
+* accessible only through hosted APIs
 * easy to use, push-button experiences
-* easy to deploy: don't have to worry about manangeing hardware and keeping your API healthy
+* easy to deploy: don't have to worry about managing hardware and keeping your API healthy
 * examples: openai, bedrock ..-
 
-* suggestion: try out NeMO framework; used by oracle, AWS, microsoft Azure, lenovo, dell, hewlett packard, nvidia DGC cloud
-* neMO is cloud native and canbe used on all platforms
+* suggestion: try out NeMO framework; used by oracle, AWS, microsoft Azure, lenovo, dell, hewlett packard, nvidia DGX cloud
+* neMO is cloud native and can be used on all platforms
 
 ### example
 img:
 * 1. set parameter efficient fine-tuning type; 2. set hyperparameters
 
-## reacp
+## recap
 img: - the last one
 
 
@@ -335,7 +335,7 @@ Yes synthetic data generation is a good strategy in scenarios like these. Keep i
 
 what is the 'num of recs' parameter?
 
-Number of recommdations (hits) desired
+Number of recommendations (hits) desired
 
 Do you have any recommendations on MLOps/DevOps patterns to facilitate experimentation?
 
