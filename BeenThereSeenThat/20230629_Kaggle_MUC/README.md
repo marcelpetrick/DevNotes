@@ -38,13 +38,13 @@ An exploration of the FB prophet library and its capabilities via a brent oil pr
 * TODO: insert the photo with the qr-code
 * code:
 * talk will be mostly  review of literature, not a product promotion
-* criterias for picking: single-stage over multi-stage; has real world application; in context learning / prompt engineering over fiene tuning
+* criteria for picking: single-stage over multi-stage; has real world application; in context learning / prompt engineering over fine tuning
 
 ### why do we need reasoning?
 * generate code
-* self criique
+* self critique
 * problem solving
-* planning/priorization
+* planning/prioritization
 * plugin/tool use
 
 ![](img03.png)
@@ -73,7 +73,7 @@ img04
 * img07
 * todo: add the algorithm from the image
   * "aggregate by choosing the most consistent answer i the final answer set""
-* good way to tweak the responses to improve the obustness
+* good way to tweak the responses to improve the robustness
 
 ### DIVERSE (diverse verifier on reasoning step)
 * step 1: diverse prompts
@@ -113,7 +113,7 @@ img04
   * "bevharioural science on a model": because analytical approach is a bit grey matter
   * "how does in-context learning work?" - check for this paper
     * idea is quite similar to back-propagation
-* what happens withs slightly wrong intermediate anaswers? then the LLM can quite good rationalize
+* what happens with slightly wrong intermediate answers? then the LLM can quite good rationalize
   * hypothesis: metaphorically the model is buying more time to think -> more time results in more correct answers (!)
 
 * things which were not covered today: RL, fine tuning; grounding / retrieval argumented
@@ -121,7 +121,7 @@ img04
 ### Take aways (summary)
 * img11
 * TODO cross check with the image!
-* many LLms can benefit form CoT
+* many LLMs can benefit from CoT
     * include a thought section in your prompt besides the desired response
     * it gives the model some capacity to think
     * it helps with debugging sometimes as well
@@ -134,4 +134,4 @@ img04
 * LLM can be LM teacher: data augmentation via LLMs
 
 
-* struggle to have good quality training data: now lLM can be used to improve the less quality trainng data; to have better augmented training data to use to train smaller LLMs; to our benefit
+* struggle to have good quality training data: now LLM can be used to improve the less quality training data; to have better augmented training data to use to train smaller LLMs; to our benefit
