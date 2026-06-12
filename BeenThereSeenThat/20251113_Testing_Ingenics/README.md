@@ -30,7 +30,7 @@
 
 * Parser für Bootlog/Screen: Test recht schnell gemacht
 
-## Wwas bietet ingenics -- aber auch gut zum Abkupfern
+## Was bietet ingenics -- aber auch gut zum Abkupfern
 * Softwarequalität von Projektbeginn an sicherstellen
 * Konzept und Realisierung von Frameworks
 * Methodik
