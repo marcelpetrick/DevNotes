@@ -1,5 +1,5 @@
 # 20230530 Talentidentifikation – Businesskritische Positionen dauerhaft besetzen
-* Host Ingrid Janssen; Carola Nussen-Schneider als Vortragende
+* Host Ingrid Janssen; Carola Nusser-Schneider als Vortragende
 ```
 Referentin: 
 Dipl. Kffr. Carola Nusser-Schneider
@@ -12,7 +12,7 @@ www.cnsconsult.de
 
 ## Agenda
 ![](img00.png)
-* Talenidentifikation - Warum?
+* Talentidentifikation - Warum?
 * Roadmap Talentmanagement
 * Erfolgskritische Mitarbeitende
 * Talentidentifikation - wie geht denn das?
@@ -44,7 +44,7 @@ www.cnsconsult.de
 ## Fragen
 * Wer ist ein Talent: jemand, der nachfragt, querdenkt und die Ambition zeigt in größere Position zu wachsen
   * jemand, der in zwei bis drei Jahren in eine höhere Position wachsen kann
-* Leute binden und verantwortung weitergeben: durch Projektarbeit; Leute direkt an die Geschäftsführung bringen; darüber Verantworung sehr gut delegieren
+* Leute binden und Verantwortung weitergeben: durch Projektarbeit; Leute direkt an die Geschäftsführung bringen; darüber Verantwortung sehr gut delegieren
 ![](img04.png)
 ![](img05.png)
 ![](img06.png)
