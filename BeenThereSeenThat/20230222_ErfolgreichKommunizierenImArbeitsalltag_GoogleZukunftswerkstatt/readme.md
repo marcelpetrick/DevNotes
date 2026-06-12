@@ -62,14 +62,14 @@
 * auch: wenn man den Leuten das Ziel gibt und um Rat fragt und gemeinsam einen Plan ausarbeitet, hat man mehr Zuspruch aus dem team als bei vorgegebenen Sachen
 * Was kann man noch tun?
   * aktiv zuhören (mit eigenen Worten wiedergeben, was man verstanden hat; Rückfragen stellen; Zustimmung signalisieren; Nicken, mhmm, verstehe..)
-  * für ausgeglichene Redeanteile sorgen die andere Person aussprechen lassen, Pausen aushalten, Falls die andere PErson eher ruhig ist: Fragen stellen)
-  * ehrliches Interesse und Empathie zeigen (sich in das GEgenüber hineinversetzen, Was sind Ziele, Motive, Wie geht es ihm?; Können sie etwas von der anderen Person lernen? Offene Fragen stellen, um etwas dazu zu lernen)
+  * für ausgeglichene Redeanteile sorgen die andere Person aussprechen lassen, Pausen aushalten, Falls die andere Person eher ruhig ist: Fragen stellen)
+  * ehrliches Interesse und Empathie zeigen (sich in das Gegenüber hineinversetzen, Was sind Ziele, Motive, Wie geht es ihm?; Können sie etwas von der anderen Person lernen? Offene Fragen stellen, um etwas dazu zu lernen)
   * Powerless kommunizieren (Vorschläge machen, Der anderen Person helfen, um Hilfe bitten)
   ![](img02.jpg) - todo einfügen
   * echt bzw. ehrlich sein: keine Rolle spielen, aufrichtiges Verhalten
   * kongruent handeln: das gesagte und Verhalten passen zusammen, verbale und nonverbale Kommunikation stimmen überein
   * den Kontext beachten: überlegen und fragen, ob der Zeitpunkt für die Gesprächsbeteiligten passend ist; immer ersteinmal eine positive Absicht unterstellen
-  * den Kanal/das Tool wechseln: jederzeit möglich; sicherstellen, das Verständnis möglichst einfach ist
+  * den Kanal/das Tool wechseln: jederzeit möglich; sicherstellen, dass Verständnis möglichst einfach ist
   * TODO: check the book: René Brown: dare to lead
 
 ## Ziele und Bedürfnisse
@@ -77,7 +77,7 @@
 * Welche Erfahrungen hat das Gegenüber gemacht, die sich vielleicht auf das Berufliche niederschlagen
 * gibt es Bedrohungssituationen für die Person?
 * welche Interessen bzw. Bedürfnisse werden durch das Gespräch berührt
-* Welche Ziele verfolgt die andere PErson? warum?
+* Welche Ziele verfolgt die andere Person? warum?
 
 ## Ergebnisse des Gespräches
 * Dokumentation der Ergebnisse
@@ -87,7 +87,7 @@
   * Wie ist sie zugänglich? man könnte Google Drive nutzen für Freigabe
 
 ## Key takeaways
-1: bereiten sie das Gespräche vor und strukturieren es entsprechend
+1: bereiten sie das Gespräch vor und strukturieren es entsprechend
 2: entscheiden sie je nach Gesprächsthema, ob das Gespräch persönlich oder digital stattfindet
 3: berücksichtigen sie die unterschiedlichen Ebenen im Gespräch (Sach- oder Beziehungsebene)
 4: nutzen sie verbale und nonverbale Kommunikation
