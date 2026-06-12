@@ -1,7 +1,7 @@
 # 20240507 AWS UG Munich May 2024 - at Siemens
 
 ```
-It definitely is one of the most known companies in Munich, but nevertheless the AWS User Group Munich didn't had the chance to visit their offices... until now! We're very happy to be able to meet at the Siemens AG office at Wittelsbacherplatz this time and thankfully get food and drinks provided.
+It definitely is one of the most known companies in Munich, but nevertheless the AWS User Group Munich didn't have the chance to visit their offices... until now! We're very happy to be able to meet at the Siemens AG office at Wittelsbacherplatz this time and thankfully get food and drinks provided.
 
 Please note that due to office security regulations you need to enter your real name in the registration form and provide an ID while entering the building.
 
