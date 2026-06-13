@@ -56,7 +56,7 @@ An exploration of the FB prophet library and its capabilities via a brent oil pr
 examples from common benchmarks (titles as foot lines)
 img04
 * arithmetic calculations quite doable; commonsense reasoning, deductive (based on relationships of people)
-* Qiao, Shuofei: "REasoning with Language Model Prompting: a survey" (todo: check this; google "paers with code")
+* Qiao, Shuofei: "REasoning with Language Model Prompting: a survey" (todo: check this; google "papers with code")
 ### most common idea: chain of thought
 * img05
 * standard prompting versus chain of thought-prompting: compared models GPT, LamDa, PaLM
@@ -64,7 +64,7 @@ img04
 * when the LLM starts with rationalizing, then the end result is more often true
 
 ### LLMs are zero-shot reasoners
-* even if you do not give the reasoning as example,, it improves
+* even if you do not give the reasoning as example, it improves
 * trying different ways of instructing the LLM gives different quality for the result
 * misleading ones decrease the results as well
 * irrelevant gives the same results like no instructions - so there is a bit of knowledge inside the LLMS
@@ -72,7 +72,7 @@ img04
 ### self-consistency
 * img07
 * todo: add the algorithm from the image
-  * "aggregate by choosing the most consistent answer i the final answer set""
+  * "aggregate by choosing the most consistent answer in the final answer set""
 * good way to tweak the responses to improve the robustness
 
 ### DIVERSE (diverse verifier on reasoning step)
