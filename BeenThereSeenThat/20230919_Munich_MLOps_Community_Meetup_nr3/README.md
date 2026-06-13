@@ -70,7 +70,7 @@ About our speakers:
 ### how is the platform used?
 * 5 stages:
   * process management: freedom to choose libs and tools; ubuntu vms in the cloud, AWS E2 instances ..
-  * data ingestion: streaming/batch; storage; best practice: basic quality checks and monitoring (use case agnostic); storage optimizations for faster queries, anonymization/pseudoymization (see also governance: certain type of data can't be stored longer than ten days)
+  * data ingestion: streaming/batch; storage; best practice: basic quality checks and monitoring (use case agnostic); storage optimizations for faster queries, anonymization/pseudonymization (see also governance: certain type of data can't be stored longer than ten days)
   *  training: model selection, training, evaluation; GPUs/CPUs/TPUs cluster for deep learning
   *  experiment tracking - mlflow
   *  model versioning - mlflow
