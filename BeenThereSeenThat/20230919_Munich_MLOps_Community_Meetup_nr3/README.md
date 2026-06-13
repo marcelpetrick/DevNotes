@@ -64,7 +64,7 @@ About our speakers:
 * hundreds of users, high turnover (fluctuation) of employees in data science
 * ready made platform often not sufficient:
   * black box
-  * fast to apply but also reaching ast its limits and often difficult to extend
+  * fast to apply but also reaching at its limits and often difficult to extend
   * we had to combine mlflow with aporia and benefit from each strengths -> allows to change parts of the platform for better tools (drop in replacement)
   * -> staying flexible, no vendor lockin
 ### how is the platform used?
