@@ -141,7 +141,7 @@ Motivation: official term
 * you should come in when the team staffing is still happening
 ## non violent communication
 * giraffe or wolf way?
-## how to communicative with non-violent way? [task]
+## how to communicate in a non-violent way? [task]
 ![](24.png)
 ![](25.png)
 ## project manager and his role
@@ -291,6 +291,6 @@ In case the superior of the controller shall be included, the trainer can play t
 ![](57.png)
 * team needs to be transparent about the current state ..
 * "Can we agree that from now on, you let me know at least 1 day before the deadline, if you cannot make it?"; request
-## cdertification: more info
+## certification: more info
 ![](58.png)
 --- end of the seminar ---
