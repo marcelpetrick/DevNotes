@@ -78,7 +78,7 @@
 * example of autonomous agents: hyperwrite, huggingGPT, auto-gpt4
 ### example hyperwrite
 * give task, like order pizza, fulfills it ..
-#### hugginGPT:
+#### huggingGPT:
 * connect LLMS to AI models (in hugging face)
 ### google: generative agents ... interactive simulacra of ... as paper
 * 25 agents in a village
