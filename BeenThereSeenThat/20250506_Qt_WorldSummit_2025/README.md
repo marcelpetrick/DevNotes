@@ -34,7 +34,7 @@
 * ask another LLM to review the code of the other model: deepseek-version 3, friend from china to review the code
 * the review is not enough, just a start, should have more knowledge - a good start, but needs fleshing out
 * qtquick unit tests: components
-* squis test cases as well - python
+* squish test cases as well - python
 * documentation: of course also written by ai - in markdown format?!?
 * human in the loop - adjusting where you go ..
 * lots of developers will reject it
