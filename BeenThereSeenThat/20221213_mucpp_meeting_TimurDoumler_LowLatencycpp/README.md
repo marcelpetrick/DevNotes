@@ -112,7 +112,7 @@
 * C++17: monotonic allocators, pool allocators
 * frame allocator, arena allocator, double-ended allocator
 * lock free allocators
-* avoid blocking: std::mutex, but use std::Atomic
+* avoid blocking: std::mutex, but use std::atomic
 * alternative: spinlock with progressive back-off (efficient try_lock is lock-free)
 
 ### sharing data between threads
