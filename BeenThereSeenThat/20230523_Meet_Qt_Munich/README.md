@@ -3,7 +3,7 @@
 ## intro
 * 25 years of experience in a nutshell
 * Framework for HI/HMI, cross platform, appLICATION AS WELL AS MIDDLEWARE AND TOOLS FOR DEBUGGING, ideS, PROFILING, BUILD/PACKAGING/DEPLOYMENT
-* E2E lifecycle: for designers and technical architects, QA engineers and ops, product analysis and monetarization
+* E2E lifecycle: for designers and technical architects, QA engineers and ops, product analysis and monetization
 * Qt product portfolio: design -> develop -> deploy -> insights
 ### Qt 6
 * Qt5 hat 8-9 years of lifetime; problem with api-compatibility - tough decision for a new major version to cut some leaves
