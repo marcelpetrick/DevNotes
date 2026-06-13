@@ -152,7 +152,7 @@ a funnel: all CVE are like 500k -> 2k are applying to your SBOM -> VEX files the
 -------------
 
 
-* challenge: sbom generation for c++ products; cdxgen - works, but reports too many, example stm32 project; then do some curation ... but is this not a source for failure because not fully automateable?
+* challenge: sbom generation for c++ products; cdxgen - works, but reports too many, example stm32 project; then do some curation ... but is this not a source for failure because not fully automatable?
 
 
 * using fable 5 to rename a variable ..
