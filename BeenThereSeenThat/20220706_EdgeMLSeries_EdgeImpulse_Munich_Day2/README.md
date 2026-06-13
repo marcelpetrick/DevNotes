@@ -79,7 +79,7 @@
 * problem: keyword spotting requires a giant, diverse datasets which are difficult to source
 * 560 samples ->75% accuracy, but with 19x data just 19% better accuracy - for even better acc. you need even more data
 * solution uses transfer learning, just like we do with images, but for keyword spotting
-* similar to image transfer learning: maybe trained on huge data-set: pre-trainign step
+* similar to image transfer learning: maybe trained on huge data-set: pre-training step
   * new data-set is using cancer cells, only the last layer of the model has to be retrained and fine tuned
 * few shot-keyword spotting: pre-training with millions of utterances in many languages (20 mio), then just apply few examples of specific utterances  
 * now the model is trained with just 20 samples -> right away 97% accuracy
@@ -87,7 +87,7 @@
 ### FOMO - faster objects, more objects
 * computer vision: either image classification, or object detection (also shows the bounding boxes to show where something is located)
 * problem: traditional object detection models are poorly suited to MCUs
-* object detection: creates several bounding boxes and then extracting the one which can find your object -> this consumes a lot of ressources
+* object detection: creates several bounding boxes and then extracting the one which can find your object -> this consumes a lot of resources
 * [check] MobileNet and Yolo
 * based on MobileNet architecture: ultra fast: 60 fps on RPi class, 30 fps on Cortex M7
 * extremely fast to detect objects and count them (segmentation is needed for that)
