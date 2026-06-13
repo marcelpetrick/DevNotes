@@ -8,7 +8,7 @@
 ### Qt 6
 * Qt5 hat 8-9 years of lifetime; problem with api-compatibility - tough decision for a new major version to cut some leaves
 * Qt Quick 3D: particles, mesh morphing, level of detail, global illumination, physics integration, collision detection
-* miimal Httpserver: quick and lean
+* minimal Httpserver: quick and lean
 * QML lint (todo check this), Qt Quick compilers
 * qml: dynamic, static and strict: dynamic is right now, static is using ahead of time compilation - for very minimal application, strict mode ist some hybrid (precompiled as much as possible, but engine in background)
 * Qt for WebAssembly with Qt 6.4: run c++ code in the browser; "webification story" - helpful for companies to transform apps which run already for 20 years ..; but limitations due to sandbox, for instance for the multithreading-support
@@ -22,7 +22,7 @@
 * Back to Berlin: november 28th and 29th in Berlin
 
 ## algoriddim
-* federrico tessmann co-founder, frederik seiffert (cto)
+* federico tessmann co-founder, frederik seiffert (cto)
 * first to iOs (ipad), then windows and android
 * certain requirements: high framerate, low latency; also huge music database in the background
 * Qt: utilized by large entreprises, stability - great documentation and support
