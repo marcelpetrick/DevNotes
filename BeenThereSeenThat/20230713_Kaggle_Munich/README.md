@@ -47,7 +47,7 @@ We look forward to seeing you at the next Kaggle meetup!
 * become a data-scientist in 12 weeks?
 
 * upcoming events: 28.07. Jetbrains office for presentations of capstone projects
-* harnessing aI for product management; online?
+* harnessing AI for product management; online?
 ![](img00.png)
 * 10k€ course fee; but also voucher and loans, etc.
 
