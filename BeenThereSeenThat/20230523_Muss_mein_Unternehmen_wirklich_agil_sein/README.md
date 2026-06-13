@@ -19,7 +19,7 @@ Oliver ist Enterprise Agile Consultant, Flight Levels Coach, Business Agility an
   * Flight level
 ![](img02.png)
 ![](img03.png)
-* regelmäßig nachschauen, was ökonmihsc den höchsten nWert hat und regelmäßig prüfen, was die bottlenecks sind
+* regelmäßig nachschauen, was ökonomisch den höchsten nWert hat und regelmäßig prüfen, was die bottlenecks sind
 ![](img04.png)
 * Hypothese: viele Unternehmen sind erfolgreich, weil sie Glück hatten
 * Risiken für das Geschäft:
