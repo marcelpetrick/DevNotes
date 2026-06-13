@@ -19,7 +19,7 @@
   * this is not entirely new!
 
 
-#### example: fictuous project, completely new
+#### example: fictitious project, completely new
 * new project, nothing existing, really high development speed (100%), no hindrances, no obstacles
 * so management makes promises to the customers
 * quality of code starts to degrade; things are getting more difficult to change, new features become more difficult to add, less time is left to care about the code
@@ -32,7 +32,7 @@
 * small things are more beautiful than big things
 * but the structure/organization of the code (the design) matters even more
 * robert nystrom: `they were so focused on features, that organization went overlooked` - came from game design
-* then ´: of course: rewrite the code!
+* then: of course: rewrite the code!
 
 * joel spolsky: `they made the single worst strategic mistake that any software company can make: they decided to rewrite the code from scratch` (see Netscape..)
 
