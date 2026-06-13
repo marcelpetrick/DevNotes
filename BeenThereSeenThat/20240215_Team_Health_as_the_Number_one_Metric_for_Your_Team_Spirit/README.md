@@ -1,14 +1,14 @@
 # 20240215 - meetup: Team Health as the Number one Metric for Your Team Spirit
 
 * presenter: Barrett Flowers
-* hosted by partnaer
+* hosted by partner
 
 ```
 Details
 
 Let’s grow together and enable people-powered transformation
 
-👥 The Meetup will be facilitated by partnaer, with the mission to spread knowledge and experience in the world and get in touch with people working in the same area. Anyone interested in learning about project management, product management, or agile coaching is welcome to join our Meetup.
+👥 The Meetup will be facilitated by partner, with the mission to spread knowledge and experience in the world and get in touch with people working in the same area. Anyone interested in learning about project management, product management, or agile coaching is welcome to join our Meetup.
 
 🌳 We coach, advise, and guide companies on how to successfully implement digital transformation with their managers and employees. The focus is always on people, their skills, and a good organisational structure. We are convinced that technology serves people and not the other way around.
 
