@@ -15,7 +15,7 @@ Wie könnte also ein wirklich sinnvoller und kraftvoller Umgang mit Scrum ausseh
 # Beweggrund
 * bei Zertifizierungsworkshops meist zu wenig Zeit bestimmte Themen zu behandeln
 * unterschiedlichste Erfahrungen; gerade bei großen Firmen sehr behäbige Umsetzungen
-* bei Mittelstand/Kleinutnernehmen läuft es super, auch sehr leitfaden-orientiert (scrum-guide), auch bei Teams, welche nicht reine Software-Teams waren
+* bei Mittelstand/Kleinunternehmen läuft es super, auch sehr leitfaden-orientiert (scrum-guide), auch bei Teams, welche nicht reine Software-Teams waren
 * total cost of ownership ..
 * unklar, ob man die Perfektionsvision überhaupt erreichen kann? Aber zumindest sich stückweise annähern ..
   * sicherer als wenn man sich nur über dem blauen Dunst nähert
