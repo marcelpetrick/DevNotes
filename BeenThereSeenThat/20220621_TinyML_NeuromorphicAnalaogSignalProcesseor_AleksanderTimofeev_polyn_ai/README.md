@@ -1,4 +1,4 @@
-# 20220621 TinyML_NeuromorphicAnalaogSignalProcesseor - AleksanderTimofeev from polyn.ai
+# 20220621 TinyML_NeuromorphicAnalogSignalProcessor - AleksanderTimofeev from polyn.ai
 
 * (todo) tinyML on linkedin
 * also on Meetup
