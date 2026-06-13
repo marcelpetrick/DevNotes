@@ -106,8 +106,8 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * proper choice of tools can remove a lot of friction
 
 
-### facts about MQL/QtQuick
-* MQL: language, QtQuick: UI Framework
+### facts about QML/QtQuick
+* QML: language, QtQuick: UI Framework
 * very mature (more than ten years in the Qt SDK)
 * QML is declarative, JSON-like syntax
 * node define a tree of objects for visual items and behaviour, logic added via javascript
@@ -120,7 +120,7 @@ ci/cd makes sw engineers more productive and happier; impact on business: either
 * easy to maintain and saves paper
 * can be tested with squish
 
-### WML code reload
+### QML code reload
 * stop waiting for builds :rocket:
 * usual cycle is: code, save compile, deploy, test and repeat
 * compile and deploy can take huge amounts of time, but an interruption no matter how long
