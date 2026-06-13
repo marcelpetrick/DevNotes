@@ -13,7 +13,7 @@
 * qml: dynamic, static and strict: dynamic is right now, static is using ahead of time compilation - for very minimal application, strict mode ist some hybrid (precompiled as much as possible, but engine in background)
 * Qt for WebAssembly with Qt 6.4: run c++ code in the browser; "webification story" - helpful for companies to transform apps which run already for 20 years ..; but limitations due to sandbox, for instance for the multithreading-support
 * 6.5 is the second LTS release
-* every three minorreleases will be an LTS version
+* every three minor releases will be an LTS version
 * 6.5 addition: dedicated api for the config and permission: checks: previously native code was needed
 * QML language server
 * Qt for Python: also for Embedded (check this TODO) - deploy all dependencies via ssh or rsync, run against gdb
