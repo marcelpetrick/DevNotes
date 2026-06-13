@@ -29,7 +29,7 @@ Implemented: https://github.com/marcelpetrick/codingWithGPT/tree/master/MotherOf
 **Fixed and improved version which handles private repos as well:** https://github.com/marcelpetrick/codingWithGPT/tree/master/motherOfAllGitsV2
 
 ## python-api-access of Azure DevOps
-* authentificate
+* authenticate
 * get all tickets with certain tag (just like usual query)
 * check the history of each ticket when it got the "Update3"-tag assigned
 * create a graph or structured output in the form of "date0: ticket1, ticket2, ..; date1: ticket3, ticket; .."
