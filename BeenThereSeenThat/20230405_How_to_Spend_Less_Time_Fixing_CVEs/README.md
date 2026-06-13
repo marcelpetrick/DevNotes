@@ -1,6 +1,6 @@
 # 20230405 How to Spend Less Time Fixing CVEs
 * Bill Manning is hosting and sharing his experiences
-* typical development: got a KPI to implement, asses the task, choose language, put packages and dependencies in
+* typical development: got a KPI to implement, assess the task, choose language, put packages and dependencies in
 ![](img00.png)
 ![](img02.png)
 * how to make sure that you don't pull via pip, npm, .. something in, which is wrong?
