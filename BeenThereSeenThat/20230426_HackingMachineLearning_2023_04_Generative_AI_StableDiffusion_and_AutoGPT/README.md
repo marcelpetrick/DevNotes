@@ -87,7 +87,7 @@
 * every five minutes: someone tries to improve the AI
 * has already quite a lot of plugins
 * only need openAI key, python and a goal ..
-* he uses google cloud: because he does not have admin access on his laptop, sohe uses google cloud ..
+* he uses google cloud: because he does not have admin access on his laptop, so he uses google cloud ..
 * github: clone the repo, ..
 * ssh in browser: conda activate aa -> run.sh ..
 
