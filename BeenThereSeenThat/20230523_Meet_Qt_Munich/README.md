@@ -25,7 +25,7 @@
 * federico tessmann co-founder, frederik seiffert (cto)
 * first to iOs (ipad), then windows and android
 * certain requirements: high framerate, low latency; also huge music database in the background
-* Qt: utilized by large entreprises, stability - great documentation and support
+* Qt: utilized by large enterprises, stability - great documentation and support
 * actively developed and frequent releases
 * using GNUstep to support objective-c on non apple platforms
 * but you need objective-c runtime for the platform
