@@ -147,7 +147,7 @@
 * docker also does diff-updates: so it just switches the difference between the filesystems
 * looked quite comfortable; had a fleet-manager
 
-### summarum
+### summary
 * only packages in case of technician
 * partition swap and OSTree: both failsafe, both work very well; don't have to think about partitioning in advance (more flexibility)
 * container: fleetmanagement is helpful: good for separation between teams; also good for small companies
