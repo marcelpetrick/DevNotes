@@ -52,7 +52,7 @@ This talk offers an introduction to Value-based Engineering (VbE) and ISO/IEEE 2
 * Why does a company need an EU AI Act Impact Assessment?
 ![](img06.jpg)
 * see the four different risk levels of AI developers
-* TODO: map AI risks tailored to the company; and provide an report
+* TODO: map AI risks tailored to the company; and provide a report
 * case study: Diabetes patient
 ![](img07.jpg)
 ![](img08.jpg)
