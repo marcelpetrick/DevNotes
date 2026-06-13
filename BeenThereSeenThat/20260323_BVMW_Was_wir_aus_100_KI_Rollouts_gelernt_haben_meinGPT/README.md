@@ -87,7 +87,7 @@ Referent: Florian Baader
 * meinGPT kann 10 Tage kostenlos genutzt werden
 ![](img05.png)
 * bei Enterprise-Use auch "Bring Your Own Key" möglich
-* meinGPT bei Hetzern gehostet: wie bei EU-gehostet-Modelle; in Schweden bei MS (Azure); Generation in Schweden; dort sicher; erstellte Antwort wird dort gelöscht vor der Abholung
+* meinGPT bei Hetzner gehostet: wie bei EU-gehostet-Modelle; in Schweden bei MS (Azure); Generation in Schweden; dort sicher; erstellte Antwort wird dort gelöscht vor der Abholung
 * Pro Tenant verschlüsselt
 ![](img06.png)
 * C5-Zertifizierung ebenfalls
