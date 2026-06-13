@@ -116,7 +116,7 @@ img04
 * what happens with slightly wrong intermediate answers? then the LLM can quite good rationalize
   * hypothesis: metaphorically the model is buying more time to think -> more time results in more correct answers (!)
 
-* things which were not covered today: RL, fine tuning; grounding / retrieval argumented
+* things which were not covered today: RL, fine tuning; grounding / retrieval augmented
 
 ### Take aways (summary)
 * img11
