@@ -97,7 +97,7 @@ FEATURED PRESENTERS
   * managing security and privacy
 * a prototype is done in 5 minutes, but rolling out in hundreds of thousands needs more effort
 
-## AW ressources
+## AWS resources
 * AWS IoT Core; like an MQTT broker - fully compliant, MQTT 3 and 5; securely and privately wrapped
   * use publish and subscribe capabilities
 * attach to the broker rules and actions
