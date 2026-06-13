@@ -113,7 +113,7 @@ About our speakers:
 * if you have a large model, then you can add a task instead of having to justify to train a new model
 * how to enable large models to handle customized tasks?
 * how to communicate effectively with large model?
-* using Joari-window to understand communication with large models: framework to understand our conscious and unconscious bias; decrease blind spots, avoid misunderstandings; increase consensus
+* using Johari window to understand communication with large models: framework to understand our conscious and unconscious bias; decrease blind spots, avoid misunderstandings; increase consensus
   * check LM and humans against each other: ![]()img06
 * two paths to increase consensus with large models
   * fine-tuning the model: reduce blind spots
