@@ -13,7 +13,7 @@
 - bei SoftwareQualityLabs scheinen alle zu bestehen; auch bei denen, die am Donnerstag gleich die Prüfung machen; gut machbar
 
 - Herr N. arbeitet curtis instruments in biberis schweiz; medizinbereich, handcontrols für elektrische rollstühle; mölchte lernen bei einer legacy software die architektur gerade zu rücken; .NET und Xamarin
-- Herr L.; Uxmar in Kiel; dienstleister im bereich usability; maschinenbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freud von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
+- Herr L.; Uxmar in Kiel; dienstleister im bereich usability; maschinenbau; 25 jahre erfahrung; mappen von kundenanforderungen auf ISO läuft, aber wie kann man das auf eine architektur herunterbrechen; großer Freund von Ralph Westphal mit seinem "Flowdesign"; arc42 Vorlage in einem Projekt
 - Herr H.; Daimler; Automotive-Bereich; autonomes Fahren; Bosch oder auch nvidia; backend; auch product owner; Überzeugung und Kommunikation; C4-Model (?); Kontext und Diagramme vereinheitlichen; Wissen bestätigen; neue Aspekte kennenlernen
 - Herr Christmann als Tutor: TU Berlin Informatik; Künstliche Intelligenz; wissensbasierte Systeme; Embedded Bereich; Projektleiter; Teamleiter; "Qualität" am Ende; so spannend; dann zu Software Quality Lab; dort zufrieden; "wie kann man Qualität sicherstellen"?
 -- Bereiche: Beratung; A-Spice-Zertifizierung; Prozesses, klassisches Academy-Geschäft (UML, Scrum, Requirements; Testing; ..); operatives Geshäcft (Testmanager) - "Vorarlberg ist klein"; Frameworks entwickeln; kodieren; Werkzeuge (nicht nur nebenher anschaffen ..),
@@ -50,7 +50,7 @@ besteht aus verschiedenen Sichten
 --- Komponenten/Bausteine mit Schnittstellen und Beziehungen (Komponenten ist Baustein, aber nicht jeder Baustein muss eine Komponente sein; Ausprägung)
 --- Bausteine als  allgemeiner Begriff, Komponenten als spezielle Ausprägung davon (Stereotyp Component?)
 --- (cost cuttin concerns (?)) - nicht alles kann beliebig aufgeteilt werden
---- übergreifende entwurfsentscheidungen mit systemweiten oder den gesamten lebenszyklus betreffenden Konsequenzen (Architekt sollte sich mit Design auskennen; gensauo wie umgekehrt)
+--- übergreifende entwurfsentscheidungen mit systemweiten oder den gesamten lebenszyklus betreffenden Konsequenzen (Architekt sollte sich mit Design auskennen; genauso wie umgekehrt)
 --- (Design als Verfeinerung der Architektur)
 
 was muss ein Architekt können?
@@ -112,8 +112,8 @@ Dezentrale Architektur:
 -- Beispiel: "schnell" je nach Sichtweise subjektiv: 10s kann für ein Dokument-Öffnen für den Dienstleister ok sein, aber nicht für Anwender (-> Zeitverlust akkumuliert sich schnell übers Jahr, daher auch Geldverlust)
 - Begriff der Testbarkeit
 
-- Architekturziele sind Qualitätsmkermale
-- Projektziele versus Architekturziele: Porjektleiter bleibt "Chef", SA weist auf die Risiken und Alternativen hin
+- Architekturziele sind Qualitätsmerkmale
+- Projektziele versus Architekturziele: Projektleiter bleibt "Chef", SA weist auf die Risiken und Alternativen hin
 
 - Einflußfaktoren stehen in Wechselwirkung; und stehen zum Teil im Gegensatz "Security versus Benutzbarkeit"
 - je nachdem wo man die Lösung platziert, sind manche Einflußfaktoren sehr gespannt
@@ -556,7 +556,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - Entkopplung: welche Art von E. stellt ein Broker dar: Ort
 - Robustheitsgrundsatz: Jan Postel: sei tolerant gegenüber dem was du bekommst, konsequent für das, was du rausgibt
 - CCC (Querschnittskonzepte; cross cutting concerns): Logging, Fehlerbehandlung, Security; technische Fehler im fachlichen Code behandeln - lieber nicht
-- DDD: Mustersprachen, MDA als Auspräügung einer Mustersprache; Was sind die Variationspunkte eines Metamodells, welches das spezielle Problem gut ausdrücken soll? Services und Entitäten (statt Ausleihen und Buch) und States; Kernidee von DDD: Fachlichkeit wiederverwenden; PIM bei MDA: Platformindependent Model; Platform specific model; Mithilfe eines Generators in Code zu übersetzen;  
+- DDD: Mustersprachen, MDA als Ausprägung einer Mustersprache; Was sind die Variationspunkte eines Metamodells, welches das spezielle Problem gut ausdrücken soll? Services und Entitäten (statt Ausleihen und Buch) und States; Kernidee von DDD: Fachlichkeit wiederverwenden; PIM bei MDA: Platformindependent Model; Platform specific model; Mithilfe eines Generators in Code zu übersetzen;  
 - Architekturzentrische Ansätze
 - System und Systemkontext (-grenzen)
 - Einflußfaktoren: organisatorische, technische, Ziele, Anforderungen (funktionale und nichtfunktionale (Qualitätsanforderungen)); immer Kompromiß, weil sie sich teilweise in WEchselwirkung widersprechen
@@ -616,10 +616,10 @@ bridge x
 
 UML-Diagramme:
 Klassendiagramm
-Komponentendiagram
-verteilungsdiagram
-Sequenzdiagram
-Zustandsdiagram
+Komponentendiagramm
+Verteilungsdiagramm
+Sequenzdiagramm
+Zustandsdiagramm
 
 - qualitativ und quantitative Bewertungen
 (morgen: welche Werkzeuge organisatorisch notwendig? Kategorien und )
@@ -687,7 +687,7 @@ Techniken zur Identifikation:
 3. Annahmen treffen:
 - Benutzername und Passwort für Login
 - keine HW notwendig
-- kein FB oder Google nötig, aber möglichstateless Auth, Prozess
+- kein FB oder Google nötig, aber möglich; stateless Auth, Prozess
 - Nichtanmeldung -> Reg möglich
 4. Alternativen finden:
 - Oauth2
@@ -716,12 +716,12 @@ verständlich, korrekt, effizient, angemessen, wartbar -> VAWEK (fahr weg) (Esel
  - Diagramtypen [check this]
  - statt Fließtext lieber eine Komponenten-Struktur-Diagramm: Kollaboration kann auf zwei Arten modelliert werden
  
- - Zustandsdiasgramm
+ - Zustandsdiagramm
  - Flussdiagramme
  - UseCaseDiagramme
  - BPMN-Diagramme (gekipptes Aktivitätsdiagramm)
  - Verteilungsdiagramm (deployment diagram)
- - Schnittstellenbeschreibung: immer von außen nach innen beschrieben (außen umfassender als interne Sachen); Schnitstellenebschreibung nach Clements
+ - Schnittstellenbeschreibung: immer von außen nach innen beschrieben (außen umfassender als interne Sachen); Schnittstellenbeschreibung nach Clements
  
  - OpenAPI-Standard: Swagger als Tool (für Webapplikationen)
  - TOGAF
@@ -1058,7 +1058,7 @@ Trainer: Architektenrolle hat gerade ein Aufwind; wird stärker als eigene Rolle
 - "model repo implementiert das model repo interface"
 - zwei modelle: then model repository
 
-- [check this] Protobu (model): generiert interfaces für java, c++, python ... 
+- [check this] Protobuf (model): generiert interfaces für java, c++, python ... 
 
 - Postkasten als Analogie für MessageQueue
 
