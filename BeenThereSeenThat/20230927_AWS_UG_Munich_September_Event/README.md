@@ -76,8 +76,8 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
 
 
 # Architecting Highly Available, Multi-Region Applications
-* Viktoria Seeman, previously Mendix, now DevRel, came from California
-* Marten Smeets and Ravi Singh from Mendix as well, subsidiary of Siemens
+* Viktoria Semaan, previously Mendix, now DevRel, came from California
+* Maarten Smeets and Ravi Singh from Mendix as well, subsidiary of Siemens
 * "Everything fails, all the time" CTO Werner Vogels
 * mitigation with failover in case something fails - quite clever; softens the impact
 * 99.99% availability
@@ -93,7 +93,7 @@ Everyone who participates in an AWS UG Munich event must adhere to the Code of C
   * but becomes more and more expensive with each step right
 * Google: AWS cloud product for information about the 240 current services
 
-## Now: Marten Smeets from Mendix
+## Now: Maarten Smeets from Mendix
 * outages can't happen, service disruptions
 * multi-region failover has problem for regulatory reasons: constrained by governments
 * Mendix is a low-code application platform
