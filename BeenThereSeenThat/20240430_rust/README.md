@@ -20,7 +20,7 @@ memory management in rust
 * enforcing some tight rules enforced by the compiler
 * C is over 50 years old and has hardly changed since its creation date
 * Rust is a modern language with all the niceties that come with it
-* evoluation not revolution
+* evolution not revolution
 ![](img01.png)
 * versatile and efficient generics: similar to the type classes in C++
 * compiler optimise away the generics inside the object file
