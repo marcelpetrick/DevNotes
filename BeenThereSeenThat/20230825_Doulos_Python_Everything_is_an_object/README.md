@@ -114,12 +114,12 @@ print(f"x: {x}, y: {y}")
 
 ```
 :
-    Is there any technic to make objects corresponding to each variable "lightwiight" in Python? 
+    Is there any technic to make objects corresponding to each variable "lightweight" in Python? 
 A:
     There is likely some hidden magic going on "under the bonnet" of Python to avoid having too many temporary variables being created. We are not really dealing with optimisation in this webinar, but looking at the mechanics of how the language works.
 
 Q:
-    when the x is rassigned to 43, will the object 42 will not only have label - "y" Is that right? 
+    when the x is reassigned to 43, will the object 42 will not only have label - "y" Is that right? 
 A:
     Correct.
 
@@ -166,7 +166,7 @@ A:
 Q:
     Will the stack frame be re-used if we call "Factorial(6);Factorial(6)"?
 A:
-    I don't think it will per default. There is the possiblity however to introduce the @cache decorator to cache previous value (we'll be discussing decorator soon)
+    I don't think it will per default. There is the possibility however to introduce the @cache decorator to cache previous value (we'll be discussing decorator soon)
 
 Q:
     Do you just have to know a priori whether a type is mutable?
@@ -214,7 +214,7 @@ A:
 Q:
     When storying primitives in a list or tuples, does Python do any optimization against storage, or each primitive in the list is still ordinary object, similar to local primitive variable?
 A:
-    Your question is interpreter specfic. Conceptually, list/tuple are a collection of name binding. Now, the interpreter can implement optimization technique, especially against primitive type when applicable. Also, the internal storage use to keep track of the variable etc (which is a dictionary) has been optimized accross various CPython release too. 
+    Your question is interpreter specific. Conceptually, list/tuple are a collection of name binding. Now, the interpreter can implement optimization technique, especially against primitive type when applicable. Also, the internal storage use to keep track of the variable etc (which is a dictionary) has been optimized across various CPython release too. 
 
 Q:
     Would you recommend any successor of Jupiter notebook? 
