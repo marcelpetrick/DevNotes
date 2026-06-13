@@ -60,9 +60,9 @@
 * psychosomatische Beschwerden, Burnout-Syndrom; Herzrasen
 
 Führungskompetenz: das muss ein Manager haben
-* Sozialkompetenz: vErhalten gegenüber anderen
+* Sozialkompetenz: Verhalten gegenüber anderen
 * Fachkompetenz: Kenntnisse und Fähigkeiten
-* Selbstkompetenz (Steuerungsfähigkeiten) - Eigenmotiviation
+* Selbstkompetenz (Steuerungsfähigkeiten) - Eigenmotivation
 * Methodenkompetenz: Anwendung von Instrumenten und Vorgehensweisen
 
 ## Strategieentwicklungs und -umsetzungskompetenz
