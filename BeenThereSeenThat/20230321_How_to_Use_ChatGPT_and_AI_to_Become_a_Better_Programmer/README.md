@@ -56,5 +56,5 @@ Learning how to best use ChatGPT and other AI tools for coding, debugging, and c
 * programming still needs exercise and reflection
 * just relying on the output of a tool won't allow you to grow
 
-* chatpgpt should just be used in the company with permission from manager! (concerns commercial businesses); for freelancing it should be allowed
+* chatgpt should just be used in the company with permission from manager! (concerns commercial businesses); for freelancing it should be allowed
 * 
