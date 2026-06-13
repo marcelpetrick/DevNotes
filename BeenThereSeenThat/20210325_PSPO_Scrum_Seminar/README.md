@@ -412,7 +412,7 @@ Arten:
 
 * weg von großen releases mit schlechten gründen wegzukommen
 
-complemental practice:
+complementary practice:
 * früchtevergleich: welche frucht hat welchen durchmesser? vergleich als relation einfach, aber keine erfahrungswerte wegen melonengröße
 * früchte sortieren als relative gruppierung
 ![](screen33.png)
