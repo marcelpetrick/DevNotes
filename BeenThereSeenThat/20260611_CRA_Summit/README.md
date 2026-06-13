@@ -131,7 +131,7 @@
   * a system you fully understand is better than a black box
   * for open source: paid maintainers are better than hobby projects
   * but OSS projects dominated by a single company can be risky
-* it costed us a meaningful amount of development time
+* it cost us a meaningful amount of development time
 * don't roll your own crypto; bruce schneier
 * what do we mean when we say: software update update system?
   * 4 elements:
