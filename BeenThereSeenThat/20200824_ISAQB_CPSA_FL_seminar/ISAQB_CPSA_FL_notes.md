@@ -6,7 +6,7 @@
 
 ## 20200824 - day 1
 
-- erstmal Grundbegriffe und Defintionen, was ist Architektur?
+- erstmal Grundbegriffe und Definitionen, was ist Architektur?
 - Kommunikation, Dokumentation - Sprache zu Anderen
 - wie bewertet man architekturen?
 - wie merkt man, dass architektur aus dem ruder läuft? maßnahmen?
@@ -29,7 +29,7 @@
 ------------------------
 ### Grundbegriffe
 
-- keine einheitliche defintion von Architektur: auf eine Def. geeinigt
+- keine einheitliche Definition von Architektur: auf eine Def. geeinigt
 - Welche Rolle nimmt der Architekt ein? Skills? Was ist wichtig? Welche Kommunikation? Reicht es ein brillianter Techniker zu sein?
 - SW-intensive Systeme
 - Architektur stellt immer einen Kompromiss dar: stark und minder ausgeprägte Kategorien
@@ -43,15 +43,15 @@ besteht aus verschiedenen Sichten
 - falls sich die Kontextbedingungen ändern, muss das System angepasst werden. Vorschau in die Zukunft nur begrenzt möglich
 - wie sieht der Problembereich aus? Sichten und Abstraktionen helfen -> Qualität schaffen
 
-- welche menge an defintionen gibt es?
+- welche menge an Definitionen gibt es?
 - EX! übung: welche begrifflichkeiten kommen in allen sechs definitionen vor?
 -- components; relationship between components; environment; innensicht/außensicht; constraints, fundamental; system; Organisation
 -- Result:
 --- Komponenten/Bausteine mit Schnittstellen und Beziehungen (Komponenten ist Baustein, aber nicht jeder Baustein muss eine Komponente sein; Ausprägung)
 --- Bausteine als  allgemeiner Begriff, Komponenten als spezielle Ausprägung davon (Stereotyp Component?)
 --- (cost cuttin concerns (?)) - nicht alles kann beliebig aufgeteilt werden
---- übergreifende entwurfsentscheidungen mit systemweiten oder den gesamten lebenszyklus betreffenden Konsequenzen (Architekt sollte sich mit Desing auskennen; gensauo wie umgekehrt)
---- (Desing als Verfeinerung der Architektur)
+--- übergreifende entwurfsentscheidungen mit systemweiten oder den gesamten lebenszyklus betreffenden Konsequenzen (Architekt sollte sich mit Design auskennen; gensauo wie umgekehrt)
+--- (Design als Verfeinerung der Architektur)
 
 was muss ein Architekt können?
 - reicht es aus sich mit der Technik auszukennen?
@@ -61,7 +61,7 @@ was muss ein Architekt können?
 - Prototypen anfragen
 - Anforderungen; Priorisierung; Releases- & Iterationsplan
 - Hardwareentwicklung: Abgrenzung HW und SW; 
-- Qualitätssicherung: Risikenm, Zeitplan, Testkonzept, Testbarkeit, Testautomatisierung vorbereiten
+- Qualitätssicherung: Risiken, Zeitplan, Testkonzept, Testbarkeit, Testautomatisierung vorbereiten
 - IT-Betrieb:
 - Projektleitung: projektplan; Entscheidung über Umfang, Konste, Zeitplan
 - es reicht nicht nur technisch brilliant aufgestellt zu sein; sondern man muss kommunikativ gut aufgestellt sein; kompromisse schließen, leute abholen, win-win-situationen schaffen, .. nicht nur in hinsicht auf die reine funktionalität
@@ -75,13 +75,13 @@ typen der sw-intensiven systeme: informationsS, embedded S, mobile SW
 - Entscheidungsunterstützungssysteme; Expertensysteme; Suchmaschine; Büroautomatisierung
 - architektur im wasserfallmodell: rückschritte/rückmeldungen möglich; aber nur zum nächstvorderen schritt; führt zu problemen, der kunde wird seine lösungswünsche anpassen, also das ziel bewegt sich
 - V-modell als verfeinerung: aber trotzdem noch ein phasenmodell
-- man(n) hat haufig mit unvollständiger information zu tun; iterative architektur-entwicklung dann als natürliche folge; inkrementelle entwicklung
+- man(n) hat häufig mit unvollständiger information zu tun; iterative architektur-entwicklung dann als natürliche folge; inkrementelle entwicklung
 - Scrum in Grundzügen: Selbstheilung durch iterative abwicklung; transparent umsetzung der "dinge"; klare Aufteilungen; falls man etwas direkt nach Sprint ändern will - weiß der PO eigentlich was er (oder die stakeholder) wollen?; oder falls team nicht performt, sollte man nachbessern; zielen bei moving target einfacher; product backlog, sprint backlog
-- welche folgen für die architektur (scrum): innerhalb des teams mit PO und Team zusammenarbeiten; was, wenn man aber einen zentralisitischen ansatz für die frameworks hat? in drei wochen kann man die nicht so viel umsetzen, viel, viel initialisierungsaufwand; aber wir sind nicht allein mit diesem problem, Krücke (Hilfe) der Nullsprints: 2-3 sprints mit durchstich technisch die basis legen (tooling und mit sonstigen dingen, die man benötigt; mit timeboxed events); oder am anfang iust das potential shipable product "so dünn"; vielleicht am anfang nur ein "login screen"; und nebenbei die architektur entwicklen; oder eben iterativ-inkrementell
+- welche folgen für die architektur (scrum): innerhalb des teams mit PO und Team zusammenarbeiten; was, wenn man aber einen zentralistischen ansatz für die frameworks hat? in drei wochen kann man die nicht so viel umsetzen, viel, viel initialisierungsaufwand; aber wir sind nicht allein mit diesem problem, Krücke (Hilfe) der Nullsprints: 2-3 sprints mit durchstich technisch die basis legen (tooling und mit sonstigen dingen, die man benötigt; mit timeboxed events); oder am anfang ist das potential shipable product "so dünn"; vielleicht am anfang nur ein "login screen"; und nebenbei die architektur entwicklen; oder eben iterativ-inkrementell
 - [Pause bis 10:55 Uhr]
 
 ## Ebenen der Architektur:
-- Themen bisher: Bausteine, Schnittestellen, Definition der Begrifflichkeiten, 
+- Themen bisher: Bausteine, Schnittstellen, Definition der Begrifflichkeiten, 
 - [check this] conways law: organisation und teamstruktur stehen in wechselwirkung zueinander; kommunikationsstruktur ist eine kopie der systemstruktur; melvin conway 1968
 - kann man teams aufteilen, wenn man bausteine nicht entkoppelt? nur mit hohem orga-aufwand
 - technische lösung sollte zur orga-struktur passen; also die technische lösung; das kann zu viel negativem feedback führen
@@ -96,15 +96,15 @@ Zentrale Architektur:
 - nicht flexibel; langsamer aufgrund von Anpassungen (initial); Abstimmung der Vorgabe mit vielen Teams, Konfliktpotential; Hammer/Schraube-Problem; Auseinanderdriften von legacy Ansätzen
 
 Dezentrale Architektur:
-+ Hammer/Nagel; Fokussierte Lösung problembezogen; Schnittstellen fokussiert; initial schneller, Knowhow kann steigen (technscihe Vielfalt zum Lernen)
++ Hammer/Nagel; Fokussierte Lösung problembezogen; Schnittstellen fokussiert; initial schneller, Knowhow kann steigen (technische Vielfalt zum Lernen)
 - Gefahr technischer Schulden; Abstimmungsbedarf ist größer; Redundanz; Latenzen; System ist mehr als die Summer aller Teile; Lokale Optimierungen; Einflüße schwer zu behrrschen -> sehr präzise Schnittstellenbeschreibungen notwendig; Integration ggfs. schwierig
 
 --> Architektur nich tim Elfenbeinturm entwickeln
 
 ## Einflußfaktoren
-- randbedingungen schreiben lösunsräum vor
+- randbedingungen schreiben Lösungsräume vor
 - WAS: funktionale anforderungen beschreiben, was gemacht werden soll; Funktio, Verhalten, Strukturen
-- nichtfuntkionale A., Qualitätsanforderung: natürlichsprachig dokumentiert (daher meist ncith qualifizierbar); daher messbar machen was nicht messbar ist; "ein schönes userinterface", "ein schnelles system"; quantifizierbar machen; Zeiten, Usability (entsprechend einigen Regeln);
+- nichtfunktionale A., Qualitätsanforderung: natürlichsprachig dokumentiert (daher meist nicht qualifizierbar); daher messbar machen was nicht messbar ist; "ein schönes userinterface", "ein schnelles system"; quantifizierbar machen; Zeiten, Usability (entsprechend einigen Regeln);
 
 ### ISO 25010: listet Qualitätsmerkmale; diese sichten
 - Basis um mit der Fachlichkeit die Diskussion zu starten .. [TODO anschauen; definitiv]
@@ -166,36 +166,36 @@ My notes:
 - Systemkontext: Diskussion sehr gut mit Fachbereichen machbar
 - guter Projektleiter wird aber das gleiche machen: erstmal checken, was ist innerhalb und was ist außerhalb der Systemgrenzen; wen zum Meeting einladen, wen nicht?
 - anfangs die Systemgrenzen unscharf
-- Datellungsformen: Use-Case-Diagramm (Stärke und das Ziel; auf innere Darstellung kann verzichtet werden; Abhängigkeitsbeziehung; Pfeil immer in Richtung der Abhängigkeit; von Akteur zu 'use'; Person oder anderes Steereotyp, Aussagegehalt recht groß); Komponentendiagramm
+- Darstellungsformen: Use-Case-Diagramm (Stärke und das Ziel; auf innere Darstellung kann verzichtet werden; Abhängigkeitsbeziehung; Pfeil immer in Richtung der Abhängigkeit; von Akteur zu 'use'; Person oder anderes Stereotyp, Aussagegehalt recht groß); Komponentendiagramm
 
 ### [Ex!] Willleihen als Use-Case-Diagramm: see ![](Day1_WillLeihenUseCase.png)
 -- DomainDrivenDesign: Unter welcher Fragestellung wird das UseCasediagramm gerade modelliert?
 --- Google: BusinessBenefits/BusinessCases? wer ist von wem abhängig?
---- WL (WillLeihen): -> aus dem Diagramm entstehen recht viele MakeOrBuy-entscheidungen; da Top-down, kann man dasmit vielen diskutieren, sehr schnittstellenbasierte Sicht
---- da wo immer die Spoitze in dem Diagramm ist, muss eine Schnittstelle angeboten werden
+--- WL (WillLeihen): -> aus dem Diagramm entstehen recht viele MakeOrBuy-entscheidungen; da Top-down, kann man das mit vielen diskutieren, sehr schnittstellenbasierte Sicht
+--- da wo immer die Spitze in dem Diagramm ist, muss eine Schnittstelle angeboten werden
 --- Zeitaufwand für Code-Änderungen: Einlesen 70%; Programmieren 10%, Problem Lösen 20%
 --- Übergang von Black- zu Whiteboxing: weiterhin sehr schnittstellenorientierte Sicht
 --- Arten von Bausteinen von feingranular to grobgranular: fließend
 --- auf hohe Kohäsion achten, fördert meist auch geringe Kopplung
 --- Sachen eher lose koppeln, weil besser testbar
---- Beispeil mit niedriger Kohäsion; zwei Komponenten greifen gegenseitig aufeinander zu (S1 und S2 auf ABCD..); schlecht testbar
+--- Beispiel mit niedriger Kohäsion; zwei Komponenten greifen gegenseitig aufeinander zu (S1 und S2 auf ABCD..); schlecht testbar
 --- divide et imperae, zwischen fachlicher und technischer Art zu unterscheiden, dinge einfach wie möglich zu machen, separation of concerns, single responsibility principle
 --- ein baustein macht genau eine sache; leichter wartbar (und testbar)
 --- resue and release equivalence principle
 --- wenn man dinge nur teilweise für die wiederverwendung vorsieht, sollte man sie trennen. ganz oder gar nicht.
 --- common-closure-principle: externe lib ändert sich schnell, adapter dazwischenpacken um sich zu entkoppeln
---- common-reuse-principle: nicht anderen meine abhängigkeit aufdrücken; eventuell komponentenfuntkionalität splitten und dann getrennt releasen
+--- common-reuse-principle: nicht anderen meine abhängigkeit aufdrücken; eventuell Komponentenfunktionalität splitten und dann getrennt releasen
 
 - klare Trennung zwischen fachlicher und technischer Architektur:
--- techn. Architektur: nichtf. Anforderungen, Querschnittskonzepte, hjarware, Gateway für Security, Proxy für Cachcing, 2. Server für Ausfallsicherheit; eher horizontal geschnitten
+-- techn. Architektur: nichtf. Anforderungen, Querschnittskonzepte, Hardware, Gateway für Security, Proxy für Caching, 2. Server für Ausfallsicherheit; eher horizontal geschnitten
 -- fachliche A.: (siehe Übungszettel); eher vertikal geschnitten
 
-[check!] i18n ? was ist das? "The terms are frequently abbreviated to the numeronyms i18n (where 18 stands for the number of letters between the first i and the last n in the word internationalization, a usage coined at Digital Equipment Corporation in the 1970s or 1980s)[3][4] and L10n for localization, due to the length of the words.[5][6] Some writers have the latter acronym capitalized to help distinguish the two.[7]" en.wikipedia.orga-aufwand
+[check!] i18n ? was ist das? "The terms are frequently abbreviated to the numeronyms i18n (where 18 stands for the number of letters between the first i and the last n in the word internationalization, a usage coined at Digital Equipment Corporation in the 1970s or 1980s)[3][4] and L10n for localization, due to the length of the words.[5][6] Some writers have the latter acronym capitalized to help distinguish the two.[7]" en.wikipedia.org
 
 - Dinge so einfach wie möglich machen; viel Text zu schreiben ist immer einfach, aber geht es nicht auch einfacher?
 - eine Hierarchie verstehet jeder einfacher als wenn jeder von jedem abhängig ist
 
--- Entwurf Top-down (schnelles reingleiten, nicht allzu verkopft; aber Integration wird etwas vor sich hergeschoben; Reibungsverluste bei fianler Integration trten spät auf) und Bottom-up (Verfeiner die BlackBox indem du Inhalt als WhiteBox zeigst; Inhalte sind weitere BlackBoxes, verfeiner auch sie)
+-- Entwurf Top-down (schnelles reingleiten, nicht allzu verkopft; aber Integration wird etwas vor sich hergeschoben; Reibungsverluste bei finaler Integration treten spät auf) und Bottom-up (Verfeiner die BlackBox indem du Inhalt als WhiteBox zeigst; Inhalte sind weitere BlackBoxes, verfeiner auch sie)
 -- kein shipable work-increment possible (Top Down)
 -- 7+/-2 ist gute Faustregel für (Millersche Zahl) Zerlegung und Visualisierung
 
@@ -219,7 +219,7 @@ My notes:
 - Sichten: jeweiligen Stakeholdern eine Lösung erklären, darlegen (aspektorientiert)
 - Unterschiedliche Ziele der Stakeholder
 -- sechs Stakeholder: Projektleiter, Testmanager, RE-Ingenieur, Entwicklungsteam, Hardware (!), IT (alles zum Laufzeitverhalten)
-- Kommuniktionsfähigkeit des Architekten: Konfliktfähigkeit, Zuhören, proaktives Handeln (nicht Warten bis das Problem übermächtig wird; sich Arbeit machen)
+- Kommunikationsfähigkeit des Architekten: Konfliktfähigkeit, Zuhören, proaktives Handeln (nicht Warten bis das Problem übermächtig wird; sich Arbeit machen)
 - Softskills
 - ISO 25010: mindestens drei davon benennen können
 - Wechselwirkungen
@@ -292,7 +292,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - modellgetriebene Architektur: MDA https://www.omg.org/mda/ - object management group
 - Generierung von Anwendungen aus UML-Modellen (ist nicht SA im engeren Sinn!)
 - MDA: PIM, PSM, Code; nicht 100% Automatisierung anstreben
-- Modelle haben exstrem hohe Hebelwirkung
+- Modelle haben extrem hohe Hebelwirkung
 - für weitere Informationen: read this https://github.com/heynickc/awesome-ddd#sample-projects
 - Referenzarchitekturen: Autosar for Automotive; eventually also Java EE für  Java Enterprise Anwendungen
 - Inhalt: Anwendungsgebiet, Abstrakte Strukren und Laufzeitverhalten; Technische Vorgaben; Optional Prozesses
@@ -302,7 +302,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - Beginne mit dem Fachmodell (Begrifflichkeiten und fachliche Zusammenhänge ausarbeiten)
 - Strebe nach geringer Kopplung und hoher Kohäsion
 - Entwirf unabhängig und leicht austauschbare Bausteine
-- Verwende etabliert und erprobte Sturkturen wieder (Architekturmuster)
+- Verwende etablierte und erprobte Strukturen wieder (Architekturmuster)
 - Denke an Alternativen
 - Bausteine sollen keine Annahmen über Strukturen anderen Bausteine machen
 - Entwirf in Iterationen: Prototypen und technische Durchstiche mindern Risiko
@@ -359,7 +359,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 
 ### Thin Client versus Rich Client
 - TC: einfache Wartung, einfache Auslieferung, leichte Sicherung
-- RC: bessere Performanz, offlinefähig, Synchronisation zwuischen Clients aufwändiger, muss installiert werden
+- RC: bessere Performanz, offlinefähig, Synchronisation zwischen Clients aufwändiger, muss installiert werden
 
 ### Remote procedure call
 - marshalling (verpacken) und woanders berechnen lassen
@@ -392,7 +392,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 ### Broker
 - Kopplung über die Nachrichtenbasierte
 
-[Ex!] "WirLeihen" - welche Muster würden sich anbieten um sie für die Realiserung zu verwenden
+[Ex!] "WirLeihen" - welche Muster würden sich anbieten um sie für die Realisierung zu verwenden
 - (im Rückgriff auf die nichtf. Anforderungs-Übung von gestern)
 -- Pipes&Filters: bringt eher weniger, weil wenige Prozessketten; kein Datastream
 -- Blackboard: Daten integrieren und lose koppeln; eher wahrscheinlich nicht
@@ -516,7 +516,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 (Schwarzbuch der SW-Architektur?)
 
 - auch genannt: übergreifende Konzepte, Cross-cutting concerns
-- welche Konzepte gehören zusammen, Snsätze, welche Risiken
+- welche Konzepte gehören zusammen, Ansätze, welche Risiken
 - einige Beispiele folgen
 
 ## Ausnahme- und Fehlerbehandlung
@@ -539,7 +539,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 ## GUI
 
 ## Sicherheit
-- Authentifizerung, authorisierung, Integrität, Vertraulichkeit, Unleugbarkeit, Verfügbarkeit
+- Authentifizierung, Autorisierung, Integrität, Vertraulichkeit, Unleugbarkeit, Verfügbarkeit
 
 ## Geschäftsregeln
 - deklarativ und graphisch beschrieben (ähnlich UML) statt Code
@@ -550,7 +550,7 @@ https://medium.com/@ruxijitianu/summary-of-the-domain-driven-design-concepts-9dd
 - Architekturmuster: dienen den nichtfunktionalen Anforderungen; Aufbau: Problem -> Kontext -> Lösung; (Bsp. Zugriff innerhalb LegacySystem -> Adapter); falls startup sich nicht festlegen will, dann SOA (10er Jahre Buzzword); ThinClient: auf Server durchgeführt; RichClient: Rechenkapazität beim Client nutzen; wann machen Microservices sinn? (habe ich unabhängige Teams?)
 - Entwurfsmuster: Command, Observer, Plugin, Registry, Bridge-Pattern, Proxy (Zugriff regeln), Facade
 - Qualitätsmerkmale/NFR: ISO25010; proaktiv als Architekt handeln
-- Schnittestellen und Abhängigkeiten: strukturelle Abhängigkeit; Erzeugen; DCOM (Datentypen als Abhängigkeit bei RPC); zeitliche Abhängigkeit; technische Abhängigkeit (Hardware); EEEFS: einfach zu erlernen, einfach erweiterbar, einfach zu benutzen, schwer missbrauchbar, funktional vollständig
+- Schnittstellen und Abhängigkeiten: strukturelle Abhängigkeit; Erzeugen; DCOM (Datentypen als Abhängigkeit bei RPC); zeitliche Abhängigkeit; technische Abhängigkeit (Hardware); EEEFS: einfach zu erlernen, einfach erweiterbar, einfach zu benutzen, schwer missbrauchbar, funktional vollständig
 - SOLID: single responsibility principle; open closed (designmuster für diesen zweck: decorator, plugins)
 - Entwurfsprinzipien: divide et impera, separation of concerns, 
 - Entkopplung: welche Art von E. stellt ein Broker dar: Ort
@@ -626,7 +626,7 @@ Zustandsdiagram
 
 Risikomanagement?
 Warum als Architekt damit auseinandersetzen?
-- "Gummibänder" bis zum Zereissen gepsannt - darauf eingehen und praktiv auf diese Probleme eingehen
+- "Gummibänder" bis zum Zerreißen gespannt - darauf eingehen und proaktiv auf diese Probleme eingehen
 - "Produktrisiko" (ours) versus "Projektrisiko" (eher Projektleiter)
 
 - nicht nur Aufnahme von mögliichen Bedenken im Team: auch ein Kommunikationswerkzeug
@@ -638,7 +638,7 @@ Warum als Architekt damit auseinandersetzen?
 Was sind Risiken?
 ![](Day3_risk.png)
 - Risikoanalyse sollte nicht nur einmal, sondern grundsätzlich regelmäßig, iterativ im Projekt durchgeführt werden
-- mesit in Zusammenarbeit mit dem Projektleiter
+- meist in Zusammenarbeit mit dem Projektleiter
 
 Zyklus:
 - Risikoidentifikation: Abholen/Brainstorming, Tür weit öffnen, so dass jeder im Team die Bedenken äußern kann: Liste wird größer
@@ -673,7 +673,7 @@ Techniken zur Identifikation:
 - Diskussionsgrundlage und Dokumentation, schafft Transparenz, gewisser Schutz (nachträglich eine Risikoliste haben und aus Kostengründen nicht umgesetzt)
 - nicht vergessen: Risiken - nicht Probleme; also diese Tabelle nicht auf Basis von Bugreports erstellen!
 
-- Entscheidungen: gute Gründe für schnelle (unabhängige) Entscheidungen und langsamere; bei manchen sind die Auswirkungen geringe
+- Entscheidungen: gute Gründe für schnelle (unabhängige) Entscheidungen und langsamere; bei manchen sind die Auswirkungen gering
 - sonst hohe Kosten bei Zeitverlust, sonst laufen die Kosten aus dem Ruder
 - wie dokumentiert man seine Entscheidungen?
 ![](Day3_arc42.png)
@@ -760,7 +760,7 @@ Bekommt man für eine faule Banane ein ISO9000 Zertifikat bekommt?
 [check this] Robert C. Martin - clean architecture (als Buch); zweimal empfohlen
 
 - Metrik von Robert C. Martin: Instabilität, Abstraktheit, Distanz
--- Abstraktheit und Instabilität sollen im Maß stehen: "je instabilerr, desto abstrakter"
+-- Abstraktheit und Instabilität sollen im Maß stehen: "je instabiler, desto abstrakter"
 ![](Day3_metrics.png)
 
 Produktqualität: Fehlerhäufung, Fehlercluster; MTBF (mean time between failure); testbasierte Abdeckung
