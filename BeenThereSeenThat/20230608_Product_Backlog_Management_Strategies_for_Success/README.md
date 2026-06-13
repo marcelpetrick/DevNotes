@@ -49,5 +49,5 @@
 ![](img10.png)
 
 ## Open discussion with miro board
-* collection of input with priorization
+* collection of input with prioritization
 ![](img11.png)
