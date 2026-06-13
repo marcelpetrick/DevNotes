@@ -2,7 +2,7 @@
 
 # todays talk: `Dynamic RAG with short-term memory + Detecting AI-Generated Text`
 
-* host: Chris Fegley, Antje Barth
+* host: Chris Fregly, Antje Barth
   * also writing a new book: `generative AI on AWS` - can be preordered as well
 * speakers:
   * Vasily Vasinov
