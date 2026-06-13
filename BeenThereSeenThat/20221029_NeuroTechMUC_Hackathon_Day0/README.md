@@ -83,7 +83,7 @@ Greetings, I am Marcel. I am a software engineer with some experience in C++/Qt/
 * developing hard- and software products for biosignal research
 * mainly: austria: schiedlberg, austria
 * EEG or ECOG (for invasive) interfaces
-* BCI is analysizing the signals
+* BCI is analyzing the signals
 * you always need a task for stimulation for the subject
 * device could be the easiest one your computer
 * FMRI or MEG are skipped for this, because not optimal and slow
