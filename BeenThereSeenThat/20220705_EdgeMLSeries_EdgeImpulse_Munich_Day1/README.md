@@ -54,7 +54,7 @@ ml solutions:
 * 1986 backpropagation applied to neural network
 * 1989 reinforcement learning
 * 1990-2005: support vector machines, random forest algorithm
-* 2005-2021: attempts to ressurrect neural networks with unsupervised pretraining, probabilistic neural nets, alternative learning rules
+* 2005-2021: attempts to resurrect neural networks with unsupervised pretraining, probabilistic neural nets, alternative learning rules
 * 2012: imagenet challenge: classify unseen samples of the same image; alexnet CNN possible due to the advancement in GPU processing
 * 2021-present: more layers, more parameters, lots more computing cycles, a few important tricks that improve training and generalization,
 
