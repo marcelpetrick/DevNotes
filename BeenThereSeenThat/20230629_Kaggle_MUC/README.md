@@ -110,7 +110,7 @@ img04
 * will this stay valid with upcoming models?
   * due to the continued training of models and their fine-tuning they know about those approaches: davinci -2 knew about CoT .. therefore the results became better compared to the initial version
   * why is the code optimization done? (other visitor says that this is a good question): step-by-step approach reveals new data; memorization is not the only cause
-  * "bevharioural science on a model": because analytical approach is a bit grey matter
+  * "behavioural science on a model": because analytical approach is a bit grey matter
   * "how does in-context learning work?" - check for this paper
     * idea is quite similar to back-propagation
 * what happens with slightly wrong intermediate answers? then the LLM can quite good rationalize
