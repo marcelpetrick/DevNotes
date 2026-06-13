@@ -147,7 +147,7 @@ securely deploy with guaranteed highest performance metrics across portfolio
 TODO add image of the slide
 * syNAP Driver Architecture
 * C++ application with 10 lines of code (ok, this has to be proven ..)?
-* trusted execution environment: SyKure Truseted application
+* trusted execution environment: SyKure Trusted application
   * NPU is completely isolated into the secure environment
 * what is heterogenous AI inference?
 
