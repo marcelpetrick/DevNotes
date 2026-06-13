@@ -38,7 +38,7 @@ AGENDA:
   * CF console now supports visualization of stacks in Application Composer
   * CodeBuild now supports custom images (Docker) for Lambda compute - prepopulate for specific tools
   * Now supports GitLab and GitLab Self-Managed
-* BedRock GenAI chatbox blueprint in CodeCatalyst
+* BedRock GenAI chatbot blueprint in CodeCatalyst
 * Introducing AWS CodeConnections, formerly known as AWS CodeStar Connections: CodeStar Connections API will be disabled in April 2025
 * AI/ML:
   * Bedrock now available in Paris
