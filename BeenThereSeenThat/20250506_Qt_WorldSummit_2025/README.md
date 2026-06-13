@@ -28,7 +28,7 @@
 * take the png and also the json as metadata, all the input for the LLM; runs most of the time anthropic 3.7 sonnet
 * defines sliders, switches buttons
 * create a complete project and a software
-* rather convenint starting point forthe experience
+* rather convenient starting point for the experience
 * organize it a bit differently
 * review of code: four eyes principle
 * ask another LLM to review the code of the other model: deepseek-version 3, friend from china to review the code
