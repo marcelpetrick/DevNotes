@@ -131,7 +131,7 @@ A:
 ```
 ```
 Q:
-    in devictree - which meaning has the @xxx. Is that some address? Is this a parameter to the driver? 
+    in devicetree - which meaning has the @xxx. Is that some address? Is this a parameter to the driver? 
 A:
     In the nodes it is a unique identifier for that node. It's not actually the address or parameter at that stage. The correct way to specify the address used by the device is through the 'reg = ' property within the node. It's common practice to use this address as the unique identifier in the node name.
 ```
