@@ -74,7 +74,7 @@ copied from the Q&A
 ----
 Do you see in potential in NLP wit GNNs?
 
-GNN archtectures have been used for text classification and language translation. These are smaller models than the ChatGPT architectures we're discussing at the moment. So, perhaps an oppo for GNN models running on edge processing for narrow tasks.
+GNN architectures have been used for text classification and language translation. These are smaller models than the ChatGPT architectures we're discussing at the moment. So, perhaps an oppo for GNN models running on edge processing for narrow tasks.
 
 What do you recommend would be a good framework to connect multiple LLMS over HTML 5 Web App
 
