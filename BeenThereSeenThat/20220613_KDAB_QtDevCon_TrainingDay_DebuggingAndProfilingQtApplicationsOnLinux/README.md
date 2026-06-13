@@ -78,12 +78,12 @@
 * he does a replay and the "reverse-next" to see that the index is 1032; but it should be a maximum of 1000.
   * so where is the m_values buffer created? hardware watchpoint (!) -> he finds the location this buffer is initialized; but just with length 1000!
   * creating "checkpoints" to jump between different locations
-* "so it is less code, so it is already better y defininition"
+* "so it is less code, so it is already better by definition"
 * replaced then the raw buffer with a std::vector
 * also replaced the index access with at()
 * rr record to capture flaky behaviour -> with an assertion; the "awatch workerthreadhasstarted" (not a typo)
 * go back in time in case of an assertion! was ist set properly, what is the value, see the code (computation bug)
-* "info locals" - no symbol table in case of stripped exectuable
+* "info locals" - no symbol table in case of stripped executable
 * KDAB uses docker to run CI, not virtualized
 * a trace/recording is completely self-contained; no more syscalls, no network access, no rendering
 * toolset:
@@ -136,12 +136,12 @@
   * not the gpu or cpu too slow, but the memory bus is too slow, so the whole machine slows down
   * reduce overdrawing to increase performance
   * put a clear color as background-item instead of using the background-color of the root-node
-* batching view: why important? gpu just same freqneuncy like the cpu, gpu is only fast when you can do lots of things in parellel; just works if there is not lots of clipping
+* batching view: why important? gpu just same frequency like the cpu, gpu is only fast when you can do lots of things in parallel; just works if there is not lots of clipping
   * with enabled clipping view now everything is reddish: this is a red flag; batching view shows everything colorful; so the gpu is not properly utilitzed; "clip: true" means that you don't want to clip manually properly
   * try to get rid of the "red" by checking which is most heavy; unclear if this is always a proper "low hanging fruit" and has any impact
 * openGL frame debugger would help to see the paint calls: renderdoc (official tool) <- check this
 * so GR is helpful for live-prototyping and adjusting measurements; but developer has to transfer the changes
-* RMB on qml-item can open the respective file for easier editing (`go to creation`); only works if qml is integrated as ressources
+* RMB on qml-item can open the respective file for easier editing (`go to creation`); only works if qml is integrated as resources
 * can you run it in a container: yes, should be relatively painless
 
 ## Sanitizers
@@ -271,21 +271,21 @@
 #### hotspot: off-cpu profiling
 * use hotspot for parameterization and also the perf.sh; compression is really important
 * `lstopo`for some hardware-overview of the cpu
-* are this many threads for this machine good? no, mostly 16 threads should be the maximum; suffering from overcommit (try to use more ressources than are there)
+* are this many threads for this machine good? no, mostly 16 threads should be the maximum; suffering from overcommit (try to use more resources than are there)
 * other problem: worker starvation and lock contention
 * lock contention could be found in mandelbrot:124 via hotspot
 * page fault: getting data into the application space: at first time use the qtcore (for instance) has to be loaded into the address space; but done lazily via memory map. just done at first access it is done via page fault; within that period you will be switched out, then switched in when it is there
 * pagefaults are a reason why a boot process takes much time to load
-* moving the mutext inside the loop should  decrease the period of locked mutex
-* "lost events": means that the perf-subsystem was not capable to write all data to disk which was needed; perf drops them to avoid skweing the measurement
+* moving the mutex inside the loop should decrease the period of locked mutex
+* "lost events": means that the perf-subsystem was not capable to write all data to disk which was needed; perf drops them to avoid skewing the measurement
 * use the global qthreadpool instead of a custom made one
 * automotive projects are awesome: actor-pattern is best thing since sliced bread; but 1 thread has already 1 megabyte of stack space! not good on a system with 2 gibyte RAM
 * avoiding recording-loss can be done by setting perf to one core, and the rest of the cores for the app; but grain of salt: once there is loss, then the measured times can be very misleading
 * M. Wolff is also responsible for parts of hotspot
 * std::atomic allows to get rid of the mutex
 * qwaitcondition: appears now between the number crunching, this means worker starvation!
-* but is also because of the 5 runs: amdahl's law? for a codebase the parallization just reduces the time for the parallelizeable sections and the linear parts start to dominate
-* after also paralelizing the runtime goes down to 0.6s; applied this as well to the secondPassMandelbrot
+* but is also because of the 5 runs: amdahl's law? for a codebase the parallelization just reduces the time for the parallelizable sections and the linear parts start to dominate
+* after also parallelizing the runtime goes down to 0.6s; applied this as well to the secondPassMandelbrot
   * now the end-result has also nicely packed dense blocks
 
 ## heaptrack
