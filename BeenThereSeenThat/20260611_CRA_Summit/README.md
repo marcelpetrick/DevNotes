@@ -1,6 +1,91 @@
 # 20260611 CRA Summit - NXP & Toradex in Munich
-* 09:00 to 18:00
-* TODO add the agenda from OCR-ed image
+* 09:00 to 17:30
+
+## Agenda
+```text
+Navigate The EU Cyber Resilience Act With Confidence
+The EU Cyber Resilience Act (CRA) is redefining the rules for device manufacturers - and non-compliance is no longer an option.
+Products that fail to meet CRA standards risk losing their CE certification, effectively closing the door to the entire EU market.
+To help you navigate these changes, the Torizon CRA Summit cuts through the noise. You’ll get a clear understanding of what the CRA requires from you and how to meet those requirements in practice.
+This exclusive, by-invitation-only, one-day summit - hosted by Toradex and NXP - is your opportunity to engage with industry leaders, security architects, and technical innovators.
+Together, we’ll explore practical, real-world approaches for building CRA-compliant, secure, and market-ready embedded systems.
+Who Should Attend
+
+    CTOs
+    Security Compliance Officers
+    Technology Leaders and Product Managers
+
+What You’ll Take Away
+
+    How CRA will impact your business model, roadmap, and supply chain
+    Practical tips on how to comply, while reducing risk, and effort
+    Talk in-person with EU CRA experts, industry leaders, and security experts
+
+09:00 - 09:30
+Registration and Networking
+09:30 - 09:45
+Opening Remarks and Introduction
+Daniel Lang | GM and Vice President
+Torizon
+09:45 - 10:15
+Keynote: What should I do to be CRA-compliant?
+David Osterberger | OT Security | Business Unit Cybersecurity Services
+TÜV SÜD
+10:15 - 10:30
+Coffee Break and Networking
+10:30 - 11.00
+Keynote: Navigating CRA for Strategic Resilience
+Jon Oster | Principal Product Security Architect
+Torizon
+11:00 - 11.15
+Customer Spotlight
+Dimitri Philippe | CEO
+BE.services
+11:15 - 11:45
+Product Liability meets the CRA
+Amelia Alder | CoC Product Security | Cybersecurity GRC Manager, R/IMS
+KNORR-BREMSE Systeme für Schienenfahrzeuge
+11:45 - 12:30
+Industry Panel: Incident Response under CRA
+NXP TÜV SÜDProduct Security Guru
+12:30 - 13:40
+Lunch: Connect With Experts
+13:40 - 13:45
+Afternoon Kickoff
+13:45 - 14:15
+How NXP Hardware Security Features Make CRA Compliance Easier
+Jenirathese Nadar | Technical System Sales Lead - Security
+NXP
+14:15 - 15:00
+Beyond the Myths: The Real Obstacles in CRA Compliance
+Piet De Vaere | Product Security Consultant | Computer Scientist
+Product Security Guru
+15:00 - 15:15
+Coffee Break and Networking
+15:15 - 15:45
+Risk Assessment of Essential Product Requirements by Example
+Burkhard Stubert | Solopreneur and Chief Architect
+Small Step Systems
+15:45 - 16:30
+Keynote: Build vs. Buy under CRA
+Jon Oster | Principal Product Security Architect
+Torizon
+16:30 - 17:15
+Fireside Panel: Open Source Proprietary Software and Risk under the CRA
+Security Pattern Small Step Systems Product Security Guru KNORR-BREMSE Systeme für Schienenfahrzeuge
+17:15 - 17:30
+Closing Remarks
+Daniel Lang | GM and Vice President
+Torizon
+17.30 onwards
+One-on-One Sessions
+Apéro and Networking
+Why This Event Is Different
+Actionable CRA
+Compliance Roadmaps
+Strategic Perspectives for Executives
+Industry-Leading Voices
+```
 
 * ~100 participants in the Bürgerbräukeller
 
