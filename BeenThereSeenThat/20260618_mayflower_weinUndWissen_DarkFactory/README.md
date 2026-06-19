@@ -51,109 +51,156 @@ Der Vorteil für Unternehmen: ein realistischer Blick auf das, was 2026 in agent
 
 -----
 
-## Dark factories
+## Vortrag von Björn Schotte - Dark factories
 
-nicht komplett dunkel 
+* Nicht komplett dunkel, sondern nach und nach automatisieren
 
-sondern nach und nach autonstisieren
+* Wissensarbeit 2024: Customer Service, Klarna Service Bot
+* Einige Projekte haben eine vollständige Softwareautomatisierung, keine menschliche Schleife mehr
+* Reward Hacking
+* Compound Errors
+* Input nicht erkannt
+* YOLO-Modus: Vibe Coding, Generator laufen lassen
+* Jetzt: Looping-Modus
+* Verifizierung und Validierung sind essenziell für die Dark Factory
+* Was sind die Ground-Truth-Daten? Es sind keine vorhanden, also synthetisch anreichern
+* So weit automatisieren, dass man den Menschen in der Ausführung nicht mehr braucht
+* Bessere Modelle
+* Aber nicht warten, bis die Modelle perfekt sind
+* Jetzt einsteigen, mit den Risiken leben und so Wettbewerbsvorteile herausholen
+* Langlaufende Prozesse ohne Supervision, die Ziele erreichen, die früher schwierig zu erreichen waren
+* Der Harness ist fast wichtiger als das Modell
+* Claude Code, Hermes oder OpenClaw bilden den flexiblen Rahmen
+* Bash, Python, MCP, Supervisor, Subagents, Dateisystem oder Skills als Standards und Vorgehensweisen
 
-wissensarbeit 2024..customer srvice..klarna service bot
-vollstä fige software Automatisierung habne peojekte..keine menschliche Loop mehr 
-reward Hacking 
-conpoubdnerrors
-input nicht erkannt
-yolo mode..vibe coding..generator laufen lassen. 
-nun jetzt looping mode
-verifiziwren und valifation ist essenziel für die fark factory 
-was sind die hrpund truth daten. nix da. synthrtischban anreichwrn
-so dass man ik vollstäbfiger Automatisierung den menschen nicht mehr braucht
-bessere Modelle
-aber nicht erst warten bis fie mofelle perfekt sinf
-jetzt reingeheb ubf it den risiken leven ubf so wettbewerbdvorteile rausholen
-langlaufende pruzesse phbe dupervidion. ziele errichen, welxhe damals dchwierig zu erreichen waren
-harbesd ist fadt wichtiger als das modell
-claude code oder hermes ofer openclaw wäre dann der flexible Rahmen 
-bash, python, mcp, supervisor dubagentd, dateisStem oder skills als dtabdards und hersngehensweise
-prozess. wie darl factpry aufsetzen?
-dtarte mit dem leichten 
-etwas leicht verifiziwrbar..fehler kann man erkennen
-weiter mit dem schwierigen: unklarer input, rexherxhe uncollständig, fehler meist etwas teurer
-gute use cases: cobtent, kwyword, brief, draft, seo, publish.. verifikstion nachgelagert
-jourbslidmud: earnings data, templste, story
-finabzanalyse: bsp black rock asimsov
-aufit ubf sccoubting: buchhaltubg, steuererköärungen, szenario Modellierungen, trend analyse und Empfehlungen 
-cost of delay. man hst nicjt genug fachkeäfte. kann fort nicht aktiv werden
-was könnnten wir tub
-beispiele:
-* vertrieb, sdr, recherxhe arbeit, kubden akticieren, leadscoribg früher 
-* beratung und Strategie: draft, bewrtzubg, optionen generiern, handlubgsemfephlubgen
-* Vertragsbewertung und recherche: qurllen recherxhe ubd gesetze kommentieren, vorträge analysieren,
-* customer support multinodal
-Vortrag von björn Schotte.
-obot als mcp Gateway 
+### Prozess: Wie setzt man eine Dark Factory auf?
+
+* Mit dem Leichten starten
+* Etwas leicht Verifizierbares, bei dem man Fehler erkennen kann
+* Mit dem Schwierigen weitermachen: unklarer Input, unvollständige Recherche, Fehler meist etwas teurer
+* Gute Use Cases: Content, Keyword, Briefing, Draft, SEO, Veröffentlichung; Verifikation nachgelagert
+* Journalismus: Earnings Data, Template, Story
+* Finanzanalyse: Beispiel BlackRock Asimov
+* Audit und Accounting: Buchhaltung, Steuererklärungen, Szenariomodellierungen, Trendanalysen und Empfehlungen
+* Cost of Delay: Man hat nicht genug Fachkräfte und kann deshalb nicht aktiv werden
+
+* Was könnten wir tun?
+
+* Beispiele:
+
+* Vertrieb, SDR, Recherchearbeit, Kunden aktivieren, Leadscoring früher einsetzen
+* Beratung und Strategie: Draft, Bewertung, Optionen generieren, Handlungsempfehlungen
+* Vertragsbewertung und Recherche: Quellenrecherche, Gesetze kommentieren, Verträge analysieren <-- check: Verträge analysieren
+* Multimodaler Customer Support
+
+* Obot als MCP-Gateway
+
 --------
-wein Einführung weingut Behringer 
----_----
-johann peter hsrtmann nun.
-dw dark favtories
-was geht ubd was geht nicht 
-vom yolo Terminal zur fahrerlosen Fabrik 
-cc und codex laufen im yolo lofus verlässlicj über stubde 
-5 claude codes, wie die parellle lsufen..wenn man fraufschaut, dann nocu bocut fubkel
-wer heitr noch deibe promptd delber erstllt idt dowas von 2025. Steinberger 
-ist das rine dark favtory?
-ben dhaprio. fünf level, spicy sutoconplete, codibg ibtern, pair programmibh level3, menwch als reviewer, mensch als om, dark favtory
-mensch als pm bin ich sktuell. macht requirements..
-öevel 5 wäre fie fark factory..ohne Menschen mit requirements 
-90 prozent hängen bei level 0 bis 2
-bri level 3 wird ed dpannef. aänhluch autobones fahren in dtl
-alled ubter level 5 skalieet nicht 
-l5 bidher nur bei strongdn dokumentiert
-slles fsrubter hat einen menschlichen flachenhals
-do läuft es..review tjerarr. 3 5 terminals parsllel
-anszengnend..kognitiv viel zu viel
-keine zeit das mentale mofel zu erstellen im kopf
-jaftbar zu dein, wenn es günf mal so schnell ist 
-fabrik köuft gerade auf dev laptop
-der laptop als werkststt. firekte Zugriff auf alle fateien ujf keys
-security auf null zurück. noch har kicht erfunden..laptop sichjerit badiert darauf, dass man ihn als mensch nutzt 
-demo1..mAIstack
-copilot kit langchain. jeder kann peogrammiernr jetzt, chatnodus.. bisher aber in zero shot so gut. bis zu50k loc  modell zero shot
-auch business dashboards, etc 
-was braucht eine dark fsctory: kubernets cluster für sandboxes, Orchestrierung und Instrumentierung, Agent harness, verifikation und qualität, dubagentd ab opus 4.6, parallel veeteilen ubd skalieren, man brwucht dann nocj eibe Instrumentierubg der sandboxes..fer agent braucht das auch. 30 40 ubterschiefliche tools. mit prewaeming. agent hsrness. zwei klassrn..langchain open isde. open hermes... sind auf diaöog ausgerichtet. level 4
-inbox für eine loop.. wo man als mensch gebrwucht wird 
-dnspdhottibg Funktionalität im Harness. stoppen ubd fragen..dann wieder weiter
-was mscht der mwnch wirklich? intent..taste.. als mensch deineneigenjeiten bringen, ein bisdchen srchitektur, design, etc. auf dienrrsle welt: nachguxken, ist da etwas konisch? Stichproben auf den code
-mayflower macht das anders. spec kit. vorher in einem document festlegen was man will. widersprüchlicher Unsinn..vollkommen egal wie lange von Superpower fiskutieten läsdt. dpecd notwenfig, nocht hinreichend... noch bicht soweit, dass man es do weit bringt
-wenn man etwas selber ausprobiert eahrscheinlich sehr smart 
-also testdriven ciel besser. test friven lief zu reward hacking. aug jede verdammte art unf weise. 
-contract driven. 2 Parteien valifierung. wirre testfälle nschher erzeugen.
-verifikation schlägt spezifikation.
-whitebox testing auf basis von jsob
-digitale Zwillinge der applikation. endlich gelöst?
-drift auf First decision. erste entwcheidung tradiert
-utility ubf helper classes. semantische Zwillinge. fuplikate detection geht auch bicht
-nsrtin fowler.lki ist ein verstärker
- guten oder schlwchten code verstärkt.
-demo 2: amicable
-publish safely. deploymenz zum kubden..citizien deployment 
-doftware explosion. backhround agenten. sonaecube ubd triple a. 80ürozent coverage. nur noch angriffe..faher nicht mehr öokal ausgühren..slles aktuslidert haben. backgrpund agenten. Produktivität faktor 20..merge agent. 
-dreinstufen im.blixk. amicable als öovable clone..dark wing dog hinter jira. hibt rückgragen als tickets. gibt zerlegungen. hefacht.. Supersmatre idee. pos earen kicht zufrieden..leiber claude code.
-neu maAIavtory. konplette zerlegubg der aufhabe, 
-trotzdem boch milestones. dajer cob den feployments ab unf zu mal eines checken. auch einmal durchklicken.
-digitlser zwilling geht gsnz hut. nimm vorhandene. mofernisierung. aber fie keue wird auch viel müll jaben..das geht sehr gut.
-ki antipattern: 80przebt code in veeifikation schen, nur 20 prozent app code. 
-ausböick 2016 27 reality check. wenn es der nschbar kann, kann dad eine dark factory noch besser.
-50k ooc hut .mit anteioen auch bis 100k zeilrn code. was man hut vertestten kann, geht
-langchain, zwei saas sachen in drei tagen nachgebaut.
-microswrvices. because it fits into a context
-agenten sind schwer und teuer zu managen? dann earte bis ihr von mistarbeitern höet.
-unittest für die metsllteile fes eifellturms. macht niemand
-next. js frontend. datenbank, dann darüber orchesteiet
-anfang python ubf node js. später rust und go.
-progeammierspraxheb sibf wurdt. völlig egal.
 
+## Weineinführung: Weingut Behringer
 
+--------
 
+## Johann-Peter Hartmann: Dark Factories
 
-TODO: make this readable ...
+* Was geht und was geht nicht?
+* Vom YOLO-Terminal zur fahrerlosen Fabrik
+* Claude Code und Codex laufen im YOLO-Modus verlässlich über Stunden
+* Fünf Claude-Code-Instanzen parallel laufen lassen; wenn man darauf schaut, ist das noch nicht wirklich dunkel
+* Wer heute noch seine Prompts selbst erstellt, ist so etwas von 2025 – Steinberger <-- check: Steinberger
+* Ist das eine Dark Factory?
+
+* Dan Shapiro: fünf Level – Spicy Autocomplete, Coding Intern, Pair Programming, Mensch als Reviewer, Mensch als PM, Dark Factory
+* Aktuell bin ich als Mensch der PM und erstelle die Requirements
+* Level 5 wäre die Dark Factory: ohne Menschen in der Ausführung, mit Requirements
+* 90 Prozent hängen bei Level 0 bis 2
+* Bei Level 3 wird es spannend, ähnlich wie beim autonomen Fahren in Deutschland
+* Alles unter Level 5 skaliert nicht
+* Level 5 ist bisher nur bei strongDM dokumentiert
+* Alles darunter hat einen menschlichen Flaschenhals
+* So läuft es: Review-Theater, drei bis fünf Terminals parallel
+* Anstrengend, kognitiv viel zu viel
+* Keine Zeit, ein mentales Modell im Kopf zu erstellen
+* Nicht handhabbar, wenn es fünfmal so schnell ist <-- check: Nicht handhabbar
+* Die Fabrik läuft gerade auf dem Dev-Laptop
+* Der Laptop als Werkstatt: direkter Zugriff auf alle Dateien und Keys
+* Security auf null zurückgesetzt; dafür wurde noch nichts erfunden. Laptop-Sicherheit basiert darauf, dass ein Mensch ihn nutzt
+
+### Demo 1: mAIstack
+
+* CopilotKit, LangChain: Jeder kann jetzt programmieren, Chatmodus. Bisher aber im Zero-Shot-Verfahren so gut: bis zu 50k LOC, Modell Zero Shot
+* Auch Business-Dashboards et cetera
+
+* Was braucht eine Dark Factory? Kubernetes-Cluster für Sandboxes, Orchestrierung und Instrumentierung, Agent Harness, Verifikation und Qualität, Subagents ab Opus 4.6, paralleles Verteilen und Skalieren
+* Man braucht außerdem eine Instrumentierung der Sandboxes; der Agent braucht das ebenfalls
+* 30 bis 40 unterschiedliche Tools mit Prewarming
+* Agent Harness: zwei Klassen – LangChain/OpenAI SDK und OpenHermes <-- check: LangChain/OpenAI SDK und OpenHermes
+* Sie sind auf Dialog ausgerichtet: Level 4
+* Inbox für eine Schleife, in der man als Mensch gebraucht wird
+* Snapshotting-Funktionalität im Harness: stoppen und fragen, dann wieder fortsetzen
+
+* Was macht der Mensch wirklich? Intent, Taste, die eigenen Eigenheiten als Mensch einbringen, ein bisschen Architektur, Design et cetera
+* Auf die reale Welt schauen: Ist da etwas komisch?
+* Stichproben im Code
+
+* Mayflower macht das anders: Spec Kit
+* Vorher in einem Dokument festlegen, was man will
+* Widersprüchlicher Unsinn bleibt widersprüchlicher Unsinn, vollkommen egal, wie lange man Superpowers diskutieren lässt <-- check: Superpowers
+* Specs sind notwendig, aber nicht hinreichend
+* Wir sind noch nicht so weit, dass man es allein damit ans Ziel bringt
+* Wenn man etwas selbst ausprobiert, ist das wahrscheinlich sehr smart
+
+* Also ist Test-driven viel besser
+* Test-driven führte zu Reward Hacking, auf jede verdammte Art und Weise
+* Contract-driven: Validierung durch zwei Parteien, anschließend wirre Testfälle erzeugen <-- check: anschließend wirre Testfälle erzeugen
+* Verifikation schlägt Spezifikation
+* Whitebox Testing auf Basis von JSON
+* Digitale Zwillinge der Applikation: endlich gelöst?
+* Drift ab der ersten Entscheidung: Die erste Entscheidung wird tradiert
+* Utility- und Helper-Klassen, semantische Zwillinge; Duplicate Detection funktioniert ebenfalls nicht
+
+* Martin Fowler: KI ist ein Verstärker
+* Sie verstärkt guten oder schlechten Code
+
+### Demo 2: Amicable
+
+* Publish safely: Deployment zum Kunden, Citizen Deployment
+* Softwareexplosion, Background Agents, SonarQube und Triple A <-- check: Triple A
+* 80 Prozent Coverage
+* Nur noch Angriffe; daher nicht mehr lokal ausführen und alles aktuell halten <-- check: Nur noch Angriffe
+* Background Agents, Produktivitätsfaktor 20, Merge Agent
+
+* Drei Stufen im Blick
+* Amicable als Lovable-Clone
+* Darkwing Duck hinter Jira: stellt Rückfragen als Tickets und zerlegt Aufgaben
+* Gedacht als supersmarte Idee
+* Die POs waren nicht zufrieden, lieber Claude Code
+
+* Neu: mAIfactory
+* Komplette Zerlegung der Aufgabe
+* Trotzdem noch Milestones, daher von den Deployments ab und zu eines prüfen und einmal durchklicken
+* Der digitale Zwilling funktioniert ganz gut
+* Vorhandene Anwendungen für die Modernisierung verwenden
+* Die neue Anwendung wird aber ebenfalls viel Müll enthalten; trotzdem funktioniert das sehr gut
+* KI-Antipattern: 80 Prozent des Codes stecken in der Verifikation, nur 20 Prozent im Anwendungscode
+
+* Ausblick 2026/27, Reality Check: Wenn es der Nachbar kann, kann es eine Dark Factory noch besser
+* 50k LOC funktionieren gut, mit Agenten auch bis zu 100k Codezeilen <-- check: mit Agenten
+* Was man gut testen kann, geht
+* LangChain und zwei SaaS-Anwendungen in drei Tagen nachgebaut
+* Microservices, because it fits into a context
+* Agenten sind schwer und teuer zu managen? Dann wartet, bis ihr von Mitarbeitern hört
+* Unit Tests für die einzelnen Metallteile des Eiffelturms macht niemand - Gesamtprodukt muss stabil sein
+* Next.js-Frontend, Datenbank, dann darüber orchestriert
+* Am Anfang Python und Node.js, später Rust und Go
+* Programmiersprachen sind wurscht, völlig egal
+
+----
+
+## self added: Quellen
+
+* [Mayflower: Wein & Wissen – Dark Software Factory München](https://mayflower.de/wein-und-wissen/wein-wissen-dark-software-factory-muc/)
+* [Dan Shapiro: The Five Levels – From Spicy Autocomplete to the Dark Factory](https://www.danshapiro.com/blog/2026/01/the-five-levels-from-spicy-autocomplete-to-the-software-factory/)
+* [Dan Shapiro: You Don't Write the Code. You Don't Read the Code Either](https://www.danshapiro.com/blog/2026/02/you-dont-write-the-code/)
+* [Martin Fowler: Fragments](https://martinfowler.com/fragments/)
+* [Financial Advisor: BlackRock Has Built an AI Analyst, Asimov, to Scan Filings](https://www.fa-mag.com/news/blackrock-has-built-an-ai-analyst---asimov---to-scan-filings-82891.html)
