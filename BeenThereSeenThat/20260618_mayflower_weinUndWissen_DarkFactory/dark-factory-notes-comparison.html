@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dark Factory Event Notes — Executive Comparison</title>
+  <style>
+    @page { size: A4 landscape; margin: 0; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #edf2f7;
+      font-family: "Noto Sans", "DejaVu Sans", sans-serif;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      width: 297mm;
+      height: 210mm;
+      padding: 14mm 16mm 11mm;
+      position: relative;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 88% 5%, rgba(70, 211, 165, .18), transparent 27%),
+        radial-gradient(circle at 4% 95%, rgba(102, 126, 234, .17), transparent 30%),
+        #0b1020;
+    }
+    .eyebrow {
+      color: #64d7b2;
+      font-size: 9pt;
+      font-weight: 700;
+      letter-spacing: 1.8px;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 2mm 0 1mm;
+      max-width: 184mm;
+      font-size: 24pt;
+      line-height: 1.05;
+      letter-spacing: -.7px;
+    }
+    .subtitle {
+      margin: 0;
+      color: #aab5c8;
+      font-size: 11pt;
+    }
+    .verdict {
+      position: absolute;
+      right: 16mm;
+      top: 14mm;
+      width: 76mm;
+      padding: 5mm 6mm;
+      border: 1px solid rgba(100, 215, 178, .38);
+      border-radius: 4mm;
+      background: rgba(16, 31, 48, .82);
+    }
+    .verdict-label {
+      color: #64d7b2;
+      font-size: 8pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .verdict strong {
+      display: block;
+      margin-top: 1.5mm;
+      font-size: 13pt;
+      line-height: 1.25;
+    }
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 4mm;
+      margin-top: 10mm;
+    }
+    .metric {
+      min-height: 31mm;
+      padding: 4.5mm 5mm;
+      border: 1px solid rgba(255,255,255,.1);
+      border-radius: 3.5mm;
+      background: rgba(255,255,255,.045);
+    }
+    .metric .label {
+      color: #aab5c8;
+      font-size: 8.5pt;
+      text-transform: uppercase;
+      letter-spacing: .7px;
+    }
+    .metric .numbers {
+      margin-top: 2mm;
+      font-size: 20pt;
+      font-weight: 800;
+      line-height: 1;
+    }
+    .before { color: #ff8f8f; }
+    .after { color: #64d7b2; }
+    .arrow { color: #758198; padding: 0 2mm; }
+    .metric .detail {
+      margin-top: 2mm;
+      color: #c8d1df;
+      font-size: 8.5pt;
+    }
+    .main {
+      display: grid;
+      grid-template-columns: 1.03fr .97fr;
+      gap: 5mm;
+      margin-top: 5mm;
+    }
+    .panel {
+      height: 91mm;
+      padding: 5mm 5.5mm;
+      border-radius: 4mm;
+      background: rgba(255,255,255,.045);
+      border: 1px solid rgba(255,255,255,.1);
+    }
+    .panel h2 {
+      margin: 0 0 3.5mm;
+      font-size: 13pt;
+    }
+    .compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4mm;
+    }
+    .state {
+      padding: 4mm;
+      border-radius: 3mm;
+      height: 69mm;
+    }
+    .state.raw {
+      background: rgba(255, 98, 98, .075);
+      border: 1px solid rgba(255, 143, 143, .2);
+    }
+    .state.ready {
+      background: rgba(70, 211, 165, .075);
+      border: 1px solid rgba(100, 215, 178, .24);
+    }
+    .state-title {
+      font-size: 10pt;
+      font-weight: 800;
+      margin-bottom: 3mm;
+    }
+    ul {
+      margin: 0;
+      padding-left: 5mm;
+    }
+    li {
+      margin: 0 0 1.6mm;
+      color: #d8dfeb;
+      font-size: 8.2pt;
+      line-height: 1.23;
+    }
+    .impact-row {
+      display: grid;
+      grid-template-columns: 8mm 1fr;
+      gap: 2.5mm;
+      margin-bottom: 3.1mm;
+    }
+    .impact-icon {
+      width: 7mm;
+      height: 7mm;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2mm;
+      background: rgba(100, 215, 178, .13);
+      color: #64d7b2;
+      font-weight: 800;
+      font-size: 9pt;
+    }
+    .impact-row strong {
+      display: block;
+      font-size: 9.5pt;
+      margin-bottom: .6mm;
+    }
+    .impact-row span {
+      display: block;
+      color: #b8c2d2;
+      font-size: 8.5pt;
+      line-height: 1.25;
+    }
+    .footer {
+      position: absolute;
+      left: 16mm;
+      right: 16mm;
+      bottom: 6mm;
+      display: flex;
+      justify-content: space-between;
+      color: #7f8ba1;
+      font-size: 7.3pt;
+    }
+    .footer strong { color: #aeb8c9; }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="eyebrow">Executive one-pager · Documentation quality</div>
+    <h1>Dark Factory event notes: raw capture → usable brief</h1>
+    <p class="subtitle">Mayflower “Wein &amp; Wissen”, 18 June 2026 · Git revisions 3da6e26 and 40343a8</p>
+
+    <aside class="verdict">
+      <div class="verdict-label">Executive verdict</div>
+      <strong>The content is now navigable, reviewable and source-backed—without hiding uncertainty</strong>
+    </aside>
+
+    <section class="metrics">
+      <article class="metric">
+        <div class="label">Scannable content</div>
+        <div class="numbers"><span class="before">4.2%</span><span class="arrow">→</span><span class="after">100%</span></div>
+        <div class="detail">4 of 96 → 114 of 114 content lines formatted as bullets</div>
+      </article>
+      <article class="metric">
+        <div class="label">Section navigation</div>
+        <div class="numbers"><span class="before">1</span><span class="arrow">→</span><span class="after">7</span></div>
+        <div class="detail">Clear hierarchy for process, speakers, demos and sources</div>
+      </article>
+      <article class="metric">
+        <div class="label">Traceable sources</div>
+        <div class="numbers"><span class="before">0</span><span class="arrow">→</span><span class="after">5</span></div>
+        <div class="detail">Event, maturity model, implementation and industry references</div>
+      </article>
+      <article class="metric">
+        <div class="label">Visible uncertainties</div>
+        <div class="numbers"><span class="before">0</span><span class="arrow">→</span><span class="after">9</span></div>
+        <div class="detail">Questionable reconstructions explicitly marked for human review</div>
+      </article>
+    </section>
+
+    <section class="main">
+      <article class="panel">
+        <h2>State comparison</h2>
+        <div class="compare">
+          <div class="state raw">
+            <div class="state-title before">BEFORE · Raw field notes</div>
+            <ul>
+              <li>Dense smartphone transcription with extensive keyboard-adjacent typos</li>
+              <li>92 unbulleted content lines and only one heading</li>
+              <li>Speaker transitions and demo boundaries were difficult to identify</li>
+              <li>Ambiguous wording was mixed with factual statements</li>
+              <li>No supporting links for claims, products or frameworks</li>
+            </ul>
+          </div>
+          <div class="state ready">
+            <div class="state-title after">AFTER · Structured briefing asset</div>
+            <ul>
+              <li>Corrected German and normalized technical terminology</li>
+              <li>Every content line is directly scannable as a top-level bullet</li>
+              <li>Talks, process guidance, demos and sources have clear headings</li>
+              <li>Nine uncertain passages remain visible for accountable review</li>
+              <li>Five external references support follow-up and verification</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article class="panel">
+        <h2>Business impact</h2>
+        <div class="impact-row">
+          <div class="impact-icon">1</div>
+          <div><strong>Faster executive consumption</strong><span>The document supports skimming by topic instead of reconstructing the talk from phonetic fragments</span></div>
+        </div>
+        <div class="impact-row">
+          <div class="impact-icon">2</div>
+          <div><strong>Lower interpretation risk</strong><span>Uncertain names, tools and phrases are flagged rather than converted into unqualified assertions</span></div>
+        </div>
+        <div class="impact-row">
+          <div class="impact-icon">3</div>
+          <div><strong>Better organizational reuse</strong><span>Structured notes can feed internal briefings, decision logs, research follow-ups and future event reports</span></div>
+        </div>
+        <div class="impact-row">
+          <div class="impact-icon">4</div>
+          <div><strong>Clear next action</strong><span>Resolve the nine “check” markers with the speakers or recordings before publishing externally</span></div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <span><strong>Method:</strong> deterministic counts from the notes section only; unchanged event copy excluded</span>
+      <span>Prepared 19 June 2026 · Repository working copy</span>
+    </footer>
+  </main>
+</body>
+</html>
