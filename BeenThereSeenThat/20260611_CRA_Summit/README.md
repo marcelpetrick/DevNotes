@@ -231,16 +231,41 @@ Industry-Leading Voices
 a funnel: all CVE are like 500k -> 2k are applying to your SBOM -> VEX files then shrink it to 50 -> your threat model cuts it down to 10 -> remediate those (mitigate, adapted, mitigate)
 * vulnerability manager with torizon
 * ariana from security pattern; or vulnscout.io from yocto; dependency track; onekey; guac
-* 
-
 
 -------------
 
+# CRA Summit – Key Facts
+
+### Biggest Insights
+
+* **You own the entire product**, including open-source components, libraries, suppliers, and dependencies. Liability cannot simply be outsourced. 
+* **Security is now a lifecycle responsibility.** Shipping is not enough; maintaining and patching products is mandatory. 
+* **CRA is a risk-management framework**, not a checklist. You must assess, document, and justify security decisions. 
+* **Support becomes a product feature.** Security updates are expected for at least 5 years. 
+* **The real challenge is operations:** SBOMs, vulnerability management, OTA updates, monitoring, and incident response. 
+
+### Biggest Risks for Embedded Companies
+
+* No SBOM / software inventory
+* No vulnerability management process
+* No secure update mechanism
+* Unknown risks in third-party software
+* Treating CRA as a legal instead of an engineering problem
+
+### What To Do
+
+1. Build SBOM and dependency visibility.
+2. Establish threat modeling and risk assessments.
+3. Create a secure OTA/update strategy.
+4. Implement vulnerability and incident management.
+5. Document security decisions and keep them under version control.
+
+### My Takeaway
+
+The competitive advantage is no longer **building devices**.
+
+It is **maintaining secure devices for years after shipment.** 
+
+-------------
 
 * challenge: sbom generation for c++ products; cdxgen - works, but reports too many, example stm32 project; then do some curation ... but is this not a source for failure because not fully automatable?
-
-
-* using fable 5 to rename a variable ..
-  * talk about how breaking the flow, like for creating a document is interrupting your work. so even when overkill I sometimes dictate directly to the agent, then tell him to create the document himself. less overhead.
-
-  * ran qwen3.5:3b locally to fix the grammar errors. 270k tokens (8 min with battery saving) later we had a fixed version. good. But one api call for GPT3 three years ago could fix it in seconds .. way less energy consumption
