@@ -1,7 +1,7 @@
-# 20260624 päsentieren wie ein Profi
+# 20260624 Präsentieren wie ein Profi - Silvia Pitz - BVMW
 
 ```text
- Präsentieren wie ein Profi
+Präsentieren wie ein Profi
 Gute Ideen haben viele - überzeugend präsentieren können deutlich weniger
 Mittwoch, 24. Juni 2026 von 11:30 - 12:15 Uhr
 Zoom
@@ -54,43 +54,47 @@ In ihren Trainings und Coachings arbeitet sie direkt an klaren Botschaften, star
 Nach einem interessanten Impuls von 30 Minuten steht Ihnen die Referentin weitere 15 Minuten für Ihre Fragen zur Verfügung. 
 ```
 
+-----
+
 * Silvia Pitz als Vortragende
-* wie viele der Vorträge snd stimulierend? von 70% bis 10% ... 
-* Angeda: Sprechunarten, Textwüsten, Einchläfer, ohne start und ziel, Fach-sprech-kauderwesch
-TODO enter the first screenshot
-* Silvia seit 25 Jahren im Job, mehr als 6k h vor der Kamera - auch mit Podcast, 73te Folge; professionelle Kommunikation in Krisenzeiten
+* Wie viele Vorträge sind stimulierend? Von 70 % bis 10 % ...
+* Agenda: Sprechunarten, Textwüsten, Einschläfer, ohne Start und Ziel, Fachsprechkauderwelsch
+![](img00.png)
+* Silvia seit 25 Jahren im Job, mehr als 6.000 Stunden vor der Kamera – auch mit Podcast, 73. Folge; professionelle Kommunikation in Krisenzeiten
 
-## Enen positiven ersten Eindruck schaffen
-* Haltbung bewahren!
-*unterwürfig und dominant; kopf gerade heisst dominant, schräg ist unterwürfig! ich biete halsschalgader an, du kannst mich unterwerfen; daher gerade Haltung!
-* in einer Leaderfunktion sein
-* nicht hinter Pult oder Laptop verstecken, Techniker freundlich fragen zwecks Monitor
+## Einen positiven ersten Eindruck schaffen
+* Haltung bewahren!
+  * Unterwürfig und dominant; Kopf gerade heißt dominant, schräg ist unterwürfig! Ich biete die Halsschlagader an, du kannst mich unterwerfen; daher gerade Haltung!
+* In einer Leaderfunktion sein
+* Nicht hinter Pult oder Laptop verstecken, Techniker freundlich wegen eines Monitors fragen
+![](img01.png)
 
-## 1. Fail - Sprechunarten
-* häufige Ähs und Ems, Modewörter, Lieblingsworter wie "sozusagen", "tatsächlich", "letzendlich" - auch ablenkend, wei die Leute dishc darauf fokussieren, Botschaft geht verloren
-  * gnadenlos abschaffen
-* selber eaufnehen wenn man einen Vortrag hält; bewusst machen, sich selbst aufnehmen, feedback von freund und freundin und kolleging, nur wenn man feedback kultur etabliert hat
-  * schnell lösbar it Coach
+## 1. Fail – Sprechunarten
+* Häufige Ähs und Ems, Modewörter, Lieblingswörter wie „sozusagen“, „tatsächlich“, „letztendlich“ – auch ablenkend, weil die Leute sich darauf fokussieren, die Botschaft geht verloren
+  * Gnadenlos abschaffen
+* Sich selbst aufnehmen, wenn man einen Vortrag hält; bewusst machen, sich selbst aufnehmen, Feedback von Freund:innen und Kolleg:innen einholen, nur wenn man eine Feedbackkultur etabliert hat
+  * Schnell lösbar mit Coach
 
-## 2. Fail - Textwüsen
-* viel zu viel Text auf Folien, unübersichtliche Folien; Leute schauen auf Handy
+## 2. Fail – Textwüsten
+* Viel zu viel Text auf Folien, unübersichtliche Folien; Leute schauen aufs Handy
 * Folien radikal vereinfachen
-* bilder & icons statt text
-* exra handouts
-* storytelling
-* weiterbilden (auch bei linkedin learning: interessante Kurse zum thema powerpoint)
+* Bilder & Icons statt Text
+* Extra-Handouts
+* Storytelling
+* Weiterbilden, auch bei LinkedIn Learning: interessante Kurse zum Thema PowerPoint
 
-## 3. Fail - Einschläfer
-* monotone Stimme, kaum Energie, kaum Körpersrapche
- * Erstklässler aus dem Lesebuch
+## 3. Fail – Einschläfer
+* Monotone Stimme, kaum Energie, kaum Körpersprache
+  * Erstklässler aus dem Lesebuch
 * Betonung, Pausen + Blickkontakt, Mimik & Gestik, Volumen, Sprechtempo
-* Erföfnung überaschende aussagen/hook; gute frage; statistik, storytelling
+* Eröffnung: überraschende Aussagen/Hook, gute Frage, Statistik, Storytelling
 * Lampenfieber ade
-  * gehirn überlisten: power posing: hände in die luft, stift in den mund, halten - gehirn denkt wir lächseln
+  * Gehirn überlisten: Power Posing: Hände in die Luft, Stift in den Mund halten – Gehirn denkt, wir lächeln
 * Eröffnung und Abschluss bleiben in Erinnerung
+![](img02.png)
 
-## Fach-sprech-Kaudrwelsch:
-* zu viel bla bla, was die menschen nicht verstehen
-* keine erklärung dazu
-* zu lange sätze
-* leute schalten ab!
+## Fachsprechkauderwelsch
+* Zu viel Bla Bla, was die Menschen nicht verstehen
+* Keine Erklärung dazu
+* Zu lange Sätze
+* Leute schalten ab
