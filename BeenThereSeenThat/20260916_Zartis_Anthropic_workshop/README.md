@@ -71,7 +71,85 @@ https://github.com/marcelpetrick/x-clone-starter/tree/main
   * deplyoy: automate ci/cd, configure environments, manage deployments
   * support and scale: debug errors; large-clerefactor; monitor usage and performance
   
+* how anthropuic uses claude code?
+  * not just for coding; add the screenshot
+  * also for the legal team
+  * pilot, standardise, scale: week 1 to 6; 6-12; quarter two
+    * delivery champions, sptarts spreading
+  * what is possible: stripe 1.300 per week zero hand written
+  * satispay: 75% of engineer adoption within 30 days of rollout
+  * ramp: 80% incident investigation cut by 80%; teams are now ble to query the data warehouse without SQL - natural language
+
+* economics: coster drivers and cost controls
+ * subscription sets; per user, centalised billing, admin controls; preduictable budget
+ + consumption: token based through the anthopic console
+ * what drives the cost? token scalewkit context size times number of tunrs
+ * model choice: sonnet 5 is the default; opus for hard probelsm
+ * effort level (default hight) and extended thinking
+ * parallelism; subagents, agent teams and dynamic workflow multiply usage
+ * auto-mode classifier calls count on entreprsie, api and cloud accounts
+ 
+*  outcomes: baseline first
+  * lead times for changes and PR cycle time
+  * review turnaround per PR
+  * change failure rate and MTTR
+  * time to first merged PR for new joiners
+  * deliver o fommitted roadmap items
   
+* leading indicators: weekly active enginers; from indivudal tool setups to team starndards as code; claude.md, rules, skills and hookes, versined and reviewed like any other code?
+  * manual quality gated: dterministic gates; hooks rn test aand linters before completion; plus atuomated first-pass review
+  * nmove the knowledge from the heads of the eningeers, to skills
+    * risks to manage: over-trust: review stays a human responsibility; prompt injction through web pages and mcp pdata
+    * secretes entering context; runaway cost from parallelism
+    
+* true SOTA agentic models meetthe infite compability: no just for writing code
+* effort level and ultrathink? (TODO check) raises the effort for one single urn@-file mode (to mention); be a s contrained as you want
+* using hooks: to control the agents; to coordinate the deliveries; prevent that the agent goes nbeyong what it should do
+  * claude agent sdk: ultacode - TODO check
+  
+-------------
+### Ultrathink — 5 sentences
+
+1. **Ultrathink** is a one-prompt instruction in Claude Code: putting `ultrathink` anywhere in the prompt asks Claude to reason more deeply for that turn, without changing the session’s configured effort level. ([Claude][1])
+2. Technically, Claude Code adds an in-context instruction; importantly, it **does not change the API effort value**, so think of it as “spend extra attention on this particular problem,” not a new model or permanent mode. ([Claude][1])
+3. For developers, it is most useful for difficult debugging, architecture decisions, subtle concurrency/data issues, migration planning, or reviewing a risky implementation—not routine CRUD, renames, or boilerplate.
+4. The impact is mainly **better reasoning at the expense of additional thinking tokens and latency**, but Anthropic does not publish a universal “X% better/X× more expensive” number because the effect depends heavily on task and model. ([Claude][1])
+5. For a Head of Application Software, a sensible policy is therefore **normal effort for everyday engineering and `ultrathink` selectively for high-consequence decisions**, rather than making maximum reasoning the default.
+
+### Ultracode — 5 sentences
+
+1. **Ultracode is substantially different:** it is a Claude Code orchestration mode that runs the model at `xhigh` effort **and** asks Claude to construct dynamic multi-agent workflows for substantive tasks. ([Claude][1])
+2. You can enable it with `/effort ultracode` or `claude --effort ultracode`, after which Claude may split a problem into parallel research, implementation, verification, and review work instead of having one agent work sequentially. ([Claude][1])
+3. For developers, that can materially improve large refactors, unfamiliar repositories, cross-service changes, migrations, broad test/review work, and problems where several independent investigations are valuable.
+4. Its resource impact can be **much larger than Ultrathink** because you are paying not only for deeper `xhigh` reasoning but potentially for many subagents; Anthropic therefore characterizes `xhigh` as higher-token-spend reasoning and Ultracode as workflow orchestration on top of it, rather than publishing a fixed cost multiplier. ([Claude][1])
+5. For a Head of Application Software, treat Ultracode as an **engineering acceleration mode for complex/high-value work**, with usage and token consumption monitored, rather than enabling it globally for every developer task.
+
+**Shortest distinction:** `ultrathink` = **one problem → one Claude thinks harder**; `ultracode` = **complex problem → Claude thinks hard and can organize multiple agents to solve/verify it**. ([Claude][1])
+
+[1]: https://code.claude.com/docs/en/model-config "Model configuration - Claude Code Docs"
+
+-------------
+* /init for a claude-md; as readme for the coding harness; what are the cdne stanard, codebase documentation
+  * no benchmarks at hand, so maybe do one myself - can also be used to refine an exsting claude.md
+* hierachies of claude.md'S - TODO add screenshot
+  * structure it with subdirectores
+  * system overview, root dir; user/.claude/claude.md; hierarchivcal and updateable nstruction managemnts; quite refined strategy
+  * whole agent has full contetxt subagent has only the context it needs
+  * agents as subdirectory: with sepcialied roles: code-reviewer.md, and researcher.md and writer.md
+  * possible to control the token usage of the subagents: tell them to use lower models; (where to put this) and what, usggest via prompt; also tell this via the primopt how many turns to run; nbut not deterministic: TODO do research, no definitive answer: aso make sure teh subagents shut zup (brief results)
+  
+* skills: create, manage and share skills to extend claudes capbility in claude code; custom slash commnds
+  * skills give an agent: general capabilities claude ist good at out of the box (yet)
+  * claude sues skills when relevant, oryou can invoke them dirctly with /commandName
+  * write your own skill.md
+
+## getting the most out of claude code
++ 
+
+* question: how to measure the impact of changes in claude.md, etc?
+  
+* they will send the slides afterwrds ..
+
 ---- 
 
 ---- 
