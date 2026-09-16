@@ -144,13 +144,31 @@ https://github.com/marcelpetrick/x-clone-starter/tree/main
   * write your own skill.md
 
 ## getting the most out of claude code
-+ 
++ common workflows: explore, plan forncirm, code, commits
+* or with tdd: write tests, commit, code, iterate, commit
+* write code, screehsit result; iterate
+* parallel claude: run miltiple claude code instance smulatenaursly each in its onw termin: each instance works on a seprate task indenepntendy with its own context
+* git worktrees
+* parallel claude versus subagents: parallel claude is competey independente claude code instance
+* plugins: share mcp servers, sills, subagents; and hooks in a single plugin format
+* nstalled via terminal commands -> TODO Entreprise marketplaes; irganizations can create internal and external markeplace to share plugins across teams and customers, 
+* anthrpic academy ... TODO
+
+
+
+
+* TODO hooks for event hamdlers: how to mange several subagents, hand opver work?
 
 * question: how to measure the impact of changes in claude.md, etc?
   
 * they will send the slides afterwrds ..
 
 ---- 
+
+ breaKFAST BREAK AT 1030
+ 
+* matesuz strycharski takes over: the lvie coding session
+* running the stuff shall give us a login prompt in browser: 
 
 ---- 
 
