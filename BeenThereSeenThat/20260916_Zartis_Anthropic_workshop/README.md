@@ -155,8 +155,6 @@ https://github.com/marcelpetrick/x-clone-starter/tree/main
 * anthrpic academy ... TODO
 
 
-
-
 * TODO hooks for event hamdlers: how to mange several subagents, hand opver work?
 
 * question: how to measure the impact of changes in claude.md, etc?
@@ -205,6 +203,18 @@ Backend: yes, everyone uses the same API, and that causes complications
 * product development lifefycle: hooks, to orehcstrate agents: design things first, as concept; hook people together to work as "agents" on  task; personify my hook; 
   * hook organizes the work of the lifecycle?
   * hook triggered - MR reviews? where do they run? overwatch?
+  * agents with limited privileges: hook and guard-rail as second part; to prevent agents from going off-board; 
+* the process is there: peer code review: codex reviews what claude writes
   
+* align teams; much of PR fatiquge, with autoamted reviewing and merging, lots of code change; in the end a human needs to accountable - if 2k LoC then who can do this per hour
+  * open knowledge document formats: gutefrage.net as QA company, what ispaxcheck and revenue; push devs to be smaller entrpenroues. if yo dont trust engineers, the dont trust agents
+  * trunk based development: always devleop on maoin, dedidcated QA pipelines, always push to prod, no PRs; post deplyoment reviews
+  * the business in the beginning has to be clear: from there the dev is fully responsible; until it is done; 
+  * so the engineers must have full context: state the business goals;
+  * gutefrage.net: good exoernece with biger coee bases; dedicated planning befrore doing; good results; but also limited risk - he says
+  
+  
+
+-----
 
 It is important to stay curious. raise questions, search for answers. not a definitive answer.
