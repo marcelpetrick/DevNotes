@@ -171,5 +171,40 @@ https://github.com/marcelpetrick/x-clone-starter/tree/main
 * running the stuff shall give us a login prompt in browser: 
 
 ---- 
+* scoped rules with the path:-prefix - only tirggered when finding matvhing file
+* dont use passwords or credetials with agnetic harneses; even if masked - this results in spillage
+* todo what are all those modes? bypass, plan ode, auto mde, etc?
+
+* so we are listening to amoderator (qute enthusiastic) and watching claude code work. is this a workshop?
+* working through: file:///home/mpetrick/repos/x-clone-starter/workshop.html - pklan mode /section4) last step
+* grilling features: if no answers, then a lot of assumptions are made
+ * but amounts ofr tiny decisions are just automatically answered - but the dev wanted to be questioned
+* /grilling as skill - TODO maybe reasearch a bit and make it an article
+* plan wqith implementation details: and verification steps; use auto mdoe to run it after approval
 
 ---- 
+
+```
+License: none, so not automatically free to share
+- There's no LICENSE file and no license field in package.json. Without a license, the code and workshop.html legally stay with their authors (Zartis, zartis-digital/x-clone-starter). Having access doesn't give you the right to reuse or redistribute them.
+- Your origin points at your own copy, github.com/marcelpetrick/x-clone-starter. If that copy is public, you're already redistributing Zartis's material. You may want to make it private until you've asked.
+- To be sure: ask the Zartis organisers whether the material may be reused internally, and check the event invitation or terms. I can't give you a legal answer.
+
+Backend: yes, everyone uses the same API, and that causes complications
+- src/frontend/.env points everyone at one shared API, https://workshops.zartis.com/x-clone-api. The backend isn't in the repo, so your teammates couldn't run their own.
+- What that means in practice, as we saw today:
+  - Everyone on cluster-test shares likes, retweets and posts. The guide asks for separate accounts for this reason.
+  - Posts can't be deleted, and the API doesn't check image keys. My broken test post stays up for everyone.
+  - Uploaded images go into Zartis's shared storage.
+- Availability is unknown. It's Zartis's server, deployed for this workshop, and nothing says how long it stays online. Teammates using it after the event may find it gone, and would be using a company's infrastructure without permission.
+
+```
+
+* speed over compliance? openai und antrhopic, attacke auf huggingface.
+
+* product development lifefycle: hooks, to orehcstrate agents: design things first, as concept; hook people together to work as "agents" on  task; personify my hook; 
+  * hook organizes the work of the lifecycle?
+  * hook triggered - MR reviews? where do they run? overwatch?
+  
+
+It is important to stay curious. raise questions, search for answers. not a definitive answer.
