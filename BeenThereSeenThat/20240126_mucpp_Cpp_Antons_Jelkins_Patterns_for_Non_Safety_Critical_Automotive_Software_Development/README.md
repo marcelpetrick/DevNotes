@@ -75,7 +75,19 @@ Schedule
 * Threads do not communicate directly
 * Executors represent an event loop of a specific thread: threadsafe way to post tasks to be executed
 * Managing object lifetimes is hard, especially with async systems
-* Execution context similar to the lifetime of various entries
-* Context binds callables (lambda) to the object; the lambda becomes a no-op; this prevents problems
-* Naive approach for callbacks: to use callbacks
-* VIN number: Some car identification <-- check: Clarify meaning or context of 'VIN number' mention
+* An execution context defines the lifetime of asynchronous entities, such as callables and future continuations
+* A context binds callables (such as lambdas) to an object's lifetime. When the context is destroyed, the bound callable becomes a no-op, preventing it from running against an object whose lifetime has ended
+* A naive approach to asynchronous programming is to use callbacks; nested callbacks can make control flow and error handling difficult to follow
+* VIN stands for Vehicle Identification Number: the identifier of an individual vehicle. The extra word "number" in "VIN number" is redundant
+
+### Follow-up clarification: futures and promises
+
+Added while addressing [the presenter's feedback in issue #2](https://github.com/marcelpetrick/DevNotes/issues/2).
+
+* A promise is the producer's handle for completing an asynchronous result with either a value or an exception
+* A future is the consumer's handle for accessing that result through the shared state associated with the promise
+* With standard C++ futures, `get()` waits if the result is not ready, then retrieves the value or rethrows the stored exception. Waiting on an event-loop thread can prevent it from processing other work
+* Frameworks that support future continuations can schedule follow-up work when a result becomes ready, rather than blocking the event loop. Standard `std::future` does not provide a `.then()` continuation API
+* Future continuations, like other callables, need lifetime management: the execution context determines their lifetime, including when the object they would access is destroyed
+
+References: C++ working draft sections on [promises](https://eel.is/c++draft/futures.promise) and [futures](https://eel.is/c++draft/futures.unique.future).
