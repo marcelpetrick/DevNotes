@@ -54,17 +54,17 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 - https://hov.to/b600dadd
 - Speed you can trust, all the way to production
 - Role of AI
-- Code is abundant. The cost of code is approaching zero
+- 𝐂𝐨𝐝𝐞 𝐢𝐬 𝐚𝐛𝐮𝐧𝐝𝐚𝐧𝐭. 𝐓𝐡𝐞 𝐜𝐨𝐬𝐭 𝐨𝐟 𝐜𝐨𝐝𝐞 𝐢𝐬 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡𝐢𝐧𝐠 𝐳𝐞𝐫𝐨
 - The platform as a software factory will create it in minutes
 - How does GitLab support this? Speed and control
-- Shadow IT, formerly. Now: shadow agents
+- Shadow IT, formerly. 𝐍𝐨𝐰: 𝐬𝐡𝐚𝐝𝐨𝐰 𝐚𝐠𝐞𝐧𝐭𝐬
 
 ## Keynote - Code is Abundant, Trust is the Bottleneck
 
 **Speaker:** Tim Zallmann (VP of Engineering, AI, GitLab)
 
-- How does GitLab use AI internally? <-- check: intended meaning
-- Not only a technical but also a cultural transformation
+- How does GitLab use AI internally?
+- 𝐍𝐨𝐭 𝐨𝐧𝐥𝐲 𝐚 𝐭𝐞𝐜𝐡𝐧𝐢𝐜𝐚𝐥 𝐛𝐮𝐭 𝐚𝐥𝐬𝐨 𝐚 𝐜𝐮𝐥𝐭𝐮𝐫𝐚𝐥 𝐭𝐫𝐚𝐧𝐬𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
 - GitLab as the leading platform for agentic software engineering
 - 70M registered users
 - Cloud-neutral, model-neutral, agentic workflows
@@ -72,10 +72,10 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 - Run agentic workflows everywhere
 - Unlock every team to ship trusted software at the speed of imagination
 - From unified DevSecOps to intelligent orchestration to the software factory
-- The rise of the shadow software factory. This is already solved by GitLab: all in one
+- The rise of the 𝐬𝐡𝐚𝐝𝐨𝐰 𝐬𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐟𝐚𝐜𝐭𝐨𝐫𝐲. This is already solved by GitLab: all in one
 - Just at the beginning. Run at machine speed and scale
 - Huge pressure on CI/CD and source code management
-- Limit tokens to specific areas
+- 𝐋𝐢𝐦𝐢𝐭 𝐭𝐨𝐤𝐞𝐧𝐬 𝐭𝐨 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐚𝐫𝐞𝐚𝐬
 - Agents are good at brute-forcing problems, but they put a heavy load on systems
 - AI code review
 - Which agents are available in which spaces?
@@ -84,7 +84,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
     - Watching agents is like babysitting
     - Hand over tasks and let the agent take over
     - As autonomous as possible
-- Automatic triage of bugs
+- 𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜 𝐭𝐫𝐢𝐚𝐠𝐞 𝐨𝐟 𝐛𝐮𝐠𝐬
     - Reproduce them in a VM
     - Automatically check whether the log file entries make sense
     - Assess complexity and production impact
@@ -95,7 +95,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 ### Quality Assurance and Governance
 
 - Another layer of qualification on top of CI/CD
-- Auto-remediation of findings over a couple of rounds
+- 𝐀𝐮𝐭𝐨-𝐫𝐞𝐦𝐞𝐝𝐢𝐚𝐭𝐢𝐨𝐧 𝐨𝐟 𝐟𝐢𝐧𝐝𝐢𝐧𝐠𝐬 𝐨𝐯𝐞𝐫 𝐚 𝐜𝐨𝐮𝐩𝐥𝐞 𝐨𝐟 𝐫𝐨𝐮𝐧𝐝𝐬
 - Goal-driven flows
 - Risk assessment
     - Low risk: auto-merge
@@ -118,13 +118,13 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 
 ### Security and the Governed Software Factory
 
-- GitLab Dependency Firewall
+- 𝐆𝐢𝐭𝐋𝐚𝐛 𝐃𝐞𝐩𝐞𝐧𝐝𝐞𝐧𝐜𝐲 𝐅𝐢𝐫𝐞𝐰𝐚𝐥𝐥
     - Vulnerability severity
     - Malicious package detection
     - License compliance
-- Also new: GitLab Secrets Manager
+- Also new: 𝐆𝐢𝐭𝐋𝐚𝐛 𝐒𝐞𝐜𝐫𝐞𝐭𝐬 𝐌𝐚𝐧𝐚𝐠𝐞𝐫
 - Advanced security flows
-    - Claude Mython 5.1 can be used for security checks <-- check: exact model name and version
+    - 𝐂𝐥𝐚𝐮𝐝𝐞 𝐌𝐲𝐭𝐡𝐨𝐧 𝟓.𝟏 𝐜𝐚𝐧 𝐛𝐞 𝐮𝐬𝐞𝐝 𝐟𝐨𝐫 𝐬𝐞𝐜𝐮𝐫𝐢𝐭𝐲 𝐜𝐡𝐞𝐜𝐤𝐬 - 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐆𝐢𝐭𝐋𝐚𝐛
 - GitLab Security Standard
 - All of this results in a governed software factory
 
@@ -137,11 +137,11 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 - Infineon went through a lot of mergers
     - Many Git integrations and teams
     - Previously, few things were harmonized
-- Harmonization mattered
+- 𝐇𝐚𝐫𝐦𝐨𝐧𝐢𝐳𝐚𝐭𝐢𝐨𝐧 𝐦𝐚𝐭𝐭𝐞𝐫𝐞𝐝
 - What did we learn through the review cycles?
     - Local wikis, also in Git repositories
     - How to version them?
-    - Knowledge management challenges that have to be solved
+    - 𝐊𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐞 𝐦𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐜𝐡𝐚𝐥𝐥𝐞𝐧𝐠𝐞𝐬 𝐭𝐡𝐚𝐭 𝐡𝐚𝐯𝐞 𝐭𝐨 𝐛𝐞 𝐬𝐨𝐥𝐯𝐞𝐝
 - PDK files for describing the specific target
     - Various pipelines for Mac and Linux
     - What is the key ecosystem to build for?
@@ -154,7 +154,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 - 80% of the time is spent waiting for someone else
     - Reduce logistics
 - What can we stop doing altogether?
-- The likelihood that people solve the same problem in parallel is really high
+- 𝐓𝐡𝐞 𝐥𝐢𝐤𝐞𝐥𝐢𝐡𝐨𝐨𝐝 𝐭𝐡𝐚𝐭 𝐩𝐞𝐨𝐩𝐥𝐞 𝐬𝐨𝐥𝐯𝐞 𝐭𝐡𝐞 𝐬𝐚𝐦𝐞 𝐩𝐫𝐨𝐛𝐥𝐞𝐦 𝐢𝐧 𝐩𝐚𝐫𝐚𝐥𝐥𝐞𝐥 𝐢𝐬 𝐫𝐞𝐚𝐥𝐥𝐲 𝐡𝐢𝐠𝐡
     - Even if they are 10x faster, the net progress can be zero
 - How to build incentive structures so that efforts are directed towards a common target
     - Nudge people
@@ -186,27 +186,27 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 - STACKIT as a European hyperscaler
 - The goal was to reduce friction
 - From best of breed to best of suite
-    - Keyword: reduce friction
+    - Keyword: 𝐫𝐞𝐝𝐮𝐜𝐞 𝐟𝐫𝐢𝐜𝐭𝐢𝐨𝐧
     - One step
 
 ### Platform Design and Automation
 
-- Design the structure, then automate it
+- 𝐃𝐞𝐬𝐢𝐠𝐧 𝐭𝐡𝐞 𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞, 𝐭𝐡𝐞𝐧 𝐚𝐮𝐭𝐨𝐦𝐚𝐭𝐞 𝐢𝐭
 - Joiners and leavers
 - Least privilege
 - Full audit trails
-- Guardrails, not gates
+- 𝐆𝐮𝐚𝐫𝐝𝐫𝐚𝐢𝐥𝐬, 𝐧𝐨𝐭 𝐠𝐚𝐭𝐞𝐬
 - Self-service, not tickets
 - Approved models
 - Plan where AI should be used in the process
-- Switch to the golden pipeline template
+- Switch to the 𝐠𝐨𝐥𝐝𝐞𝐧 𝐩𝐢𝐩𝐞𝐥𝐢𝐧𝐞 𝐭𝐞𝐦𝐩𝐥𝐚𝐭𝐞
     - Harmonization
     - Easy to migrate
 - Verify old pipelines that are still delivering software before harmonization
 
 ### Change Management and Adoption
 
-- Recruit early adopters, listen continuously, grow champions!
+- 𝐑𝐞𝐜𝐫𝐮𝐢𝐭 𝐞𝐚𝐫𝐥𝐲 𝐚𝐝𝐨𝐩𝐭𝐞𝐫𝐬, 𝐥𝐢𝐬𝐭𝐞𝐧 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐨𝐮𝐬𝐥𝐲, 𝐠𝐫𝐨𝐰 𝐜𝐡𝐚𝐦𝐩𝐢𝐨𝐧𝐬!
 - People resist change
 - Champions close to the department are respected in a different way
 - Organize hackathons, create nice new badges
@@ -223,7 +223,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 
 ### Budget and Autonomy
 
-- Give teams a budget
+- 𝐆𝐢𝐯𝐞 𝐭𝐞𝐚𝐦𝐬 𝐚 𝐛𝐮𝐝𝐠𝐞𝐭
 - Provide a transparent dashboard
 - Give teams autonomy over how to spend their budgets
 
@@ -281,7 +281,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 
 ### Rethinking ROI and Metrics
 
-- Traditional ROI models and telemetry no longer work
+- 𝐓𝐫𝐚𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐑𝐎𝐈 𝐦𝐨𝐝𝐞𝐥𝐬 𝐚𝐧𝐝 𝐭𝐞𝐥𝐞𝐦𝐞𝐭𝐫𝐲 𝐧𝐨 𝐥𝐨𝐧𝐠𝐞𝐫 𝐰𝐨𝐫𝐤
 - Let go of being overly detailed and precise
 - Metrics like LOC no longer mean much
 - Just ship it
@@ -306,7 +306,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
     - Understand users and customers
     - Distinguish between high-value and low-value tasks
 - Quantify value
-    - Map tasks to business KPIs across the entire SDLC
+    - 𝐌𝐚𝐩 𝐭𝐚𝐬𝐤𝐬 𝐭𝐨 𝐛𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐊𝐏𝐈𝐬 𝐚𝐜𝐫𝐨𝐬𝐬 𝐭𝐡𝐞 𝐞𝐧𝐭𝐢𝐫𝐞 𝐒𝐃𝐋𝐂
 - Establish a baseline and track the value
 
 ### Open Questions
@@ -352,7 +352,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 ### Key Questions
 
 - How exposed are we?
-- Can we modernize or migrate without breaking what runs today?
+- 𝐂𝐚𝐧 𝐰𝐞 𝐦𝐨𝐝𝐞𝐫𝐧𝐢𝐳𝐞 𝐨𝐫 𝐦𝐢𝐠𝐫𝐚𝐭𝐞 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐛𝐫𝐞𝐚𝐤𝐢𝐧𝐠 𝐰𝐡𝐚𝐭 𝐫𝐮𝐧𝐬 𝐭𝐨𝐝𝐚𝐲?
 - What do we lose when people are gone?
 
 ### Permissions and Authorization
@@ -399,7 +399,7 @@ Location: WEITBLICK, Sapporobogen 6-8, 80637 München
 
 ### Documentation and AI-Assisted Contributions
 
-- Projects without code documentation are at risk
+- 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐜𝐨𝐝𝐞 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐫𝐞 𝐚𝐭 𝐫𝐢𝐬𝐤
 - At least create some documentation now so that the next person can work with the code
 - Fix the docs: this unlocks both human and AI contributions
 - With context files in the repository and appropriate prompts, it is possible to handle this within hours
